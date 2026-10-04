@@ -2,6 +2,7 @@ import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
 import { Router, RouterLink } from '@angular/router';
 import Swal from 'sweetalert2';
 
+import { SeoService } from '../../core/seo.service';
 import { ShoppingList } from './shopping.models';
 import { ShoppingStore } from './shopping.store';
 
@@ -14,8 +15,18 @@ import { ShoppingStore } from './shopping.store';
 })
 export class ShoppingListsComponent {
   private readonly router = inject(Router);
+  private readonly seo = inject(SeoService);
   readonly store = inject(ShoppingStore);
   readonly lists = this.store.lists;
+
+  constructor() {
+    this.seo.update({
+      title: 'Lista de compras da Bebel - Organize o mercado sem complicação',
+      description:
+        'Crie suas listas de compras, marque o que já foi para o carrinho e leve ingredientes das receitas da Bebel para o mercado.',
+      path: '/compras',
+    });
+  }
 
   async createList(): Promise<void> {
     const result = await Swal.fire<string>({
