@@ -94,15 +94,21 @@ A Home apresenta uma saudação da Bebel, uma frase de valor e cards de descober
 
 ### Tasks - Front-end
 
-- [ ] Criar o app shell responsivo com conteúdo principal, navegação mobile inferior e navegação desktop lateral.
-- [ ] Configurar a rota inicial e criar a Home standalone da Bebel.
-- [ ] Implementar a identidade visual inicial, responsividade, foco e estados acessíveis sem novas dependências.
-- [ ] Atualizar os testes existentes para refletir a nova fundação e cobrir a renderização básica do shell/Home.
+- [x] Criar o app shell responsivo com conteúdo principal, navegação mobile inferior e navegação desktop lateral.
+  > ✅ 2026-10-04 15:16 — Shell implementado em `src/app/app.html` e `src/app/app.scss`, com bottom navigation abaixo de 52rem e sidebar a partir de 52rem. O conteúdo principal possui espaço inferior no mobile para não ficar encoberto pela navegação.
+- [x] Configurar a rota inicial e criar a Home standalone da Bebel.
+  > ✅ 2026-10-04 15:16 — Rota raiz configurada em `src/app/app.routes.ts` com carregamento lazy da Home standalone em `src/app/modules/home/` e fallback de rota desconhecida para a raiz.
+- [x] Implementar a identidade visual inicial, responsividade, foco e estados acessíveis sem novas dependências.
+  > ✅ 2026-10-04 15:16 — Identidade inicial em roxo/lilás, cards acolhedores, estados `aria-disabled`, `aria-current`, labels acessíveis e foco visível implementados. `src/index.html` também foi ajustado para `pt-BR`, descrição e `theme-color`. Nenhuma dependência foi adicionada.
+- [~] Atualizar os testes existentes para refletir a nova fundação e cobrir a renderização básica do shell/Home.
+  > 🧪 2026-10-04 15:16 — Testes atualizados em `src/app/app.spec.ts` e criado `src/app/modules/home/home.component.spec.ts`. Implementação concluída, mas a execução da suíte ainda não foi confirmada.
 
 ### Tasks - Validação
 
-- [ ] Revisar a implementação contra os critérios de aceite e verificar imports, rotas, responsividade declarada e ausência de features fora do escopo.
-- [ ] Validar build e testes automatizados com `npm run build` e `npm test -- --watch=false` quando houver ambiente de execução disponível.
+- [x] Revisar a implementação contra os critérios de aceite e verificar imports, rotas, responsividade declarada e ausência de features fora do escopo.
+  > ✅ 2026-10-04 15:16 — Revisão estática concluída comparando `main...feat/app-shell-home`: 12 arquivos alterados, sem novas dependências, sem backend/persistência e sem implementação funcional dos módulos futuros. Imports, rota raiz, fallback, estados de navegação e media queries foram inspecionados.
+- [~] Validar build e testes automatizados com `npm run build` e `npm test -- --watch=false` quando houver ambiente de execução disponível.
+  > 🧪 2026-10-04 15:16 — Validação de runtime não executada pelo conector do repositório. Pendente confirmação com `npm run build` e `npm test -- --watch=false`.
 
 ## Riscos
 
