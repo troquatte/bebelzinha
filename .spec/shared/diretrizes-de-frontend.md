@@ -82,12 +82,15 @@ A tipografia textual do app deve seguir uma fonte de verdade global em `src/styl
 
 Padrões globais:
 
-- `h1`, `h2`, `h3`, `h4` e `h5`: `font-weight: 950`;
-- `h1`: escala, altura de linha e espaçamento definidos globalmente;
-- `h2` a `h5`: hierarquia de tamanho e altura de linha definida globalmente;
-- parágrafos `p`: `font-size: 0.875rem` (14px na base de 16px) e `line-height: 110%`.
+- `h1` e `h2`: `font-size: fn.rem-calc(38)`, `line-height: 120%`, `margin: 0` e `font-weight: bold`;
+- `h3`, `h4`, `h5` e `h6`: `font-size: fn.rem-calc(18)`, `line-height: 120%`, `margin: 0` e `font-weight: bold`;
+- parágrafos `p`: `font-size: fn.rem-calc(16)`, `line-height: 120%` e `margin: 0.75rem 0 0`.
 
-Componentes devem herdar essa base. Evitar redefinir `font-size`, `font-weight`, `line-height` ou `letter-spacing` de headings e parágrafos em SCSS local sem uma necessidade visual explícita e documentada.
+Os tamanhos em pixels são convertidos para `rem` por meio do utilitário `rem-calc` já existente no projeto.
+
+Componentes devem herdar essa base. Labels, eyebrows e microcopy que não são parágrafos devem usar elementos adequados, como `span`, em vez de sobrescrever o padrão global de `p`.
+
+Evitar redefinir `font-size`, `font-weight`, `line-height`, `letter-spacing` ou `margin` de headings e parágrafos em SCSS local sem uma necessidade visual explícita e documentada.
 
 Cores, margens e largura podem continuar contextuais. A intenção é manter a mesma linguagem tipográfica em toda a aplicação, sem impedir composição de layout.
 
