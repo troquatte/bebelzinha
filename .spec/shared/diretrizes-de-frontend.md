@@ -85,6 +85,7 @@ O arquivo `src/styles.scss` precisa permanecer carregado pelo Angular em `angula
 Padrões globais:
 
 - `h1` e `h2`: `font-size: fn.rem-calc(38)`, `line-height: 120%`, `margin: 0` e `font-weight: bold`;
+- no mobile até `fn.rem-calc(800)`, `h1` e `h2` usam `font-size: fn.rem-calc(22)`;
 - `h3`, `h4`, `h5` e `h6`: `font-size: fn.rem-calc(18)`, `line-height: 120%`, `margin: 0` e `font-weight: bold`;
 - parágrafos `p`: `font-size: fn.rem-calc(16)`, `line-height: 120%` e `margin: 0.75rem 0 0`.
 
