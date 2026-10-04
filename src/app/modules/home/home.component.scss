@@ -184,19 +184,6 @@
   line-height: 1.5;
 }
 
-.today-card__stamp {
-  display: grid;
-  width: 3rem;
-  height: 3rem;
-  place-items: center;
-  border: 0.14rem solid #fff;
-  border-radius: 50%;
-  color: var(--bebel-primary-strong);
-  background: var(--bebel-primary-soft);
-  font-size: 1rem;
-  font-weight: 950;
-  transform: rotate(7deg);
-}
 
 .home__section {
   margin-top: 2rem;
@@ -241,7 +228,6 @@
 .feature-card {
   position: relative;
   overflow: hidden;
-  min-height: 9.5rem;
   padding: 1rem;
   border: 0.1rem solid rgb(50 28 58 / 8%);
   border-radius: 1.25rem 1.25rem 1.25rem 0.55rem;
@@ -369,8 +355,226 @@
   .feature-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
+}
 
-  .feature-card {
-    min-height: 12rem;
+
+/* Microinterações da Home */
+.hero {
+  animation: home-rise 560ms ease-out both;
+}
+
+.hero__sticker {
+  animation: sticker-settle 620ms 120ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+
+.hero__portrait-wrap {
+  animation: portrait-enter 680ms 160ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+
+.hero__portrait::after {
+  position: absolute;
+  z-index: 3;
+  top: 42.5%;
+  left: 36.5%;
+  width: 10.5%;
+  height: 0.16rem;
+  border-radius: 999px;
+  background: #3d251f;
+  box-shadow: 0 -0.08rem 0 rgb(255 255 255 / 18%);
+  content: '';
+  opacity: 0;
+  transform: rotate(-4deg) scaleX(0.35);
+  transform-origin: center;
+  animation: bebel-wink 6.8s 2s ease-in-out infinite;
+  pointer-events: none;
+}
+
+.hero__speech {
+  animation: speech-float 3.4s ease-in-out infinite;
+}
+
+.hero__spark--one {
+  animation: sparkle 2.5s ease-in-out infinite;
+}
+
+.hero__spark--two {
+  animation: sparkle 2.5s 900ms ease-in-out infinite;
+}
+
+.today-card {
+  animation: home-rise 520ms 120ms ease-out both;
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease;
+}
+
+.today-card:hover {
+  transform: translateY(-0.12rem);
+  box-shadow: 0.34rem 0.4rem 0 var(--bebel-orange);
+}
+
+.today-card__brush {
+  animation: brush-breathe 5s ease-in-out infinite;
+}
+
+.feature-card {
+  animation: home-rise 480ms ease-out both;
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease,
+    border-color 180ms ease;
+}
+
+.feature-card:nth-child(2) {
+  animation-delay: 70ms;
+}
+
+.feature-card:nth-child(3) {
+  animation-delay: 140ms;
+}
+
+.feature-card:hover {
+  transform: translateY(-0.15rem) rotate(-0.2deg);
+  border-color: rgb(111 31 180 / 18%);
+  box-shadow: 0.24rem 0.28rem 0 rgb(50 28 58 / 10%);
+}
+
+.feature-card__status {
+  transition:
+    transform 160ms ease,
+    background 160ms ease;
+}
+
+.feature-card:hover .feature-card__status {
+  transform: translateY(-0.05rem);
+  background: #efe4ef;
+}
+
+.bebel-note {
+  animation: home-rise 500ms 180ms ease-out both;
+  transition:
+    transform 180ms ease,
+    background 180ms ease;
+}
+
+.bebel-note:hover {
+  transform: translateY(-0.1rem);
+  background: rgb(234 210 255 / 52%);
+}
+
+@keyframes home-rise {
+  from {
+    opacity: 0;
+    transform: translateY(0.55rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes sticker-settle {
+  from {
+    opacity: 0;
+    transform: translateY(-0.35rem) rotate(-4deg) scale(0.96);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) rotate(-1.5deg) scale(1);
+  }
+}
+
+@keyframes portrait-enter {
+  from {
+    opacity: 0;
+    transform: translateY(0.8rem) rotate(2deg) scale(0.97);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) rotate(0deg) scale(1);
+  }
+}
+
+@keyframes bebel-wink {
+  0%,
+  44%,
+  50%,
+  100% {
+    opacity: 0;
+    transform: rotate(-4deg) scaleX(0.35);
+  }
+
+  46%,
+  48% {
+    opacity: 0.92;
+    transform: rotate(-4deg) scaleX(1);
+  }
+}
+
+@keyframes speech-float {
+  0%,
+  100% {
+    transform: translateY(0) rotate(2deg);
+  }
+
+  50% {
+    transform: translateY(-0.16rem) rotate(1deg);
+  }
+}
+
+@keyframes sparkle {
+  0%,
+  100% {
+    opacity: 0.55;
+    transform: scale(0.85) rotate(0deg);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.12) rotate(12deg);
+  }
+}
+
+@keyframes brush-breathe {
+  0%,
+  100% {
+    opacity: 0.72;
+    transform: rotate(-6deg) scaleX(1);
+  }
+
+  50% {
+    opacity: 1;
+    transform: rotate(-5deg) scaleX(1.05);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero,
+  .hero__sticker,
+  .hero__portrait-wrap,
+  .hero__portrait::after,
+  .hero__speech,
+  .hero__spark,
+  .today-card,
+  .today-card__brush,
+  .feature-card,
+  .bebel-note {
+    animation: none;
+  }
+
+  .today-card,
+  .feature-card,
+  .feature-card__status,
+  .bebel-note {
+    transition: none;
+  }
+
+  .today-card:hover,
+  .feature-card:hover,
+  .bebel-note:hover {
+    transform: none;
   }
 }
