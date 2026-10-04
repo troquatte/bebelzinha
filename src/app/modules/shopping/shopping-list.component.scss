@@ -39,9 +39,6 @@
 
 .list-header h1 {
   margin: 0;
-  font-size: clamp(2rem, 9vw, 3.6rem);
-  line-height: 0.98;
-  letter-spacing: -0.045em;
 }
 
 .list-header p:last-child {
@@ -221,5 +218,68 @@ a:focus-visible {
     grid-template-columns: minmax(0, 1fr) auto;
     align-items: end;
     padding: 2rem 2.2rem;
+  }
+}
+
+
+.list-header {
+  animation: shopping-detail-rise 500ms ease-out both;
+}
+
+.items-card,
+.empty-state {
+  animation: shopping-detail-rise 480ms 80ms ease-out both;
+}
+
+.shopping-item,
+.primary-button,
+.secondary-button,
+.danger-link {
+  transition:
+    transform 160ms ease,
+    background 160ms ease,
+    box-shadow 160ms ease;
+}
+
+.shopping-item:hover {
+  background: rgb(234 210 255 / 14%);
+}
+
+.primary-button:hover,
+.secondary-button:hover,
+.danger-link:hover {
+  transform: translateY(-0.08rem);
+}
+
+@keyframes shopping-detail-rise {
+  from {
+    opacity: 0;
+    transform: translateY(0.45rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .list-header,
+  .items-card,
+  .empty-state {
+    animation: none;
+  }
+
+  .shopping-item,
+  .primary-button,
+  .secondary-button,
+  .danger-link {
+    transition: none;
+  }
+
+  .primary-button:hover,
+  .secondary-button:hover,
+  .danger-link:hover {
+    transform: none;
   }
 }
