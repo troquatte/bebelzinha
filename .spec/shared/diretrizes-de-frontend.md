@@ -11,7 +11,23 @@ Analise obrigatoriamente:
 3. a spec ativa;
 4. `src/app/`;
 5. `src/scss/`;
-6. os componentes e padrões já existentes.
+6. os componentes e padrões já existentes;
+7. as referências visuais aplicáveis em `.spec/ui-references/`.
+
+## Referências visuais do produto
+
+A pasta `.spec/ui-references/` contém referências oficiais para orientar a personalidade visual da Bebel.
+
+Antes de criar ou reformular uma interface:
+
+- inspecione as referências relevantes;
+- use referências da personagem para manter consistência da Bebel;
+- use referências de tela para extrair composição, ritmo, contraste, hierarquia, formas, cores e sensação de uso;
+- não copie layouts literalmente;
+- adapte os princípios para a necessidade real da Bebel;
+- evite visual genérico de template, dashboard ou interface com aparência de conteúdo gerado automaticamente por IA.
+
+A identidade visual deve parecer intencional, humana, acolhedora e reconhecível como Bebel.
 
 ## Stack visual disponível
 

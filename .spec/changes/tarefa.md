@@ -1,4 +1,4 @@
-# Tarefa — Fundação visual do app da Bebel
+# Tarefa — Personalidade visual da Bebel
 
 ## Modo
 
@@ -6,16 +6,14 @@ FULL
 
 ## Necessidade
 
-Criar a fundação visual do app da Bebel.
+Quero que nosso projeto tenha personalidade e não tenha cara de sites gerados por IA.
 
-No celular, a navegação principal deve ficar na parte inferior da tela.
+Na pasta `.spec/ui-references/` existem imagens para servir de referência, incluindo:
 
-No desktop, a navegação principal deve ficar em uma barra lateral.
+1. referências de tela;
+2. referências visuais da personagem Bebel;
+3. referências de conteúdo/carrossel que mostram a linguagem visual da marca.
 
-Nesta primeira entrega, implementar somente:
-- a estrutura principal do aplicativo;
-- uma home simples que apresente a Bebel e funcione como ponto inicial da experiência.
+A implementação deve usar essas referências como direção visual, sem copiar literalmente.
 
-Não implementar ainda os módulos funcionais de compras, receitas, comidinhas, casa ou outras áreas futuras.
-
-A experiência deve seguir o posicionamento da Bebel: mobile first, simples, acolhedora, prática e com sensação de aplicativo.
+Também atualizar o protocolo `.agents/SDD-CHATGPT.md` e as diretrizes de frontend para que, sempre que houver criação ou alteração visual, as referências em `.spec/ui-references/` sejam analisadas antes da implementação.

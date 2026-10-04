@@ -267,13 +267,30 @@ Para qualquer alteração visual, leia obrigatoriamente:
 
 Também analise antes de implementar:
 
-- `src/app/`
-- `src/scss/`
+- `src/app/`;
+- `src/scss/`;
 - componentes existentes;
 - design system;
 - tokens;
 - variáveis;
-- padrões atuais.
+- padrões atuais;
+- **todas as referências visuais relevantes em `.spec/ui-references/`**.
+
+## Referências visuais obrigatórias
+
+Quando a tarefa envolver tela, componente visual, identidade, layout, home, navegação ou qualquer experiência de interface:
+
+1. verificar `.spec/ui-references/`;
+2. inspecionar as imagens relevantes antes de propor ou implementar o visual;
+3. identificar linguagem visual, composição, cores, formas, tipografia percebida, ritmo, densidade, personalidade da personagem e atmosfera;
+4. usar as referências como direção de identidade, não como cópia literal;
+5. preservar acessibilidade, legibilidade e usabilidade.
+
+A Bebel deve ter personalidade própria e NÃO deve parecer uma interface genérica, template corporativo ou layout típico gerado por IA.
+
+Quando houver referências da personagem Bebel, tratá-las como fonte de verdade visual da personagem.
+
+Quando houver referências de tela, extrair princípios visuais e adaptar ao produto Bebel em vez de copiar a tela literalmente.
 
 A Bebel é:
 
@@ -469,7 +486,7 @@ Se encontrar uma credencial versionada:
 
 ---
 
-# 14. Pull Request e merge em dev
+# 14. Pull Request e merge em development
 
 No `MODE: FULL`, sempre criar Pull Request com base em `development`.
 
@@ -495,7 +512,7 @@ Depois do merge em `development`, executar o fechamento SDD aplicável e limpar 
 
 ---
 
-# 15. Finalização automática em dev
+# 15. Finalização automática em development
 
 Após o Pull Request estar pronto e sem bloqueios relevantes:
 
