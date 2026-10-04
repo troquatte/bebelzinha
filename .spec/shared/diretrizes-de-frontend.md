@@ -78,12 +78,18 @@ Não espalhe valores mágicos quando o valor representa uma decisão recorrente 
 
 ## Tipografia base
 
-A tipografia textual do app deve seguir estes padrões globais, salvo necessidade de produto explicitamente documentada:
+A tipografia textual do app deve seguir uma fonte de verdade global em `src/styles.scss`, salvo necessidade de produto explicitamente documentada.
+
+Padrões globais:
 
 - `h1`, `h2`, `h3`, `h4` e `h5`: `font-weight: 950`;
+- `h1`: escala, altura de linha e espaçamento definidos globalmente;
+- `h2` a `h5`: hierarquia de tamanho e altura de linha definida globalmente;
 - parágrafos `p`: `font-size: 0.875rem` (14px na base de 16px) e `line-height: 110%`.
 
-Evitar redefinir esses valores em componentes sem necessidade real, para não criar inconsistência visual.
+Componentes devem herdar essa base. Evitar redefinir `font-size`, `font-weight`, `line-height` ou `letter-spacing` de headings e parágrafos em SCSS local sem uma necessidade visual explícita e documentada.
+
+Cores, margens e largura podem continuar contextuais. A intenção é manter a mesma linguagem tipográfica em toda a aplicação, sem impedir composição de layout.
 
 ## Confirmações e ações sensíveis
 
