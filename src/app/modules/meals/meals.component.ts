@@ -22,6 +22,7 @@ export class MealsComponent {
   readonly search = signal('');
   readonly mealFilter = signal<'all' | MealType>('all');
   readonly maxTime = signal(0);
+  readonly tagFilter = signal<'all' | 'barata' | 'rende-bem'>('all');
 
   readonly guideStep = signal<GuideStep>('need');
   readonly guideNeed = signal<GuideNeed | null>(null);
@@ -32,6 +33,7 @@ export class MealsComponent {
     const query = this.normalize(this.search());
     const meal = this.mealFilter();
     const time = this.maxTime();
+    const tag = this.tagFilter();
 
     return this.catalog.recipes().filter((recipe) => {
       const matchesText =
@@ -42,8 +44,9 @@ export class MealsComponent {
 
       const matchesMeal = meal === 'all' || recipe.mealTypes.includes(meal);
       const matchesTime = !time || recipe.prepTimeMinutes <= time;
+      const matchesTag = tag === 'all' || recipe.tags.includes(tag);
 
-      return matchesText && matchesMeal && matchesTime;
+      return matchesText && matchesMeal && matchesTime && matchesTag;
     });
   });
 
@@ -92,6 +95,10 @@ export class MealsComponent {
 
   updateTimeFilter(event: Event): void {
     this.maxTime.set(Number((event.target as HTMLSelectElement).value));
+  }
+
+  updateTagFilter(event: Event): void {
+    this.tagFilter.set((event.target as HTMLSelectElement).value as 'all' | 'barata' | 'rende-bem');
   }
 
   chooseNeed(need: GuideNeed): void {
