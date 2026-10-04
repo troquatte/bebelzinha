@@ -22,11 +22,15 @@
         <span>Início</span>
       </a>
 
-      <span class="nav-item nav-item--disabled" aria-disabled="true">
+      <a
+        class="nav-item"
+        routerLink="/comidinhas"
+        routerLinkActive="nav-item--active"
+        ariaCurrentWhenActive="page"
+      >
         <span class="nav-item__icon" aria-hidden="true">♡</span>
         <span>Comidinhas</span>
-        <small>Em breve</small>
-      </span>
+      </a>
 
       <a
         class="nav-item"
@@ -67,10 +71,15 @@
       <span>Início</span>
     </a>
 
-    <span class="bottom-nav__item bottom-nav__item--disabled" aria-disabled="true" aria-label="Comidinhas, em breve">
+    <a
+      class="bottom-nav__item"
+      routerLink="/comidinhas"
+      routerLinkActive="bottom-nav__item--active"
+      ariaCurrentWhenActive="page"
+    >
       <span class="bottom-nav__icon" aria-hidden="true">♡</span>
       <span>Comidinhas</span>
-    </span>
+    </a>
 
     <a
       class="bottom-nav__item"

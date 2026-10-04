@@ -1,0 +1,26 @@
+{
+  "id": "pao-de-frigideira",
+  "slug": "pao-de-frigideira",
+  "title": "Pão de frigideira da Bebel",
+  "description": "Um pãozinho rápido para café ou lanche, sem precisar ligar o forno.",
+  "mealTypes": ["cafe-lanche"],
+  "tags": ["rapida", "barata"],
+  "prepTimeMinutes": 10,
+  "servings": 1,
+  "image": "/images/recipes/pao-de-frigideira.svg",
+  "intro": "Bateu vontade de um pão quentinho e não tem nada em casa? Essa é pra salvar.",
+  "ingredients": [
+    { "id": "ovo", "name": "Ovo", "quantity": 1, "unit": "unidade", "note": null },
+    { "id": "farinha", "name": "Farinha de trigo", "quantity": 4, "unit": "colheres de sopa", "note": null },
+    { "id": "leite", "name": "Leite", "quantity": 2, "unit": "colheres de sopa", "note": null },
+    { "id": "fermento", "name": "Fermento químico", "quantity": 0.5, "unit": "colher de chá", "note": null },
+    { "id": "sal", "name": "Sal", "quantity": 1, "unit": "pitada", "note": null }
+  ],
+  "steps": [
+    { "order": 1, "text": "Misture o ovo, o leite, a farinha e o sal até ficar homogêneo." },
+    { "order": 2, "text": "Junte o fermento por último e mexa só para incorporar." },
+    { "order": 3, "text": "Despeje em frigideira untada, tampe e doure dos dois lados em fogo baixo." }
+  ],
+  "bebelTip": "Abre no meio e coloca queijo enquanto ainda está quente. Aí fica covardia.",
+  "active": true
+}

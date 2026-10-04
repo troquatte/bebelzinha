@@ -1,0 +1,26 @@
+{
+  "id": "omelete-de-forno",
+  "slug": "omelete-de-forno",
+  "title": "Omelete de forno que rende",
+  "description": "Ovos, legumes e o que tiver na geladeira viram uma refeição prática e econômica.",
+  "mealTypes": ["almoco", "janta"],
+  "tags": ["barata", "rende-bem", "aproveitamento"],
+  "prepTimeMinutes": 30,
+  "servings": 4,
+  "image": "/images/recipes/omelete-de-forno.svg",
+  "intro": "Tem ovo e uns restinhos de legumes? Então já tem caminho pra janta.",
+  "ingredients": [
+    { "id": "ovos", "name": "Ovos", "quantity": 6, "unit": "unidades", "note": null },
+    { "id": "tomate", "name": "Tomate", "quantity": 1, "unit": "unidade", "note": "picado" },
+    { "id": "cenoura", "name": "Cenoura", "quantity": 0.5, "unit": "unidade", "note": "ralada" },
+    { "id": "cebola", "name": "Cebola", "quantity": 0.5, "unit": "unidade", "note": "picada" },
+    { "id": "queijo", "name": "Queijo", "quantity": 100, "unit": "g", "note": "picado ou ralado" }
+  ],
+  "steps": [
+    { "order": 1, "text": "Bata os ovos com uma pitada de sal." },
+    { "order": 2, "text": "Misture os legumes e metade do queijo." },
+    { "order": 3, "text": "Passe para uma assadeira, cubra com o restante do queijo e asse até firmar e dourar." }
+  ],
+  "bebelTip": "O legume pode mudar. A ideia é aproveitar o que está pedindo socorro na geladeira.",
+  "active": true
+}

@@ -61,6 +61,12 @@ Entradas globais:
 
 Antes de criar valores novos, verificar tokens, variáveis, mixins e componentes existentes.
 
+## Conteúdo editorial
+
+Conteúdo estruturado da Bebel que não pertence a componentes pode ficar em `public/content/`.
+
+Comidinhas usa `public/content/recipes/`, com um `index.json` e um arquivo JSON por receita. A interface consome um contrato próprio e não deve depender da futura origem dos dados.
+
 ## Limites
 
 - componentes visuais não devem concentrar regras de negócio complexas;

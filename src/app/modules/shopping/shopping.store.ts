@@ -41,6 +41,29 @@ export class ShoppingStore {
     this.commit(this.state().filter((list) => list.id !== listId));
   }
 
+  addItemIfMissing(
+    listId: string,
+    baseName: string,
+    displayName = baseName,
+  ): 'added' | 'duplicate' | 'list-not-found' {
+    const list = this.state().find((item) => item.id === listId);
+
+    if (!list) {
+      return 'list-not-found';
+    }
+
+    const normalizedBaseName = this.normalizeItemName(baseName);
+    const alreadyExists = list.items.some(
+      (item) => this.normalizeItemName(item.name.split(' — ')[0]) === normalizedBaseName,
+    );
+
+    if (alreadyExists) {
+      return 'duplicate';
+    }
+
+    return this.addItem(listId, displayName) ? 'added' : 'list-not-found';
+  }
+
   addItem(listId: string, name: string): ShoppingItem | null {
     const now = new Date().toISOString();
     const item: ShoppingItem = {
@@ -128,6 +151,14 @@ export class ShoppingStore {
           : list,
       ),
     );
+  }
+
+  private normalizeItemName(value: string): string {
+    return value
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .toLowerCase()
+      .trim();
   }
 
   private commit(lists: ShoppingList[]): void {
