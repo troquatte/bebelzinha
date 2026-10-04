@@ -10,7 +10,7 @@ services:
         "--appendonly",
         "yes",
         "--requirepass",
-        "@Pamonhapamonha191_",
+        "${REDIS_PASSWORD:?set REDIS_PASSWORD}",
         "--maxmemory",
         "512mb",
         "--maxmemory-policy",

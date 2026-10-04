@@ -16,8 +16,8 @@ services:
 
     environment:
       ## 🔑 Dados de acesso
-      - MINIO_ROOT_USER=admin
-      - MINIO_ROOT_PASSWORD=@Pamonhapamonha191_
+      - MINIO_ROOT_USER=${MINIO_ROOT_USER:-admin}
+      - MINIO_ROOT_PASSWORD=${MINIO_ROOT_PASSWORD:?set MINIO_ROOT_PASSWORD}
 
       ## 🌐 URL do MinIO
       - MINIO_BROWSER_REDIRECT_URL=https://minio-dev.vidafullstack.academy ## Url do minio

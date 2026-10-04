@@ -1,0 +1,26 @@
+{
+  "id": "arroz-de-forno",
+  "slug": "arroz-de-forno",
+  "title": "Arroz de forno da Bebel",
+  "description": "Um jeito simples de aproveitar arroz pronto e transformar sobra em almoço de verdade.",
+  "mealTypes": ["almoco", "janta"],
+  "tags": ["barata", "rende-bem", "aproveitamento"],
+  "prepTimeMinutes": 35,
+  "servings": 4,
+  "image": "images/recipes/arroz-de-forno.jpg",
+  "intro": "Tem arroz sobrando aí? Então nem inventa moda. Vamos aproveitar o que já está pronto.",
+  "ingredients": [
+    { "id": "arroz", "name": "Arroz cozido", "quantity": 3, "unit": "xícaras", "note": null },
+    { "id": "frango", "name": "Frango desfiado", "quantity": 300, "unit": "g", "note": null },
+    { "id": "milho", "name": "Milho", "quantity": 1, "unit": "lata", "note": "escorrido" },
+    { "id": "molho", "name": "Molho de tomate", "quantity": 1, "unit": "xícara", "note": null },
+    { "id": "queijo", "name": "Queijo muçarela", "quantity": 150, "unit": "g", "note": "ralado" }
+  ],
+  "steps": [
+    { "order": 1, "text": "Misture o arroz, o frango, o milho e o molho de tomate." },
+    { "order": 2, "text": "Passe tudo para uma travessa e cubra com o queijo." },
+    { "order": 3, "text": "Leve ao forno preaquecido a 200 °C por cerca de 20 minutos, até aquecer e dourar." }
+  ],
+  "bebelTip": "Sobrou legume cozido? Pica e coloca junto. Aqui a gente aproveita, não complica.",
+  "active": true
+}

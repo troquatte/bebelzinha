@@ -25,8 +25,9 @@ A partir dessa tarefa, siga o processo SDD definido pelo próprio repositório.
 Antes de planejar ou alterar qualquer código:
 
 1. acesse o repositório;
-2. analise o estado atual da branch `main`;
-3. leia obrigatoriamente:
+2. analise o estado atual da branch `development`, que é a branch de integração e desenvolvimento;
+3. consulte a `main` quando precisar comparar com a linha estável/produção;
+4. leia obrigatoriamente:
 
 - `.agents/AGENTS.md`
 - `.spec/README.md`
@@ -34,12 +35,12 @@ Antes de planejar ou alterar qualquer código:
 - `.spec/memory/contexto-tecnico.md`
 - `.spec/memory/estrutura.md`
 
-4. leia os documentos relevantes em:
+5. leia os documentos relevantes em:
 
 - `.spec/shared/`
 - `.agents/skills/`
 
-5. analise:
+6. analise:
 - código existente;
 - arquitetura real;
 - dependências atuais;
@@ -76,13 +77,13 @@ REVISÃO DA IMPLEMENTAÇÃO
 ↓
 COMMIT / PUSH
 ↓
-PULL REQUEST
+PULL REQUEST PARA `development`
 ↓
-AGUARDAR APROVAÇÃO DO USUÁRIO
-↓
-MERGE
+MERGE AUTOMÁTICO EM `development` QUANDO NÃO HOUVER BLOQUEIO
 ↓
 CLOSER / ARCHIVE / CHANGELOG / MEMORY
+↓
+LIMPEZA DA BRANCH DE TRABALHO
 
 Não invente um processo paralelo.
 
@@ -118,13 +119,14 @@ Executar:
 8. validações possíveis;
 9. commit;
 10. push;
-11. abertura de Pull Request.
+11. abertura de Pull Request apontando para `development`;
+12. merge automático em `development` quando não houver bloqueio conhecido;
+13. execução do closer, archive, changelog e atualização de memória quando aplicável;
+14. limpeza da branch de trabalho após o merge.
 
-PARAR no Pull Request.
+Não é necessário aguardar minha aprovação para merge em `development`.
 
-NÃO realizar merge automaticamente.
-
-Aguardar minha aprovação.
+Nunca realizar merge automático em `main`.
 
 ---
 
@@ -177,7 +179,7 @@ Auditar:
 
 ## MODE: FULL
 
-Executar todo o processo até Pull Request pronto.
+Executar todo o processo até merge em `development`, fechamento SDD e limpeza da branch de trabalho.
 
 Este é o modo padrão.
 
@@ -265,13 +267,47 @@ Para qualquer alteração visual, leia obrigatoriamente:
 
 Também analise antes de implementar:
 
-- `src/app/`
-- `src/scss/`
+- `src/app/`;
+- `src/scss/`;
 - componentes existentes;
 - design system;
 - tokens;
 - variáveis;
-- padrões atuais.
+- padrões atuais;
+- **todas as referências visuais relevantes em `.spec/ui-references/`**.
+
+## Referências visuais obrigatórias
+
+Quando a tarefa envolver tela, componente visual, identidade, layout, home, navegação ou qualquer experiência de interface:
+
+1. verificar `.spec/ui-references/`;
+2. inspecionar as imagens relevantes antes de propor ou implementar o visual;
+3. identificar linguagem visual, composição, cores, formas, tipografia percebida, ritmo, densidade, personalidade da personagem e atmosfera;
+4. usar as referências como direção de identidade, não como cópia literal;
+5. preservar acessibilidade, legibilidade e usabilidade.
+
+A Bebel deve ter personalidade própria e NÃO deve parecer uma interface genérica, template corporativo ou layout típico gerado por IA.
+
+Quando houver referências da personagem Bebel, tratá-las como fonte de verdade visual da personagem.
+
+Quando houver referências de tela, extrair princípios visuais e adaptar ao produto Bebel em vez de copiar a tela literalmente.
+
+## Voz e textos da Bebel
+
+Sempre que criar microcopy, títulos, mensagens, CTAs, estados vazios, feedbacks, textos de ajuda ou qualquer conteúdo de interface:
+
+- escrever como a Bebel falaria, não como uma IA genérica;
+- preferir linguagem natural, calorosa, prática e conversacional;
+- usar frases com ritmo humano e pequenas variações, evitando estruturas excessivamente certinhas ou repetitivas;
+- evitar jargão corporativo, tom técnico, frases frias e linguagem de sistema;
+- evitar clichês típicos de texto gerado por IA, como excesso de “descubra”, “transforme”, “potencialize”, “experiência incrível”, “solução completa” e equivalentes;
+- não exagerar em emojis, diminutivos ou bordões;
+- manter o texto curto quando a interface pedir rapidez;
+- preservar clareza: personalidade nunca pode atrapalhar entendimento.
+
+A voz deve transmitir experiência de vida, proximidade e praticidade. A Bebel pode soar como alguém que conhece atalhos da vida real e fala de um jeito simples, sem infantilizar o usuário.
+
+Quando houver dúvida entre um texto correto porém genérico e um texto natural com a mesma clareza, preferir o mais natural e coerente com a Bebel.
 
 A Bebel é:
 
@@ -315,9 +351,13 @@ Não criar abstrações apenas porque podem ser úteis futuramente.
 
 ---
 
-# 10. Branch
+# 10. Branch e estratégia de commits
 
-Nunca implementar diretamente na `main`.
+Nunca implementar diretamente na `main` ou na `development`.
+
+A branch `development` é a base padrão para desenvolvimento e integração.
+
+Toda branch de feature/fix/chore deve nascer de `development` e voltar para `development` por Pull Request.
 
 Para cada mudança relevante:
 
@@ -325,7 +365,25 @@ Para cada mudança relevante:
 2. verificar se já existe spec relacionada;
 3. verificar se já existe PR relacionado;
 4. evitar trabalho duplicado;
-5. criar branch própria quando necessário.
+5. criar branch própria a partir de `development` quando necessário;
+6. abrir o Pull Request contra `development`;
+7. após merge bem-sucedido, apagar a branch de trabalho para não acumular branches antigas.
+
+## Estratégia de commits
+
+Evite gerar muitos commits pequenos quando a mudança puder ser agrupada com segurança.
+
+Preferir:
+- um commit lógico por entrega pequena;
+- poucos commits coesos em entregas maiores;
+- agrupar alterações relacionadas na mesma etapa quando possível.
+
+Evitar:
+- um commit por arquivo;
+- commits artificiais apenas porque cada escrita no GitHub gera uma operação separada;
+- histórico excessivamente fragmentado sem benefício de revisão.
+
+O objetivo é manter um histórico legível e útil, sem perder rastreabilidade.
 
 Usar nomes claros e compatíveis com Conventional Commits.
 
@@ -352,6 +410,56 @@ Nunca marcar `[x]` sem evidência de validação.
 
 # 12. Validação
 
+## Testes unitários
+
+Por padrão, NÃO criar, alterar ou executar testes unitários.
+
+Testes unitários não fazem parte do fluxo obrigatório deste agente e não devem atrasar uma entrega.
+
+Não adicionar tarefas de testes unitários à spec apenas por convenção.
+
+Não bloquear Pull Request ou conclusão da implementação por ausência de testes unitários.
+
+Somente trabalhar com testes unitários quando:
+
+- eu solicitar explicitamente;
+- a tarefa for especificamente sobre testes;
+- um teste existente precisar de ajuste mínimo porque bloqueia uma validação obrigatória já existente no projeto.
+
+Mesmo nesses casos, limitar a alteração ao mínimo necessário.
+
+A validação padrão deve priorizar:
+
+- revisão estática da implementação;
+- comparação entre spec e código;
+- verificação de imports, tipos, rotas e contratos;
+- lint/typecheck quando existirem e forem relevantes;
+- CI existente;
+- validação manual do fluxo quando necessária.
+
+## Regra de build
+
+Executar ou solicitar build apenas quando houver alteração em código da aplicação, configuração de build, dependências ou arquivos que possam afetar compilação/runtime.
+
+Se a mudança for somente documentação, markdown, comentários, textos de processo ou arquivos sem impacto de build, NÃO executar e NÃO solicitar build.
+
+Exemplos:
+- mudança em `src/`, `package.json`, `angular.json` ou configuração de compilação → build pode ser necessário;
+- mudança apenas em `.md` ou documentação operacional sem efeito de runtime → build não é necessário.
+
+## Validação visual de frontend
+
+Validação visual manual de frontend não precisa bloquear o Pull Request nem o merge em `development` quando:
+
+- a revisão estática estiver consistente;
+- não houver erro estrutural conhecido;
+- responsividade, estados e navegação estiverem coerentes no código;
+- não existir risco evidente de quebra crítica.
+
+Nesses casos, registrar a validação visual como check manual recomendado para mim após a integração.
+
+Se houver indício concreto de quebra visual crítica, layout inutilizável ou regressão estrutural, aí sim tratar como bloqueio antes do merge.
+
 Nunca afirmar que algo passou sem confirmação.
 
 Diferenciar:
@@ -366,13 +474,13 @@ Quando puder utilizar CI/GitHub para validar, faça isso.
 
 Quando uma validação exigir meu ambiente local, forneça exatamente o comando necessário.
 
-Exemplo:
+Exemplo, somente quando houver alteração de código que justifique build:
 
 `npm run build`
 
-`npm test`
+Não solicitar `npm test` por padrão.
 
-Aguarde o resultado quando necessário antes de considerar a tarefa validada.
+Aguarde o resultado somente das validações realmente necessárias antes de considerar a tarefa validada.
 
 ---
 
@@ -395,9 +503,15 @@ Se encontrar uma credencial versionada:
 
 ---
 
-# 14. Pull Request
+# 14. Pull Request e merge em development
 
-No `MODE: FULL`, o fluxo deve terminar com um Pull Request.
+No `MODE: FULL`, sempre criar Pull Request com base em `development`.
+
+O PR é o registro da entrega, mas não exige aprovação manual do usuário para merge em `development`.
+
+Quando a revisão não identificar bloqueio relevante, realizar o merge automaticamente em `development`.
+
+Nunca realizar merge automático em `main`.
 
 O PR deve informar de forma objetiva:
 
@@ -411,29 +525,25 @@ O PR deve informar de forma objetiva:
 - riscos;
 - possíveis próximos passos.
 
-Não realizar merge sem minha autorização explícita.
+Depois do merge em `development`, executar o fechamento SDD aplicável e limpar a branch de origem.
 
 ---
 
-# 15. Após minha aprovação
+# 15. Finalização automática em development
 
-Quando eu disser algo equivalente a:
+Após o Pull Request estar pronto e sem bloqueios relevantes:
 
-- `pode mergear`
-- `pode finalizar`
-- `aprovado`
-- `segue com o merge`
-
-execute o restante do ciclo SDD:
-
-merge
+merge em `development`
 → closer
 → archive da spec
 → changelog
 → atualização da memória
 → verificação final
+→ exclusão da branch de trabalho
 
-Após isso, informe o estado final da entrega.
+Se a ferramenta/conector disponível não permitir excluir a branch remotamente, informe objetivamente essa única pendência de limpeza.
+
+A `main` permanece protegida do fluxo automático. Qualquer merge em `main` exige solicitação explícita minha.
 
 ---
 

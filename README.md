@@ -1,59 +1,48 @@
 # Bebelzinha
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.2.1.
+Webapp da **Bebel**, uma ajudante prática para organização da vida doméstica.
 
-## Development server
+> **Bebel é um app gratuito de organização prática da vida doméstica, monetizado por afiliados e futuras ofertas.**
 
-To start a local development server, run:
+## Stack atual
 
-```bash
-ng serve
-```
+- Angular 22
+- TypeScript 6
+- SPA
+- Standalone Components
+- Angular Router
+- Signals
+- Angular Material
+- Tailwind CSS 4
+- Vitest
+- SCSS
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## Desenvolvimento
 
 ```bash
-ng generate --help
+npm install
+npm start
 ```
 
-## Building
+Aplicação local: `http://localhost:4200`.
 
-To build the project run:
+## Build e testes
 
 ```bash
-ng build
+npm run build
+npm test
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+## Spec Driven Development
 
-## Running unit tests
+O desenvolvimento do projeto é guiado pelo processo SDD documentado em [`.spec/README.md`](.spec/README.md).
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+Antes de implementar uma mudança relevante:
 
-```bash
-ng test
-```
+1. leia `.spec/memory/produto.md`;
+2. leia `.spec/memory/contexto-tecnico.md`;
+3. crie ou revise a spec correspondente em `.spec/changes/`;
+4. implemente somente após a spec estar clara;
+5. registre decisões duráveis na memória do projeto.
 
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Regras para agentes estão em [`.agents/AGENTS.md`](.agents/AGENTS.md).

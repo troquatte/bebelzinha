@@ -1,0 +1,71 @@
+{
+  "id": "arroz-carreteiro-simples",
+  "slug": "arroz-carreteiro-simples",
+  "title": "Arroz carreteiro simples",
+  "description": "Arroz de uma panela só para aproveitar carne pronta e fazer a comida render.",
+  "mealTypes": [
+    "almoco",
+    "janta"
+  ],
+  "tags": [
+    "aproveitamento",
+    "rende-bem"
+  ],
+  "prepTimeMinutes": 35,
+  "servings": 5,
+  "image": "images/recipes/arroz-carreteiro-simples.jpg",
+  "intro": "Tem carne pronta sobrando? Em vez de esquentar do mesmo jeito, faz ela virar outro almoço.",
+  "ingredients": [
+    {
+      "id": "arroz",
+      "name": "Arroz cru",
+      "quantity": 2,
+      "unit": "xícaras",
+      "note": null
+    },
+    {
+      "id": "carne",
+      "name": "Carne cozida ou assada",
+      "quantity": 300,
+      "unit": "g",
+      "note": "desfiada ou picada"
+    },
+    {
+      "id": "cebola",
+      "name": "Cebola",
+      "quantity": 1,
+      "unit": "unidade",
+      "note": "picada"
+    },
+    {
+      "id": "tomate",
+      "name": "Tomate",
+      "quantity": 1,
+      "unit": "unidade",
+      "note": "picado"
+    },
+    {
+      "id": "agua",
+      "name": "Água quente",
+      "quantity": 4,
+      "unit": "xícaras",
+      "note": null
+    }
+  ],
+  "steps": [
+    {
+      "order": 1,
+      "text": "Refogue cebola, tomate e a carne já pronta."
+    },
+    {
+      "order": 2,
+      "text": "Junte o arroz e misture por um minuto."
+    },
+    {
+      "order": 3,
+      "text": "Adicione água quente, ajuste o sal e cozinhe até o arroz secar."
+    }
+  ],
+  "bebelTip": "Cheiro-verde no final deixa com cara de comida feita na hora.",
+  "active": true
+}

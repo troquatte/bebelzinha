@@ -1,0 +1,26 @@
+{
+  "id": "bolo-de-banana",
+  "slug": "bolo-de-banana",
+  "title": "Bolo de banana sem frescura",
+  "description": "Bolo simples para aproveitar banana madura e deixar a casa com cheiro de café da tarde.",
+  "mealTypes": ["doce", "cafe-lanche"],
+  "tags": ["barata", "aproveitamento", "rende-bem"],
+  "prepTimeMinutes": 45,
+  "servings": 8,
+  "image": "images/recipes/bolo-de-banana.jpg",
+  "intro": "Banana ficando pintadinha na fruteira não é problema. É aviso de bolo.",
+  "ingredients": [
+    { "id": "banana", "name": "Banana madura", "quantity": 4, "unit": "unidades", "note": null },
+    { "id": "ovos", "name": "Ovos", "quantity": 2, "unit": "unidades", "note": null },
+    { "id": "acucar", "name": "Açúcar", "quantity": 1, "unit": "xícara", "note": null },
+    { "id": "farinha", "name": "Farinha de trigo", "quantity": 2, "unit": "xícaras", "note": null },
+    { "id": "fermento", "name": "Fermento químico", "quantity": 1, "unit": "colher de sopa", "note": null }
+  ],
+  "steps": [
+    { "order": 1, "text": "Amasse as bananas e misture com os ovos e o açúcar." },
+    { "order": 2, "text": "Junte a farinha e mexa até a massa ficar uniforme." },
+    { "order": 3, "text": "Acrescente o fermento e asse a 180 °C por cerca de 30 minutos." }
+  ],
+  "bebelTip": "Canela por cima antes de assar fica uma beleza e perfuma a cozinha inteira.",
+  "active": true
+}

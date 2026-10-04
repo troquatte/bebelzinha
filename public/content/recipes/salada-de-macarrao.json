@@ -1,0 +1,71 @@
+{
+  "id": "salada-de-macarrao",
+  "slug": "salada-de-macarrao",
+  "title": "Salada de macarrão cremosa",
+  "description": "Macarrão frio com legumes e molho cremoso para almoço prático ou acompanhamento.",
+  "mealTypes": [
+    "almoco",
+    "janta"
+  ],
+  "tags": [
+    "barata",
+    "rende-bem"
+  ],
+  "prepTimeMinutes": 30,
+  "servings": 6,
+  "image": "images/recipes/salada-de-macarrao.jpg",
+  "intro": "Boa pra fazer antes, deixar geladinha e não precisar pensar no acompanhamento na última hora.",
+  "ingredients": [
+    {
+      "id": "macarrao",
+      "name": "Macarrão parafuso",
+      "quantity": 500,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "id": "cenoura",
+      "name": "Cenoura",
+      "quantity": 1,
+      "unit": "unidade",
+      "note": "ralada"
+    },
+    {
+      "id": "milho",
+      "name": "Milho",
+      "quantity": 1,
+      "unit": "lata",
+      "note": "escorrido"
+    },
+    {
+      "id": "maionese",
+      "name": "Maionese",
+      "quantity": 5,
+      "unit": "colheres de sopa",
+      "note": null
+    },
+    {
+      "id": "cheiro-verde",
+      "name": "Cheiro-verde",
+      "quantity": 0.5,
+      "unit": "xícara",
+      "note": "picado"
+    }
+  ],
+  "steps": [
+    {
+      "order": 1,
+      "text": "Cozinhe o macarrão, escorra e deixe esfriar."
+    },
+    {
+      "order": 2,
+      "text": "Misture cenoura, milho e cheiro-verde."
+    },
+    {
+      "order": 3,
+      "text": "Junte a maionese, ajuste o sal e leve à geladeira antes de servir."
+    }
+  ],
+  "bebelTip": "Não mistura a maionese com macarrão quente, senão vira uma tristeza.",
+  "active": true
+}

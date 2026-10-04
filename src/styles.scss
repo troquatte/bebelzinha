@@ -15,7 +15,36 @@ body {
   height: 100%;
 }
 
+h1,
+h2 {
+  margin: 0;
+  font-size: fn.rem-calc(38);
+  font-weight: bold;
+  line-height: 120%;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-size: fn.rem-calc(18);
+  font-weight: bold;
+  line-height: 120%;
+}
+
+p {
+  margin: 0.75rem 0 0;
+  font-size: fn.rem-calc(16);
+  line-height: 120%;
+}
+
 @media (max-width: fn.rem-calc(800)) {
+  h1,
+  h2 {
+    font-size: fn.rem-calc(22);
+  }
+
   body {
     background-attachment: fixed;
     background-position: fn.rem-calc(-350) top;

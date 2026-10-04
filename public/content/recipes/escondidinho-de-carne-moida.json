@@ -1,0 +1,70 @@
+{
+  "id": "escondidinho-de-carne-moida",
+  "slug": "escondidinho-de-carne-moida",
+  "title": "Escondidinho de carne moída",
+  "description": "Purê cremoso, carne bem temperada e queijo douradinho por cima.",
+  "mealTypes": [
+    "almoco",
+    "janta"
+  ],
+  "tags": [
+    "rende-bem"
+  ],
+  "prepTimeMinutes": 55,
+  "servings": 6,
+  "image": "images/recipes/escondidinho-de-carne-moida.jpg",
+  "intro": "É um pouquinho mais demorado, mas rende bem e deixa a travessa bonita sem fazer firula.",
+  "ingredients": [
+    {
+      "id": "batata",
+      "name": "Batata",
+      "quantity": 1,
+      "unit": "kg",
+      "note": "descascada"
+    },
+    {
+      "id": "carne",
+      "name": "Carne moída",
+      "quantity": 500,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "id": "leite",
+      "name": "Leite",
+      "quantity": 0.5,
+      "unit": "xícara",
+      "note": null
+    },
+    {
+      "id": "manteiga",
+      "name": "Manteiga",
+      "quantity": 1,
+      "unit": "colher de sopa",
+      "note": null
+    },
+    {
+      "id": "queijo",
+      "name": "Queijo muçarela",
+      "quantity": 150,
+      "unit": "g",
+      "note": "ralado"
+    }
+  ],
+  "steps": [
+    {
+      "order": 1,
+      "text": "Cozinhe a batata e amasse com leite, manteiga e sal."
+    },
+    {
+      "order": 2,
+      "text": "Refogue a carne moída até ficar bem soltinha e temperada."
+    },
+    {
+      "order": 3,
+      "text": "Monte purê, carne, purê e queijo e leve ao forno para gratinar."
+    }
+  ],
+  "bebelTip": "Pode fazer com mandioca no lugar da batata se tiver em casa.",
+  "active": true
+}

@@ -1,0 +1,64 @@
+{
+  "id": "panqueca-de-banana",
+  "slug": "panqueca-de-banana",
+  "title": "Panqueca de banana de frigideira",
+  "description": "Banana, ovo e aveia viram um café da manhã rápido e sem mistério.",
+  "mealTypes": [
+    "cafe-lanche",
+    "doce"
+  ],
+  "tags": [
+    "rapida",
+    "barata"
+  ],
+  "prepTimeMinutes": 10,
+  "servings": 1,
+  "image": "images/recipes/panqueca-de-banana.jpg",
+  "intro": "Tem banana madura e dez minutos? Então já dá pra fazer uma coisa gostosa.",
+  "ingredients": [
+    {
+      "id": "banana",
+      "name": "Banana madura",
+      "quantity": 1,
+      "unit": "unidade",
+      "note": null
+    },
+    {
+      "id": "ovo",
+      "name": "Ovo",
+      "quantity": 1,
+      "unit": "unidade",
+      "note": null
+    },
+    {
+      "id": "aveia",
+      "name": "Aveia em flocos",
+      "quantity": 2,
+      "unit": "colheres de sopa",
+      "note": null
+    },
+    {
+      "id": "canela",
+      "name": "Canela",
+      "quantity": 1,
+      "unit": "pitada",
+      "note": null
+    }
+  ],
+  "steps": [
+    {
+      "order": 1,
+      "text": "Amasse a banana e misture com o ovo."
+    },
+    {
+      "order": 2,
+      "text": "Junte aveia e canela."
+    },
+    {
+      "order": 3,
+      "text": "Doure pequenas porções em frigideira antiaderente dos dois lados."
+    }
+  ],
+  "bebelTip": "Fogo baixo, viu? Banana queima mais rápido do que parece.",
+  "active": true
+}

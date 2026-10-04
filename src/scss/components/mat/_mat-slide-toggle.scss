@@ -7,14 +7,22 @@
 
   .mdc-switch__track::after,
   .mdc-switch__track::before {
-    background-color: var(--white) !important;
     border: none !important;
+  }
+
+  .mdc-switch__track::after,
+  .mdc-switch:enabled:focus:not(:active) .mdc-switch__track::after,
+  .mdc-switch:enabled:hover:not(:focus):not(:active) .mdc-switch__track::after {
+    background: var(
+      --mat-slide-toggle-unselected-track-color,
+      var(--mat-sys-surface-variant)
+    );
   }
 
   .mdc-switch--selected:enabled .mdc-switch__handle::after,
   .mdc-switch--selected:enabled:hover:not(:focus):not(:active)
     .mdc-switch__handle::after {
-    background: var(--green) !important;
+    background: var(--primary) !important;
   }
 
   .mdc-switch--selected .mdc-switch__icon {

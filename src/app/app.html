@@ -8,29 +8,39 @@
       </span>
     </a>
 
+    <span class="sidebar__eyebrow">Seu cantinho</span>
+
     <nav class="sidebar__nav" aria-label="Seções da Bebel">
-      <a class="nav-item nav-item--active" routerLink="/" aria-current="page">
+      <a
+        class="nav-item"
+        routerLink="/"
+        routerLinkActive="nav-item--active"
+        [routerLinkActiveOptions]="{ exact: true }"
+        ariaCurrentWhenActive="page"
+      >
         <span class="nav-item__icon" aria-hidden="true">⌂</span>
         <span>Início</span>
       </a>
 
-      <span class="nav-item nav-item--disabled" aria-disabled="true">
-        <span class="nav-item__icon" aria-hidden="true">✓</span>
-        <span>Casa</span>
-        <small>Em breve</small>
-      </span>
-
-      <span class="nav-item nav-item--disabled" aria-disabled="true">
+      <a
+        class="nav-item"
+        routerLink="/comidinhas"
+        routerLinkActive="nav-item--active"
+        ariaCurrentWhenActive="page"
+      >
         <span class="nav-item__icon" aria-hidden="true">♡</span>
         <span>Comidinhas</span>
-        <small>Em breve</small>
-      </span>
+      </a>
 
-      <span class="nav-item nav-item--disabled" aria-disabled="true">
+      <a
+        class="nav-item"
+        routerLink="/compras"
+        routerLinkActive="nav-item--active"
+        ariaCurrentWhenActive="page"
+      >
         <span class="nav-item__icon" aria-hidden="true">☷</span>
-        <span>Compras</span>
-        <small>Em breve</small>
-      </span>
+        <span>Lista de compras</span>
+      </a>
 
       <span class="nav-item nav-item--disabled" aria-disabled="true">
         <span class="nav-item__icon" aria-hidden="true">✦</span>
@@ -39,7 +49,10 @@
       </span>
     </nav>
 
-    <p class="sidebar__note">Sua rotina de casa, sem complicação 💜</p>
+    <aside class="sidebar__note">
+      <span class="sidebar__note-label">Bebel diz</span>
+      <p>Ô, minha filha… casa boa é a que facilita sua vida, não a que dá mais trabalho.</p>
+    </aside>
   </aside>
 
   <main class="app-content" id="conteudo-principal">
@@ -47,25 +60,36 @@
   </main>
 
   <nav class="bottom-nav" aria-label="Navegação principal">
-    <a class="bottom-nav__item bottom-nav__item--active" routerLink="/" aria-current="page">
+    <a
+      class="bottom-nav__item"
+      routerLink="/"
+      routerLinkActive="bottom-nav__item--active"
+      [routerLinkActiveOptions]="{ exact: true }"
+      ariaCurrentWhenActive="page"
+    >
       <span class="bottom-nav__icon" aria-hidden="true">⌂</span>
       <span>Início</span>
     </a>
 
-    <span class="bottom-nav__item bottom-nav__item--disabled" aria-disabled="true" aria-label="Casa, em breve">
-      <span class="bottom-nav__icon" aria-hidden="true">✓</span>
-      <span>Casa</span>
-    </span>
-
-    <span class="bottom-nav__item bottom-nav__item--disabled" aria-disabled="true" aria-label="Comidinhas, em breve">
+    <a
+      class="bottom-nav__item"
+      routerLink="/comidinhas"
+      routerLinkActive="bottom-nav__item--active"
+      ariaCurrentWhenActive="page"
+    >
       <span class="bottom-nav__icon" aria-hidden="true">♡</span>
       <span>Comidinhas</span>
-    </span>
+    </a>
 
-    <span class="bottom-nav__item bottom-nav__item--disabled" aria-disabled="true" aria-label="Compras, em breve">
+    <a
+      class="bottom-nav__item"
+      routerLink="/compras"
+      routerLinkActive="bottom-nav__item--active"
+      ariaCurrentWhenActive="page"
+    >
       <span class="bottom-nav__icon" aria-hidden="true">☷</span>
-      <span>Compras</span>
-    </span>
+      <span class="bottom-nav__label">Lista de<br />compras</span>
+    </a>
 
     <span class="bottom-nav__item bottom-nav__item--disabled" aria-disabled="true" aria-label="Achadinhos, em breve">
       <span class="bottom-nav__icon" aria-hidden="true">✦</span>

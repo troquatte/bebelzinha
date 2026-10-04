@@ -1,0 +1,71 @@
+{
+  "id": "cuscuz-com-ovo",
+  "slug": "cuscuz-com-ovo",
+  "title": "Cuscuz com ovo",
+  "description": "Café da manhã ou jantar rápido com poucos ingredientes e muita sustância.",
+  "mealTypes": [
+    "cafe-lanche",
+    "janta"
+  ],
+  "tags": [
+    "rapida",
+    "barata"
+  ],
+  "prepTimeMinutes": 15,
+  "servings": 2,
+  "image": "images/recipes/cuscuz-com-ovo.jpg",
+  "intro": "Quando precisa comer direito sem montar operação de guerra na cozinha, cuscuz com ovo salva.",
+  "ingredients": [
+    {
+      "id": "flocao",
+      "name": "Flocão de milho",
+      "quantity": 1,
+      "unit": "xícara",
+      "note": null
+    },
+    {
+      "id": "agua",
+      "name": "Água",
+      "quantity": 0.5,
+      "unit": "xícara",
+      "note": null
+    },
+    {
+      "id": "sal",
+      "name": "Sal",
+      "quantity": 1,
+      "unit": "pitada",
+      "note": null
+    },
+    {
+      "id": "ovos",
+      "name": "Ovos",
+      "quantity": 2,
+      "unit": "unidades",
+      "note": null
+    },
+    {
+      "id": "manteiga",
+      "name": "Manteiga",
+      "quantity": 1,
+      "unit": "colher de chá",
+      "note": null
+    }
+  ],
+  "steps": [
+    {
+      "order": 1,
+      "text": "Hidrate o flocão com água e sal por 5 minutos."
+    },
+    {
+      "order": 2,
+      "text": "Cozinhe o cuscuz na cuscuzeira até ficar macio."
+    },
+    {
+      "order": 3,
+      "text": "Prepare os ovos do jeito que preferir e sirva por cima com manteiga."
+    }
+  ],
+  "bebelTip": "Se tiver queijo, coloca junto do ovo e acabou a conversa.",
+  "active": true
+}

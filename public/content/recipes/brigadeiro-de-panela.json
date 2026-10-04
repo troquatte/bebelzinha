@@ -1,0 +1,56 @@
+{
+  "id": "brigadeiro-de-panela",
+  "slug": "brigadeiro-de-panela",
+  "title": "Brigadeiro de panela",
+  "description": "O clássico de colher para matar vontade de doce com três ingredientes.",
+  "mealTypes": [
+    "doce"
+  ],
+  "tags": [
+    "rapida",
+    "barata"
+  ],
+  "prepTimeMinutes": 15,
+  "servings": 4,
+  "image": "images/recipes/brigadeiro-de-panela.jpg",
+  "intro": "Doce urgente é assunto sério. Esse aqui resolve com uma panela e uma colher.",
+  "ingredients": [
+    {
+      "id": "leite-condensado",
+      "name": "Leite condensado",
+      "quantity": 1,
+      "unit": "lata",
+      "note": null
+    },
+    {
+      "id": "chocolate",
+      "name": "Chocolate em pó",
+      "quantity": 3,
+      "unit": "colheres de sopa",
+      "note": null
+    },
+    {
+      "id": "manteiga",
+      "name": "Manteiga",
+      "quantity": 1,
+      "unit": "colher de sopa",
+      "note": null
+    }
+  ],
+  "steps": [
+    {
+      "order": 1,
+      "text": "Misture tudo ainda com o fogo desligado."
+    },
+    {
+      "order": 2,
+      "text": "Cozinhe em fogo baixo mexendo sempre."
+    },
+    {
+      "order": 3,
+      "text": "Quando soltar do fundo da panela, desligue e sirva de colher ou deixe esfriar."
+    }
+  ],
+  "bebelTip": "Fogo alto só serve pra queimar o fundo e estragar seu humor.",
+  "active": true
+}

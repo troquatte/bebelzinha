@@ -1,0 +1,62 @@
+<section class="shopping-page" aria-labelledby="shopping-title">
+  <header class="shopping-hero">
+    <div class="shopping-hero__portrait-wrap">
+      <span class="shopping-hero__spark shopping-hero__spark--one" aria-hidden="true">✦</span>
+      <span class="shopping-hero__spark shopping-hero__spark--two" aria-hidden="true">✦</span>
+      <figure class="shopping-hero__portrait">
+        <img
+          src="/images/bebel/bebel-roxa.jpg"
+          alt="Ilustração da Bebel, uma senhora negra de cabelos brancos cacheados, óculos e roupa roxa"
+        />
+      </figure>
+      <div class="shopping-hero__speech">Bora às compras? 💜</div>
+    </div>
+
+    <div class="shopping-hero__copy">
+      <span class="shopping-hero__eyebrow">Lista de compras</span>
+      <h1 id="shopping-title">Suas listas, sem papelzinho perdido.</h1>
+      <p>Crie uma lista, leve a Bebel pro mercado e vá marcando o que já entrou no carrinho.</p>
+      <button class="primary-button" type="button" (click)="createList()">+ Nova lista</button>
+    </div>
+  </header>
+
+  @if (lists().length > 0) {
+    <div class="shopping-lists" aria-label="Suas listas de compras">
+      @for (list of lists(); track list.id) {
+        <article class="shopping-list-card">
+          <a class="shopping-list-card__main" [routerLink]="['/compras', list.id]">
+            <span class="shopping-list-card__mark" aria-hidden="true">☷</span>
+            <span class="shopping-list-card__copy">
+              <strong>{{ list.name }}</strong>
+              <span>
+                {{ list.items.length }} {{ list.items.length === 1 ? 'item' : 'itens' }}
+                · {{ purchasedCount(list) }} {{ purchasedCount(list) === 1 ? 'comprado' : 'comprados' }}
+              </span>
+            </span>
+            <span class="shopping-list-card__arrow" aria-hidden="true">›</span>
+          </a>
+
+          <div class="shopping-list-card__actions" aria-label="Ações da lista">
+            <button type="button" (click)="editList(list)">Editar</button>
+            <button class="danger-action" type="button" (click)="deleteList(list)">Excluir</button>
+          </div>
+        </article>
+      }
+    </div>
+  } @else {
+    <section class="empty-state" aria-label="Nenhuma lista de compras">
+      <span class="empty-state__mark" aria-hidden="true">🛒</span>
+      <h2>A sacola ainda está vazia.</h2>
+      <p>Crie sua primeira lista e deixe as compras mais fáceis de acompanhar.</p>
+      <button class="primary-button" type="button" (click)="createList()">Criar minha primeira lista</button>
+    </section>
+  }
+
+  <aside class="shopping-tip">
+    <span aria-hidden="true">💜</span>
+    <div>
+      <strong>Dica da Bebel</strong>
+      <p>Vai lembrando das coisas aos poucos? Pode abrir a lista e adicionar na hora. Ela fica salva neste aparelho.</p>
+    </div>
+  </aside>
+</section>

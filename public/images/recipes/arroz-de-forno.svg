@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-label="Arroz de forno">
+  <rect width="800" height="520" rx="42" fill="#f3dcff"/>
+  <circle cx="650" cy="95" r="92" fill="#ff7a1a" opacity=".16"/>
+  <path d="M85 160c80-85 192-105 287-49 70 41 89 129 37 201-59 82-194 102-292 47-91-51-108-126-32-199Z" fill="#fff" opacity=".92"/>
+  <ellipse cx="250" cy="264" rx="135" ry="92" fill="#fffdf9" stroke="#6f1fb4" stroke-width="18"/>
+  <ellipse cx="250" cy="267" rx="93" ry="57" fill="#ff7a1a" opacity=".72"/>
+  <path d="M188 248c42-36 104-35 139 5M198 286c36 20 79 20 112 0" fill="none" stroke="#fff" stroke-width="16" stroke-linecap="round" opacity=".78"/>
+  <path d="M484 185h220M484 230h166M484 275h194" stroke="#6f1fb4" stroke-width="18" stroke-linecap="round" opacity=".88"/>
+  <circle cx="516" cy="349" r="12" fill="#ff7a1a"/>
+  <circle cx="556" cy="349" r="12" fill="#6f1fb4"/>
+  <circle cx="596" cy="349" r="12" fill="#ff7a1a"/>
+</svg>

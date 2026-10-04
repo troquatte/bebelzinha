@@ -1,0 +1,70 @@
+{
+  "id": "pastel-de-forno-de-queijo",
+  "slug": "pastel-de-forno-de-queijo",
+  "title": "Pastel de forno de queijo",
+  "description": "Lanchinho assado, dourado e fácil para café da tarde.",
+  "mealTypes": [
+    "cafe-lanche"
+  ],
+  "tags": [
+    "barata",
+    "rende-bem"
+  ],
+  "prepTimeMinutes": 40,
+  "servings": 8,
+  "image": "images/recipes/pastel-de-forno-de-queijo.jpg",
+  "intro": "Pastel sem fritura e sem panela de óleo depois. Só nisso ele já ganhou pontos.",
+  "ingredients": [
+    {
+      "id": "massa",
+      "name": "Massa pronta para pastel de forno",
+      "quantity": 8,
+      "unit": "unidades",
+      "note": null
+    },
+    {
+      "id": "queijo",
+      "name": "Queijo muçarela",
+      "quantity": 200,
+      "unit": "g",
+      "note": "fatiado"
+    },
+    {
+      "id": "tomate",
+      "name": "Tomate",
+      "quantity": 1,
+      "unit": "unidade",
+      "note": "sem sementes e picado"
+    },
+    {
+      "id": "oregano",
+      "name": "Orégano",
+      "quantity": 1,
+      "unit": "colher de chá",
+      "note": null
+    },
+    {
+      "id": "gema",
+      "name": "Gema",
+      "quantity": 1,
+      "unit": "unidade",
+      "note": "para pincelar"
+    }
+  ],
+  "steps": [
+    {
+      "order": 1,
+      "text": "Recheie cada massa com queijo, tomate e orégano."
+    },
+    {
+      "order": 2,
+      "text": "Feche apertando as bordas com um garfo."
+    },
+    {
+      "order": 3,
+      "text": "Pincele gema e asse a 200 °C até dourar."
+    }
+  ],
+  "bebelTip": "Não lota de recheio. Se fechar mal, o queijo foge todo pra assadeira.",
+  "active": true
+}
