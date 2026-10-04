@@ -30,7 +30,7 @@ Simplificar a experiência de Comidinhas, transformar a ajuda da Bebel em filtro
 - filtros aceitam uma opção ativa por grupo (refeição, tempo e contexto);
 - a ajuda da Bebel apenas configura esses mesmos filtros; os resultados vivem fora do card;
 - social image padrão é `images/bebel/bebel-roxa.jpg`;
-- páginas dinâmicas atualizam metadata no runtime; o HTML base mantém o card padrão;
+- páginas atualizam metadata no runtime e o deploy gera shells HTML estáticos para Comidinhas, Compras e cada receita, permitindo cards de compartilhamento específicos sem SSR;
 - GitHub Pages usa build com `--base-href /bebelzinha/` e fallback `404.html` para rotas da SPA.
 
 ## Critérios de aceite
@@ -44,7 +44,7 @@ Simplificar a experiência de Comidinhas, transformar a ajuda da Bebel em filtro
 - [~] Speech não possui `max-width: 11rem`.
 - [~] Título base usa hífen simples.
 - [~] Favicon e imagem social usam a foto pública da Bebel.
-- [~] Metadata muda conforme a página.
+- [~] Metadata muda conforme a página e cada receita possui shell estático no deploy.
 - [~] Build/deploy de GitHub Pages preparado.
 - [ ] GitHub Pages publicado e URL validada publicamente.
 - [ ] Build confirmado pelo CI/ambiente local.
