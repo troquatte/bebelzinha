@@ -20,8 +20,11 @@ export class ShoppingListComponent {
 
   readonly listId = this.route.snapshot.paramMap.get('listId') ?? '';
   readonly list = computed(() => this.store.lists().find((list) => list.id === this.listId));
-  readonly items = computed(() =>
-    [...(this.list()?.items ?? [])].sort((a, b) => Number(a.checked) - Number(b.checked)),
+  readonly pendingItems = computed(() =>
+    (this.list()?.items ?? []).filter((item) => !item.checked),
+  );
+  readonly cartItems = computed(() =>
+    (this.list()?.items ?? []).filter((item) => item.checked),
   );
   readonly purchasedCount = computed(
     () => this.list()?.items.filter((item) => item.checked).length ?? 0,
