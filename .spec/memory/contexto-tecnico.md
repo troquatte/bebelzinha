@@ -866,7 +866,15 @@ Não sacrificar acessibilidade para manter identidade visual.
 
 # 37. Dependências
 
-Antes de instalar uma nova biblioteca, avaliar:
+## Dependência aprovada para confirmações
+
+**SweetAlert2** é a solução padrão aprovada para confirmações explícitas de ações na interface, incluindo salvar, editar, excluir e demais ações sensíveis ou destrutivas.
+
+Não utilizar `window.confirm`, `window.alert` ou uma implementação paralela de modal de confirmação quando SweetAlert2 atender ao caso.
+
+A dependência deve ser instalada somente quando a primeira funcionalidade que realmente exigir esse comportamento for implementada.
+
+Antes de instalar qualquer outra nova biblioteca, avaliar:
 
 1. Angular já resolve?
 2. JavaScript/TypeScript já resolve?

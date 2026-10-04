@@ -85,6 +85,31 @@ A tipografia textual do app deve seguir estes padrões globais, salvo necessidad
 
 Evitar redefinir esses valores em componentes sem necessidade real, para não criar inconsistência visual.
 
+## Confirmações e ações sensíveis
+
+Toda confirmação explícita de ação no produto deve utilizar **SweetAlert2** como padrão visual e comportamental.
+
+Aplicar SweetAlert2 em confirmações como:
+
+- deseja salvar?;
+- deseja editar?;
+- deseja excluir?;
+- deseja substituir?;
+- deseja limpar/remover dados?;
+- qualquer ação destrutiva, irreversível ou que possa causar perda de informação.
+
+Regras:
+
+- não usar `window.confirm`, `window.alert` ou diálogos nativos do navegador;
+- não criar um modal de confirmação paralelo quando SweetAlert2 resolver o caso;
+- manter título, descrição e botões com linguagem natural e coerente com a voz da Bebel;
+- ações destrutivas devem deixar a consequência clara antes da confirmação;
+- o botão seguro/cancelar deve permanecer fácil de identificar;
+- não executar a ação até a confirmação positiva da pessoa;
+- quando a primeira funcionalidade que exigir confirmação for implementada, adicionar SweetAlert2 como dependência do projeto se ainda não estiver instalado.
+
+Essa regra é transversal ao produto e deve ser considerada em qualquer spec que inclua salvar, editar, excluir ou outra confirmação de alteração de estado.
+
 ## Componentes
 
 - componentes devem ter responsabilidade clara;
