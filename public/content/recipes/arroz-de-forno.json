@@ -7,7 +7,7 @@
   "tags": ["barata", "rende-bem", "aproveitamento"],
   "prepTimeMinutes": 35,
   "servings": 4,
-  "image": "/images/recipes/arroz-de-forno.png",
+  "image": "/images/recipes/arroz-de-forno.jpg",
   "intro": "Tem arroz sobrando aí? Então nem inventa moda. Vamos aproveitar o que já está pronto.",
   "ingredients": [
     { "id": "arroz", "name": "Arroz cozido", "quantity": 3, "unit": "xícaras", "note": null },
