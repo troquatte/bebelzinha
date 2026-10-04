@@ -17,8 +17,12 @@
         <div class="recipe-meta">
           <span>⏱ {{ currentRecipe.prepTimeMinutes }} min</span>
           <span>🍽 Serve {{ currentRecipe.servings }}</span>
-          @if (currentRecipe.tags.includes('barata')) { <span>💸 econômica</span> }
-          @if (currentRecipe.tags.includes('rende-bem')) { <span>✨ rende bem</span> }
+          @if (currentRecipe.tags.includes('barata')) {
+            <span>💸 econômica</span>
+          }
+          @if (currentRecipe.tags.includes('rende-bem')) {
+            <span>✨ rende bem</span>
+          }
         </div>
 
         <div class="recipe-actions">
@@ -55,7 +59,9 @@
                   <strong>{{ ingredient.name }}</strong>
                   <small>
                     {{ ingredient.quantity }} {{ ingredient.unit }}
-                    @if (ingredient.note) { · {{ ingredient.note }} }
+                    @if (ingredient.note) {
+                      · {{ ingredient.note }}
+                    }
                   </small>
                 </span>
               </label>
