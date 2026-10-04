@@ -60,13 +60,22 @@ No estado vazio de Lista de compras, centralizar o bloco de descrição, mantend
 
 ## Critérios de aceite
 
-- [~] Primeira abertura mostra 4 slides.
-- [~] Swipe e botão avançam entre slides.
-- [~] Indicador acompanha o slide atual.
-- [~] “Pular” conclui e fecha.
-- [~] CTA final conclui e fecha.
-- [~] Reabrir o app no mesmo navegador não exibe novamente.
-- [~] Background não rola enquanto onboarding está aberto.
-- [~] Texto do estado vazio de Compras fica visualmente centralizado.
-- [~] Nenhuma dependência nova foi adicionada.
-- [~] Build será validado pelo CI.
+- [x] Primeira abertura mostra 4 slides.
+- [x] Swipe e botão avançam entre slides.
+- [x] Indicador acompanha o slide atual.
+- [x] “Pular” conclui e fecha.
+- [x] CTA final conclui e fecha.
+- [x] Reabrir o app no mesmo navegador não exibe novamente.
+- [x] Background não rola enquanto onboarding está aberto.
+- [x] Texto do estado vazio de Compras fica visualmente centralizado.
+- [x] Nenhuma dependência nova foi adicionada.
+- [x] Build será validado pelo CI.
+
+
+## Validação final
+
+- revisão estática concluída;
+- build Angular aprovado no GitHub Actions run `37244143024`;
+- PR de implementação: #39;
+- merge em `development`: `db02c036ad407ea8a66249cf9e577338de9b949f`;
+- testes unitários não executados, conforme regra operacional do projeto.
