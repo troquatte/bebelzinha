@@ -1,4 +1,4 @@
-# Tarefa — Padronizar confirmações com SweetAlert2
+# Tarefa — Feature Compras
 
 ## Modo
 
@@ -6,11 +6,16 @@ FULL
 
 ## Necessidade
 
-Registrar no SDD uma regra permanente para não esquecermos o padrão de confirmação da Bebel:
+Criar a primeira versão funcional da área Compras da Bebel.
 
-1. confirmações de salvar, editar, excluir e demais ações sensíveis devem usar SweetAlert2;
-2. exclusões e ações destrutivas devem sempre pedir confirmação antes de executar;
-3. não usar confirmações nativas do navegador nem criar modais paralelos quando SweetAlert2 resolver;
-4. instalar SweetAlert2 somente quando a primeira feature que realmente precisar dele for implementada.
+A pessoa deve poder criar múltiplas listas de compras, renomear, visualizar e excluir cada lista. Dentro de cada lista, deve poder criar, visualizar, editar, excluir e marcar/desmarcar itens como comprados.
 
-Esta mudança é somente documental e não implementa ainda a feature Compras.
+Os dados devem permanecer no dispositivo usando localStorage, sem conta, backend ou sincronização.
+
+O status de comprado deve ser controlado com `mat-slide-toggle`.
+
+A experiência deve ser mobile first, rápida para uso no mercado e ter estados vazios claros.
+
+Confirmações e ações de criar/editar/excluir devem seguir o padrão permanente com SweetAlert2. Marcar/desmarcar item é reversível e não exige confirmação.
+
+A estrutura deve permitir que, futuramente, outra feature como Comidinhas consiga adicionar itens a uma lista existente, sem implementar essa integração agora.

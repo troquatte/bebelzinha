@@ -1,0 +1,71 @@
+<section class="shopping-detail">
+  <a class="back-link" routerLink="/compras">‹ Voltar para minhas listas</a>
+
+  @if (list(); as currentList) {
+    <header class="list-header">
+      <div>
+        <p class="list-header__eyebrow">Lista de compras</p>
+        <h1>{{ currentList.name }}</h1>
+        <p>
+          {{ currentList.items.length }} {{ currentList.items.length === 1 ? 'item' : 'itens' }}
+          · {{ purchasedCount() }} {{ purchasedCount() === 1 ? 'comprado' : 'comprados' }}
+        </p>
+      </div>
+
+      <div class="list-header__actions">
+        <button class="secondary-button" type="button" (click)="editList()">Editar lista</button>
+        <button class="primary-button" type="button" (click)="addItem()">+ Adicionar item</button>
+      </div>
+    </header>
+
+    @if (items().length > 0) {
+      <section class="items-card" aria-label="Itens da lista">
+        @for (item of items(); track item.id) {
+          <article class="shopping-item" [class.shopping-item--checked]="item.checked">
+            <mat-slide-toggle
+              [checked]="item.checked"
+              [attr.aria-label]="(item.checked ? 'Desmarcar ' : 'Marcar ') + item.name + ' como comprado'"
+              (change)="toggleItem(item, $event)"
+            />
+
+            <span class="shopping-item__name">{{ item.name }}</span>
+
+            <div class="shopping-item__actions">
+              <button type="button" (click)="editItem(item)" [attr.aria-label]="'Editar ' + item.name">
+                Editar
+              </button>
+              <button
+                class="danger-action"
+                type="button"
+                (click)="deleteItem(item)"
+                [attr.aria-label]="'Excluir ' + item.name"
+              >
+                Excluir
+              </button>
+            </div>
+          </article>
+        }
+      </section>
+
+      <div class="list-footer">
+        <span>Já foi {{ purchasedCount() }} de {{ currentList.items.length }}.</span>
+        <button class="danger-link" type="button" (click)="deleteList()">Excluir lista</button>
+      </div>
+    } @else {
+      <section class="empty-state">
+        <span class="empty-state__mark" aria-hidden="true">📝</span>
+        <h2>Nada anotado ainda.</h2>
+        <p>Comece pelo que você não pode esquecer no mercado.</p>
+        <button class="primary-button" type="button" (click)="addItem()">Adicionar primeiro item</button>
+        <button class="danger-link" type="button" (click)="deleteList()">Excluir lista</button>
+      </section>
+    }
+  } @else {
+    <section class="empty-state">
+      <span class="empty-state__mark" aria-hidden="true">🤷🏾‍♀️</span>
+      <h1>Essa lista não está mais por aqui.</h1>
+      <p>Ela pode ter sido apagada ou este endereço pode estar antigo.</p>
+      <a class="primary-link" routerLink="/compras">Ver minhas listas</a>
+    </section>
+  }
+</section>
