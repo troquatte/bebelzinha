@@ -1,0 +1,71 @@
+{
+  "id": "frango-com-batata-na-assadeira",
+  "slug": "frango-com-batata-na-assadeira",
+  "title": "Frango com batata na assadeira",
+  "description": "Tudo junto no forno para um almoço simples com pouca louça.",
+  "mealTypes": [
+    "almoco",
+    "janta"
+  ],
+  "tags": [
+    "barata",
+    "rende-bem"
+  ],
+  "prepTimeMinutes": 60,
+  "servings": 5,
+  "image": "/images/recipes/frango-com-batata-na-assadeira.png",
+  "intro": "Tem dias em que o forno trabalha e a gente agradece. Tempera, monta e deixa ele fazer a parte dele.",
+  "ingredients": [
+    {
+      "id": "frango",
+      "name": "Sobrecoxa de frango",
+      "quantity": 1,
+      "unit": "kg",
+      "note": null
+    },
+    {
+      "id": "batata",
+      "name": "Batata",
+      "quantity": 5,
+      "unit": "unidades",
+      "note": "em pedaços"
+    },
+    {
+      "id": "alho",
+      "name": "Alho",
+      "quantity": 4,
+      "unit": "dentes",
+      "note": "amassados"
+    },
+    {
+      "id": "limao",
+      "name": "Limão",
+      "quantity": 1,
+      "unit": "unidade",
+      "note": "suco"
+    },
+    {
+      "id": "cebola",
+      "name": "Cebola",
+      "quantity": 1,
+      "unit": "unidade",
+      "note": "em pétalas"
+    }
+  ],
+  "steps": [
+    {
+      "order": 1,
+      "text": "Tempere o frango com alho, limão e sal."
+    },
+    {
+      "order": 2,
+      "text": "Distribua frango, batata e cebola em uma assadeira."
+    },
+    {
+      "order": 3,
+      "text": "Asse a 200 °C até o frango dourar e a batata ficar macia."
+    }
+  ],
+  "bebelTip": "Se a batata estiver muito grande, corta menor. Ninguém quer frango pronto e batata crua.",
+  "active": true
+}
