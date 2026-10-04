@@ -1,0 +1,63 @@
+{
+  "id": "mousse-de-limao",
+  "slug": "mousse-de-limao",
+  "title": "Mousse de limão rapidinha",
+  "description": "Sobremesa gelada, azedinha e feita sem forno.",
+  "mealTypes": [
+    "doce"
+  ],
+  "tags": [
+    "rapida",
+    "barata"
+  ],
+  "prepTimeMinutes": 10,
+  "servings": 6,
+  "image": "/images/recipes/mousse-de-limao.png",
+  "intro": "Misturou, gelou, acabou. Tem sobremesa que entende a nossa realidade.",
+  "ingredients": [
+    {
+      "id": "leite-condensado",
+      "name": "Leite condensado",
+      "quantity": 1,
+      "unit": "lata",
+      "note": null
+    },
+    {
+      "id": "creme",
+      "name": "Creme de leite",
+      "quantity": 1,
+      "unit": "caixinha",
+      "note": null
+    },
+    {
+      "id": "limao",
+      "name": "Limão",
+      "quantity": 4,
+      "unit": "unidades",
+      "note": "suco"
+    },
+    {
+      "id": "raspas",
+      "name": "Raspas de limão",
+      "quantity": 1,
+      "unit": "colher de sopa",
+      "note": "opcional"
+    }
+  ],
+  "steps": [
+    {
+      "order": 1,
+      "text": "Misture leite condensado e creme de leite."
+    },
+    {
+      "order": 2,
+      "text": "Adicione o suco de limão aos poucos até engrossar."
+    },
+    {
+      "order": 3,
+      "text": "Leve à geladeira por pelo menos 2 horas e finalize com raspas."
+    }
+  ],
+  "bebelTip": "Vai colocando o limão aos poucos. Dá pra azedar mais; desazedar, aí já complica.",
+  "active": true
+}
