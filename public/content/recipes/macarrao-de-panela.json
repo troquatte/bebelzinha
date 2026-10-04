@@ -1,0 +1,26 @@
+{
+  "id": "macarrao-de-panela",
+  "slug": "macarrao-de-panela",
+  "title": "Macarrão de uma panela só",
+  "description": "Macarrão prático, cremoso e com pouca louça para lavar depois.",
+  "mealTypes": ["almoco", "janta"],
+  "tags": ["rapida", "barata", "rende-bem"],
+  "prepTimeMinutes": 20,
+  "servings": 4,
+  "image": "/images/recipes/macarrao-de-panela.svg",
+  "intro": "Uma panela só já me ganhou. Se ainda fica gostoso e rende, aí não tem discussão.",
+  "ingredients": [
+    { "id": "macarrao", "name": "Macarrão penne", "quantity": 500, "unit": "g", "note": null },
+    { "id": "molho", "name": "Molho de tomate", "quantity": 2, "unit": "xícaras", "note": null },
+    { "id": "agua", "name": "Água", "quantity": 3, "unit": "xícaras", "note": null },
+    { "id": "creme", "name": "Creme de leite", "quantity": 1, "unit": "caixinha", "note": null },
+    { "id": "queijo", "name": "Queijo ralado", "quantity": 50, "unit": "g", "note": null }
+  ],
+  "steps": [
+    { "order": 1, "text": "Coloque macarrão, molho e água em uma panela grande." },
+    { "order": 2, "text": "Cozinhe mexendo de vez em quando até o macarrão ficar macio." },
+    { "order": 3, "text": "Misture o creme de leite e finalize com queijo ralado." }
+  ],
+  "bebelTip": "Se secar antes do macarrão ficar pronto, coloca mais um pouquinho de água quente.",
+  "active": true
+}

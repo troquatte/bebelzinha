@@ -1,0 +1,26 @@
+{
+  "id": "frango-cremoso",
+  "slug": "frango-cremoso",
+  "title": "Frango cremoso de panela",
+  "description": "Frango simples, cremoso e rápido para aqueles dias em que ninguém quer passar horas no fogão.",
+  "mealTypes": ["almoco", "janta"],
+  "tags": ["rapida", "barata"],
+  "prepTimeMinutes": 25,
+  "servings": 4,
+  "image": "/images/recipes/frango-cremoso.svg",
+  "intro": "Hoje é dia de resolver sem inventar moda. Uma panela, poucos ingredientes e almoço no jeito.",
+  "ingredients": [
+    { "id": "frango", "name": "Peito de frango", "quantity": 500, "unit": "g", "note": "em cubos" },
+    { "id": "cebola", "name": "Cebola", "quantity": 1, "unit": "unidade", "note": "picada" },
+    { "id": "alho", "name": "Alho", "quantity": 2, "unit": "dentes", "note": "picados" },
+    { "id": "creme", "name": "Creme de leite", "quantity": 1, "unit": "caixinha", "note": null },
+    { "id": "tomate", "name": "Tomate", "quantity": 1, "unit": "unidade", "note": "picado" }
+  ],
+  "steps": [
+    { "order": 1, "text": "Doure o frango com um fio de óleo e uma pitada de sal." },
+    { "order": 2, "text": "Junte cebola, alho e tomate e cozinhe até amolecer." },
+    { "order": 3, "text": "Desligue o fogo, misture o creme de leite e ajuste o sal." }
+  ],
+  "bebelTip": "Se tiver cheiro-verde, finaliza por cima. Parece detalhe, mas dá outra vida.",
+  "active": true
+}
