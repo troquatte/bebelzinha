@@ -1,1 +1,75 @@
-<router-outlet />
+<div class="app-shell">
+  <aside class="sidebar" aria-label="Navegação principal">
+    <a class="brand" routerLink="/" aria-label="Bebel - início">
+      <span class="brand__mark" aria-hidden="true">B</span>
+      <span class="brand__text">
+        <strong>Bebel</strong>
+        <small>A Bebel sabe das coisas</small>
+      </span>
+    </a>
+
+    <nav class="sidebar__nav" aria-label="Seções da Bebel">
+      <a class="nav-item nav-item--active" routerLink="/" aria-current="page">
+        <span class="nav-item__icon" aria-hidden="true">⌂</span>
+        <span>Início</span>
+      </a>
+
+      <span class="nav-item nav-item--disabled" aria-disabled="true">
+        <span class="nav-item__icon" aria-hidden="true">✓</span>
+        <span>Casa</span>
+        <small>Em breve</small>
+      </span>
+
+      <span class="nav-item nav-item--disabled" aria-disabled="true">
+        <span class="nav-item__icon" aria-hidden="true">♡</span>
+        <span>Comidinhas</span>
+        <small>Em breve</small>
+      </span>
+
+      <span class="nav-item nav-item--disabled" aria-disabled="true">
+        <span class="nav-item__icon" aria-hidden="true">☷</span>
+        <span>Compras</span>
+        <small>Em breve</small>
+      </span>
+
+      <span class="nav-item nav-item--disabled" aria-disabled="true">
+        <span class="nav-item__icon" aria-hidden="true">✦</span>
+        <span>Achadinhos</span>
+        <small>Em breve</small>
+      </span>
+    </nav>
+
+    <p class="sidebar__note">Sua rotina de casa, sem complicação 💜</p>
+  </aside>
+
+  <main class="app-content" id="conteudo-principal">
+    <router-outlet />
+  </main>
+
+  <nav class="bottom-nav" aria-label="Navegação principal">
+    <a class="bottom-nav__item bottom-nav__item--active" routerLink="/" aria-current="page">
+      <span class="bottom-nav__icon" aria-hidden="true">⌂</span>
+      <span>Início</span>
+    </a>
+
+    <span class="bottom-nav__item bottom-nav__item--disabled" aria-disabled="true">
+      <span class="bottom-nav__icon" aria-hidden="true">✓</span>
+      <span>Casa</span>
+    </span>
+
+    <span class="bottom-nav__item bottom-nav__item--disabled" aria-disabled="true">
+      <span class="bottom-nav__icon" aria-hidden="true">♡</span>
+      <span>Comidinhas</span>
+    </span>
+
+    <span class="bottom-nav__item bottom-nav__item--disabled" aria-disabled="true">
+      <span class="bottom-nav__icon" aria-hidden="true">☷</span>
+      <span>Compras</span>
+    </span>
+
+    <span class="bottom-nav__item bottom-nav__item--disabled" aria-disabled="true">
+      <span class="bottom-nav__icon" aria-hidden="true">✦</span>
+      <span>Achados</span>
+    </span>
+  </nav>
+</div>
