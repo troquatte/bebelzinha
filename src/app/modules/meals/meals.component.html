@@ -100,6 +100,11 @@
       <div class="guide-card__heading">
         <h2 id="guide-title">Prontinho. Filtrei aqui embaixo pra você.</h2>
         <p>Agora é só bater o olho e ver qual tem mais cara de hoje.</p>
+
+        <div class="guide-card__actions">
+          <button type="button" (click)="restartGuide()">Filtrar novamente</button>
+          <button class="guide-card__actions-cancel" type="button" (click)="cancelFilter()">Cancelar filtro</button>
+        </div>
       </div>
     }
   </section>

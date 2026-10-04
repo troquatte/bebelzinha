@@ -98,6 +98,16 @@ export class MealsComponent {
     this.resetPagination();
   }
 
+  restartGuide(): void {
+    this.guideStep.set('need');
+  }
+
+  cancelFilter(): void {
+    this.clearFilters();
+    this.guideStep.set('need');
+    this.resetPagination();
+  }
+
   toggleSaved(recipe: Recipe): void {
     this.store.toggleSaved(recipe.id);
   }
