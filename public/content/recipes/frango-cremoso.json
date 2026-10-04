@@ -7,7 +7,7 @@
   "tags": ["rapida", "barata"],
   "prepTimeMinutes": 25,
   "servings": 4,
-  "image": "/images/recipes/frango-cremoso.png",
+  "image": "/images/recipes/frango-cremoso.jpg",
   "intro": "Hoje é dia de resolver sem inventar moda. Uma panela, poucos ingredientes e almoço no jeito.",
   "ingredients": [
     { "id": "frango", "name": "Peito de frango", "quantity": 500, "unit": "g", "note": "em cubos" },
