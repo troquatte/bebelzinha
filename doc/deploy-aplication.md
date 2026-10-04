@@ -3,7 +3,7 @@
 _Este manual descreve o passo a passo exato para provisionar as VPS de modo independente (Standalone). Ao abandonar arquiteturas complexas de Swarm, garantimos máxima performance de rede, simplicidade no dia a dia e eliminação total de conflitos na geração de certificados SSL._
 
 Admin: admin
-Senha: Pamonhapamonha.191
+Senha: defina uma senha forte fora do repositório
 
 ---
 
@@ -113,8 +113,8 @@ A Evolution API é nosso motor de disparo e escuta de webhooks do WhatsApp, que 
 - Cole o respectivo código (`docker-portainer-evolution-api.dev.compose.yml` ou `.prod.compose.yml`).
 - A API irá inicializar validando o banco e ficará exposta com certificado SSL próprio: *https://evolutionapi-dev.vidafullstack.academy* ou *https://evolutionapi.vidafullstack.academy* na porta primária `8080`.
 - **Credenciais Fixas (Dev):**
-  - Host Postgres: `postgres-dev` com a senha `@Pamonhapamonha191_`
-  - Chave de Autenticação API Padrão (`AUTHENTICATION_API_KEY`): `5d4607af1082516ae707d0702d59fb41` (Lembre-se de mudar isso imediatamente em produção dentro da variável de ambiente no Portainer).
+  - Host Postgres: `postgres-dev` com a senha definida fora do repositório
+  - Chave de Autenticação API (`AUTHENTICATION_API_KEY`): defina via secret/variável de ambiente (Lembre-se de mudar isso imediatamente em produção dentro da variável de ambiente no Portainer).
 
 > ⚠️ A Evolution API está desenhada para rodar em modo Multi-Database do Redis usando o Index `#1` em Dev. Caso note algum conflito com instâncias de Cache, você pode mapear `CACHE_REDIS_URI` com o final `/2` no painel do Portainer.
 
