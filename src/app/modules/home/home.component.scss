@@ -68,33 +68,6 @@
   letter-spacing: -0.055em;
 }
 
-.hero__intro {
-  max-width: 38rem;
-  margin: 1rem 0 0;
-  color: var(--bebel-text-soft);
-  font-size: 0.98rem;
-  line-height: 1.58;
-}
-
-.hero__status {
-  display: flex;
-  align-items: center;
-  gap: 0.55rem;
-  margin-top: 1rem;
-  color: var(--bebel-text);
-  font-size: 0.78rem;
-  font-weight: 800;
-}
-
-.hero__status-dot {
-  width: 0.68rem;
-  height: 0.68rem;
-  border: 0.14rem solid #fff;
-  border-radius: 50%;
-  background: var(--bebel-green);
-  box-shadow: 0 0 0 0.08rem var(--bebel-green);
-}
-
 .hero__portrait-wrap {
   position: relative;
   width: min(86%, 21rem);
@@ -300,13 +273,6 @@
   color: #23754a;
 }
 
-.feature-card__topline {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 0.75rem;
-}
-
 .feature-card__icon {
   display: grid;
   width: 2.45rem;
@@ -329,17 +295,26 @@
   font-weight: 900;
 }
 
+.feature-card__heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
 .feature-card h3 {
-  margin: 1rem 0 0.3rem;
+  margin: 0;
   color: var(--bebel-text);
   font-size: 1rem;
+  font-weight: 800;
 }
 
 .feature-card p {
-  margin: 0;
+  margin: 0.65rem 0 0;
   color: var(--bebel-text-soft);
-  font-size: 0.8rem;
-  line-height: 1.48;
+  font-size: 14px;
+  line-height: 110%;
 }
 
 .bebel-note {
