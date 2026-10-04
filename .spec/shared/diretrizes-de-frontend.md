@@ -80,6 +80,8 @@ Não espalhe valores mágicos quando o valor representa uma decisão recorrente 
 
 A tipografia textual do app deve seguir uma fonte de verdade global em `src/styles.scss`, salvo necessidade de produto explicitamente documentada.
 
+O arquivo `src/styles.scss` precisa permanecer carregado pelo Angular em `angular.json`, depois de `src/styles.css`. O `styles.css` mantém o Tailwind; o `styles.scss` aplica os estilos globais da Bebel por último para prevalecer sobre resets/preflight quando necessário.
+
 Padrões globais:
 
 - `h1` e `h2`: `font-size: fn.rem-calc(38)`, `line-height: 120%`, `margin: 0` e `font-weight: bold`;

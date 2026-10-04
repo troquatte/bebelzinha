@@ -55,6 +55,10 @@ UI, estado e serviços ligados a uma área funcional do produto.
 
 O design system vive em `src/scss/`.
 
+Entradas globais:
+- `src/styles.css` — carrega Tailwind CSS;
+- `src/styles.scss` — carrega o SCSS global da Bebel e deve vir depois de `styles.css` em `angular.json`.
+
 Antes de criar valores novos, verificar tokens, variáveis, mixins e componentes existentes.
 
 ## Limites

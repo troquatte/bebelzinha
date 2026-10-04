@@ -1,17 +1,25 @@
-# Tarefa — Ordem dos heroes e tipografia global
+# Tarefa — Corrigir carregamento dos estilos globais
 
 ## Modo
 
 FULL
 
+## Problema
+
+A tipografia definida em `src/styles.scss` não aparece na aplicação. Home e Lista de compras continuam com headings e parágrafos pequenos mesmo após a padronização global.
+
+## Causa identificada
+
+`angular.json` carrega apenas:
+
+- `src/material-theme.scss`;
+- `src/styles.css`.
+
+O arquivo `src/styles.scss`, que contém as regras globais de `h1` a `h6` e `p`, não está incluído no build da aplicação.
+
 ## Necessidade
 
-1. Em todos os headers que exibem a imagem da Bebel, deixar a imagem à esquerda e o texto à direita.
-2. Padronizar a tipografia da aplicação inteira:
-   - `h1` e `h2`: `line-height: 120%`, `margin: 0`, `font-size: 38px` convertido com `rem-calc` e `font-weight: bold`;
-   - `h3`, `h4`, `h5` e `h6`: `line-height: 120%`, `margin: 0`, `font-size: 18px` convertido com `rem-calc` e `font-weight: bold`;
-   - `p`: `margin: 0.75rem 0 0`, `font-size: 16px` convertido com `rem-calc` e `line-height: 120%`.
-3. Fazer esses padrões partirem do SCSS global e remover sobrescritas locais que impedem a consistência.
-4. Corrigir labels que estavam usando `p` apenas para estilo, evitando que precisem quebrar a regra global.
-
-Atenção especial para não manter estilos conflitantes ou sem efeito.
+1. carregar `src/styles.scss` globalmente;
+2. manter `src/styles.css` para Tailwind;
+3. garantir que `styles.scss` seja carregado depois de `styles.css`, para a tipografia da Bebel prevalecer;
+4. registrar essa organização no SDD para evitar regressão.
