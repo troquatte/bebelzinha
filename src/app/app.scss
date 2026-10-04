@@ -166,6 +166,7 @@ a:focus-visible {
   }
 
   .sidebar__eyebrow {
+    display: block;
     margin: 0.7rem 0.8rem 0.45rem;
     color: var(--bebel-orange);
     font-size: 0.68rem;
@@ -234,10 +235,6 @@ a:focus-visible {
     font-weight: 900;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-  }
-
-  .sidebar__note p {
-    margin: 0;
   }
 
   .app-content {
