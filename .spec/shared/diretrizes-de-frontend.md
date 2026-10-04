@@ -80,7 +80,7 @@ Não espalhe valores mágicos quando o valor representa uma decisão recorrente 
 
 A tipografia textual do app deve seguir estes padrões globais, salvo necessidade de produto explicitamente documentada:
 
-- `h1`, `h2`, `h3`, `h4` e `h5`: `font-weight: 700`;
+- `h1`, `h2`, `h3`, `h4` e `h5`: `font-weight: 950`;
 - parágrafos `p`: `font-size: 0.875rem` (14px na base de 16px) e `line-height: 110%`.
 
 Evitar redefinir esses valores em componentes sem necessidade real, para não criar inconsistência visual.
