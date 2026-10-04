@@ -41,7 +41,13 @@ A arquitetura técnica deve acompanhar esse princípio:
 
 - **Node.js 22.22.3**
 
-## Back-end
+## Back-end futuro, quando necessário
+
+**Estado atual:** a Bebel não possui backend ativo como parte da arquitetura corrente.
+
+Não criar backend, banco, autenticação ou infraestrutura relacionada apenas por antecipação.
+
+Se uma necessidade real do produto exigir backend, a stack preferencial é:
 
 - Node.js 22.22.3
 - Express
@@ -50,19 +56,22 @@ A arquitetura técnica deve acompanhar esse princípio:
 - JSON
 - Prisma ORM
 
-## Dados
+## Dados futuros, quando necessários
 
-- PostgreSQL como banco relacional principal
+A aplicação não possui banco relacional como requisito atual.
 
-## Infraestrutura local
-
-Docker Compose quando necessário para serviços como:
+Se persistência server-side passar a ser necessária, a preferência é:
 
 - PostgreSQL
-- Redis
-- MinIO
+- Prisma ORM
 
-Arquivos relacionados à infraestrutura local devem ficar preferencialmente em:
+## Infraestrutura local futura
+
+Docker Compose só deve ser introduzido quando existir serviço real a subir localmente, como PostgreSQL, Redis ou MinIO.
+
+Enquanto esses serviços não fizerem parte da aplicação corrente, não criar infraestrutura apenas para deixá-la pronta.
+
+Quando necessária, a infraestrutura local deve ficar preferencialmente em:
 
 ```text
 doc/docker/local/
@@ -367,11 +376,13 @@ Evitar aparência de:
 
 ---
 
-# 15. Integração com API
+# 15. Integração com API futura
 
-O front-end Angular consome uma API REST.
+No estado atual, a Bebel não depende de API própria.
 
-Fluxo padrão:
+Quando uma funcionalidade realmente exigir comunicação com backend, utilizar `HttpClient` e preferir uma API REST simples em HTTP + JSON.
+
+Fluxo de referência futuro:
 
 ```text
 Angular SPA
@@ -387,21 +398,19 @@ Prisma
 PostgreSQL
 ```
 
-Utilizar `HttpClient` para comunicação.
+Esse fluxo é uma preferência futura, não uma arquitetura que deva ser criada antecipadamente.
 
-Exemplo:
-
-```ts
-this.http.get<Item[]>('/api/items');
-```
-
-Não realizar acesso direto ao banco pelo front-end.
+O front-end nunca deve acessar banco de dados diretamente.
 
 ---
 
-# 16. Backend
+# 16. Backend futuro
 
-O backend utiliza:
+Não existe backend obrigatório no produto atual.
+
+Somente criar backend quando uma spec demonstrar necessidade concreta de persistência server-side, autenticação, integração protegida ou outra responsabilidade que não possa permanecer adequadamente no front-end.
+
+Quando necessário, a preferência técnica é:
 
 ```text
 Node.js 22.22.3
@@ -411,29 +420,15 @@ Express
 TypeScript
 ```
 
-A estrutura deve permanecer simples.
+A implementação deve começar pequena e crescer conforme a necessidade real.
 
-Exemplo:
-
-```text
-src/
-  modules/
-    customer/
-      customer.routes.ts
-      customer.controller.ts
-      customer.service.ts
-      customer.repository.ts
-```
-
-Entretanto, não é obrigatório criar todas essas camadas para toda funcionalidade.
-
-Se uma funcionalidade for simples, evitar criar arquivos e abstrações sem necessidade.
+Não criar previamente camadas, módulos, repositories, controllers ou abstrações apenas para preparar uma arquitetura futura.
 
 ---
 
-# 17. API REST
+# 17. API REST futura
 
-A comunicação deve utilizar:
+Quando existir backend e uma API for necessária, a comunicação deve utilizar:
 
 ```text
 HTTP + JSON
@@ -468,9 +463,9 @@ Exemplos:
 
 ---
 
-# 18. Tratamento de erros
+# 18. Tratamento de erros no backend futuro
 
-O backend deve possuir tratamento centralizado de erros.
+Quando existir backend, o tratamento de erros deve ser centralizado sempre que isso reduzir duplicação e melhorar previsibilidade.
 
 Evitar repetir:
 
@@ -501,21 +496,19 @@ O front-end deve transformar essas respostas em mensagens compreensíveis.
 
 ---
 
-# 19. Banco de dados
+# 19. Banco de dados futuro
 
-Utilizar:
+Não existe banco de dados obrigatório no estado atual da aplicação.
+
+Quando uma necessidade real exigir persistência server-side, preferir:
 
 ```text
 PostgreSQL
-```
-
-com:
-
-```text
++
 Prisma ORM
 ```
 
-Prisma deve concentrar:
+Nesse cenário, Prisma deve concentrar:
 
 - schema;
 - migrations;
@@ -944,7 +937,7 @@ Arquitetura preparada para mudança é mais importante do que arquitetura prepar
 
 # 41. Testes
 
-Testar prioritariamente:
+Como diretriz geral de engenharia, quando testes forem necessários, priorizar:
 
 - regras importantes;
 - comportamentos críticos;
@@ -954,7 +947,9 @@ Testar prioritariamente:
 
 Não perseguir cobertura de 100% como objetivo isolado.
 
-O objetivo é confiança para modificar o produto.
+No fluxo automatizado do ChatGPT, testes unitários não fazem parte da validação padrão. A regra operacional definida em `.agents/SDD-CHATGPT.md` prevalece: não criar, alterar ou executar testes unitários por padrão, exceto quando houver solicitação explícita ou necessidade específica prevista pelo próprio protocolo.
+
+O objetivo continua sendo confiança proporcional ao risco, sem transformar testes em burocracia automática.
 
 ---
 
