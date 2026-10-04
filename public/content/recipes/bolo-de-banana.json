@@ -7,7 +7,7 @@
   "tags": ["barata", "aproveitamento", "rende-bem"],
   "prepTimeMinutes": 45,
   "servings": 8,
-  "image": "/images/recipes/bolo-de-banana.svg",
+  "image": "/images/recipes/bolo-de-banana.jpg",
   "intro": "Banana ficando pintadinha na fruteira não é problema. É aviso de bolo.",
   "ingredients": [
     { "id": "banana", "name": "Banana madura", "quantity": 4, "unit": "unidades", "note": null },

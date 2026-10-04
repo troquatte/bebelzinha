@@ -11,7 +11,8 @@
   }
 
   .mdc-switch__track::after,
-  .mdc-switch:enabled:focus:not(:active) .mdc-switch__track::after {
+  .mdc-switch:enabled:focus:not(:active) .mdc-switch__track::after,
+  .mdc-switch:enabled:hover:not(:focus):not(:active) .mdc-switch__track::after {
     background: var(
       --mat-slide-toggle-unselected-track-color,
       var(--mat-sys-surface-variant)

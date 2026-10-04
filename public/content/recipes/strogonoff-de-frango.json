@@ -1,0 +1,71 @@
+{
+  "id": "strogonoff-de-frango",
+  "slug": "strogonoff-de-frango",
+  "title": "Strogonoff de frango simples",
+  "description": "Cremoso, rápido e com cara de almoço que agrada todo mundo.",
+  "mealTypes": [
+    "almoco",
+    "janta"
+  ],
+  "tags": [
+    "rapida",
+    "rende-bem"
+  ],
+  "prepTimeMinutes": 30,
+  "servings": 4,
+  "image": "/images/recipes/strogonoff-de-frango.jpg",
+  "intro": "Frango, creme e arroz do lado. Tem dia que o básico bem feito resolve tudo.",
+  "ingredients": [
+    {
+      "id": "frango",
+      "name": "Peito de frango",
+      "quantity": 500,
+      "unit": "g",
+      "note": "em cubos"
+    },
+    {
+      "id": "cebola",
+      "name": "Cebola",
+      "quantity": 1,
+      "unit": "unidade",
+      "note": "picada"
+    },
+    {
+      "id": "molho",
+      "name": "Molho de tomate",
+      "quantity": 0.5,
+      "unit": "xícara",
+      "note": null
+    },
+    {
+      "id": "mostarda",
+      "name": "Mostarda",
+      "quantity": 2,
+      "unit": "colheres de sopa",
+      "note": null
+    },
+    {
+      "id": "creme",
+      "name": "Creme de leite",
+      "quantity": 1,
+      "unit": "caixinha",
+      "note": null
+    }
+  ],
+  "steps": [
+    {
+      "order": 1,
+      "text": "Doure o frango com a cebola e uma pitada de sal."
+    },
+    {
+      "order": 2,
+      "text": "Junte molho de tomate e mostarda e cozinhe por alguns minutos."
+    },
+    {
+      "order": 3,
+      "text": "Desligue o fogo, misture o creme de leite e sirva."
+    }
+  ],
+  "bebelTip": "Se tiver champignon e gostar, pode colocar. Se não tiver, ninguém vai preso por isso.",
+  "active": true
+}

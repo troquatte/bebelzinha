@@ -1,0 +1,73 @@
+{
+  "id": "torta-de-liquidificador-de-legumes",
+  "slug": "torta-de-liquidificador-de-legumes",
+  "title": "Torta de liquidificador de legumes",
+  "description": "Massa prática e recheio que aceita os legumes que estiverem dando sopa na geladeira.",
+  "mealTypes": [
+    "almoco",
+    "janta",
+    "cafe-lanche"
+  ],
+  "tags": [
+    "barata",
+    "aproveitamento",
+    "rende-bem"
+  ],
+  "prepTimeMinutes": 50,
+  "servings": 8,
+  "image": "/images/recipes/torta-de-liquidificador-de-legumes.jpg",
+  "intro": "Essa receita é amiga da gaveta de legumes. O que está sobrando pode muito bem virar recheio.",
+  "ingredients": [
+    {
+      "id": "ovos",
+      "name": "Ovos",
+      "quantity": 3,
+      "unit": "unidades",
+      "note": null
+    },
+    {
+      "id": "leite",
+      "name": "Leite",
+      "quantity": 2,
+      "unit": "xícaras",
+      "note": null
+    },
+    {
+      "id": "farinha",
+      "name": "Farinha de trigo",
+      "quantity": 2,
+      "unit": "xícaras",
+      "note": null
+    },
+    {
+      "id": "fermento",
+      "name": "Fermento químico",
+      "quantity": 1,
+      "unit": "colher de sopa",
+      "note": null
+    },
+    {
+      "id": "legumes",
+      "name": "Legumes variados",
+      "quantity": 2,
+      "unit": "xícaras",
+      "note": "cozidos e picados"
+    }
+  ],
+  "steps": [
+    {
+      "order": 1,
+      "text": "Bata ovos, leite e farinha no liquidificador."
+    },
+    {
+      "order": 2,
+      "text": "Misture o fermento rapidamente."
+    },
+    {
+      "order": 3,
+      "text": "Coloque metade da massa, espalhe os legumes, cubra com o restante e asse a 180 °C até dourar."
+    }
+  ],
+  "bebelTip": "Milho, cenoura, ervilha, abobrinha... usa o que tiver. A torta não é fiscal de geladeira.",
+  "active": true
+}

@@ -1,4 +1,4 @@
-# Tarefa — Ajustar cores do slide toggle
+# Tarefa — Ajustes Comidinhas, Lista de compras e catálogo de receitas
 
 ## Modo
 
@@ -6,10 +6,17 @@ FULL
 
 ## Necessidade
 
-1. O track do Material slide toggle deve usar o background padrão não selecionado:
-   `var(--mat-slide-toggle-unselected-track-color, var(--mat-sys-surface-variant))`
-   tanto em `.mdc-switch__track::after` quanto no estado de foco `.mdc-switch:enabled:focus:not(:active) .mdc-switch__track::after`.
+1. Remover o label “A Bebel separou” do estado de sugestões em Comidinhas.
 
-2. O handle do toggle selecionado deve usar `var(--primary) !important` em vez de `var(--green) !important`.
+2. Na tela de detalhe de Lista de compras, separar visualmente os itens pendentes dos itens já colocados no carrinho:
+   - itens pendentes em uma seção superior;
+   - itens marcados como comprados em uma seção inferior;
+   - usar nomes naturais e claros para as duas áreas;
+   - manter o comportamento do slide toggle.
 
-3. Preservar o restante das customizações existentes do componente.
+3. No Material slide toggle, garantir que o hover sem foco/ativo do track use:
+   `var(--mat-slide-toggle-unselected-track-color, var(--mat-sys-surface-variant))`.
+
+4. Expandir o catálogo local para 21 receitas no total, contando as já existentes.
+
+5. Cada uma das 21 receitas deve ter uma imagem própria, realista, coerente com o prato e adequada aos cards e página de receita.

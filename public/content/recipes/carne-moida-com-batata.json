@@ -1,0 +1,71 @@
+{
+  "id": "carne-moida-com-batata",
+  "slug": "carne-moida-com-batata",
+  "title": "Carne moída com batata",
+  "description": "Comida de panela simples, econômica e boa para acompanhar arroz e feijão.",
+  "mealTypes": [
+    "almoco",
+    "janta"
+  ],
+  "tags": [
+    "barata",
+    "rende-bem"
+  ],
+  "prepTimeMinutes": 35,
+  "servings": 4,
+  "image": "/images/recipes/carne-moida-com-batata.jpg",
+  "intro": "Essa é daquelas comidas que não precisam de apresentação. Faz, serve e todo mundo entende.",
+  "ingredients": [
+    {
+      "id": "carne",
+      "name": "Carne moída",
+      "quantity": 500,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "id": "batata",
+      "name": "Batata",
+      "quantity": 3,
+      "unit": "unidades",
+      "note": "em cubos"
+    },
+    {
+      "id": "cebola",
+      "name": "Cebola",
+      "quantity": 1,
+      "unit": "unidade",
+      "note": "picada"
+    },
+    {
+      "id": "alho",
+      "name": "Alho",
+      "quantity": 2,
+      "unit": "dentes",
+      "note": "picados"
+    },
+    {
+      "id": "tomate",
+      "name": "Tomate",
+      "quantity": 1,
+      "unit": "unidade",
+      "note": "picado"
+    }
+  ],
+  "steps": [
+    {
+      "order": 1,
+      "text": "Refogue a cebola, o alho e a carne até dourar."
+    },
+    {
+      "order": 2,
+      "text": "Junte o tomate e a batata e misture bem."
+    },
+    {
+      "order": 3,
+      "text": "Adicione um pouco de água, tampe e cozinhe até a batata ficar macia."
+    }
+  ],
+  "bebelTip": "Uma cenoura picadinha aí no meio também funciona muito bem.",
+  "active": true
+}
