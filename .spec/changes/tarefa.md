@@ -1,4 +1,4 @@
-# Tarefa — Simplificar catálogo de Comidinhas
+# Tarefa — Ações do filtro guiado e ajuste do Pages
 
 ## Modo
 
@@ -6,11 +6,9 @@ FULL
 
 ## Necessidade
 
-Remover o bloco visual de busca e filtros externos de Comidinhas mostrado no print.
-
-Manter apenas:
-- o fluxo de cliques da Bebel para escolher o que a pessoa quer;
-- a lista de receitas abaixo, filtrada conforme essas escolhas;
-- sem escolha da Bebel, a lista deve carregar todas as receitas normalmente;
-- manter o carregamento progressivo de 10 em 10;
-- remover código e estilos que ficarem sem uso.
+1. Quando a Bebel terminar a filtragem, exibir duas ações:
+   - “Filtrar novamente”: volta para a primeira pergunta, mantendo o filtro atual visível até a nova escolha.
+   - “Cancelar filtro”: limpa os filtros e volta a mostrar todas as receitas.
+2. Manter a lista de receitas sem busca/chips externos.
+3. Corrigir o workflow do GitHub Pages removendo a tentativa de habilitar Pages via GITHUB_TOKEN, pois o GitHub retorna “Resource not accessible by integration”.
+4. A habilitação inicial do Pages deve ser feita manualmente nas configurações do repositório público, com Source = GitHub Actions.
