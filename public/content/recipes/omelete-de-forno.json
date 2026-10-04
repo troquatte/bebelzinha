@@ -7,7 +7,7 @@
   "tags": ["barata", "rende-bem", "aproveitamento"],
   "prepTimeMinutes": 30,
   "servings": 4,
-  "image": "/images/recipes/omelete-de-forno.svg",
+  "image": "/images/recipes/omelete-de-forno.png",
   "intro": "Tem ovo e uns restinhos de legumes? Então já tem caminho pra janta.",
   "ingredients": [
     { "id": "ovos", "name": "Ovos", "quantity": 6, "unit": "unidades", "note": null },
