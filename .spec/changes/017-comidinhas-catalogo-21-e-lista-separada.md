@@ -36,7 +36,14 @@ Melhorar a clareza da Lista de compras, ajustar detalhes visuais de Comidinhas e
 
 ## Validação
 
-Revisão estática do fluxo, catálogo e estilos.
+Revisão estática concluída:
+
+- catálogo com 21 slugs no `index.json`;
+- 21 arquivos JPG locais presentes em `public/images/recipes/`;
+- cada receita aponta para seu caminho local `.jpg`;
+- fluxo de Compras separado por status sem alterar persistência;
+- estilo do toggle cobre foco e hover não ativo;
+- label redundante removido de Comidinhas.
 
 Executar ao final:
 
