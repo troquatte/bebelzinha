@@ -7,7 +7,7 @@
   "tags": ["rapida", "barata", "rende-bem"],
   "prepTimeMinutes": 20,
   "servings": 4,
-  "image": "/images/recipes/macarrao-de-panela.jpg",
+  "image": "images/recipes/macarrao-de-panela.jpg",
   "intro": "Uma panela só já me ganhou. Se ainda fica gostoso e rende, aí não tem discussão.",
   "ingredients": [
     { "id": "macarrao", "name": "Macarrão penne", "quantity": 500, "unit": "g", "note": null },

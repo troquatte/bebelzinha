@@ -67,6 +67,13 @@ Conteúdo estruturado da Bebel que não pertence a componentes pode ficar em `pu
 
 Comidinhas usa `public/content/recipes/`, com um `index.json` e um arquivo JSON por receita. A interface consome um contrato próprio e não deve depender da futura origem dos dados.
 
+## SEO e publicação estática
+
+- `src/app/core/seo.service.ts` centraliza title, description, Open Graph, Twitter Card e canonical no runtime.
+- `scripts/generate-pages.mjs` gera shells HTML estáticos para rotas públicas relevantes durante o deploy, preservando metadata específica sem SSR.
+- `.github/workflows/pages.yml` valida o build e publica a saída Angular no GitHub Pages quando Pages estiver habilitado no repositório.
+- Assets públicos usados por rotas devem respeitar o `base href`, evitando caminhos absolutos iniciados por `/` quando o app estiver hospedado em subdiretório.
+
 ## Limites
 
 - componentes visuais não devem concentrar regras de negócio complexas;

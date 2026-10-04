@@ -1,7 +1,8 @@
-import { ChangeDetectionStrategy, Component, computed, inject, signal } from '@angular/core';
+import { ChangeDetectionStrategy, Component, computed, effect, inject, signal } from '@angular/core';
 import { ActivatedRoute, RouterLink } from '@angular/router';
 import Swal from 'sweetalert2';
 
+import { SeoService } from '../../core/seo.service';
 import { ShoppingStore } from '../shopping/shopping.store';
 import { RecipeIngredient } from './meals.models';
 import { MealsStore } from './meals.store';
@@ -16,6 +17,7 @@ import { RecipeCatalog } from './recipe-catalog.service';
 })
 export class RecipeComponent {
   private readonly route = inject(ActivatedRoute);
+  private readonly seo = inject(SeoService);
   readonly catalog = inject(RecipeCatalog);
   readonly mealsStore = inject(MealsStore);
   readonly shoppingStore = inject(ShoppingStore);
@@ -23,6 +25,20 @@ export class RecipeComponent {
   readonly slug = this.route.snapshot.paramMap.get('slug') ?? '';
   readonly recipe = computed(() => this.catalog.recipes().find((recipe) => recipe.slug === this.slug));
   readonly selectedIngredientIds = signal<string[]>([]);
+
+  constructor() {
+    effect(() => {
+      const recipe = this.recipe();
+
+      this.seo.update({
+        title: recipe ? `${recipe.title} - Receita da Bebel` : 'Receita - Comidinhas da Bebel',
+        description:
+          recipe?.description ??
+          'Receitas simples da Bebel para facilitar almoço, jantar, lanche e a rotina da casa.',
+        path: this.slug ? `/comidinhas/${this.slug}` : '/comidinhas',
+      });
+    });
+  }
 
   toggleSaved(): void {
     const recipe = this.recipe();

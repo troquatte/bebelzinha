@@ -1,8 +1,9 @@
-import { ChangeDetectionStrategy, Component, computed, inject } from '@angular/core';
+import { ChangeDetectionStrategy, Component, computed, effect, inject } from '@angular/core';
 import { MatSlideToggleChange, MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import Swal from 'sweetalert2';
 
+import { SeoService } from '../../core/seo.service';
 import { ShoppingItem } from './shopping.models';
 import { ShoppingStore } from './shopping.store';
 
@@ -16,6 +17,7 @@ import { ShoppingStore } from './shopping.store';
 export class ShoppingListComponent {
   private readonly route = inject(ActivatedRoute);
   private readonly router = inject(Router);
+  private readonly seo = inject(SeoService);
   readonly store = inject(ShoppingStore);
 
   readonly listId = this.route.snapshot.paramMap.get('listId') ?? '';
@@ -29,6 +31,19 @@ export class ShoppingListComponent {
   readonly purchasedCount = computed(
     () => this.list()?.items.filter((item) => item.checked).length ?? 0,
   );
+
+  constructor() {
+    effect(() => {
+      const list = this.list();
+
+      this.seo.update({
+        title: list ? `${list.name} - Lista de compras | Bebel` : 'Lista de compras - Bebel',
+        description:
+          'Organize o que falta pegar e o que já está no carrinho com uma lista de compras simples da Bebel.',
+        path: this.listId ? `/compras/${this.listId}` : '/compras',
+      });
+    });
+  }
 
   async addItem(): Promise<void> {
     const list = this.list();

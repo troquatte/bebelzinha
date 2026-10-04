@@ -1,12 +1,14 @@
-import { ChangeDetectionStrategy, Component, computed, inject, signal } from '@angular/core';
+import { ChangeDetectionStrategy, Component, HostListener, computed, inject, signal } from '@angular/core';
 import { RouterLink } from '@angular/router';
 
-import { MealType, Recipe } from './meals.models';
+import { SeoService } from '../../core/seo.service';
+import { MealType, Recipe, RecipeTag } from './meals.models';
 import { MealsStore } from './meals.store';
 import { RecipeCatalog } from './recipe-catalog.service';
 
 type GuideNeed = 'almoco' | 'janta' | 'cafe-lanche' | 'doce' | 'rapida' | 'barata';
 type GuideStep = 'need' | 'time' | 'results';
+type RecipeTagFilter = Extract<RecipeTag, 'rapida' | 'barata' | 'rende-bem'>;
 
 @Component({
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -16,18 +18,18 @@ type GuideStep = 'need' | 'time' | 'results';
   templateUrl: './meals.component.html',
 })
 export class MealsComponent {
+  private readonly seo = inject(SeoService);
+
   readonly catalog = inject(RecipeCatalog);
   readonly store = inject(MealsStore);
 
   readonly search = signal('');
   readonly mealFilter = signal<'all' | MealType>('all');
   readonly maxTime = signal(0);
-  readonly tagFilter = signal<'all' | 'barata' | 'rende-bem'>('all');
+  readonly tagFilter = signal<'all' | RecipeTagFilter>('all');
+  readonly visibleCount = signal(10);
 
   readonly guideStep = signal<GuideStep>('need');
-  readonly guideNeed = signal<GuideNeed | null>(null);
-  readonly guideTime = signal(0);
-  readonly suggestionOffset = signal(0);
 
   readonly filteredRecipes = computed(() => {
     const query = this.normalize(this.search());
@@ -50,30 +52,15 @@ export class MealsComponent {
     });
   });
 
-  readonly guideSuggestions = computed(() => {
-    const need = this.guideNeed();
-
-    if (!need) {
-      return [];
-    }
-
-    const time = this.guideTime();
-    let matching = this.catalog.recipes().filter((recipe) => this.matchesNeed(recipe, need));
-
-    if (time) {
-      const withTime = matching.filter((recipe) => recipe.prepTimeMinutes <= time);
-      if (withTime.length > 0) {
-        matching = withTime;
-      }
-    }
-
-    if (matching.length === 0) {
-      matching = this.catalog.recipes();
-    }
-
-    const offset = matching.length ? this.suggestionOffset() % matching.length : 0;
-    return [...matching.slice(offset), ...matching.slice(0, offset)].slice(0, 3);
-  });
+  readonly visibleRecipes = computed(() => this.filteredRecipes().slice(0, this.visibleCount()));
+  readonly hasMoreRecipes = computed(() => this.visibleCount() < this.filteredRecipes().length);
+  readonly hasActiveFilters = computed(
+    () =>
+      this.search().trim().length > 0 ||
+      this.mealFilter() !== 'all' ||
+      this.maxTime() > 0 ||
+      this.tagFilter() !== 'all',
+  );
 
   readonly savedRecipes = computed(() => {
     const ids = this.store.savedRecipeIds();
@@ -85,44 +72,69 @@ export class MealsComponent {
     return this.catalog.recipes().filter((recipe) => ids.includes(recipe.id));
   });
 
+  constructor() {
+    this.seo.update({
+      title: 'Comidinhas da Bebel - Receitas simples para o dia a dia',
+      description:
+        'Receitas simples para almoço, jantar, lanche e doce. A Bebel ajuda você a escolher o que fazer e organizar a semana.',
+      path: '/comidinhas',
+    });
+  }
+
+  @HostListener('window:scroll')
+  onWindowScroll(): void {
+    if (!this.hasMoreRecipes()) {
+      return;
+    }
+
+    const documentHeight = document.documentElement.scrollHeight;
+    const currentPosition = window.innerHeight + window.scrollY;
+
+    if (currentPosition >= documentHeight - 520) {
+      this.visibleCount.update((count) => Math.min(count + 10, this.filteredRecipes().length));
+    }
+  }
+
   updateSearch(event: Event): void {
     this.search.set((event.target as HTMLInputElement).value);
+    this.resetPagination();
   }
 
-  updateMealFilter(event: Event): void {
-    this.mealFilter.set((event.target as HTMLSelectElement).value as 'all' | MealType);
+  selectMealFilter(meal: MealType): void {
+    this.mealFilter.update((current) => (current === meal ? 'all' : meal));
+    this.resetPagination();
   }
 
-  updateTimeFilter(event: Event): void {
-    this.maxTime.set(Number((event.target as HTMLSelectElement).value));
+  selectTimeFilter(minutes: number): void {
+    this.maxTime.update((current) => (current === minutes ? 0 : minutes));
+    this.resetPagination();
   }
 
-  updateTagFilter(event: Event): void {
-    this.tagFilter.set((event.target as HTMLSelectElement).value as 'all' | 'barata' | 'rende-bem');
+  selectTagFilter(tag: RecipeTagFilter): void {
+    this.tagFilter.update((current) => (current === tag ? 'all' : tag));
+    this.resetPagination();
   }
 
   chooseNeed(need: GuideNeed): void {
-    this.guideNeed.set(need);
-    this.guideTime.set(0);
-    this.suggestionOffset.set(0);
+    this.clearFilters(false);
+    if (need === 'rapida' || need === 'barata') {
+      this.tagFilter.set(need);
+    } else {
+      this.mealFilter.set(need);
+    }
+
     this.guideStep.set('time');
+    this.resetPagination();
   }
 
   chooseTime(minutes: number): void {
-    this.guideTime.set(minutes);
-    this.suggestionOffset.set(0);
+    this.maxTime.set(minutes);
     this.guideStep.set('results');
+    this.resetPagination();
   }
 
-  otherSuggestions(): void {
-    this.suggestionOffset.update((offset) => offset + 3);
-  }
-
-  restartGuide(): void {
-    this.guideNeed.set(null);
-    this.guideTime.set(0);
-    this.suggestionOffset.set(0);
-    this.guideStep.set('need');
+  showAllRecipes(): void {
+    this.clearFilters(true);
   }
 
   toggleSaved(recipe: Recipe): void {
@@ -141,16 +153,21 @@ export class MealsComponent {
     return this.store.isInWeek(recipe.id);
   }
 
-  private matchesNeed(recipe: Recipe, need: GuideNeed): boolean {
-    if (need === 'rapida') {
-      return recipe.prepTimeMinutes <= 30;
+  private clearFilters(resetGuide: boolean): void {
+    this.search.set('');
+    this.mealFilter.set('all');
+    this.maxTime.set(0);
+    this.tagFilter.set('all');
+
+    if (resetGuide) {
+      this.guideStep.set('need');
     }
 
-    if (need === 'barata') {
-      return recipe.tags.includes('barata');
-    }
+    this.resetPagination();
+  }
 
-    return recipe.mealTypes.includes(need);
+  private resetPagination(): void {
+    this.visibleCount.set(10);
   }
 
   private normalize(value: string): string {

@@ -4,7 +4,10 @@
       <span class="meals-hero__spark meals-hero__spark--one" aria-hidden="true">✦</span>
       <span class="meals-hero__spark meals-hero__spark--two" aria-hidden="true">✦</span>
       <figure class="meals-hero__portrait">
-        <img src="/images/bebel/bebel-roxa.jpg" alt="Ilustração da Bebel, uma senhora negra de cabelos brancos cacheados, óculos e roupa roxa" />
+        <img
+          src="images/bebel/bebel-roxa.jpg"
+          alt="Ilustração da Bebel, uma senhora negra de cabelos brancos cacheados, óculos e roupa roxa"
+        />
       </figure>
       <div class="meals-hero__speech">E aí, o que a gente faz hoje? 💜</div>
     </div>
@@ -16,67 +19,6 @@
       <a class="primary-link" href="#bebel-escolhe">Bebel, me ajuda a escolher</a>
     </div>
   </header>
-
-  <section class="guide-card" id="bebel-escolhe" aria-labelledby="guide-title">
-    <span class="guide-card__label">Bebel te ajuda</span>
-
-    @if (guideStep() === 'need') {
-      <h2 id="guide-title">O que você quer resolver agora?</h2>
-      <p>Escolhe uma opção. Depois eu faço só mais uma perguntinha.</p>
-
-      <div class="choice-grid">
-        <button type="button" (click)="chooseNeed('almoco')">🍛 Almoço</button>
-        <button type="button" (click)="chooseNeed('janta')">🌙 Janta</button>
-        <button type="button" (click)="chooseNeed('cafe-lanche')">☕ Café / lanche</button>
-        <button type="button" (click)="chooseNeed('doce')">🍰 Um doce</button>
-        <button type="button" (click)="chooseNeed('rapida')">⚡ Algo rápido</button>
-        <button type="button" (click)="chooseNeed('barata')">💸 Gastar pouco</button>
-      </div>
-    }
-
-    @if (guideStep() === 'time') {
-      <button class="back-button" type="button" (click)="restartGuide()">‹ Voltar</button>
-      <h2 id="guide-title">E quanto tempo você tem?</h2>
-      <p>É só pra eu não te mandar receita de uma hora quando você tem quinze minutos.</p>
-
-      <div class="choice-grid choice-grid--time">
-        <button type="button" (click)="chooseTime(15)">Até 15 min</button>
-        <button type="button" (click)="chooseTime(30)">Até 30 min</button>
-        <button type="button" (click)="chooseTime(60)">Até 1 hora</button>
-        <button type="button" (click)="chooseTime(0)">Tanto faz</button>
-      </div>
-    }
-
-    @if (guideStep() === 'results') {
-      <div class="guide-card__heading">
-        <div>
-          <h2 id="guide-title">Qual tem mais cara de hoje?</h2>
-        </div>
-        <button class="back-button" type="button" (click)="restartGuide()">Mudar escolhas</button>
-      </div>
-
-      <div class="recipe-grid recipe-grid--guide">
-        @for (recipe of guideSuggestions(); track recipe.id) {
-          <article class="recipe-card">
-            <a class="recipe-card__image" [routerLink]="['/comidinhas', recipe.slug]">
-              <img [src]="recipe.image" [alt]="recipe.title" />
-              <span>{{ recipe.prepTimeMinutes }} min</span>
-            </a>
-            <div class="recipe-card__body">
-              <h3><a [routerLink]="['/comidinhas', recipe.slug]">{{ recipe.title }}</a></h3>
-              <p>{{ recipe.description }}</p>
-              <div class="recipe-card__actions">
-                <button type="button" (click)="toggleSaved(recipe)">{{ isSaved(recipe) ? '♥ Salva' : '♡ Salvar' }}</button>
-                <button type="button" (click)="toggleWeek(recipe)">{{ isInWeek(recipe) ? '✓ Na semana' : '+ Minha semana' }}</button>
-              </div>
-            </div>
-          </article>
-        }
-      </div>
-
-      <button class="secondary-button" type="button" (click)="otherSuggestions()">Nenhuma me animou. Mostra outras</button>
-    }
-  </section>
 
   <section class="meals-section" aria-labelledby="week-title">
     <div class="section-heading">
@@ -125,49 +67,93 @@
     }
   </section>
 
-  <section class="meals-section" aria-labelledby="explore-title">
-    <div class="section-heading">
-      <div>
-        <span>Explorar</span>
-        <h2 id="explore-title">Quer procurar do seu jeito?</h2>
+  <section class="guide-card" id="bebel-escolhe" aria-labelledby="guide-title">
+    <span class="guide-card__label">Bebel te ajuda</span>
+
+    @if (guideStep() === 'need') {
+      <h2 id="guide-title">O que você quer resolver agora?</h2>
+      <p>Escolhe uma opção. Depois eu faço só mais uma perguntinha.</p>
+
+      <div class="choice-grid">
+        <button type="button" (click)="chooseNeed('almoco')">🍛 Almoço</button>
+        <button type="button" (click)="chooseNeed('janta')">🌙 Janta</button>
+        <button type="button" (click)="chooseNeed('cafe-lanche')">☕ Café / lanche</button>
+        <button type="button" (click)="chooseNeed('doce')">🍰 Um doce</button>
+        <button type="button" (click)="chooseNeed('rapida')">⚡ Algo rápido</button>
+        <button type="button" (click)="chooseNeed('barata')">💸 Gastar pouco</button>
       </div>
+    }
+
+    @if (guideStep() === 'time') {
+      <h2 id="guide-title">E quanto tempo você tem?</h2>
+      <p>É só pra eu não te mandar receita de uma hora quando você tem quinze minutos.</p>
+
+      <div class="choice-grid choice-grid--time">
+        <button type="button" (click)="chooseTime(15)">Até 15 min</button>
+        <button type="button" (click)="chooseTime(30)">Até 30 min</button>
+        <button type="button" (click)="chooseTime(60)">Até 1 hora</button>
+        <button type="button" (click)="chooseTime(0)">Tanto faz</button>
+      </div>
+    }
+
+    @if (guideStep() === 'results') {
+      <div class="guide-card__heading">
+        <h2 id="guide-title">Prontinho. Filtrei aqui embaixo pra você.</h2>
+        <p>Agora é só bater o olho e ver qual tem mais cara de hoje.</p>
+      </div>
+    }
+  </section>
+
+  <section class="recipe-browser" aria-labelledby="recipes-title">
+    <div class="recipe-browser__heading">
+      <div>
+        <span class="recipe-browser__eyebrow">Receitas</span>
+        <h2 id="recipes-title">{{ hasActiveFilters() ? 'Do jeitinho que você pediu' : 'Todas as receitinhas' }}</h2>
+      </div>
+
+      @if (hasActiveFilters()) {
+        <button class="search-more-button" type="button" (click)="showAllRecipes()">Quero procurar mais...</button>
+      }
     </div>
 
-    <div class="filters">
-      <label class="search-field">
-        <span>Buscar receita ou ingrediente</span>
-        <input type="search" placeholder="Ex.: frango, banana, macarrão..." [value]="search()" (input)="updateSearch($event)" />
-      </label>
+    <label class="search-field">
+      <span>Buscar receita ou ingrediente</span>
+      <input
+        type="search"
+        placeholder="Ex.: frango, banana, macarrão..."
+        [value]="search()"
+        (input)="updateSearch($event)"
+      />
+    </label>
 
-      <label>
-        <span>Tipo</span>
-        <select [value]="mealFilter()" (change)="updateMealFilter($event)">
-          <option value="all">Todos</option>
-          <option value="almoco">Almoço</option>
-          <option value="janta">Janta</option>
-          <option value="cafe-lanche">Café / lanche</option>
-          <option value="doce">Doce</option>
-        </select>
-      </label>
+    <div class="filter-groups" aria-label="Filtros de receitas">
+      <div class="filter-group">
+        <span>Refeição</span>
+        <div class="filter-chips">
+          <button type="button" [class.filter-chip--active]="mealFilter() === 'almoco'" (click)="selectMealFilter('almoco')">Almoço</button>
+          <button type="button" [class.filter-chip--active]="mealFilter() === 'janta'" (click)="selectMealFilter('janta')">Janta</button>
+          <button type="button" [class.filter-chip--active]="mealFilter() === 'cafe-lanche'" (click)="selectMealFilter('cafe-lanche')">Café / lanche</button>
+          <button type="button" [class.filter-chip--active]="mealFilter() === 'doce'" (click)="selectMealFilter('doce')">Doce</button>
+        </div>
+      </div>
 
-      <label>
+      <div class="filter-group">
         <span>Tempo</span>
-        <select [value]="maxTime()" (change)="updateTimeFilter($event)">
-          <option value="0">Qualquer</option>
-          <option value="15">Até 15 min</option>
-          <option value="30">Até 30 min</option>
-          <option value="60">Até 1 hora</option>
-        </select>
-      </label>
+        <div class="filter-chips">
+          <button type="button" [class.filter-chip--active]="maxTime() === 15" (click)="selectTimeFilter(15)">Até 15 min</button>
+          <button type="button" [class.filter-chip--active]="maxTime() === 30" (click)="selectTimeFilter(30)">Até 30 min</button>
+          <button type="button" [class.filter-chip--active]="maxTime() === 60" (click)="selectTimeFilter(60)">Até 1 hora</button>
+        </div>
+      </div>
 
-      <label>
+      <div class="filter-group">
         <span>Jeito</span>
-        <select [value]="tagFilter()" (change)="updateTagFilter($event)">
-          <option value="all">Qualquer</option>
-          <option value="barata">Econômica</option>
-          <option value="rende-bem">Rende bem</option>
-        </select>
-      </label>
+        <div class="filter-chips">
+          <button type="button" [class.filter-chip--active]="tagFilter() === 'rapida'" (click)="selectTagFilter('rapida')">Rápida</button>
+          <button type="button" [class.filter-chip--active]="tagFilter() === 'barata'" (click)="selectTagFilter('barata')">Econômica</button>
+          <button type="button" [class.filter-chip--active]="tagFilter() === 'rende-bem'" (click)="selectTagFilter('rende-bem')">Rende bem</button>
+        </div>
+      </div>
     </div>
 
     @if (catalog.loading()) {
@@ -178,7 +164,7 @@
       <div class="status-card">Não achei nada desse jeitinho. Tenta tirar um filtro ou buscar outro ingrediente.</div>
     } @else {
       <div class="recipe-grid">
-        @for (recipe of filteredRecipes(); track recipe.id) {
+        @for (recipe of visibleRecipes(); track recipe.id) {
           <article class="recipe-card">
             <a class="recipe-card__image" [routerLink]="['/comidinhas', recipe.slug]">
               <img [src]="recipe.image" [alt]="recipe.title" />
@@ -204,6 +190,10 @@
           </article>
         }
       </div>
+
+      @if (hasMoreRecipes()) {
+        <div class="infinite-status" aria-live="polite">Mais receitinhas aparecem conforme você desce.</div>
+      }
     }
   </section>
 </section>
