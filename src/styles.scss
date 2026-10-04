@@ -40,6 +40,11 @@ p {
 }
 
 @media (max-width: fn.rem-calc(800)) {
+  h1,
+  h2 {
+    font-size: fn.rem-calc(22);
+  }
+
   body {
     background-attachment: fixed;
     background-position: fn.rem-calc(-350) top;

@@ -98,6 +98,10 @@
   line-height: 1;
 }
 
+.bottom-nav__label {
+  text-align: center;
+}
+
 a:focus-visible {
   outline: 0.2rem solid var(--bebel-orange);
   outline-offset: 0.2rem;
