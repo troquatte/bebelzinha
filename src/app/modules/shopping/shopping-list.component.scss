@@ -37,12 +37,7 @@
   text-transform: uppercase;
 }
 
-.list-header h1 {
-  margin: 0;
-}
-
 .list-header p:last-child {
-  margin: 0.55rem 0 0;
   color: rgb(255 255 255 / 82%);
 }
 
@@ -178,13 +173,11 @@
 
 .empty-state h1,
 .empty-state h2 {
-  margin: 0.9rem 0 0;
   color: var(--bebel-primary-strong);
 }
 
 .empty-state p {
   max-width: 28rem;
-  margin: 0.55rem auto 1rem;
   color: var(--bebel-text-soft);
 }
 

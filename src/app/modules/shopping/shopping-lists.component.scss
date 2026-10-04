@@ -21,6 +21,7 @@
 }
 
 .shopping-hero__eyebrow {
+  display: block;
   margin: 0 0 0.4rem;
   color: var(--bebel-orange);
   font-weight: 900;
@@ -30,13 +31,11 @@
 
 .shopping-hero h1 {
   max-width: 38rem;
-  margin: 0;
   color: var(--bebel-primary-strong);
 }
 
 .shopping-hero__copy > p:last-of-type {
   max-width: 38rem;
-  margin: 0.75rem 0 0;
   color: var(--bebel-text-soft);
 }
 
@@ -238,7 +237,6 @@
 
 .empty-state p {
   max-width: 28rem;
-  margin: 0.55rem auto 1rem;
   color: var(--bebel-text-soft);
 }
 
@@ -263,7 +261,6 @@
 }
 
 .shopping-tip p {
-  margin: 0.2rem 0 0;
   color: var(--bebel-text-soft);
 }
 
@@ -273,7 +270,7 @@
   }
 
   .shopping-hero {
-    grid-template-columns: minmax(0, 1.25fr) minmax(14rem, 0.75fr);
+    grid-template-columns: minmax(14rem, 0.75fr) minmax(0, 1.25fr);
     align-items: center;
     padding: 2rem 2.2rem;
   }

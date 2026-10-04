@@ -52,6 +52,7 @@
 }
 
 .hero__kicker {
+  display: block;
   margin: 1.15rem 0 0.3rem;
   color: var(--bebel-orange);
   font-size: 0.92rem;
@@ -166,13 +167,8 @@
   margin-top: 0.5rem;
 }
 
-.today-card h2 {
-  margin: 0;
-}
-
 .today-card p {
   max-width: 42rem;
-  margin: 0.55rem 0 0;
   color: rgb(255 255 255 / 82%);
 }
 
@@ -190,6 +186,7 @@
 }
 
 .section-heading__eyebrow {
+  display: block;
   margin: 0 0 0.35rem;
   color: var(--bebel-orange);
   font-size: 0.7rem;
@@ -199,7 +196,6 @@
 }
 
 .section-heading h2 {
-  margin: 0;
   color: var(--bebel-primary-strong);
 }
 
@@ -267,12 +263,10 @@
 }
 
 .feature-card h3 {
-  margin: 0;
   color: var(--bebel-text);
 }
 
 .feature-card p {
-  margin: 0.65rem 0 0;
   color: var(--bebel-text-soft);
 }
 
@@ -303,13 +297,12 @@
 }
 
 .bebel-note p {
-  margin: 0.2rem 0 0;
   color: var(--bebel-text-soft);
 }
 
 @media (min-width: 44rem) {
   .hero {
-    grid-template-columns: minmax(0, 1.3fr) minmax(15rem, 0.7fr);
+    grid-template-columns: minmax(15rem, 0.7fr) minmax(0, 1.3fr);
     align-items: center;
     padding: 1.75rem;
   }

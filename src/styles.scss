@@ -16,43 +16,27 @@ body {
 }
 
 h1,
-h2,
+h2 {
+  margin: 0;
+  font-size: fn.rem-calc(38);
+  font-weight: bold;
+  line-height: 120%;
+}
+
 h3,
 h4,
-h5 {
-  font-weight: 950;
-}
-
-h1 {
-  font-size: clamp(2rem, 8vw, 3.6rem);
-  line-height: 0.98;
-  letter-spacing: -0.045em;
-}
-
-h2 {
-  font-size: 1.45rem;
-  line-height: 1.05;
-  letter-spacing: -0.025em;
-}
-
-h3 {
-  font-size: 1rem;
-  line-height: 1.1;
-}
-
-h4 {
-  font-size: 0.95rem;
-  line-height: 1.15;
-}
-
-h5 {
-  font-size: 0.9rem;
-  line-height: 1.15;
+h5,
+h6 {
+  margin: 0;
+  font-size: fn.rem-calc(18);
+  font-weight: bold;
+  line-height: 120%;
 }
 
 p {
-  font-size: 0.875rem;
-  line-height: 110%;
+  margin: 0.75rem 0 0;
+  font-size: fn.rem-calc(16);
+  line-height: 120%;
 }
 
 @media (max-width: fn.rem-calc(800)) {

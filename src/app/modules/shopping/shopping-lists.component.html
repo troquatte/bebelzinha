@@ -1,12 +1,5 @@
 <section class="shopping-page" aria-labelledby="shopping-title">
   <header class="shopping-hero">
-    <div class="shopping-hero__copy">
-      <p class="shopping-hero__eyebrow">Lista de compras</p>
-      <h1 id="shopping-title">Suas listas, sem papelzinho perdido.</h1>
-      <p>Crie uma lista, leve a Bebel pro mercado e vá marcando o que já entrou no carrinho.</p>
-      <button class="primary-button" type="button" (click)="createList()">+ Nova lista</button>
-    </div>
-
     <div class="shopping-hero__portrait-wrap">
       <span class="shopping-hero__spark shopping-hero__spark--one" aria-hidden="true">✦</span>
       <span class="shopping-hero__spark shopping-hero__spark--two" aria-hidden="true">✦</span>
@@ -17,6 +10,13 @@
         />
       </figure>
       <div class="shopping-hero__speech">Bora às compras? 💜</div>
+    </div>
+
+    <div class="shopping-hero__copy">
+      <span class="shopping-hero__eyebrow">Lista de compras</span>
+      <h1 id="shopping-title">Suas listas, sem papelzinho perdido.</h1>
+      <p>Crie uma lista, leve a Bebel pro mercado e vá marcando o que já entrou no carrinho.</p>
+      <button class="primary-button" type="button" (click)="createList()">+ Nova lista</button>
     </div>
   </header>
 
