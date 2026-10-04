@@ -1,0 +1,70 @@
+{
+  "id": "sopa-de-legumes-com-frango",
+  "slug": "sopa-de-legumes-com-frango",
+  "title": "Sopa de legumes com frango",
+  "description": "Uma panela quentinha com frango e legumes para jantar sem complicação.",
+  "mealTypes": [
+    "janta"
+  ],
+  "tags": [
+    "barata",
+    "rende-bem"
+  ],
+  "prepTimeMinutes": 45,
+  "servings": 5,
+  "image": "/images/recipes/sopa-de-legumes-com-frango.png",
+  "intro": "Quando bate vontade de comida quentinha, essa panela resolve sem precisar inventar quinze acompanhamentos.",
+  "ingredients": [
+    {
+      "id": "frango",
+      "name": "Peito de frango",
+      "quantity": 300,
+      "unit": "g",
+      "note": "em cubos"
+    },
+    {
+      "id": "batata",
+      "name": "Batata",
+      "quantity": 2,
+      "unit": "unidades",
+      "note": "em cubos"
+    },
+    {
+      "id": "cenoura",
+      "name": "Cenoura",
+      "quantity": 1,
+      "unit": "unidade",
+      "note": "em rodelas"
+    },
+    {
+      "id": "abobrinha",
+      "name": "Abobrinha",
+      "quantity": 1,
+      "unit": "unidade",
+      "note": "em cubos"
+    },
+    {
+      "id": "agua",
+      "name": "Água",
+      "quantity": 1.5,
+      "unit": "litro",
+      "note": null
+    }
+  ],
+  "steps": [
+    {
+      "order": 1,
+      "text": "Doure o frango rapidamente no fundo da panela."
+    },
+    {
+      "order": 2,
+      "text": "Junte os legumes e cubra com a água."
+    },
+    {
+      "order": 3,
+      "text": "Tempere e cozinhe até tudo ficar macio e o caldo encorpar."
+    }
+  ],
+  "bebelTip": "Se tiver macarrãozinho quebrado, um punhado no final deixa a sopa ainda mais completa.",
+  "active": true
+}
