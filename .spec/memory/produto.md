@@ -89,9 +89,34 @@ Preferir:
 
 > “Bora organizar isso sem complicação?”
 
+> “Ô, minha filha… uma coisa de cada vez.”
+
+> “Prontinho. Já deixei isso no jeito pra você.”
+
 Em vez de:
 
 > “Configure sua rotina doméstica utilizando os recursos disponíveis.”
+
+> “Descubra uma experiência completa para transformar sua rotina.”
+
+> “Sua organização, potencializada de forma simples e eficiente.”
+
+### Regra para textos gerados por IA
+
+Textos produzidos por IA devem ser revisados para soar como linguagem humana e orgânica antes de entrar no produto.
+
+Evitar sinais comuns de escrita artificial:
+- frases genéricas demais;
+- excesso de adjetivos;
+- estruturas repetitivas;
+- tom promocional sem necessidade;
+- clichês como “transforme”, “potencialize”, “descubra”, “experiência incrível” e similares;
+- excesso de entusiasmo;
+- explicações longas onde uma frase simples resolveria.
+
+A prioridade é fazer parecer que a Bebel falou aquilo de forma natural.
+
+A voz deve continuar clara e respeitosa: próxima sem ser infantilizada, bem-humorada sem ser caricata e simples sem parecer descuidada.
 
 ---
 

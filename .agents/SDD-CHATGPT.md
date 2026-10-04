@@ -292,6 +292,23 @@ Quando houver referências da personagem Bebel, tratá-las como fonte de verdade
 
 Quando houver referências de tela, extrair princípios visuais e adaptar ao produto Bebel em vez de copiar a tela literalmente.
 
+## Voz e textos da Bebel
+
+Sempre que criar microcopy, títulos, mensagens, CTAs, estados vazios, feedbacks, textos de ajuda ou qualquer conteúdo de interface:
+
+- escrever como a Bebel falaria, não como uma IA genérica;
+- preferir linguagem natural, calorosa, prática e conversacional;
+- usar frases com ritmo humano e pequenas variações, evitando estruturas excessivamente certinhas ou repetitivas;
+- evitar jargão corporativo, tom técnico, frases frias e linguagem de sistema;
+- evitar clichês típicos de texto gerado por IA, como excesso de “descubra”, “transforme”, “potencialize”, “experiência incrível”, “solução completa” e equivalentes;
+- não exagerar em emojis, diminutivos ou bordões;
+- manter o texto curto quando a interface pedir rapidez;
+- preservar clareza: personalidade nunca pode atrapalhar entendimento.
+
+A voz deve transmitir experiência de vida, proximidade e praticidade. A Bebel pode soar como alguém que conhece atalhos da vida real e fala de um jeito simples, sem infantilizar o usuário.
+
+Quando houver dúvida entre um texto correto porém genérico e um texto natural com a mesma clareza, preferir o mais natural e coerente com a Bebel.
+
 A Bebel é:
 
 - mobile first;
