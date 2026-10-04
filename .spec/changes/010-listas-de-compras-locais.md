@@ -52,14 +52,14 @@ Chave: `bebel.shopping-lists.v1`.
 
 ## Critérios de aceite
 
-- [x] Compras aparece como item funcional e leva para `/compras`.
-- [x] Sem listas, existe estado vazio com ação para criar a primeira.
-- [x] É possível criar, renomear, visualizar e excluir listas.
-- [x] É possível criar, editar, visualizar e excluir itens.
-- [x] Itens são marcados/desmarcados com `mat-slide-toggle`.
-- [x] Comprados ficam visíveis, riscados e abaixo dos pendentes.
-- [x] Listas e itens persistem em `localStorage`.
-- [x] SweetAlert2 é usado nas mutações previstas.
+- [~] Compras aparece como item funcional e leva para `/compras`.
+- [~] Sem listas, existe estado vazio com ação para criar a primeira.
+- [~] É possível criar, renomear, visualizar e excluir listas.
+- [~] É possível criar, editar, visualizar e excluir itens.
+- [~] Itens são marcados/desmarcados com `mat-slide-toggle`.
+- [~] Comprados ficam visíveis, riscados e abaixo dos pendentes.
+- [~] Listas e itens persistem em `localStorage`.
+- [~] SweetAlert2 é usado nas mutações previstas.
 - [x] Não foi introduzido backend, conta ou sincronização.
 - [~] Build local pendente por alteração em código da aplicação.
 
