@@ -173,6 +173,38 @@
   margin-top: 1rem;
 }
 
+.guide-card__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.guide-card__actions button {
+  min-height: 2.7rem;
+  padding: 0.58rem 0.8rem;
+  border: 0;
+  border-radius: 0.8rem;
+  color: var(--bebel-primary-strong);
+  background: #fff;
+  font: inherit;
+  font-weight: 900;
+  cursor: pointer;
+  transition:
+    transform 160ms ease,
+    box-shadow 160ms ease;
+}
+
+.guide-card__actions button:hover {
+  transform: translateY(-0.08rem);
+  box-shadow: 0 0.25rem 0.8rem rgb(50 28 58 / 14%);
+}
+
+.guide-card__actions .guide-card__actions-cancel {
+  color: #fff;
+  background: transparent;
+  border: 0.1rem solid rgb(255 255 255 / 55%);
+}
+
 .choice-grid button {
   min-height: 3.2rem;
   padding: 0.7rem 0.65rem;
@@ -399,6 +431,7 @@ a:focus-visible {
 
 @media (prefers-reduced-motion: reduce) {
   .choice-grid button,
+  .guide-card__actions button,
   .recipe-card,
   .recipe-card__image img {
     animation: none;
@@ -406,6 +439,7 @@ a:focus-visible {
   }
 
   .choice-grid button:hover,
+  .guide-card__actions button:hover,
   .recipe-card:hover,
   .recipe-card:hover .recipe-card__image img {
     transform: none;
