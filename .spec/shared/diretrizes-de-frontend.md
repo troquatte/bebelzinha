@@ -1,77 +1,99 @@
 # Diretrizes de Implementação de Frontend
 
-Este documento deve ser lido e seguido por qualquer skill que implemente telas, componentes ou estilos no projeto.
+Este documento deve ser seguido em qualquer alteração de tela, componente ou estilo.
 
 ## Antes de implementar
 
 Analise obrigatoriamente:
 
-1. a estrutura atual do projeto;
-2. o conteúdo de `src/scss/` e os tokens, mixins e variáveis disponíveis;
-3. os componentes Angular existentes em `src/app/`;
-4. os padrões de layout e nomenclatura já utilizados.
+1. `.spec/memory/produto.md`;
+2. `.spec/memory/contexto-tecnico.md`;
+3. a spec ativa;
+4. `src/app/`;
+5. `src/scss/`;
+6. os componentes e padrões já existentes.
 
-Não inicie a implementação sem essa análise.
+## Stack visual disponível
 
-## Diretrizes de implementação
+O projeto possui:
 
-- Utilize a arquitetura **SMACSS** para organizar os estilos.
-- Reaproveite variáveis, tokens, mixins, funções, tipografia, espaçamentos, cores e componentes já existentes no design system.
-- Não crie estilos isolados ou valores fixos antes de verificar se já existe uma definição equivalente em `src/scss/`.
-- Utilize **Bootstrap** como base principal para grid, responsividade, espaçamentos e estrutura das telas.
-- Utilize **Angular Material** apenas quando seus componentes oferecerem uma vantagem real, como em:
-  - dialogs;
-  - menus;
-  - tooltips;
-  - snackbars;
-  - datepickers;
-  - selects complexos;
-  - tabelas com recursos avançados;
-  - componentes que exijam acessibilidade e comportamento prontos.
+- Angular 22;
+- SCSS;
+- Angular Material;
+- Tailwind CSS 4.
 
-## Requisitos visuais
+Não introduza outra biblioteca de UI ou grid sem necessidade explícita na spec.
 
-Crie interfaces modernas, limpas e consistentes com o restante da aplicação.
+Use Angular Material quando comportamento e acessibilidade prontos trouxerem benefício real. Use SCSS/Tailwind de forma consistente com o padrão já adotado, sem criar duas soluções diferentes para o mesmo problema.
 
-As telas devem:
+## Princípios de UX
 
-- ser totalmente responsivas;
-- funcionar corretamente em desktop, tablet e dispositivos móveis;
-- manter consistência visual entre cores, fontes, bordas, sombras e espaçamentos;
-- possuir hierarquia visual clara;
-- apresentar estados de `loading`, vazio, erro, sucesso e desabilitado quando aplicável;
-- utilizar feedback visual para ações do usuário;
-- evitar excesso de elementos ou componentes desnecessários.
+A Bebel é mobile first e deve parecer um app de uso cotidiano.
 
-## Estrutura dos estilos
+Priorizar:
 
-Organize os arquivos SCSS conforme o padrão SMACSS já adotado pelo projeto:
+- leitura rápida;
+- poucos passos;
+- áreas de toque confortáveis;
+- feedback imediato;
+- navegação simples;
+- componentes leves;
+- estados claros de loading, vazio, erro, sucesso e desabilitado;
+- acessibilidade e contraste adequados.
 
-- `base`: estilos globais e elementos HTML;
-- `layout`: estrutura das páginas e regiões principais;
-- `module`: componentes reutilizáveis;
-- `state`: estados e modificadores;
-- `theme`: variações visuais e temas.
+Evitar aparência de:
 
-Evite colocar grandes blocos de estilos diretamente nos arquivos dos componentes quando eles puderem ser reutilizados ou pertencerem ao design system.
+- dashboard corporativo;
+- ERP;
+- painel administrativo;
+- planilha;
+- e-commerce genérico;
+- site institucional.
 
-## Boas práticas
+## Design system
 
-- Crie componentes reutilizáveis para padrões visuais recorrentes.
-- Evite duplicação de HTML, lógica e SCSS.
-- Utilize classes semânticas e nomes consistentes com o projeto.
-- Preserve os componentes e comportamentos existentes.
-- Não altere regras globais sem necessidade.
-- Mantenha os componentes com responsabilidade bem definida.
-- Garanta acessibilidade básica, incluindo `labels`, navegação por teclado, contraste e atributos ARIA quando necessários.
-- Utilize ícones já disponíveis no projeto; caso não existam, prefira Angular Material Icons.
-- Não instale novas bibliotecas sem necessidade.
+Antes de criar cores, espaçamentos, bordas, sombras, tipografia ou breakpoints novos:
 
-## Relatório obrigatório após implementação
+1. verifique `src/scss/`;
+2. reutilize tokens existentes quando houver;
+3. se um novo token for realmente necessário, crie-o no lugar apropriado e mantenha consistência.
 
-Informe ao final:
+Não espalhe valores mágicos quando o valor representa uma decisão recorrente de design.
 
-- quais arquivos foram criados;
-- quais arquivos foram alterados;
-- quais componentes reutilizáveis foram adicionados;
-- quais decisões de UI ou arquitetura foram tomadas.
+## Componentes
+
+- componentes devem ter responsabilidade clara;
+- preferir composição;
+- extrair reutilização somente quando houver repetição real;
+- não criar abstrações genéricas antecipadamente;
+- manter lógica de negócio complexa fora da camada puramente visual;
+- usar Signals para estado local simples quando fizer sentido.
+
+## Responsividade
+
+A implementação deve começar pelo mobile e evoluir para tablet/desktop.
+
+Desktop não deve ser apenas uma versão esticada do celular; adapte navegação e aproveitamento do espaço quando a spec exigir.
+
+## Linguagem
+
+Microcopy deve seguir a voz da Bebel: simples, próxima, prática e acolhedora.
+
+Preferir:
+
+> “Prontinho 💜 Já coloquei na sua lista.”
+
+Evitar:
+
+> “Operação realizada com sucesso.”
+
+## Pós-implementação
+
+Registrar de forma objetiva:
+
+- arquivos criados/alterados;
+- decisões relevantes;
+- componentes reutilizáveis adicionados;
+- validações executadas;
+- validações pendentes;
+- desvios da spec, se houver.
