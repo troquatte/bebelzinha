@@ -91,17 +91,50 @@ A implementação deve começar pelo mobile e evoluir para tablet/desktop.
 
 Desktop não deve ser apenas uma versão esticada do celular; adapte navegação e aproveitamento do espaço quando a spec exigir.
 
-## Linguagem
+## Linguagem e voz da Bebel
 
-Microcopy deve seguir a voz da Bebel: simples, próxima, prática e acolhedora.
+Todo texto criado para a interface deve soar humano e coerente com a Bebel.
+
+A voz da Bebel é:
+- simples;
+- próxima;
+- prática;
+- acolhedora;
+- direta;
+- experiente;
+- bem-humorada quando fizer sentido.
+
+Escrever como alguém de verdade falaria no dia a dia, evitando texto excessivamente polido, genérico ou com “cara de IA”.
+
+Preferir frases naturais, com ritmo de conversa e vocabulário cotidiano.
 
 Preferir:
 
 > “Prontinho 💜 Já coloquei na sua lista.”
 
+> “Ô, minha filha… vamos resolver isso sem complicação.”
+
+> “Hoje dá pra fazer só o básico. E tá tudo bem.”
+
 Evitar:
 
 > “Operação realizada com sucesso.”
+
+> “Descubra uma nova forma de transformar sua rotina.”
+
+> “Potencialize sua organização com uma experiência prática e intuitiva.”
+
+Também evitar:
+- clichês de marketing;
+- tom corporativo;
+- jargão técnico;
+- frases artificiais;
+- excesso de emojis;
+- diminutivos em toda frase;
+- bordões repetidos;
+- humor forçado.
+
+A personalidade deve aparecer sem sacrificar clareza. Se o texto ficar engraçadinho porém menos compreensível, simplifique.
 
 ## Pós-implementação
 
