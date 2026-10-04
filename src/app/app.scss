@@ -1,0 +1,203 @@
+:host {
+  --bebel-primary: #6f3cc3;
+  --bebel-primary-strong: #54289e;
+  --bebel-primary-soft: #f1eafd;
+  --bebel-accent: #f4a7c4;
+  --bebel-surface: #ffffff;
+  --bebel-background: #fbf9fd;
+  --bebel-text: #2f2638;
+  --bebel-text-soft: #766b7f;
+  --bebel-border: #e8e1ed;
+  display: block;
+  min-height: 100dvh;
+  color: var(--bebel-text);
+  background: var(--bebel-background);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.app-shell {
+  min-height: 100dvh;
+  background:
+    radial-gradient(circle at 100% 0%, rgb(111 60 195 / 8%), transparent 28rem),
+    var(--bebel-background);
+}
+
+.app-content {
+  min-height: 100dvh;
+  padding-bottom: 5.75rem;
+}
+
+.sidebar {
+  display: none;
+}
+
+.bottom-nav {
+  position: fixed;
+  z-index: 20;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  min-height: 4.75rem;
+  padding: 0.5rem max(0.5rem, env(safe-area-inset-right))
+    max(0.5rem, env(safe-area-inset-bottom))
+    max(0.5rem, env(safe-area-inset-left));
+  border-top: 1px solid var(--bebel-border);
+  background: rgb(255 255 255 / 96%);
+  box-shadow: 0 -0.5rem 1.75rem rgb(57 37 76 / 8%);
+  backdrop-filter: blur(0.75rem);
+}
+
+.bottom-nav__item {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2rem;
+  border-radius: 0.85rem;
+  color: var(--bebel-text-soft);
+  font-size: 0.68rem;
+  font-weight: 650;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.bottom-nav__item--active {
+  color: var(--bebel-primary-strong);
+  background: var(--bebel-primary-soft);
+}
+
+.bottom-nav__item--disabled {
+  cursor: not-allowed;
+  opacity: 0.48;
+}
+
+.bottom-nav__icon {
+  font-size: 1.25rem;
+  line-height: 1;
+}
+
+a:focus-visible {
+  outline: 0.2rem solid var(--bebel-accent);
+  outline-offset: 0.2rem;
+}
+
+@media (min-width: 52rem) {
+  .app-shell {
+    display: grid;
+    grid-template-columns: 17rem minmax(0, 1fr);
+  }
+
+  .sidebar {
+    position: sticky;
+    top: 0;
+    display: flex;
+    height: 100dvh;
+    flex-direction: column;
+    padding: 1.5rem 1rem;
+    border-right: 1px solid var(--bebel-border);
+    background: rgb(255 255 255 / 92%);
+    backdrop-filter: blur(0.75rem);
+  }
+
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.25rem 0.5rem 1.5rem;
+    color: var(--bebel-text);
+    text-decoration: none;
+  }
+
+  .brand__mark {
+    display: grid;
+    width: 2.75rem;
+    height: 2.75rem;
+    flex: 0 0 2.75rem;
+    place-items: center;
+    border-radius: 50%;
+    color: white;
+    background: linear-gradient(145deg, var(--bebel-primary), var(--bebel-primary-strong));
+    box-shadow: 0 0.5rem 1rem rgb(84 40 158 / 18%);
+    font-size: 1.15rem;
+    font-weight: 800;
+  }
+
+  .brand__text {
+    display: grid;
+    gap: 0.15rem;
+  }
+
+  .brand__text strong {
+    font-size: 1.1rem;
+  }
+
+  .brand__text small {
+    color: var(--bebel-text-soft);
+    font-size: 0.72rem;
+  }
+
+  .sidebar__nav {
+    display: grid;
+    gap: 0.4rem;
+  }
+
+  .nav-item {
+    display: grid;
+    grid-template-columns: 1.8rem minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 0.55rem;
+    min-height: 3rem;
+    padding: 0 0.8rem;
+    border-radius: 0.85rem;
+    color: var(--bebel-text-soft);
+    font-size: 0.9rem;
+    font-weight: 650;
+    text-decoration: none;
+  }
+
+  .nav-item--active {
+    color: var(--bebel-primary-strong);
+    background: var(--bebel-primary-soft);
+  }
+
+  .nav-item--disabled {
+    cursor: not-allowed;
+    opacity: 0.55;
+  }
+
+  .nav-item small {
+    font-size: 0.65rem;
+    font-weight: 650;
+  }
+
+  .nav-item__icon {
+    font-size: 1.15rem;
+    text-align: center;
+  }
+
+  .sidebar__note {
+    margin: auto 0.5rem 0;
+    padding: 1rem;
+    border: 1px solid var(--bebel-border);
+    border-radius: 1rem;
+    color: var(--bebel-text-soft);
+    background: var(--bebel-background);
+    font-size: 0.78rem;
+    line-height: 1.45;
+  }
+
+  .app-content {
+    min-width: 0;
+    padding-bottom: 0;
+  }
+
+  .bottom-nav {
+    display: none;
+  }
+}
