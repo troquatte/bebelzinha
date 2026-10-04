@@ -10,7 +10,7 @@ services:
         "--appendonly",
         "yes",
         "--requirepass",
-        "${REDIS_PASSWORD:?set REDIS_PASSWORD}",
+        "${REDIS_PASSWORD:?digite sua senha aqui}",
         "--maxmemory",
         "512mb",
         "--maxmemory-policy",
@@ -27,7 +27,7 @@ services:
   ## --------------------------- REDISINSIGHT --------------------------- ##
   # Configuração do Redis no RedisInsight
   # User: default
-  # Pass: defina via REDIS_PASSWORD fora do repositório
+  # Pass: digite sua senha aqui via REDIS_PASSWORD fora do repositório
   # Database Alias*: redis-dev
   # Host*: 72.60.50.81
   # Port*: 16379

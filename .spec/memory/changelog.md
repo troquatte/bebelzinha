@@ -4,4 +4,4 @@ Este arquivo registra cronologicamente todas as especificações (Specs) conclu�
 
 | Spec | Data | Título da Mudança | Autor/Responsável |
 | :--- | :--- | :--- | :--- |
- 
+| 023 | 2026-10-04 | Onboarding de primeira abertura da Bebel | ChatGPT |

@@ -79,6 +79,13 @@ export class MealsComponent {
     }
   }
 
+  scrollToGuide(): void {
+    document.getElementById('bebel-escolhe')?.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start',
+    });
+  }
+
   chooseNeed(need: GuideNeed): void {
     this.clearFilters();
 
