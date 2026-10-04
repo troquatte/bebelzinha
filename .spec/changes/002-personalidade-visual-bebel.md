@@ -72,21 +72,30 @@ Manter a estrutura Angular existente e fazer uma evolução essencialmente visua
 
 ### Frontend
 
-- [ ] Adicionar uma imagem oficial da Bebel aos assets públicos da aplicação.
-- [ ] Reformular o app shell e navegação mantendo comportamento responsivo existente.
-- [ ] Reformular a Home com presença da personagem, hierarquia mais expressiva e linguagem visual própria.
-- [ ] Revisar responsividade e acessibilidade declarada no código.
+- [x] Adicionar uma imagem oficial da Bebel aos assets públicos da aplicação.
+  > ✅ Copiada a referência oficial para `public/images/bebel/bebel-roxa.jpg` e usada no hero da Home.
+- [x] Reformular o app shell e navegação mantendo comportamento responsivo existente.
+  > ✅ Bottom navigation mobile e sidebar desktop preservadas, com identidade visual refinada em `app.scss`.
+- [x] Reformular a Home com presença da personagem, hierarquia mais expressiva e linguagem visual própria.
+  > ✅ Hero, cards e microcopy refeitos com roxo/lilás, acento laranja, formas orgânicas e presença central da Bebel.
+- [x] Revisar responsividade e acessibilidade declarada no código.
+  > ✅ Estrutura mobile-first, breakpoint desktop, `alt` descritivo, `aria-label`, `aria-current`, `aria-disabled` e foco visível revisados.
 
 ### SDD / identidade
 
-- [ ] Atualizar `.agents/SDD-CHATGPT.md` com consulta obrigatória às referências visuais.
-- [ ] Atualizar `.spec/shared/diretrizes-de-frontend.md` com a mesma regra permanente.
+- [x] Atualizar `.agents/SDD-CHATGPT.md` com consulta obrigatória às referências visuais.
+  > ✅ Regra permanente adicionada para inspecionar `.spec/ui-references/` antes de mudanças visuais.
+- [x] Atualizar `.spec/shared/diretrizes-de-frontend.md` com a mesma regra permanente.
+  > ✅ Referências visuais registradas como fonte oficial de identidade do produto.
 
 ### Validação
 
-- [ ] Revisar implementação contra a spec e confirmar ausência de features fora de escopo.
-- [ ] Solicitar `npm run build` porque há alteração de código da aplicação.
-- [ ] Registrar validação visual como check manual recomendado caso a revisão estática não indique quebra crítica.
+- [x] Revisar implementação contra a spec e confirmar ausência de features fora de escopo.
+  > ✅ Diff revisado: 9 arquivos alterados/adicionados, nenhuma dependência, rota, backend, persistência ou feature funcional nova.
+- [~] Solicitar `npm run build` porque há alteração de código da aplicação.
+  > 🧪 Build precisa ser executado no ambiente local: `npm run build`.
+- [x] Registrar validação visual como check manual recomendado caso a revisão estática não indique quebra crítica.
+  > ✅ Revisão estática não identificou quebra crítica; conferência visual em mobile/desktop fica recomendada após integração.
 
 ## Riscos
 
