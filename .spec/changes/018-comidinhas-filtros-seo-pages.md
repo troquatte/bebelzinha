@@ -35,20 +35,24 @@ Simplificar a experiência de Comidinhas, transformar a ajuda da Bebel em filtro
 
 ## Critérios de aceite
 
-- [~] Ordem visual segue a referência enviada.
-- [~] Card guiado não contém cards de receita nem botões antigos.
-- [~] Filtros externos refletem o fluxo guiado.
-- [~] Sem filtros, catálogo completo é elegível.
-- [~] Primeiros 10 itens aparecem e novos lotes de até 10 são liberados no scroll.
-- [~] Código obsoleto de sugestões antigas foi removido.
-- [~] Speech não possui `max-width: 11rem`.
-- [~] Título base usa hífen simples.
-- [~] Favicon e imagem social usam a foto pública da Bebel.
-- [~] Metadata muda conforme a página e cada receita possui shell estático no deploy.
-- [~] Build/deploy de GitHub Pages preparado.
+- [x] Ordem visual segue a referência enviada.
+- [x] Card guiado não contém cards de receita nem botões antigos.
+- [x] Filtros externos refletem o fluxo guiado.
+- [x] Sem filtros, catálogo completo é elegível.
+- [x] Primeiros 10 itens aparecem e novos lotes de até 10 são liberados no scroll.
+- [x] Código obsoleto de sugestões antigas foi removido.
+- [x] Speech não possui `max-width: 11rem`.
+- [x] Título base usa hífen simples.
+- [x] Favicon e imagem social usam a foto pública da Bebel.
+- [x] Metadata muda conforme a página e cada receita possui shell estático no deploy.
+- [x] Build/deploy de GitHub Pages preparado.
 - [ ] GitHub Pages publicado e URL validada publicamente.
-- [ ] Build confirmado pelo CI/ambiente local.
+- [x] Build confirmado pelo CI (run 37240089712).
 
 ## Risco conhecido
 
 O repositório está privado e atualmente informa `has_pages: false`. A publicação exige que GitHub Pages esteja habilitado no repositório; o conector disponível não expõe a mutação de configuração de Pages/visibilidade. O workflow pode ser preparado e executado após essa configuração.
+
+## Evidência de validação
+
+- GitHub Actions `Build and deploy GitHub Pages` run `37240089712`: build, geração dos shells estáticos e fallback SPA concluídos com sucesso.
