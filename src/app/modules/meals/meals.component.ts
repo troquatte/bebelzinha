@@ -30,8 +30,6 @@ export class MealsComponent {
   readonly visibleCount = signal(10);
 
   readonly guideStep = signal<GuideStep>('need');
-  readonly guideNeed = signal<GuideNeed | null>(null);
-  readonly guideTime = signal(0);
 
   readonly filteredRecipes = computed(() => {
     const query = this.normalize(this.search());
@@ -119,9 +117,6 @@ export class MealsComponent {
 
   chooseNeed(need: GuideNeed): void {
     this.clearFilters(false);
-    this.guideNeed.set(need);
-    this.guideTime.set(0);
-
     if (need === 'rapida' || need === 'barata') {
       this.tagFilter.set(need);
     } else {
@@ -133,7 +128,6 @@ export class MealsComponent {
   }
 
   chooseTime(minutes: number): void {
-    this.guideTime.set(minutes);
     this.maxTime.set(minutes);
     this.guideStep.set('results');
     this.resetPagination();
@@ -166,8 +160,6 @@ export class MealsComponent {
     this.tagFilter.set('all');
 
     if (resetGuide) {
-      this.guideNeed.set(null);
-      this.guideTime.set(0);
       this.guideStep.set('need');
     }
 
