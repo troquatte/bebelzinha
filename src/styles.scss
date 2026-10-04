@@ -23,6 +23,33 @@ h5 {
   font-weight: 950;
 }
 
+h1 {
+  font-size: clamp(2rem, 8vw, 3.6rem);
+  line-height: 0.98;
+  letter-spacing: -0.045em;
+}
+
+h2 {
+  font-size: 1.45rem;
+  line-height: 1.05;
+  letter-spacing: -0.025em;
+}
+
+h3 {
+  font-size: 1rem;
+  line-height: 1.1;
+}
+
+h4 {
+  font-size: 0.95rem;
+  line-height: 1.15;
+}
+
+h5 {
+  font-size: 0.9rem;
+  line-height: 1.15;
+}
+
 p {
   font-size: 0.875rem;
   line-height: 110%;

@@ -1,4 +1,4 @@
-# Tarefa — Feature Compras
+# Tarefa — Consistência visual e identidade da Lista de compras
 
 ## Modo
 
@@ -6,16 +6,11 @@ FULL
 
 ## Necessidade
 
-Criar a primeira versão funcional da área Compras da Bebel.
+1. substituir o texto lateral “Casa organizada é casa que funciona pra você — não o contrário.” por uma frase mais natural da Bebel;
+2. renomear o menu Compras para “Lista de compras”;
+3. adicionar a Bebel ao hero da Lista de compras usando a mesma linguagem visual da Home;
+4. adicionar microinterações moderadas na área de compras, sem piscada e respeitando redução de movimento;
+5. tornar a tipografia de `p` e `h1` a `h5` realmente global, evitando diferenças acidentais entre telas;
+6. registrar no SDD que a estética tipográfica deve partir do SCSS global e ser herdada pelas features.
 
-A pessoa deve poder criar múltiplas listas de compras, renomear, visualizar e excluir cada lista. Dentro de cada lista, deve poder criar, visualizar, editar, excluir e marcar/desmarcar itens como comprados.
-
-Os dados devem permanecer no dispositivo usando localStorage, sem conta, backend ou sincronização.
-
-O status de comprado deve ser controlado com `mat-slide-toggle`.
-
-A experiência deve ser mobile first, rápida para uso no mercado e ter estados vazios claros.
-
-Confirmações e ações de criar/editar/excluir devem seguir o padrão permanente com SweetAlert2. Marcar/desmarcar item é reversível e não exige confirmação.
-
-A estrutura deve permitir que, futuramente, outra feature como Comidinhas consiga adicionar itens a uma lista existente, sem implementar essa integração agora.
+Não alterar comportamento funcional das listas.
