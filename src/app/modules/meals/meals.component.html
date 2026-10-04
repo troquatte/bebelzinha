@@ -79,16 +79,16 @@
     }
   </section>
 
-  @if (weeklyRecipes().length > 0) {
-    <section class="meals-section" aria-labelledby="week-title">
-      <div class="section-heading">
-        <div>
-          <span>Minha semana</span>
-          <h2 id="week-title">O que você já pensou em fazer</h2>
-        </div>
-        <small>{{ weeklyRecipes().length }} {{ weeklyRecipes().length === 1 ? 'receita' : 'receitas' }}</small>
+  <section class="meals-section" aria-labelledby="week-title">
+    <div class="section-heading">
+      <div>
+        <span>Minha semana</span>
+        <h2 id="week-title">O que você já pensou em fazer</h2>
       </div>
+      <small>{{ weeklyRecipes().length }} {{ weeklyRecipes().length === 1 ? 'receita' : 'receitas' }}</small>
+    </div>
 
+    @if (weeklyRecipes().length > 0) {
       <div class="mini-grid">
         @for (recipe of weeklyRecipes(); track recipe.id) {
           <a class="mini-card" [routerLink]="['/comidinhas', recipe.slug]">
@@ -98,18 +98,20 @@
           </a>
         }
       </div>
-    </section>
-  }
+    } @else {
+      <div class="status-card">Ainda não tem comida combinada pra semana. Quando alguma receita der vontade, coloca aqui.</div>
+    }
+  </section>
 
-  @if (savedRecipes().length > 0) {
-    <section class="meals-section" aria-labelledby="saved-title">
-      <div class="section-heading">
-        <div>
-          <span>Guardadas</span>
-          <h2 id="saved-title">Receitas que você salvou</h2>
-        </div>
+  <section class="meals-section" aria-labelledby="saved-title">
+    <div class="section-heading">
+      <div>
+        <span>Guardadas</span>
+        <h2 id="saved-title">Receitas que você salvou</h2>
       </div>
+    </div>
 
+    @if (savedRecipes().length > 0) {
       <div class="mini-grid">
         @for (recipe of savedRecipes(); track recipe.id) {
           <a class="mini-card" [routerLink]="['/comidinhas', recipe.slug]">
@@ -119,8 +121,10 @@
           </a>
         }
       </div>
-    </section>
-  }
+    } @else {
+      <div class="status-card">Salvou, ficou guardadinha aqui. Assim você não precisa caçar a receita de novo.</div>
+    }
+  </section>
 
   <section class="meals-section" aria-labelledby="explore-title">
     <div class="section-heading">
@@ -156,6 +160,15 @@
           <option value="60">Até 1 hora</option>
         </select>
       </label>
+
+      <label>
+        <span>Jeito</span>
+        <select [value]="tagFilter()" (change)="updateTagFilter($event)">
+          <option value="all">Qualquer</option>
+          <option value="barata">Econômica</option>
+          <option value="rende-bem">Rende bem</option>
+        </select>
+      </label>
     </div>
 
     @if (catalog.loading()) {
@@ -177,8 +190,12 @@
               <p>{{ recipe.description }}</p>
               <div class="recipe-card__meta">
                 <span>Serve {{ recipe.servings }}</span>
-                @if (recipe.tags.includes('barata')) { <span>econômica</span> }
-                @if (recipe.tags.includes('rende-bem')) { <span>rende bem</span> }
+                @if (recipe.tags.includes('barata')) {
+                  <span>econômica</span>
+                }
+                @if (recipe.tags.includes('rende-bem')) {
+                  <span>rende bem</span>
+                }
               </div>
               <div class="recipe-card__actions">
                 <button type="button" (click)="toggleSaved(recipe)">{{ isSaved(recipe) ? '♥ Salva' : '♡ Salvar' }}</button>
