@@ -237,7 +237,9 @@
 
 .empty-state p {
   max-width: 28rem;
+  margin-inline: auto;
   color: var(--bebel-text-soft);
+  text-align: center;
 }
 
 .shopping-tip {

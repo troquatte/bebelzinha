@@ -438,3 +438,23 @@ Dois conceitos pessoais são distintos:
 Comidinhas integra com Lista de compras: ingredientes de uma receita podem ser enviados para uma lista existente ou nova.
 
 O catálogo de receitas é conteúdo da Bebel. O estado pessoal da pessoa permanece separado do conteúdo editorial.
+
+
+---
+
+## Onboarding de primeira abertura
+
+A primeira experiência da Bebel deve apresentar o produto rapidamente, sem cadastro obrigatório e sem tutorial longo.
+
+O onboarding inicial possui quatro momentos:
+
+1. apresentação da Bebel;
+2. Comidinhas;
+3. Lista de compras;
+4. entrada no app.
+
+A experiência é mobile-first, permite swipe lateral e usa linguagem curta, visual e acolhedora.
+
+Ao concluir ou pular, o app registra localmente `bebel:onboarding-completed = true` e não exibe novamente de forma automática naquele navegador/aparelho.
+
+O onboarding explica valor e contexto; não deve tentar ensinar cada detalhe da interface.
