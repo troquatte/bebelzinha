@@ -1,12 +1,23 @@
 <section class="shopping-page" aria-labelledby="shopping-title">
   <header class="shopping-hero">
-    <div>
-      <p class="shopping-hero__eyebrow">Compras</p>
+    <div class="shopping-hero__copy">
+      <p class="shopping-hero__eyebrow">Lista de compras</p>
       <h1 id="shopping-title">Suas listas, sem papelzinho perdido.</h1>
       <p>Crie uma lista, leve a Bebel pro mercado e vá marcando o que já entrou no carrinho.</p>
+      <button class="primary-button" type="button" (click)="createList()">+ Nova lista</button>
     </div>
 
-    <button class="primary-button" type="button" (click)="createList()">+ Nova lista</button>
+    <div class="shopping-hero__portrait-wrap">
+      <span class="shopping-hero__spark shopping-hero__spark--one" aria-hidden="true">✦</span>
+      <span class="shopping-hero__spark shopping-hero__spark--two" aria-hidden="true">✦</span>
+      <figure class="shopping-hero__portrait">
+        <img
+          src="/images/bebel/bebel-roxa.jpg"
+          alt="Ilustração da Bebel, uma senhora negra de cabelos brancos cacheados, óculos e roupa roxa"
+        />
+      </figure>
+      <div class="shopping-hero__speech">Bora às compras? 💜</div>
+    </div>
   </header>
 
   @if (lists().length > 0) {
