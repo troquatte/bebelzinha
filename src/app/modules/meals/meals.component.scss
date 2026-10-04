@@ -282,7 +282,7 @@ select:focus-visible { outline: .2rem solid var(--bebel-orange); outline-offset:
   .meals-hero { grid-template-columns: minmax(14rem, .72fr) minmax(0, 1.28fr); align-items: center; padding: 1.8rem 2rem; }
   .meals-hero__portrait-wrap { width: min(100%, 17rem); }
   .choice-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-  .filters { grid-template-columns: minmax(0, 2fr) 1fr 1fr; }
+  .filters { grid-template-columns: minmax(0, 2fr) repeat(3, 1fr); }
   .recipe-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .recipe-grid--guide { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .mini-grid { grid-auto-flow: unset; grid-template-columns: repeat(3, minmax(0, 1fr)); overflow: visible; }
