@@ -22,7 +22,7 @@ export class RecipeCatalog {
 
   private async load(): Promise<void> {
     try {
-      const manifestResponse = await fetch('/content/recipes/index.json');
+      const manifestResponse = await fetch('content/recipes/index.json');
 
       if (!manifestResponse.ok) {
         throw new Error('Não foi possível carregar o catálogo de receitas.');
@@ -31,7 +31,7 @@ export class RecipeCatalog {
       const manifest = (await manifestResponse.json()) as RecipeManifest;
       const recipes = await Promise.all(
         manifest.recipes.map(async (slug) => {
-          const response = await fetch(`/content/recipes/${slug}.json`);
+          const response = await fetch(`content/recipes/${slug}.json`);
 
           if (!response.ok) {
             throw new Error(`Não foi possível carregar a receita ${slug}.`);
