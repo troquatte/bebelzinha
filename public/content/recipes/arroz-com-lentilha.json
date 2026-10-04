@@ -1,0 +1,71 @@
+{
+  "id": "arroz-com-lentilha",
+  "slug": "arroz-com-lentilha",
+  "title": "Arroz com lentilha da panela",
+  "description": "Arroz soltinho com lentilha para variar o dia a dia sem complicar.",
+  "mealTypes": [
+    "almoco",
+    "janta"
+  ],
+  "tags": [
+    "barata",
+    "rende-bem"
+  ],
+  "prepTimeMinutes": 35,
+  "servings": 5,
+  "image": "/images/recipes/arroz-com-lentilha.png",
+  "intro": "Uma panela simples que já entrega arroz e leguminosa de uma vez só.",
+  "ingredients": [
+    {
+      "id": "arroz",
+      "name": "Arroz cru",
+      "quantity": 2,
+      "unit": "xícaras",
+      "note": null
+    },
+    {
+      "id": "lentilha",
+      "name": "Lentilha",
+      "quantity": 1,
+      "unit": "xícara",
+      "note": null
+    },
+    {
+      "id": "cebola",
+      "name": "Cebola",
+      "quantity": 1,
+      "unit": "unidade",
+      "note": "fatiada"
+    },
+    {
+      "id": "alho",
+      "name": "Alho",
+      "quantity": 2,
+      "unit": "dentes",
+      "note": "picados"
+    },
+    {
+      "id": "agua",
+      "name": "Água quente",
+      "quantity": 5,
+      "unit": "xícaras",
+      "note": null
+    }
+  ],
+  "steps": [
+    {
+      "order": 1,
+      "text": "Cozinhe a lentilha por cerca de 10 minutos e escorra."
+    },
+    {
+      "order": 2,
+      "text": "Refogue cebola, alho e arroz."
+    },
+    {
+      "order": 3,
+      "text": "Junte a lentilha, a água quente e cozinhe até secar."
+    }
+  ],
+  "bebelTip": "Uma cebola bem douradinha por cima faz parecer que você trabalhou o dobro.",
+  "active": true
+}
