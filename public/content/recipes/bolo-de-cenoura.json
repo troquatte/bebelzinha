@@ -1,0 +1,70 @@
+{
+  "id": "bolo-de-cenoura",
+  "slug": "bolo-de-cenoura",
+  "title": "Bolo de cenoura com chocolate",
+  "description": "Bolo fofinho de cenoura com aquela cobertura de chocolate que ninguém recusa.",
+  "mealTypes": [
+    "doce",
+    "cafe-lanche"
+  ],
+  "tags": [
+    "rende-bem"
+  ],
+  "prepTimeMinutes": 55,
+  "servings": 10,
+  "image": "/images/recipes/bolo-de-cenoura.png",
+  "intro": "Se é pra fazer bolo de cenoura, faz com cobertura. A vida já tem economia demais em outros lugares.",
+  "ingredients": [
+    {
+      "id": "cenoura",
+      "name": "Cenoura",
+      "quantity": 3,
+      "unit": "unidades",
+      "note": "médias"
+    },
+    {
+      "id": "ovos",
+      "name": "Ovos",
+      "quantity": 3,
+      "unit": "unidades",
+      "note": null
+    },
+    {
+      "id": "oleo",
+      "name": "Óleo",
+      "quantity": 1,
+      "unit": "xícara",
+      "note": null
+    },
+    {
+      "id": "farinha",
+      "name": "Farinha de trigo",
+      "quantity": 2.5,
+      "unit": "xícaras",
+      "note": null
+    },
+    {
+      "id": "chocolate",
+      "name": "Chocolate em pó",
+      "quantity": 4,
+      "unit": "colheres de sopa",
+      "note": "para a cobertura"
+    }
+  ],
+  "steps": [
+    {
+      "order": 1,
+      "text": "Bata cenoura, ovos e óleo até ficar liso."
+    },
+    {
+      "order": 2,
+      "text": "Misture com farinha, açúcar a gosto e fermento e asse a 180 °C."
+    },
+    {
+      "order": 3,
+      "text": "Faça uma cobertura simples de chocolate e espalhe sobre o bolo morno."
+    }
+  ],
+  "bebelTip": "Não exagera na cenoura. Cenoura demais deixa o bolo pesado.",
+  "active": true
+}
