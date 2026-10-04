@@ -25,7 +25,7 @@ A partir dessa tarefa, siga o processo SDD definido pelo próprio repositório.
 Antes de planejar ou alterar qualquer código:
 
 1. acesse o repositório;
-2. analise o estado atual da branch `dev`, que é a branch de integração e desenvolvimento;
+2. analise o estado atual da branch `development`, que é a branch de integração e desenvolvimento;
 3. consulte a `main` quando precisar comparar com a linha estável/produção;
 4. leia obrigatoriamente:
 
@@ -77,9 +77,9 @@ REVISÃO DA IMPLEMENTAÇÃO
 ↓
 COMMIT / PUSH
 ↓
-PULL REQUEST PARA `dev`
+PULL REQUEST PARA `development`
 ↓
-MERGE AUTOMÁTICO EM `dev` QUANDO NÃO HOUVER BLOQUEIO
+MERGE AUTOMÁTICO EM `development` QUANDO NÃO HOUVER BLOQUEIO
 ↓
 CLOSER / ARCHIVE / CHANGELOG / MEMORY
 ↓
@@ -119,12 +119,12 @@ Executar:
 8. validações possíveis;
 9. commit;
 10. push;
-11. abertura de Pull Request apontando para `dev`;
-12. merge automático em `dev` quando não houver bloqueio conhecido;
+11. abertura de Pull Request apontando para `development`;
+12. merge automático em `development` quando não houver bloqueio conhecido;
 13. execução do closer, archive, changelog e atualização de memória quando aplicável;
 14. limpeza da branch de trabalho após o merge.
 
-Não é necessário aguardar minha aprovação para merge em `dev`.
+Não é necessário aguardar minha aprovação para merge em `development`.
 
 Nunca realizar merge automático em `main`.
 
@@ -179,7 +179,7 @@ Auditar:
 
 ## MODE: FULL
 
-Executar todo o processo até merge em `dev`, fechamento SDD e limpeza da branch de trabalho.
+Executar todo o processo até merge em `development`, fechamento SDD e limpeza da branch de trabalho.
 
 Este é o modo padrão.
 
@@ -317,13 +317,13 @@ Não criar abstrações apenas porque podem ser úteis futuramente.
 
 ---
 
-# 10. Branch
+# 10. Branch e estratégia de commits
 
-Nunca implementar diretamente na `main` ou na `dev`.
+Nunca implementar diretamente na `main` ou na `development`.
 
-A branch `dev` é a base padrão para desenvolvimento e integração.
+A branch `development` é a base padrão para desenvolvimento e integração.
 
-Toda branch de feature/fix/chore deve nascer de `dev` e voltar para `dev` por Pull Request.
+Toda branch de feature/fix/chore deve nascer de `development` e voltar para `development` por Pull Request.
 
 Para cada mudança relevante:
 
@@ -331,9 +331,25 @@ Para cada mudança relevante:
 2. verificar se já existe spec relacionada;
 3. verificar se já existe PR relacionado;
 4. evitar trabalho duplicado;
-5. criar branch própria a partir de `dev` quando necessário;
-6. abrir o Pull Request contra `dev`;
+5. criar branch própria a partir de `development` quando necessário;
+6. abrir o Pull Request contra `development`;
 7. após merge bem-sucedido, apagar a branch de trabalho para não acumular branches antigas.
+
+## Estratégia de commits
+
+Evite gerar muitos commits pequenos quando a mudança puder ser agrupada com segurança.
+
+Preferir:
+- um commit lógico por entrega pequena;
+- poucos commits coesos em entregas maiores;
+- agrupar alterações relacionadas na mesma etapa quando possível.
+
+Evitar:
+- um commit por arquivo;
+- commits artificiais apenas porque cada escrita no GitHub gera uma operação separada;
+- histórico excessivamente fragmentado sem benefício de revisão.
+
+O objetivo é manter um histórico legível e útil, sem perder rastreabilidade.
 
 Usar nomes claros e compatíveis com Conventional Commits.
 
@@ -383,10 +399,32 @@ A validação padrão deve priorizar:
 - revisão estática da implementação;
 - comparação entre spec e código;
 - verificação de imports, tipos, rotas e contratos;
-- build;
 - lint/typecheck quando existirem e forem relevantes;
 - CI existente;
 - validação manual do fluxo quando necessária.
+
+## Regra de build
+
+Executar ou solicitar build apenas quando houver alteração em código da aplicação, configuração de build, dependências ou arquivos que possam afetar compilação/runtime.
+
+Se a mudança for somente documentação, markdown, comentários, textos de processo ou arquivos sem impacto de build, NÃO executar e NÃO solicitar build.
+
+Exemplos:
+- mudança em `src/`, `package.json`, `angular.json` ou configuração de compilação → build pode ser necessário;
+- mudança apenas em `.md` ou documentação operacional sem efeito de runtime → build não é necessário.
+
+## Validação visual de frontend
+
+Validação visual manual de frontend não precisa bloquear o Pull Request nem o merge em `development` quando:
+
+- a revisão estática estiver consistente;
+- não houver erro estrutural conhecido;
+- responsividade, estados e navegação estiverem coerentes no código;
+- não existir risco evidente de quebra crítica.
+
+Nesses casos, registrar a validação visual como check manual recomendado para mim após a integração.
+
+Se houver indício concreto de quebra visual crítica, layout inutilizável ou regressão estrutural, aí sim tratar como bloqueio antes do merge.
 
 Nunca afirmar que algo passou sem confirmação.
 
@@ -402,7 +440,7 @@ Quando puder utilizar CI/GitHub para validar, faça isso.
 
 Quando uma validação exigir meu ambiente local, forneça exatamente o comando necessário.
 
-Exemplo:
+Exemplo, somente quando houver alteração de código que justifique build:
 
 `npm run build`
 
@@ -433,11 +471,11 @@ Se encontrar uma credencial versionada:
 
 # 14. Pull Request e merge em dev
 
-No `MODE: FULL`, sempre criar Pull Request com base em `dev`.
+No `MODE: FULL`, sempre criar Pull Request com base em `development`.
 
-O PR é o registro da entrega, mas não exige aprovação manual do usuário para merge em `dev`.
+O PR é o registro da entrega, mas não exige aprovação manual do usuário para merge em `development`.
 
-Quando a revisão não identificar bloqueio relevante, realizar o merge automaticamente em `dev`.
+Quando a revisão não identificar bloqueio relevante, realizar o merge automaticamente em `development`.
 
 Nunca realizar merge automático em `main`.
 
@@ -453,7 +491,7 @@ O PR deve informar de forma objetiva:
 - riscos;
 - possíveis próximos passos.
 
-Depois do merge em `dev`, executar o fechamento SDD aplicável e limpar a branch de origem.
+Depois do merge em `development`, executar o fechamento SDD aplicável e limpar a branch de origem.
 
 ---
 
@@ -461,7 +499,7 @@ Depois do merge em `dev`, executar o fechamento SDD aplicável e limpar a branch
 
 Após o Pull Request estar pronto e sem bloqueios relevantes:
 
-merge em `dev`
+merge em `development`
 → closer
 → archive da spec
 → changelog
