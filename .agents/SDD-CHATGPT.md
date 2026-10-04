@@ -25,8 +25,9 @@ A partir dessa tarefa, siga o processo SDD definido pelo próprio repositório.
 Antes de planejar ou alterar qualquer código:
 
 1. acesse o repositório;
-2. analise o estado atual da branch `main`;
-3. leia obrigatoriamente:
+2. analise o estado atual da branch `dev`, que é a branch de integração e desenvolvimento;
+3. consulte a `main` quando precisar comparar com a linha estável/produção;
+4. leia obrigatoriamente:
 
 - `.agents/AGENTS.md`
 - `.spec/README.md`
@@ -34,12 +35,12 @@ Antes de planejar ou alterar qualquer código:
 - `.spec/memory/contexto-tecnico.md`
 - `.spec/memory/estrutura.md`
 
-4. leia os documentos relevantes em:
+5. leia os documentos relevantes em:
 
 - `.spec/shared/`
 - `.agents/skills/`
 
-5. analise:
+6. analise:
 - código existente;
 - arquitetura real;
 - dependências atuais;
@@ -76,13 +77,13 @@ REVISÃO DA IMPLEMENTAÇÃO
 ↓
 COMMIT / PUSH
 ↓
-PULL REQUEST
+PULL REQUEST PARA `dev`
 ↓
-AGUARDAR APROVAÇÃO DO USUÁRIO
-↓
-MERGE
+MERGE AUTOMÁTICO EM `dev` QUANDO NÃO HOUVER BLOQUEIO
 ↓
 CLOSER / ARCHIVE / CHANGELOG / MEMORY
+↓
+LIMPEZA DA BRANCH DE TRABALHO
 
 Não invente um processo paralelo.
 
@@ -118,13 +119,14 @@ Executar:
 8. validações possíveis;
 9. commit;
 10. push;
-11. abertura de Pull Request.
+11. abertura de Pull Request apontando para `dev`;
+12. merge automático em `dev` quando não houver bloqueio conhecido;
+13. execução do closer, archive, changelog e atualização de memória quando aplicável;
+14. limpeza da branch de trabalho após o merge.
 
-PARAR no Pull Request.
+Não é necessário aguardar minha aprovação para merge em `dev`.
 
-NÃO realizar merge automaticamente.
-
-Aguardar minha aprovação.
+Nunca realizar merge automático em `main`.
 
 ---
 
@@ -177,7 +179,7 @@ Auditar:
 
 ## MODE: FULL
 
-Executar todo o processo até Pull Request pronto.
+Executar todo o processo até merge em `dev`, fechamento SDD e limpeza da branch de trabalho.
 
 Este é o modo padrão.
 
@@ -317,7 +319,11 @@ Não criar abstrações apenas porque podem ser úteis futuramente.
 
 # 10. Branch
 
-Nunca implementar diretamente na `main`.
+Nunca implementar diretamente na `main` ou na `dev`.
+
+A branch `dev` é a base padrão para desenvolvimento e integração.
+
+Toda branch de feature/fix/chore deve nascer de `dev` e voltar para `dev` por Pull Request.
 
 Para cada mudança relevante:
 
@@ -325,7 +331,9 @@ Para cada mudança relevante:
 2. verificar se já existe spec relacionada;
 3. verificar se já existe PR relacionado;
 4. evitar trabalho duplicado;
-5. criar branch própria quando necessário.
+5. criar branch própria a partir de `dev` quando necessário;
+6. abrir o Pull Request contra `dev`;
+7. após merge bem-sucedido, apagar a branch de trabalho para não acumular branches antigas.
 
 Usar nomes claros e compatíveis com Conventional Commits.
 
@@ -352,6 +360,34 @@ Nunca marcar `[x]` sem evidência de validação.
 
 # 12. Validação
 
+## Testes unitários
+
+Por padrão, NÃO criar, alterar ou executar testes unitários.
+
+Testes unitários não fazem parte do fluxo obrigatório deste agente e não devem atrasar uma entrega.
+
+Não adicionar tarefas de testes unitários à spec apenas por convenção.
+
+Não bloquear Pull Request ou conclusão da implementação por ausência de testes unitários.
+
+Somente trabalhar com testes unitários quando:
+
+- eu solicitar explicitamente;
+- a tarefa for especificamente sobre testes;
+- um teste existente precisar de ajuste mínimo porque bloqueia uma validação obrigatória já existente no projeto.
+
+Mesmo nesses casos, limitar a alteração ao mínimo necessário.
+
+A validação padrão deve priorizar:
+
+- revisão estática da implementação;
+- comparação entre spec e código;
+- verificação de imports, tipos, rotas e contratos;
+- build;
+- lint/typecheck quando existirem e forem relevantes;
+- CI existente;
+- validação manual do fluxo quando necessária.
+
 Nunca afirmar que algo passou sem confirmação.
 
 Diferenciar:
@@ -370,9 +406,9 @@ Exemplo:
 
 `npm run build`
 
-`npm test`
+Não solicitar `npm test` por padrão.
 
-Aguarde o resultado quando necessário antes de considerar a tarefa validada.
+Aguarde o resultado somente das validações realmente necessárias antes de considerar a tarefa validada.
 
 ---
 
@@ -395,9 +431,15 @@ Se encontrar uma credencial versionada:
 
 ---
 
-# 14. Pull Request
+# 14. Pull Request e merge em dev
 
-No `MODE: FULL`, o fluxo deve terminar com um Pull Request.
+No `MODE: FULL`, sempre criar Pull Request com base em `dev`.
+
+O PR é o registro da entrega, mas não exige aprovação manual do usuário para merge em `dev`.
+
+Quando a revisão não identificar bloqueio relevante, realizar o merge automaticamente em `dev`.
+
+Nunca realizar merge automático em `main`.
 
 O PR deve informar de forma objetiva:
 
@@ -411,29 +453,25 @@ O PR deve informar de forma objetiva:
 - riscos;
 - possíveis próximos passos.
 
-Não realizar merge sem minha autorização explícita.
+Depois do merge em `dev`, executar o fechamento SDD aplicável e limpar a branch de origem.
 
 ---
 
-# 15. Após minha aprovação
+# 15. Finalização automática em dev
 
-Quando eu disser algo equivalente a:
+Após o Pull Request estar pronto e sem bloqueios relevantes:
 
-- `pode mergear`
-- `pode finalizar`
-- `aprovado`
-- `segue com o merge`
-
-execute o restante do ciclo SDD:
-
-merge
+merge em `dev`
 → closer
 → archive da spec
 → changelog
 → atualização da memória
 → verificação final
+→ exclusão da branch de trabalho
 
-Após isso, informe o estado final da entrega.
+Se a ferramenta/conector disponível não permitir excluir a branch remotamente, informe objetivamente essa única pendência de limpeza.
+
+A `main` permanece protegida do fluxo automático. Qualquer merge em `main` exige solicitação explícita minha.
 
 ---
 
