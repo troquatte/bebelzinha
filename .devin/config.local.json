@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Exec(mkdir)",
+      "Exec(rtk prisma)",
+      "Exec(node_modules/.bin/prisma db)",
+      "Exec(node_modules/.bin/prisma generate)",
+      "Exec(node_modules/.bin/prisma migrate)",
+      "Exec(git add)"
+    ]
+  }
+}

@@ -12,7 +12,13 @@
     "experimentalDecorators": true,
     "importHelpers": true,
     "target": "ES2022",
-    "module": "preserve"
+    "module": "preserve",
+    "paths": {
+      "@variables/global-variables": ["./src/scss/_global-variables.scss"],
+      "@tools/rem-calc": ["./src/scss/tools/_rem-calc.scss"],
+      "@scss/pages/*": ["./src/scss/pages/*"],
+      "@scss/components/mat*": ["./src/scss/components/mat/*"],
+    }
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
