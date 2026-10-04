@@ -416,3 +416,25 @@ Dois conceitos pessoais são distintos:
 Comidinhas integra com Lista de compras: ingredientes de uma receita podem ser enviados para uma lista existente ou nova.
 
 O catálogo de receitas é conteúdo da Bebel. O estado pessoal da pessoa permanece separado do conteúdo editorial.
+
+
+---
+
+## 16. Comidinhas
+
+Comidinhas é a área da Bebel para ajudar a pessoa a decidir o que cozinhar, explorar receitas simples, guardar o que gostou e organizar o que pretende preparar nos próximos dias.
+
+O norte da experiência é:
+
+> **“Bebel, o que eu faço de comida hoje?”**
+
+A entrada principal combina um fluxo guiado curto com exploração tradicional do catálogo. O fluxo guiado usa os próprios dados estruturados das receitas e não depende de IA.
+
+Dois conceitos pessoais são distintos:
+
+- **receita salva** — algo que a pessoa gostou e quer guardar;
+- **Minha semana** — algo que a pessoa pretende preparar nos próximos dias.
+
+Comidinhas integra com Lista de compras: ingredientes de uma receita podem ser enviados para uma lista existente ou nova.
+
+O catálogo de receitas é conteúdo da Bebel. O estado pessoal da pessoa permanece separado do conteúdo editorial.
