@@ -1,4 +1,4 @@
-# Tarefa — Microinterações na Home
+# Tarefa — Padronização tipográfica global
 
 ## Modo
 
@@ -6,12 +6,11 @@ FULL
 
 ## Necessidade
 
-Na Home:
+Padronizar a tipografia da aplicação:
 
-1. remover o selo “B” do card “Hoje com a Bebel”;
-2. remover o `min-height` dos cards de “Os cantinhos que vêm por aí”;
-3. adicionar microinterações com moderação e somente onde melhorarem a experiência;
-4. fazer a Bebel piscar para a pessoa;
-5. respeitar acessibilidade e usuários com preferência por menos movimento.
+1. todos os `h1`, `h2`, `h3`, `h4` e `h5` devem usar peso bold;
+2. todos os parágrafos `p` devem usar:
+   - `font-size: 0.875rem` (equivalente a 14px na base padrão);
+   - `line-height: 110%`.
 
-Não adicionar novas funcionalidades.
+A regra deve ser global e componentes não devem sobrescrever esses valores sem necessidade explícita.
