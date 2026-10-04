@@ -352,6 +352,34 @@ Nunca marcar `[x]` sem evidência de validação.
 
 # 12. Validação
 
+## Testes unitários
+
+Por padrão, NÃO criar, alterar ou executar testes unitários.
+
+Testes unitários não fazem parte do fluxo obrigatório deste agente e não devem atrasar uma entrega.
+
+Não adicionar tarefas de testes unitários à spec apenas por convenção.
+
+Não bloquear Pull Request ou conclusão da implementação por ausência de testes unitários.
+
+Somente trabalhar com testes unitários quando:
+
+- eu solicitar explicitamente;
+- a tarefa for especificamente sobre testes;
+- um teste existente precisar de ajuste mínimo porque bloqueia uma validação obrigatória já existente no projeto.
+
+Mesmo nesses casos, limitar a alteração ao mínimo necessário.
+
+A validação padrão deve priorizar:
+
+- revisão estática da implementação;
+- comparação entre spec e código;
+- verificação de imports, tipos, rotas e contratos;
+- build;
+- lint/typecheck quando existirem e forem relevantes;
+- CI existente;
+- validação manual do fluxo quando necessária.
+
 Nunca afirmar que algo passou sem confirmação.
 
 Diferenciar:
@@ -370,9 +398,9 @@ Exemplo:
 
 `npm run build`
 
-`npm test`
+Não solicitar `npm test` por padrão.
 
-Aguarde o resultado quando necessário antes de considerar a tarefa validada.
+Aguarde o resultado somente das validações realmente necessárias antes de considerar a tarefa validada.
 
 ---
 
