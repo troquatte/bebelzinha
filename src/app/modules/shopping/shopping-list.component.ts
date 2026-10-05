@@ -121,6 +121,27 @@ export class ShoppingListComponent {
   }
 
   async repeatList(): Promise<void> {
+    const list = this.list();
+
+    if (!list) {
+      return;
+    }
+
+    const result = await Swal.fire({
+      icon: 'question',
+      title: 'Usar essa lista de novo?',
+      text: `A Bebel vai criar uma nova cópia com os ${list.items.length} ${list.items.length === 1 ? 'item desmarcado' : 'itens desmarcados'}.`,
+      showCancelButton: true,
+      confirmButtonText: 'Sim, usar de novo',
+      cancelButtonText: 'Agora não',
+      confirmButtonColor: '#6f1fb4',
+      focusCancel: true,
+    });
+
+    if (!result.isConfirmed) {
+      return;
+    }
+
     const repeated = this.store.repeatList(this.listId);
 
     if (!repeated) {
