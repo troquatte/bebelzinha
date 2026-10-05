@@ -16,7 +16,7 @@
       <span class="shopping-hero__eyebrow">Lista de compras</span>
       <h1 id="shopping-title">Suas listas, sem papelzinho perdido.</h1>
       <p>Crie uma lista, leve a Bebel pro mercado e vá marcando o que já entrou no carrinho.</p>
-      <button class="primary-button" type="button" (click)="createList()">+ Nova lista</button>
+      <button class="primary-button icon-action" type="button" (click)="createList()"><span class="material-symbols-outlined" aria-hidden="true">add</span>Nova lista</button>
     </div>
   </header>
 
@@ -25,7 +25,7 @@
       @for (list of lists(); track list.id) {
         <article class="shopping-list-card">
           <a class="shopping-list-card__main" [routerLink]="['/compras', list.id]">
-            <span class="shopping-list-card__mark" aria-hidden="true">☷</span>
+            <span class="shopping-list-card__mark material-symbols-outlined" aria-hidden="true">shopping_cart</span>
             <span class="shopping-list-card__copy">
               <strong>{{ list.name }}</strong>
               <span>
@@ -33,12 +33,12 @@
                 · {{ purchasedCount(list) }} {{ purchasedCount(list) === 1 ? 'comprado' : 'comprados' }}
               </span>
             </span>
-            <span class="shopping-list-card__arrow" aria-hidden="true">›</span>
+            <span class="shopping-list-card__arrow material-symbols-outlined" aria-hidden="true">chevron_right</span>
           </a>
 
           <div class="shopping-list-card__actions" aria-label="Ações da lista">
-            <button type="button" (click)="editList(list)">Editar</button>
-            <button class="danger-action" type="button" (click)="deleteList(list)">Excluir</button>
+            <button class="icon-action" type="button" (click)="editList(list)"><span class="material-symbols-outlined" aria-hidden="true">edit</span>Editar</button>
+            <button class="danger-action icon-action" type="button" (click)="deleteList(list)"><span class="material-symbols-outlined" aria-hidden="true">delete</span>Excluir</button>
           </div>
         </article>
       }
@@ -48,7 +48,7 @@
       <span class="empty-state__mark" aria-hidden="true">🛒</span>
       <h2>A sacola ainda está vazia.</h2>
       <p>Crie sua primeira lista e deixe as compras mais fáceis de acompanhar.</p>
-      <button class="primary-button" type="button" (click)="createList()">Criar minha primeira lista</button>
+      <button class="primary-button icon-action" type="button" (click)="createList()"><span class="material-symbols-outlined" aria-hidden="true">add</span>Criar minha primeira lista</button>
     </section>
   }
 
