@@ -1,0 +1,70 @@
+<section class="findings-page" aria-labelledby="findings-title">
+  <header class="findings-hero">
+    <div class="findings-hero__portrait-wrap">
+      <span class="findings-hero__spark" aria-hidden="true">✦</span>
+      <figure class="findings-hero__portrait">
+        <img
+          src="images/bebel/bebel-roxa.jpg"
+          alt="Bebel, uma senhora negra de cabelos brancos cacheados, óculos e roupa roxa"
+        />
+      </figure>
+      <div class="findings-hero__speech">Isso aqui facilita de verdade 💜</div>
+    </div>
+
+    <div class="findings-hero__copy">
+      <span class="findings-hero__eyebrow">Achadinhos</span>
+      <h1 id="findings-title">Coisas que a Bebel separou pra facilitar a vida.</h1>
+      <p>Sem vitrine infinita. Só coisas que fazem sentido pra cozinha, limpeza e organização da casa.</p>
+    </div>
+  </header>
+
+  <div class="findings-filters" aria-label="Filtrar Achadinhos por categoria">
+    <button type="button" [class.findings-filter--active]="category() === 'all'" (click)="selectCategory('all')">Todos</button>
+    <button type="button" [class.findings-filter--active]="category() === 'cozinha'" (click)="selectCategory('cozinha')">Cozinha</button>
+    <button type="button" [class.findings-filter--active]="category() === 'limpeza'" (click)="selectCategory('limpeza')">Limpeza</button>
+    <button type="button" [class.findings-filter--active]="category() === 'organizacao'" (click)="selectCategory('organizacao')">Organização</button>
+    <button type="button" [class.findings-filter--active]="category() === 'lavanderia'" (click)="selectCategory('lavanderia')">Lavanderia</button>
+  </div>
+
+  @if (catalog.loading()) {
+    <div class="status-card">A Bebel está separando os achadinhos...</div>
+  } @else if (catalog.error()) {
+    <div class="status-card">Ih, os achadinhos não carregaram agora. Tenta de novo daqui a pouco.</div>
+  } @else {
+    <div class="findings-grid">
+      @for (finding of filteredFindings(); track finding.id) {
+        <article class="finding-card">
+          <a class="finding-card__image" [routerLink]="['/achadinhos', finding.slug]">
+            <img [src]="finding.image" [alt]="finding.title" />
+            <span>{{ finding.store === 'mercado-livre' ? 'Mercado Livre' : finding.store === 'amazon' ? 'Amazon' : 'Shopee' }}</span>
+          </a>
+
+          <div class="finding-card__body">
+            <span class="finding-card__badge">
+              {{ finding.badge === 'bebel-indica' ? 'Bebel indica' : finding.badge === 'bom-custo-beneficio' ? 'Bom custo-benefício' : 'Facilita a vida' }}
+            </span>
+            <h2><a [routerLink]="['/achadinhos', finding.slug]">{{ finding.title }}</a></h2>
+            <p>{{ finding.bebelNote }}</p>
+
+            <div class="finding-card__actions">
+              <a class="finding-card__details" [routerLink]="['/achadinhos', finding.slug]">Ver detalhes</a>
+              <a
+                class="finding-card__external"
+                [href]="finding.affiliateUrl"
+                target="_blank"
+                [attr.rel]="relFor(finding.isAffiliate)"
+              >
+                Ver achadinho
+              </a>
+            </div>
+          </div>
+        </article>
+      }
+    </div>
+  }
+
+  <aside class="affiliate-note">
+    <span aria-hidden="true">💜</span>
+    <p>Alguns links podem ser de afiliados. Se você comprar por eles, a Bebel pode receber uma comissão, sem custo extra pra você.</p>
+  </aside>
+</section>
