@@ -1097,3 +1097,18 @@ Regras atuais:
 - `ReturnVisit` representa uma nova sessão após pelo menos 30 minutos;
 - nomes de listas, itens e outros textos digitados pelo usuário não devem ser enviados;
 - CAPI, Consent Mode e Google Tag Manager não fazem parte da integração atual.
+
+
+### Taxonomia de eventos de produto
+
+Os eventos de negócio devem permanecer centralizados no `AnalyticsService` e ser enviados com a mesma nomenclatura para GA4 e Meta Pixel.
+
+Agrupamento atual:
+
+- ativação: `HomeAction`, `CreateList`, `AddItem`, `SaveRecipe`, `PlanMeal`;
+- continuidade/recorrência: `OpenShoppingList`, `RepeatList`, `AddWeekToList`, `ReturnVisit`;
+- monetização/intenção comercial: `ClickAchadinho`.
+
+`ReturnVisit` considera a diferença entre a abertura atual e a abertura imediatamente anterior do app. O timestamp local deve ser atualizado em toda abertura, mesmo quando o intervalo ainda não atingir a janela de retorno.
+
+Não enviar texto livre digitado pelo usuário em eventos de analytics.
