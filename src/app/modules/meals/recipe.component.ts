@@ -2,6 +2,7 @@ import { ChangeDetectionStrategy, Component, computed, effect, inject, signal } 
 import { ActivatedRoute, RouterLink } from '@angular/router';
 import Swal from 'sweetalert2';
 
+import { AnalyticsService } from '../../core/analytics.service';
 import { SeoService } from '../../core/seo.service';
 import { FindingSpotlightComponent } from '../findings/finding-spotlight.component';
 import { ShoppingStore } from '../shopping/shopping.store';
@@ -17,6 +18,7 @@ import { RecipeCatalog } from './recipe-catalog.service';
   templateUrl: './recipe.component.html',
 })
 export class RecipeComponent {
+  private readonly analytics = inject(AnalyticsService);
   private readonly route = inject(ActivatedRoute);
   private readonly seo = inject(SeoService);
   readonly catalog = inject(RecipeCatalog);
@@ -44,7 +46,14 @@ export class RecipeComponent {
   toggleSaved(): void {
     const recipe = this.recipe();
     if (recipe) {
-      this.mealsStore.toggleSaved(recipe.id);
+      const saved = this.mealsStore.toggleSaved(recipe.id);
+
+      if (saved) {
+        this.analytics.track('SaveRecipe', {
+          recipe_id: recipe.id,
+          recipe_slug: recipe.slug,
+        });
+      }
     }
   }
 
@@ -131,6 +140,16 @@ export class RecipeComponent {
       ? ` ${duplicated} ${duplicated === 1 ? 'já estava' : 'já estavam'} na lista.`
       : '';
 
+    if (added > 0) {
+      const recipe = this.recipe();
+      this.analytics.track('AddRecipeToList', {
+        recipe_id: recipe?.id ?? 'unknown',
+        recipe_slug: recipe?.slug ?? this.slug,
+        added_count: added,
+        duplicate_count: duplicated,
+      });
+    }
+
     await Swal.fire({
       icon: 'success',
       title: 'Prontinho 💜',
@@ -188,7 +207,9 @@ export class RecipeComponent {
       return null;
     }
 
-    return this.shoppingStore.createList(result.value).id;
+    const list = this.shoppingStore.createList(result.value);
+    this.analytics.track('CreateList', { source: 'recipe' });
+    return list.id;
   }
 
   private formatIngredient(ingredient: RecipeIngredient): string {
