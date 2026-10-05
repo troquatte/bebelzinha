@@ -59,10 +59,23 @@ Remarketing quente deve trazer de volta pessoas que já conhecem a Bebel por um 
 - [x] `ClickAchadinho` dispara ao abrir link externo do produto.
 - [x] Nenhum nome de lista/item digitado pelo usuário é enviado.
 - [x] Nenhuma dependência nova foi adicionada.
-- [ ] Build Angular validado pelo CI.
-- [ ] Entrega integrada em `main`.
-- [ ] `main` e `development` equalizadas.
+- [x] Build Angular validado pelo CI.
+- [x] Entrega integrada em `main`.
+- [x] `main` e `development` equalizadas.
 
-## Validação pendente
+## Validação
 
-Aguardando CI do Pull Request.
+- PR #58 validado pelo workflow `37322577896` com build aprovado;
+- merge em `main`: `9579da16bc4e79632f59c0192e3ebf664d303d56`;
+- deploy de produção: workflow `37322734633`, build e deploy concluídos com sucesso;
+- `development` equalizada com o mesmo commit após o deploy.
+
+
+## Encerramento
+
+> ✅ 2026-10-05 11:18 — Spec encerrada após deploy em produção.
+
+- Pixel ID: `283243945816993`;
+- GA4 Measurement ID: `G-RL10XLKR71`;
+- CAPI permanece fora do escopo;
+- eventos não enviam nomes de listas, itens ou texto digitado pelo usuário.
