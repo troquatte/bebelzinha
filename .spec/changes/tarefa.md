@@ -1,23 +1,27 @@
-# Tarefa — Corrigir layout mobile e confirmar repetição de lista
+# Tarefa — Investigar travadas e reduzir jank no app
 
 ## Modo
 
 FULL
 
-## Problemas
+## Diagnóstico
 
-1. O cabeçalho da lista de compras fica visualmente desequilibrado no mobile quando aparecem as ações “Usar essa lista de novo”, “Editar lista” e “Adicionar item”.
-2. O card de retorno da Home fica espremido no mobile, com título/ícone/CTA competindo pelo mesmo espaço.
-3. “Usar essa lista de novo” duplica imediatamente, sem confirmação explícita.
+Não foi identificado memory leak clássico evidente. Os efeitos de componentes seguem o ciclo de vida do Angular, HostListener é gerenciado pelo framework e as inscrições de Router estão em serviços singleton.
+
+Foram encontrados gargalos de desempenho com potencial real de travar o mobile:
+
+1. `background-attachment: fixed` aplicado no mobile, causando repaints caros durante scroll;
+2. handler de `window:scroll` em Comidinhas executado sem limitação por frame;
+3. envio de vários ingredientes para Compras grava e serializa todo o estado no localStorage uma vez por ingrediente.
 
 ## Escopo
 
-- organizar ações do cabeçalho da lista em layout mobile previsível;
-- manter desktop equilibrado;
-- reorganizar card de retorno da Home para mobile;
-- reduzir destaque exagerado do ícone no card de retorno;
-- evitar emoji órfão/quebra visual no título do retorno;
-- usar SweetAlert2 antes de repetir lista;
-- não alterar regra de negócio da duplicação;
+- remover background fixo no mobile;
+- limitar processamento do scroll de Comidinhas a no máximo uma vez por frame;
+- cancelar frame pendente ao destruir o componente;
+- criar inserção em lote de itens no ShoppingStore;
+- usar inserção em lote em Receita → Lista e Minha Semana → Lista;
+- manter deduplicação e analytics atuais;
+- não alterar UX funcional;
 - validar build e publicar;
 - equalizar main e development.

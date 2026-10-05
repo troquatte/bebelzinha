@@ -75,22 +75,65 @@ export class ShoppingStore {
     baseName: string,
     displayName = baseName,
   ): 'added' | 'duplicate' | 'list-not-found' {
-    const list = this.state().find((item) => item.id === listId);
+    const result = this.addItemsIfMissing(listId, [{ baseName, displayName }]);
 
-    if (!list) {
+    if (result.listNotFound) {
       return 'list-not-found';
     }
 
-    const normalizedBaseName = this.normalizeItemName(baseName);
-    const alreadyExists = list.items.some(
-      (item) => this.normalizeItemName(item.name.split(' — ')[0]) === normalizedBaseName,
-    );
+    return result.added > 0 ? 'added' : 'duplicate';
+  }
 
-    if (alreadyExists) {
-      return 'duplicate';
+  addItemsIfMissing(
+    listId: string,
+    items: Array<{ baseName: string; displayName?: string }>,
+  ): { added: number; duplicated: number; listNotFound: boolean } {
+    const currentLists = this.state();
+    const listIndex = currentLists.findIndex((list) => list.id === listId);
+
+    if (listIndex < 0) {
+      return { added: 0, duplicated: 0, listNotFound: true };
     }
 
-    return this.addItem(listId, displayName) ? 'added' : 'list-not-found';
+    const list = currentLists[listIndex];
+    const existingNames = new Set(
+      list.items.map((item) => this.normalizeItemName(item.name.split(' — ')[0])),
+    );
+    const timestamp = new Date().toISOString();
+    const newItems: ShoppingItem[] = [];
+    let duplicated = 0;
+
+    for (const item of items) {
+      const normalized = this.normalizeItemName(item.baseName);
+
+      if (existingNames.has(normalized)) {
+        duplicated += 1;
+        continue;
+      }
+
+      existingNames.add(normalized);
+      newItems.push({
+        id: crypto.randomUUID(),
+        name: (item.displayName ?? item.baseName).trim(),
+        checked: false,
+        createdAt: timestamp,
+        updatedAt: timestamp,
+      });
+    }
+
+    if (newItems.length === 0) {
+      return { added: 0, duplicated, listNotFound: false };
+    }
+
+    const nextLists = [...currentLists];
+    nextLists[listIndex] = {
+      ...list,
+      updatedAt: timestamp,
+      items: [...list.items, ...newItems],
+    };
+
+    this.commit(nextLists);
+    return { added: newItems.length, duplicated, listNotFound: false };
   }
 
   addItem(listId: string, name: string): ShoppingItem | null {

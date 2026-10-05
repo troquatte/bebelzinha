@@ -122,22 +122,15 @@ export class RecipeComponent {
       return;
     }
 
-    let added = 0;
-    let duplicated = 0;
-
-    for (const ingredient of ingredients) {
-      const result = this.shoppingStore.addItemIfMissing(
-        listId,
-        ingredient.name,
-        this.formatIngredient(ingredient),
-      );
-
-      if (result === 'added') {
-        added += 1;
-      } else if (result === 'duplicate') {
-        duplicated += 1;
-      }
-    }
+    const result = this.shoppingStore.addItemsIfMissing(
+      listId,
+      ingredients.map((ingredient) => ({
+        baseName: ingredient.name,
+        displayName: this.formatIngredient(ingredient),
+      })),
+    );
+    const added = result.added;
+    const duplicated = result.duplicated;
 
     const duplicateText = duplicated
       ? ` ${duplicated} ${duplicated === 1 ? 'já estava' : 'já estavam'} na lista.`
