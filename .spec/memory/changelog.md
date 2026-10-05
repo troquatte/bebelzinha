@@ -14,3 +14,4 @@ Este arquivo registra cronologicamente todas as especificações (Specs) conclu�
 | 030 | 2026-10-05 | Meta Pixel e eventos de negócio para remarketing | ChatGPT |
 | 031 | 2026-10-05 | Restauração e padronização dos ícones Material Symbols | ChatGPT |
 | 032 | 2026-10-05 | Home orientada a ações rápidas | ChatGPT |
+| 033 | 2026-10-05 | Repetir lista de compras | ChatGPT |
