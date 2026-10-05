@@ -1,4 +1,4 @@
-# Tarefa — Padronizar microinterações dos headers da Bebel
+# Tarefa — Corrigir GA4 e microinterações dos heroes
 
 ## Modo
 
@@ -6,14 +6,17 @@ FULL
 
 ## Necessidade
 
-Usar o comportamento de microinterações do header da Home como padrão para as outras páginas que possuem hero com a personagem Bebel.
+1. Corrigir a integração do Google Analytics 4 para a SPA usando o snippet oficial fornecido pelo usuário.
+2. Tornar as microinterações dos heroes visíveis e consistentes nas páginas Home, Compras, Comidinhas e Achadinhos.
+3. Ao final, sincronizar `development` e `main`.
 
 ## Requisitos
 
-- transformar o comportamento em padrão reutilizável;
-- evitar manter cópias das mesmas animações em cada componente;
-- aplicar o padrão em Home, Lista de compras, Comidinhas e Achadinhos;
-- preservar o layout e os textos específicos de cada página;
-- manter suporte a `prefers-reduced-motion`;
-- não adicionar biblioteca nova;
-- futuras páginas com hero da Bebel devem conseguir reutilizar o padrão apenas por classes CSS.
+- usar `G-RL10XLKR71`;
+- carregar o snippet oficial no `<head>`;
+- usar `send_page_view: false` para evitar duplicidade em SPA;
+- Angular deve enviar `page_view` nas mudanças de rota;
+- não carregar um segundo `gtag.js` dinamicamente;
+- manter `prefers-reduced-motion`;
+- tornar o padrão de movimento perceptível sem exagero;
+- não adicionar dependências.
