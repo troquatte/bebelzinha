@@ -11,5 +11,7 @@ import { OnboardingComponent } from './modules/onboarding/onboarding.component';
   templateUrl: './app.html',
 })
 export class App {
-  private readonly analytics = inject(AnalyticsService);
+  constructor() {
+    inject(AnalyticsService);
+  }
 }
