@@ -243,27 +243,7 @@
 }
 
 .shopping-tip {
-  display: flex;
-  align-items: flex-start;
-  gap: 0.75rem;
   margin-top: 1.25rem;
-  padding: 1rem;
-  border: 0.1rem dashed rgb(111 31 180 / 30%);
-  border-radius: 1rem;
-  background: rgb(234 210 255 / 38%);
-}
-
-.shopping-tip > span {
-  font-size: 1.2rem;
-}
-
-.shopping-tip strong {
-  color: var(--bebel-primary-strong);
-  font-size: 0.78rem;
-}
-
-.shopping-tip p {
-  color: var(--bebel-text-soft);
 }
 
 @media (min-width: 52rem) {
