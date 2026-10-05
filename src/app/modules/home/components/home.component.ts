@@ -126,17 +126,6 @@ export class HomeComponent {
       };
     }
 
-    if (area === 'comidinhas') {
-      return {
-        icon: 'restaurant',
-        title: 'Ainda pensando no que fazer de comida?',
-        copy: 'As Comidinhas continuam te esperando.',
-        cta: 'Voltar pras Comidinhas',
-        action: () => this.router.navigate(['/comidinhas']),
-        tracking: 'resume-last-meals',
-      };
-    }
-
     return {
       icon: 'restaurant',
       title: 'Ainda pensando no que fazer de comida?',
