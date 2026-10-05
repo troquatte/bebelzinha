@@ -40,6 +40,13 @@ src/app/
   shared/
   modules/
     <feature>/
+      /components
+      /shared
+      /service
+      /enum
+      /interface
+      /helpers
+      /etc
 ```
 
 ### `core`
