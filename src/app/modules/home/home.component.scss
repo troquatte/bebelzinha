@@ -248,6 +248,38 @@
   color: rgb(255 255 255 / 82%);
 }
 
+.today-card__context-icon {
+  display: inline-block;
+  margin-bottom: 0.35rem;
+  color: #ffd9ba;
+  font-size: 1.35rem;
+}
+
+.today-card__action {
+  min-height: 2.8rem;
+  padding: 0.65rem 0.85rem;
+  border: 0;
+  border-radius: 0.9rem;
+  color: var(--bebel-primary-strong);
+  background: #fff;
+  font: inherit;
+  font-weight: 900;
+  cursor: pointer;
+  transition:
+    transform 160ms ease,
+    box-shadow 160ms ease;
+}
+
+.today-card__action:hover {
+  transform: translateY(-0.08rem);
+  box-shadow: 0 0.22rem 0.8rem rgb(50 28 58 / 18%);
+}
+
+.today-card__action:focus-visible {
+  outline: 0.2rem solid #ffd9ba;
+  outline-offset: 0.18rem;
+}
+
 
 .home__section {
   margin-top: 2rem;
@@ -529,6 +561,7 @@
   }
 
   .today-card:hover,
+  .today-card__action:hover,
   .quick-action:hover,
   .quick-action:active,
   .feature-card:hover,
