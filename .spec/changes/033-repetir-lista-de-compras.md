@@ -37,29 +37,35 @@ Listas são persistidas em `localStorage` pelo `ShoppingStore`.
 
 ## Critérios de aceite
 
-- [ ] Repetir lista cria outro ID e não altera a original.
-- [ ] Todos os itens copiados começam desmarcados.
-- [ ] Alterações posteriores na nova lista não afetam a antiga.
-- [ ] A nova lista é aberta após criação.
-- [ ] A ação registra `RepeatList` sem enviar nomes ou itens.
+- [~] Repetir lista cria outro ID e não altera a original.
+- [~] Todos os itens copiados começam desmarcados.
+- [~] Alterações posteriores na nova lista não afetam a antiga.
+- [~] A nova lista é aberta após criação.
+- [x] A ação registra `RepeatList` sem enviar nomes ou itens.
 - [ ] Build Angular validado pelo CI.
 
 ## Tasks
 
 ### Tasks - Negócio
 
-- [ ] Adicionar operação de duplicação independente no `ShoppingStore`.
+- [~] Adicionar operação de duplicação independente no `ShoppingStore`.
+  > 🧪 2026-10-05 — `repeatList` cria nova lista e novos IDs de itens, preserva nomes, zera `checked` e não altera a origem. Aguardando CI.
 
 ### Tasks - Front-end
 
-- [ ] Adicionar CTA de reutilização no detalhe da lista.
-- [ ] Navegar para a nova lista após duplicação.
-- [ ] Registrar evento `RepeatList`.
+- [~] Adicionar CTA de reutilização no detalhe da lista.
+  > 🧪 2026-10-05 — CTA “Usar essa lista de novo” aparece para listas com itens.
+- [~] Navegar para a nova lista após duplicação.
+  > 🧪 2026-10-05 — Componente navega para o novo ID imediatamente após a cópia.
+- [x] Registrar evento `RepeatList`.
+  > ✅ 2026-10-05 — Evento envia somente `item_count`.
 
 ### Tasks - Validação
 
-- [ ] Revisar independência entre listas e estado dos itens.
-- [ ] Validar build Angular no CI.
+- [x] Revisar independência entre listas e estado dos itens.
+  > ✅ 2026-10-05 — Revisão estática confirma objetos/IDs novos, itens desmarcados e append sem mutação da lista original.
+- [~] Validar build Angular no CI.
+  > 🧪 2026-10-05 — Aguardando Pull Request.
 
 ## Resultado Esperado
 
