@@ -139,8 +139,14 @@
                 }
               </div>
               <div class="recipe-card__actions">
-                <button type="button" (click)="toggleSaved(recipe)">{{ isSaved(recipe) ? '♥ Salva' : '♡ Salvar' }}</button>
-                <button type="button" (click)="toggleWeek(recipe)">{{ isInWeek(recipe) ? '✓ Na semana' : '+ Minha semana' }}</button>
+                <button class="icon-action" type="button" (click)="toggleSaved(recipe)">
+                  <span class="material-symbols-outlined" aria-hidden="true">{{ isSaved(recipe) ? 'favorite' : 'favorite_border' }}</span>
+                  {{ isSaved(recipe) ? 'Salva' : 'Salvar' }}
+                </button>
+                <button class="icon-action" type="button" (click)="toggleWeek(recipe)">
+                  <span class="material-symbols-outlined" aria-hidden="true">{{ isInWeek(recipe) ? 'event_available' : 'calendar_add_on' }}</span>
+                  {{ isInWeek(recipe) ? 'Na semana' : 'Minha semana' }}
+                </button>
               </div>
             </div>
           </article>
