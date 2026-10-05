@@ -1,0 +1,24 @@
+{
+  "id": "potes-hermeticos-de-vidro",
+  "slug": "potes-hermeticos-de-vidro",
+  "title": "Potes herméticos de vidro",
+  "description": "Um conjunto de potes para guardar comida pronta, ingredientes e sobras sem deixar a geladeira virar bagunça.",
+  "bebelNote": "Bom pra quem cozinha e quer guardar tudo sem ficar caçando tampa depois.",
+  "image": "images/findings/potes-hermeticos-de-vidro.svg",
+  "category": "cozinha",
+  "store": "amazon",
+  "affiliateUrl": "https://www.amazon.com.br/s?k=potes+hermeticos+vidro",
+  "isAffiliate": false,
+  "badge": "facilita-a-vida",
+  "tags": [
+    "potes",
+    "armazenamento",
+    "geladeira",
+    "cozinha"
+  ],
+  "contexts": [
+    "home",
+    "meals"
+  ],
+  "active": true
+}

@@ -1,0 +1,23 @@
+{
+  "id": "cesto-organizador-multiuso",
+  "slug": "cesto-organizador-multiuso",
+  "title": "Cesto organizador multiuso",
+  "description": "Cesto leve para separar produtos de limpeza, mantimentos, itens de lavanderia ou o que vive solto pela casa.",
+  "bebelNote": "Quando cada coisa ganha um cantinho, metade da organização já acontece sozinha.",
+  "image": "images/findings/cesto-organizador-multiuso.svg",
+  "category": "lavanderia",
+  "store": "shopee",
+  "affiliateUrl": "https://shopee.com.br/search?keyword=cesto%20organizador",
+  "isAffiliate": false,
+  "badge": "facilita-a-vida",
+  "tags": [
+    "cesto",
+    "lavanderia",
+    "organização"
+  ],
+  "contexts": [
+    "home",
+    "shopping"
+  ],
+  "active": true
+}

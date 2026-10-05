@@ -4,12 +4,13 @@ import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import Swal from 'sweetalert2';
 
 import { SeoService } from '../../core/seo.service';
+import { FindingSpotlightComponent } from '../findings/finding-spotlight.component';
 import { ShoppingItem } from './shopping.models';
 import { ShoppingStore } from './shopping.store';
 
 @Component({
   changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [MatSlideToggleModule, RouterLink],
+  imports: [FindingSpotlightComponent, MatSlideToggleModule, RouterLink],
   selector: 'app-shopping-list',
   styleUrl: './shopping-list.component.scss',
   templateUrl: './shopping-list.component.html',

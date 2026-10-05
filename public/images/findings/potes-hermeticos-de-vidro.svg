@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Potes herméticos de vidro">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ead2ff"/><stop offset="1" stop-color="#fff8f1"/></linearGradient></defs>
+  <rect width="800" height="500" rx="48" fill="url(#g)"/>
+  <circle cx="680" cy="90" r="76" fill="#ff7a1a" opacity=".16"/>
+  <circle cx="112" cy="410" r="96" fill="#6f1fb4" opacity=".12"/>
+  <text x="400" y="270" text-anchor="middle" font-size="150">🥣</text>
+  <text x="400" y="395" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#47106f">Potes herméticos de vidro</text>
+</svg>

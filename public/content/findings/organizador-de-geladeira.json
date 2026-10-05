@@ -1,0 +1,23 @@
+{
+  "id": "organizador-de-geladeira",
+  "slug": "organizador-de-geladeira",
+  "title": "Organizador de geladeira",
+  "description": "Caixas organizadoras para separar frutas, lanches, temperos e itens pequenos dentro da geladeira.",
+  "bebelNote": "Ajuda a enxergar o que tem antes de comprar de novo e esquecer o velho lá atrás.",
+  "image": "images/findings/organizador-de-geladeira.svg",
+  "category": "organizacao",
+  "store": "shopee",
+  "affiliateUrl": "https://shopee.com.br/search?keyword=organizador%20geladeira",
+  "isAffiliate": false,
+  "badge": "facilita-a-vida",
+  "tags": [
+    "geladeira",
+    "organização",
+    "mercado"
+  ],
+  "contexts": [
+    "shopping",
+    "meals"
+  ],
+  "active": true
+}

@@ -44,11 +44,15 @@
         <span>Lista de compras</span>
       </a>
 
-      <span class="nav-item nav-item--disabled" aria-disabled="true">
+      <a
+        class="nav-item"
+        routerLink="/achadinhos"
+        routerLinkActive="nav-item--active"
+        ariaCurrentWhenActive="page"
+      >
         <span class="nav-item__icon" aria-hidden="true">✦</span>
         <span>Achadinhos</span>
-        <small>Em breve</small>
-      </span>
+      </a>
     </nav>
 
     <aside class="sidebar__note">
@@ -93,9 +97,14 @@
       <span class="bottom-nav__label">Lista de<br />compras</span>
     </a>
 
-    <span class="bottom-nav__item bottom-nav__item--disabled" aria-disabled="true" aria-label="Achadinhos, em breve">
+    <a
+      class="bottom-nav__item"
+      routerLink="/achadinhos"
+      routerLinkActive="bottom-nav__item--active"
+      ariaCurrentWhenActive="page"
+    >
       <span class="bottom-nav__icon" aria-hidden="true">✦</span>
       <span>Achados</span>
-    </span>
+    </a>
   </nav>
 </div>

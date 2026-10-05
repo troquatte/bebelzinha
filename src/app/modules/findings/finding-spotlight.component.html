@@ -1,0 +1,14 @@
+@if (finding(); as item) {
+  <aside class="finding-spotlight" aria-label="Achadinho da Bebel">
+    <a class="finding-spotlight__image" [routerLink]="['/achadinhos', item.slug]">
+      <img [src]="item.image" [alt]="item.title" />
+    </a>
+
+    <div class="finding-spotlight__copy">
+      <span class="finding-spotlight__eyebrow">Achadinho da Bebel</span>
+      <h3>{{ item.title }}</h3>
+      <p>{{ item.bebelNote }}</p>
+      <a class="finding-spotlight__link" [routerLink]="['/achadinhos', item.slug]">Ver achadinho</a>
+    </div>
+  </aside>
+}

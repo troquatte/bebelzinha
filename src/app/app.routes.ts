@@ -17,6 +17,16 @@ export const routes: Routes = [
       import('./modules/meals/recipe.component').then(({ RecipeComponent }) => RecipeComponent),
   },
   {
+    path: 'achadinhos',
+    loadComponent: () =>
+      import('./modules/findings/findings.component').then(({ FindingsComponent }) => FindingsComponent),
+  },
+  {
+    path: 'achadinhos/:slug',
+    loadComponent: () =>
+      import('./modules/findings/finding.component').then(({ FindingComponent }) => FindingComponent),
+  },
+  {
     path: 'compras',
     loadComponent: () =>
       import('./modules/shopping/shopping-lists.component').then(
