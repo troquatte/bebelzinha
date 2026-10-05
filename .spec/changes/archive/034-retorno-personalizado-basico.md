@@ -56,3 +56,14 @@ A SPA já persiste listas e estado de Comidinhas localmente. A última área út
 ## Resultado Esperado
 
 Ao voltar, a pessoa sente que a Bebel lembra onde ela parou, sem complexidade algorítmica.
+
+
+## Encerramento
+
+> ✅ 2026-10-05 — Spec revisada, validada e encerrada.
+
+- workflow `37327480396`: build aprovado;
+- PR #66 integrado em `development` no commit `ffd32a86120eefb2f6923c20ba1730336e4f8611`;
+- dados de continuidade permanecem locais e limitados à última área útil;
+- memória de produto será consolidada ao final do épico;
+- changelog atualizado.
