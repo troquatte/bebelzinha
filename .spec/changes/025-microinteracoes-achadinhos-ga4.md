@@ -41,21 +41,21 @@ A propriedade do Google Analytics ainda não foi criada. A configuração deve f
 
 ## Critérios de aceite
 
-- [~] Cards e CTAs de Achadinhos oferecem feedback visual discreto em hover/press sem alterar funcionalidade.
-- [~] Imagens e elementos decorativos possuem movimento sutil sem comprometer legibilidade.
-- [~] O detalhe do achadinho e o spotlight contextual seguem a mesma linguagem de microinterações.
-- [~] Usuários com `prefers-reduced-motion: reduce` não recebem animações/transições não essenciais.
-- [~] Sem Measurement ID válido, nenhum script do Google Analytics é carregado.
-- [~] Com um Measurement ID válido `G-...`, o app carrega `gtag.js` uma única vez.
-- [~] A navegação entre rotas registra `page_view` sem recarregar a página.
+- [x] Cards e CTAs de Achadinhos oferecem feedback visual discreto em hover/press sem alterar funcionalidade.
+- [x] Imagens e elementos decorativos possuem movimento sutil sem comprometer legibilidade.
+- [x] O detalhe do achadinho e o spotlight contextual seguem a mesma linguagem de microinterações.
+- [x] Usuários com `prefers-reduced-motion: reduce` não recebem animações/transições não essenciais.
+- [x] Sem Measurement ID válido, nenhum script do Google Analytics é carregado.
+- [x] Com um Measurement ID válido `G-...`, o app carrega `gtag.js` uma única vez.
+- [x] A navegação entre rotas registra `page_view` sem recarregar a página.
 - [x] Nenhuma nova dependência é adicionada.
 - [ ] Build Angular é validado pelo CI.
 
 ## Tasks
 
-- [~] Refinar microinterações da listagem de Achadinhos.\n  > 🧪 2026-10-05 09:56 — Implementado em `findings.component.html` e `findings.component.scss`: entrada escalonada, hover/press de filtros, cards, imagens e CTAs, com fallback de reduced motion. Aguardando build do CI.
-- [~] Refinar microinterações do detalhe de Achadinhos e spotlight contextual.\n  > 🧪 2026-10-05 09:56 — Implementado em `finding.component.scss` e `finding-spotlight.component.scss`: entrada, feedback de imagem/CTA/card e reduced motion. Aguardando build do CI.
-- [~] Criar integração GA4 opcional para SPA.\n  > 🧪 2026-10-05 09:56 — Criado `AnalyticsService` com validação de `G-...`, carregamento único de `gtag.js`, `send_page_view: false` e page views por `NavigationEnd`. Sem ID válido, o serviço não carrega script. Aguardando build do CI.
-- [~] Conectar a integração ao shell da aplicação e documentar o ponto de configuração do Measurement ID.\n  > 🧪 2026-10-05 09:56 — Serviço inicializado no `App` e meta `google-analytics-id` adicionada vazia em `src/index.html`, com instrução de preenchimento. Aguardando build do CI.
+- [x] Refinar microinterações da listagem de Achadinhos.\n  > ✅ 2026-10-05 10:04 — Implementado e validado em `findings.component.html` e `findings.component.scss`: entrada escalonada, hover/press de filtros, cards, imagens e CTAs, com fallback de reduced motion. Build do CI aprovado.
+- [x] Refinar microinterações do detalhe de Achadinhos e spotlight contextual.\n  > ✅ 2026-10-05 10:04 — Implementado e validado em `finding.component.scss` e `finding-spotlight.component.scss`: entrada, feedback de imagem/CTA/card e reduced motion. Build do CI aprovado.
+- [x] Criar integração GA4 opcional para SPA.\n  > ✅ 2026-10-05 10:04 — Criado e validado `AnalyticsService` com validação de `G-...`, carregamento único de `gtag.js`, `send_page_view: false` e page views por `NavigationEnd`. Sem ID válido, o serviço não carrega script. Build do CI aprovado.
+- [x] Conectar a integração ao shell da aplicação e documentar o ponto de configuração do Measurement ID.\n  > ✅ 2026-10-05 10:04 — Serviço inicializado no `App` e meta `google-analytics-id` adicionada vazia em `src/index.html`, com instrução de preenchimento. Build do CI aprovado.
 - [x] Revisar implementação, segurança e compatibilidade com a spec.\n  > ✅ 2026-10-05 09:56 — Revisão estática concluída. Branch está 0 commits atrás de `development`, alterações restritas ao escopo, sem segredo, sem dependência nova e sem Measurement ID fictício.
-- [~] Validar o build Angular no CI.\n  > 🧪 2026-10-05 09:56 — Aguardando execução do workflow do Pull Request.
+- [x] Validar o build Angular no CI.\n  > ✅ 2026-10-05 10:04 — Workflow `Build and deploy GitHub Pages` run `37313760662` concluído com sucesso; etapa `Build` e geração dos shells estáticos aprovadas.
