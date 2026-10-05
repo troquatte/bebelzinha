@@ -25,8 +25,8 @@ Gargalos encontrados:
 - [x] Eventos AddRecipeToList e AddWeekToList mantêm contagens corretas.
 - [x] Nenhuma dependência nova é adicionada.
 - [x] Build Angular validado pelo CI.
-- [ ] Entrega publicada em main.
-- [ ] main e development equalizadas.
+- [x] Entrega publicada em main.
+- [x] main e development equalizadas.
 
 
 ## Evidências de implementação
@@ -38,3 +38,24 @@ Gargalos encontrados:
 - deduplicação mantém conjunto normalizado de itens existentes e novos;
 - analytics continua usando as mesmas contagens finais;
 - workflow `37342646726` aprovado: build e shells estáticos concluídos com sucesso.
+
+
+## Encerramento
+
+> ✅ 2026-10-05 — Spec revisada, validada e encerrada.
+
+### Diagnóstico final
+
+Não foi identificado memory leak clássico evidente na revisão do código atual.
+
+Os travamentos estavam mais alinhados a jank de renderização e bloqueio da thread principal:
+- background fixo no mobile;
+- processamento de scroll sem limitação por frame;
+- múltiplas serializações síncronas do estado de Compras ao adicionar vários ingredientes.
+
+### Evidências
+
+- PR #81 integrado em `development`;
+- PR #82 integrado em `main`;
+- workflow de produção `37342962188`: build e deploy concluídos com sucesso;
+- `development` equalizada com `main` no commit `58a5f61b0d272e20044d1e81ba255cd49fb19a67` antes do fechamento documental.
