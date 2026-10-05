@@ -19,3 +19,4 @@ Este arquivo registra cronologicamente todas as especificações (Specs) conclu�
 | 035 | 2026-10-05 | Minha Semana por dia | ChatGPT |
 | 036 | 2026-10-05 | Minha Semana para Lista de Compras | ChatGPT |
 | 037 | 2026-10-05 | Evolução dos Achadinhos contextuais | ChatGPT |
+| 038 | 2026-10-05 | Validação dos eventos de retenção e correção do ReturnVisit | ChatGPT |
