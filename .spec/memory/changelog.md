@@ -11,3 +11,4 @@ Este arquivo registra cronologicamente todas as especificações (Specs) conclu�
 | 027 | 2026-10-05 | Padrão compartilhado de microinterações dos heroes da Bebel | ChatGPT |
 | 028 | 2026-10-05 | Correção do GA4 SPA e microinterações dos heroes | ChatGPT |
 | 029 | 2026-10-05 | Correção do deploy no domínio customizado | ChatGPT |
+| 030 | 2026-10-05 | Meta Pixel e eventos de negócio para remarketing | ChatGPT |
