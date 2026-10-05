@@ -475,7 +475,6 @@ Exemplos de ações de valor:
 - adicionar ou concluir itens;
 - salvar receita;
 - mandar ingredientes para uma lista;
-- clicar em um Achadinho.
 
 Funil esperado:
 
