@@ -3,6 +3,7 @@ import { ActivatedRoute, RouterLink } from '@angular/router';
 import Swal from 'sweetalert2';
 
 import { SeoService } from '../../core/seo.service';
+import { FindingSpotlightComponent } from '../findings/finding-spotlight.component';
 import { ShoppingStore } from '../shopping/shopping.store';
 import { RecipeIngredient } from './meals.models';
 import { MealsStore } from './meals.store';
@@ -10,7 +11,7 @@ import { RecipeCatalog } from './recipe-catalog.service';
 
 @Component({
   changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [RouterLink],
+  imports: [FindingSpotlightComponent, RouterLink],
   selector: 'app-recipe',
   styleUrl: './recipe.component.scss',
   templateUrl: './recipe.component.html',

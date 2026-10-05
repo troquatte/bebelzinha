@@ -2,6 +2,7 @@ import { ChangeDetectionStrategy, Component, HostListener, computed, inject, sig
 import { RouterLink } from '@angular/router';
 
 import { SeoService } from '../../core/seo.service';
+import { FindingSpotlightComponent } from '../findings/finding-spotlight.component';
 import { MealType, Recipe, RecipeTag } from './meals.models';
 import { MealsStore } from './meals.store';
 import { RecipeCatalog } from './recipe-catalog.service';
@@ -12,7 +13,7 @@ type RecipeTagFilter = Extract<RecipeTag, 'rapida' | 'barata'>;
 
 @Component({
   changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [RouterLink],
+  imports: [FindingSpotlightComponent, RouterLink],
   selector: 'app-meals',
   styleUrl: './meals.component.scss',
   templateUrl: './meals.component.html',
