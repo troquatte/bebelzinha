@@ -1,5 +1,5 @@
 <section class="recipe-page">
-  <a class="back-link" routerLink="/comidinhas">‹ Voltar para Comidinhas</a>
+  <a class="back-link icon-action" routerLink="/comidinhas"><span class="material-symbols-outlined" aria-hidden="true">arrow_back</span>Voltar para Comidinhas</a>
 
   @if (catalog.loading()) {
     <div class="status-card">A Bebel está abrindo a receita...</div>
@@ -26,11 +26,13 @@
         </div>
 
         <div class="recipe-actions">
-          <button type="button" (click)="toggleSaved()">
-            {{ mealsStore.isSaved(currentRecipe.id) ? '♥ Receita salva' : '♡ Salvar receita' }}
+          <button class="icon-action" type="button" (click)="toggleSaved()">
+            <span class="material-symbols-outlined" aria-hidden="true">{{ mealsStore.isSaved(currentRecipe.id) ? 'favorite' : 'favorite_border' }}</span>
+            {{ mealsStore.isSaved(currentRecipe.id) ? 'Receita salva' : 'Salvar receita' }}
           </button>
-          <button type="button" (click)="toggleWeek()">
-            {{ mealsStore.isInWeek(currentRecipe.id) ? '✓ Na minha semana' : '+ Colocar na minha semana' }}
+          <button class="icon-action" type="button" (click)="toggleWeek()">
+            <span class="material-symbols-outlined" aria-hidden="true">{{ mealsStore.isInWeek(currentRecipe.id) ? 'event_available' : 'calendar_add_on' }}</span>
+            {{ mealsStore.isInWeek(currentRecipe.id) ? 'Na minha semana' : 'Colocar na minha semana' }}
           </button>
         </div>
       </div>
@@ -72,15 +74,16 @@
                 (click)="sendSingle(ingredient)"
                 [attr.aria-label]="'Adicionar ' + ingredient.name + ' à lista de compras'"
               >
-                + lista
+                <span class="material-symbols-outlined" aria-hidden="true">playlist_add</span>
+                lista
               </button>
             </article>
           }
         </div>
 
         <div class="shopping-actions">
-          <button class="secondary-button" type="button" (click)="sendSelected()">Mandar marcados pra lista</button>
-          <button class="primary-button" type="button" (click)="sendAll()">Mandar tudo pra lista</button>
+          <button class="secondary-button icon-action" type="button" (click)="sendSelected()"><span class="material-symbols-outlined" aria-hidden="true">playlist_add_check</span>Mandar marcados pra lista</button>
+          <button class="primary-button icon-action" type="button" (click)="sendAll()"><span class="material-symbols-outlined" aria-hidden="true">add_shopping_cart</span>Mandar tudo pra lista</button>
         </div>
       </section>
 
@@ -114,7 +117,7 @@
     <div class="status-card">
       <h1>Essa receita não está mais por aqui.</h1>
       <p>Volta em Comidinhas que eu te mostro outras ideias.</p>
-      <a class="primary-link" routerLink="/comidinhas">Ver receitas</a>
+      <a class="primary-link icon-action" routerLink="/comidinhas"><span class="material-symbols-outlined" aria-hidden="true">restaurant</span>Ver receitas</a>
     </div>
   }
 </section>
