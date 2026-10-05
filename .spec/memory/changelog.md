@@ -5,8 +5,6 @@ Este arquivo registra cronologicamente todas as especificações (Specs) conclu�
 | Spec | Data | Título da Mudança | Autor/Responsável |
 | :--- | :--- | :--- | :--- |
 | 023 | 2026-10-04 | Onboarding de primeira abertura da Bebel | ChatGPT |
-| 024 | 2026-10-04 | Achadinhos e recomendações contextuais | ChatGPT |
-| 025 | 2026-10-05 | Microinterações de Achadinhos e preparação do GA4 | ChatGPT |
 | 026 | 2026-10-05 | Ativação do Google Analytics 4 | ChatGPT |
 | 027 | 2026-10-05 | Padrão compartilhado de microinterações dos heroes da Bebel | ChatGPT |
 | 028 | 2026-10-05 | Correção do GA4 SPA e microinterações dos heroes | ChatGPT |
@@ -18,7 +16,6 @@ Este arquivo registra cronologicamente todas as especificações (Specs) conclu�
 | 034 | 2026-10-05 | Retorno personalizado básico | ChatGPT |
 | 035 | 2026-10-05 | Minha Semana por dia | ChatGPT |
 | 036 | 2026-10-05 | Minha Semana para Lista de Compras | ChatGPT |
-| 037 | 2026-10-05 | Evolução dos Achadinhos contextuais | ChatGPT |
 | 038 | 2026-10-05 | Validação dos eventos de retenção e correção do ReturnVisit | ChatGPT |
 | 039 | 2026-10-05 | Correção visual mobile e confirmação ao repetir lista | ChatGPT |
 | 040 | 2026-10-05 | Redução de jank no mobile e otimização de persistência | ChatGPT |
