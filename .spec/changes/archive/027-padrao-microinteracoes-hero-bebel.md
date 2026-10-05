@@ -59,3 +59,36 @@ Home e Lista de compras já possuem animações muito semelhantes implementadas 
   > ✅ 2026-10-05 10:22 — Revisão estática concluída; padrão global documentado em `.spec/shared/diretrizes-de-frontend.md`, sem dependência nova e com reduced motion centralizado.
 - [x] Validar build Angular no CI.
   > ✅ 2026-10-05 10:27 — Workflow `Build and deploy GitHub Pages` run `37315020259` concluído com sucesso; build e geração dos shells estáticos aprovados.
+
+
+## Encerramento
+
+> ✅ 2026-10-05 10:29 — Spec revisada, validada e encerrada após integração do PR #49 em `development`.
+
+### Validações finais
+
+- revisão estática: aprovada;
+- workflow `Build and deploy GitHub Pages` run `37315020259`: concluído com sucesso;
+- build Angular: concluído com sucesso;
+- geração dos shells estáticos: concluída com sucesso;
+- testes unitários: não executados, conforme regra operacional do projeto.
+
+### Memória e padrões atualizados
+
+- `.spec/shared/diretrizes-de-frontend.md`: padrão reutilizável de microinterações dos heroes documentado;
+- `.spec/memory/produto.md`: nenhuma alteração necessária;
+- `.spec/memory/contexto-tecnico.md`: nenhuma alteração necessária;
+- `.spec/memory/estrutura.md`: nenhuma alteração necessária;
+- `.spec/memory/changelog.md`: registrada a Spec 027.
+
+### Entrega
+
+- PR de implementação: #49;
+- merge em `development`: `9e8331206c7c13c64a5edfc97903c2e21af2cb97`;
+- padrão global: `bebel-hero-motion` em `src/styles.scss`.
+
+### Observações
+
+- Home, Lista de compras, Comidinhas e Achadinhos usam o padrão compartilhado;
+- microinterações específicas de cards e conteúdos locais foram preservadas;
+- nenhuma pendência conhecida dentro do escopo da spec.
