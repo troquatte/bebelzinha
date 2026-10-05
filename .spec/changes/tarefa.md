@@ -6,8 +6,8 @@ FULL
 
 ## Objetivos
 
-1. Reorganizar os módulos atuais para seguir o padrão definido em `.spec/memory/estrutura.md`.
-2. Remover completamente o domínio Achadinhos do estado atual do repositório.
+1. Tornar obrigatória a organização de cada feature em subpastas por responsabilidade.
+2. Remover completamente a feature Achadinhos do app e da documentação viva.
 
 ## Estrutura obrigatória
 
@@ -26,46 +26,34 @@ src/app/
       etc/
 ```
 
-Criar somente as subpastas que tenham conteúdo real. Não criar diretórios vazios.
-
-## Regras da reorganização
-
-- componentes em `components/`;
-- services/stores em `service/`;
-- contratos/models em `interface/`;
-- manter código específico dentro da feature;
-- atualizar imports e lazy routes;
-- não criar abstrações novas só por causa da mudança de pasta.
+Regras:
+- arquivos de feature não ficam soltos em `modules/<feature>/`;
+- criar somente as subpastas realmente necessárias;
+- componente visual fica em `components/`;
+- store e serviços específicos da feature ficam em `service/`;
+- contratos/tipos/interfaces ficam em `interface/`;
+- código genérico/global continua em `core/` ou `shared/`.
 
 ## Remoção de Achadinhos
 
-Remover do estado atual do projeto:
-- módulo `findings`;
+Remover:
 - rotas;
-- menu desktop/mobile;
-- spotlights e referências nas telas;
-- conteúdo e imagens públicas;
-- tracking `ClickAchadinho`;
-- continuidade para Achadinhos;
-- SEO/shells relacionados;
-- documentação/memória/specs específicas;
-- qualquer referência residual ao domínio atual de Achadinhos.
+- navegação desktop/mobile;
+- componentes;
+- serviços;
+- modelos;
+- conteúdo JSON;
+- imagens;
+- recomendações contextuais;
+- eventos de analytics;
+- continuidade;
+- referências em Home, Comidinhas e Compras;
+- memória/documentação viva;
+- specs arquivadas específicas de Achadinhos;
+- geração estática de páginas de Achadinhos.
 
-Afiliados podem continuar apenas como possibilidade futura de monetização, sem feature, rota, catálogo ou domínio próprio.
+## Preservação
 
-## Compatibilidade
-
-- preservar Comidinhas, Compras, Home e Onboarding;
-- preservar dados locais existentes dessas features;
-- preservar conteúdo e referências visuais adicionados no último push;
-- restaurar `scripts/generate-pages.mjs`, removido no push anterior, pois o workflow ainda depende dele.
-
-## Validação
-
-- build Angular;
-- geração dos shells estáticos;
-- busca residual por Achadinhos/findings;
-- revisão da estrutura final;
-- merge em `development`;
-- publicação em `main`;
-- equalização final das branches.
+- manter os novos arquivos de conteúdo/story e referências visuais adicionados pelo usuário;
+- manter Comidinhas, Compras, Onboarding, Home, Analytics e continuidade;
+- não alterar regra funcional dessas features além da remoção de Achadinhos e atualização de imports/caminhos.
