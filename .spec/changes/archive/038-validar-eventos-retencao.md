@@ -10,7 +10,6 @@ Garantir que os eventos do épico de retenção possam ser usados com confiança
 - RepeatList
 - PlanMeal
 - AddWeekToList
-- ClickAchadinho
 - ReturnVisit
 
 ## Critérios de aceite
@@ -27,7 +26,6 @@ Garantir que os eventos do épico de retenção possam ser usados com confiança
 
 - ativação: HomeAction, CreateList, AddItem, SaveRecipe, PlanMeal;
 - continuidade/recorrência: OpenShoppingList, RepeatList, AddWeekToList, ReturnVisit;
-- monetização/intenção comercial: ClickAchadinho.
 
 ## Observação externa
 
