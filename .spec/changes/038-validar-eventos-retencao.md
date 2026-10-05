@@ -19,7 +19,7 @@ Garantir que os eventos do épico de retenção possam ser usados com confiança
 - [x] Nenhum evento envia texto livre digitado pelo usuário.
 - [x] ReturnVisit passa a usar a abertura anterior real como referência.
 - [x] GA4 e Meta preservam a mesma nomenclatura de eventos de negócio.
-- [ ] Build Angular validado pelo CI.
+- [x] Build Angular validado pelo CI.
 - [ ] Entrega integrada em main.
 - [ ] main e development equalizadas.
 
@@ -36,4 +36,4 @@ O código e o deploy podem ser validados pelo repositório. A leitura de eventos
 
 ## Validação
 
-Aguardando workflow do Pull Request.
+Workflow `37339042444`: build e shells estáticos concluídos com sucesso.
