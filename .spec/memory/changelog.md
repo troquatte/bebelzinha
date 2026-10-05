@@ -21,3 +21,4 @@ Este arquivo registra cronologicamente todas as especificações (Specs) conclu�
 | 037 | 2026-10-05 | Evolução dos Achadinhos contextuais | ChatGPT |
 | 038 | 2026-10-05 | Validação dos eventos de retenção e correção do ReturnVisit | ChatGPT |
 | 039 | 2026-10-05 | Correção visual mobile e confirmação ao repetir lista | ChatGPT |
+| 040 | 2026-10-05 | Redução de jank no mobile e otimização de persistência | ChatGPT |
