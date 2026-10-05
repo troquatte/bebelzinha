@@ -24,7 +24,7 @@ Gargalos encontrados:
 - [x] Deduplicação continua funcionando.
 - [x] Eventos AddRecipeToList e AddWeekToList mantêm contagens corretas.
 - [x] Nenhuma dependência nova é adicionada.
-- [~] Build Angular validado pelo CI.
+- [x] Build Angular validado pelo CI.
 - [ ] Entrega publicada em main.
 - [ ] main e development equalizadas.
 
@@ -37,4 +37,4 @@ Gargalos encontrados:
 - inserção de múltiplos ingredientes agora persiste o ShoppingStore apenas uma vez por lote;
 - deduplicação mantém conjunto normalizado de itens existentes e novos;
 - analytics continua usando as mesmas contagens finais;
-- aguardando CI.
+- workflow `37342646726` aprovado: build e shells estáticos concluídos com sucesso.
