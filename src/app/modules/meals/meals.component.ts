@@ -3,6 +3,8 @@ import { RouterLink } from '@angular/router';
 
 import { SeoService } from '../../core/seo.service';
 import { FindingSpotlightComponent } from '../findings/finding-spotlight.component';
+import { WeekPlannerComponent } from './week-planner.component';
+import { WeekPlanningService } from './week-planning.service';
 import { MealType, Recipe, RecipeTag } from './meals.models';
 import { MealsStore } from './meals.store';
 import { RecipeCatalog } from './recipe-catalog.service';
@@ -13,7 +15,7 @@ type RecipeTagFilter = Extract<RecipeTag, 'rapida' | 'barata'>;
 
 @Component({
   changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [FindingSpotlightComponent, RouterLink],
+  imports: [FindingSpotlightComponent, RouterLink, WeekPlannerComponent],
   selector: 'app-meals',
   styleUrl: './meals.component.scss',
   templateUrl: './meals.component.html',
@@ -22,6 +24,7 @@ export class MealsComponent {
   private readonly seo = inject(SeoService);
 
   readonly catalog = inject(RecipeCatalog);
+  readonly planner = inject(WeekPlanningService);
   readonly store = inject(MealsStore);
 
   readonly mealFilter = signal<'all' | MealType>('all');
@@ -52,10 +55,6 @@ export class MealsComponent {
     return this.catalog.recipes().filter((recipe) => ids.includes(recipe.id));
   });
 
-  readonly weeklyRecipes = computed(() => {
-    const ids = this.store.weeklyRecipeIds();
-    return this.catalog.recipes().filter((recipe) => ids.includes(recipe.id));
-  });
 
   constructor() {
     this.seo.update({
@@ -120,8 +119,8 @@ export class MealsComponent {
     this.store.toggleSaved(recipe.id);
   }
 
-  toggleWeek(recipe: Recipe): void {
-    this.store.toggleWeek(recipe.id);
+  planWeek(recipe: Recipe): void {
+    void this.planner.chooseDay(recipe);
   }
 
   isSaved(recipe: Recipe): boolean {
