@@ -38,7 +38,7 @@ export class HomeComponent {
       const pending = activeList.items.filter((item) => !item.checked).length;
       return {
         icon: 'shopping_cart',
-        title: 'Sua lista ainda está por aqui 💜',
+        title: 'Sua lista ainda está por aqui',
         copy: `Ainda tem ${pending} ${pending === 1 ? 'item' : 'itens'} pra pegar.`,
         cta: 'Continuar lista',
         action: () => this.router.navigate(['/compras', activeList.id]),
