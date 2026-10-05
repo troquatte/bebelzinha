@@ -16,8 +16,8 @@ Corrigir os problemas visuais observados no cabeçalho da lista de compras e no 
 - [x] Cancelar a confirmação não cria lista.
 - [x] Confirmar mantém a regra atual: nova lista independente e itens desmarcados.
 - [x] Build Angular validado pelo CI.
-- [ ] Entrega publicada em main.
-- [ ] main e development equalizadas.
+- [x] Entrega publicada em main.
+- [x] main e development equalizadas.
 
 ## Fora de escopo
 
@@ -36,3 +36,17 @@ Corrigir os problemas visuais observados no cabeçalho da lista de compras e no 
 - título de retorno não inclui mais emoji no texto;
 - `repeatList()` usa SweetAlert2 e só executa a duplicação após confirmação positiva;
 - revisão estática concluída; workflow `37340694465` com build e shells estáticos aprovados.
+
+
+## Encerramento
+
+> ✅ 2026-10-05 — Spec revisada, validada e encerrada.
+
+### Evidências finais
+
+- PR #78 integrado em `development`;
+- PR #79 integrado em `main`;
+- workflow de produção `37340965701`: build e deploy concluídos com sucesso;
+- confirmação SweetAlert2 obrigatória antes da repetição;
+- layout mobile validado por regras de composição responsiva;
+- `main` e `development` equalizadas no commit `306f69ebfdf1593e0579afbd23179717d93da0bb` antes do fechamento documental.
