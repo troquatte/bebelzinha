@@ -9,3 +9,4 @@ Este arquivo registra cronologicamente todas as especificações (Specs) conclu�
 | 025 | 2026-10-05 | Microinterações de Achadinhos e preparação do GA4 | ChatGPT |
 | 026 | 2026-10-05 | Ativação do Google Analytics 4 | ChatGPT |
 | 027 | 2026-10-05 | Padrão compartilhado de microinterações dos heroes da Bebel | ChatGPT |
+| 028 | 2026-10-05 | Correção do GA4 SPA e microinterações dos heroes | ChatGPT |

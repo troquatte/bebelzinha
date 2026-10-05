@@ -42,7 +42,7 @@ As microinterações foram centralizadas em classes globais, mas ficaram sutis d
 - [x] `prefers-reduced-motion: reduce` remove movimentos não essenciais.
 - [x] Nenhuma dependência nova é adicionada.
 - [x] Build Angular validado pelo CI.
-- [ ] `main` e `development` terminam com a mesma árvore de arquivos.
+- [x] `main` e `development` terminam com a mesma árvore de arquivos.
 
 ## Tasks
 
@@ -56,6 +56,38 @@ As microinterações foram centralizadas em classes globais, mas ficaram sutis d
   > ✅ 2026-10-05 10:41 — Revisão estática confirmou seletores diretos para Home, Compras, Comidinhas e Achadinhos, com fallback `prefers-reduced-motion`.
 - [x] Validar build Angular no CI.
   > ✅ 2026-10-05 10:47 — Workflow `Build and deploy GitHub Pages` run `37318043539` concluído com sucesso; build e shells estáticos aprovados.
-- [ ] Integrar em development.
-- [ ] Sincronizar e integrar em main.
-- [ ] Confirmar igualdade final entre main e development.
+- [x] Integrar em development.
+  > ✅ 2026-10-05 10:49 — PR #53 mergeado em `development` no commit `b39f4525e1ceca0727ca0c127ab46c212cb8d519`.
+- [x] Sincronizar e integrar em main.
+  > ✅ 2026-10-05 10:52 — PR #54 mergeado em `main` no commit `c37397dbb84d23026eeeab580fa822ba06059d1f` após CI aprovado.
+- [x] Confirmar igualdade final entre main e development.
+  > ✅ 2026-10-05 10:53 — `main` e `development` confirmadas no mesmo SHA `c37397dbb84d23026eeeab580fa822ba06059d1f` e mesma tree `4a7b44af0c432a38de4107297137b82a792c44f2`.
+
+
+## Encerramento
+
+> ✅ 2026-10-05 10:54 — Spec revisada, validada e encerrada.
+
+### Validações finais
+
+- workflow do PR de implementação `37318043539`: sucesso;
+- workflow do PR de release `37318257029`: sucesso;
+- build Angular: sucesso;
+- geração dos shells estáticos: sucesso;
+- snippet oficial do GA4 presente no `<head>`;
+- `send_page_view: false` configurado;
+- tracking SPA via `NavigationEnd`;
+- microinterações reforçadas nos quatro heroes;
+- `main` e `development` equalizadas no mesmo commit antes do fechamento.
+
+### Memória atualizada
+
+- `.spec/memory/produto.md`: nenhuma alteração necessária;
+- `.spec/memory/contexto-tecnico.md`: nenhuma alteração estrutural adicional necessária;
+- `.spec/memory/estrutura.md`: nenhuma alteração necessária;
+- `.spec/memory/changelog.md`: registrada a Spec 028.
+
+### Observações
+
+- nenhuma dependência nova adicionada;
+- nenhuma pendência conhecida dentro do escopo da spec.
