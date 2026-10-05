@@ -64,3 +64,26 @@ Reorganizar as features Angular conforme a estrutura definida em `.spec/memory/e
 - Sem alterações de dependências ou persistência pessoal; valores legados de continuidade são ignorados pelo conjunto de áreas válidas.
 - Build e shells: CI #116 aprovado. Testes unitários não executados, conforme instrução do usuário.
 - Verificação visual no navegador recomendada após integração; não realizada nesta retomada.
+
+## Encerramento
+
+> ✅ 2026-10-05 17:57 — Entrega integrada em development pelo PR #87 (15da3ab), revisada e encerrada.
+
+### Validações finais
+
+- CI #116: Build e Generate static route shells aprovados para o código integrado.
+- Revisão estática: estrutura, remoção, rotas, imports, conteúdo preservado e continuidade confirmados.
+- Testes unitários não executados por instrução do usuário.
+- Validação visual manual recomendada, não executada; sem bloqueio estrutural identificado.
+
+### Memória atualizada
+
+- produto.md: removida a capacidade descontinuada e ajustados os fluxos atuais.
+- contexto-tecnico.md: removido o evento exclusivo da capacidade descontinuada.
+- estrutura.md: organização obrigatória por responsabilidade documentada.
+- changelog.md: registrada a entrega 042.
+
+### Observações
+
+- main e publicação não fazem parte desta integração.
+- Nenhuma pendência obrigatória conhecida dentro do escopo da spec.
