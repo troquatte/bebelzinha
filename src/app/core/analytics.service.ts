@@ -13,7 +13,8 @@ export type BusinessEvent =
   | 'ClickAchadinho'
   | 'OpenShoppingList'
   | 'ReturnVisit'
-  | 'HomeAction';
+  | 'HomeAction'
+  | 'RepeatList';
 
 type AnalyticsParams = Record<string, string | number | boolean>;
 type GtagCommand = 'config' | 'event' | 'js';
