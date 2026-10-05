@@ -42,6 +42,11 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  transition: transform 280ms ease;
+}
+
+.findings-hero__portrait-wrap:hover .findings-hero__portrait img {
+  transform: scale(1.025);
 }
 
 .findings-hero__speech {
@@ -57,6 +62,7 @@
   font-size: .75rem;
   font-weight: 900;
   text-align: center;
+  animation: findings-speech-float 3.2s ease-in-out infinite;
 }
 
 .findings-hero__spark {
@@ -66,6 +72,7 @@
   z-index: 2;
   color: var(--bebel-orange);
   font-size: 1.3rem;
+  animation: findings-spark 2.4s ease-in-out infinite;
 }
 
 .findings-hero__copy { align-self: center; }
@@ -106,10 +113,15 @@
   font-size: .72rem;
   font-weight: 900;
   cursor: pointer;
-  transition: transform 160ms ease, background 160ms ease, color 160ms ease;
+  transition: transform 160ms ease, background 160ms ease, color 160ms ease, box-shadow 160ms ease;
 }
 
-.findings-filters button:hover { transform: translateY(-.06rem); }
+.findings-filters button:hover {
+  transform: translateY(-.08rem);
+  box-shadow: 0 .18rem .42rem rgb(111 31 180 / 10%);
+}
+
+.findings-filters button:active { transform: translateY(.03rem) scale(.98); }
 
 .findings-filters .findings-filter--active {
   border-color: var(--bebel-primary);
@@ -130,6 +142,14 @@
   background: var(--bebel-surface);
   box-shadow: .18rem .22rem 0 rgb(50 28 58 / 8%);
   animation: finding-card-enter 320ms ease-out both;
+  animation-delay: calc(var(--finding-index, 0) * 45ms);
+  transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+}
+
+.finding-card:hover {
+  border-color: rgb(111 31 180 / 18%);
+  box-shadow: .28rem .34rem 0 rgb(50 28 58 / 10%);
+  transform: translateY(-.14rem);
 }
 
 .finding-card__image {
@@ -145,7 +165,10 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  transition: transform 260ms ease;
 }
+
+.finding-card:hover .finding-card__image img { transform: scale(1.035); }
 
 .finding-card__image span {
   position: absolute;
@@ -197,6 +220,7 @@
   font-size: .72rem;
   font-weight: 900;
   text-decoration: none;
+  transition: transform 150ms ease, box-shadow 150ms ease, background 150ms ease;
 }
 
 .finding-card__details {
@@ -208,6 +232,15 @@
   color: #fff;
   background: var(--bebel-primary);
   box-shadow: .12rem .15rem 0 var(--bebel-orange);
+}
+
+.finding-card__details:hover,
+.finding-card__external:hover { transform: translateY(-.08rem); }
+
+.finding-card__details:active,
+.finding-card__external:active {
+  box-shadow: none;
+  transform: translateY(.04rem) scale(.985);
 }
 
 .affiliate-note,
@@ -233,8 +266,18 @@ a:focus-visible {
 }
 
 @keyframes finding-card-enter {
-  from { opacity: 0; transform: translateY(.4rem); }
-  to { opacity: 1; transform: translateY(0); }
+  from { opacity: 0; transform: translateY(.4rem) scale(.99); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@keyframes findings-speech-float {
+  0%, 100% { transform: translateY(0) rotate(-.4deg); }
+  50% { transform: translateY(-.16rem) rotate(.4deg); }
+}
+
+@keyframes findings-spark {
+  0%, 100% { opacity: .72; transform: scale(.9) rotate(0); }
+  50% { opacity: 1; transform: scale(1.08) rotate(8deg); }
 }
 
 @media (min-width: 44rem) {
@@ -254,10 +297,26 @@ a:focus-visible {
 
 @media (prefers-reduced-motion: reduce) {
   .finding-card,
+  .findings-hero__portrait img,
+  .findings-hero__speech,
+  .findings-hero__spark,
+  .finding-card__image img,
+  .finding-card__details,
+  .finding-card__external,
   .findings-filters button {
     animation: none;
     transition: none;
   }
 
-  .findings-filters button:hover { transform: none; }
+  .finding-card:hover,
+  .findings-hero__portrait-wrap:hover .findings-hero__portrait img,
+  .finding-card:hover .finding-card__image img,
+  .finding-card__details:hover,
+  .finding-card__external:hover,
+  .findings-filters button:hover,
+  .finding-card__details:active,
+  .finding-card__external:active,
+  .findings-filters button:active {
+    transform: none;
+  }
 }
