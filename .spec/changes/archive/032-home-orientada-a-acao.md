@@ -74,3 +74,25 @@ Angular SPA com dados locais em `ShoppingStore` e `MealsStore`. A Home já usa i
 ## Resultado Esperado
 
 A pessoa abre a Home e inicia uma ação útil em poucos segundos, sem precisar interpretar o ecossistema inteiro.
+
+
+## Encerramento
+
+> ✅ 2026-10-05 — Spec revisada, validada e encerrada.
+
+### Validações finais
+
+- revisão estática: aprovada;
+- workflow `37326204881`: build Angular e shells estáticos concluídos com sucesso;
+- PR #62 integrado em `development` no commit `7a56f73d944dc06f0d8e343daee23a644b9a6ea6`.
+
+### Memória atualizada
+
+- `.spec/memory/produto.md`: nenhuma alteração isolada necessária nesta primeira etapa do épico;
+- `.spec/memory/contexto-tecnico.md`: nenhuma alteração necessária;
+- `.spec/memory/estrutura.md`: nenhuma alteração necessária;
+- `.spec/memory/changelog.md`: registrada a Spec 032.
+
+### Observações
+
+- Specs 033–037 permanecem ativas como próximas entregas do épico.
