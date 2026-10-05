@@ -1,0 +1,35 @@
+<section class="week-section" id="minha-semana" aria-labelledby="week-title">
+  <div class="week-heading">
+    <div>
+      <span>Minha semana</span>
+      <h2 id="week-title">O que você pretende cozinhar</h2>
+    </div>
+    <small>{{ plannedCount() }} de 7 dias</small>
+  </div>
+
+  <div class="week-grid" aria-label="Planejamento da semana">
+    @for (slot of slots(); track slot.id) {
+      <article class="week-day" [class.week-day--filled]="slot.recipe">
+        <strong class="week-day__label">{{ slot.label }}</strong>
+
+        @if (slot.recipe; as recipe) {
+          <a class="week-day__recipe" [routerLink]="['/comidinhas', recipe.slug]">
+            <img [src]="recipe.image" [alt]="recipe.title" />
+            <span>{{ recipe.title }}</span>
+          </a>
+
+          <div class="week-day__actions">
+            <button type="button" (click)="moveRecipe(recipe.id)">Mover</button>
+            <button type="button" (click)="chooseRecipe(slot.id)">Trocar</button>
+            <button class="week-day__remove" type="button" (click)="removeRecipe(slot.id)">Tirar</button>
+          </div>
+        } @else {
+          <button class="week-day__empty icon-action" type="button" (click)="chooseRecipe(slot.id)">
+            <span class="material-symbols-outlined" aria-hidden="true">add</span>
+            Escolher receita
+          </button>
+        }
+      </article>
+    }
+  </div>
+</section>

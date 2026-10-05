@@ -364,6 +364,23 @@
   font-size: 0.68rem;
 }
 
+.saved-mini-card {
+  display: grid;
+  gap: .4rem;
+}
+
+.saved-mini-card > button {
+  min-height: 2.2rem;
+  border: 0;
+  border-radius: .7rem;
+  color: var(--bebel-primary-strong);
+  background: #f7f0f6;
+  font: inherit;
+  font-size: .68rem;
+  font-weight: 900;
+  cursor: pointer;
+}
+
 .status-card,
 .infinite-status {
   margin-top: 1rem;
