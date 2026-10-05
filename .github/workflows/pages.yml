@@ -36,7 +36,7 @@ jobs:
         run: npm ci
 
       - name: Build
-        run: npm run build -- --base-href /
+        run: npm run build -- --base-href /bebelzinha/
 
       - name: Generate static route shells
         run: node scripts/generate-pages.mjs dist/bebelzinha/browser

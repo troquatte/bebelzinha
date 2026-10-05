@@ -1074,3 +1074,20 @@ Quando houver dúvida sobre uma implementação, perguntar:
 > **Isso ajuda alguém a cuidar da vida de casa de forma mais simples?**
 
 Se a resposta for não, provavelmente não pertence ao núcleo atual do projeto.
+
+
+---
+
+## Google Analytics 4
+
+A SPA possui integração opcional com Google Analytics 4 em `src/app/core/analytics.service.ts`.
+
+Regras atuais:
+- o Measurement ID é lido da meta `google-analytics-id` em `src/index.html`;
+- somente valores válidos no formato `G-...` ativam o carregamento;
+- sem ID válido, nenhum script do Google Analytics é carregado;
+- `gtag.js` é carregado uma única vez;
+- page views são registrados nas mudanças de rota Angular;
+- o carregamento automático do GA4 usa `send_page_view: false` para evitar duplicidade;
+- o Measurement ID é configuração pública e não deve ser tratado como segredo;
+- eventos customizados, Consent Mode e Google Tag Manager não fazem parte da integração atual.
