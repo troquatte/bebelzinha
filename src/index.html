@@ -8,8 +8,16 @@
       content="A Bebel ajuda você a organizar a vida de casa com receitas, listas de compras e ideias práticas sem complicação."
     />
     <meta name="theme-color" content="#6f3cc3" />
-    <!-- GA4 da Bebel. O AnalyticsService controla page views da SPA. -->
     <meta name="google-analytics-id" content="G-RL10XLKR71" />
+    <!-- Google tag (gtag.js). Page views são enviados manualmente pelo Angular Router. -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RL10XLKR71"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      window.gtag = window.gtag || gtag;
+      gtag('js', new Date());
+      gtag('config', 'G-RL10XLKR71', { send_page_view: false });
+    </script>
     <meta name="robots" content="index,follow,max-image-preview:large" />
 
     <meta property="og:site_name" content="Bebel" />
