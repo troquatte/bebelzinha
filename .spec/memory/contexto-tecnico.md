@@ -1090,4 +1090,10 @@ Regras atuais:
 - page views são registrados nas mudanças de rota Angular;
 - o carregamento automático do GA4 usa `send_page_view: false` para evitar duplicidade;
 - o Measurement ID é configuração pública e não deve ser tratado como segredo;
-- eventos customizados, Consent Mode e Google Tag Manager não fazem parte da integração atual.
+- eventos de negócio são enviados pelo `AnalyticsService` para GA4 e Meta Pixel com a mesma nomenclatura;
+- o Meta Pixel usa o ID público `283243945816993`;
+- `PageView` do GA4 e Meta acompanha mudanças de rota da SPA;
+- eventos de negócio atuais: `AppOpen`, `CreateList`, `AddItem`, `CompleteItem`, `SaveRecipe`, `AddRecipeToList`, `ClickAchadinho`, `OpenShoppingList` e `ReturnVisit`;
+- `ReturnVisit` representa uma nova sessão após pelo menos 30 minutos;
+- nomes de listas, itens e outros textos digitados pelo usuário não devem ser enviados;
+- CAPI, Consent Mode e Google Tag Manager não fazem parte da integração atual.
