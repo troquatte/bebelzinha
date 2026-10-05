@@ -1,0 +1,23 @@
+{
+  "id": "frigideira-antiaderente",
+  "slug": "frigideira-antiaderente",
+  "title": "Frigideira antiaderente",
+  "description": "Uma frigideira simples para omelete, panqueca, pão de frigideira e as receitas rápidas do dia a dia.",
+  "bebelNote": "Se a frigideira gruda até pensamento, cozinhar rápido vira trabalho dobrado.",
+  "image": "images/findings/frigideira-antiaderente.svg",
+  "category": "cozinha",
+  "store": "mercado-livre",
+  "affiliateUrl": "https://lista.mercadolivre.com.br/frigideira-antiaderente",
+  "isAffiliate": false,
+  "badge": "bebel-indica",
+  "tags": [
+    "frigideira",
+    "receita",
+    "cozinha",
+    "rapida"
+  ],
+  "contexts": [
+    "meals"
+  ],
+  "active": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "sacola-termica-reutilizavel",
+  "slug": "sacola-termica-reutilizavel",
+  "title": "Sacola térmica reutilizável",
+  "description": "Uma sacola térmica para levar congelados, frios e compras que não podem ficar passeando no calor.",
+  "bebelNote": "Boa quando o mercado não é logo ali ou quando você ainda vai resolver outra coisa no caminho.",
+  "image": "images/findings/sacola-termica-reutilizavel.svg",
+  "category": "organizacao",
+  "store": "amazon",
+  "affiliateUrl": "https://www.amazon.com.br/s?k=sacola+termica+reutilizavel",
+  "isAffiliate": false,
+  "badge": "bom-custo-beneficio",
+  "tags": [
+    "mercado",
+    "compras",
+    "térmica"
+  ],
+  "contexts": [
+    "shopping"
+  ],
+  "active": true
+}
