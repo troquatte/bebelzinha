@@ -14,7 +14,8 @@ export type BusinessEvent =
   | 'OpenShoppingList'
   | 'ReturnVisit'
   | 'HomeAction'
-  | 'RepeatList';
+  | 'RepeatList'
+  | 'PlanMeal';
 
 type AnalyticsParams = Record<string, string | number | boolean>;
 type GtagCommand = 'config' | 'event' | 'js';
