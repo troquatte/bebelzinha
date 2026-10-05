@@ -21,3 +21,4 @@ Este arquivo registra cronologicamente todas as especificações (Specs) conclu�
 | 040 | 2026-10-05 | Redução de jank no mobile e otimização de persistência | ChatGPT |
 | 041 | 2026-10-05 | Padronização visual dos cards de dica e aviso | ChatGPT |
 | 042 | 2026-10-05 | Padronização dos módulos e remoção da feature descontinuada | Codex |
+| 043 | 2026-10-05 | Bloqueio do GA4 no ambiente local | Codex |
