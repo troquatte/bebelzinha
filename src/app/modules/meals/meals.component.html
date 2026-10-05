@@ -44,7 +44,7 @@
     }
   </section>
 
-  <section class="meals-section" aria-labelledby="saved-title">
+  <section class="meals-section" id="receitas-salvas" aria-labelledby="saved-title">
     <div class="section-heading">
       <div>
         <span>Guardadas</span>
@@ -111,7 +111,7 @@
 
   <app-finding-spotlight context="meals" />
 
-  <section class="recipe-browser" aria-label="Receitas">
+  <section class="recipe-browser" id="receitas" aria-label="Receitas">
     @if (catalog.loading()) {
       <div class="status-card">A Bebel está separando as receitas...</div>
     } @else if (catalog.error()) {

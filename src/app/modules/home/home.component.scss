@@ -125,6 +125,82 @@
   font-size: 1rem;
 }
 
+
+
+.quick-actions {
+  margin-top: 1.6rem;
+}
+
+.quick-actions__grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+.quick-action {
+  display: flex;
+  min-height: 7.4rem;
+  align-items: flex-start;
+  gap: 0.7rem;
+  padding: 0.95rem;
+  border: 0.1rem solid rgb(111 31 180 / 14%);
+  border-radius: 1.15rem 1.15rem 1.15rem 0.45rem;
+  color: var(--bebel-text);
+  background: var(--bebel-surface);
+  box-shadow: 0.14rem 0.18rem 0 rgb(50 28 58 / 8%);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  transition:
+    transform 170ms ease,
+    box-shadow 170ms ease,
+    border-color 170ms ease;
+}
+
+.quick-action:hover {
+  transform: translateY(-0.12rem);
+  border-color: rgb(111 31 180 / 28%);
+  box-shadow: 0.22rem 0.26rem 0 rgb(50 28 58 / 10%);
+}
+
+.quick-action:active {
+  transform: translateY(0.03rem) scale(0.99);
+}
+
+.quick-action__icon {
+  display: grid;
+  width: 2.45rem;
+  height: 2.45rem;
+  flex: 0 0 2.45rem;
+  place-items: center;
+  border-radius: 0.85rem;
+  color: var(--bebel-primary-strong);
+  background: var(--bebel-primary-soft);
+  font-size: 1.35rem;
+}
+
+.quick-action strong,
+.quick-action small {
+  display: block;
+}
+
+.quick-action strong {
+  color: var(--bebel-primary-strong);
+  font-size: 0.88rem;
+}
+
+.quick-action small {
+  margin-top: 0.28rem;
+  color: var(--bebel-text-soft);
+  font-size: 0.7rem;
+  line-height: 1.35;
+}
+
+.quick-action:focus-visible {
+  outline: 0.2rem solid var(--bebel-orange);
+  outline-offset: 0.18rem;
+}
+
 .today-card {
   position: relative;
   margin-top: 1.45rem;
@@ -329,20 +405,18 @@
     display: inline;
   }
 
-  .feature-grid {
+  .feature-grid,
+  .quick-actions__grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .quick-action {
+    min-height: 6.6rem;
   }
 }
 
 
 /* Microinterações da Home */
-
-
-
-
-
-
-
 .today-card {
   animation: home-rise 520ms 120ms ease-out both;
   transition:
@@ -416,54 +490,10 @@
   }
 }
 
-@keyframes sticker-settle {
-  from {
-    opacity: 0;
-    transform: translateY(-0.35rem) rotate(-4deg) scale(0.96);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateY(0) rotate(-1.5deg) scale(1);
-  }
-}
-
-@keyframes portrait-enter {
-  from {
-    opacity: 0;
-    transform: translateY(0.8rem) rotate(2deg) scale(0.97);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateY(0) rotate(0deg) scale(1);
-  }
-}
 
 
-@keyframes speech-float {
-  0%,
-  100% {
-    transform: translateY(0) rotate(2deg);
-  }
 
-  50% {
-    transform: translateY(-0.16rem) rotate(1deg);
-  }
-}
 
-@keyframes sparkle {
-  0%,
-  100% {
-    opacity: 0.55;
-    transform: scale(0.85) rotate(0deg);
-  }
-
-  50% {
-    opacity: 1;
-    transform: scale(1.12) rotate(12deg);
-  }
-}
 
 @keyframes brush-breathe {
   0%,
@@ -499,6 +529,8 @@
   }
 
   .today-card:hover,
+  .quick-action:hover,
+  .quick-action:active,
   .feature-card:hover,
   .bebel-note:hover {
     transform: none;
