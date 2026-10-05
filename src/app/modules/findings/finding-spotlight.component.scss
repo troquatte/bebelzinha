@@ -11,6 +11,12 @@
   background: linear-gradient(145deg, rgb(234 210 255 / 38%), rgb(255 240 223 / 48%));
   box-shadow: .16rem .2rem 0 rgb(111 31 180 / 8%);
   animation: finding-rise 360ms ease-out both;
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.finding-spotlight:hover {
+  box-shadow: .24rem .3rem 0 rgb(111 31 180 / 10%);
+  transform: translateY(-.1rem);
 }
 
 .finding-spotlight__image {
@@ -25,7 +31,10 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  transition: transform 240ms ease;
 }
+
+.finding-spotlight:hover .finding-spotlight__image img { transform: scale(1.04); }
 
 .finding-spotlight__copy { min-width: 0; }
 
@@ -52,7 +61,16 @@
   font-size: .74rem;
   font-weight: 900;
   text-decoration: none;
+  transition: transform 150ms ease;
 }
+
+.finding-spotlight__link::after {
+  content: ' →';
+  display: inline-block;
+  transition: transform 150ms ease;
+}
+
+.finding-spotlight__link:hover::after { transform: translateX(.14rem); }
 
 .finding-spotlight__link:focus-visible,
 .finding-spotlight__image:focus-visible {
@@ -66,5 +84,17 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .finding-spotlight { animation: none; }
+  .finding-spotlight,
+  .finding-spotlight__image img,
+  .finding-spotlight__link,
+  .finding-spotlight__link::after {
+    animation: none;
+    transition: none;
+  }
+
+  .finding-spotlight:hover,
+  .finding-spotlight:hover .finding-spotlight__image img,
+  .finding-spotlight__link:hover::after {
+    transform: none;
+  }
 }
