@@ -70,3 +70,13 @@ Listas são persistidas em `localStorage` pelo `ShoppingStore`.
 ## Resultado Esperado
 
 Compras recorrentes podem ser iniciadas em poucos segundos sem recriar os mesmos itens.
+
+
+## Encerramento
+
+> ✅ 2026-10-05 — Spec revisada, validada e encerrada.
+
+- workflow `37326688080`: build aprovado;
+- PR #64 integrado em `development` no commit `dd19f8d5c11dfb6b53c9bf0230a3af8445e74001`;
+- memória de produto/contexto/estrutura: nenhuma alteração necessária;
+- changelog atualizado.
