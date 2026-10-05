@@ -31,10 +31,10 @@ Home e Lista de compras já possuem animações muito semelhantes implementadas 
 
 ## Critérios de aceite
 
-- [~] Home usa o padrão compartilhado sem perder o comportamento atual.
-- [~] Lista de compras usa o mesmo padrão de hero da Home.
-- [~] Comidinhas usa o mesmo padrão de entrada, retrato, balão e sparks.
-- [~] Achadinhos usa o mesmo padrão aplicável ao seu hero.
+- [x] Home usa o padrão compartilhado sem perder o comportamento atual.
+- [x] Lista de compras usa o mesmo padrão de hero da Home.
+- [x] Comidinhas usa o mesmo padrão de entrada, retrato, balão e sparks.
+- [x] Achadinhos usa o mesmo padrão aplicável ao seu hero.
 - [x] As animações compartilhadas ficam definidas em uma fonte global reutilizável.
 - [x] Duplicação de keyframes do hero é removida dos componentes onde foi substituída.
 - [x] `prefers-reduced-motion: reduce` desativa as microinterações compartilhadas.
@@ -45,17 +45,17 @@ Home e Lista de compras já possuem animações muito semelhantes implementadas 
 
 - [x] Criar padrão global de microinterações para hero da Bebel.
   > ✅ 2026-10-05 10:22 — Padrão criado em `src/styles.scss` com entrada do hero, retrato, sticker, balão, sparks e reduced motion.
-- [~] Aplicar o padrão na Home.
-  > 🧪 2026-10-05 10:22 — Classes compartilhadas aplicadas ao hero da Home; comportamento original foi convertido para a fonte global. Aguardando build do CI.
-- [~] Aplicar o padrão na Lista de compras.
-  > 🧪 2026-10-05 10:22 — Classes compartilhadas aplicadas ao hero da listagem de compras. Aguardando build do CI.
-- [~] Aplicar o padrão em Comidinhas.
-  > 🧪 2026-10-05 10:22 — Hero de Comidinhas passou a usar entrada, retrato, balão e sparks compartilhados. Aguardando build do CI.
-- [~] Aplicar o padrão em Achadinhos.
-  > 🧪 2026-10-05 10:22 — Hero de Achadinhos passou a usar o padrão compartilhado; microinterações específicas dos cards foram preservadas. Aguardando build do CI.
+- [x] Aplicar o padrão na Home.
+  > ✅ 2026-10-05 10:27 — Classes compartilhadas aplicadas ao hero da Home; comportamento original foi convertido para a fonte global. Build do CI aprovado.
+- [x] Aplicar o padrão na Lista de compras.
+  > ✅ 2026-10-05 10:27 — Classes compartilhadas aplicadas ao hero da listagem de compras. Build do CI aprovado.
+- [x] Aplicar o padrão em Comidinhas.
+  > ✅ 2026-10-05 10:27 — Hero de Comidinhas passou a usar entrada, retrato, balão e sparks compartilhados. Build do CI aprovado.
+- [x] Aplicar o padrão em Achadinhos.
+  > ✅ 2026-10-05 10:27 — Hero de Achadinhos passou a usar o padrão compartilhado; microinterações específicas dos cards foram preservadas. Build do CI aprovado.
 - [x] Remover animações duplicadas de hero substituídas pelo padrão.
   > ✅ 2026-10-05 10:22 — Keyframes locais duplicados removidos de Home, Lista de compras e Achadinhos; animações específicas das páginas foram mantidas.
 - [x] Revisar comportamento e reduced motion.
   > ✅ 2026-10-05 10:22 — Revisão estática concluída; padrão global documentado em `.spec/shared/diretrizes-de-frontend.md`, sem dependência nova e com reduced motion centralizado.
-- [~] Validar build Angular no CI.
-  > 🧪 2026-10-05 10:22 — Aguardando workflow do Pull Request.
+- [x] Validar build Angular no CI.
+  > ✅ 2026-10-05 10:27 — Workflow `Build and deploy GitHub Pages` run `37315020259` concluído com sucesso; build e geração dos shells estáticos aprovados.
