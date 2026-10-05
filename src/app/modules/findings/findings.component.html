@@ -32,8 +32,8 @@
     <div class="status-card">Ih, os achadinhos não carregaram agora. Tenta de novo daqui a pouco.</div>
   } @else {
     <div class="findings-grid">
-      @for (finding of filteredFindings(); track finding.id) {
-        <article class="finding-card">
+      @for (finding of filteredFindings(); track finding.id; let index = $index) {
+        <article class="finding-card" [style.--finding-index]="index">
           <a class="finding-card__image" [routerLink]="['/achadinhos', finding.slug]">
             <img [src]="finding.image" [alt]="finding.title" />
             <span>{{ finding.store === 'mercado-livre' ? 'Mercado Livre' : finding.store === 'amazon' ? 'Amazon' : 'Shopee' }}</span>
