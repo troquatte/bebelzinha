@@ -246,3 +246,45 @@ p {
   font-size: 1.15em;
   line-height: 1;
 }
+
+
+/* Padrão compartilhado — caixas de dica, transparência e apoio */
+.bebel-note-card {
+  display: grid;
+  grid-template-columns: 2rem minmax(0, 1fr);
+  align-items: start;
+  gap: 0.75rem;
+  padding: 1rem;
+  border: 0.1rem dashed rgb(111 31 180 / 30%);
+  border-radius: 1rem;
+  color: var(--bebel-text-soft);
+  background: rgb(234 210 255 / 32%);
+}
+
+.bebel-note-card__icon {
+  display: grid;
+  width: 2rem;
+  height: 2rem;
+  place-items: center;
+  border-radius: 50%;
+  background: #fff;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.bebel-note-card__content {
+  min-width: 0;
+}
+
+.bebel-note-card__content strong {
+  display: block;
+  color: var(--bebel-primary-strong);
+  font-size: 0.78rem;
+}
+
+.bebel-note-card__content p {
+  max-width: 62rem;
+  margin: 0.28rem 0 0;
+  color: var(--bebel-text-soft);
+  line-height: 1.35;
+}
