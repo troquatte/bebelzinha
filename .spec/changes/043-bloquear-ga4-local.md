@@ -37,8 +37,11 @@ SPA Angular; GA4 hoje carrega incondicionalmente em src/index.html e recebe even
 ### Tasks - Front-end
 
 - [x] Remover bootstrap GA4 incondicional do HTML e inicializar no AnalyticsService com bloqueio local.
-- [~] Validar cenários locais/públicos e bootstrap, revisar implementação e confirmar build no CI.
-- [~] Atualizar memória técnica e entregar PR para development.
+  > ✅ 2026-10-05 18:05 — HTML e serviço revisados; GA4 sem bootstrap local, ID inválido desativa carregamento.
+- [x] Validar cenários locais/públicos e bootstrap, revisar implementação e confirmar build no CI.
+  > ✅ 2026-10-05 18:05 — 19 cenários e bootstrap aprovados; build e shells locais aprovados. Desvio: CI na fila, substituído por build local com Node 24.19.0 compatível; CI usa Node 22.22.3.
+- [x] Atualizar memória técnica e entregar PR para development.
+  > ✅ 2026-10-05 18:05 — Memória sincronizada e PR #89 aberto contra development.
 
 ## Resultado Esperado
 
@@ -52,4 +55,8 @@ Modo spec: APROVADA. Critérios rastreáveis às três tarefas; solução mínim
 
 - 2026-10-05: script estático removido; serviço valida ambiente/ID antes de configurar ou carregar GA4.
 - Verificação executável pontual em Node: 19 cenários locais/públicos, bloqueio de bootstrap local, carregamento único e send_page_view false confirmados. Nenhum teste unitário criado/executado.
-- Memória técnica sincronizada; aguardando CI de build.
+- Memória técnica sincronizada; build local npm run build -- --base-href / aprovado (Node 24.19.0); geração de shells aprovada. CI #119 ainda na fila, não confirmado.
+
+## Revisão da implementação
+
+Modo implementation: APROVADA. Escopo, imports, tipos, guards de envio e inicialização revisados; build e shells aprovados. Warnings preexistentes de budgets SCSS e CommonJS SweetAlert2 não bloqueiam. Testes unitários não executados.
