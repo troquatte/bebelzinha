@@ -466,9 +466,6 @@
   box-shadow: 0.34rem 0.4rem 0 var(--bebel-orange);
 }
 
-.today-card__brush {
-  animation: brush-breathe 5s ease-in-out infinite;
-}
 
 .feature-card {
   animation: home-rise 480ms ease-out both;
@@ -532,18 +529,6 @@
 
 
 
-@keyframes brush-breathe {
-  0%,
-  100% {
-    opacity: 0.72;
-    transform: rotate(-6deg) scaleX(1);
-  }
-
-  50% {
-    opacity: 1;
-    transform: rotate(-5deg) scaleX(1.05);
-  }
-}
 
 @media (prefers-reduced-motion: reduce) {
   .hero,
@@ -552,7 +537,6 @@
   .hero__speech,
   .hero__spark,
   .today-card,
-  .today-card__brush,
   .feature-card,
   .bebel-note {
     animation: none;
