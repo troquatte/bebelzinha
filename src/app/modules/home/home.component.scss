@@ -237,10 +237,15 @@
   position: relative;
   z-index: 1;
   display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  align-items: end;
-  gap: 1rem;
-  margin-top: 0.5rem;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 0.9rem;
+  margin-top: 0.6rem;
+}
+
+.today-card__context-icon {
+  display: block;
+  margin-bottom: 0.35rem;
+  font-size: 1.3rem;
 }
 
 .today-card p {
@@ -250,6 +255,7 @@
 
 
 .today-card__action {
+  width: 100%;
   min-height: 2.8rem;
   padding: 0.65rem 0.85rem;
   border: 0;
@@ -399,6 +405,15 @@
 }
 
 @media (min-width: 44rem) {
+  .today-card__content {
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: end;
+  }
+
+  .today-card__action {
+    width: auto;
+  }
+
   .hero {
     grid-template-columns: minmax(15rem, 0.7fr) minmax(0, 1.3fr);
     align-items: center;
@@ -451,9 +466,6 @@
   box-shadow: 0.34rem 0.4rem 0 var(--bebel-orange);
 }
 
-.today-card__brush {
-  animation: brush-breathe 5s ease-in-out infinite;
-}
 
 .feature-card {
   animation: home-rise 480ms ease-out both;
@@ -517,18 +529,6 @@
 
 
 
-@keyframes brush-breathe {
-  0%,
-  100% {
-    opacity: 0.72;
-    transform: rotate(-6deg) scaleX(1);
-  }
-
-  50% {
-    opacity: 1;
-    transform: rotate(-5deg) scaleX(1.05);
-  }
-}
 
 @media (prefers-reduced-motion: reduce) {
   .hero,
@@ -537,7 +537,6 @@
   .hero__speech,
   .hero__spark,
   .today-card,
-  .today-card__brush,
   .feature-card,
   .bebel-note {
     animation: none;
