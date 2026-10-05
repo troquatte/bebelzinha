@@ -417,13 +417,6 @@
 
 
 /* Microinterações da Home */
-
-
-
-
-
-
-
 .today-card {
   animation: home-rise 520ms 120ms ease-out both;
   transition:
@@ -497,54 +490,10 @@
   }
 }
 
-@keyframes sticker-settle {
-  from {
-    opacity: 0;
-    transform: translateY(-0.35rem) rotate(-4deg) scale(0.96);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateY(0) rotate(-1.5deg) scale(1);
-  }
-}
-
-@keyframes portrait-enter {
-  from {
-    opacity: 0;
-    transform: translateY(0.8rem) rotate(2deg) scale(0.97);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateY(0) rotate(0deg) scale(1);
-  }
-}
 
 
-@keyframes speech-float {
-  0%,
-  100% {
-    transform: translateY(0) rotate(2deg);
-  }
 
-  50% {
-    transform: translateY(-0.16rem) rotate(1deg);
-  }
-}
 
-@keyframes sparkle {
-  0%,
-  100% {
-    opacity: 0.55;
-    transform: scale(0.85) rotate(0deg);
-  }
-
-  50% {
-    opacity: 1;
-    transform: scale(1.12) rotate(12deg);
-  }
-}
 
 @keyframes brush-breathe {
   0%,
