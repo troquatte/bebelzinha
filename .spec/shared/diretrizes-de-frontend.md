@@ -135,6 +135,17 @@ Classes disponíveis:
 
 O layout, conteúdo, cores e microinterações específicas da página continuam locais. Não duplicar os keyframes do padrão compartilhado. O fallback para `prefers-reduced-motion` já faz parte do padrão global.
 
+## Ícones de interface
+
+A Bebel utiliza **Material Symbols Outlined** como padrão para ícones funcionais de navegação e ação.
+
+Regras:
+- usar `material-symbols-outlined` para menu, voltar, adicionar, editar, excluir, salvar, abrir externamente e ações equivalentes;
+- usar a classe compartilhada `icon-action` quando ícone e texto aparecem juntos;
+- não substituir ícones funcionais por caracteres Unicode como `⌂`, `☷`, `♡` ou `›`;
+- emojis permanecem permitidos quando forem conteúdo decorativo ou parte da voz/personagem da Bebel;
+- antes de adicionar biblioteca nova de ícones, reutilizar Material Symbols já carregado em `src/index.html`.
+
 ## Componentes
 
 - componentes devem ter responsabilidade clara;
