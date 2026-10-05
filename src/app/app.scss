@@ -94,8 +94,15 @@
 }
 
 .bottom-nav__icon {
-  font-size: 1.28rem;
+  font-size: 1.55rem;
   line-height: 1;
+  font-variation-settings: 'FILL' 0, 'wght' 500, 'GRAD' 0, 'opsz' 24;
+  transition: transform 160ms ease, font-variation-settings 160ms ease;
+}
+
+.bottom-nav__item--active .bottom-nav__icon {
+  font-variation-settings: 'FILL' 1, 'wght' 600, 'GRAD' 0, 'opsz' 24;
+  transform: translateY(-1px);
 }
 
 .bottom-nav__label {
@@ -215,8 +222,14 @@ a:focus-visible {
   }
 
   .nav-item__icon {
-    font-size: 1.12rem;
+    font-size: 1.35rem;
+    line-height: 1;
     text-align: center;
+    font-variation-settings: 'FILL' 0, 'wght' 500, 'GRAD' 0, 'opsz' 24;
+  }
+
+  .nav-item--active .nav-item__icon {
+    font-variation-settings: 'FILL' 1, 'wght' 600, 'GRAD' 0, 'opsz' 24;
   }
 
   .sidebar__note {
