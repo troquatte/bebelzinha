@@ -37,29 +37,35 @@ Listas são persistidas em `localStorage` pelo `ShoppingStore`.
 
 ## Critérios de aceite
 
-- [ ] Repetir lista cria outro ID e não altera a original.
-- [ ] Todos os itens copiados começam desmarcados.
-- [ ] Alterações posteriores na nova lista não afetam a antiga.
-- [ ] A nova lista é aberta após criação.
-- [ ] A ação registra `RepeatList` sem enviar nomes ou itens.
+- [x] Repetir lista cria outro ID e não altera a original.
+- [x] Todos os itens copiados começam desmarcados.
+- [x] Alterações posteriores na nova lista não afetam a antiga.
+- [x] A nova lista é aberta após criação.
+- [x] A ação registra `RepeatList` sem enviar nomes ou itens.
 - [ ] Build Angular validado pelo CI.
 
 ## Tasks
 
 ### Tasks - Negócio
 
-- [ ] Adicionar operação de duplicação independente no `ShoppingStore`.
+- [x] Adicionar operação de duplicação independente no `ShoppingStore`.
+  > ✅ 2026-10-05 — `repeatList` cria nova lista e novos IDs de itens, preserva nomes, zera `checked` e não altera a origem. Build validado no workflow `37326688080`.
 
 ### Tasks - Front-end
 
-- [ ] Adicionar CTA de reutilização no detalhe da lista.
-- [ ] Navegar para a nova lista após duplicação.
-- [ ] Registrar evento `RepeatList`.
+- [x] Adicionar CTA de reutilização no detalhe da lista.
+  > 🧪 2026-10-05 — CTA “Usar essa lista de novo” aparece para listas com itens.
+- [x] Navegar para a nova lista após duplicação.
+  > 🧪 2026-10-05 — Componente navega para o novo ID imediatamente após a cópia.
+- [x] Registrar evento `RepeatList`.
+  > ✅ 2026-10-05 — Evento envia somente `item_count`.
 
 ### Tasks - Validação
 
-- [ ] Revisar independência entre listas e estado dos itens.
-- [ ] Validar build Angular no CI.
+- [x] Revisar independência entre listas e estado dos itens.
+  > ✅ 2026-10-05 — Revisão estática confirma objetos/IDs novos, itens desmarcados e append sem mutação da lista original.
+- [x] Validar build Angular no CI.
+  > ✅ 2026-10-05 — Workflow `37326688080`: build e shells estáticos concluídos com sucesso.
 
 ## Resultado Esperado
 
