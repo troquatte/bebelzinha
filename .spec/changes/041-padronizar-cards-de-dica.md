@@ -15,7 +15,7 @@ Corrigir inconsistências visuais dos blocos de dica e aviso, especialmente o di
 - [x] Conteúdo textual usa min-width 0 para evitar overflow.
 - [x] Texto legal de afiliados permanece intacto.
 - [x] Nenhuma dependência nova é adicionada.
-- [~] Build Angular validado pelo CI.
+- [x] Build Angular validado pelo CI.
 - [ ] Entrega publicada em main.
 - [ ] main e development equalizadas.
 
@@ -26,4 +26,4 @@ Corrigir inconsistências visuais dos blocos de dica e aviso, especialmente o di
 - aviso de afiliados, dica de Compras e dica da Home usam a mesma estrutura;
 - ícone usa coluna fixa de 2rem e conteúdo usa `min-width: 0`;
 - disclosure de afiliados preservado integralmente;
-- aguardando CI.
+- workflow `37344306529` aprovado: build e shells estáticos concluídos com sucesso.
