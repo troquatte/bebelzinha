@@ -1086,7 +1086,9 @@ Regras atuais:
 - o Measurement ID é lido da meta `google-analytics-id` em `src/index.html`;
 - somente valores válidos no formato `G-...` ativam o carregamento;
 - sem ID válido, nenhum script do Google Analytics é carregado;
-- `gtag.js` é carregado uma única vez;
+- `gtag.js` é carregado uma única vez pelo `AnalyticsService`, somente após validar o ID e o ambiente;
+- GA4 permanece desativado em modo development e hosts locais (localhost, loopback, .local e IPs privados de LAN), inclusive em builds de produção servidos localmente;
+- `src/index.html` mantém somente a meta pública de configuração do GA4, sem bootstrap incondicional;
 - page views são registrados nas mudanças de rota Angular;
 - o carregamento automático do GA4 usa `send_page_view: false` para evitar duplicidade;
 - o Measurement ID é configuração pública e não deve ser tratado como segredo;

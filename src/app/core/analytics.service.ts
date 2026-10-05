@@ -1,5 +1,5 @@
 import { DOCUMENT } from '@angular/common';
-import { Injectable, inject } from '@angular/core';
+import { Injectable, inject, isDevMode } from '@angular/core';
 import { NavigationEnd, Router } from '@angular/router';
 import { filter } from 'rxjs';
 
@@ -38,6 +38,8 @@ export class AnalyticsService {
   private lastTrackedPath = '';
 
   constructor() {
+    this.initializeGoogleAnalytics();
+
     this.router.events
       .pipe(filter((event): event is NavigationEnd => event instanceof NavigationEnd))
       .subscribe((event) => {
@@ -63,11 +65,54 @@ export class AnalyticsService {
   }
 
   private readMeasurementId(): string | null {
+    if (isDevMode() || this.isLocalHost()) {
+      return null;
+    }
+
     const value = this.document
       .querySelector<HTMLMetaElement>('meta[name="google-analytics-id"]')
       ?.content.trim();
 
     return value && /^G-[A-Z0-9]+$/i.test(value) ? value : null;
+  }
+
+  private isLocalHost(): boolean {
+    const hostname = this.document.location.hostname.toLowerCase();
+    const ipv4 = hostname.split('.').map(Number);
+
+    return (
+      hostname === 'localhost' ||
+      hostname.endsWith('.localhost') ||
+      hostname.endsWith('.local') ||
+      hostname === '[::1]' ||
+      hostname === '::1' ||
+      (ipv4.length === 4 && ipv4.every((part) => Number.isInteger(part) && part >= 0 && part <= 255) &&
+        (ipv4[0] === 0 || ipv4[0] === 127 || ipv4[0] === 10 ||
+          (ipv4[0] === 192 && ipv4[1] === 168) ||
+          (ipv4[0] === 172 && ipv4[1] >= 16 && ipv4[1] <= 31) ||
+          (ipv4[0] === 169 && ipv4[1] === 254)))
+    );
+  }
+
+  private initializeGoogleAnalytics(): void {
+    if (!this.measurementId) {
+      return;
+    }
+
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = window.gtag || function () {
+      window.dataLayer!.push(arguments);
+    };
+    window.gtag('js', new Date());
+    window.gtag('config', this.measurementId, { send_page_view: false });
+
+    if (!this.document.querySelector('script[data-bebel-ga4]')) {
+      const script = this.document.createElement('script');
+      script.async = true;
+      script.src = `https://www.googletagmanager.com/gtag/js?id=${this.measurementId}`;
+      script.setAttribute('data-bebel-ga4', '');
+      this.document.head.appendChild(script);
+    }
   }
 
   private trackPageView(path: string): void {
