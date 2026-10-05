@@ -225,3 +225,24 @@ p {
     transform: none;
   }
 }
+
+
+/* Ícones de interface — usar Material Symbols para ações e navegação. */
+.material-symbols-outlined.ui-icon,
+.ui-icon.material-symbols-outlined {
+  font-size: 1.15em;
+  line-height: 1;
+  vertical-align: -0.12em;
+}
+
+.icon-action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+}
+
+.icon-action .material-symbols-outlined {
+  font-size: 1.15em;
+  line-height: 1;
+}
