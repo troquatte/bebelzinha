@@ -13,7 +13,6 @@
   font-size: .78rem;
   font-weight: 900;
   text-decoration: none;
-  transition: transform 150ms ease, box-shadow 150ms ease;
 }
 
 .external-link:hover,
@@ -115,6 +114,7 @@
   box-shadow: .15rem .18rem 0 var(--bebel-orange);
   font-weight: 900;
   text-decoration: none;
+  transition: transform 150ms ease, box-shadow 150ms ease;
 }
 
 .affiliate-copy {
