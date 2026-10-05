@@ -1,5 +1,5 @@
 <section class="shopping-detail">
-  <a class="back-link" routerLink="/compras">‹ Voltar para minhas listas</a>
+  <a class="back-link icon-action" routerLink="/compras"><span class="material-symbols-outlined" aria-hidden="true">arrow_back</span>Voltar para minhas listas</a>
 
   @if (list(); as currentList) {
     <header class="list-header">
@@ -13,8 +13,8 @@
       </div>
 
       <div class="list-header__actions">
-        <button class="secondary-button" type="button" (click)="editList()">Editar lista</button>
-        <button class="primary-button" type="button" (click)="addItem()">+ Adicionar item</button>
+        <button class="secondary-button icon-action" type="button" (click)="editList()"><span class="material-symbols-outlined" aria-hidden="true">edit</span>Editar lista</button>
+        <button class="primary-button icon-action" type="button" (click)="addItem()"><span class="material-symbols-outlined" aria-hidden="true">add</span>Adicionar item</button>
       </div>
     </header>
 
@@ -107,14 +107,14 @@
 
       <div class="list-footer">
         <span>Já foi {{ purchasedCount() }} de {{ currentList.items.length }}.</span>
-        <button class="danger-link" type="button" (click)="deleteList()">Excluir lista</button>
+        <button class="danger-link icon-action" type="button" (click)="deleteList()"><span class="material-symbols-outlined" aria-hidden="true">delete</span>Excluir lista</button>
       </div>
     } @else {
       <section class="empty-state">
         <span class="empty-state__mark" aria-hidden="true">📝</span>
         <h2>Nada anotado ainda.</h2>
         <p>Comece pelo que você não pode esquecer no mercado.</p>
-        <button class="primary-button" type="button" (click)="addItem()">Adicionar primeiro item</button>
+        <button class="primary-button icon-action" type="button" (click)="addItem()"><span class="material-symbols-outlined" aria-hidden="true">add</span>Adicionar primeiro item</button>
         <button class="danger-link" type="button" (click)="deleteList()">Excluir lista</button>
       </section>
     }
