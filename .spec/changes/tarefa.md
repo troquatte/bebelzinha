@@ -1,4 +1,4 @@
-# Tarefa — Padronizar módulos e remover módulo descontinuado de monetização
+# Tarefa — Padronizar módulos e limpar feature descontinuada
 
 ## Modo
 
@@ -7,7 +7,7 @@ FULL
 ## Objetivos
 
 1. Tornar obrigatória a organização de cada feature em subpastas por responsabilidade.
-2. Remover completamente a feature módulo descontinuado de monetização do app e da documentação viva.
+2. Remover completamente uma feature de monetização descontinuada do app e da documentação viva.
 
 ## Estrutura obrigatória
 
@@ -34,7 +34,7 @@ Regras:
 - contratos/tipos/interfaces ficam em `interface/`;
 - código genérico/global continua em `core/` ou `shared/`.
 
-## Remoção de módulo descontinuado de monetização
+## Remoção da feature descontinuada
 
 Remover:
 - rotas;
@@ -45,15 +45,15 @@ Remover:
 - conteúdo JSON;
 - imagens;
 - recomendações contextuais;
-- eventos de analytics;
+- eventos específicos de analytics;
 - continuidade;
 - referências em Home, Comidinhas e Compras;
 - memória/documentação viva;
-- specs arquivadas específicas de módulo descontinuado de monetização;
-- geração estática de páginas de módulo descontinuado de monetização.
+- specs arquivadas exclusivas da feature;
+- geração estática de páginas dessa feature.
 
 ## Preservação
 
 - manter os novos arquivos de conteúdo/story e referências visuais adicionados pelo usuário;
 - manter Comidinhas, Compras, Onboarding, Home, Analytics e continuidade;
-- não alterar regra funcional dessas features além da remoção de módulo descontinuado de monetização e atualização de imports/caminhos.
+- não alterar regra funcional dessas features além da remoção da feature descontinuada e atualização de imports/caminhos.
