@@ -1,4 +1,4 @@
-# Tarefa — Padronizar módulos e remover Achadinhos
+# Tarefa — Padronizar módulos e remover módulo descontinuado de monetização
 
 ## Modo
 
@@ -7,7 +7,7 @@ FULL
 ## Objetivos
 
 1. Tornar obrigatória a organização de cada feature em subpastas por responsabilidade.
-2. Remover completamente a feature Achadinhos do app e da documentação viva.
+2. Remover completamente a feature módulo descontinuado de monetização do app e da documentação viva.
 
 ## Estrutura obrigatória
 
@@ -34,7 +34,7 @@ Regras:
 - contratos/tipos/interfaces ficam em `interface/`;
 - código genérico/global continua em `core/` ou `shared/`.
 
-## Remoção de Achadinhos
+## Remoção de módulo descontinuado de monetização
 
 Remover:
 - rotas;
@@ -49,11 +49,11 @@ Remover:
 - continuidade;
 - referências em Home, Comidinhas e Compras;
 - memória/documentação viva;
-- specs arquivadas específicas de Achadinhos;
-- geração estática de páginas de Achadinhos.
+- specs arquivadas específicas de módulo descontinuado de monetização;
+- geração estática de páginas de módulo descontinuado de monetização.
 
 ## Preservação
 
 - manter os novos arquivos de conteúdo/story e referências visuais adicionados pelo usuário;
 - manter Comidinhas, Compras, Onboarding, Home, Analytics e continuidade;
-- não alterar regra funcional dessas features além da remoção de Achadinhos e atualização de imports/caminhos.
+- não alterar regra funcional dessas features além da remoção de módulo descontinuado de monetização e atualização de imports/caminhos.
