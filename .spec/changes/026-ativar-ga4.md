@@ -27,7 +27,7 @@ A Spec 025 preparou uma integração GA4 própria para SPA. Ela lê o Measuremen
 - [x] A meta `google-analytics-id` contém `G-RL10XLKR71`.
 - [x] Não existe um segundo snippet `gtag.js` estático em `src/index.html`.
 - [x] O tracking SPA continua sendo responsabilidade do `AnalyticsService`.
-- [ ] Build Angular validado pelo CI.
+- [x] Build Angular validado pelo CI.
 
 ## Tasks
 
@@ -35,5 +35,5 @@ A Spec 025 preparou uma integração GA4 própria para SPA. Ela lê o Measuremen
   > ✅ 2026-10-05 10:10 — `src/index.html` atualizado para `G-RL10XLKR71` no ponto de configuração já existente.
 - [x] Revisar se não houve duplicação do snippet padrão do Google.
   > ✅ 2026-10-05 10:10 — Revisão estática confirmou que `src/index.html` não contém um segundo `gtag.js`; o `AnalyticsService` permanece responsável pelo carregamento e pelos page views da SPA.
-- [~] Validar build Angular no CI.
-  > 🧪 2026-10-05 10:10 — Aguardando workflow do Pull Request.
+- [x] Validar build Angular no CI.
+  > ✅ 2026-10-05 10:14 — Workflow `Build and deploy GitHub Pages` run `37314315976` concluído com sucesso; build e geração dos shells estáticos aprovados.
