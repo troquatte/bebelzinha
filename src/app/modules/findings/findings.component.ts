@@ -1,8 +1,9 @@
 import { ChangeDetectionStrategy, Component, computed, inject, signal } from '@angular/core';
 import { RouterLink } from '@angular/router';
 
+import { AnalyticsService } from '../../core/analytics.service';
 import { SeoService } from '../../core/seo.service';
-import { FindingCategory } from './findings.models';
+import { Finding, FindingCategory } from './findings.models';
 import { FindingsCatalog } from './findings-catalog.service';
 
 @Component({
@@ -13,6 +14,7 @@ import { FindingsCatalog } from './findings-catalog.service';
   templateUrl: './findings.component.html',
 })
 export class FindingsComponent {
+  private readonly analytics = inject(AnalyticsService);
   private readonly seo = inject(SeoService);
 
   readonly catalog = inject(FindingsCatalog);
@@ -36,6 +38,16 @@ export class FindingsComponent {
 
   selectCategory(category: 'all' | FindingCategory): void {
     this.category.set(category);
+  }
+
+  trackAchadinho(finding: Finding): void {
+    this.analytics.track('ClickAchadinho', {
+      finding_id: finding.id,
+      finding_slug: finding.slug,
+      store: finding.store,
+      source: 'catalog',
+      affiliate: finding.isAffiliate,
+    });
   }
 
   relFor(isAffiliate: boolean): string {

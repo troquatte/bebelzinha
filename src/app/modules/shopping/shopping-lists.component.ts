@@ -2,6 +2,7 @@ import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
 import { Router, RouterLink } from '@angular/router';
 import Swal from 'sweetalert2';
 
+import { AnalyticsService } from '../../core/analytics.service';
 import { SeoService } from '../../core/seo.service';
 import { ShoppingList } from './shopping.models';
 import { ShoppingStore } from './shopping.store';
@@ -14,6 +15,7 @@ import { ShoppingStore } from './shopping.store';
   templateUrl: './shopping-lists.component.html',
 })
 export class ShoppingListsComponent {
+  private readonly analytics = inject(AnalyticsService);
   private readonly router = inject(Router);
   private readonly seo = inject(SeoService);
   readonly store = inject(ShoppingStore);
@@ -46,6 +48,7 @@ export class ShoppingListsComponent {
     }
 
     const list = this.store.createList(result.value);
+    this.analytics.track('CreateList', { source: 'shopping' });
     await this.router.navigate(['/compras', list.id]);
   }
 

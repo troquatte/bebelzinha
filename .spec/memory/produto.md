@@ -484,3 +484,39 @@ Princípios permanentes:
 O norte é:
 
 > **Bebel recomenda coisas que resolvem problemas reais; ela não vira um marketplace.**
+
+
+---
+
+## Remarketing quente
+
+Objetivo: trazer de volta pessoas que já conhecem a Bebel e conduzi-las para uma ação útil e mensurável dentro do web app.
+
+Princípio de mensagem:
+- não usar apenas “volte para o app”;
+- usar um motivo concreto de retorno, como mercado, jantar, organização ou continuação de uma tarefa.
+
+Exemplos de ações de valor:
+- criar ou abrir uma lista de compras;
+- adicionar ou concluir itens;
+- salvar receita;
+- mandar ingredientes para uma lista;
+- clicar em um Achadinho.
+
+Funil esperado:
+
+```text
+usuário já conhece a Bebel
+→ recebe motivo concreto para voltar
+→ abre a Bebelzinha
+→ executa ação útil
+→ percebe valor
+→ retorna em outras ocasiões
+→ recebe recomendações contextuais
+→ monetização por Achadinhos / ofertas futuras
+```
+
+Regra de mensuração:
+- GA4 mede comportamento e funil;
+- Meta Pixel alimenta mídia, remarketing e otimização;
+- ambos compartilham as mesmas definições de eventos de negócio.

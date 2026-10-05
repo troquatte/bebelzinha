@@ -1,6 +1,7 @@
 import { ChangeDetectionStrategy, Component, computed, effect, inject } from '@angular/core';
 import { ActivatedRoute, RouterLink } from '@angular/router';
 
+import { AnalyticsService } from '../../core/analytics.service';
 import { SeoService } from '../../core/seo.service';
 import { FindingsCatalog } from './findings-catalog.service';
 
@@ -12,6 +13,7 @@ import { FindingsCatalog } from './findings-catalog.service';
   templateUrl: './finding.component.html',
 })
 export class FindingComponent {
+  private readonly analytics = inject(AnalyticsService);
   private readonly route = inject(ActivatedRoute);
   private readonly seo = inject(SeoService);
 
@@ -30,6 +32,22 @@ export class FindingComponent {
           'Achadinhos úteis da Bebel para cozinha, limpeza, organização e rotina da casa.',
         path: this.slug ? `/achadinhos/${this.slug}` : '/achadinhos',
       });
+    });
+  }
+
+  trackAchadinho(): void {
+    const finding = this.finding();
+
+    if (!finding) {
+      return;
+    }
+
+    this.analytics.track('ClickAchadinho', {
+      finding_id: finding.id,
+      finding_slug: finding.slug,
+      store: finding.store,
+      source: 'detail',
+      affiliate: finding.isAffiliate,
     });
   }
 

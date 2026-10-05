@@ -1,21 +1,35 @@
-# Tarefa — Corrigir deploy no domínio customizado
+# Tarefa — Meta Pixel e eventos de negócio para remarketing
 
 ## Modo
 
 FULL
 
-## Problema
+## Necessidade
 
-O app é publicado em `https://bebelzinha.com.br/`, mas o workflow ainda buildava com `--base-href /bebelzinha/`, fazendo JS, CSS e favicon serem buscados em caminhos inexistentes como `/bebelzinha/main-*.js`.
+Preparar remarketing quente da Bebel com Meta Pixel e eventos de negócio compartilhados com o GA4.
 
-Também existiam URLs SEO antigas apontando para `https://troquatte.github.io/bebelzinha/`.
+## Regra central
 
-## Requisitos
+GA4 mede o funil do produto. Meta Pixel alimenta otimização e remarketing de mídia. Os dois devem receber a mesma definição de eventos de negócio para evitar métricas divergentes de ativação, retenção e monetização.
 
-- buildar com `base-href /`;
-- manter assets relativos à raiz do domínio;
-- atualizar URLs canônicas/OG/Twitter para `https://bebelzinha.com.br/`;
-- atualizar o gerador de shells estáticos para o domínio customizado;
-- validar build no CI;
-- publicar em `main`;
-- equalizar `development` com o mesmo commit final.
+## Eventos
+
+- `AppOpen`;
+- `CreateList`;
+- `AddItem`;
+- `CompleteItem`;
+- `SaveRecipe`;
+- `AddRecipeToList`;
+- `ClickAchadinho`;
+- `OpenShoppingList`;
+- `ReturnVisit`.
+
+## Regras
+
+- Pixel ID: `283243945816993`;
+- SPA: `PageView` deve acompanhar mudanças de rota;
+- eventos customizados do Meta usam `trackCustom`;
+- não enviar nomes digitados pelo usuário, conteúdo de itens ou outros dados potencialmente sensíveis;
+- `ReturnVisit` representa nova sessão após pelo menos 30 minutos;
+- não implementar CAPI nesta entrega;
+- não adicionar dependências.

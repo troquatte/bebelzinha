@@ -3,6 +3,7 @@ import { MatSlideToggleChange, MatSlideToggleModule } from '@angular/material/sl
 import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import Swal from 'sweetalert2';
 
+import { AnalyticsService } from '../../core/analytics.service';
 import { SeoService } from '../../core/seo.service';
 import { FindingSpotlightComponent } from '../findings/finding-spotlight.component';
 import { ShoppingItem } from './shopping.models';
@@ -16,6 +17,7 @@ import { ShoppingStore } from './shopping.store';
   templateUrl: './shopping-list.component.html',
 })
 export class ShoppingListComponent {
+  private readonly analytics = inject(AnalyticsService);
   private readonly route = inject(ActivatedRoute);
   private readonly router = inject(Router);
   private readonly seo = inject(SeoService);
@@ -33,9 +35,19 @@ export class ShoppingListComponent {
     () => this.list()?.items.filter((item) => item.checked).length ?? 0,
   );
 
+  private hasTrackedOpen = false;
+
   constructor() {
     effect(() => {
       const list = this.list();
+
+      if (list && !this.hasTrackedOpen) {
+        this.hasTrackedOpen = true;
+        this.analytics.track('OpenShoppingList', {
+          item_count: list.items.length,
+          purchased_count: list.items.filter((item) => item.checked).length,
+        });
+      }
 
       this.seo.update({
         title: list ? `${list.name} - Lista de compras | Bebel` : 'Lista de compras - Bebel',
@@ -66,7 +78,11 @@ export class ShoppingListComponent {
     });
 
     if (result.isConfirmed && result.value?.trim()) {
-      this.store.addItem(this.listId, result.value);
+      const item = this.store.addItem(this.listId, result.value);
+
+      if (item) {
+        this.analytics.track('AddItem', { source: 'shopping' });
+      }
     }
   }
 
@@ -153,5 +169,9 @@ export class ShoppingListComponent {
 
   toggleItem(item: ShoppingItem, event: MatSlideToggleChange): void {
     this.store.setItemChecked(this.listId, item.id, event.checked);
+
+    if (event.checked) {
+      this.analytics.track('CompleteItem', { source: 'shopping' });
+    }
   }
 }
