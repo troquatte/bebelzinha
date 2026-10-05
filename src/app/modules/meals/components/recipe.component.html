@@ -1,0 +1,127 @@
+<section class="recipe-page">
+  <a class="back-link icon-action" routerLink="/comidinhas"><span class="material-symbols-outlined" aria-hidden="true">arrow_back</span>Voltar para Comidinhas</a>
+
+  @if (catalog.loading()) {
+    <div class="status-card">A Bebel está abrindo a receita...</div>
+  } @else if (recipe(); as currentRecipe) {
+    <header class="recipe-hero">
+      <div class="recipe-hero__image">
+        <img [src]="currentRecipe.image" [alt]="currentRecipe.title" />
+      </div>
+
+      <div class="recipe-hero__copy">
+        <span class="recipe-hero__eyebrow">Receita da Bebel</span>
+        <h1>{{ currentRecipe.title }}</h1>
+        <p>{{ currentRecipe.intro }}</p>
+
+        <div class="recipe-meta">
+          <span>⏱ {{ currentRecipe.prepTimeMinutes }} min</span>
+          <span>🍽 Serve {{ currentRecipe.servings }}</span>
+          @if (currentRecipe.tags.includes('barata')) {
+            <span>💸 econômica</span>
+          }
+          @if (currentRecipe.tags.includes('rende-bem')) {
+            <span>✨ rende bem</span>
+          }
+        </div>
+
+        <div class="recipe-actions">
+          <button class="icon-action" type="button" (click)="toggleSaved()">
+            <span class="material-symbols-outlined" aria-hidden="true">{{ mealsStore.isSaved(currentRecipe.id) ? 'favorite' : 'favorite_border' }}</span>
+            {{ mealsStore.isSaved(currentRecipe.id) ? 'Receita salva' : 'Salvar receita' }}
+          </button>
+          <button class="icon-action" type="button" (click)="planWeek()">
+            <span class="material-symbols-outlined" aria-hidden="true">{{ mealsStore.isInWeek(currentRecipe.id) ? 'event_available' : 'calendar_add_on' }}</span>
+            @if (planner.dayLabelForRecipe(currentRecipe.id); as dayLabel) {
+              Na {{ dayLabel.toLowerCase() }}
+            } @else {
+              Colocar na minha semana
+            }
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <div class="recipe-layout">
+      <section class="ingredients-card" aria-labelledby="ingredients-title">
+        <div class="section-heading">
+          <div>
+            <span>Pra separar</span>
+            <h2 id="ingredients-title">Ingredientes</h2>
+          </div>
+          <button class="text-button" type="button" (click)="selectAll()">Marcar todos</button>
+        </div>
+
+        <div class="ingredient-list">
+          @for (ingredient of currentRecipe.ingredients; track ingredient.id) {
+            <article class="ingredient-row">
+              <label>
+                <input
+                  type="checkbox"
+                  [checked]="selectedIngredientIds().includes(ingredient.id)"
+                  (change)="toggleIngredient(ingredient.id, $event)"
+                />
+                <span>
+                  <strong>{{ ingredient.name }}</strong>
+                  <small>
+                    {{ ingredient.quantity }} {{ ingredient.unit }}
+                    @if (ingredient.note) {
+                      · {{ ingredient.note }}
+                    }
+                  </small>
+                </span>
+              </label>
+
+              <button
+                class="ingredient-row__add icon-action"
+                type="button"
+                (click)="sendSingle(ingredient)"
+                [attr.aria-label]="'Adicionar ' + ingredient.name + ' à lista de compras'"
+              >
+                <span class="material-symbols-outlined" aria-hidden="true">playlist_add</span>
+                lista
+              </button>
+            </article>
+          }
+        </div>
+
+        <div class="shopping-actions">
+          <button class="secondary-button icon-action" type="button" (click)="sendSelected()"><span class="material-symbols-outlined" aria-hidden="true">playlist_add_check</span>Mandar marcados pra lista</button>
+          <button class="primary-button icon-action" type="button" (click)="sendAll()"><span class="material-symbols-outlined" aria-hidden="true">add_shopping_cart</span>Mandar tudo pra lista</button>
+        </div>
+      </section>
+
+      <section class="steps-card" aria-labelledby="steps-title">
+        <span class="steps-card__eyebrow">Agora é só fazer</span>
+        <h2 id="steps-title">Modo de preparo</h2>
+
+        <ol class="steps-list">
+          @for (step of currentRecipe.steps; track step.order) {
+            <li>
+              <span>{{ step.order }}</span>
+              <p>{{ step.text }}</p>
+            </li>
+          }
+        </ol>
+
+        @if (currentRecipe.bebelTip) {
+          <aside class="bebel-tip">
+            <span aria-hidden="true">💜</span>
+            <div>
+              <strong>Dica da Bebel</strong>
+              <p>{{ currentRecipe.bebelTip }}</p>
+            </div>
+          </aside>
+        }
+      </section>
+    </div>
+
+    <app-finding-spotlight context="meals" />
+  } @else {
+    <div class="status-card">
+      <h1>Essa receita não está mais por aqui.</h1>
+      <p>Volta em Comidinhas que eu te mostro outras ideias.</p>
+      <a class="primary-link icon-action" routerLink="/comidinhas"><span class="material-symbols-outlined" aria-hidden="true">restaurant</span>Ver receitas</a>
+    </div>
+  }
+</section>
