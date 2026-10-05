@@ -68,14 +68,24 @@ Adicionar metadata runtime e shells estáticos para:
 
 ## Critérios de aceite
 
-- [~] Menu Achadinhos ativo no mobile e desktop.
-- [~] Catálogo local carregado por service.
-- [~] Filtros por categoria funcionam.
-- [~] Detalhe por slug funciona.
-- [~] Link externo abre com `noopener noreferrer` e `sponsored` apenas quando afiliado.
-- [~] Disclosure de afiliados visível.
-- [~] Home, Comidinhas e Compras exibem no máximo um bloco contextual cada.
-- [~] Sem preço fake ou sincronização inexistente.
-- [~] SEO e shells do Pages cobrem catálogo e detalhes.
-- [~] Nenhuma dependência nova adicionada.
-- [~] Build validado pelo CI.
+- [x] Menu Achadinhos ativo no mobile e desktop.
+- [x] Catálogo local carregado por service.
+- [x] Filtros por categoria funcionam.
+- [x] Detalhe por slug funciona.
+- [x] Link externo abre com `noopener noreferrer` e `sponsored` apenas quando afiliado.
+- [x] Disclosure de afiliados visível.
+- [x] Home, Comidinhas e Compras exibem no máximo um bloco contextual cada.
+- [x] Sem preço fake ou sincronização inexistente.
+- [x] SEO e shells do Pages cobrem catálogo e detalhes.
+- [x] Nenhuma dependência nova adicionada.
+- [x] Build validado pelo CI.
+
+
+## Validação final
+
+- revisão estática concluída;
+- build Angular aprovado no GitHub Actions run `37246280179`;
+- shells estáticos de SEO gerados com sucesso no CI;
+- PR de implementação: #42;
+- merge em `development`: `31c8b19a0da4b99c618ea9f7746024ee60ed6b58`;
+- testes unitários não executados, conforme regra operacional do projeto.
