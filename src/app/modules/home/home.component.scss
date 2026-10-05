@@ -375,33 +375,7 @@
 }
 
 .bebel-note {
-  display: flex;
-  align-items: flex-start;
-  gap: 0.75rem;
   margin-top: 1.3rem;
-  padding: 1rem;
-  border: 0.1rem dashed rgb(111 31 180 / 30%);
-  border-radius: 1rem;
-  background: rgb(234 210 255 / 38%);
-}
-
-.bebel-note__mark {
-  display: grid;
-  width: 2.1rem;
-  height: 2.1rem;
-  flex: 0 0 2.1rem;
-  place-items: center;
-  border-radius: 50%;
-  background: #fff;
-}
-
-.bebel-note strong {
-  color: var(--bebel-primary-strong);
-  font-size: 0.78rem;
-}
-
-.bebel-note p {
-  color: var(--bebel-text-soft);
 }
 
 @media (min-width: 44rem) {
