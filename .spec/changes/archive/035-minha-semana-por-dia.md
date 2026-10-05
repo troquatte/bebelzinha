@@ -68,3 +68,14 @@ Evoluir Minha Semana de uma coleção de receitas para um planejamento simples p
 ## Resultado Esperado
 
 Minha Semana responde “o que pretendo cozinhar nos próximos dias?” sem virar agenda complexa.
+
+
+## Encerramento
+
+> ✅ 2026-10-05 — Spec revisada, validada e encerrada.
+
+- workflow `37328619515`: build aprovado;
+- PR #68 integrado em `development` no commit `e0eb03202cbbc626472023c9a945c6c3b8126dc6`;
+- estado legado de Minha Semana é migrado localmente para segunda–domingo;
+- memória permanente será consolidada ao final do épico;
+- changelog atualizado.
