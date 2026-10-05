@@ -120,6 +120,20 @@ export class ShoppingListComponent {
     }
   }
 
+  async repeatList(): Promise<void> {
+    const repeated = this.store.repeatList(this.listId);
+
+    if (!repeated) {
+      return;
+    }
+
+    this.analytics.track('RepeatList', {
+      item_count: repeated.items.length,
+    });
+
+    await this.router.navigate(['/compras', repeated.id]);
+  }
+
   async editList(): Promise<void> {
     const list = this.list();
 

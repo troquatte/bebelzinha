@@ -30,9 +30,13 @@
             <span class="material-symbols-outlined" aria-hidden="true">{{ mealsStore.isSaved(currentRecipe.id) ? 'favorite' : 'favorite_border' }}</span>
             {{ mealsStore.isSaved(currentRecipe.id) ? 'Receita salva' : 'Salvar receita' }}
           </button>
-          <button class="icon-action" type="button" (click)="toggleWeek()">
+          <button class="icon-action" type="button" (click)="planWeek()">
             <span class="material-symbols-outlined" aria-hidden="true">{{ mealsStore.isInWeek(currentRecipe.id) ? 'event_available' : 'calendar_add_on' }}</span>
-            {{ mealsStore.isInWeek(currentRecipe.id) ? 'Na minha semana' : 'Colocar na minha semana' }}
+            @if (planner.dayLabelForRecipe(currentRecipe.id); as dayLabel) {
+              Na {{ dayLabel.toLowerCase() }}
+            } @else {
+              Colocar na minha semana
+            }
           </button>
         </div>
       </div>

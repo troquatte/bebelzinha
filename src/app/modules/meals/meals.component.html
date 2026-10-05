@@ -20,31 +20,9 @@
     </div>
   </header>
 
-  <section class="meals-section" aria-labelledby="week-title">
-    <div class="section-heading">
-      <div>
-        <span>Minha semana</span>
-        <h2 id="week-title">O que você já pensou em fazer</h2>
-      </div>
-      <small>{{ weeklyRecipes().length }} {{ weeklyRecipes().length === 1 ? 'receita' : 'receitas' }}</small>
-    </div>
+  <app-week-planner />
 
-    @if (weeklyRecipes().length > 0) {
-      <div class="mini-grid">
-        @for (recipe of weeklyRecipes(); track recipe.id) {
-          <a class="mini-card" [routerLink]="['/comidinhas', recipe.slug]">
-            <img [src]="recipe.image" [alt]="recipe.title" />
-            <strong>{{ recipe.title }}</strong>
-            <span>{{ recipe.prepTimeMinutes }} min</span>
-          </a>
-        }
-      </div>
-    } @else {
-      <div class="status-card">Ainda não tem comida combinada pra semana. Quando alguma receita der vontade, coloca aqui.</div>
-    }
-  </section>
-
-  <section class="meals-section" aria-labelledby="saved-title">
+  <section class="meals-section" id="receitas-salvas" aria-labelledby="saved-title">
     <div class="section-heading">
       <div>
         <span>Guardadas</span>
@@ -55,11 +33,17 @@
     @if (savedRecipes().length > 0) {
       <div class="mini-grid">
         @for (recipe of savedRecipes(); track recipe.id) {
-          <a class="mini-card" [routerLink]="['/comidinhas', recipe.slug]">
-            <img [src]="recipe.image" [alt]="recipe.title" />
-            <strong>{{ recipe.title }}</strong>
-            <span>{{ recipe.prepTimeMinutes }} min</span>
-          </a>
+          <article class="saved-mini-card">
+            <a class="mini-card" [routerLink]="['/comidinhas', recipe.slug]">
+              <img [src]="recipe.image" [alt]="recipe.title" />
+              <strong>{{ recipe.title }}</strong>
+              <span>{{ recipe.prepTimeMinutes }} min</span>
+            </a>
+            <button class="icon-action" type="button" (click)="planWeek(recipe)">
+              <span class="material-symbols-outlined" aria-hidden="true">{{ isInWeek(recipe) ? 'event_available' : 'calendar_add_on' }}</span>
+              {{ planner.dayLabelForRecipe(recipe.id) ?? 'Minha semana' }}
+            </button>
+          </article>
         }
       </div>
     } @else {
@@ -111,7 +95,7 @@
 
   <app-finding-spotlight context="meals" />
 
-  <section class="recipe-browser" aria-label="Receitas">
+  <section class="recipe-browser" id="receitas" aria-label="Receitas">
     @if (catalog.loading()) {
       <div class="status-card">A Bebel está separando as receitas...</div>
     } @else if (catalog.error()) {
@@ -143,9 +127,9 @@
                   <span class="material-symbols-outlined" aria-hidden="true">{{ isSaved(recipe) ? 'favorite' : 'favorite_border' }}</span>
                   {{ isSaved(recipe) ? 'Salva' : 'Salvar' }}
                 </button>
-                <button class="icon-action" type="button" (click)="toggleWeek(recipe)">
+                <button class="icon-action" type="button" (click)="planWeek(recipe)">
                   <span class="material-symbols-outlined" aria-hidden="true">{{ isInWeek(recipe) ? 'event_available' : 'calendar_add_on' }}</span>
-                  {{ isInWeek(recipe) ? 'Na semana' : 'Minha semana' }}
+                  {{ planner.dayLabelForRecipe(recipe.id) ?? 'Minha semana' }}
                 </button>
               </div>
             </div>

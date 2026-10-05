@@ -25,6 +25,35 @@ export class ShoppingStore {
     return list;
   }
 
+  repeatList(listId: string): ShoppingList | null {
+    const source = this.state().find((list) => list.id === listId);
+
+    if (!source) {
+      return null;
+    }
+
+    const now = new Date();
+    const timestamp = now.toISOString();
+    const dateLabel = `${String(now.getDate()).padStart(2, '0')}/${String(now.getMonth() + 1).padStart(2, '0')}`;
+    const baseName = source.name.replace(/\s+—\s+\d{2}\/\d{2}$/, '').trim();
+    const repeated: ShoppingList = {
+      id: crypto.randomUUID(),
+      name: `${baseName} — ${dateLabel}`,
+      createdAt: timestamp,
+      updatedAt: timestamp,
+      items: source.items.map((item) => ({
+        ...item,
+        id: crypto.randomUUID(),
+        checked: false,
+        createdAt: timestamp,
+        updatedAt: timestamp,
+      })),
+    };
+
+    this.commit([...this.state(), repeated]);
+    return repeated;
+  }
+
   updateList(listId: string, name: string): void {
     const now = new Date().toISOString();
 

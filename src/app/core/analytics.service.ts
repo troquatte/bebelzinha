@@ -12,7 +12,11 @@ export type BusinessEvent =
   | 'AddRecipeToList'
   | 'ClickAchadinho'
   | 'OpenShoppingList'
-  | 'ReturnVisit';
+  | 'ReturnVisit'
+  | 'HomeAction'
+  | 'RepeatList'
+  | 'PlanMeal'
+  | 'AddWeekToList';
 
 type AnalyticsParams = Record<string, string | number | boolean>;
 type GtagCommand = 'config' | 'event' | 'js';

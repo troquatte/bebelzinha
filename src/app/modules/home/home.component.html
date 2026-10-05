@@ -19,17 +19,75 @@
     </div>
   </header>
 
-  <section class="today-card" aria-labelledby="today-title">
-    <div class="today-card__brush" aria-hidden="true"></div>
-    <span class="today-card__label">Hoje com a Bebel</span>
-    <div class="today-card__content">
+  <section class="quick-actions" aria-labelledby="quick-actions-title">
+    <div class="section-heading">
       <div>
-        <h2 id="today-title">Uma coisa de cada vez.</h2>
-        <p>
-          A Bebel está preparando um jeito gostoso de você abrir o app e já saber o que merece atenção hoje.
-        </p>
+        <span class="section-heading__eyebrow">Pra resolver agora</span>
+        <h2 id="quick-actions-title">O que você quer resolver?</h2>
       </div>
     </div>
+
+    <div class="quick-actions__grid">
+      <button type="button" class="quick-action" (click)="goShopping()">
+        <span class="quick-action__icon material-symbols-outlined" aria-hidden="true">shopping_cart</span>
+        <span>
+          <strong>Vou ao mercado</strong>
+          <small>Abre sua lista ou começa uma nova.</small>
+        </span>
+      </button>
+
+      <button type="button" class="quick-action" (click)="chooseMeal()">
+        <span class="quick-action__icon material-symbols-outlined" aria-hidden="true">skillet</span>
+        <span>
+          <strong>Não sei o que cozinhar</strong>
+          <small>A Bebel te ajuda a escolher.</small>
+        </span>
+      </button>
+
+      <button type="button" class="quick-action" (click)="viewSavedRecipes()">
+        <span class="quick-action__icon material-symbols-outlined" aria-hidden="true">favorite</span>
+        <span>
+          <strong>Ver minhas receitas</strong>
+          <small>Vai direto pras que você guardou.</small>
+        </span>
+      </button>
+
+      <button type="button" class="quick-action" (click)="viewFindings()">
+        <span class="quick-action__icon material-symbols-outlined" aria-hidden="true">sell</span>
+        <span>
+          <strong>Ver achadinhos</strong>
+          <small>Coisas úteis que a Bebel separou.</small>
+        </span>
+      </button>
+    </div>
+  </section>
+
+  <section class="today-card" aria-labelledby="today-title">
+    <div class="today-card__brush" aria-hidden="true"></div>
+
+    @if (returnContext(); as context) {
+      <span class="today-card__label">De volta com a Bebel</span>
+      <div class="today-card__content">
+        <div>
+          <span class="today-card__context-icon material-symbols-outlined" aria-hidden="true">{{ context.icon }}</span>
+          <h2 id="today-title">{{ context.title }}</h2>
+          <p>{{ context.copy }}</p>
+        </div>
+
+        <button class="today-card__action icon-action" type="button" (click)="resumeContext()">
+          <span>{{ context.cta }}</span>
+          <span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span>
+        </button>
+      </div>
+    } @else {
+      <span class="today-card__label">Hoje com a Bebel</span>
+      <div class="today-card__content">
+        <div>
+          <h2 id="today-title">Uma coisa de cada vez.</h2>
+          <p>Escolhe uma coisinha pra resolver agora. O resto pode esperar.</p>
+        </div>
+      </div>
+    }
   </section>
 
   <section class="home__section" aria-labelledby="coming-soon-title">
