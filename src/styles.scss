@@ -188,28 +188,28 @@ p {
   .bebel-hero-motion__portrait,
   .hero__portrait-wrap,
   .shopping-hero__portrait-wrap,
-  .meals-hero__portrait-wrap,__portrait-wrap,
+  .meals-hero__portrait-wrap,
   .bebel-hero-motion__speech,
   .hero__speech,
   .shopping-hero__speech,
-  .meals-hero__speech,__speech,
+  .meals-hero__speech,
   .bebel-hero-motion__spark--one,
   .bebel-hero-motion__spark--two,
   .hero__spark,
   .shopping-hero__spark,
-  .meals-hero__spark,__spark {
+  .meals-hero__spark {
     animation: none;
   }
 
   .hero__portrait img,
   .shopping-hero__portrait img,
-  .meals-hero__portrait img,__portrait img {
+  .meals-hero__portrait img {
     transition: none;
   }
 
   .hero__portrait-wrap:hover img,
   .shopping-hero__portrait-wrap:hover img,
-  .meals-hero__portrait-wrap:hover img,__portrait-wrap:hover img {
+  .meals-hero__portrait-wrap:hover img {
     transform: none;
   }
 }
