@@ -122,6 +122,19 @@ Regras:
 
 Essa regra é transversal ao produto e deve ser considerada em qualquer spec que inclua salvar, editar, excluir ou outra confirmação de alteração de estado.
 
+## Microinterações dos heroes da Bebel
+
+Heroes que usam a personagem Bebel devem reutilizar o padrão global de movimento definido em `src/styles.scss`, em vez de criar keyframes equivalentes dentro de cada componente.
+
+Classes disponíveis:
+- `bebel-hero-motion`: entrada do container do hero;
+- `bebel-hero-motion__portrait`: entrada do retrato da Bebel;
+- `bebel-hero-motion__speech`: flutuação suave do balão;
+- `bebel-hero-motion__spark--one` e `--two`: brilho alternado dos elementos decorativos;
+- `bebel-hero-motion__sticker`: entrada do sticker, quando a composição possuir esse elemento.
+
+O layout, conteúdo, cores e microinterações específicas da página continuam locais. Não duplicar os keyframes do padrão compartilhado. O fallback para `prefers-reduced-motion` já faz parte do padrão global.
+
 ## Componentes
 
 - componentes devem ter responsabilidade clara;

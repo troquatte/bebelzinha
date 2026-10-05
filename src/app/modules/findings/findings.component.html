@@ -1,14 +1,14 @@
 <section class="findings-page" aria-labelledby="findings-title">
-  <header class="findings-hero">
-    <div class="findings-hero__portrait-wrap">
-      <span class="findings-hero__spark" aria-hidden="true">✦</span>
+  <header class="findings-hero bebel-hero-motion">
+    <div class="findings-hero__portrait-wrap bebel-hero-motion__portrait">
+      <span class="findings-hero__spark bebel-hero-motion__spark--one" aria-hidden="true">✦</span>
       <figure class="findings-hero__portrait">
         <img
           src="images/bebel/bebel-roxa.jpg"
           alt="Bebel, uma senhora negra de cabelos brancos cacheados, óculos e roupa roxa"
         />
       </figure>
-      <div class="findings-hero__speech">Isso aqui facilita de verdade 💜</div>
+      <div class="findings-hero__speech bebel-hero-motion__speech">Isso aqui facilita de verdade 💜</div>
     </div>
 
     <div class="findings-hero__copy">
@@ -32,8 +32,8 @@
     <div class="status-card">Ih, os achadinhos não carregaram agora. Tenta de novo daqui a pouco.</div>
   } @else {
     <div class="findings-grid">
-      @for (finding of filteredFindings(); track finding.id) {
-        <article class="finding-card">
+      @for (finding of filteredFindings(); track finding.id; let index = $index) {
+        <article class="finding-card" [style.--finding-index]="index">
           <a class="finding-card__image" [routerLink]="['/achadinhos', finding.slug]">
             <img [src]="finding.image" [alt]="finding.title" />
             <span>{{ finding.store === 'mercado-livre' ? 'Mercado Livre' : finding.store === 'amazon' ? 'Amazon' : 'Shopee' }}</span>

@@ -2,7 +2,7 @@ import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
 
 const distRoot = process.argv[2];
-const siteBase = 'https://bebelzinha.com.br/';
+const siteBase = 'https://troquatte.github.io/bebelzinha/';
 const shareImage = `${siteBase}images/bebel/bebel-roxa.jpg`;
 
 if (!distRoot) {
