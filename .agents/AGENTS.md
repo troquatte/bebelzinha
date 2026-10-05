@@ -239,3 +239,21 @@ Somente inicie a implementação após confirmar que:
 Não instale novas bibliotecas sem necessidade explícita documentada na spec.
 
 Não altere regras globais de estilos sem autorização.
+
+
+## 12. Estrutura obrigatória dos módulos Angular
+
+Antes de criar, mover ou alterar código dentro de `src/app/modules/`, ler obrigatoriamente:
+
+- `.spec/memory/estrutura.md`;
+- `.spec/shared/regras-de-nomenclatura.md`.
+
+Regras:
+
+- não deixar arquivos funcionais soltos em `src/app/modules/<feature>/`;
+- componentes ficam em `components/`;
+- services e stores específicos ficam em `service/`;
+- interfaces, tipos e models ficam em `interface/`;
+- helpers, enums e compartilhamento interno usam suas respectivas subpastas quando existirem;
+- criar somente diretórios que tenham responsabilidade e conteúdo reais;
+- ao mover arquivos, atualizar todos os imports, lazy routes e documentação afetada.
