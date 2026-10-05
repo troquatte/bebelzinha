@@ -1,0 +1,70 @@
+:host { display: block; }
+
+.finding-spotlight {
+  display: grid;
+  grid-template-columns: 5.6rem minmax(0, 1fr);
+  gap: .85rem;
+  margin-top: 1.25rem;
+  padding: .8rem;
+  border: .1rem solid rgb(111 31 180 / 14%);
+  border-radius: 1.15rem 1.15rem 1.15rem .45rem;
+  background: linear-gradient(145deg, rgb(234 210 255 / 38%), rgb(255 240 223 / 48%));
+  box-shadow: .16rem .2rem 0 rgb(111 31 180 / 8%);
+  animation: finding-rise 360ms ease-out both;
+}
+
+.finding-spotlight__image {
+  overflow: hidden;
+  min-height: 5.6rem;
+  border-radius: .9rem;
+  background: #fff;
+}
+
+.finding-spotlight__image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.finding-spotlight__copy { min-width: 0; }
+
+.finding-spotlight__eyebrow {
+  display: block;
+  margin-bottom: .25rem;
+  color: var(--bebel-orange);
+  font-size: .65rem;
+  font-weight: 900;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+}
+
+.finding-spotlight h3 { color: var(--bebel-primary-strong); }
+
+.finding-spotlight p {
+  color: var(--bebel-text-soft);
+}
+
+.finding-spotlight__link {
+  display: inline-flex;
+  margin-top: .55rem;
+  color: var(--bebel-primary-strong);
+  font-size: .74rem;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.finding-spotlight__link:focus-visible,
+.finding-spotlight__image:focus-visible {
+  outline: .2rem solid var(--bebel-orange);
+  outline-offset: .18rem;
+}
+
+@keyframes finding-rise {
+  from { opacity: 0; transform: translateY(.35rem); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .finding-spotlight { animation: none; }
+}

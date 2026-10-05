@@ -67,6 +67,8 @@ Conteúdo estruturado da Bebel que não pertence a componentes pode ficar em `pu
 
 Comidinhas usa `public/content/recipes/`, com um `index.json` e um arquivo JSON por receita. A interface consome um contrato próprio e não deve depender da futura origem dos dados.
 
+Achadinhos usa `public/content/findings/`, também com índice e um JSON por item. Imagens locais ficam em `public/images/findings/`. O domínio em `src/app/modules/findings/` concentra catálogo, detalhe e recomendação contextual, mantendo links e conteúdo fora dos componentes.
+
 ## SEO e publicação estática
 
 - `src/app/core/seo.service.ts` centraliza title, description, Open Graph, Twitter Card e canonical no runtime.

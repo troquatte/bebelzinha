@@ -458,3 +458,29 @@ A experiência é mobile-first, permite swipe lateral e usa linguagem curta, vis
 Ao concluir ou pular, o app registra localmente `bebel:onboarding-completed = true` e não exibe novamente de forma automática naquele navegador/aparelho.
 
 O onboarding explica valor e contexto; não deve tentar ensinar cada detalhe da interface.
+
+
+---
+
+## Achadinhos
+
+Achadinhos é a camada inicial de monetização contextual da Bebel.
+
+A experiência possui dois formatos:
+
+- catálogo próprio de recomendações;
+- recomendações contextuais dentro de áreas como Home, Comidinhas e Lista de compras.
+
+Princípios permanentes:
+
+- a recomendação deve nascer de uma necessidade real do contexto, não de espaço publicitário disponível;
+- limitar recomendações para não transformar o app em vitrine;
+- não mostrar preço como informação confiável sem uma fonte sincronizada;
+- deixar claro quando links puderem gerar comissão;
+- links afiliados devem abrir externamente e usar `rel="sponsored"`;
+- o conteúdo dos achadinhos deve ficar separado dos componentes, permitindo troca de links sem alterar a UI;
+- a origem inicial pode ser JSON local e evoluir para API/banco somente após validação de cliques e receita.
+
+O norte é:
+
+> **Bebel recomenda coisas que resolvem problemas reais; ela não vira um marketplace.**
