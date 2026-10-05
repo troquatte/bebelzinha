@@ -12,3 +12,4 @@ Este arquivo registra cronologicamente todas as especificações (Specs) conclu�
 | 028 | 2026-10-05 | Correção do GA4 SPA e microinterações dos heroes | ChatGPT |
 | 029 | 2026-10-05 | Correção do deploy no domínio customizado | ChatGPT |
 | 030 | 2026-10-05 | Meta Pixel e eventos de negócio para remarketing | ChatGPT |
+| 031 | 2026-10-05 | Restauração e padronização dos ícones Material Symbols | ChatGPT |
