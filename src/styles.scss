@@ -53,46 +53,82 @@ p {
 
 
 /* Padrão compartilhado — microinterações dos heroes com a Bebel */
-.bebel-hero-motion {
-  animation: bebel-hero-rise 560ms ease-out both;
+.bebel-hero-motion,
+.hero,
+.shopping-hero,
+.meals-hero,
+.findings-hero {
+  animation: bebel-hero-rise 620ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
 }
 
-.bebel-hero-motion__sticker {
-  animation: bebel-hero-sticker-settle 620ms 120ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+.bebel-hero-motion__sticker,
+.hero__sticker {
+  animation: bebel-hero-sticker-settle 680ms 100ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
 }
 
-.bebel-hero-motion__portrait {
-  animation: bebel-hero-portrait-enter 680ms 160ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+.bebel-hero-motion__portrait,
+.hero__portrait-wrap,
+.shopping-hero__portrait-wrap,
+.meals-hero__portrait-wrap,
+.findings-hero__portrait-wrap {
+  animation:
+    bebel-hero-portrait-enter 720ms 120ms cubic-bezier(0.2, 0.8, 0.2, 1) both,
+    bebel-hero-portrait-float 4.8s 900ms ease-in-out infinite;
 }
 
-.bebel-hero-motion__speech {
-  animation: bebel-hero-speech-float 3.4s ease-in-out infinite;
+.bebel-hero-motion__speech,
+.hero__speech,
+.shopping-hero__speech,
+.meals-hero__speech,
+.findings-hero__speech {
+  animation: bebel-hero-speech-float 3.1s 700ms ease-in-out infinite;
 }
 
-.bebel-hero-motion__spark--one {
-  animation: bebel-hero-sparkle 2.5s ease-in-out infinite;
+.bebel-hero-motion__spark--one,
+.hero__spark--one,
+.shopping-hero__spark--one,
+.meals-hero__spark--one,
+.findings-hero__spark {
+  animation: bebel-hero-sparkle 2.2s 500ms ease-in-out infinite;
 }
 
-.bebel-hero-motion__spark--two {
-  animation: bebel-hero-sparkle 2.5s 900ms ease-in-out infinite;
+.bebel-hero-motion__spark--two,
+.hero__spark--two,
+.shopping-hero__spark--two,
+.meals-hero__spark--two {
+  animation: bebel-hero-sparkle 2.2s 1.25s ease-in-out infinite;
+}
+
+.hero__portrait img,
+.shopping-hero__portrait img,
+.meals-hero__portrait img,
+.findings-hero__portrait img {
+  transition: transform 260ms ease;
+}
+
+.hero__portrait-wrap:hover img,
+.shopping-hero__portrait-wrap:hover img,
+.meals-hero__portrait-wrap:hover img,
+.findings-hero__portrait-wrap:hover img {
+  transform: scale(1.025);
 }
 
 @keyframes bebel-hero-rise {
   from {
     opacity: 0;
-    transform: translateY(0.55rem);
+    transform: translateY(0.8rem) scale(0.992);
   }
 
   to {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateY(0) scale(1);
   }
 }
 
 @keyframes bebel-hero-sticker-settle {
   from {
     opacity: 0;
-    transform: translateY(-0.35rem) rotate(-4deg) scale(0.96);
+    transform: translateY(-0.45rem) rotate(-5deg) scale(0.94);
   }
 
   to {
@@ -104,12 +140,23 @@ p {
 @keyframes bebel-hero-portrait-enter {
   from {
     opacity: 0;
-    transform: translateY(0.8rem) rotate(2deg) scale(0.97);
+    transform: translateY(1rem) rotate(2deg) scale(0.965);
   }
 
   to {
     opacity: 1;
     transform: translateY(0) rotate(0deg) scale(1);
+  }
+}
+
+@keyframes bebel-hero-portrait-float {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+
+  50% {
+    transform: translateY(-0.18rem) rotate(-0.35deg);
   }
 }
 
@@ -120,30 +167,61 @@ p {
   }
 
   50% {
-    transform: translateY(-0.16rem) rotate(1deg);
+    transform: translateY(-0.22rem) rotate(1deg);
   }
 }
 
 @keyframes bebel-hero-sparkle {
   0%,
   100% {
-    opacity: 0.55;
-    transform: scale(0.85) rotate(0deg);
+    opacity: 0.48;
+    transform: scale(0.82) rotate(0deg);
   }
 
   50% {
     opacity: 1;
-    transform: scale(1.12) rotate(12deg);
+    transform: scale(1.18) rotate(14deg);
   }
 }
 
 @media (prefers-reduced-motion: reduce) {
   .bebel-hero-motion,
+  .hero,
+  .shopping-hero,
+  .meals-hero,
+  .findings-hero,
   .bebel-hero-motion__sticker,
+  .hero__sticker,
   .bebel-hero-motion__portrait,
+  .hero__portrait-wrap,
+  .shopping-hero__portrait-wrap,
+  .meals-hero__portrait-wrap,
+  .findings-hero__portrait-wrap,
   .bebel-hero-motion__speech,
+  .hero__speech,
+  .shopping-hero__speech,
+  .meals-hero__speech,
+  .findings-hero__speech,
   .bebel-hero-motion__spark--one,
-  .bebel-hero-motion__spark--two {
+  .bebel-hero-motion__spark--two,
+  .hero__spark,
+  .shopping-hero__spark,
+  .meals-hero__spark,
+  .findings-hero__spark {
     animation: none;
+  }
+
+  .hero__portrait img,
+  .shopping-hero__portrait img,
+  .meals-hero__portrait img,
+  .findings-hero__portrait img {
+    transition: none;
+  }
+
+  .hero__portrait-wrap:hover img,
+  .shopping-hero__portrait-wrap:hover img,
+  .meals-hero__portrait-wrap:hover img,
+  .findings-hero__portrait-wrap:hover img {
+    transform: none;
   }
 }
