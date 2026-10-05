@@ -13,6 +13,16 @@
   font-size: .78rem;
   font-weight: 900;
   text-decoration: none;
+  transition: transform 150ms ease, box-shadow 150ms ease;
+}
+
+.external-link:hover,
+.primary-link:hover { transform: translateY(-.08rem); }
+
+.external-link:active,
+.primary-link:active {
+  box-shadow: none;
+  transform: translateY(.04rem) scale(.985);
 }
 
 .finding-detail {
@@ -22,6 +32,7 @@
   border-radius: 1.5rem 1.5rem 1.5rem .6rem;
   background: var(--bebel-surface);
   box-shadow: .3rem .34rem 0 rgb(111 31 180 / 12%);
+  animation: finding-detail-enter 340ms ease-out both;
 }
 
 .finding-detail__image {
@@ -35,7 +46,10 @@
   height: 100%;
   min-height: 16rem;
   object-fit: cover;
+  transition: transform 300ms ease;
 }
+
+.finding-detail__image:hover img { transform: scale(1.025); }
 
 .finding-detail__copy { padding: 1.25rem; }
 
@@ -60,6 +74,12 @@
   border: .1rem dashed rgb(111 31 180 / 30%);
   border-radius: 1rem;
   background: rgb(234 210 255 / 34%);
+  transition: transform 180ms ease, border-color 180ms ease;
+}
+
+.bebel-note:hover {
+  border-color: rgb(111 31 180 / 42%);
+  transform: translateY(-.08rem);
 }
 
 .bebel-note strong { color: var(--bebel-primary-strong); font-size: .78rem; }
@@ -115,6 +135,11 @@ a:focus-visible {
   outline-offset: .18rem;
 }
 
+@keyframes finding-detail-enter {
+  from { opacity: 0; transform: translateY(.35rem) scale(.995); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
 @media (min-width: 44rem) {
   .finding-detail {
     grid-template-columns: minmax(16rem, .9fr) minmax(0, 1.1fr);
@@ -131,4 +156,25 @@ a:focus-visible {
 
 @media (min-width: 52rem) {
   .finding-page { padding: 2rem 2.25rem 3rem; }
+}
+
+
+@media (prefers-reduced-motion: reduce) {
+  .finding-detail,
+  .finding-detail__image img,
+  .bebel-note,
+  .external-link,
+  .primary-link {
+    animation: none;
+    transition: none;
+  }
+
+  .finding-detail__image:hover img,
+  .bebel-note:hover,
+  .external-link:hover,
+  .primary-link:hover,
+  .external-link:active,
+  .primary-link:active {
+    transform: none;
+  }
 }
