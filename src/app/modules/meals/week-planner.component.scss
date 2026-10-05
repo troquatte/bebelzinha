@@ -1,0 +1,124 @@
+:host { display: block; }
+
+.week-section { margin-top: 2rem; }
+
+.week-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.week-heading > div > span {
+  display: block;
+  margin-bottom: .4rem;
+  color: var(--bebel-orange);
+  font-size: .72rem;
+  font-weight: 900;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.week-heading h2 { color: var(--bebel-primary-strong); }
+
+.week-heading small {
+  color: var(--bebel-text-soft);
+  font-weight: 800;
+}
+
+.week-grid {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(9.5rem, 46%);
+  gap: .7rem;
+  margin-top: .85rem;
+  padding: .1rem 0 .35rem;
+  overflow-x: auto;
+}
+
+.week-day {
+  display: grid;
+  align-content: start;
+  min-height: 10.5rem;
+  padding: .75rem;
+  border: .1rem dashed rgb(111 31 180 / 28%);
+  border-radius: 1rem 1rem 1rem .4rem;
+  background: rgb(234 210 255 / 18%);
+}
+
+.week-day--filled {
+  border-style: solid;
+  background: #fff;
+  box-shadow: .14rem .18rem 0 rgb(50 28 58 / 7%);
+}
+
+.week-day__label {
+  color: var(--bebel-primary-strong);
+  font-size: .78rem;
+}
+
+.week-day__recipe {
+  display: grid;
+  gap: .45rem;
+  margin-top: .55rem;
+  color: var(--bebel-text);
+  text-decoration: none;
+}
+
+.week-day__recipe img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: .7rem;
+  object-fit: cover;
+}
+
+.week-day__recipe span {
+  font-size: .76rem;
+  font-weight: 900;
+  line-height: 1.25;
+}
+
+.week-day__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .3rem;
+  margin-top: .65rem;
+}
+
+.week-day__actions button,
+.week-day__empty {
+  border: 0;
+  color: var(--bebel-primary-strong);
+  background: #f7f0f6;
+  font: inherit;
+  font-size: .66rem;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.week-day__actions button {
+  padding: .35rem .45rem;
+  border-radius: .55rem;
+}
+
+.week-day__actions .week-day__remove { color: #a33a32; }
+
+.week-day__empty {
+  min-height: 6.6rem;
+  margin-top: .55rem;
+  border-radius: .75rem;
+}
+
+button:focus-visible,
+a:focus-visible {
+  outline: .2rem solid var(--bebel-orange);
+  outline-offset: .16rem;
+}
+
+@media (min-width: 44rem) {
+  .week-grid {
+    grid-auto-flow: unset;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    overflow: visible;
+  }
+}
