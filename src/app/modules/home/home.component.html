@@ -64,15 +64,30 @@
 
   <section class="today-card" aria-labelledby="today-title">
     <div class="today-card__brush" aria-hidden="true"></div>
-    <span class="today-card__label">Hoje com a Bebel</span>
-    <div class="today-card__content">
-      <div>
-        <h2 id="today-title">Uma coisa de cada vez.</h2>
-        <p>
-          A Bebel está preparando um jeito gostoso de você abrir o app e já saber o que merece atenção hoje.
-        </p>
+
+    @if (returnContext(); as context) {
+      <span class="today-card__label">De volta com a Bebel</span>
+      <div class="today-card__content">
+        <div>
+          <span class="today-card__context-icon material-symbols-outlined" aria-hidden="true">{{ context.icon }}</span>
+          <h2 id="today-title">{{ context.title }}</h2>
+          <p>{{ context.copy }}</p>
+        </div>
+
+        <button class="today-card__action icon-action" type="button" (click)="resumeContext()">
+          <span>{{ context.cta }}</span>
+          <span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span>
+        </button>
       </div>
-    </div>
+    } @else {
+      <span class="today-card__label">Hoje com a Bebel</span>
+      <div class="today-card__content">
+        <div>
+          <h2 id="today-title">Uma coisa de cada vez.</h2>
+          <p>Escolhe uma coisinha pra resolver agora. O resto pode esperar.</p>
+        </div>
+      </div>
+    }
   </section>
 
   <section class="home__section" aria-labelledby="coming-soon-title">
