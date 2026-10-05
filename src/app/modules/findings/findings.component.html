@@ -47,14 +47,15 @@
             <p>{{ finding.bebelNote }}</p>
 
             <div class="finding-card__actions">
-              <a class="finding-card__details" [routerLink]="['/achadinhos', finding.slug]">Ver detalhes</a>
+              <a class="finding-card__details icon-action" [routerLink]="['/achadinhos', finding.slug]"><span class="material-symbols-outlined" aria-hidden="true">visibility</span>Ver detalhes</a>
               <a
-                class="finding-card__external"
+                class="finding-card__external icon-action"
                 [href]="finding.affiliateUrl"
                 target="_blank"
                 [attr.rel]="relFor(finding.isAffiliate)"
                 (click)="trackAchadinho(finding)"
               >
+                <span class="material-symbols-outlined" aria-hidden="true">open_in_new</span>
                 Ver achadinho
               </a>
             </div>

@@ -1,5 +1,5 @@
 <section class="shopping-detail">
-  <a class="back-link" routerLink="/compras">‹ Voltar para minhas listas</a>
+  <a class="back-link icon-action" routerLink="/compras"><span class="material-symbols-outlined" aria-hidden="true">arrow_back</span>Voltar para minhas listas</a>
 
   @if (list(); as currentList) {
     <header class="list-header">
@@ -13,8 +13,8 @@
       </div>
 
       <div class="list-header__actions">
-        <button class="secondary-button" type="button" (click)="editList()">Editar lista</button>
-        <button class="primary-button" type="button" (click)="addItem()">+ Adicionar item</button>
+        <button class="secondary-button icon-action" type="button" (click)="editList()"><span class="material-symbols-outlined" aria-hidden="true">edit</span>Editar lista</button>
+        <button class="primary-button icon-action" type="button" (click)="addItem()"><span class="material-symbols-outlined" aria-hidden="true">add</span>Adicionar item</button>
       </div>
     </header>
 
@@ -42,15 +42,17 @@
                   <span class="shopping-item__name">{{ item.name }}</span>
 
                   <div class="shopping-item__actions">
-                    <button type="button" (click)="editItem(item)" [attr.aria-label]="'Editar ' + item.name">
+                    <button class="icon-action" type="button" (click)="editItem(item)" [attr.aria-label]="'Editar ' + item.name">
+                      <span class="material-symbols-outlined" aria-hidden="true">edit</span>
                       Editar
                     </button>
                     <button
-                      class="danger-action"
+                      class="danger-action icon-action"
                       type="button"
                       (click)="deleteItem(item)"
                       [attr.aria-label]="'Excluir ' + item.name"
                     >
+                      <span class="material-symbols-outlined" aria-hidden="true">delete</span>
                       Excluir
                     </button>
                   </div>
@@ -84,15 +86,17 @@
                   <span class="shopping-item__name">{{ item.name }}</span>
 
                   <div class="shopping-item__actions">
-                    <button type="button" (click)="editItem(item)" [attr.aria-label]="'Editar ' + item.name">
+                    <button class="icon-action" type="button" (click)="editItem(item)" [attr.aria-label]="'Editar ' + item.name">
+                      <span class="material-symbols-outlined" aria-hidden="true">edit</span>
                       Editar
                     </button>
                     <button
-                      class="danger-action"
+                      class="danger-action icon-action"
                       type="button"
                       (click)="deleteItem(item)"
                       [attr.aria-label]="'Excluir ' + item.name"
                     >
+                      <span class="material-symbols-outlined" aria-hidden="true">delete</span>
                       Excluir
                     </button>
                   </div>
@@ -107,15 +111,15 @@
 
       <div class="list-footer">
         <span>Já foi {{ purchasedCount() }} de {{ currentList.items.length }}.</span>
-        <button class="danger-link" type="button" (click)="deleteList()">Excluir lista</button>
+        <button class="danger-link icon-action" type="button" (click)="deleteList()"><span class="material-symbols-outlined" aria-hidden="true">delete</span>Excluir lista</button>
       </div>
     } @else {
       <section class="empty-state">
         <span class="empty-state__mark" aria-hidden="true">📝</span>
         <h2>Nada anotado ainda.</h2>
         <p>Comece pelo que você não pode esquecer no mercado.</p>
-        <button class="primary-button" type="button" (click)="addItem()">Adicionar primeiro item</button>
-        <button class="danger-link" type="button" (click)="deleteList()">Excluir lista</button>
+        <button class="primary-button icon-action" type="button" (click)="addItem()"><span class="material-symbols-outlined" aria-hidden="true">add</span>Adicionar primeiro item</button>
+        <button class="danger-link icon-action" type="button" (click)="deleteList()"><span class="material-symbols-outlined" aria-hidden="true">delete</span>Excluir lista</button>
       </section>
     }
 
@@ -125,7 +129,7 @@
       <span class="empty-state__mark" aria-hidden="true">🤷🏾‍♀️</span>
       <h1>Essa lista não está mais por aqui.</h1>
       <p>Ela pode ter sido apagada ou este endereço pode estar antigo.</p>
-      <a class="primary-link" routerLink="/compras">Ver minhas listas</a>
+      <a class="primary-link icon-action" routerLink="/compras"><span class="material-symbols-outlined" aria-hidden="true">shopping_cart</span>Ver minhas listas</a>
     </section>
   }
 </section>

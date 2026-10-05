@@ -1,5 +1,5 @@
 <section class="finding-page">
-  <a class="back-link" routerLink="/achadinhos">‹ Voltar para Achadinhos</a>
+  <a class="back-link icon-action" routerLink="/achadinhos"><span class="material-symbols-outlined" aria-hidden="true">arrow_back</span>Voltar para Achadinhos</a>
 
   @if (catalog.loading()) {
     <div class="status-card">A Bebel está abrindo esse achadinho...</div>
@@ -28,12 +28,13 @@
         </div>
 
         <a
-          class="external-link"
+          class="external-link icon-action"
           [href]="item.affiliateUrl"
           target="_blank"
           [attr.rel]="relFor(item.isAffiliate)"
           (click)="trackAchadinho()"
         >
+          <span class="material-symbols-outlined" aria-hidden="true">open_in_new</span>
           Ver na loja
         </a>
 
@@ -46,7 +47,7 @@
     <div class="status-card">
       <h1>Esse achadinho não está mais por aqui.</h1>
       <p>Volta na lista que a Bebel te mostra outras ideias.</p>
-      <a class="primary-link" routerLink="/achadinhos">Ver Achadinhos</a>
+      <a class="primary-link icon-action" routerLink="/achadinhos"><span class="material-symbols-outlined" aria-hidden="true">sell</span>Ver Achadinhos</a>
     </div>
   }
 </section>
