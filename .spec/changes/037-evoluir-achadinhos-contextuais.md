@@ -25,24 +25,29 @@ Aumentar relevância e mensuração dos Achadinhos contextuais sem transformar a
 
 ## Critérios de aceite
 
-- [ ] Home, Comidinhas e Compras continuam mostrando no máximo um spotlight.
-- [ ] Microcopy deixa claro por que a recomendação apareceu naquele contexto.
-- [ ] Cliques no spotlight registram `ClickAchadinho` com contexto não sensível.
-- [ ] Link afiliado permanece identificado e não interrompe a tarefa principal.
+- [x] Home, Comidinhas e Compras continuam mostrando no máximo um spotlight.
+- [~] Microcopy deixa claro por que a recomendação apareceu naquele contexto.
+- [x] Cliques no spotlight registram `ClickAchadinho` com contexto não sensível.
+- [~] Link afiliado permanece identificado e não interrompe a tarefa principal.
 - [ ] Build Angular validado pelo CI.
 
 ## Tasks
 
 ### Tasks - Front-end
 
-- [ ] Adaptar eyebrow/copy do spotlight por contexto.
-- [ ] Conectar tracking de clique contextual ao componente.
-- [ ] Preservar acessibilidade e indicação de afiliado.
+- [~] Adaptar eyebrow/copy do spotlight por contexto.
+  > 🧪 2026-10-05 — Spotlight usa copy específica para `home`, `meals` e `shopping`; permanece um único produto por contexto. Aguardando CI.
+- [x] Conectar tracking de clique contextual ao componente.
+  > ✅ 2026-10-05 — Imagem e CTA registram `ClickAchadinho` com `source: spotlight`, contexto, ID público, loja e flag de afiliado.
+- [~] Preservar acessibilidade e indicação de afiliado.
+  > 🧪 2026-10-05 — Link continua interno para detalhes, imagem tem `aria-label` e produtos afiliados exibem indicação discreta. Aguardando CI.
 
 ### Tasks - Validação
 
-- [ ] Revisar relevância, frequência e tracking.
-- [ ] Validar build Angular no CI.
+- [x] Revisar relevância, frequência e tracking.
+  > ✅ 2026-10-05 — Revisão estática confirma no máximo um spotlight, sem ranking por perfil e sem parâmetros sensíveis.
+- [~] Validar build Angular no CI.
+  > 🧪 2026-10-05 — Aguardando Pull Request.
 
 ## Resultado Esperado
 
