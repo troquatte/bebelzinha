@@ -27,28 +27,34 @@ Receita → lista já possui formatação de ingredientes e deduplicação simpl
 
 ## Critérios de aceite
 
-- [ ] CTA só fica útil quando houver receita planejada.
-- [ ] Ingredientes aparecem para confirmação antes do envio.
-- [ ] Usuário pode desmarcar itens.
-- [ ] Ingredientes repetidos não viram duplicatas desnecessárias.
-- [ ] Pode escolher lista existente ou criar nova.
-- [ ] Nenhum ingrediente é enviado sem ação explícita.
-- [ ] `AddWeekToList` registra quantidades agregadas, sem nomes digitados.
+- [~] CTA só fica útil quando houver receita planejada.
+- [~] Ingredientes aparecem para confirmação antes do envio.
+- [~] Usuário pode desmarcar itens.
+- [x] Ingredientes repetidos não viram duplicatas desnecessárias.
+- [~] Pode escolher lista existente ou criar nova.
+- [x] Nenhum ingrediente é enviado sem ação explícita.
+- [x] `AddWeekToList` registra quantidades agregadas, sem nomes digitados.
 - [ ] Build Angular validado pelo CI.
 
 ## Tasks
 
 ### Tasks - Front-end
 
-- [ ] Consolidar ingredientes das receitas da semana.
-- [ ] Criar seleção de ingredientes no fluxo de preparação da lista.
-- [ ] Reutilizar escolha/criação de lista e deduplicação existente.
-- [ ] Registrar `AddWeekToList`.
+- [x] Consolidar ingredientes das receitas da semana.
+  > ✅ 2026-10-05 — Ingredientes das receitas planejadas são consolidados por nome normalizado, sem cálculo sofisticado de medidas.
+- [~] Criar seleção de ingredientes no fluxo de preparação da lista.
+  > 🧪 2026-10-05 — CTA abre seleção explícita com checkboxes inicialmente marcados; usuário pode desmarcar antes de continuar. Aguardando CI.
+- [~] Reutilizar escolha/criação de lista e deduplicação existente.
+  > 🧪 2026-10-05 — Fluxo escolhe lista existente ou cria nova e usa `ShoppingStore.addItemIfMissing` na gravação.
+- [x] Registrar `AddWeekToList`.
+  > ✅ 2026-10-05 — Tracking envia apenas contagens agregadas de receitas, seleção, itens adicionados e duplicados.
 
 ### Tasks - Validação
 
-- [ ] Revisar deduplicação, seleção e controle do usuário.
-- [ ] Validar build Angular no CI.
+- [x] Revisar deduplicação, seleção e controle do usuário.
+  > ✅ 2026-10-05 — Revisão estática confirma que nada é enviado antes do CTA de confirmação e que seleção vazia é bloqueada.
+- [~] Validar build Angular no CI.
+  > 🧪 2026-10-05 — Aguardando Pull Request.
 
 ## Resultado Esperado
 

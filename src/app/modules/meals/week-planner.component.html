@@ -7,6 +7,49 @@
     <small>{{ plannedCount() }} de 7 dias</small>
   </div>
 
+  @if (plannedCount() > 0) {
+    <div class="week-shopping">
+      <div>
+        <strong>Já sabe o que vai cozinhar?</strong>
+        <span>A Bebel junta os ingredientes e você escolhe só o que precisa comprar.</span>
+      </div>
+      <button class="week-shopping__start icon-action" type="button" (click)="startShoppingList()">
+        <span class="material-symbols-outlined" aria-hidden="true">shopping_cart_checkout</span>
+        Preparar lista de compras
+      </button>
+    </div>
+  }
+
+  @if (preparingList()) {
+    <section class="week-shopping-picker" aria-labelledby="week-shopping-title">
+      <div class="week-shopping-picker__heading">
+        <div>
+          <span>Pra levar pro mercado</span>
+          <h3 id="week-shopping-title">O que você precisa colocar na lista?</h3>
+        </div>
+        <button type="button" (click)="cancelShoppingList()">Cancelar</button>
+      </div>
+
+      <div class="week-shopping-picker__items">
+        @for (ingredient of weekIngredients(); track ingredient.key) {
+          <label>
+            <input
+              type="checkbox"
+              [checked]="selectedIngredientKeys().includes(ingredient.key)"
+              (change)="toggleIngredient(ingredient.key, $event)"
+            />
+            <span>{{ ingredient.displayName }}</span>
+          </label>
+        }
+      </div>
+
+      <button class="week-shopping-picker__confirm icon-action" type="button" (click)="sendWeekToShopping()">
+        <span class="material-symbols-outlined" aria-hidden="true">playlist_add_check</span>
+        Mandar selecionados pra lista
+      </button>
+    </section>
+  }
+
   <div class="week-grid" aria-label="Planejamento da semana">
     @for (slot of slots(); track slot.id) {
       <article class="week-day" [class.week-day--filled]="slot.recipe">
