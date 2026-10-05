@@ -52,3 +52,8 @@ Aumentar relevância e mensuração dos Achadinhos contextuais sem transformar a
 ## Resultado Esperado
 
 Achadinhos aparecem como ajuda contextual e geram dados sobre onde têm mais interesse.
+
+
+## Revisão estática final
+
+> ✅ 2026-10-05 — Um único spotlight por contexto, tracking sem dados sensíveis, link interno preservado e indicação discreta de afiliado confirmados antes do CI.
