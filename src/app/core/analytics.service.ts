@@ -108,8 +108,9 @@ export class AnalyticsService {
         this.track('ReturnVisit', {
           minutes_since_last_session: Math.floor(elapsed / 60000),
         });
-        localStorage.setItem(this.sessionStorageKey, String(now));
       }
+
+      localStorage.setItem(this.sessionStorageKey, String(now));
     } catch {
       // Tracking não deve quebrar o app quando storage estiver indisponível.
     }
