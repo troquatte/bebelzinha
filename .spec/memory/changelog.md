@@ -17,3 +17,4 @@ Este arquivo registra cronologicamente todas as especificações (Specs) conclu�
 | 033 | 2026-10-05 | Repetir lista de compras | ChatGPT |
 | 034 | 2026-10-05 | Retorno personalizado básico | ChatGPT |
 | 035 | 2026-10-05 | Minha Semana por dia | ChatGPT |
+| 036 | 2026-10-05 | Minha Semana para Lista de Compras | ChatGPT |
