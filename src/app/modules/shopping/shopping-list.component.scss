@@ -178,7 +178,9 @@
 
 .empty-state p {
   max-width: 28rem;
+  margin: 0.75rem auto 0;
   color: var(--bebel-text-soft);
+  text-align: center;
 }
 
 .empty-state .danger-link {
