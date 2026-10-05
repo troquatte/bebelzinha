@@ -3,7 +3,7 @@ import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 
 import { AnalyticsService } from './core/analytics.service';
 import { ContinuityService } from './core/continuity.service';
-import { OnboardingComponent } from './modules/onboarding/onboarding.component';
+import { OnboardingComponent } from './modules/onboarding/components/onboarding.component';
 
 @Component({
   imports: [OnboardingComponent, RouterLink, RouterLinkActive, RouterOutlet],
