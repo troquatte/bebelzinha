@@ -32,3 +32,8 @@ Garantir que os eventos do épico de retenção possam ser usados com confiança
 ## Observação externa
 
 O código e o deploy podem ser validados pelo repositório. A leitura de eventos recentes no Meta exige uma conta Ads Manager acessível ao conector; quando não houver acesso, isso deve ser tratado como limitação de observabilidade externa, não como falha do Pixel.
+
+
+## Validação
+
+Aguardando workflow do Pull Request.
