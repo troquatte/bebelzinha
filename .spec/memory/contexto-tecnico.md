@@ -1093,7 +1093,7 @@ Regras atuais:
 - eventos de negócio são enviados pelo `AnalyticsService` para GA4 e Meta Pixel com a mesma nomenclatura;
 - o Meta Pixel usa o ID público `283243945816993`;
 - `PageView` do GA4 e Meta acompanha mudanças de rota da SPA;
-- eventos de negócio atuais: `AppOpen`, `CreateList`, `AddItem`, `CompleteItem`, `SaveRecipe`, `AddRecipeToList`, `ClickAchadinho`, `OpenShoppingList` e `ReturnVisit`;
+- eventos de negócio atuais: `AppOpen`, `CreateList`, `AddItem`, `CompleteItem`, `SaveRecipe`, `AddRecipeToList`, `OpenShoppingList` e `ReturnVisit`;
 - `ReturnVisit` representa uma nova sessão após pelo menos 30 minutos;
 - nomes de listas, itens e outros textos digitados pelo usuário não devem ser enviados;
 - CAPI, Consent Mode e Google Tag Manager não fazem parte da integração atual.
@@ -1107,7 +1107,6 @@ Agrupamento atual:
 
 - ativação: `HomeAction`, `CreateList`, `AddItem`, `SaveRecipe`, `PlanMeal`;
 - continuidade/recorrência: `OpenShoppingList`, `RepeatList`, `AddWeekToList`, `ReturnVisit`;
-- monetização/intenção comercial: `ClickAchadinho`.
 
 `ReturnVisit` considera a diferença entre a abertura atual e a abertura imediatamente anterior do app. O timestamp local deve ser atualizado em toda abertura, mesmo quando o intervalo ainda não atingir a janela de retorno.
 
