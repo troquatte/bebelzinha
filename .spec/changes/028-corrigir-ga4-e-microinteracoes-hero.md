@@ -33,24 +33,29 @@ As microinterações foram centralizadas em classes globais, mas ficaram sutis d
 
 ## Critérios de aceite
 
-- [ ] `src/index.html` contém o script oficial `gtag.js?id=G-RL10XLKR71`.
-- [ ] O `config` do GA4 usa `send_page_view: false`.
-- [ ] `AnalyticsService` não cria nem injeta outro script do Google.
-- [ ] Mudanças de rota Angular disparam `page_view`.
-- [ ] Home, Compras, Comidinhas e Achadinhos possuem animação de entrada compartilhada.
-- [ ] Balão, sparks e retrato apresentam movimento sutil perceptível.
-- [ ] `prefers-reduced-motion: reduce` remove movimentos não essenciais.
-- [ ] Nenhuma dependência nova é adicionada.
+- [x] `src/index.html` contém o script oficial `gtag.js?id=G-RL10XLKR71`.
+- [x] O `config` do GA4 usa `send_page_view: false`.
+- [x] `AnalyticsService` não cria nem injeta outro script do Google.
+- [x] Mudanças de rota Angular disparam `page_view`.
+- [~] Home, Compras, Comidinhas e Achadinhos possuem animação de entrada compartilhada.
+- [~] Balão, sparks e retrato apresentam movimento sutil perceptível.
+- [x] `prefers-reduced-motion: reduce` remove movimentos não essenciais.
+- [x] Nenhuma dependência nova é adicionada.
 - [ ] Build Angular validado pelo CI.
 - [ ] `main` e `development` terminam com a mesma árvore de arquivos.
 
 ## Tasks
 
-- [ ] Corrigir bootstrap do GA4 no HTML.
-- [ ] Simplificar AnalyticsService para tracking SPA.
-- [ ] Reforçar padrão global de microinterações dos heroes.
-- [ ] Revisar os quatro heroes e reduced motion.
-- [ ] Validar build Angular no CI.
+- [x] Corrigir bootstrap do GA4 no HTML.
+  > ✅ 2026-10-05 10:41 — `src/index.html` passou a carregar o snippet oficial `gtag.js` com `G-RL10XLKR71` e `send_page_view: false`.
+- [x] Simplificar AnalyticsService para tracking SPA.
+  > ✅ 2026-10-05 10:41 — `AnalyticsService` não injeta mais script; observa `NavigationEnd` e envia `page_view` com `send_to` para o Measurement ID.
+- [~] Reforçar padrão global de microinterações dos heroes.
+  > 🧪 2026-10-05 10:41 — CSS global agora mira diretamente os quatro heroes, inclui entrada, flutuação contínua do retrato, balão, sparks e hover sutil. Aguardando CI.
+- [x] Revisar os quatro heroes e reduced motion.
+  > ✅ 2026-10-05 10:41 — Revisão estática confirmou seletores diretos para Home, Compras, Comidinhas e Achadinhos, com fallback `prefers-reduced-motion`.
+- [~] Validar build Angular no CI.
+  > 🧪 2026-10-05 10:41 — Aguardando workflow do Pull Request.
 - [ ] Integrar em development.
 - [ ] Sincronizar e integrar em main.
 - [ ] Confirmar igualdade final entre main e development.
