@@ -38,7 +38,7 @@ A SPA já persiste listas e estado de Comidinhas localmente. A última área út
 ### Tasks - Front-end
 
 - [x] Criar serviço local mínimo para registrar última área útil.
-  > ✅ 2026-10-05 — `ContinuityService` grava somente a última área entre Compras, Comidinhas e Achadinhos em `localStorage`.
+  > ✅ 2026-10-05 — `ContinuityService` grava somente a última área entre Compras e Comidinhas em `localStorage`.
 - [x] Criar regra de prioridade do contexto de retorno.
   > ✅ 2026-10-05 — Home prioriza lista pendente → Minha Semana → salvas → última área.
 - [x] Transformar “Hoje com a Bebel” em retomada útil quando existir contexto.

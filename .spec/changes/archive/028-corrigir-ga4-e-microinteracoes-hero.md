@@ -37,7 +37,7 @@ As microinterações foram centralizadas em classes globais, mas ficaram sutis d
 - [x] O `config` do GA4 usa `send_page_view: false`.
 - [x] `AnalyticsService` não cria nem injeta outro script do Google.
 - [x] Mudanças de rota Angular disparam `page_view`.
-- [x] Home, Compras, Comidinhas e Achadinhos possuem animação de entrada compartilhada.
+- [x] Home, Compras, Comidinhas possuem animação de entrada compartilhada.
 - [x] Balão, sparks e retrato apresentam movimento sutil perceptível.
 - [x] `prefers-reduced-motion: reduce` remove movimentos não essenciais.
 - [x] Nenhuma dependência nova é adicionada.
@@ -53,7 +53,7 @@ As microinterações foram centralizadas em classes globais, mas ficaram sutis d
 - [~] Reforçar padrão global de microinterações dos heroes.
   > ✅ 2026-10-05 10:47 — CSS global agora mira diretamente os quatro heroes, inclui entrada, flutuação contínua do retrato, balão, sparks e hover sutil. Build aprovado no CI.
 - [x] Revisar os quatro heroes e reduced motion.
-  > ✅ 2026-10-05 10:41 — Revisão estática confirmou seletores diretos para Home, Compras, Comidinhas e Achadinhos, com fallback `prefers-reduced-motion`.
+  > ✅ 2026-10-05 10:41 — Revisão estática confirmou seletores diretos para Home, Compras, Comidinhas, com fallback `prefers-reduced-motion`.
 - [x] Validar build Angular no CI.
   > ✅ 2026-10-05 10:47 — Workflow `Build and deploy GitHub Pages` run `37318043539` concluído com sucesso; build e shells estáticos aprovados.
 - [x] Integrar em development.

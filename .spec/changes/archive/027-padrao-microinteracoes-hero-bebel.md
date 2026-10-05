@@ -6,7 +6,7 @@ Consolidar as microinterações dos heroes com a personagem Bebel em um padrão 
 
 ## Contexto
 
-Home e Lista de compras já possuem animações muito semelhantes implementadas separadamente. Comidinhas e Achadinhos possuem comportamentos próprios. Isso cria duplicação e risco de inconsistência visual.
+Home e Lista de compras já possuem animações muito semelhantes implementadas separadamente. Comidinhas possuem comportamentos próprios. Isso cria duplicação e risco de inconsistência visual.
 
 ## Escopo
 
@@ -16,7 +16,7 @@ Home e Lista de compras já possuem animações muito semelhantes implementadas 
   - flutuação do balão;
   - brilho dos sparks;
   - entrada do sticker quando existir;
-- aplicar as classes em Home, Lista de compras, Comidinhas e Achadinhos;
+- aplicar as classes em Home, Lista de compras, Comidinhas;
 - remover apenas as animações duplicadas de hero que forem substituídas pelo padrão;
 - preservar microinterações específicas de cards e demais componentes;
 - manter `prefers-reduced-motion`.
@@ -34,7 +34,6 @@ Home e Lista de compras já possuem animações muito semelhantes implementadas 
 - [x] Home usa o padrão compartilhado sem perder o comportamento atual.
 - [x] Lista de compras usa o mesmo padrão de hero da Home.
 - [x] Comidinhas usa o mesmo padrão de entrada, retrato, balão e sparks.
-- [x] Achadinhos usa o mesmo padrão aplicável ao seu hero.
 - [x] As animações compartilhadas ficam definidas em uma fonte global reutilizável.
 - [x] Duplicação de keyframes do hero é removida dos componentes onde foi substituída.
 - [x] `prefers-reduced-motion: reduce` desativa as microinterações compartilhadas.
@@ -51,10 +50,8 @@ Home e Lista de compras já possuem animações muito semelhantes implementadas 
   > ✅ 2026-10-05 10:27 — Classes compartilhadas aplicadas ao hero da listagem de compras. Build do CI aprovado.
 - [x] Aplicar o padrão em Comidinhas.
   > ✅ 2026-10-05 10:27 — Hero de Comidinhas passou a usar entrada, retrato, balão e sparks compartilhados. Build do CI aprovado.
-- [x] Aplicar o padrão em Achadinhos.
-  > ✅ 2026-10-05 10:27 — Hero de Achadinhos passou a usar o padrão compartilhado; microinterações específicas dos cards foram preservadas. Build do CI aprovado.
 - [x] Remover animações duplicadas de hero substituídas pelo padrão.
-  > ✅ 2026-10-05 10:22 — Keyframes locais duplicados removidos de Home, Lista de compras e Achadinhos; animações específicas das páginas foram mantidas.
+  > ✅ 2026-10-05 10:22 — Keyframes locais duplicados removidos de Home, Lista de compras; animações específicas das páginas foram mantidas.
 - [x] Revisar comportamento e reduced motion.
   > ✅ 2026-10-05 10:22 — Revisão estática concluída; padrão global documentado em `.spec/shared/diretrizes-de-frontend.md`, sem dependência nova e com reduced motion centralizado.
 - [x] Validar build Angular no CI.
@@ -89,6 +86,6 @@ Home e Lista de compras já possuem animações muito semelhantes implementadas 
 
 ### Observações
 
-- Home, Lista de compras, Comidinhas e Achadinhos usam o padrão compartilhado;
+- Home, Lista de compras, Comidinhas usam o padrão compartilhado;
 - microinterações específicas de cards e conteúdos locais foram preservadas;
 - nenhuma pendência conhecida dentro do escopo da spec.

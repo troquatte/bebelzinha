@@ -2,10 +2,10 @@ import { Injectable } from '@angular/core';
 import { NavigationEnd, Router } from '@angular/router';
 import { filter } from 'rxjs';
 
-export type ContinuityArea = 'comidinhas' | 'compras' | 'achadinhos';
+export type ContinuityArea = 'comidinhas' | 'compras';
 
 const STORAGE_KEY = 'bebel.continuity.last-area.v1';
-const VALID_AREAS = new Set<ContinuityArea>(['comidinhas', 'compras', 'achadinhos']);
+const VALID_AREAS = new Set<ContinuityArea>(['comidinhas', 'compras']);
 
 @Injectable({ providedIn: 'root' })
 export class ContinuityService {

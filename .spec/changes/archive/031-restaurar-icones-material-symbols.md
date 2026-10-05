@@ -13,7 +13,6 @@ Restaurar e padronizar os ícones funcionais do app usando Material Symbols Outl
 - voltar;
 - salvar receita;
 - adicionar receita à semana/lista;
-- abrir/ver Achadinhos;
 - documentar padrão para novas telas.
 
 ## Critérios de aceite
@@ -21,7 +20,6 @@ Restaurar e padronizar os ícones funcionais do app usando Material Symbols Outl
 - [x] Menu usa Material Symbols em todos os quatro destinos.
 - [x] Ações principais de Compras usam Material Symbols.
 - [x] Ações principais de Comidinhas usam Material Symbols.
-- [x] Ações principais de Achadinhos usam Material Symbols.
 - [x] Emojis decorativos permanecem preservados.
 - [x] Existe classe compartilhada para ícone + texto.
 - [x] Diretriz de frontend documenta o padrão.

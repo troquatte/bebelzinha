@@ -10,7 +10,6 @@ export type BusinessEvent =
   | 'CompleteItem'
   | 'SaveRecipe'
   | 'AddRecipeToList'
-  | 'ClickAchadinho'
   | 'OpenShoppingList'
   | 'ReturnVisit'
   | 'HomeAction'

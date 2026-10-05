@@ -1,21 +1,59 @@
-# Tarefa — Padronizar caixas de dica e aviso
+# Tarefa — Padronizar módulos e limpar feature descontinuada
 
 ## Modo
 
 FULL
 
-## Problema
+## Objetivos
 
-Os blocos de apoio visual do app usam estruturas parecidas, mas cada tela implementa alinhamento, ícone e espaçamento de forma diferente. O aviso de afiliados fica visualmente inconsistente entre desktop e mobile.
+1. Tornar obrigatória a organização de cada feature em subpastas por responsabilidade.
+2. Remover completamente uma feature de monetização descontinuada do app e da documentação viva.
 
-## Escopo
+## Estrutura obrigatória
 
-- criar padrão compartilhado para caixas de dica/aviso;
-- aplicar em aviso de afiliados, dica de Compras e dica da Home;
-- manter ícone decorativo alinhado ao topo do conteúdo;
-- agrupar título e texto numa única coluna;
-- garantir quebra de texto previsível no mobile;
-- preservar texto de transparência sobre afiliados;
-- não alterar comportamento funcional;
-- validar build e publicar;
-- equalizar main e development.
+```text
+src/app/
+  core/
+  shared/
+  modules/
+    <feature>/
+      components/
+      shared/
+      service/
+      enum/
+      interface/
+      helpers/
+      etc/
+```
+
+Regras:
+- arquivos de feature não ficam soltos em `modules/<feature>/`;
+- criar somente as subpastas realmente necessárias;
+- componente visual fica em `components/`;
+- store e serviços específicos da feature ficam em `service/`;
+- contratos/tipos/interfaces ficam em `interface/`;
+- código genérico/global continua em `core/` ou `shared/`.
+
+## Remoção da feature descontinuada
+
+Remover:
+- rotas;
+- navegação desktop/mobile;
+- componentes;
+- serviços;
+- modelos;
+- conteúdo JSON;
+- imagens;
+- recomendações contextuais;
+- eventos específicos de analytics;
+- continuidade;
+- referências em Home, Comidinhas e Compras;
+- memória/documentação viva;
+- specs arquivadas exclusivas da feature;
+- geração estática de páginas dessa feature.
+
+## Preservação
+
+- manter os novos arquivos de conteúdo/story e referências visuais adicionados pelo usuário;
+- manter Comidinhas, Compras, Onboarding, Home, Analytics e continuidade;
+- não alterar regra funcional dessas features além da remoção da feature descontinuada e atualização de imports/caminhos.
