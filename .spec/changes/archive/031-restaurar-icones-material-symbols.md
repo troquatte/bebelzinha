@@ -26,6 +26,15 @@ Restaurar e padronizar os ícones funcionais do app usando Material Symbols Outl
 - [x] Existe classe compartilhada para ícone + texto.
 - [x] Diretriz de frontend documenta o padrão.
 - [x] Nenhuma dependência nova foi adicionada.
-- [ ] Build Angular validado pelo CI.
-- [ ] Entrega publicada em main.
-- [ ] main e development equalizadas.
+- [x] Build Angular validado pelo CI.
+- [x] Entrega publicada em main.
+- [x] main e development equalizadas.
+
+
+## Encerramento
+
+> ✅ 2026-10-05 — Build e deploy concluídos com sucesso no workflow `37323951993`.
+
+- PR de implementação: #60;
+- merge em `main`: `f08ce2a6a1ec14b941b56e3cd7c6c775c242d328`;
+- `development` equalizada com o mesmo commit após o deploy.
