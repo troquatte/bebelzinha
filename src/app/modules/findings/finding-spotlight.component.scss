@@ -54,6 +54,19 @@
   color: var(--bebel-text-soft);
 }
 
+.finding-spotlight__context {
+  margin-bottom: .35rem;
+  font-size: .72rem;
+}
+
+.finding-spotlight__affiliate {
+  display: block;
+  margin-top: .45rem;
+  color: var(--bebel-text-soft);
+  font-size: .62rem;
+  font-weight: 700;
+}
+
 .finding-spotlight__link {
   display: inline-flex;
   margin-top: .55rem;
