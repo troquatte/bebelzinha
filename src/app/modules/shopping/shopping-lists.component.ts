@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
-import { Router, RouterLink } from '@angular/router';
+import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import Swal from 'sweetalert2';
 
 import { AnalyticsService } from '../../core/analytics.service';
@@ -16,6 +16,7 @@ import { ShoppingStore } from './shopping.store';
 })
 export class ShoppingListsComponent {
   private readonly analytics = inject(AnalyticsService);
+  private readonly route = inject(ActivatedRoute);
   private readonly router = inject(Router);
   private readonly seo = inject(SeoService);
   readonly store = inject(ShoppingStore);
@@ -28,6 +29,19 @@ export class ShoppingListsComponent {
         'Crie suas listas de compras, marque o que já foi para o carrinho e leve ingredientes das receitas da Bebel para o mercado.',
       path: '/compras',
     });
+
+    if (this.route.snapshot.queryParamMap.get('new') === '1') {
+      queueMicrotask(() => void this.createFromShortcut());
+    }
+  }
+
+  private async createFromShortcut(): Promise<void> {
+    await this.router.navigate([], {
+      relativeTo: this.route,
+      queryParams: {},
+      replaceUrl: true,
+    });
+    await this.createList();
   }
 
   async createList(): Promise<void> {

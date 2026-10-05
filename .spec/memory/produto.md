@@ -520,3 +520,22 @@ Regra de mensuração:
 - GA4 mede comportamento e funil;
 - Meta Pixel alimenta mídia, remarketing e otimização;
 - ambos compartilham as mesmas definições de eventos de negócio.
+
+
+---
+
+## Retenção e continuidade no app
+
+A Bebel deve estimular retorno por utilidade, não por obrigação.
+
+Fluxos atuais de continuidade:
+- Home com ações rápidas para mercado, Comidinhas, receitas salvas e Achadinhos;
+- retomada contextual priorizando lista ativa, Minha Semana, receitas salvas e última área útil;
+- listas de compras podem ser repetidas como novas listas independentes;
+- Minha Semana organiza uma receita por dia, de segunda a domingo;
+- Minha Semana pode preparar ingredientes para uma lista de compras com revisão explícita antes do envio;
+- Achadinhos aparecem de forma contextual em Home, Comidinhas e Compras, com no máximo um destaque por área.
+
+Princípio permanente:
+
+> A Bebel guarda contexto, reduz trabalho repetido e é útil o suficiente para que voltar faça sentido.

@@ -9,6 +9,7 @@ import { ShoppingStore } from '../shopping/shopping.store';
 import { RecipeIngredient } from './meals.models';
 import { MealsStore } from './meals.store';
 import { RecipeCatalog } from './recipe-catalog.service';
+import { WeekPlanningService } from './week-planning.service';
 
 @Component({
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -23,6 +24,7 @@ export class RecipeComponent {
   private readonly seo = inject(SeoService);
   readonly catalog = inject(RecipeCatalog);
   readonly mealsStore = inject(MealsStore);
+  readonly planner = inject(WeekPlanningService);
   readonly shoppingStore = inject(ShoppingStore);
 
   readonly slug = this.route.snapshot.paramMap.get('slug') ?? '';
@@ -57,10 +59,11 @@ export class RecipeComponent {
     }
   }
 
-  toggleWeek(): void {
+  planWeek(): void {
     const recipe = this.recipe();
+
     if (recipe) {
-      this.mealsStore.toggleWeek(recipe.id);
+      void this.planner.chooseDay(recipe);
     }
   }
 
