@@ -127,22 +127,15 @@ export class WeekPlannerComponent {
       return;
     }
 
-    let added = 0;
-    let duplicated = 0;
-
-    for (const ingredient of selected) {
-      const result = this.shoppingStore.addItemIfMissing(
-        listId,
-        ingredient.baseName,
-        ingredient.displayName,
-      );
-
-      if (result === 'added') {
-        added += 1;
-      } else if (result === 'duplicate') {
-        duplicated += 1;
-      }
-    }
+    const result = this.shoppingStore.addItemsIfMissing(
+      listId,
+      selected.map((ingredient) => ({
+        baseName: ingredient.baseName,
+        displayName: ingredient.displayName,
+      })),
+    );
+    const added = result.added;
+    const duplicated = result.duplicated;
 
     this.analytics.track('AddWeekToList', {
       planned_recipe_count: this.plannedCount(),

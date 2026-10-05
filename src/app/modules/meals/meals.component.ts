@@ -1,4 +1,12 @@
-import { ChangeDetectionStrategy, Component, HostListener, computed, inject, signal } from '@angular/core';
+import {
+  ChangeDetectionStrategy,
+  Component,
+  HostListener,
+  OnDestroy,
+  computed,
+  inject,
+  signal,
+} from '@angular/core';
 import { RouterLink } from '@angular/router';
 
 import { SeoService } from '../../core/seo.service';
@@ -20,8 +28,9 @@ type RecipeTagFilter = Extract<RecipeTag, 'rapida' | 'barata'>;
   styleUrl: './meals.component.scss',
   templateUrl: './meals.component.html',
 })
-export class MealsComponent {
+export class MealsComponent implements OnDestroy {
   private readonly seo = inject(SeoService);
+  private scrollFrameId: number | null = null;
 
   readonly catalog = inject(RecipeCatalog);
   readonly planner = inject(WeekPlanningService);
@@ -67,15 +76,20 @@ export class MealsComponent {
 
   @HostListener('window:scroll')
   onWindowScroll(): void {
-    if (!this.hasMoreRecipes()) {
+    if (this.scrollFrameId !== null || !this.hasMoreRecipes()) {
       return;
     }
 
-    const documentHeight = document.documentElement.scrollHeight;
-    const currentPosition = window.innerHeight + window.scrollY;
+    this.scrollFrameId = requestAnimationFrame(() => {
+      this.scrollFrameId = null;
+      this.loadMoreIfNeeded();
+    });
+  }
 
-    if (currentPosition >= documentHeight - 520) {
-      this.visibleCount.update((count) => Math.min(count + 10, this.filteredRecipes().length));
+  ngOnDestroy(): void {
+    if (this.scrollFrameId !== null) {
+      cancelAnimationFrame(this.scrollFrameId);
+      this.scrollFrameId = null;
     }
   }
 
@@ -129,6 +143,15 @@ export class MealsComponent {
 
   isInWeek(recipe: Recipe): boolean {
     return this.store.isInWeek(recipe.id);
+  }
+
+  private loadMoreIfNeeded(): void {
+    const documentHeight = document.documentElement.scrollHeight;
+    const currentPosition = window.innerHeight + window.scrollY;
+
+    if (currentPosition >= documentHeight - 520) {
+      this.visibleCount.update((count) => Math.min(count + 10, this.filteredRecipes().length));
+    }
   }
 
   private clearFilters(): void {
