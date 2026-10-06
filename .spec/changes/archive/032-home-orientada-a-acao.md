@@ -26,7 +26,6 @@ Angular SPA com dados locais em `ShoppingStore` e `MealsStore`. A Home já usa i
 - “Vou ao mercado”: abrir lista ativa mais relevante; sem lista, iniciar criação;
 - “Não sei o que cozinhar”: abrir fluxo guiado de Comidinhas;
 - “Ver minhas receitas”: abrir salvas; sem salvas, levar ao catálogo;
-- “Ver achadinhos”: abrir Achadinhos;
 - registrar evento não sensível de ação da Home.
 
 ## Fora de escopo
@@ -43,7 +42,6 @@ Angular SPA com dados locais em `ShoppingStore` e `MealsStore`. A Home já usa i
 - [x] Dado que não existe lista útil, ao tocar “Vou ao mercado”, o fluxo de criação é iniciado.
 - [x] “Não sei o que cozinhar” leva ao guia de escolha.
 - [x] “Ver minhas receitas” leva às salvas quando existirem e ao catálogo quando não existirem.
-- [x] “Ver achadinhos” leva ao catálogo de Achadinhos.
 - [x] Ações são grandes, simples e mobile first.
 - [x] A Home não apresenta métricas, gráficos ou aparência de dashboard.
 - [x] A ação escolhida gera evento `HomeAction` sem dados pessoais.
@@ -55,7 +53,7 @@ Angular SPA com dados locais em `ShoppingStore` e `MealsStore`. A Home já usa i
 
 - [x] Adicionar ação para resolver lista ativa ou iniciar criação de lista.
   > ✅ 2026-10-05 — Home resolve a lista mais recente com itens pendentes; sem lista útil, usa `?new=1` para iniciar criação em Compras. Build validado no workflow `37326204881`.
-- [x] Adicionar atalhos para guia de Comidinhas, receitas salvas/catálogo e Achadinhos.
+- [x] Adicionar atalhos para guia de Comidinhas e receitas salvas/catálogo.
   > ✅ 2026-10-05 — Atalhos navegam por rotas e fragments existentes; Comidinhas recebeu âncoras explícitas para salvas e catálogo. Build validado no workflow `37326204881`.
 - [x] Criar bloco visual de ações rápidas coerente com a identidade da Home.
   > ✅ 2026-10-05 — Grid 2x2 mobile first, Material Symbols, áreas de toque amplas e sem métricas/dashboard. Build validado no workflow `37326204881`.

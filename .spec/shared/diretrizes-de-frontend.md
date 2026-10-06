@@ -146,6 +146,19 @@ Regras:
 - emojis permanecem permitidos quando forem conteúdo decorativo ou parte da voz/personagem da Bebel;
 - antes de adicionar biblioteca nova de ícones, reutilizar Material Symbols já carregado em `src/index.html`.
 
+## Estrutura de features
+
+Componentes e código específico de uma feature devem seguir `.spec/memory/estrutura.md`.
+
+Padrão:
+- componentes em `modules/<feature>/components/`;
+- services e stores em `modules/<feature>/service/`;
+- interfaces/models em `modules/<feature>/interface/`;
+- helpers, enums e compartilhamento interno nas respectivas subpastas quando existirem;
+- não deixar arquivos de implementação soltos na raiz de `modules/<feature>/`.
+
+Não criar diretórios vazios nem abstrações apenas para preencher a estrutura.
+
 ## Componentes
 
 - componentes devem ter responsabilidade clara;

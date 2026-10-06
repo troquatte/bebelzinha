@@ -36,7 +36,7 @@ Foram observados como princípios visuais recorrentes:
 
 ## Fora de escopo
 
-- implementar Casa, Comidinhas, Compras ou Achadinhos;
+- implementar Casa, Comidinhas ou Compras;
 - autenticação;
 - backend;
 - persistência;

@@ -9,7 +9,21 @@ Convenções globais de nomes de arquivos e diretórios. Podem ser referenciadas
 - quando fizer sentido, o sufixo deve explicitar o papel do arquivo
 - não usar `PascalCase`, `camelCase` ou mistura de maiúsculas em diretórios
 
-Exemplos de diretórios válidos: `shared`, `components`, `services`, `directives`, `pipes`, `customer-settings`.
+Exemplos de diretórios válidos: `shared`, `components`, `service`, `interface`, `enum`, `helpers`, `directives`, `pipes`, `customer-settings`.
+
+## Organização de módulos Angular
+
+Dentro de `src/app/modules/<feature>/`, não deixar arquivos soltos na raiz da feature.
+
+Usar as subpastas conforme a responsabilidade real:
+- `components/`;
+- `service/`;
+- `interface/`;
+- `enum/`;
+- `helpers/`;
+- `shared/`.
+
+Não criar subpastas vazias apenas para completar a árvore.
 
 ## Sufixos recomendados
 

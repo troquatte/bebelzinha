@@ -30,7 +30,6 @@ Remarketing quente deve trazer de volta pessoas que já conhecem a Bebel por um 
 - disparar `OpenShoppingList`;
 - disparar `SaveRecipe`;
 - disparar `AddRecipeToList`;
-- disparar `ClickAchadinho`;
 - atualizar documentação de produto e contexto técnico.
 
 ## Fora de escopo
@@ -56,7 +55,6 @@ Remarketing quente deve trazer de volta pessoas que já conhecem a Bebel por um 
 - [x] `OpenShoppingList` está implementado.
 - [x] `SaveRecipe` dispara somente ao salvar, não ao remover dos salvos.
 - [x] `AddRecipeToList` dispara quando pelo menos um ingrediente é adicionado.
-- [x] `ClickAchadinho` dispara ao abrir link externo do produto.
 - [x] Nenhum nome de lista/item digitado pelo usuário é enviado.
 - [x] Nenhuma dependência nova foi adicionada.
 - [x] Build Angular validado pelo CI.

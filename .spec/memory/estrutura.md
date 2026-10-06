@@ -32,7 +32,7 @@ Não antecipar monorepo, múltiplas aplicações, backend ou packages compartilh
 
 A aplicação fica em `src/app` e deve crescer por domínio/feature quando as funcionalidades surgirem.
 
-Estrutura possível, **somente quando houver necessidade real**:
+Estrutura padrão dos módulos:
 
 ```text
 src/app/
@@ -40,7 +40,16 @@ src/app/
   shared/
   modules/
     <feature>/
+      components/
+      shared/
+      service/
+      enum/
+      interface/
+      helpers/
+      etc/
 ```
+
+Dentro de `modules/<feature>`, arquivos não devem ficar soltos na raiz da feature. Cada responsabilidade deve viver na subpasta correspondente. Criar somente as subpastas que tenham conteúdo real; diretórios vazios não são necessários.
 
 ### `core`
 Responsabilidades realmente globais da aplicação.
@@ -50,6 +59,15 @@ Somente código reutilizável, genérico e sem regra de negócio específica.
 
 ### `modules/<feature>`
 UI, estado e serviços ligados a uma área funcional do produto.
+
+Organização:
+- `components/` — componentes Angular e seus templates/estilos;
+- `service/` — services, stores e orquestração da feature;
+- `interface/` — contratos, models e tipos de domínio da feature;
+- `enum/` — enums quando existirem;
+- `helpers/` — funções auxiliares específicas da feature;
+- `shared/` — reutilização interna entre componentes da própria feature;
+- outras subpastas podem existir quando uma responsabilidade concreta exigir.
 
 ## Estilos
 
@@ -67,7 +85,6 @@ Conteúdo estruturado da Bebel que não pertence a componentes pode ficar em `pu
 
 Comidinhas usa `public/content/recipes/`, com um `index.json` e um arquivo JSON por receita. A interface consome um contrato próprio e não deve depender da futura origem dos dados.
 
-Achadinhos usa `public/content/findings/`, também com índice e um JSON por item. Imagens locais ficam em `public/images/findings/`. O domínio em `src/app/modules/findings/` concentra catálogo, detalhe e recomendação contextual, mantendo links e conteúdo fora dos componentes.
 
 ## SEO e publicação estática
 

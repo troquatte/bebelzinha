@@ -462,32 +462,6 @@ O onboarding explica valor e contexto; não deve tentar ensinar cada detalhe da 
 
 ---
 
-## Achadinhos
-
-Achadinhos é a camada inicial de monetização contextual da Bebel.
-
-A experiência possui dois formatos:
-
-- catálogo próprio de recomendações;
-- recomendações contextuais dentro de áreas como Home, Comidinhas e Lista de compras.
-
-Princípios permanentes:
-
-- a recomendação deve nascer de uma necessidade real do contexto, não de espaço publicitário disponível;
-- limitar recomendações para não transformar o app em vitrine;
-- não mostrar preço como informação confiável sem uma fonte sincronizada;
-- deixar claro quando links puderem gerar comissão;
-- links afiliados devem abrir externamente e usar `rel="sponsored"`;
-- o conteúdo dos achadinhos deve ficar separado dos componentes, permitindo troca de links sem alterar a UI;
-- a origem inicial pode ser JSON local e evoluir para API/banco somente após validação de cliques e receita.
-
-O norte é:
-
-> **Bebel recomenda coisas que resolvem problemas reais; ela não vira um marketplace.**
-
-
----
-
 ## Remarketing quente
 
 Objetivo: trazer de volta pessoas que já conhecem a Bebel e conduzi-las para uma ação útil e mensurável dentro do web app.
@@ -501,7 +475,6 @@ Exemplos de ações de valor:
 - adicionar ou concluir itens;
 - salvar receita;
 - mandar ingredientes para uma lista;
-- clicar em um Achadinho.
 
 Funil esperado:
 
@@ -512,8 +485,7 @@ usuário já conhece a Bebel
 → executa ação útil
 → percebe valor
 → retorna em outras ocasiões
-→ recebe recomendações contextuais
-→ monetização por Achadinhos / ofertas futuras
+→ encontra novas utilidades e ofertas futuras quando fizer sentido
 ```
 
 Regra de mensuração:
@@ -529,12 +501,11 @@ Regra de mensuração:
 A Bebel deve estimular retorno por utilidade, não por obrigação.
 
 Fluxos atuais de continuidade:
-- Home com ações rápidas para mercado, Comidinhas, receitas salvas e Achadinhos;
+- Home com ações rápidas para mercado, Comidinhas e receitas salvas;
 - retomada contextual priorizando lista ativa, Minha Semana, receitas salvas e última área útil;
 - listas de compras podem ser repetidas como novas listas independentes;
 - Minha Semana organiza uma receita por dia, de segunda a domingo;
 - Minha Semana pode preparar ingredientes para uma lista de compras com revisão explícita antes do envio;
-- Achadinhos aparecem de forma contextual em Home, Comidinhas e Compras, com no máximo um destaque por área.
 
 Princípio permanente:
 

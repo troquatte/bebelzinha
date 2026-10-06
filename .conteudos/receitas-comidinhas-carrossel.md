@@ -1,0 +1,123 @@
+Receitas / Comidinhas
+- 5 jantas fáceis para quando você está sem ideia
+- 5 receitas com frango que salvam a semana
+- 5 receitas baratas para o fim do mês
+- 5 almoços rápidos com poucos ingredientes
+- 5 receitas para fazer com arroz que sobrou
+- 5 receitas com pão amanhecido
+- 5 receitas de frigideira para não sujar a cozinha toda
+- 5 receitas de Air Fryer que realmente valem a pena
+- 5 cafés da manhã simples e baratos
+- 5 lanches da tarde com o que você já tem em casa
+- 5 sobremesas com 3 ingredientes
+- 5 comidas de domingo fáceis
+- 5 receitas para marmita
+- 5 molhos simples que mudam qualquer comida
+- 5 ideias para usar carne moída sem repetir o mesmo prato
+- 5 receitas que ficam prontas em até 20 minutos
+- 5 comidas para fazer quando bate aquela preguiça
+- 5 receitas que rendem bastante
+- 5 acompanhamentos simples para variar arroz e feijão
+- 5 receitas para congelar e salvar a semana
+Lista de compras / Mercado
+- 5 coisas que a gente sempre esquece no mercado
+- 5 erros que fazem você gastar mais no mercado
+- 5 coisas para conferir antes de sair para fazer compras
+- 5 itens que vale sempre ter em casa
+- 5 coisas que parecem baratas, mas fazem você gastar mais
+- 5 compras que você não precisa fazer toda semana
+- 5 jeitos de organizar a lista de compras melhor
+- 5 categorias para nunca esquecer nada no mercado
+- 5 coisas para olhar antes de aproveitar uma promoção
+- 5 erros de quem vai ao mercado com fome
+- 5 itens que ajudam a montar refeições rápidas
+- 5 formas de gastar menos sem comprar pior
+- 5 sinais de que você está comprando mais do que usa
+- 5 alimentos versáteis que salvam a semana
+- 5 compras que ajudam quando você não sabe o que cozinhar
+Economia doméstica
+- 5 pequenos gastos de casa que passam despercebidos
+- 5 hábitos que ajudam a economizar no mês
+- 5 coisas que vale comprar em quantidade
+- 5 coisas que não vale estocar
+- 5 maneiras simples de desperdiçar menos comida
+- 5 jeitos de aproveitar melhor o que já tem em casa
+- 5 erros que fazem comida ir para o lixo
+- 5 formas de fazer a compra render mais
+- 5 itens baratos que facilitam muito a rotina
+- 5 trocas simples que ajudam no orçamento da casa
+- 5 coisas para olhar antes de comprar um utensílio
+- 5 formas de economizar sem transformar a vida num sofrimento
+Bebel Sabe / Curiosidades úteis
+- 5 alimentos que você provavelmente guarda do jeito errado
+- 5 coisas que não deveriam ficar na geladeira
+- 5 coisas que estragam mais rápido por causa da umidade
+- 5 erros comuns ao congelar comida
+- 5 alimentos que congelam melhor do que você imagina
+- 5 coisas que você pode congelar em porções
+- 5 sinais de que o óleo da fritura já passou do ponto
+- 5 erros que deixam o arroz estranho no pote
+- 5 motivos para o café ficar amargo
+- 5 erros que fazem o pano de prato ficar encardido
+- 5 coisas que deixam a casa com cheiro de abafado
+- 5 erros comuns na hora de lavar roupa
+- 5 sinais de que você está usando sabão demais
+- 5 frutas que amadurecem rápido e como aproveitar
+- 5 legumes que duram mais quando bem armazenados
+- 5 coisas que você pode preparar antes para ganhar tempo
+- 5 truques de cozinha que realmente ajudam
+- 5 coisas que você não precisa complicar na cozinha
+Organização da casa
+- 5 coisas que deixam a cozinha bagunçada sem você perceber
+- 5 cantinhos da casa que acumulam bagunça
+- 5 coisas para organizar em 10 minutos
+- 5 formas de deixar a bancada da cozinha mais prática
+- 5 itens que ajudam a organizar a geladeira
+- 5 jeitos de organizar produtos de limpeza
+- 5 coisas para tirar da cozinha se você quer mais espaço
+- 5 hábitos para a casa não virar uma bagunça durante a semana
+- 5 tarefas pequenas que evitam faxina pesada depois
+- 5 coisas para fazer antes de dormir e acordar com a casa melhor
+- 5 formas de organizar a despensa
+- 5 erros que fazem a organização não durar
+- 5 coisas para destralhar hoje
+- 5 categorias para organizar armários sem complicação
+Dicas da vida / Identificação
+- 5 coisas que toda dona de casa já falou alguma vez
+- 5 situações que só quem cuida da casa entende
+- 5 coisas que ninguém avisa sobre manter uma casa
+- 5 pequenas coisas que cansam mais do que parecem
+- 5 coisas que você não precisa fazer perfeitamente
+- 5 jeitos de deixar a rotina mais leve
+- 5 coisas que podem esperar até amanhã
+- 5 sinais de que você está tentando dar conta de tudo ao mesmo tempo
+- 5 formas de facilitar sua própria vida dentro de casa
+- 5 coisas que a gente aprende depois de muito tempo cuidando da casa
+- 5 tarefas que parecem pequenas mas roubam seu tempo
+- 5 coisas que vale deixar prontas antes da semana começar
+Achadinhos da Bebel
+- 5 coisas baratinhas que facilitam a cozinha
+- 5 achadinhos para organizar a geladeira
+- 5 itens que ajudam a não desperdiçar comida
+- 5 utensílios simples que a Bebel aprova
+- 5 achadinhos para quem faz marmita
+- 5 itens para deixar a bancada mais organizada
+- 5 coisas úteis para lavanderia
+- 5 itens que ajudam na limpeza sem ocupar muito espaço
+- 5 potes e organizadores que fazem sentido ter
+- 5 itens de cozinha que parecem bobos até você usar
+- 5 achadinhos para quem mora em espaço pequeno
+- 5 coisas úteis para quem cozinha todo dia
+- 5 itens para facilitar a lista e organização das compras
+- 5 achadinhos que ajudam a casa a ficar mais prática
+Conteúdos que puxam diretamente para a Bebelzinha
+- 5 coisas que você esquece no mercado → comenta BEBELZINHA
+- Sem ideia do que cozinhar? 5 caminhos para decidir → BEBELZINHA
+- 5 ingredientes que você tem em casa e não sabe o que fazer → BEBELZINHA
+- 5 sinais de que sua lista de compras está te atrapalhando → BEBELZINHA
+- 5 jeitos de parar de decidir o jantar em cima da hora → BEBELZINHA
+- 5 formas de organizar as refeições da semana sem planilha → BEBELZINHA
+- 5 coisas para organizar antes de ir ao mercado → BEBELZINHA
+- 5 situações em que uma lista salva sua compra → BEBELZINHA
+- 5 receitas rápidas para salvar para depois → BEBELZINHA
+- 5 coisas que a Bebel pode te ajudar a resolver hoje → BEBELZINHA

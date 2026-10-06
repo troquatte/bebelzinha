@@ -60,25 +60,6 @@ await writeRoute('compras', {
   url: `${siteBase}compras/`,
 });
 
-await writeRoute('achadinhos', {
-  title: 'Achadinhos da Bebel - Coisas úteis para facilitar a casa',
-  description:
-    'Achadinhos úteis para cozinha, limpeza, organização e lavanderia escolhidos pela Bebel para facilitar a vida de casa.',
-  url: `${siteBase}achadinhos/`,
-});
-
-const findingsManifest = JSON.parse(await readFile('public/content/findings/index.json', 'utf8'));
-
-for (const slug of findingsManifest.findings) {
-  const finding = JSON.parse(await readFile(`public/content/findings/${slug}.json`, 'utf8'));
-
-  await writeRoute(join('achadinhos', slug), {
-    title: `${finding.title} - Achadinho da Bebel`,
-    description: finding.description,
-    url: `${siteBase}achadinhos/${slug}/`,
-  });
-}
-
 const manifest = JSON.parse(await readFile('public/content/recipes/index.json', 'utf8'));
 
 for (const slug of manifest.recipes) {

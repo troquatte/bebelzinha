@@ -56,8 +56,7 @@ p {
 .bebel-hero-motion,
 .hero,
 .shopping-hero,
-.meals-hero,
-.findings-hero {
+.meals-hero {
   animation: bebel-hero-rise 620ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
 }
 
@@ -69,8 +68,7 @@ p {
 .bebel-hero-motion__portrait,
 .hero__portrait-wrap,
 .shopping-hero__portrait-wrap,
-.meals-hero__portrait-wrap,
-.findings-hero__portrait-wrap {
+.meals-hero__portrait-wrap {
   animation:
     bebel-hero-portrait-enter 720ms 120ms cubic-bezier(0.2, 0.8, 0.2, 1) both,
     bebel-hero-portrait-float 4.8s 900ms ease-in-out infinite;
@@ -79,16 +77,14 @@ p {
 .bebel-hero-motion__speech,
 .hero__speech,
 .shopping-hero__speech,
-.meals-hero__speech,
-.findings-hero__speech {
+.meals-hero__speech {
   animation: bebel-hero-speech-float 3.1s 700ms ease-in-out infinite;
 }
 
 .bebel-hero-motion__spark--one,
 .hero__spark--one,
 .shopping-hero__spark--one,
-.meals-hero__spark--one,
-.findings-hero__spark {
+.meals-hero__spark--one {
   animation: bebel-hero-sparkle 2.2s 500ms ease-in-out infinite;
 }
 
@@ -101,15 +97,13 @@ p {
 
 .hero__portrait img,
 .shopping-hero__portrait img,
-.meals-hero__portrait img,
-.findings-hero__portrait img {
+.meals-hero__portrait img {
   transition: transform 260ms ease;
 }
 
 .hero__portrait-wrap:hover img,
 .shopping-hero__portrait-wrap:hover img,
-.meals-hero__portrait-wrap:hover img,
-.findings-hero__portrait-wrap:hover img {
+.meals-hero__portrait-wrap:hover img {
   transform: scale(1.025);
 }
 
@@ -189,39 +183,33 @@ p {
   .hero,
   .shopping-hero,
   .meals-hero,
-  .findings-hero,
   .bebel-hero-motion__sticker,
   .hero__sticker,
   .bebel-hero-motion__portrait,
   .hero__portrait-wrap,
   .shopping-hero__portrait-wrap,
   .meals-hero__portrait-wrap,
-  .findings-hero__portrait-wrap,
   .bebel-hero-motion__speech,
   .hero__speech,
   .shopping-hero__speech,
   .meals-hero__speech,
-  .findings-hero__speech,
   .bebel-hero-motion__spark--one,
   .bebel-hero-motion__spark--two,
   .hero__spark,
   .shopping-hero__spark,
-  .meals-hero__spark,
-  .findings-hero__spark {
+  .meals-hero__spark {
     animation: none;
   }
 
   .hero__portrait img,
   .shopping-hero__portrait img,
-  .meals-hero__portrait img,
-  .findings-hero__portrait img {
+  .meals-hero__portrait img {
     transition: none;
   }
 
   .hero__portrait-wrap:hover img,
   .shopping-hero__portrait-wrap:hover img,
-  .meals-hero__portrait-wrap:hover img,
-  .findings-hero__portrait-wrap:hover img {
+  .meals-hero__portrait-wrap:hover img {
     transform: none;
   }
 }
