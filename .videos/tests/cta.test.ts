@@ -6,7 +6,7 @@ import { atomic, engineRoot, exclusive, fileHash, safe } from '../factory/storag
 import { configSignature, inputSignature, kinds, queueRoot, sources, states, timing, validateConfig } from '../factory/cta/contracts.ts';
 import type { Config, Kind } from '../factory/cta/contracts.ts';
 import { hashes, list, move, readManifest, recover, reserve } from '../factory/cta/queue.ts';
-import { compareAudio, frameTimes, recoverPromotion } from '../factory/cta/validate.ts';
+import { compactCompleted, validateMetadata, recoverPromotion } from '../factory/cta/validate.ts';
 import { renderSignature } from '../factory/cta/render.ts';
 
 function fixture(t: { after: (fn: () => void) => void }) {
@@ -32,10 +32,8 @@ function config(): Config {
     sources, inputSignature: signature, hashes: h,
     media: { audioSeconds: 3.5, videoSeconds: 5, videoWidth: 1080, videoHeight: 1916,
       artWidth: 1536, artHeight: 1024, alpha: true, bounds: { left: 76, top: 137, right: 1482, bottom: 870 } },
-    timing: { sustainSeconds: 0.5, ctaStartSeconds: 1.5, ctaEntranceSeconds: 0.5 },
-    layout: { ctaWidth: 880, ctaTop: 24, entranceOffset: 28, margin: 24 }, render: timing(3.5, 5),
-    inspection: { inputSignature: signature, ctaStartSeconds: 1.5, safeBottom: 655,
-      notes: 'Fixture de contrato, não evidência de mídia.', narrationEvidence: 'Fixture.', inspectedVideoSeconds: [0, 2.5, 4.9] } };
+    timing: { sustainSeconds: 0.5, ctaStartSeconds: 0, ctaEntranceSeconds: 0.5 },
+    layout: { ctaWidth: 880, ctaTop: 24, entranceOffset: 28, margin: 24 }, render: timing(3.5, 5) };
 }
 test('duração inclui 0.5s; vídeo longo não acelera; curto desacelera', () => {
   assert.equal(timing(3.32, 5.04).durationInFrames, 115);
@@ -94,38 +92,37 @@ test('lock de processo vivo impede execução concorrente', (t) => {
   exclusive(root, () => assert.throws(() => exclusive(root, () => null), /ocupada/));
   assert.equal(existsSync(safe(root, 'logs/cta.lock')), false);
 });
-test('sem inspeção ou com layout invasivo não pode renderizar', () => {
+test('arte livre no início em zero, sem evidência de fala ou área segura fictícia', () => {
   const c = config(); validateConfig(c);
-  c.inspection = null; assert.throws(() => validateConfig(c), /Inspeção/);
-  const d = config(); d.layout.ctaWidth = 1000; d.inspection!.safeBottom = 550;
-  assert.throws(() => validateConfig(d), /invade/);
+  c.layout.ctaTop = 1800; assert.throws(() => validateConfig(c), /quadro/);
+  const d = config(); d.timing.ctaStartSeconds = 1; validateConfig(d);
+  d.timing.ctaStartSeconds = -1; assert.throws(() => validateConfig(d), /Timing/);
+  const e = config(); e.templateId = 'cta-encerramento'; e.composition = 'BebelEncerramento';
+  e.timing.ctaStartSeconds = null; assert.throws(() => validateConfig(e), /Timing/);
+  e.timing.ctaStartSeconds = 1.5; validateConfig(e);
 });
+
 test('slow motion extremo exige decisão; config nova invalida assinatura', () => {
   const c = config(), before = configSignature(c);
-  c.media.videoSeconds = 1; c.render = timing(3.5, 1); c.inspection!.inspectedVideoSeconds = [0, 0.5, 0.9];
+  c.media.videoSeconds = 1; c.render = timing(3.5, 1);
   assert.throws(() => validateConfig(c), /decisão/);
-  c.inspection!.allowSlowVideo = true; validateConfig(c); assert.notEqual(configSignature(c), before);
+  c.allowSlowVideo = true; validateConfig(c); assert.notEqual(configSignature(c), before);
 });
-test('quadros exigidos incluem entrada e último frame real', () => {
-  const times = frameTimes(config()); assert.ok(times.includes(1.7666666666666666));
-  assert.equal(times.at(-1), 119 / 30);
-});
-function signal() { return Float32Array.from({ length: 32000 }, (_, i) => Math.sin(i * 0.04 + i * i * 0.000003) * 0.2); }
-test('áudio preservado com padding AAC e mapeamento mono/stereo passa', () => {
-  const a = signal(), b = new Float32Array(a.length + 8000);
-  b.set(a.map((v) => v * Math.SQRT1_2), 32);
-  const result = compareAudio(a, b, true); assert.equal(result.lagSamples, 32);
-});
-test('áudio cortado, duplicado, alterado em velocidade ou com cauda falha', () => {
-  const a = signal();
-  const doubled = new Float32Array(a.length + 8000); doubled.set(a.map((v) => v * 2));
-  assert.throws(() => compareAudio(a, doubled, false));
-  const cut = new Float32Array(a.length + 8000); cut.set(a.subarray(0, 20000));
-  assert.throws(() => compareAudio(a, cut, false));
-  const speed = new Float32Array(a.length + 8000); speed.set(a.map((_, i) => a[Math.min(a.length - 1, Math.floor(i * 1.1))]));
-  assert.throws(() => compareAudio(a, speed, false));
-  const tail = new Float32Array(a.length + 8000); tail.set(a); tail.fill(0.1, a.length);
-  assert.throws(() => compareAudio(a, tail, false), /Sustentação/);
+test('checagem rápida aceita contrato e recusa streams, dimensões, FPS e duração incorretos', () => {
+  const good = { streams: [
+    { codec_type: 'video', codec_name: 'h264', width: 1080, height: 1920, avg_frame_rate: '30/1', pix_fmt: 'yuv420p', nb_frames: '120' },
+    { codec_type: 'audio', codec_name: 'aac' } ], format: { duration: '4' } };
+  validateMetadata(good, 120);
+  for (const changes of [{ codec_name: 'vp9' }, { width: 720 }, { height: 1280 },
+    { avg_frame_rate: '24/1' }, { pix_fmt: 'yuv444p' }, { nb_frames: '119' }]) {
+    const bad = structuredClone(good); Object.assign(bad.streams[0], changes);
+    assert.throws(() => validateMetadata(bad, 120));
+  }
+  const badAudio = structuredClone(good); badAudio.streams[1].codec_name = 'mp3';
+  assert.throws(() => validateMetadata(badAudio, 120));
+  assert.throws(() => validateMetadata({ ...good, streams: good.streams.slice(0, 1) }, 120));
+  assert.throws(() => validateMetadata({ ...good, format: { duration: '4.2' } }, 120));
+  assert.throws(() => validateMetadata({ ...good, format: {} }, 120));
 });
 test('journal de promoção conflitante preserva ambos os arquivos', (t) => {
   const root = fixture(t), task = reserve(root, add(root));
@@ -141,18 +138,39 @@ test('journal de promoção conflitante preserva ambos os arquivos', (t) => {
 for (const alreadyMoved of [false, true]) test(`promoção recupera crash ${alreadyMoved ? 'depois' : 'antes'} do rename`, (t) => {
   const root = fixture(t), task = reserve(root, add(root)), m = readManifest(root, task);
   const c = config(); c.taskId = m.taskId; c.hashes = hashes(root, task);
-  c.inputSignature = inputSignature(c.hashes); c.inspection!.inputSignature = c.inputSignature;
+  c.inputSignature = inputSignature(c.hashes);
   atomic(safe(root, `${task.path}/config.json`), c);
   mkdirSync(safe(root, `${task.path}/runtime/abcd`), { recursive: true });
   mkdirSync(safe(root, `${task.path}/output`));
   const source = 'runtime/abcd/video.mp4', output = 'output/convertido-0001.mp4';
   writeFileSync(safe(root, `${task.path}/${source}`), 'fixture de persistencia');
   const hash = fileHash(safe(root, `${task.path}/${source}`)), signature = renderSignature(c);
-  atomic(safe(root, `${task.path}/validation.json`), { file: source, complete: true, outputHash: hash, configSignature: signature });
-  atomic(safe(root, `${task.path}/promotion.json`), { source, output: { file: output, hash, signature }, done: false });
+  atomic(safe(root, `${task.path}/promotion.json`), { source, output: { file: output, hash, signature }, validated: true, done: false });
   if (alreadyMoved) renameSync(safe(root, `${task.path}/${source}`), safe(root, `${task.path}/${output}`));
   recoverPromotion(root, task); recoverPromotion(root, task);
   assert.equal(readManifest(root, task).output?.hash, hash);
   assert.equal(existsSync(safe(root, `${task.path}/${source}`)), false);
   assert.equal(fileHash(safe(root, `${task.path}/${output}`)), hash);
+});
+
+test('gerado fica editável sem relatórios; excluir gerados não prende a fila', (t) => {
+  const root = fixture(t), task = reserve(root, add(root)), m = readManifest(root, task), c = config();
+  c.taskId = m.taskId; c.hashes = hashes(root, task); c.inputSignature = inputSignature(c.hashes);
+  atomic(safe(root, `${task.path}/config.json`), c);
+  mkdirSync(safe(root, `${task.path}/output`));
+  const output = 'output/convertido-0001.mp4';
+  writeFileSync(safe(root, `${task.path}/${output}`), 'fixture');
+  m.output = { file: output, hash: fileHash(safe(root, `${task.path}/${output}`)), signature: renderSignature(c) };
+  atomic(safe(root, `${task.path}/manifest.json`), m);
+  atomic(safe(root, `${task.path}/validation.json`), { obsolete: true });
+  const done = move(root, task, '003-gerados');
+  compactCompleted(root, done); compactCompleted(root, done);
+  assert.equal(readManifest(root, done).output?.hash, m.output.hash);
+  assert.deepEqual(hashes(root, done), c.hashes);
+  for (const name of ['manifest.json', 'validation.json', 'promotion.json', 'versions'])
+    assert.equal(existsSync(safe(root, `${done.path}/${name}`)), false);
+  const target = safe(root, `${queueRoot}/003-gerados/001-inicio`);
+  rmSync(target, { recursive: true });
+  assert.deepEqual(recover(root), []); assert.deepEqual(list(root), []);
+  assert.equal(reserve(root, add(root)).state, '002-desenvolvendo');
 });

@@ -1,7 +1,7 @@
 import { existsSync } from 'node:fs';
 import { homedir } from 'node:os';
 import { resolve } from 'node:path';
-import { atomic, engineRoot, fileHash, now, safe } from '../storage.ts';
+import { engineRoot, fileHash, safe } from '../storage.ts';
 import { executable, execute } from '../media.ts';
 import type { Task } from './contracts.ts';
 
@@ -17,7 +17,5 @@ export function transcribe(root: string, task: Task) {
   const file = safe(root, `${task.path}/1-audio.mp3`), before = fileHash(file);
   const result = JSON.parse(execute(env.python, [safe(engineRoot, 'scripts/transcribe.py'), file, executable('ffmpeg')], engineRoot).toString());
   if (fileHash(file) !== before) throw new Error('Áudio mudou durante transcrição');
-  const report = { at: now(), audioHash: before, ...result };
-  atomic(safe(root, `${task.path}/transcript.json`), report);
-  return report;
+  return { audioHash: before, ...result };
 }

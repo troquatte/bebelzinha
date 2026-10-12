@@ -1,8 +1,8 @@
-import { existsSync, mkdirSync, readdirSync, renameSync, statSync } from 'node:fs';
+import { existsSync, mkdirSync, readdirSync, renameSync, statSync, unlinkSync } from 'node:fs';
 import { randomUUID } from 'node:crypto';
 import { atomic, fileHash, now, readJson, safe } from '../storage.ts';
 import { inputSignature, kinds, queueRoot, sources, states } from './contracts.ts';
-import type { Hashes, Manifest, State, Task } from './contracts.ts';
+import type { Config, Hashes, Manifest, State, Task } from './contracts.ts';
 
 export function list(root: string): Task[] {
   const tasks: Task[] = [], ids = new Set<string>();
@@ -30,15 +30,25 @@ export function find(root: string, key: string): Task {
   return task;
 }
 export function readManifest(root: string, task: Task): Manifest {
+  if (task.state === '003-gerados' && !existsSync(safe(root, `${task.path}/manifest.json`))) {
+    const c = readJson(safe(root, `${task.path}/config.json`)) as Config;
+    const o = c.output;
+    if (!o) throw new Error(`Configuração sem saída: ${task.key}`);
+    return { schemaVersion: 1, taskId: c.taskId, key: task.key, stage: task.state,
+      status: 'generated', createdAt: '', updatedAt: '', inputSignature: c.inputSignature, approval: null,
+      output: o, run: { id: c.taskId, signature: o.signature, inputSignature: c.inputSignature,
+        file: o.file, props: `runtime/${c.taskId}/props.json`, stage: `public/generated/cta-${c.taskId}`,
+        complete: true, hash: o.hash } };
+  }
   const m = readJson(safe(root, `${task.path}/manifest.json`)) as Manifest;
   if (m.schemaVersion !== 1 || typeof m.taskId !== 'string' || !m.taskId || m.key !== task.key ||
       !states.includes(m.stage) || !['prepared', 'blocked', 'rendered', 'generated'].includes(m.status) ||
-      !Array.isArray(m.history) || m.approval !== null) throw new Error(`Manifest inválido ou aprovado: ${task.key}`);
+      m.approval !== null) throw new Error(`Manifest inválido ou aprovado: ${task.key}`);
   return m;
 }
 export function saveManifest(root: string, task: Task, m: Manifest, event?: string) {
+  void event;
   m.updatedAt = now();
-  if (event) m.history.push({ at: m.updatedAt, event });
   atomic(safe(root, `${task.path}/manifest.json`), m);
 }
 export function hashes(root: string, task: Task, stable = false): Hashes {
@@ -62,7 +72,7 @@ export function recover(root: string): string[] {
   const result: string[] = [];
   for (const name of readdirSync(dir).filter((n) => n.endsWith('.json'))) {
     const file = safe(root, `logs/cta-journal/${name}`), j = readJson(file) as Movement;
-    if (j.done) continue;
+    if (j.done) { unlinkSync(file); continue; }
     const from = safe(root, j.from), to = safe(root, j.to);
     if (!j.from.startsWith(`${queueRoot}/`) || !j.to.startsWith(`${queueRoot}/`)) throw new Error('Journal fora da fila');
     if (existsSync(from) && existsSync(to)) throw new Error(`Colisão ao recuperar ${j.to}`);
@@ -75,9 +85,8 @@ export function recover(root: string): string[] {
     const m = readJson(safe(root, `${j.to}/manifest.json`)) as Manifest;
     if (m.taskId !== j.taskId) throw new Error('Destino pertence a outra tarefa');
     m.stage = j.state; m.updatedAt = now();
-    m.history.push({ at: m.updatedAt, event: `Movimento recuperado: ${j.state}` });
     atomic(safe(root, `${j.to}/manifest.json`), m);
-    atomic(file, { ...j, done: true }); result.push(j.to);
+    atomic(file, { ...j, done: true }); unlinkSync(file); result.push(j.to);
   }
   return result;
 }
@@ -98,7 +107,7 @@ export function reserve(root: string, task: Task): Task {
   if (!existsSync(file)) {
     const m: Manifest = { schemaVersion: 1, taskId: randomUUID(), key: task.key,
       stage: task.state, status: 'prepared', createdAt: now(), updatedAt: now(),
-      inputSignature: signature, approval: null, history: [] };
+      inputSignature: signature, approval: null };
     atomic(file, m);
   }
   return move(root, task, '002-desenvolvendo');

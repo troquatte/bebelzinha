@@ -1,155 +1,56 @@
-# Bebel — fábrica de CTA
+# Fábrica CTA da Bebel
 
-Remotion existente, uma cena compartilhada e duas composições: `BebelInicio` e
-`BebelEncerramento`. Etapa atual: somente CTA. Miolo e outros formatos ficam para depois.
+O usuário entrega três arquivos por tema: 1-audio.mp3, 2-video.mp4 e 3-arte.png.
+A arte pode conter qualquer mensagem, como “Dicas da Bebel”; não há texto obrigatório.
 
-## Onde colocar os arquivos
+## Pastas
 
-```text
-assets/cta/tarefas/
-  001-afazer/
-    001-inicio/001-nome-do-tema/
-      1-audio.mp3
-      2-video.mp4
-      3-arte.png
-    002-final/001-nome-do-tema/
-      1-audio.mp3
-      2-video.mp4
-      3-arte.png
-  002-desenvolvendo/
-    001-inicio/
-    002-final/
-  003-gerados/
-    001-inicio/
-    002-final/
-```
+assets/cta/tarefas/{001-afazer,002-desenvolvendo,003-gerados}/{001-inicio,002-final}/001-tema/
 
-Crie o tema somente em afazer. Não precrie o mesmo tema nos outros estados.
-O motor move a pasta inteira. O ID pode repetir entre início e final, mas não
-dentro do mesmo tipo. Nome: pelo menos três dígitos + slug minúsculo sem espaços.
-Os JSONs são gerados pelo motor/agente; o usuário entrega somente as três mídias.
-Os arquivos soltos em assets são materiais preservados, não entram automaticamente na fila.
+A pasta determina o estado. O motor move o tema inteiro, preservando tipo e nome.
+Não precrie o mesmo tema nos destinos. IDs não se repetem no mesmo tipo entre pastas existentes.
+Você pode apagar entregas antigas ou pastas de tipo em 003-gerados. Não há catálogo externo
+nem SDD que exija sua existência; os destinos são recriados quando necessários.
 
-## Comandos reais
+## Operação econômica
 
-| Comando | Função |
-| --- | --- |
-| `npm run cta:doctor` | Verifica ambiente e conflitos da fila |
-| `npm run cta:list` | Lista tarefas e registros |
-| `npm run cta:process` | Uma varredura, desenvolvimento primeiro; prepara/renderiza o que tiver inspeção |
-| `npm run cta:process -- --task 002-final/001-tema --retry` | Retoma uma tarefa após resolver um bloqueio |
-| `npm run cta:prepare -- --task 002-final/001-tema` | Mede mídias e cria config; não inventa timing |
-| `npm run cta:transcribe -- --task 002-final/001-tema` | Transcreve offline com palavras/timestamps e hash do áudio |
-| `npm run cta:render -- --task 002-final/001-tema` | Renderiza após a inspeção das entradas |
-| `npm run cta:validate -- --task 002-final/001-tema` | Valida técnica + evidência visual vinculada ao MP4 |
-| `npm run cta:finish -- --task 002-final/001-tema` | Valida, promove MP4 e move para gerados |
-| `npm run cta:reconcile` | Recupera journals e verifica movimentos manuais |
-| `npm run cta:stage -- --task 002-final/001-tema` | Recria props/staging para Studio e imprime o comando |
-| `npm run cta:test` | Testes isolados |
-| `npm run lint` | ESLint e TypeScript |
-| `npm run skills:check` | Valida as três skills locais |
+Use a skill bebel-cta e uma varredura por pedido. Não releia toda a arquitetura por vídeo.
+- npm run cta:list: lista compacta dos temas e estados.
+- npm run cta:prepare -- --task 001-inicio/001-tema: mede as mídias e reserva o tema.
+- A revisão visual e de áudio é feita pelo usuário após a entrega.
+- Início e final: arte entra em 0s, independentemente da fala. Layout inicial width=880/top=24.
+- Não transcrever nem procurar convite para definir a entrada da arte.
+- npm run cta:render -- --task <tipo>/<tema>: renderiza temporário.
+- npm run cta:finish -- --task <tipo>/<tema>: valida uma vez, promove e move para gerados.
+- npm run cta:process: atalho de preparação, render, validação e conclusão para tarefas com timing definido.
+  Bloqueios inalterados são ignorados; --retry força nova tentativa.
+- npm run cta:reconcile: recupera movimentos e limpa controles de tarefas concluídas.
+- cta:doctor apenas na instalação ou falha de ambiente; cta:validate para checagem adicional solicitada.
+- cta:frame -- --task <tipo>/<tema> --source video|art|output --seconds <n>: imagem por stdout;
+  consumir em memória, nunca redirecionar para arquivo.
+- cta:stage -- --task <tipo>/<tema>: prepara props e informa o comando do Studio para edição.
 
-Sem daemon: um prompt chama o agente, e o agente usa esses comandos. Um script
-local não reconhece sozinho a semântica da fala ou a legibilidade da arte.
-O transcritor já instalado foi realocado para `.cache/cta/{python,models}` e é
-usado por `scripts/transcribe.py`. Não é lixo temporário. `doctor` verifica sua
-disponibilidade; `CTA_PYTHON_EXECUTABLE` permite indicar outro Python compatível.
-Não há download automático ou API paga. Transcrição é evidência auxiliar, sujeita
-a erro: confira o convite e nunca trate uma frase diferente como CTA válido.
-`--technical-only` em validate gera relatório parcial, nunca autoriza promoção.
-`--root temp/<fixture>` permite testes isolados; não aceita outro projeto.
+## Contrato
 
-## Inspeção feita pelo agente
+Áudio fornecido integral, 1x, uma vez; vídeo mudo, sem lip sync.
+Duração em quadros = ceil((áudio + 0.5) * 30). Vídeo rate=min(1, vídeo/duração final).
+Rate abaixo de 0.5 exige decisão explícita e allowSlowVideo=true na configuração.
+PNG inteiro, proporcional, fade+subida de 0.5s, visível até o fim. Sem texto novo, música ou legendas.
+Layout usa a configuração; revisão visual pelo usuário, sem safeBottom ou texto obrigatório. Limites do quadro são validados pelo motor.
+Modelos: brand/cta-inicio.json e brand/cta-encerramento.json. Cena: BebelCtaScene.
+Composições: BebelInicio e BebelEncerramento. Nenhuma fonte fixa nos modelos.
+MP4 H.264/AAC, yuv420p, 1080×1920, 30fps; output/convertido-0001.mp4, sem sobrescrever versões.
+Checagem automática rápida: hashes, streams H264/AAC, resolução, FPS, pixel format, frames e duração via FFprobe.
+Sem comparação PCM, decodificação completa ou extração de quadros. Revisão de imagem e áudio pelo usuário.
 
-Após prepare, o agente preenche `config.json`, preservando os campos medidos.
-`timing.ctaStartSeconds` e `inspection.ctaStartSeconds` devem coincidir. Exemplo
-de formato (os valores devem ser medidos, não copiados entre tarefas):
+Concluído: três originais + config.json editável (inclui referência da saída) + output/MP4.
+Manifest, lock e journals são controles temporários para retomada/concorrência, removidos após conclusão.
+Sem histórico por vídeo, validation.json, visual-review.json, transcript.json ou snapshots de configuração.
+Nenhuma imagem de prévia JPG/PNG/WebP, still ou capa, nem temporária.
+SDD registra somente mudanças do sistema; nunca inventaria entregas. Gerado não significa aprovado.
+Sem publicação, watcher contínuo ou miolo nesta etapa. Histórico anterior permanece preservado.
 
-```json
-{
-  "inputSignature": "assinatura produzida pelo prepare",
-  "ctaStartSeconds": 1.5,
-  "safeBottom": 650,
-  "notes": "Descrição concreta dos quadros, arte, alpha e espaço disponível.",
-  "inspectedVideoSeconds": [0, 2.5, 4.9],
-  "narrationEvidence": "Convite identificado no áudio, método e intervalo observado.",
-  "allowSlowVideo": false
-}
-```
+## Manutenção
 
-Esse objeto fica em `config.inspection`. `safeBottom` é a menor coordenada Y
-ocupada por cabelo/rosto/mãos/celular na região do CTA durante o trecho, já no
-enquadramento final 1080x1920 (cover centralizado). A caixa alpha visível, deslocamento
-da entrada e margem devem caber acima dela. Ausência de alpha é registrada;
-não fingir transparência nem recortar o PNG para fabricá-la.
-
-Vídeo e áudio podem ter durações diferentes. O áudio decodificado define
-`ceil((audioSeconds + 0.5) * 30)` frames. O vídeo usa `min(1, videoSeconds/finalSeconds)`.
-Rate abaixo de 0.5 depende de decisão explícita do usuário registrada pelo agente.
-Desacelerar implica repetir amostras entre frames de origem conforme a cadência;
-não há loop nem sustentação artificial do último quadro.
-
-Para exibir quadros sem criar arquivos, invoque diretamente (stdout binário PNG):
-
-```text
-node --experimental-strip-types scripts/cta.ts frame --task 002-final/001-tema --source video --seconds 0
-node --experimental-strip-types scripts/cta.ts frame --task 002-final/001-tema --source art
-node --experimental-strip-types scripts/cta.ts frame --task 002-final/001-tema --source output --seconds 3
-```
-
-O agente deve capturar stdout e exibir via ferramenta de imagem em memória,
-sem usar redirecionamento para JPG/PNG. Não usar `npm run` para capturar bytes:
-o cabeçalho do npm contaminaria o pipe. Para inspecionar a saída, primeiro use
-process ou validate --technical-only; `validation.json` informa todos os tempos.
-
-Após conferir o MP4, o agente cria `visual-review.json` na tarefa:
-
-```json
-{
-  "outputHash": "hash do MP4 temporário",
-  "configSignature": "assinatura do render",
-  "frameTimes": [0, 1.7333333333333334, 2, 2.1666666666666665, 4.3],
-  "notes": "Evidências concretas de entrada suave, legibilidade, proporções, margens e CTA no último frame.",
-  "passed": true
-}
-```
-
-Os tempos acima são ilustrativos; use os de `validation.requiredVisualFrameTimes`.
-Essa revisão é técnica do agente, não aprovação editorial. Sem acesso à imagem
-ou narração, registre pendência; não preencha uma revisão fictícia.
-
-## Persistência e resultado
-
-Cada tarefa guarda originais, `manifest.json`, `config.json`, `validation.json`,
-`visual-review.json`, registros de promoção/versões e `output/convertido-0001.mp4`.
-Nova versão usa próximo número livre. Gerados não é reprocessado automaticamente;
-para novo conteúdo, crie nova tarefa. Config e fontes são relativas à própria pasta.
-O diretório runtime e public/generated são caches de render/Studio; o fluxo limpa
-o cache do render concluído. Nunca adicione fontes específicas a brand/.
-Alterações nos modelos orientam novas tarefas; tarefas preparadas mantêm seu
-snapshot para reprodução. Mudanças de entradas invalidam a inspeção anterior.
-
-Validação compara PCM por canal, correlação global e por trecho, ganho e cauda
-silenciosa; verifica decode completo, streams, resolução, fps, pix_fmt, frames,
-hashes e ausência de prévias na tarefa. A inspeção visual é vinculada ao hash e
-configuração. Nenhuma tarefa é aprovada ou publicada automaticamente.
-
-Lock exclusivo: `logs/cta.lock`. Um processo vivo bloqueia concorrência. Lock de
-processo morto é recuperado com registro; lock ilegível exige inspeção. Journals
-recuperam movimentos e promoção. Conflitos são reportados, nunca mesclados.
-
-## Código, SDD e skills
-
-- `factory/storage.ts`: caminhos, hashes, escrita atômica e exclusão mútua.
-- `factory/media.ts`: FFmpeg/FFprobe e medição.
-- `factory/cta/`: contratos, fila, preparação, render e validação.
-- `src/scenes/BebelCtaScene.tsx`: vídeo mudo + áudio único + arte inteira animada.
-- `brand/cta-*.json`: padrões compartilhados, um objeto por modelo.
-- `.spec/`: estado e evidências da base atual.
-- `.agents/skills/bebel-*`: SDD, contratos compartilhados e operação CTA.
-- `prompts/processar-cta.md`: único prompt operacional.
-
-A base anterior está isolada em `history/2026-10-12-reset`, fora de imports e
-compilação. `moves.json` registra destinos de entregas/diagnósticos. O ZIP de
-arquivos substituídos e seu inventário SHA256 permitem recuperação; não são
-uma segunda implementação ativa. Materiais fornecidos em assets foram preservados.
+npm run lint · npm run cta:test · npm run skills:check
+Sem render automático para mudanças apenas de contratos/persistência; respeite o pedido de não gerar vídeo.

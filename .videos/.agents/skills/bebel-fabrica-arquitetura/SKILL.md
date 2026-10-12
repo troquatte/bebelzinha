@@ -1,21 +1,19 @@
 ---
 name: bebel-fabrica-arquitetura
-description: Manter contratos, caminhos, persistência e recuperação da fábrica local da Bebel. Usar em mudanças do motor compartilhado; o processamento específico de CTA pertence a bebel-cta.
+description: Manter contratos e recuperação compartilhados; usar somente para mudanças do motor, não em cada produção CTA.
 ---
 
-Leia `README.md`, `.spec/project.md` e os módulos `factory/storage.ts` e `factory/cta/` antes de alterar contratos. O projeto Remotion já existe na raiz `.videos`; use as skills remotion-* conforme a operação técnica.
+Leia README e módulos afetados antes de mudar contratos; consulte storage quando mudar persistência. Use bebel-fabrica-sdd em mudanças do sistema e bebel-cta na produção comum.
 
-Contratos ativos:
-- Fila em `assets/cta/tarefas/{001-afazer,002-desenvolvendo,003-gerados}`.
-- Tipos `001-inicio` e `002-final`; identidade tipo + pasta `<id>-<tema>`. ID numérico não pode repetir dentro do mesmo tipo, mesmo com slug diferente.
-- Uma pasta por tarefa em apenas um estado. Mover a pasta inteira, sem precriar temas nos destinos.
-- Modelos `brand/cta-inicio.json` e `brand/cta-encerramento.json` são objetos compartilhados sem fontes fixas. Valores medidos, ajustes e inspeções ficam na tarefa.
-- Manifests são autoritativos; listagem é derivada. Caminhos relativos à tarefa nos registros, relativos a public apenas nas props de staging.
-- Use `safe`, escrita atômica, lock exclusivo e journals. Bloqueie links/junctions, escapes, duplicação e sobrescrita. Não remova um lock de processo vivo.
-- Transições e promoção de MP4 devem ser recuperáveis. Reconcile não aprova conteúdo nem ignora colisões.
-- Hashes vinculam entradas, configuração, render, inspeção visual e validação. Alteração invalida checkpoints incompatíveis. Versões antigas permanecem intactas.
-- Render temporário → validação completa → promoção → gerados. Nunca gerar capa/preview, nem temporária; quadros de inspeção ficam em memória.
+- Fila: assets/cta/tarefas/{001-afazer,002-desenvolvendo,003-gerados}; tipos 001-inicio e 002-final.
+- Identidade tipo + <id>-<tema>, sem ID numérico duplicado dentro do tipo entre pastas existentes.
+- Localização da pasta determina estado. Sem catálogo externo de concluídos; excluir gerados/tipo não quebra fila. Recriar destinos quando necessários.
+- Usuário fornece somente 1-audio.mp3, 2-video.mp4, 3-arte.png. Arte livre; início e final em 0s, independentemente da fala.
+- Modelos brand/cta-inicio.json e brand/cta-encerramento.json são objetos compartilhados; config.json contém valores medidos e referência da saída por tarefa.
+- Manifest/lock/journals são controles temporários de recuperação, não histórico. Limpar ao concluir; não gerar validation.json, visual-review.json, transcript.json ou snapshots de versões.
+- Hashes protegem originais e retomada; safe, escrita atômica, lock e transições recuperáveis impedem escapes, colisões e duplicação. Não remover lock de processo vivo.
+- Render temporário → validação técnica em memória → promoção → gerados. Preservar MP4 anteriores e originais.
+- Revisão visual e de áudio pelo usuário. Checagem automática rápida via FFprobe; sem comparação PCM, decode completo ou extração de quadros.
+- Sem previews, stills ou capas em disco. Compartilhar BebelCtaScene entre BebelInicio e BebelEncerramento.
 
-Compartilhe `BebelCtaScene` entre `BebelInicio` e `BebelEncerramento`. As props são por tarefa; não gravar uma tarefa no modelo global. Não introduza APIs de geração, catálogos, banco ou publicação nesta fase.
-
-Execute testes de invariantes e recuperação quando alterar persistência; lint/typecheck e diagnóstico quando alterar render. Preserve evidências reais e assets fornecidos. Remova código substituído e seus callers, sem apagar material do usuário como se fosse cache.
+Teste recuperação/invariantes ao mudar persistência e execute lint/typecheck. Não gerar vídeo quando o usuário pedir apenas ajustes do sistema. Não adicionar API, catálogo, banco, dashboard ou publicação. Preserve histórico anterior fora do fluxo ativo.

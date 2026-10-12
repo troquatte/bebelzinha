@@ -1,31 +1,19 @@
-# Estado do projeto
+# Contrato ativo
 
-Remotion 4.0.534 instalado na raiz, React e TypeScript; sem reinstalação.
-Escopo ativo: CTA de início e encerramento usando três arquivos fornecidos.
+Fábrica Remotion existente; escopo somente CTA com três entradas por tema.
+Fila: assets/cta/tarefas/{001-afazer,002-desenvolvendo,003-gerados}.
+Tipos: 001-inicio e 002-final. A localização da pasta é a autoridade do estado.
+Modelos compartilhados em brand/cta-inicio.json e brand/cta-encerramento.json.
 
-Fila: `assets/cta/tarefas/{001-afazer,002-desenvolvendo,003-gerados}`.
-Tipos: `001-inicio`, `002-final`. Tema: `<id>-<nome-do-tema>`.
-Identidade: tipo + nome completo da pasta, preservados em toda transição.
-Não precriar pastas de tema nos estados seguintes.
+Início e final aceitam arte livre e entram em 0s, independentemente da narração. Revisão visual e de áudio é responsabilidade do usuário,
+sem campo safeBottom, transcrição obrigatória para início ou evidências por vídeo.
 
-Modelos compartilhados: `brand/cta-inicio.json`, `brand/cta-encerramento.json`.
-Configuração medida e inspeções pertencem à tarefa. Somente os três arquivos
-`1-audio.mp3`, `2-video.mp4`, `3-arte.png` são fornecidos pelo usuário.
-O agente registra a inspeção de fala e imagem; não inferir timing por nome de arquivo.
+Concluído preserva originais, config.json editável e output/MP4.
+Controles temporários recuperam falhas e são removidos após a conclusão.
+Validação técnica permanece automática, com resultado em memória/terminal.
+Sem previews, relatórios, histórico operacional ou aprovação automática.
 
-Uma varredura por execução; sem watcher, postagem ou aprovação automática.
-Saída única de mídia: MP4. Nenhuma prévia, still ou capa gerada em disco.
-Assets fornecidos, entregas e diagnósticos anteriores preservados; histórico
-isolado em `history/2026-10-12-reset`, fora dos imports e do fluxo operacional.
-
-Base CTA validada: 17 testes, lint/typecheck, três skills, carregamento das duas
-composições e ciclo diagnóstico completo. Novo diagnóstico em
-`history/diagnostics/cta-2026-10-12`. A fila real está vazia.
-
-Transcrição offline disponível em `cta:transcribe`, com dependências/modelo já
-instalados realocados para `.cache/cta`. Nenhuma API paga ou download automático.
-
-Pendência de material: `assets/cta/audio.mp3` solto contém frase de miolo,
-“Parece uma coisa boba, até acontecer aí na sua casa”, sem convite para comentar.
-Não usá-lo silenciosamente como encerramento. O diagnóstico utilizou explicitamente
-uma cópia da narração histórica; isso não abasteceu nem aprovou tarefa de produção.
+SDD descreve o sistema, nunca a fila ou a existência de entregas.
+Excluir conteúdos/tipos de 003-gerados não gera pendência; não há inventário externo.
+Histórico anterior em history permanece preservado, fora do fluxo ativo.
+Miolo, dashboard, publicação e automação contínua ficam fora desta etapa.

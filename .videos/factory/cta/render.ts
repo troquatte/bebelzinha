@@ -59,7 +59,6 @@ export function render(root: string, task: Task): Run {
       existsSync(safe(root, `${task.path}/${m.run.file}`)) &&
       fileHash(safe(root, `${task.path}/${m.run.file}`)) === m.run.hash) return m.run;
   if (m.run) {
-    atomic(safe(root, `${task.path}/versions/run-${m.run.id}.json`), m.run);
     cleanStage(m.run);
     if (/^runtime\/[a-f0-9-]+\/video\.mp4$/.test(m.run.file)) {
       const previous = safe(root, `${task.path}/${m.run.file.slice(0, -10)}`);
@@ -95,7 +94,7 @@ export function render(root: string, task: Task): Run {
   }
   assertInputs(root, task, c);
   run.hash = fileHash(output); run.complete = true; m.status = 'rendered';
-  m.pending = 'Conferência visual do MP4 e validação pendentes';
+  m.pending = 'Checagem rápida do MP4 pendente';
   saveManifest(root, task, m, 'MP4 temporário renderizado');
   return run;
 }

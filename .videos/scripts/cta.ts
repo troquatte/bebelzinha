@@ -1,11 +1,11 @@
 import { existsSync } from 'node:fs';
 import { relative, sep } from 'node:path';
-import { atomic, engineRoot, exclusive, now, readJson, safe, selectRoot } from '../factory/storage.ts';
+import { engineRoot, exclusive, safe, selectRoot } from '../factory/storage.ts';
 import { environment, execute, executable } from '../factory/media.ts';
 import { find, hashes, list, readManifest, recover, saveManifest } from '../factory/cta/queue.ts';
 import { prepare } from '../factory/cta/prepare.ts';
 import { assertInputs, readConfig, render, stage } from '../factory/cta/render.ts';
-import { finish, frameTimes, recoverPromotion, validate } from '../factory/cta/validate.ts';
+import { compactCompleted, finish, recoverPromotion, validate } from '../factory/cta/validate.ts';
 import { configSignature, inputSignature } from '../factory/cta/contracts.ts';
 import type { Task } from '../factory/cta/contracts.ts';
 import { transcribe, transcriptionEnvironment } from '../factory/cta/transcribe.ts';
@@ -20,8 +20,7 @@ const value = (flag: string) => {
 function main() {
   const root = selectRoot(value('--root')), key = value('--task');
   const selected = () => { if (!key) throw new Error('--task 001-inicio/001-tema ou 002-final/001-tema obrigatório'); return find(root, key); };
-  if (command === 'list') return list(root).map((t) => ({ ...t,
-    manifest: existsSync(safe(root, `${t.path}/manifest.json`)) ? readManifest(root, t) : null }));
+  if (command === 'list') return list(root).map((t) => ({ task: t.key, state: t.state }));
   if (command === 'doctor') return { environment: environment(), transcription: transcriptionEnvironment(), tasks: list(root), scope: 'CTA', root: root === engineRoot ? '.' : root };
   if (command === 'frame') {
     const t = selected(), source = value('--source') ?? 'output', seconds = Number(value('--seconds') ?? 0);
@@ -39,6 +38,10 @@ function main() {
     if (command === 'reconcile') {
       const items = [];
       for (const t of list(root)) {
+        if (t.state === '003-gerados') {
+          if (existsSync(safe(root, `${t.path}/manifest.json`))) compactCompleted(root, t);
+          continue;
+        }
         if (!existsSync(safe(root, `${t.path}/manifest.json`))) {
           if (t.state !== '001-afazer') throw new Error(`Tarefa fora de afazer sem manifest: ${t.key}`);
           continue;
@@ -47,17 +50,20 @@ function main() {
         const m = readManifest(root, t);
         if (m.key !== t.key) throw new Error(`Tema renomeado: ${t.key}`);
         if (m.stage !== t.state) {
-          if (t.state === '003-gerados' || m.status === 'generated') throw new Error(`Movimento manual exige revisão: ${t.key}`);
+          if (m.status === 'generated') throw new Error(`Movimento manual exige revisão: ${t.key}`);
           m.stage = t.state; saveManifest(root, t, m, 'Movimento manual reconciliado');
         }
         items.push({ key: t.key, state: t.state });
       }
       return items;
     }
-    if (command === 'prepare') return prepare(root, selected());
+    if (command === 'prepare') {
+      const { task, config } = prepare(root, selected());
+      return { task: task.key, config: `${task.path}/config.json`, ctaStartSeconds: config.timing.ctaStartSeconds };
+    }
     if (command === 'transcribe') return transcribe(root, selected());
     if (command === 'render') return render(root, selected());
-    if (command === 'validate') return validate(root, selected(), !args.includes('--technical-only'));
+    if (command === 'validate') return validate(root, selected());
     if (command === 'finish') return finish(root, selected());
     if (command === 'stage') {
       const t = selected(), c = readConfig(root, t), m = readManifest(root, t);
@@ -78,7 +84,7 @@ function main() {
             if (m.stage !== task.state) throw new Error('Execute cta:reconcile antes de processar');
             if (m.status === 'blocked' && !args.includes('--retry')) {
               const c = existsSync(safe(root, `${task.path}/config.json`)) ? readConfig(root, task) : null;
-              const blocked = existsSync(safe(root, `${task.path}/blocked.json`)) ? readJson(safe(root, `${task.path}/blocked.json`)) as { input: string; config: string } : null;
+              const blocked = m.blocked;
               if (blocked && blocked.input === inputSignature(hashes(root, task)) && blocked.config === (c ? configSignature(c) : '')) {
                 results.push({ task: task.key, pending: m.pending }); continue;
               }
@@ -86,26 +92,18 @@ function main() {
           }
           const prepared = prepare(root, task); task = prepared.task;
           render(root, task);
-          const check = validate(root, task, false);
-          if (check.complete) results.push(finish(root, task));
-          else {
-            const m = readManifest(root, task); m.status = 'rendered';
-            m.pending = 'Inspecionar MP4 e registrar visual-review.json';
-            saveManifest(root, task, m, 'Validação técnica concluída; inspeção visual pendente');
-            results.push({ task: task.key, pending: m.pending,
-              outputHash: check.outputHash, configSignature: check.configSignature, frameTimes: frameTimes(prepared.config) });
-          }
+          results.push(finish(root, task));
         } catch (error) {
           const message = error instanceof Error ? error.message : String(error);
           // A reserva pode ter movido a pasta antes de uma falha de preparação.
           const latest: Task = find(root, task.key);
           if (latest.state === '002-desenvolvendo' && existsSync(safe(root, `${latest.path}/manifest.json`))) {
             const m = readManifest(root, latest); m.status = 'blocked'; m.pending = message;
-            saveManifest(root, latest, m, message);
             const c = existsSync(safe(root, `${latest.path}/config.json`)) ? readConfig(root, latest) : null;
             let signature = '';
             try { signature = inputSignature(hashes(root, latest)); } catch { /* Material pendente registrado. */ }
-            atomic(safe(root, `${latest.path}/blocked.json`), { at: now(), input: signature, config: c ? configSignature(c) : '', message });
+            m.blocked = { input: signature, config: c ? configSignature(c) : '' };
+            saveManifest(root, latest, m);
           }
           results.push({ task: task.key, pending: message });
         }

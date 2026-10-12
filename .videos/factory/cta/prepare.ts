@@ -32,12 +32,11 @@ export function prepare(root: string, candidate: Task): { task: Task; config: Co
   const config: Config = { schemaVersion: 1, taskId: m.taskId, templateId: t.id,
     composition: t.composition, sources, hashes: currentHashes, inputSignature: signature,
     media: { audioSeconds, videoSeconds, videoWidth: stream.width, videoHeight: stream.height, ...art },
-    timing: { ...t.timing, ctaStartSeconds: null }, layout: { ...t.layout },
-    render: timing(audioSeconds, videoSeconds), inspection: null };
-  if (existsSync(safe(root, `${task.path}/config.json`)))
-    atomic(safe(root, `${task.path}/versions/config-${m.inputSignature}.json`), readJson(safe(root, `${task.path}/config.json`)));
+    timing: { ...t.timing, ctaStartSeconds: 0 }, layout: { ...t.layout },
+    render: timing(audioSeconds, videoSeconds) };
   atomic(safe(root, `${task.path}/config.json`), config);
-  m.inputSignature = signature; m.status = 'prepared'; m.pending = 'Inspeção das mídias e timing pendentes';
+  m.inputSignature = signature; m.status = 'prepared'; delete m.blocked;
+  delete m.pending;
   saveManifest(root, task, m, 'Entradas medidas; inspeção pendente');
   return { task, config };
 }

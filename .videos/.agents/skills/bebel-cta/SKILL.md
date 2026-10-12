@@ -1,26 +1,22 @@
 ---
 name: bebel-cta
-description: Processar a fila de CTAs de início e encerramento da Bebel com apenas 1-audio.mp3, 2-video.mp4 e 3-arte.png por tema; inspecionar, renderizar, validar e retomar sem gerar prévias.
+description: Processar CTAs com três mídias, checagem técnica rápida e revisão visual e de áudio pelo usuário.
 ---
 
-Leia `README.md` na raiz `.videos` para os comandos e schemas operacionais e `.spec/project.md` para o escopo ativo. Use bebel-fabrica-sdd para mudanças de código, bebel-fabrica-arquitetura para contratos e remotion-* para orientação técnica. Não reimplemente um comando existente a cada execução.
+Use comandos existentes; não reler arquitetura, SDD ou outras skills por produção. Uma varredura por pedido, desenvolvimento primeiro. Não refatorar durante processamento comum.
 
-O usuário fornece somente três arquivos na pasta do tema:
-`1-audio.mp3`, `2-video.mp4`, `3-arte.png`.
-Não peça JSON, transcrição ou configuração prévia. O agente gera os registros técnicos. Não substitua arquivos ausentes por mídias de outra pasta.
+Entradas por tema: 1-audio.mp3, 2-video.mp4, 3-arte.png, em assets/cta/tarefas/001-afazer/{001-inicio,002-final}/<id>-<tema>. Arte livre; não exigir texto ou convite no início. Não pedir JSON ao usuário.
 
-Execute uma varredura por pedido, retomando desenvolvimento primeiro. Use `npm run cta:doctor`, `npm run cta:list` e `npm run cta:process`. Tarefas incompletas ficam em afazer; falhas reservadas ficam em desenvolvimento. Continue as independentes. Não configure monitoramento contínuo sem pedido específico.
+1. cta:list. Sem trabalho, encerrar sem doctor ou SDD.
+2. cta:prepare -- --task <tipo>/<tema> mede e reserva. Início e final entram em 0s, independentemente da fala. Não transcrever nem procurar convite para definir a entrada. Se o usuário solicitar explicitamente outro tempo, aplicar somente às tarefas indicadas.
+3. Usar layout da configuração: arte inteira/proporcional, width=880/top=24 inicialmente, fade+subida 0.5s até o fim. Não inspecionar PNG, vídeo ou MP4; o usuário revisa imagem e áudio. Não extrair quadros ou comparar áudio detalhadamente.
+4. cta:process prepara, renderiza e conclui tarefas com timing definido. Para ajustar timing: prepare → atualizar config → render → finish. Finish faz uma única checagem rápida de hashes, resolução, FPS, H264/AAC, pixel format, frames e duração. Sem decode completo ou PCM do exportado. Não executar validate separadamente antes de finish.
+5. Falhas permanecem em desenvolvimento; continuar independentes. --retry só após resolver a causa. Gerados não são processados novamente.
 
-A preparação automática mede durações decodificadas, resolução, alpha e hashes. Ela deixa inspeção pendente de propósito. Em cada tarefa:
-1. Inspecione o PNG e quadros do início/meio/fim do vídeo em memória. Use `npm run cta:transcribe -- --task <tipo>/<tema>` para a transcrição offline disponível; ouça a narração quando possível e confira os tempos obtidos; registre o convite real. Metadados e nomes não comprovam conteúdo visual ou fala. Sem acesso necessário, registre a pendência exata e não invente evidência.
-2. Preencha `config.json` automaticamente: timing real, layout e `inspection` conforme schema do README. `safeBottom` é o limite superior da personagem/objetos protegidos ao longo do trecho, em coordenadas finais 1080x1920 com object-fit cover. Não use y=655 sem verificar. Registre os segundos observados e a evidência da narração.
-3. Use somente o áudio fornecido integral 1x, uma vez; vídeo mudo, sem lip sync. Duração e velocidade são calculadas pelo motor: ceil((áudio+0.5)*30), rate=min(1,vídeo/final). Para rate <0.5, aguarde decisão explícita do usuário e só então registre allowSlowVideo=true. Prossiga outras tarefas.
-4. Arte inteira, proporcionada, com alpha; inicialmente width=880/top=24, centralizada. Ajuste ao vídeo real, com margens. Entrada fade+subida no convite (~0.5s), visível até o fim. Sem música, textos, legendas ou logos extras.
-5. Execute process/render. Se a decodificação falhar, o motor pode criar all-intra derivado sem alterar o original. Não converta a velocidade do áudio.
-6. Inspecione o MP4 temporário, incluindo todos os tempos solicitados em validation.json. Use `cta:frame` por pipe e ferramenta de imagem em memória; não redirecione para arquivo de imagem. Registre `visual-review.json` com hash e assinatura exatos, tempos observados e notas concretas sobre legibilidade, animação, proporção e ausência de sobreposição.
-7. Execute `npm run cta:finish -- --task <tipo>/<tema>`: esse comando valida áudio PCM, streams, duração, hashes, quadros e revisão visual antes de promover/mover. Não altere flags para contornar uma falha. Aprovação editorial permanece null.
+Áudio integral 1x, uma vez; vídeo mudo sem lip sync. Motor calcula áudio+0.5s e desacelera somente vídeo curto. Rate abaixo de 0.5 exige decisão explícita e allowSlowVideo=true. All-intra derivado apenas após falha de decodificação, original intacto.
 
-Não produzir stills, thumbnails, capas ou preview-convertido-*.jpg/png/webp, inclusive temporários. Somente a cópia técnica da arte de entrada é permitida. Render interno do Remotion não é uma entrega de prévia.
+Manter travas de três arquivos presentes, ID único, caminhos seguros e ausência de sobrescrita. Concluído conserva originais, config.json e output/MP4; controles temporários são limpos. Pastas determinam estado; apagar gerados não cria pendência SDD.
 
-Retome registros existentes. Bloqueios sem mudanças não são repetidos automaticamente; após resolver a causa use `--retry` se necessário. Não processe gerados novamente. Entregue caminhos dos MP4, configuração editável e resumo de checks/pendências. Sem publicação ou conteúdo de miolo.
+Sem relatórios, evidências, inspeções do agente, snapshots, previews JPG/PNG/WebP, stills ou capas. Não atualizar SDD por vídeo. Não chamar cta:frame no processamento normal. Doctor só em falha de ambiente; reconcile para recuperação.
 
+Não adicionar música/textos/legendas, publicar, aprovar, criar watcher ou miolo. Revisão editorial pertence ao usuário. Responder somente com caminhos e pendências, sem comentários sobre validade da arte ou promessa de conferir quadros/áudio.

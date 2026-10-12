@@ -1,7 +1,6 @@
-# Execução
+# Manutenção da base
 
-- [x] Inspeção e isolamento inicial do histórico.
-- [x] Motor, contratos e fila CTA.
-- [x] Render e validação com evidências vinculadas ao arquivo.
-- [x] Skills e prompt único.
-- [x] Limpeza, 17 testes, lint/typecheck e diagnóstico.
+- [x] Contratos e comandos simplificados.
+- [x] SDD desvinculada do inventário de vídeos.
+- [x] Skills compactas e prompt único.
+- [x] 16 testes, lint/typecheck e validação das skills; sem render.
