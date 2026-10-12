@@ -40,6 +40,7 @@ Antes de planejar ou implementar uma mudança:
 Para alterações de frontend, também é obrigatório ler:
 
 - `.spec/shared/diretrizes-de-frontend.md`
+- `.spec/shared/diretrizes-videos-bebel.md` (produção de vídeos e variações de animação)
 - a estrutura existente em `src/app/`
 - o design system existente em `src/scss/`
 
