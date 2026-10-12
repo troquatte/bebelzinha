@@ -11,6 +11,8 @@ temp/
 .cache/
 logs/
 public/generated/
+public/cenas/
+assets/cenas/**/diagnosticos/
 assets/cta/tarefas/**/runtime/
 assets/cta/tarefas/**/output/
 history/

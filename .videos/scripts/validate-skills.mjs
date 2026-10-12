@@ -4,7 +4,7 @@ import process from "node:process";
 import { fileURLToPath } from "node:url";
 import yaml from "js-yaml";
 const scriptDirectory = path.dirname(fileURLToPath(import.meta.url));
-for (const name of ["bebel-fabrica-sdd", "bebel-fabrica-arquitetura", "bebel-cta"]) {
+for (const name of ["bebel-fabrica-sdd", "bebel-fabrica-arquitetura", "bebel-cta", "bebel-cena"]) {
   const file = path.resolve(
     scriptDirectory,
     "../.agents/skills",

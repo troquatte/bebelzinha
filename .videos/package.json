@@ -6,6 +6,7 @@
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
+    "@remotion/captions": "4.0.534",
     "@remotion/cli": "4.0.534",
     "react": "19.2.3",
     "react-dom": "19.2.3",
@@ -35,7 +36,8 @@
     "cta:reconcile": "node --experimental-strip-types scripts/cta.ts reconcile",
     "cta:stage": "node --experimental-strip-types scripts/cta.ts stage",
     "cta:frame": "node --experimental-strip-types scripts/cta.ts frame",
-    "cta:transcribe": "node --experimental-strip-types scripts/cta.ts transcribe"
+    "cta:transcribe": "node --experimental-strip-types scripts/cta.ts transcribe",
+    "miolo:cena1": "node --experimental-strip-types scripts/miolo-cena-01.ts"
   },
   "type": "module"
 }
