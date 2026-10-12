@@ -1,0 +1,41 @@
+{
+  "name": ".videos",
+  "version": "1.0.0",
+  "description": "Fila local de CTAs da Bebel em Remotion",
+  "repository": {},
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@remotion/cli": "4.0.534",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.534"
+  },
+  "devDependencies": {
+    "@remotion/eslint-config-flat": "4.0.534",
+    "@types/react": "19.2.7",
+    "@types/web": "0.0.166",
+    "eslint": "9.39.5",
+    "prettier": "3.8.1",
+    "typescript": "5.9.3"
+  },
+  "scripts": {
+    "dev": "remotion studio",
+    "build": "remotion bundle",
+    "lint": "eslint src factory scripts tests && tsc",
+    "cta:test": "node --experimental-strip-types --test tests/cta.test.ts",
+    "skills:check": "node scripts/validate-skills.mjs",
+    "cta:doctor": "node --experimental-strip-types scripts/cta.ts doctor",
+    "cta:list": "node --experimental-strip-types scripts/cta.ts list",
+    "cta:process": "node --experimental-strip-types scripts/cta.ts process",
+    "cta:prepare": "node --experimental-strip-types scripts/cta.ts prepare",
+    "cta:render": "node --experimental-strip-types scripts/cta.ts render",
+    "cta:validate": "node --experimental-strip-types scripts/cta.ts validate",
+    "cta:finish": "node --experimental-strip-types scripts/cta.ts finish",
+    "cta:reconcile": "node --experimental-strip-types scripts/cta.ts reconcile",
+    "cta:stage": "node --experimental-strip-types scripts/cta.ts stage",
+    "cta:frame": "node --experimental-strip-types scripts/cta.ts frame",
+    "cta:transcribe": "node --experimental-strip-types scripts/cta.ts transcribe"
+  },
+  "type": "module"
+}

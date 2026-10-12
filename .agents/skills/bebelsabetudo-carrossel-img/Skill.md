@@ -329,3 +329,6 @@ A personagem deve construir confiança antes de monetização.
 Bebel ensina → produto digital.
 Bebel encontra → afiliado.
 Bebel ajuda → audiência volta.
+
+
+TEMA:  5 coisas que só quem cuida da casa entende
