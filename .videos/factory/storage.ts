@@ -68,13 +68,14 @@ export function atomic(file: string, value: unknown): void {
   }
   renameSync(tmp, file);
 }
-export function exclusive<T>(root: string, action: () => T): T {
-  const lock = safe(root, 'logs/cta.lock');
+export function exclusive<T>(root: string, action: () => T, resource = 'cta'): T {
+  if (!/^[a-z][a-z0-9-]{0,63}$/.test(resource)) throw new Error('Recurso de lock inválido');
+  const lock = safe(root, `logs/${resource}.lock`);
   mkdirSync(dirname(lock), { recursive: true });
   if (existsSync(lock)) {
     const owner = readJson(lock) as { pid: number; token: string };
     if (!Number.isSafeInteger(owner.pid) || owner.pid <= 0 || !owner.token)
-      throw new Error('Lock ilegível; inspecione logs/cta.lock');
+      throw new Error(`Lock ilegível; inspecione logs/${resource}.lock`);
     let alive = true;
     try {
       process.kill(owner.pid, 0);
@@ -111,13 +112,17 @@ export function exclusive<T>(root: string, action: () => T): T {
   } finally {
     closeSync(fd);
   }
-  try {
-    return action();
-  } finally {
+  const release = () => {
     if (
       existsSync(lock) &&
       (readJson(lock) as { token: string }).token === token
     )
       unlinkSync(lock);
-  }
+  };
+  try {
+    const result = action();
+    if (result instanceof Promise) return result.finally(release) as T;
+    release();
+    return result;
+  } catch (error) { release(); throw error; }
 }

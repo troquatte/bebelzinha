@@ -1,0 +1,480 @@
+{
+  "schemaVersion": 1,
+  "narration": "Dois ovos podem virar esse prato aqui, minha filha! Refogue cebola e pimentão no azeite. Junte o alho. Acrescente quatrocentos gramas de tomate pelado e mexa até o molho encorpar. Abra dois espaços. Quebre os ovos numa tigelinha e coloque um em cada espaço, com cuidado. Cozinhe cinco minutos em fogo baixo. Tampe por mais três, até as claras ficarem cozidas. Olha só: ovos no molho de tomate, numa frigideira só!",
+  "audio": "audio.mp3",
+  "font": "assets/fontes/roboto.ttf",
+  "holdSeconds": 0.3,
+  "scenes": [
+    {
+      "id": "promessa",
+      "from": 0,
+      "to": 2.577,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video"
+      },
+      "items": [
+        {
+          "id": "panela-ovos-cozidos",
+          "asset": "assets/itens/panela-lilas-ovos-cozidos.png",
+          "x": 55,
+          "width": 970,
+          "ground": 1840,
+          "anchorY": 0.87,
+          "at": 0,
+          "entrance": 0.35,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front"
+        }
+      ],
+      "character": {
+        "faceX": 440,
+        "faceY": 990,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-olhando.png",
+            "width": 850,
+            "anchorX": 675,
+            "anchorY": 440
+          }
+        ]
+      },
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Dois ovos...",
+            "Olha esse prato!"
+          ],
+          "fontSize": 82
+        }
+      ],
+      "transition": "fade"
+    },
+    {
+      "id": "refogado",
+      "from": 2.577,
+      "to": 5.108,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video"
+      },
+      "items": [
+        {
+          "id": "panela-vazia",
+          "asset": "assets/itens/panela-lilas-vazia.png",
+          "x": 55,
+          "width": 970,
+          "ground": 1840,
+          "anchorY": 0.87,
+          "at": 0,
+          "entrance": 0.35,
+          "initiallyVisible": true,
+          "shadow": true,
+          "until": 0.5,
+          "exit": 0.3,
+          "layer": "front"
+        },
+        {
+          "id": "panela-refogado",
+          "asset": "assets/itens/panela-lilas-refogado.png",
+          "x": 55,
+          "width": 970,
+          "ground": 1840,
+          "anchorY": 0.87,
+          "at": 0.18,
+          "entrance": 0.35,
+          "initiallyVisible": false,
+          "shadow": true,
+          "layer": "front"
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Cebola e pimentão",
+            "refogados no azeite."
+          ],
+          "fontSize": 82
+        }
+      ],
+      "transition": "fade",
+      "character": {
+        "faceX": 440,
+        "faceY": 990,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-apontando.png",
+            "width": 850,
+            "anchorX": 575,
+            "anchorY": 440
+          }
+        ]
+      }
+    },
+    {
+      "id": "alho",
+      "from": 5.108,
+      "to": 6.757,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video"
+      },
+      "items": [
+        {
+          "id": "panela-alho",
+          "asset": "assets/itens/panela-lilas-alho.png",
+          "x": 55,
+          "width": 970,
+          "ground": 1840,
+          "anchorY": 0.87,
+          "at": 0,
+          "entrance": 0.35,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front"
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Agora, junte o alho."
+          ],
+          "fontSize": 82
+        }
+      ],
+      "transition": "fade",
+      "character": {
+        "faceX": 440,
+        "faceY": 990,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-apontando.png",
+            "width": 850,
+            "anchorX": 575,
+            "anchorY": 440
+          }
+        ]
+      }
+    },
+    {
+      "id": "molho",
+      "from": 6.757,
+      "to": 11.413,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video"
+      },
+      "items": [
+        {
+          "id": "panela-molho",
+          "asset": "assets/itens/panela-lilas-molho.png",
+          "x": 55,
+          "width": 970,
+          "ground": 1840,
+          "anchorY": 0.87,
+          "at": 0,
+          "entrance": 0.35,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front"
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "400g de tomate pelado.",
+            "Mexa até encorpar."
+          ],
+          "fontSize": 82
+        }
+      ],
+      "character": {
+        "faceX": 440,
+        "faceY": 990,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-apontando.png",
+            "width": 850,
+            "anchorX": 575,
+            "anchorY": 440
+          }
+        ]
+      },
+      "transition": "fade"
+    },
+    {
+      "id": "cavidades",
+      "from": 11.413,
+      "to": 12.701,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video"
+      },
+      "items": [
+        {
+          "id": "panela-molho",
+          "asset": "assets/itens/panela-lilas-molho.png",
+          "x": 55,
+          "width": 970,
+          "ground": 1840,
+          "anchorY": 0.87,
+          "at": 0,
+          "entrance": 0.35,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front"
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Abra dois espaços",
+            "no molho."
+          ],
+          "fontSize": 82
+        }
+      ],
+      "transition": "fade",
+      "character": {
+        "faceX": 440,
+        "faceY": 990,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-olhando.png",
+            "width": 850,
+            "anchorX": 675,
+            "anchorY": 440
+          }
+        ]
+      }
+    },
+    {
+      "id": "ovos",
+      "from": 12.701,
+      "to": 16.498,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video"
+      },
+      "items": [
+        {
+          "id": "panela-molho",
+          "asset": "assets/itens/panela-lilas-molho.png",
+          "x": 55,
+          "width": 970,
+          "ground": 1840,
+          "anchorY": 0.87,
+          "at": 0,
+          "entrance": 0.35,
+          "initiallyVisible": true,
+          "shadow": true,
+          "until": 2.15,
+          "exit": 0.35,
+          "layer": "front"
+        },
+        {
+          "id": "panela-ovos-crus",
+          "asset": "assets/itens/panela-lilas-ovos-crus.png",
+          "x": 55,
+          "width": 970,
+          "ground": 1840,
+          "anchorY": 0.87,
+          "at": 1.8,
+          "entrance": 0.35,
+          "initiallyVisible": false,
+          "shadow": true,
+          "layer": "front"
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Da tigelinha ao molho,",
+            "um ovo por espaço."
+          ],
+          "fontSize": 82
+        }
+      ],
+      "transition": "fade",
+      "character": {
+        "faceX": 440,
+        "faceY": 990,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-olhando.png",
+            "width": 850,
+            "anchorX": 675,
+            "anchorY": 440
+          }
+        ]
+      }
+    },
+    {
+      "id": "cozinhar",
+      "from": 16.498,
+      "to": 18.32,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video"
+      },
+      "items": [
+        {
+          "id": "panela-ovos-crus",
+          "asset": "assets/itens/panela-lilas-ovos-crus.png",
+          "x": 55,
+          "width": 970,
+          "ground": 1840,
+          "anchorY": 0.87,
+          "at": 0,
+          "entrance": 0.35,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front"
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "5 minutos",
+            "em fogo baixo."
+          ],
+          "fontSize": 82
+        }
+      ],
+      "transition": "fade",
+      "character": {
+        "faceX": 440,
+        "faceY": 990,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-olhando.png",
+            "width": 850,
+            "anchorX": 675,
+            "anchorY": 440
+          }
+        ]
+      }
+    },
+    {
+      "id": "tampar",
+      "from": 18.32,
+      "to": 21.583,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video"
+      },
+      "items": [
+        {
+          "id": "panela-tampa",
+          "asset": "assets/itens/panela-lilas-tampa.png",
+          "x": 55,
+          "width": 970,
+          "ground": 1840,
+          "anchorY": 0.87,
+          "at": 0,
+          "entrance": 0.35,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front"
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Mais 3min com tampa.",
+            "Claras bem cozidas."
+          ],
+          "fontSize": 82
+        }
+      ],
+      "transition": "fade",
+      "character": {
+        "faceX": 440,
+        "faceY": 990,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-olhando.png",
+            "width": 850,
+            "anchorX": 675,
+            "anchorY": 440
+          }
+        ]
+      }
+    },
+    {
+      "id": "resultado",
+      "from": 21.583,
+      "to": 25.216875,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video"
+      },
+      "items": [
+        {
+          "id": "panela-ovos-cozidos",
+          "asset": "assets/itens/panela-lilas-ovos-cozidos.png",
+          "x": 55,
+          "width": 970,
+          "ground": 1840,
+          "anchorY": 0.87,
+          "at": 0,
+          "entrance": 0.35,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front"
+        }
+      ],
+      "character": {
+        "faceX": 440,
+        "faceY": 990,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-apontando.png",
+            "width": 850,
+            "anchorX": 575,
+            "anchorY": 440
+          }
+        ]
+      },
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Ovos no molho.",
+            "Uma frigideira só!"
+          ],
+          "fontSize": 82
+        }
+      ],
+      "transition": "fade"
+    }
+  ],
+  "voice": {
+    "provider": "elevenlabs",
+    "fingerprint": "ad7fde71dcb1ff011aad7bfc7d88a0c677e3b72fe5bbd632842d057304502bc5",
+    "audioHash": "bf10533a20e2bcd08251335d898b3ae15a30d5ca14b7d85eeb40351873527c0c"
+  },
+  "output": {
+    "file": "output/convertido-0003.mp4",
+    "hash": "0155966288ba0109732c5a0bc2c7373805157943c178d10b44ede38c97e5cc98",
+    "signature": "c866cd7e1eb5effcc2428c6dbc6343c74cf9ac83c3347b7d15d67fb7935b5b26"
+  }
+}

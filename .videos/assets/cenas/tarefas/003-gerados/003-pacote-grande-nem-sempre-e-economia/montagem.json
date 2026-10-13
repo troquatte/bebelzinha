@@ -1,0 +1,383 @@
+{
+  "schemaVersion": 1,
+  "narration": "Viu um pacote enorme e pensou: agora eu economizo? Calma, minha filha! Antes de levar, compare o preço por quilo, não só o tamanho da embalagem. Depois, pense na quantidade que sua casa realmente usa. Comprar mais só compensa quando você aproveita o que comprou. Economia boa não termina esquecida no armário! Quer mais dicas da Bebel? Comente BEBELZINHA!",
+  "audio": "audio.mp3",
+  "font": "assets/fontes/roboto.ttf",
+  "holdSeconds": 0.3,
+  "scenes": [
+    {
+      "id": "cena-01",
+      "from": 0,
+      "to": 4.226,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video"
+      },
+      "character": {
+        "faceX": 520,
+        "faceY": 1050,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-olhando.png",
+            "width": 834,
+            "anchorX": 675,
+            "anchorY": 445
+          },
+          {
+            "at": 2.264,
+            "asset": "assets/personagem/bebel-surpresa.png",
+            "width": 834,
+            "anchorX": 664,
+            "anchorY": 445
+          }
+        ]
+      },
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Pacote maior."
+          ]
+        },
+        {
+          "at": 2.264,
+          "lines": [
+            "Pacote maior.",
+            "Economia maior?"
+          ]
+        }
+      ],
+      "items": []
+    },
+    {
+      "id": "cena-02",
+      "from": 4.226,
+      "to": 5.7,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video"
+      },
+      "character": {
+        "faceX": 520,
+        "faceY": 1050,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-olhando.png",
+            "width": 834,
+            "anchorX": 675,
+            "anchorY": 445
+          }
+        ]
+      },
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Calma,",
+            "minha filha!"
+          ]
+        }
+      ],
+      "items": []
+    },
+    {
+      "id": "cena-03",
+      "from": 5.7,
+      "to": 9.671,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video"
+      },
+      "character": {
+        "faceX": 520,
+        "faceY": 1050,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-apontando.png",
+            "width": 838,
+            "anchorX": 575,
+            "anchorY": 440
+          }
+        ]
+      },
+      "titles": [
+        {
+          "at": 0.906,
+          "lines": [
+            "Compare o preço",
+            "por quilo."
+          ]
+        }
+      ],
+      "items": [
+        {
+          "id": "arroz",
+          "asset": "assets/itens/arroz.png",
+          "x": 55,
+          "ground": 1780,
+          "width": 330,
+          "at": 0,
+          "entrance": 0.8,
+          "exit": 0.45,
+          "shadow": true,
+          "anchorY": 0.9768740031897927
+        },
+        {
+          "id": "feijao",
+          "asset": "assets/itens/feijao.png",
+          "x": 375,
+          "ground": 1780,
+          "width": 330,
+          "at": 0.34999999999999964,
+          "entrance": 0.8,
+          "exit": 0.45,
+          "shadow": true,
+          "anchorY": 1
+        },
+        {
+          "id": "macarrao",
+          "asset": "assets/itens/macarrao.png",
+          "x": 690,
+          "ground": 1780,
+          "width": 340,
+          "at": 0.7000000000000002,
+          "entrance": 0.8,
+          "exit": 0.45,
+          "shadow": true,
+          "anchorY": 0.9768740031897927
+        }
+      ]
+    },
+    {
+      "id": "cena-04",
+      "from": 9.671,
+      "to": 13.212,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video"
+      },
+      "character": {
+        "faceX": 520,
+        "faceY": 1050,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-olhando.png",
+            "width": 834,
+            "anchorX": 675,
+            "anchorY": 445
+          }
+        ]
+      },
+      "titles": [
+        {
+          "at": 0.557,
+          "lines": [
+            "Quanto sua casa",
+            "realmente usa?"
+          ]
+        }
+      ],
+      "items": [
+        {
+          "id": "arroz",
+          "asset": "assets/itens/arroz.png",
+          "x": 55,
+          "ground": 1780,
+          "width": 330,
+          "at": 0,
+          "entrance": 0.8,
+          "exit": 0.45,
+          "shadow": true,
+          "anchorY": 0.9768740031897927
+        },
+        {
+          "id": "feijao",
+          "asset": "assets/itens/feijao.png",
+          "x": 375,
+          "ground": 1780,
+          "width": 330,
+          "at": 0,
+          "entrance": 0.8,
+          "exit": 0.45,
+          "shadow": true,
+          "anchorY": 1
+        },
+        {
+          "id": "macarrao",
+          "asset": "assets/itens/macarrao.png",
+          "x": 690,
+          "ground": 1780,
+          "width": 340,
+          "at": 0,
+          "entrance": 0.8,
+          "exit": 0.45,
+          "shadow": true,
+          "anchorY": 0.9768740031897927
+        }
+      ]
+    },
+    {
+      "id": "cena-05",
+      "from": 13.212,
+      "to": 17.206,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video"
+      },
+      "character": {
+        "faceX": 520,
+        "faceY": 1050,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-apontando.png",
+            "width": 838,
+            "anchorX": 575,
+            "anchorY": 440
+          },
+          {
+            "at": 2.09,
+            "asset": "assets/personagem/bebel-olhando.png",
+            "width": 834,
+            "anchorX": 675,
+            "anchorY": 445
+          }
+        ]
+      },
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Comprar mais?"
+          ]
+        },
+        {
+          "at": 1.161,
+          "lines": [
+            "Comprar mais?",
+            "Só se aproveitar."
+          ]
+        }
+      ],
+      "items": [
+        {
+          "id": "arroz",
+          "asset": "assets/itens/arroz.png",
+          "x": 55,
+          "ground": 1780,
+          "width": 330,
+          "at": 0,
+          "entrance": 0.8,
+          "exit": 0.45,
+          "shadow": true,
+          "anchorY": 0.9768740031897927,
+          "until": 3.338000000000001
+        },
+        {
+          "id": "feijao",
+          "asset": "assets/itens/feijao.png",
+          "x": 375,
+          "ground": 1780,
+          "width": 330,
+          "at": 0,
+          "entrance": 0.8,
+          "exit": 0.45,
+          "shadow": true,
+          "anchorY": 1,
+          "until": 3.5380000000000003
+        },
+        {
+          "id": "macarrao",
+          "asset": "assets/itens/macarrao.png",
+          "x": 690,
+          "ground": 1780,
+          "width": 340,
+          "at": 0,
+          "entrance": 0.8,
+          "exit": 0.45,
+          "shadow": true,
+          "anchorY": 0.9768740031897927,
+          "until": 3.7379999999999995
+        }
+      ]
+    },
+    {
+      "id": "cena-06",
+      "from": 17.206,
+      "to": 19.656,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video"
+      },
+      "character": {
+        "faceX": 520,
+        "faceY": 1050,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-olhando.png",
+            "width": 834,
+            "anchorX": 675,
+            "anchorY": 445
+          }
+        ]
+      },
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Economia boa",
+            "não fica esquecida."
+          ]
+        }
+      ],
+      "items": []
+    },
+    {
+      "id": "cena-07",
+      "from": 19.656,
+      "to": 22.5698125,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video"
+      },
+      "character": {
+        "faceX": 520,
+        "faceY": 1050,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-olhando.png",
+            "width": 834,
+            "anchorX": 675,
+            "anchorY": 445
+          }
+        ]
+      },
+      "titles": [
+        {
+          "at": 1.3,
+          "lines": [
+            "Comente",
+            "BEBELZINHA!"
+          ]
+        }
+      ],
+      "items": []
+    }
+  ],
+  "voice": {
+    "provider": "elevenlabs",
+    "fingerprint": "3aef62c908f62637c581ec19a7d228b7aa9fef4fce2edc381fe5ce4fd7c2b8d2",
+    "audioHash": "dd03f60c2eb538c32311dee35cfbfbe87ad64ec67da430c532dfb00b39dfd989"
+  },
+  "output": {
+    "file": "output/convertido-0001.mp4",
+    "hash": "05c3bb008f48c32a916232205ab3442e6e0ede273ddcfff6fdf1c26c256366e8",
+    "signature": "a2473eb27c9e79a7698005cda43fa87dde1404bd21f0186801d68b6a58762601"
+  }
+}

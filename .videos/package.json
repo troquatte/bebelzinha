@@ -37,7 +37,22 @@
     "cta:stage": "node --experimental-strip-types scripts/cta.ts stage",
     "cta:frame": "node --experimental-strip-types scripts/cta.ts frame",
     "cta:transcribe": "node --experimental-strip-types scripts/cta.ts transcribe",
-    "miolo:cena1": "node --experimental-strip-types scripts/miolo-cena-01.ts"
+    "miolo:cena1": "node --experimental-strip-types scripts/miolo-cena-01.ts",
+    "cenas:list": "node --experimental-strip-types scripts/cenas.ts list",
+    "cenas:new": "node --experimental-strip-types scripts/cenas.ts new",
+    "cenas:editorial": "node --experimental-strip-types scripts/cenas.ts editorial",
+    "cenas:remember": "node --experimental-strip-types scripts/cenas.ts remember",
+    "cenas:asset": "node --experimental-strip-types scripts/cenas.ts asset",
+    "cenas:prepare": "node --experimental-strip-types scripts/cenas.ts prepare",
+    "cenas:process": "node --experimental-strip-types scripts/cenas.ts process",
+    "cenas:render": "node --experimental-strip-types scripts/cenas.ts render",
+    "cenas:finish": "node --experimental-strip-types scripts/cenas.ts finish",
+    "cenas:reconcile": "node --experimental-strip-types scripts/cenas.ts reconcile",
+    "cenas:stage": "node --experimental-strip-types scripts/cenas.ts stage",
+    "cenas:transcribe": "node --experimental-strip-types scripts/cenas.ts transcribe",
+    "cenas:audio": "node --experimental-strip-types scripts/cenas.ts audio",
+    "cenas:voice-status": "node --experimental-strip-types scripts/cenas.ts voice-status",
+    "cenas:test": "node --experimental-strip-types --test tests/cenas.test.ts"
   },
   "type": "module"
 }

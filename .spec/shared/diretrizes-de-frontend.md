@@ -12,11 +12,11 @@ Analise obrigatoriamente:
 4. `src/app/`;
 5. `src/scss/`;
 6. os componentes e padrões já existentes;
-7. as referências visuais aplicáveis em `.spec/ui-references/`.
+7. as referências visuais aplicáveis em `.videos/assets/referencias/`.
 
 ## Referências visuais do produto
 
-A pasta `.spec/ui-references/` contém referências oficiais para orientar a personalidade visual da Bebel.
+A pasta `.videos/assets/referencias/` contém referências oficiais para orientar a personalidade visual da Bebel.
 
 Antes de criar ou reformular uma interface:
 

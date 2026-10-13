@@ -1,0 +1,364 @@
+{
+  "schemaVersion": 1,
+  "narration": "O pote tá aqui... e a tampa sumiu de novo? Minha filha, empilhar tampa vira jogo de adivinhação! Com tudo seco, encaixe os potes compatíveis, um dentro do outro. Deixe as tampas em pé numa divisória, agrupadas por tamanho. Assim você enxerga a que precisa sem desmontar a pilha. Achou a tampa? Fechou o pote. Acabou a caça ao tesouro!",
+  "audio": "audio.mp3",
+  "font": "assets/fontes/roboto.ttf",
+  "holdSeconds": 0.3,
+  "scenes": [
+    {
+      "id": "antes",
+      "from": 0,
+      "to": 2.705,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video"
+      },
+      "character": {
+        "faceX": 440,
+        "faceY": 990,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-surpresa.png",
+            "width": 850,
+            "anchorX": 664,
+            "anchorY": 440
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "potes-misturados",
+          "asset": "assets/itens/potes-tampas-misturados.png",
+          "x": -20,
+          "width": 1120,
+          "ground": 1840,
+          "anchorY": 0.8544921875,
+          "at": 0,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front",
+          "entrance": 0.35,
+          "entranceOffset": 24
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Cadê a tampa?"
+          ],
+          "fontSize": 82
+        }
+      ],
+      "objectFocus": true,
+      "transition": "fade"
+    },
+    {
+      "id": "previa-depois",
+      "from": 2.705,
+      "to": 3.622,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video"
+      },
+      "character": {
+        "faceX": 440,
+        "faceY": 990,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-apontando.png",
+            "width": 850,
+            "anchorX": 575,
+            "anchorY": 440
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "potes-verticais",
+          "asset": "assets/itens/potes-tampas-verticais.png",
+          "x": 0,
+          "width": 1080,
+          "ground": 1840,
+          "anchorY": 0.876953125,
+          "at": 0,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front",
+          "entrance": 0.35,
+          "entranceOffset": 24
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Depois: tudo à vista."
+          ],
+          "fontSize": 82
+        }
+      ],
+      "objectFocus": true,
+      "transition": "fade"
+    },
+    {
+      "id": "problema",
+      "from": 3.622,
+      "to": 6.2,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video"
+      },
+      "character": {
+        "faceX": 440,
+        "faceY": 990,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-surpresa.png",
+            "width": 850,
+            "anchorX": 664,
+            "anchorY": 440
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "potes-misturados",
+          "asset": "assets/itens/potes-tampas-misturados.png",
+          "x": 20,
+          "width": 1040,
+          "ground": 1840,
+          "anchorY": 0.8544921875,
+          "at": 0,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front",
+          "entrance": 0.35,
+          "entranceOffset": 24
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Pilha esconde tampas."
+          ],
+          "fontSize": 82
+        }
+      ],
+      "objectFocus": true,
+      "transition": "fade"
+    },
+    {
+      "id": "potes",
+      "from": 6.2,
+      "to": 10.333,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video"
+      },
+      "character": {
+        "faceX": 440,
+        "faceY": 990,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-apontando.png",
+            "width": 850,
+            "anchorX": 575,
+            "anchorY": 440
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "potes-encaixados",
+          "asset": "assets/itens/potes-tampas-encaixados.png",
+          "x": -20,
+          "width": 1120,
+          "ground": 1840,
+          "anchorY": 0.8896484375,
+          "at": 0,
+          "initiallyVisible": false,
+          "shadow": true,
+          "layer": "front",
+          "entrance": 0.35,
+          "entranceOffset": 24
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Potes secos.",
+            "Encaixe os compatíveis."
+          ],
+          "fontSize": 82
+        }
+      ],
+      "objectFocus": true,
+      "transition": "fade"
+    },
+    {
+      "id": "tampas",
+      "from": 10.333,
+      "to": 13.967,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video"
+      },
+      "character": {
+        "faceX": 440,
+        "faceY": 990,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-olhando.png",
+            "width": 850,
+            "anchorX": 675,
+            "anchorY": 440
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "potes-verticais",
+          "asset": "assets/itens/potes-tampas-verticais.png",
+          "x": -20,
+          "width": 1120,
+          "ground": 1840,
+          "anchorY": 0.876953125,
+          "at": 0,
+          "initiallyVisible": false,
+          "shadow": true,
+          "layer": "front",
+          "entrance": 0.35,
+          "entranceOffset": 24
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Tampas em pé.",
+            "Separe por tamanho."
+          ],
+          "fontSize": 82
+        }
+      ],
+      "objectFocus": true,
+      "transition": "fade"
+    },
+    {
+      "id": "escolher",
+      "from": 13.967,
+      "to": 18.309,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video"
+      },
+      "character": {
+        "faceX": 440,
+        "faceY": 990,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-apontando.png",
+            "width": 850,
+            "anchorX": 575,
+            "anchorY": 440
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "potes-verticais",
+          "asset": "assets/itens/potes-tampas-verticais.png",
+          "x": 0,
+          "width": 1080,
+          "ground": 1840,
+          "anchorY": 0.876953125,
+          "at": 0,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front",
+          "entrance": 0.35,
+          "entranceOffset": 24
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Enxergue a tampa certa."
+          ],
+          "fontSize": 82
+        }
+      ],
+      "objectFocus": true,
+      "transition": "fade"
+    },
+    {
+      "id": "resultado",
+      "from": 18.309,
+      "to": 20.990875,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video"
+      },
+      "character": {
+        "faceX": 440,
+        "faceY": 990,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-olhando.png",
+            "width": 850,
+            "anchorX": 675,
+            "anchorY": 440
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "potes-par-encontrado",
+          "asset": "assets/itens/potes-tampas-par-encontrado.png",
+          "x": -40,
+          "width": 1160,
+          "ground": 1840,
+          "anchorY": 0.9345703125,
+          "at": 0,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front",
+          "entrance": 0.35,
+          "entranceOffset": 24
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Achou. Fechou!"
+          ],
+          "fontSize": 82
+        }
+      ],
+      "objectFocus": true,
+      "transition": "fade"
+    }
+  ],
+  "voice": {
+    "provider": "elevenlabs",
+    "fingerprint": "180b4f4818c1b25503e00713af369ce457099917861479be63f602f24b643d29",
+    "audioHash": "aebf221d8e74facf00c265103d7c3ca59ca34de9e05793746a77944fb9a9af94"
+  },
+  "output": {
+    "file": "output/convertido-0002.mp4",
+    "hash": "7f7a3c3eef96540f4d2b01d660e6a931285b8dcd51f7dd2c2cfe49769895627c",
+    "signature": "b69493a147eb0bbcc85075f9934b6de9980e37e3c99d4234cd3982327c99957c"
+  }
+}

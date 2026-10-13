@@ -1,0 +1,331 @@
+{
+  "schemaVersion": 1,
+  "narration": "Receita no fogo e cadê o ingrediente? Minha filha, leia tudo antes de começar. Separe os ingredientes na bancada. Confira as quantidades. Faltou alguma coisa? Anote na lista. Agora, sim: tudo à mão!",
+  "audio": "audio.mp3",
+  "font": "assets/fontes/roboto.ttf",
+  "holdSeconds": 0.3,
+  "scenes": [
+    {
+      "id": "gancho",
+      "from": 0,
+      "to": 3.088,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video"
+      },
+      "character": {
+        "faceX": 450,
+        "faceY": 1000,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-olhando.png",
+            "width": 850,
+            "anchorX": 675,
+            "anchorY": 440
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "arroz",
+          "asset": "assets/itens/arroz.png",
+          "x": 60,
+          "ground": 1740,
+          "width": 390,
+          "at": 0,
+          "entrance": 0.45,
+          "shadow": true
+        },
+        {
+          "id": "feijao",
+          "asset": "assets/itens/feijao.png",
+          "x": 360,
+          "ground": 1740,
+          "width": 390,
+          "at": 0.22,
+          "entrance": 0.45,
+          "shadow": true
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Receita no fogo...",
+            "Cadê o ingrediente?"
+          ],
+          "fontSize": 82
+        }
+      ]
+    },
+    {
+      "id": "apresentacao",
+      "from": 3.088,
+      "to": 6.165,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video"
+      },
+      "character": {
+        "faceX": 450,
+        "faceY": 1000,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-apontando.png",
+            "width": 850,
+            "anchorX": 575,
+            "anchorY": 440
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "arroz",
+          "asset": "assets/itens/arroz.png",
+          "x": 60,
+          "ground": 1740,
+          "width": 390,
+          "at": 0,
+          "entrance": 0.45,
+          "shadow": true
+        },
+        {
+          "id": "feijao",
+          "asset": "assets/itens/feijao.png",
+          "x": 360,
+          "ground": 1740,
+          "width": 390,
+          "at": 0.22,
+          "entrance": 0.45,
+          "shadow": true
+        },
+        {
+          "id": "ovos",
+          "asset": "assets/itens/ovos.png",
+          "x": 660,
+          "ground": 1740,
+          "width": 390,
+          "at": 0.44,
+          "entrance": 0.45,
+          "shadow": true
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Leia a receita",
+            "antes de começar."
+          ],
+          "fontSize": 82
+        }
+      ]
+    },
+    {
+      "id": "separar",
+      "from": 6.165,
+      "to": 7.883,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video"
+      },
+      "items": [
+        {
+          "id": "arroz",
+          "asset": "assets/itens/arroz.png",
+          "x": 60,
+          "ground": 1540,
+          "width": 470,
+          "at": 0,
+          "entrance": 0.45,
+          "shadow": true
+        },
+        {
+          "id": "feijao",
+          "asset": "assets/itens/feijao.png",
+          "x": 360,
+          "ground": 1540,
+          "width": 470,
+          "at": 0.22,
+          "entrance": 0.45,
+          "shadow": true
+        },
+        {
+          "id": "ovos",
+          "asset": "assets/itens/ovos.png",
+          "x": 660,
+          "ground": 1540,
+          "width": 470,
+          "at": 0.44,
+          "entrance": 0.45,
+          "shadow": true
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Separe os ingredientes",
+            "na bancada."
+          ],
+          "fontSize": 82
+        }
+      ]
+    },
+    {
+      "id": "conferir",
+      "from": 7.883,
+      "to": 8.998,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video"
+      },
+      "items": [
+        {
+          "id": "arroz",
+          "asset": "assets/itens/arroz.png",
+          "x": 60,
+          "ground": 1540,
+          "width": 470,
+          "at": 0,
+          "entrance": 0.45,
+          "shadow": true,
+          "initiallyVisible": true
+        },
+        {
+          "id": "feijao",
+          "asset": "assets/itens/feijao.png",
+          "x": 360,
+          "ground": 1540,
+          "width": 470,
+          "at": 0,
+          "entrance": 0.45,
+          "shadow": true,
+          "initiallyVisible": true
+        },
+        {
+          "id": "ovos",
+          "asset": "assets/itens/ovos.png",
+          "x": 660,
+          "ground": 1540,
+          "width": 470,
+          "at": 0,
+          "entrance": 0.45,
+          "shadow": true,
+          "initiallyVisible": true
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Confira as quantidades."
+          ],
+          "fontSize": 82
+        }
+      ]
+    },
+    {
+      "id": "lista",
+      "from": 8.998,
+      "to": 11.958,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video"
+      },
+      "items": [],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Faltou alguma coisa?",
+            "Anote na lista."
+          ],
+          "fontSize": 82
+        }
+      ],
+      "checklist": {
+        "heading": "Lista de compras",
+        "lines": [
+          "Ingrediente que falta"
+        ]
+      }
+    },
+    {
+      "id": "resultado",
+      "from": 11.958,
+      "to": 13.74625,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video"
+      },
+      "character": {
+        "faceX": 450,
+        "faceY": 1000,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-olhando.png",
+            "width": 850,
+            "anchorX": 675,
+            "anchorY": 440
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "arroz",
+          "asset": "assets/itens/arroz.png",
+          "x": 60,
+          "ground": 1740,
+          "width": 390,
+          "at": 0,
+          "entrance": 0.45,
+          "shadow": true
+        },
+        {
+          "id": "feijao",
+          "asset": "assets/itens/feijao.png",
+          "x": 360,
+          "ground": 1740,
+          "width": 390,
+          "at": 0.22,
+          "entrance": 0.45,
+          "shadow": true
+        },
+        {
+          "id": "ovos",
+          "asset": "assets/itens/ovos.png",
+          "x": 660,
+          "ground": 1740,
+          "width": 390,
+          "at": 0.44,
+          "entrance": 0.45,
+          "shadow": true
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Tudo à mão.",
+            "Sem correria!"
+          ],
+          "fontSize": 82
+        }
+      ]
+    }
+  ],
+  "voice": {
+    "provider": "elevenlabs",
+    "fingerprint": "b60034aeffdeecca2bf79861812b3b3ac3e224f13b7198e80fed8b6259039495",
+    "audioHash": "b2000541abf4c755ea9ddbf1b126fe920957cdc6813b54975779c2245cc44ca1"
+  },
+  "output": {
+    "file": "output/convertido-0001.mp4",
+    "hash": "094eddb99591c44116e7a2aa717a9d23f15053a914cb55c18766f3aa4f182269",
+    "signature": "8381c57e3665864be37ff7a95f9a368ea28aec2613f33010bb760ac4fd6fc0f0"
+  }
+}

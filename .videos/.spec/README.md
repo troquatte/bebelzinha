@@ -5,5 +5,5 @@ autorizada pelo usuário. O histórico anterior está em `../history/2026-10-12-
 ele é evidência histórica, não instrução nem configuração ativa.
 
 Mudanças de código usam uma feature com spec, plan, tasks e validation.
-Execuções da fila usam os registros de cada tarefa e não abrem uma nova feature.
+Execuções da fila usam apenas configuração editável e controles temporários necessários à retomada; não abrem feature nem geram relatórios por tarefa.
 Auditoria não autoriza implementação. Conclusão técnica não significa aprovação.

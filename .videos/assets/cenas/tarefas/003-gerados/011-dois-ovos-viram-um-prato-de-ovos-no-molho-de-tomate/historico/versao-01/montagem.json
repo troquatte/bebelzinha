@@ -1,0 +1,273 @@
+{
+  "schemaVersion": 1,
+  "narration": "Dois ovos podem virar esse prato aqui, minha filha! Refogue cebola e pimentão no azeite. Junte o alho. Acrescente quatrocentos gramas de tomate pelado e mexa até o molho encorpar. Abra dois espaços. Quebre os ovos numa tigelinha e coloque um em cada espaço, com cuidado. Cozinhe cinco minutos em fogo baixo. Tampe por mais três, até as claras ficarem cozidas. Olha só: ovos no molho de tomate, numa frigideira só!",
+  "audio": "audio.mp3",
+  "font": "assets/fontes/roboto.ttf",
+  "holdSeconds": 0.3,
+  "scenes": [
+    {
+      "id": "promessa",
+      "from": 0,
+      "to": 2.577,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video"
+      },
+      "items": [],
+      "character": {
+        "faceX": 440,
+        "faceY": 990,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-olhando.png",
+            "width": 850,
+            "anchorX": 675,
+            "anchorY": 440
+          }
+        ]
+      },
+      "cooking": {
+        "stage": "preview",
+        "table": true
+      },
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Dois ovos...",
+            "Olha esse prato!"
+          ],
+          "fontSize": 82
+        }
+      ]
+    },
+    {
+      "id": "refogado",
+      "from": 2.577,
+      "to": 5.108,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video"
+      },
+      "items": [],
+      "cooking": {
+        "stage": "saute",
+        "table": false
+      },
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Cebola e pimentão",
+            "refogados no azeite."
+          ],
+          "fontSize": 82
+        }
+      ]
+    },
+    {
+      "id": "alho",
+      "from": 5.108,
+      "to": 6.757,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video"
+      },
+      "items": [],
+      "cooking": {
+        "stage": "garlic",
+        "table": false
+      },
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Agora, junte o alho."
+          ],
+          "fontSize": 82
+        }
+      ]
+    },
+    {
+      "id": "molho",
+      "from": 6.757,
+      "to": 11.413,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video"
+      },
+      "items": [],
+      "cooking": {
+        "stage": "tomato",
+        "table": true
+      },
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "400g de tomate pelado.",
+            "Mexa até encorpar."
+          ],
+          "fontSize": 82
+        }
+      ],
+      "character": {
+        "faceX": 440,
+        "faceY": 990,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-apontando.png",
+            "width": 850,
+            "anchorX": 575,
+            "anchorY": 440
+          }
+        ]
+      }
+    },
+    {
+      "id": "cavidades",
+      "from": 11.413,
+      "to": 12.701,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video"
+      },
+      "items": [],
+      "cooking": {
+        "stage": "wells",
+        "table": false
+      },
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Abra dois espaços",
+            "no molho."
+          ],
+          "fontSize": 82
+        }
+      ]
+    },
+    {
+      "id": "ovos",
+      "from": 12.701,
+      "to": 16.498,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video"
+      },
+      "items": [],
+      "cooking": {
+        "stage": "add-eggs",
+        "table": false
+      },
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Da tigelinha ao molho,",
+            "um ovo por espaço."
+          ],
+          "fontSize": 82
+        }
+      ]
+    },
+    {
+      "id": "cozinhar",
+      "from": 16.498,
+      "to": 18.32,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video"
+      },
+      "items": [],
+      "cooking": {
+        "stage": "cook",
+        "table": false
+      },
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "5 minutos",
+            "em fogo baixo."
+          ],
+          "fontSize": 82
+        }
+      ]
+    },
+    {
+      "id": "tampar",
+      "from": 18.32,
+      "to": 21.583,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video"
+      },
+      "items": [],
+      "cooking": {
+        "stage": "lid",
+        "table": false
+      },
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Mais 3min com tampa.",
+            "Claras bem cozidas."
+          ],
+          "fontSize": 82
+        }
+      ]
+    },
+    {
+      "id": "resultado",
+      "from": 21.583,
+      "to": 25.216875,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video"
+      },
+      "items": [],
+      "character": {
+        "faceX": 440,
+        "faceY": 990,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-apontando.png",
+            "width": 850,
+            "anchorX": 575,
+            "anchorY": 440
+          }
+        ]
+      },
+      "cooking": {
+        "stage": "serve",
+        "table": true
+      },
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Ovos no molho.",
+            "Uma frigideira só!"
+          ],
+          "fontSize": 82
+        }
+      ]
+    }
+  ],
+  "voice": {
+    "provider": "elevenlabs",
+    "fingerprint": "ad7fde71dcb1ff011aad7bfc7d88a0c677e3b72fe5bbd632842d057304502bc5",
+    "audioHash": "bf10533a20e2bcd08251335d898b3ae15a30d5ca14b7d85eeb40351873527c0c"
+  },
+  "output": {
+    "file": "output/convertido-0001.mp4",
+    "hash": "e23f98bf4ef6e0fac731ea43b1f7a073884cd22122ead0234ef2216b24c4d31d",
+    "signature": "751cfe5684c6e6434340825de47f795c55febd55e3feee76606b07f3926fd133"
+  }
+}

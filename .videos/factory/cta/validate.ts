@@ -1,7 +1,7 @@
 import { existsSync, mkdirSync, readdirSync, renameSync, rmSync } from 'node:fs';
 import { atomic, fileHash, readJson, safe } from '../storage.ts';
-import { probe } from '../media.ts';
-import type { Probe } from '../media.ts';
+import { probe, validateMetadata } from '../media.ts';
+export { validateMetadata } from '../media.ts';
 import type { Config, Task } from './contracts.ts';
 import { move, readManifest, saveManifest } from './queue.ts';
 import { assertInputs, cleanStage, readConfig, renderSignature } from './render.ts';
@@ -13,16 +13,6 @@ function rejectPreviews(root: string, path: string, taskPath = path) {
     else if (/\.(png|jpe?g|webp)$/i.test(e.name) && p !== `${taskPath}/3-arte.png`)
       throw new Error(`Imagem de prévia inesperada: ${p}`);
   }
-}
-export function validateMetadata(p: Probe, frames: number): void {
-  const vs = p.streams.filter((s) => s.codec_type === 'video'), as = p.streams.filter((s) => s.codec_type === 'audio');
-  if (p.streams.length !== 2 || vs.length !== 1 || as.length !== 1 || vs[0].codec_name !== 'h264' ||
-      vs[0].width !== 1080 || vs[0].height !== 1920 || vs[0].avg_frame_rate !== '30/1' ||
-      vs[0].pix_fmt !== 'yuv420p' || as[0].codec_name !== 'aac' ||
-      Number(vs[0].nb_frames) !== frames || !Number.isFinite(Number(p.format.duration)) ||
-      Math.abs(Number(p.format.duration) - frames / 30) > 0.08)
-    throw new Error('MP4 fora do contrato de streams/dimensões/FPS/duração');
-
 }
 export function validate(root: string, task: Task) {
   const c = readConfig(root, task), m = readManifest(root, task); assertInputs(root, task, c);

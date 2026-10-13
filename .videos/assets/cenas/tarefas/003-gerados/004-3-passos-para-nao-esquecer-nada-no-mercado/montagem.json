@@ -1,0 +1,396 @@
+{
+  "schemaVersion": 1,
+  "narration": "Foi ao mercado e esqueceu justamente o que precisava? Minha filha, guarda esses três passos! Primeiro: anote o que falta assim que perceber. Segundo: leve uma lista só, para não deixar metade no papel e metade na memória. Terceiro: marque cada item quando entrar no carrinho. Na Bebelzinha, você cria sua lista e vai marcando as compras pelo celular. Menos adivinhação, mais tranquilidade! Comente BEBELZINHA!",
+  "audio": "audio.mp3",
+  "font": "assets/fontes/roboto.ttf",
+  "holdSeconds": 0.3,
+  "scenes": [
+    {
+      "id": "cena-01",
+      "from": 0,
+      "to": 3.762,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video"
+      },
+      "character": {
+        "faceX": 520,
+        "faceY": 1050,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-olhando.png",
+            "width": 834,
+            "anchorX": 675,
+            "anchorY": 445
+          },
+          {
+            "at": 0.964,
+            "asset": "assets/personagem/bebel-surpresa.png",
+            "width": 834,
+            "anchorX": 664,
+            "anchorY": 445
+          }
+        ]
+      },
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Esqueceu",
+            "o principal?"
+          ]
+        }
+      ],
+      "items": []
+    },
+    {
+      "id": "cena-02",
+      "from": 3.762,
+      "to": 6.722,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video"
+      },
+      "character": {
+        "faceX": 520,
+        "faceY": 1050,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-olhando.png",
+            "width": 834,
+            "anchorX": 675,
+            "anchorY": 445
+          }
+        ]
+      },
+      "titles": [
+        {
+          "at": 0.952,
+          "lines": [
+            "3 passos",
+            "para o mercado."
+          ]
+        }
+      ],
+      "items": []
+    },
+    {
+      "id": "cena-03",
+      "from": 6.722,
+      "to": 10.716,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video"
+      },
+      "character": {
+        "faceX": 520,
+        "faceY": 1050,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-apontando.png",
+            "width": 838,
+            "anchorX": 575,
+            "anchorY": 440
+          }
+        ]
+      },
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "1. Anote",
+            "quando faltar."
+          ]
+        }
+      ],
+      "items": [
+        {
+          "id": "arroz",
+          "asset": "assets/itens/arroz.png",
+          "x": 55,
+          "ground": 1780,
+          "width": 330,
+          "at": 0,
+          "entrance": 0.8,
+          "exit": 0.45,
+          "shadow": true,
+          "anchorY": 0.9768740031897927
+        },
+        {
+          "id": "feijao",
+          "asset": "assets/itens/feijao.png",
+          "x": 375,
+          "ground": 1780,
+          "width": 330,
+          "at": 0.34999999999999964,
+          "entrance": 0.8,
+          "exit": 0.45,
+          "shadow": true,
+          "anchorY": 1
+        },
+        {
+          "id": "macarrao",
+          "asset": "assets/itens/macarrao.png",
+          "x": 690,
+          "ground": 1780,
+          "width": 340,
+          "at": 0.6999999999999993,
+          "entrance": 0.8,
+          "exit": 0.45,
+          "shadow": true,
+          "anchorY": 0.9768740031897927
+        }
+      ]
+    },
+    {
+      "id": "cena-04",
+      "from": 10.716,
+      "to": 16.777,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video"
+      },
+      "character": {
+        "faceX": 520,
+        "faceY": 1050,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-olhando.png",
+            "width": 834,
+            "anchorX": 675,
+            "anchorY": 445
+          }
+        ]
+      },
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "2. Uma lista só.",
+            "Nada espalhado."
+          ]
+        }
+      ],
+      "items": [
+        {
+          "id": "arroz",
+          "asset": "assets/itens/arroz.png",
+          "x": 55,
+          "ground": 1780,
+          "width": 330,
+          "at": 0,
+          "entrance": 0.8,
+          "exit": 0.45,
+          "shadow": true,
+          "anchorY": 0.9768740031897927
+        },
+        {
+          "id": "feijao",
+          "asset": "assets/itens/feijao.png",
+          "x": 375,
+          "ground": 1780,
+          "width": 330,
+          "at": 0,
+          "entrance": 0.8,
+          "exit": 0.45,
+          "shadow": true,
+          "anchorY": 1
+        },
+        {
+          "id": "macarrao",
+          "asset": "assets/itens/macarrao.png",
+          "x": 690,
+          "ground": 1780,
+          "width": 340,
+          "at": 0,
+          "entrance": 0.8,
+          "exit": 0.45,
+          "shadow": true,
+          "anchorY": 0.9768740031897927
+        }
+      ]
+    },
+    {
+      "id": "cena-05",
+      "from": 16.777,
+      "to": 19.934,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video"
+      },
+      "character": {
+        "faceX": 520,
+        "faceY": 1050,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-apontando.png",
+            "width": 838,
+            "anchorX": 575,
+            "anchorY": 440
+          }
+        ]
+      },
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "3. Já pegou?",
+            "Marque na lista."
+          ]
+        }
+      ],
+      "items": [
+        {
+          "id": "arroz",
+          "asset": "assets/itens/arroz.png",
+          "x": 55,
+          "ground": 1780,
+          "width": 330,
+          "at": 0,
+          "entrance": 0.8,
+          "exit": 0.45,
+          "shadow": true,
+          "anchorY": 0.9768740031897927,
+          "until": 1.8230000000000004
+        },
+        {
+          "id": "feijao",
+          "asset": "assets/itens/feijao.png",
+          "x": 375,
+          "ground": 1780,
+          "width": 330,
+          "at": 0,
+          "entrance": 0.8,
+          "exit": 0.45,
+          "shadow": true,
+          "anchorY": 1,
+          "until": 2.222999999999999
+        },
+        {
+          "id": "macarrao",
+          "asset": "assets/itens/macarrao.png",
+          "x": 690,
+          "ground": 1780,
+          "width": 340,
+          "at": 0,
+          "entrance": 0.8,
+          "exit": 0.45,
+          "shadow": true,
+          "anchorY": 0.9768740031897927,
+          "until": 2.6729999999999983
+        }
+      ]
+    },
+    {
+      "id": "cena-06",
+      "from": 19.934,
+      "to": 24.253,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video"
+      },
+      "character": {
+        "faceX": 520,
+        "faceY": 1050,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-olhando.png",
+            "width": 834,
+            "anchorX": 675,
+            "anchorY": 445
+          }
+        ]
+      },
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Sua lista",
+            "na Bebelzinha."
+          ]
+        }
+      ],
+      "items": []
+    },
+    {
+      "id": "cena-07",
+      "from": 24.253,
+      "to": 26.866,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video"
+      },
+      "character": {
+        "faceX": 520,
+        "faceY": 1050,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-olhando.png",
+            "width": 834,
+            "anchorX": 675,
+            "anchorY": 445
+          }
+        ]
+      },
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Menos adivinhação.",
+            "Mais tranquilidade!"
+          ]
+        }
+      ],
+      "items": []
+    },
+    {
+      "id": "cena-08",
+      "from": 26.866,
+      "to": 29.3035625,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video"
+      },
+      "character": {
+        "faceX": 520,
+        "faceY": 1050,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-olhando.png",
+            "width": 834,
+            "anchorX": 675,
+            "anchorY": 445
+          }
+        ]
+      },
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Comente",
+            "BEBELZINHA!"
+          ]
+        }
+      ],
+      "items": []
+    }
+  ],
+  "voice": {
+    "provider": "elevenlabs",
+    "fingerprint": "64a690eb6dd39c6f8795dc5c5a6b129766f75b5034c269f79fcb20ad7ff63d6d",
+    "audioHash": "2491c0acc744abf347e3c9e7828c2b5d7e390964b2a900a549f06e7e761f9415"
+  },
+  "output": {
+    "file": "output/convertido-0001.mp4",
+    "hash": "e6945d9da74dd579902673a712b5e8e62aee56dec43253c725edf70735add897",
+    "signature": "421535e888d8fea9a978f33b21e334daee228023bf1a38744b092b2d93903d04"
+  }
+}

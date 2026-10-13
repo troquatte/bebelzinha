@@ -72,3 +72,14 @@ export function environment() {
     ffprobe: execute(executable('ffprobe'), ['-version']).toString().split('\n')[0],
     browser: browserExecutable() ?? 'Remotion managed Chrome' };
 }
+
+export function validateMetadata(p: Probe, frames: number): void {
+  const vs = p.streams.filter((s) => s.codec_type === 'video'), as = p.streams.filter((s) => s.codec_type === 'audio');
+  if (p.streams.length !== 2 || vs.length !== 1 || as.length !== 1 || vs[0].codec_name !== 'h264' ||
+      vs[0].width !== 1080 || vs[0].height !== 1920 || vs[0].avg_frame_rate !== '30/1' ||
+      vs[0].pix_fmt !== 'yuv420p' || as[0].codec_name !== 'aac' ||
+      Number(vs[0].nb_frames) !== frames || !Number.isFinite(Number(p.format.duration)) ||
+      Math.abs(Number(p.format.duration) - frames / 30) > 0.08)
+    throw new Error('MP4 fora do contrato de streams/dimensões/FPS/duração');
+
+}

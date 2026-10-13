@@ -3,6 +3,9 @@ name: bebel-cta
 description: Processar CTAs com três mídias, checagem técnica rápida e revisão visual e de áudio pelo usuário.
 ---
 
+A identidade comum está em brand/identidade-bebel.md. Preserve aparência, proporções e voz dos três arquivos fornecidos; não gerar personagem/arte nova nem reescrever fala ao aplicar a identidade. Não acrescentar textos da persona ao CTA.
+
+
 Use comandos existentes; não reler arquitetura, SDD ou outras skills por produção. Uma varredura por pedido, desenvolvimento primeiro. Não refatorar durante processamento comum.
 
 Entradas por tema: 1-audio.mp3, 2-video.mp4, 3-arte.png, em assets/cta/tarefas/001-afazer/{001-inicio,002-final}/<id>-<tema>. Arte livre; não exigir texto ou convite no início. Não pedir JSON ao usuário.

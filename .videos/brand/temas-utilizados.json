@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "editorial": {
+    "personality": "Bebel acolhedora, prática e bem-humorada. Conversa de cozinha, sem humilhar, julgar ou infantilizar o público.",
+    "structure": "Gancho imediato, lista quando pertinente, dicas completas e conclusão natural. Não narrar CTA no miolo: o exportador anexa o MP4 final configurado, com sua fala original.",
+    "avoid": [
+      "política",
+      "religião",
+      "fofoca de celebridades",
+      "investimentos",
+      "diagnósticos ou tratamentos",
+      "dietas e promessas de emagrecimento",
+      "conselhos perigosos",
+      "fatos inventados",
+      "publicidade não solicitada"
+    ],
+    "categories": [
+      {
+        "id": "cozinha-do-dia-a-dia",
+        "description": "Planejar almoço e jantar, organizar o preparo e lidar com dúvidas comuns da cozinha.",
+        "examples": [
+          "O almoço nem acabou e já perguntaram da janta",
+          "Decidir o cardápio antes de abrir a geladeira"
+        ]
+      },
+      {
+        "id": "receitinhas-rapidas",
+        "description": "Lanches e refeições simples, com poucos ingredientes e utensílios, aproveitando o que já há em casa. Roteiro com ingredientes, quantidades e preparo coerentes; tempo informado inclui preparo e cozimento, não a duração do vídeo. Usar receitas verificadas, sem inventar proporções ou tempos; se o passo a passo não couber, aumentar a duração ou escolher receita mais simples.",
+        "examples": [
+          "Omelete simples com o que tem na geladeira",
+          "Um lanche rápido com poucos ingredientes"
+        ]
+      },
+      {
+        "id": "despensa-e-compras",
+        "description": "Conferir o que já tem, fazer lista e evitar compras repetidas ou por impulso.",
+        "examples": [
+          "Comprar arroz que já estava no armário",
+          "Ir ao mercado sem lista"
+        ]
+      },
+      {
+        "id": "organizacao-da-casa",
+        "description": "Pequenas rotinas de organização, lugares para objetos e tarefas simples da casa.",
+        "examples": [
+          "Cada coisa no seu lugar",
+          "A gaveta que virou depósito de tudo"
+        ]
+      },
+      {
+        "id": "economia-domestica",
+        "description": "Hábitos cotidianos para evitar desperdício e aproveitar melhor o que já foi comprado, sem prometer valores de economia.",
+        "examples": [
+          "Usar a lista para comprar só o necessário",
+          "Conferir os produtos antes de comprar outro"
+        ]
+      },
+      {
+        "id": "rotina-e-humor",
+        "description": "Situações engraçadas e acolhedoras da vida em casa, terminando com uma dica prática.",
+        "examples": [
+          "A louça parece que se multiplica",
+          "Guardar algo tão bem que ninguém acha"
+        ]
+      }
+    ],
+    "repetitionPolicy": "Temas e ideias nunca se repetem; categoria não se repete dentro da rodada. Rodada2 iniciada com autorização do usuário, sem apagar histórico.",
+    "categoryRound": 2
+  },
+  "used": [
+    {
+      "id": "001-o-almoco-nem-acabou-e-ja-perguntaram-da-janta",
+      "theme": "O almoço nem acabou e já perguntaram da janta",
+      "category": "cozinha-do-dia-a-dia",
+      "summary": "Planejar a janta conferindo geladeira e despensa, escolher o cardápio e listar apenas o que falta.",
+      "createdAt": "2026-10-12T23:25:51.315Z"
+    },
+    {
+      "id": "002-a-despensa-esconde-o-que-voce-procura",
+      "theme": "A despensa esconde o que você procura",
+      "category": "organizacao-da-casa",
+      "summary": "Organizar a despensa com pacotes em pé e nomes visíveis, agrupados por tipo sem esconder produtos.",
+      "createdAt": "2026-10-13T01:46:57.41Z"
+    },
+    {
+      "id": "003-pacote-grande-nem-sempre-e-economia",
+      "theme": "Pacote grande nem sempre é economia",
+      "category": "economia-domestica",
+      "summary": "Avaliar embalagens grandes pelo preço por quilo e pelo consumo real da casa, sem confundir tamanho com economia.",
+      "createdAt": "2026-10-13T01:56:31.826Z"
+    },
+    {
+      "id": "004-3-passos-para-nao-esquecer-nada-no-mercado",
+      "theme": "3 passos para não esquecer nada no mercado",
+      "category": "despensa-e-compras",
+      "summary": "Capturar faltas no momento, centralizar uma lista e marcar itens no carrinho com a Lista de compras da Bebelzinha.",
+      "createdAt": "2026-10-13T03:31:54.684Z"
+    },
+    {
+      "id": "005-3-passos-para-tirar-a-receita-dos-salvos",
+      "theme": "3 passos para tirar a receita dos salvos",
+      "category": "rotina-e-humor",
+      "summary": "Transformar o hábito de salvar receitas sem testar em uma escolha única, leitura prévia e dia definido na Minha Semana.",
+      "createdAt": "2026-10-13T04:10:46.669Z"
+    },
+    {
+      "id": "006-omelete-sem-borracha-em-3-passos",
+      "theme": "Omelete sem borracha em 3 passos",
+      "category": "receitinhas-rapidas",
+      "summary": "Omelete com três ovos: misturar sem espumar, usar fogo baixo e deslocar bordas cozidas para cozinhar o centro, com quantidades verificadas.",
+      "createdAt": "2026-10-13T04:38:58.301Z"
+    },
+    {
+      "id": "007-a-agua-que-voce-joga-fora-melhora-o-molho-do-macarrao",
+      "theme": "A água que você joga fora melhora o molho do macarrão",
+      "category": "cozinha-do-dia-a-dia",
+      "summary": "Reservar água do macarrão e adicionar aos poucos ao molho quente para ajustar o ponto, sem despejar toda a reserva.",
+      "createdAt": "2026-10-13T10:51:36.597Z",
+      "round": 2
+    },
+    {
+      "id": "008-alface-murchando-no-pote-3-cuidados-antes-de-guardar",
+      "theme": "Alface murchando no pote: 3 cuidados antes de guardar",
+      "category": "economia-domestica",
+      "summary": "Conservar folhas higienizadas retirando umidade, intercalando papel-toalha e usando pote tampado na geladeira, sem prometer prazo fixo.",
+      "createdAt": "2026-10-13T11:14:17.266Z",
+      "round": 2
+    },
+    {
+      "id": "009-receita-no-fogo-e-cade-o-ingrediente",
+      "theme": "Receita no fogo e cadê o ingrediente",
+      "category": "organizacao-da-casa",
+      "summary": "Antes de iniciar o preparo, transformar pacotes em ingredientes prontos: medir a porção de arroz da receita, contar ovos necessários e porcionar molho, com demonstração ilustrada.",
+      "createdAt": "2026-10-13T12:29:26.696Z",
+      "round": 2
+    },
+    {
+      "id": "010-ovo-marrom-e-melhor-que-o-branco",
+      "theme": "Ovo marrom é melhor que o branco",
+      "category": "despensa-e-compras",
+      "summary": "A cor branca ou marrom da casca depende da raça da galinha e não indica superioridade nutricional; orientar a compra pela validade e integridade da casca, não pela cor.",
+      "createdAt": "2026-10-13T12:55:16.349Z",
+      "round": 2
+    },
+    {
+      "id": "011-dois-ovos-viram-um-prato-de-ovos-no-molho-de-tomate",
+      "theme": "Dois ovos viram um prato de ovos no molho de tomate",
+      "category": "receitinhas-rapidas",
+      "summary": "Receita de ovos no purgatório: refogado vira molho de tomate encorpado, recebe dois ovos em cavidades e cozinha em fogo baixo com finalização tampada; transformação visual até o prato pronto.",
+      "createdAt": "2026-10-13T13:07:36.686Z",
+      "round": 2
+    },
+    {
+      "id": "012-o-pote-ta-aqui-e-a-tampa-sumiu",
+      "theme": "O pote tá aqui e a tampa sumiu",
+      "category": "rotina-e-humor",
+      "summary": "Humor sobre a tampa que desaparece: encaixar bases compatíveis e deixar tampas verticais por tamanho para visualizar e encontrar o par sem desmontar pilhas.",
+      "createdAt": "2026-10-13T13:51:15.055Z",
+      "round": 2
+    }
+  ]
+}

@@ -17,3 +17,8 @@ assets/cta/tarefas/**/runtime/
 assets/cta/tarefas/**/output/
 history/
 .env.*
+!.env.example
+assets/cenas/tarefas/**/.runtime/
+assets/cenas/tarefas/**/.work.json
+assets/cenas/tarefas/**/output/
+assets/cenas/tarefas/**/*.tmp.mp3
