@@ -1,0 +1,254 @@
+{
+  "schemaVersion": 1,
+  "narration": "Alho queimando? Ele cozinha mais rápido que a cebola! Refogue a cebola primeiro, em fogo baixo. Ficou transparente? Junte o alho e mexa até dourar levemente. Salva para o próximo refogado!",
+  "audio": "audio.mp3",
+  "font": "assets/fontes/roboto.ttf",
+  "holdSeconds": 0.3,
+  "scenes": [
+    {
+      "id": "erro-em-close",
+      "from": 0,
+      "to": 3.216,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video",
+        "timing": "global"
+      },
+      "items": [
+        {
+          "id": "panela-lilas-alho-queimado",
+          "asset": "assets/itens/panela-lilas-alho-queimado.png",
+          "width": 1650,
+          "x": -285,
+          "ground": 1680,
+          "anchorY": 0.869140625,
+          "at": 0,
+          "entrance": 0.35,
+          "entranceOffset": 14,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front"
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Alho queimando?"
+          ],
+          "x": 105,
+          "y": 230,
+          "fontSize": 88
+        }
+      ],
+      "transition": "fade"
+    },
+    {
+      "id": "bebel-orienta",
+      "from": 3.216,
+      "to": 5.909,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video",
+        "timing": "global"
+      },
+      "items": [
+        {
+          "id": "panela-lilas-cebola-translucida",
+          "asset": "assets/itens/panela-lilas-cebola-translucida.png",
+          "width": 1200,
+          "x": -60,
+          "ground": 1830,
+          "anchorY": 0.8759765625,
+          "at": 0,
+          "entrance": 0.35,
+          "entranceOffset": 14,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front"
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Cebola primeiro.",
+            "Fogo baixo."
+          ],
+          "x": 105,
+          "y": 230,
+          "fontSize": 88
+        }
+      ],
+      "transition": "fade",
+      "character": {
+        "faceX": 440,
+        "faceY": 990,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-apontando.png",
+            "width": 850,
+            "anchorX": 575,
+            "anchorY": 440
+          }
+        ]
+      }
+    },
+    {
+      "id": "cebola-transparente",
+      "from": 5.909,
+      "to": 7.082,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video",
+        "timing": "global"
+      },
+      "items": [
+        {
+          "id": "panela-lilas-cebola-translucida",
+          "asset": "assets/itens/panela-lilas-cebola-translucida.png",
+          "width": 1600,
+          "x": -260,
+          "ground": 1680,
+          "anchorY": 0.8759765625,
+          "at": 0,
+          "entrance": 0.35,
+          "entranceOffset": 14,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front"
+        }
+      ],
+      "titles": [],
+      "transition": "fade"
+    },
+    {
+      "id": "alho-em-close",
+      "from": 7.082,
+      "to": 8.94,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video",
+        "timing": "global"
+      },
+      "items": [
+        {
+          "id": "panela-lilas-cebola-alho-claro",
+          "asset": "assets/itens/panela-lilas-cebola-alho-claro.png",
+          "width": 1600,
+          "x": -260,
+          "ground": 1680,
+          "anchorY": 0.869140625,
+          "at": 0,
+          "entrance": 0.35,
+          "entranceOffset": 14,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front"
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Agora, o alho."
+          ],
+          "x": 105,
+          "y": 230,
+          "fontSize": 88
+        }
+      ],
+      "transition": "fade"
+    },
+    {
+      "id": "ponto-certo",
+      "from": 8.94,
+      "to": 10.333,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video",
+        "timing": "global"
+      },
+      "items": [
+        {
+          "id": "panela-lilas-cebola-alho-dourado-claro",
+          "asset": "assets/itens/panela-lilas-cebola-alho-dourado-claro.png",
+          "width": 1600,
+          "x": -260,
+          "ground": 1680,
+          "anchorY": 0.869140625,
+          "at": 0,
+          "entrance": 0.35,
+          "entranceOffset": 14,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front"
+        }
+      ],
+      "titles": [],
+      "transition": "fade"
+    },
+    {
+      "id": "resultado-com-bebel",
+      "from": 10.333,
+      "to": 12.4459375,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video",
+        "timing": "global"
+      },
+      "items": [
+        {
+          "id": "panela-lilas-cebola-alho-dourado-claro",
+          "asset": "assets/itens/panela-lilas-cebola-alho-dourado-claro.png",
+          "width": 1200,
+          "x": -60,
+          "ground": 1830,
+          "anchorY": 0.869140625,
+          "at": 0,
+          "entrance": 0.35,
+          "entranceOffset": 14,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front"
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Salva pro refogado!"
+          ],
+          "x": 105,
+          "y": 230,
+          "fontSize": 88
+        }
+      ],
+      "transition": "fade",
+      "character": {
+        "faceX": 440,
+        "faceY": 990,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-surpresa.png",
+            "width": 850,
+            "anchorX": 664,
+            "anchorY": 440
+          }
+        ]
+      }
+    }
+  ],
+  "voice": {
+    "provider": "elevenlabs",
+    "fingerprint": "76af96ccd1584ef6128a17db9465ce822f87d062e5da932cce46e1e7a514850e",
+    "audioHash": "d91fba3fb4dc66230341456af8e1f2331c4e31bd0df0784d2a69d1e514a4c838"
+  },
+  "output": {
+    "file": "output/convertido-0002.mp4",
+    "hash": "650f78e20ed9f34e1f3287f9d0925b1c29a7c66e2c2faf2e6edcc5f0a10502c3",
+    "signature": "3201b64a4756bebd29c6f1bf1aebe58eb6f655c2201f36bea996900c089c47e6"
+  }
+}

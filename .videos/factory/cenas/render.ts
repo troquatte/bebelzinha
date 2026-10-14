@@ -13,7 +13,7 @@ const stagePath = (id: string) => {
   return `public/generated/cenas-${id}`;
 };
 export function signature(planSignature: string) {
-  const code = ['src/scenes/BebelTema.tsx', 'src/scenes/PreparationDemo.tsx', 'src/scenes/CookingPan.tsx', 'src/Root.tsx', 'factory/cenas/contracts.ts',
+  const code = ['src/scenes/BebelTema.tsx', 'src/scenes/BebelFollow.tsx', 'src/scenes/BebelEngagement.tsx', 'src/scenes/PreparationDemo.tsx', 'src/scenes/CookingPan.tsx', 'src/Root.tsx', 'factory/cenas/contracts.ts', 'factory/cenas/item-sounds.ts',
     'factory/cenas/prepare.ts', 'factory/cenas/assets.ts', 'factory/cenas/render.ts', 'factory/cenas/speed.ts', 'factory/cenas/ending.ts', 'brand/miolo.json', 'package-lock.json'];
   return digest(JSON.stringify({ planSignature, endingHash: ending()?.hash, engine: code.map((p) => fileHash(safe(engineRoot, p))) }));
 }
@@ -33,11 +33,14 @@ export function stage(root: string, task: Task, compiled = compile(root, task)):
   if (fileHash(safe(engineRoot, audio)) !== compiled.hashes['audio.mp3']) throw new Error('Áudio mudou durante staging');
   const props = structuredClone(compiled.props);
   props.audio = audio.slice(7); props.font = paths[compiled.plan.font];
+  if (props.itemSound) props.itemSound.asset=paths[props.itemSound.asset];
   props.media = Object.fromEntries(Object.entries(props.media).map(([p, info]) => [paths[p], info]));
   for (const s of props.scenes) {
     s.background.asset = paths[s.background.asset];
+    if (s.follow) s.follow.avatar = paths[s.follow.avatar];
     for (const pose of s.character?.poses ?? []) pose.asset = paths[pose.asset];
     for (const item of s.items) item.asset = paths[item.asset];
+    if (s.engagement) s.engagement.sound=paths[s.engagement.sound];
   }
   atomic(safe(root, `${task.path}/.runtime/props.json`), props);
   return props;

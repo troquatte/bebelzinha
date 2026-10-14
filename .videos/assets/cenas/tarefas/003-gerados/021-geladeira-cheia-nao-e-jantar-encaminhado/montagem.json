@@ -1,0 +1,298 @@
+{
+  "schemaVersion": 1,
+  "narration": "Comprou tudo... mas o jantar ainda dá trabalho? Ingrediente comprado não é preparo adiantado! Para amanhã, escolha o prato e adiante a parte mais demorada. Vai ter arroz com frango? Deixe o frango cozido e desfiado, guardado na geladeira. Amanhã, você prepara o arroz e monta o prato. Aí sim, minha filha! Você não precisa começar tudo do zero!",
+  "audio": "audio.mp3",
+  "font": "assets/fontes/roboto.ttf",
+  "holdSeconds": 0.4,
+  "scenes": [
+    {
+      "id": "bebel-com-a-compra",
+      "from": 0,
+      "to": 3.657,
+      "background": {
+        "asset": "assets/cenario/cozinha-moderna-sitio.png",
+        "type": "image",
+        "timing": "global"
+      },
+      "items": [
+        {
+          "id": "sacola-compra-tres-jantares",
+          "asset": "assets/itens/sacola-compra-tres-jantares.png",
+          "width": 810,
+          "x": 145,
+          "ground": 1850,
+          "anchorY": 0.935,
+          "at": 0,
+          "entrance": 0.4,
+          "entranceOffset": 14,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front"
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Comprei tudo...",
+            "e o jantar?"
+          ],
+          "x": 105,
+          "y": 370,
+          "fontSize": 76,
+          "style": "speech"
+        }
+      ],
+      "transition": "fade",
+      "character": {
+        "faceX": 440,
+        "faceY": 990,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-surpresa.png",
+            "width": 850,
+            "anchorX": 664,
+            "anchorY": 440
+          }
+        ]
+      }
+    },
+    {
+      "id": "compra-nao-e-preparo",
+      "from": 3.657,
+      "to": 6.153,
+      "background": {
+        "asset": "assets/cenario/cozinha-moderna-sitio.png",
+        "type": "image",
+        "timing": "global"
+      },
+      "items": [
+        {
+          "id": "sacola-compra-tres-jantares",
+          "asset": "assets/itens/sacola-compra-tres-jantares.png",
+          "width": 1230,
+          "x": -75,
+          "ground": 1730,
+          "anchorY": 0.935,
+          "at": 0,
+          "entrance": 0.4,
+          "entranceOffset": 14,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front"
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Comprar não",
+            "é preparar."
+          ],
+          "x": 105,
+          "y": 230,
+          "fontSize": 82
+        }
+      ],
+      "transition": "fade"
+    },
+    {
+      "id": "escolha-antes-da-correria",
+      "from": 6.153,
+      "to": 11.564,
+      "background": {
+        "asset": "assets/cenario/cozinha-moderna-sitio.png",
+        "type": "image",
+        "timing": "global"
+      },
+      "items": [
+        {
+          "id": "prato-arroz-frango-cenoura",
+          "asset": "assets/itens/prato-arroz-frango-cenoura.png",
+          "width": 1180,
+          "x": -50,
+          "ground": 1850,
+          "anchorY": 0.915,
+          "at": 0,
+          "entrance": 0.4,
+          "entranceOffset": 14,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front"
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Escolha o jantar",
+            "de amanhã."
+          ],
+          "x": 105,
+          "y": 370,
+          "fontSize": 76,
+          "style": "speech"
+        }
+      ],
+      "transition": "fade",
+      "character": {
+        "faceX": 440,
+        "faceY": 990,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-apontando.png",
+            "width": 850,
+            "anchorX": 575,
+            "anchorY": 440
+          }
+        ]
+      }
+    },
+    {
+      "id": "etapa-demorada-adiantada",
+      "from": 11.564,
+      "to": 15.116,
+      "background": {
+        "asset": "assets/cenario/cozinha-moderna-sitio.png",
+        "type": "image",
+        "timing": "global"
+      },
+      "items": [
+        {
+          "id": "panela-lilas-frango-desfiado",
+          "asset": "assets/itens/panela-lilas-frango-desfiado.png",
+          "width": 1530,
+          "x": -225,
+          "ground": 1740,
+          "anchorY": 0.88,
+          "at": 0,
+          "entrance": 0.4,
+          "entranceOffset": 14,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front"
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Frango preparado.",
+            "Na geladeira."
+          ],
+          "x": 105,
+          "y": 230,
+          "fontSize": 82
+        }
+      ],
+      "transition": "fade"
+    },
+    {
+      "id": "finalizar-em-vez-de-recomecar",
+      "from": 15.116,
+      "to": 17.798,
+      "background": {
+        "asset": "assets/cenario/cozinha-moderna-sitio.png",
+        "type": "image",
+        "timing": "global"
+      },
+      "items": [
+        {
+          "id": "prato-arroz-frango-cenoura",
+          "asset": "assets/itens/prato-arroz-frango-cenoura.png",
+          "width": 1450,
+          "x": -185,
+          "ground": 1730,
+          "anchorY": 0.915,
+          "at": 0,
+          "entrance": 0.4,
+          "entranceOffset": 14,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front"
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Prepare o arroz.",
+            "Monte o prato."
+          ],
+          "x": 105,
+          "y": 230,
+          "fontSize": 82
+        }
+      ],
+      "transition": "fade"
+    },
+    {
+      "id": "resultado-resolve-o-gancho",
+      "from": 17.798,
+      "to": 21.3159375,
+      "background": {
+        "asset": "assets/cenario/cozinha-moderna-sitio.png",
+        "type": "image",
+        "timing": "global"
+      },
+      "items": [
+        {
+          "id": "prato-arroz-frango-cenoura",
+          "asset": "assets/itens/prato-arroz-frango-cenoura.png",
+          "width": 1180,
+          "x": -50,
+          "ground": 1850,
+          "anchorY": 0.915,
+          "at": 0,
+          "entrance": 0.4,
+          "entranceOffset": 14,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front",
+          "zoom": {
+            "to": 1.035,
+            "seconds": 3
+          }
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Agora é finalizar!"
+          ],
+          "x": 105,
+          "y": 370,
+          "fontSize": 76,
+          "style": "speech"
+        }
+      ],
+      "transition": "fade",
+      "character": {
+        "faceX": 440,
+        "faceY": 990,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-surpresa.png",
+            "width": 850,
+            "anchorX": 664,
+            "anchorY": 440
+          }
+        ]
+      }
+    }
+  ],
+  "voice": {
+    "provider": "elevenlabs",
+    "fingerprint": "1cf034aa2445466a2fbbff678b30e32e87b2ff9a95c4c39bbd7f891c4c44b6a4",
+    "audioHash": "3a682d18bd8e4803f58682c78ed6c2d95520d7ba8f2680e05d8149fa0d365b40"
+  },
+  "output": {
+    "file": "output/convertido-0001.mp4",
+    "hash": "5706bf8c9f3f3e32b05dc4f348384b133dca2361d6c9171aab7cc4177b748f99",
+    "signature": "57bcb11fff93852e8823f2575afa471f5ee4e8d95120bdbe8d06ac51c66cc45f"
+  }
+}

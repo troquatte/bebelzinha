@@ -3,6 +3,9 @@ import type { Item, RuntimeScene, ThemeProps } from '../../factory/cenas/contrac
 import mioloConfig from '../../brand/miolo.json';
 import {PreparationDemo} from './PreparationDemo';
 import {CookingPan} from './CookingPan';
+import {BebelEngagement} from './BebelEngagement';
+import {itemSoundCueTimes} from '../../factory/cenas/item-sounds';
+import {BebelFollow} from './BebelFollow';
 
 const effects = mioloConfig.visualEffects;
 
@@ -57,13 +60,14 @@ const ObjectLayer = ({ item, scene, props }: { item: Item; scene: RuntimeScene; 
   const p = entry * leaving;
   const light = continued || item.initiallyVisible ? 0 : Math.sin(Math.PI * interpolate(frame, [item.at * fps, (item.at + (item.entrance ?? effects.defaultItemEntranceSeconds) + 1.1) * fps], [0, 1], clamp));
   const info = props.media[item.asset], height = item.width * info.height / info.width, anchor = item.anchorY ?? 0.977;
+  const zoom = item.zoom ? interpolate(frame, [item.at * fps, (item.at + item.zoom.seconds) * fps], [1, item.zoom.to], smooth) : 1;
   const image = <>
     {item.shadow && <div style={{ position: 'absolute', left: item.x + item.width * 0.13, top: item.ground - 12,
       width: item.width * 0.78, height: 22, borderRadius: '50%', background: '#241008', filter: 'blur(9px)', opacity: p * 0.24 }} />}
     <Img src={staticFile(item.asset)} style={{ position: 'absolute', left: item.x, top: item.ground - height * anchor,
       width: item.width, height: 'auto', opacity: p, transformOrigin: `50% ${anchor * 100}%`,
       filter: `drop-shadow(0 0 ${5 + light * 16}px rgba(228,185,255,${light * 0.48})) brightness(${1 + light * 0.1})`,
-      scale: 0.985 + p * 0.015, translate: `0 ${(1 - p) * (item.entranceOffset ?? (item.layer === 'back' ? 3 : 10))}px` }} />
+      scale: (0.985 + p * 0.015) * zoom, translate: `0 ${(1 - p) * (item.entranceOffset ?? (item.layer === 'back' ? 3 : 10))}px` }} />
   </>;
   const rect = item.clip;
   return <AbsoluteFill style={{ zIndex: item.layer === 'back' ? 2 : 20, pointerEvents: 'none' }}>
@@ -87,29 +91,47 @@ const Scene = ({ scene, props }: { scene: RuntimeScene; props: ThemeProps }) => 
   const transition = scene.transition === 'fade' && scene.fromFrame > 0 ? interpolate(frame, [0, 0.2 * fps], [0, 1], smooth) : 1;
   return <AbsoluteFill style={{ opacity: transition, overflow: 'hidden' }}>
     <Background scene={scene} />
+    {scene.follow && <BebelFollow data={scene.follow} />}
     {scene.objectFocus && <div style={{position:'absolute',zIndex:15,left:0,top:1210,width:1080,height:690,
       background:'radial-gradient(ellipse at 50% 55%, #25172dcc 0%, #25172d99 44%, transparent 74%)',
       filter:'blur(22px)',pointerEvents:'none'}} />}
-    {scene.checklist && <div style={{position:'absolute', zIndex:15, left:185, top:850, width:710,
+    {scene.checklist && <div style={{position:'absolute', zIndex:15, left:185, top:scene.checklist.y ?? 850, width:710,
       padding:55, boxSizing:'border-box', borderRadius:28, background:'#fffaf0', color:'#35134e',
       fontFamily:'BebelRoboto', fontSize:58, boxShadow:'0 18px 40px #22093855',
       opacity:interpolate(seconds,[0,.35],[0,1],smooth), translate:`0 ${interpolate(seconds,[0,.5],[18,0],smooth)}px`}}>
       <div style={{fontWeight:900, marginBottom:35}}>{scene.checklist.heading}</div>
       {scene.checklist.lines.map((line,i) => <div key={line} style={{display:'flex', gap:25, alignItems:'center', marginTop:30,
         opacity:interpolate(seconds,[.2+i*.22,.55+i*.22],[0,1],smooth)}}>
-        <div style={{width:38,height:38,border:'4px solid #814bc1',borderRadius:7,flexShrink:0}} />
+        <div style={{width:38,height:38,border:'4px solid #814bc1',borderRadius:7,flexShrink:0,background:scene.checklist?.checked?'#814bc1':'transparent',display:'grid',placeItems:'center',color:'#fff',fontSize:32}}>{scene.checklist?.checked?'✓':''}</div>
         <span>{line}</span>
       </div>)}
     </div>}
     {c && effects.characterAtmosphereEnabled && <CharacterLights scene={scene} />}
     {scene.items.map((item) => <ObjectLayer key={item.id} item={item} scene={scene} props={props} />)}
+    {props.itemSound && itemSoundCueTimes(scene,props.scenes[props.scenes.findIndex(s=>s.id===scene.id)-1]).map(at=>
+      <Sequence key={`poc-${at}`} from={Math.round(at*fps)} durationInFrames={Math.ceil(.25*fps)} layout="none">
+        <Audio src={staticFile(props.itemSound!.asset)} volume={props.itemSound!.volume}/>
+      </Sequence>)}
     {scene.preparation && <PreparationDemo kind={scene.preparation} />}
     {scene.cooking && <CookingPan data={scene.cooking} />}
+    {scene.engagement && <BebelEngagement data={scene.engagement} />}
     {pose && c && <Img key={pose.asset} src={staticFile(pose.asset)} style={{ position: 'absolute', zIndex: 10,
       width: pose.width, height: 'auto', left: c.faceX - pose.anchorX * pose.width / props.media[pose.asset].width,
       top: c.faceY - pose.anchorY * pose.width / props.media[pose.asset].width, opacity: Math.min(incoming, outgoing),
       filter: 'drop-shadow(0 8px 18px #17072330) drop-shadow(0 0 10px #d199ff1c)' }} />}
-    {activeTitle && <div style={{ position: 'absolute', zIndex: 30, left: activeTitle.x ?? 90, top: activeTitle.y ?? effects.titleTop,
+    {activeTitle?.style === 'speech' && <div style={{ position:'absolute', zIndex:30,
+      left:activeTitle.x ?? 105, top:activeTitle.y ?? 400, maxWidth:840,
+      padding:'30px 38px', borderRadius:38, background:'#fffaf0', border:'4px solid #5a277c',
+      boxShadow:'0 12px 30px #29103835', color:'#35134e', fontFamily:'BebelRoboto, sans-serif',
+      fontWeight:900, fontSize:activeTitle.fontSize ?? 76, lineHeight:1.12,
+      opacity:interpolate(seconds,[activeTitle.at,activeTitle.at+.35],[0,1],smooth) *
+        (nextTitle?interpolate(seconds,[nextTitle.at-.25,nextTitle.at],[1,0],smooth):1),
+      translate:`0 ${interpolate(seconds,[activeTitle.at,activeTitle.at+.5],[14,0],out)}px` }}>
+      <div style={{position:'absolute',bottom:-22,left:280,width:38,height:38,background:'#fffaf0',
+        borderRight:'4px solid #5a277c',borderBottom:'4px solid #5a277c',transform:'rotate(45deg)'}} />
+      {activeTitle.lines.map(line=><div key={line} style={{position:'relative'}}>{line}</div>)}
+    </div>}
+    {activeTitle && activeTitle.style !== 'speech' && <div style={{ position: 'absolute', zIndex: 30, left: activeTitle.x ?? 90, top: activeTitle.y ?? effects.titleTop,
       maxWidth: effects.titleMaxWidth, display: 'flex', flexDirection: listMatch ? 'row' : 'column', alignItems: listMatch ? 'center' : 'flex-start', gap: listMatch ? 26 : 4,
       fontFamily: 'BebelRoboto, sans-serif', fontWeight: 900, lineHeight: 1.08, letterSpacing: -2 }}>
       {listMatch && <div style={{ width: 148, height: 148, flexShrink: 0, borderRadius: '50%', background: '#ff5948',

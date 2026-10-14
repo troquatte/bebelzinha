@@ -23,16 +23,6 @@ existentes sem duplicá-los por tema e preserve versões anteriores.
 Vídeo de mesmo nome-base tem prioridade sobre imagem de fundo.
 Se timing ou material essencial faltar, informe pendência; não invente.
 Preserve arquivos prontos. Não renderize MP4 nem mova para gerados.
-Planeje duas variantes por personagem/item relevante para a ação,
-reutilizando as existentes e gerando as faltantes: poses, expressões ou estados
-coerentes com a fala. Mais itens podem participar quando o roteiro justificar,
-sem cobrir a Bebel nem adicionar objetos irrelevantes.
-Quando houver alimentos, planeje grupos de três para compor o cenário,
-se fizer sentido ao roteiro e ao espaço. Evite aparições sistemáticas de dois
-em dois; reutilize alimentos coerentes do banco, sem inventar ingredientes.
-Pare para eu revisar áudio e materiais. Sem previews/relatórios/publicação.
-Responda com ID, caminhos do áudio e assets e pendências.
+Pare para eu revisar áudio e materiais. Responda com ID, caminhos e pendências. Sem previews, relatórios ou publicação.
 
-
-CTA final: não gerar convite, cena, texto ou áudio de CTA no roteiro do miolo. Encerrar a dica naturalmente. O motor anexa automaticamente o MP4 de brand/miolo.json, endingClip, antes de promover a exportação. Arquivo obrigatório: assets/cta/tarefas/003-gerados/002-final/001-cta-dicas-da-bebel/output/convertido-0001.mp4. Miolo em1.2x; CTA e sua voz em velocidade natural, uma única vez. Se ausente, bloquear com caminho exato. Não regenerar o CTA nem duplicar sua fala.
-Revisão obrigatória de títulos: ler as linhas em sequência; formar frases completas, preservar sujeito/ação e pontuação, sem fragmentos desconexos. Título resume o trecho narrado e se conecta ao anterior. Ritmo com mudanças nos momentos da fala e pequenas antecipações dos itens; não aumentar velocidade para mascarar falta de ação, nem deixar títulos reaparecerem sem necessidade.
+Siga a direção atual em brand/formato-reels-bebel.md; reutilize regras compartilhadas sem reler toda a arquitetura.

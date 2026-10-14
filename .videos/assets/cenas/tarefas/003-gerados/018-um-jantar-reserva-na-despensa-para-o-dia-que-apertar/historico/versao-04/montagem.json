@@ -1,0 +1,359 @@
+{
+  "schemaVersion": 1,
+  "narration": "Chegou cansada e o jantar virou um problema? Deixe um jantar reserva na despensa: macarrão e molho, juntos, num cantinho. Assim, você não precisa procurar tudo. Usou? Anote os dois na lista de compras. Pronto, minha filha! No dia apertado, o jantar já tem caminho!",
+  "audio": "audio.mp3",
+  "font": "assets/fontes/roboto.ttf",
+  "holdSeconds": 0.3,
+  "scenes": [
+    {
+      "id": "problema-em-close",
+      "from": 0,
+      "to": 3.541,
+      "background": {
+        "asset": "assets/cenario/despensa-lilas-bancada.mp4",
+        "type": "video",
+        "timing": "global"
+      },
+      "items": [
+        {
+          "id": "macarrao",
+          "asset": "assets/itens/macarrao.png",
+          "width": 420,
+          "x": 100,
+          "ground": 1390,
+          "anchorY": 0.97,
+          "at": 0,
+          "entrance": 0.35,
+          "entranceOffset": 14,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front"
+        },
+        {
+          "id": "molho-de-tomate",
+          "asset": "assets/itens/molho-de-tomate.png",
+          "width": 365,
+          "x": 605,
+          "ground": 1390,
+          "anchorY": 0.97,
+          "at": 0,
+          "entrance": 0.35,
+          "entranceOffset": 14,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front"
+        },
+        {
+          "id": "panela-vazia-problema",
+          "asset": "assets/itens/panela-lilas-vazia.png",
+          "width": 1140,
+          "x": -30,
+          "ground": 1800,
+          "anchorY": 0.88,
+          "at": 0,
+          "entrance": 0.35,
+          "entranceOffset": 14,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front",
+          "zoom": {
+            "to": 1.035,
+            "seconds": 2.5
+          }
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Sem ideia",
+            "para o jantar?"
+          ],
+          "x": 105,
+          "y": 230,
+          "fontSize": 88
+        }
+      ],
+      "transition": "fade"
+    },
+    {
+      "id": "bebel-orienta",
+      "from": 3.541,
+      "to": 6.084,
+      "background": {
+        "asset": "assets/cenario/despensa-lilas-bancada.mp4",
+        "type": "video",
+        "timing": "global"
+      },
+      "items": [
+        {
+          "id": "macarrao",
+          "asset": "assets/itens/macarrao.png",
+          "width": 460,
+          "x": 90,
+          "ground": 1830,
+          "anchorY": 0.97,
+          "at": 0,
+          "entrance": 0.35,
+          "entranceOffset": 14,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front"
+        },
+        {
+          "id": "molho-de-tomate",
+          "asset": "assets/itens/molho-de-tomate.png",
+          "width": 400,
+          "x": 550,
+          "ground": 1830,
+          "anchorY": 0.97,
+          "at": 0,
+          "entrance": 0.35,
+          "entranceOffset": 14,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front"
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Tenha um",
+            "jantar reserva."
+          ],
+          "x": 105,
+          "y": 230,
+          "fontSize": 88
+        }
+      ],
+      "transition": "fade",
+      "character": {
+        "faceX": 440,
+        "faceY": 990,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-apontando.png",
+            "width": 850,
+            "anchorX": 575,
+            "anchorY": 440
+          }
+        ]
+      }
+    },
+    {
+      "id": "ingredientes-em-close",
+      "from": 6.084,
+      "to": 8.29,
+      "background": {
+        "asset": "assets/cenario/despensa-lilas-bancada.mp4",
+        "type": "video",
+        "timing": "global"
+      },
+      "items": [
+        {
+          "id": "macarrao",
+          "asset": "assets/itens/macarrao.png",
+          "width": 650,
+          "x": -25,
+          "ground": 1710,
+          "anchorY": 0.97,
+          "at": 0,
+          "entrance": 0.35,
+          "entranceOffset": 14,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front"
+        },
+        {
+          "id": "molho-de-tomate",
+          "asset": "assets/itens/molho-de-tomate.png",
+          "width": 540,
+          "x": 535,
+          "ground": 1710,
+          "anchorY": 0.97,
+          "at": 0,
+          "entrance": 0.35,
+          "entranceOffset": 14,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front"
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Macarrão + molho."
+          ],
+          "x": 105,
+          "y": 230,
+          "fontSize": 88
+        }
+      ],
+      "transition": "fade"
+    },
+    {
+      "id": "reserva-organizada",
+      "from": 8.29,
+      "to": 10.6,
+      "background": {
+        "asset": "assets/cenario/despensa-lilas-bancada.mp4",
+        "type": "video",
+        "timing": "global"
+      },
+      "items": [
+        {
+          "id": "macarrao",
+          "asset": "assets/itens/macarrao.png",
+          "width": 650,
+          "x": -25,
+          "ground": 1710,
+          "anchorY": 0.97,
+          "at": 0,
+          "entrance": 0.35,
+          "entranceOffset": 14,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front"
+        },
+        {
+          "id": "molho-de-tomate",
+          "asset": "assets/itens/molho-de-tomate.png",
+          "width": 540,
+          "x": 535,
+          "ground": 1710,
+          "anchorY": 0.97,
+          "at": 0,
+          "entrance": 0.35,
+          "entranceOffset": 14,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front"
+        }
+      ],
+      "titles": [],
+      "transition": "fade"
+    },
+    {
+      "id": "usou-reponha",
+      "from": 10.6,
+      "to": 14.512,
+      "background": {
+        "asset": "assets/cenario/despensa-lilas-bancada.mp4",
+        "type": "video",
+        "timing": "global"
+      },
+      "items": [],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Usou? Reponha."
+          ],
+          "x": 105,
+          "y": 230,
+          "fontSize": 88
+        }
+      ],
+      "transition": "fade",
+      "character": {
+        "faceX": 440,
+        "faceY": 990,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-apontando.png",
+            "width": 850,
+            "anchorX": 575,
+            "anchorY": 440
+          }
+        ]
+      },
+      "checklist": {
+        "heading": "Repor na próxima compra",
+        "lines": [
+          "Macarrão",
+          "Molho de tomate"
+        ],
+        "y": 1210,
+        "checked": true
+      }
+    },
+    {
+      "id": "resultado-com-bebel",
+      "from": 14.512,
+      "to": 17.81551,
+      "background": {
+        "asset": "assets/cenario/despensa-lilas-bancada.mp4",
+        "type": "video",
+        "timing": "global"
+      },
+      "items": [
+        {
+          "id": "frigideira-penne-molho-tomate",
+          "asset": "assets/itens/frigideira-penne-molho-tomate.png",
+          "width": 1150,
+          "x": -35,
+          "ground": 1830,
+          "anchorY": 0.97,
+          "at": 0,
+          "entrance": 0.35,
+          "entranceOffset": 14,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front",
+          "zoom": {
+            "to": 1.04,
+            "seconds": 2.4
+          }
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Jantar encaminhado!"
+          ],
+          "x": 105,
+          "y": 230,
+          "fontSize": 80
+        }
+      ],
+      "transition": "fade",
+      "character": {
+        "faceX": 440,
+        "faceY": 990,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-surpresa.png",
+            "width": 850,
+            "anchorX": 664,
+            "anchorY": 440
+          }
+        ]
+      },
+      "checklist": {
+        "heading": "Repor na próxima compra",
+        "lines": [
+          "Macarrão",
+          "Molho de tomate"
+        ],
+        "y": 1210,
+        "checked": true
+      }
+    }
+  ],
+  "voice": {
+    "provider": "elevenlabs",
+    "fingerprint": "1567ee0eab880032bd26a20e3164b93f4b40c3d83d631aa1f7bb5151bf9956e9",
+    "audioHash": "175a5ab5acb0ecdcbb28c50368156eaba0d4dfcba152cb0b893747d4b2830aa9"
+  },
+  "output": {
+    "file": "output/convertido-0004.mp4",
+    "hash": "37a2265189e6e3c574554881c375f8faaa6fc6c8c65eb13a612b7214dc27ab7b",
+    "signature": "1386198b3a6b8a499fbb7040f06a1bfe2342cc42af2d452d4cafe550dfa78cb9"
+  }
+}

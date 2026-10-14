@@ -1,0 +1,348 @@
+{
+  "schemaVersion": 1,
+  "narration": "A gaveta engasga toda vez que você abre? Minha filha, olha esse batedor atravessado! Primeiro, esvazie e separe o que usa todo dia. O que quase nunca sai pode ir para outro lugar. Depois, organize com divisórias que caibam na gaveta: utensílios compridos deitados, lado a lado, sem empilhar. Por último, feche devagar e confira se nada encosta em cima. Agora abre, pega e devolve. Sem brigar com a gaveta! Menina, gostou? Curte, comenta e compartilha!",
+  "audio": "audio.mp3",
+  "font": "assets/fontes/roboto.ttf",
+  "holdSeconds": 1.1,
+  "scenes": [
+    {
+      "id": "problema",
+      "from": 0,
+      "to": 5.283,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video",
+        "timing": "global"
+      },
+      "character": {
+        "faceX": 440,
+        "faceY": 990,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-surpresa.png",
+            "width": 850,
+            "anchorX": 664,
+            "anchorY": 440
+          },
+          {
+            "at": 2.694,
+            "asset": "assets/personagem/bebel-apontando.png",
+            "width": 850,
+            "anchorX": 575,
+            "anchorY": 440
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "gaveta-utensilios-atravessados",
+          "asset": "assets/itens/gaveta-utensilios-atravessados.png",
+          "width": 1060,
+          "x": 10,
+          "ground": 1840,
+          "anchorY": 1,
+          "at": 0,
+          "entrance": 0.4,
+          "entranceOffset": 18,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front"
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Gaveta engasgando?"
+          ],
+          "x": 90,
+          "y": 170,
+          "fontSize": 78
+        }
+      ],
+      "transition": "fade"
+    },
+    {
+      "id": "separar",
+      "from": 5.283,
+      "to": 12.608,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video",
+        "timing": "global"
+      },
+      "character": {
+        "faceX": 440,
+        "faceY": 990,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-apontando.png",
+            "width": 850,
+            "anchorX": 575,
+            "anchorY": 440
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "gaveta-utensilios-separados",
+          "asset": "assets/itens/gaveta-utensilios-separados.png",
+          "width": 1060,
+          "x": 10,
+          "ground": 1840,
+          "anchorY": 1,
+          "at": 0,
+          "entrance": 0.4,
+          "entranceOffset": 18,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front"
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "1. Separe",
+            "o uso diário."
+          ],
+          "x": 90,
+          "y": 170,
+          "fontSize": 78
+        }
+      ],
+      "transition": "fade"
+    },
+    {
+      "id": "dividir",
+      "from": 12.608,
+      "to": 19.319,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video",
+        "timing": "global"
+      },
+      "character": {
+        "faceX": 440,
+        "faceY": 990,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-apontando.png",
+            "width": 850,
+            "anchorX": 575,
+            "anchorY": 440
+          },
+          {
+            "at": 2.9029999999999987,
+            "asset": "assets/personagem/bebel-olhando.png",
+            "width": 850,
+            "anchorX": 675,
+            "anchorY": 440
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "gaveta-utensilios-organizados",
+          "asset": "assets/itens/gaveta-utensilios-organizados.png",
+          "width": 1060,
+          "x": 10,
+          "ground": 1840,
+          "anchorY": 1,
+          "at": 0,
+          "entrance": 0.4,
+          "entranceOffset": 18,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front"
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "2. Deitados,",
+            "sem empilhar."
+          ],
+          "x": 90,
+          "y": 170,
+          "fontSize": 78
+        }
+      ],
+      "transition": "fade"
+    },
+    {
+      "id": "conferir",
+      "from": 19.319,
+      "to": 23.243,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video",
+        "timing": "global"
+      },
+      "character": {
+        "faceX": 440,
+        "faceY": 990,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-apontando.png",
+            "width": 850,
+            "anchorX": 575,
+            "anchorY": 440
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "gaveta-utensilios-organizados",
+          "asset": "assets/itens/gaveta-utensilios-organizados.png",
+          "width": 1120,
+          "x": -20,
+          "ground": 1840,
+          "anchorY": 1,
+          "at": 0,
+          "entrance": 0.4,
+          "entranceOffset": 18,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front"
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "3. Confira",
+            "a folga."
+          ],
+          "x": 90,
+          "y": 170,
+          "fontSize": 78
+        }
+      ],
+      "transition": "fade"
+    },
+    {
+      "id": "resultado",
+      "from": 23.243,
+      "to": 27.132,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video",
+        "timing": "global"
+      },
+      "character": {
+        "faceX": 440,
+        "faceY": 990,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-surpresa.png",
+            "width": 850,
+            "anchorX": 664,
+            "anchorY": 440
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "gaveta-utensilios-organizados",
+          "asset": "assets/itens/gaveta-utensilios-organizados.png",
+          "width": 1160,
+          "x": -40,
+          "ground": 1840,
+          "anchorY": 1,
+          "at": 0,
+          "entrance": 0.4,
+          "entranceOffset": 18,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front"
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Abre, pega e devolve."
+          ],
+          "x": 90,
+          "y": 170,
+          "fontSize": 78
+        }
+      ],
+      "transition": "fade"
+    },
+    {
+      "id": "fechamento-acolhedor",
+      "from": 27.132,
+      "to": 31.021875,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video",
+        "timing": "global"
+      },
+      "character": {
+        "faceX": 440,
+        "faceY": 990,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-surpresa.png",
+            "width": 850,
+            "anchorX": 664,
+            "anchorY": 440
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "gaveta-utensilios-organizados",
+          "asset": "assets/itens/gaveta-utensilios-organizados.png",
+          "width": 1160,
+          "x": -40,
+          "ground": 1840,
+          "anchorY": 1,
+          "at": 0,
+          "entrance": 0.4,
+          "entranceOffset": 18,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front"
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Menina, gostou?"
+          ],
+          "x": 90,
+          "y": 170,
+          "fontSize": 78
+        }
+      ],
+      "transition": "fade",
+      "engagement": {
+        "likeAt": 1.288999999999998,
+        "commentAt": 1.8810000000000002,
+        "shareAt": 2.7049999999999983,
+        "sound": "assets/sons/pop-interface-suave.wav"
+      }
+    }
+  ],
+  "voice": {
+    "provider": "elevenlabs",
+    "fingerprint": "0c497f0ecaaba9494e8c3c8e237de5039ead4d0c06df1db1599cca9ac9f56f8f",
+    "audioHash": "2271ba0439e50b53808d92412229eccffcd5ad23a9a32c71d192fd838bab4838"
+  },
+  "output": {
+    "file": "output/convertido-0004.mp4",
+    "hash": "8bdb083e4a2ef008209f54ccd012c985160db62ae0680e292a592ede0dff006c",
+    "signature": "7779464a5d05ad4756d10aba2150b92a296c4e4ddcd23f5bc96df2c9e58c64ce"
+  }
+}

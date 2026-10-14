@@ -1,0 +1,215 @@
+{
+  "schemaVersion": 1,
+  "narration": "Pano molhado, todo embolado? Assim ele demora a secar, minha filha! Depois de usar, abra o pano e deixe no suporte, sem amontoar. Quando estiver seco, aí sim você guarda. Olha a diferença! Pano aberto, bancada livre!",
+  "audio": "audio.mp3",
+  "font": "assets/fontes/roboto.ttf",
+  "holdSeconds": 0.4,
+  "scenes": [
+    {
+      "id": "problema-pano-embolado",
+      "from": 0,
+      "to": 4.319,
+      "background": {
+        "asset": "assets/cenario/cozinha-moderna-sitio.png",
+        "type": "image",
+        "timing": "global"
+      },
+      "character": {
+        "faceX": 410,
+        "faceY": 900,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-surpresa.png",
+            "width": 790,
+            "anchorX": 664,
+            "anchorY": 440
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "pano-embolado-suporte-vazio",
+          "asset": "assets/itens/pano-embolado-suporte-vazio.png",
+          "width": 1080,
+          "x": 0,
+          "ground": 1740,
+          "anchorY": 0.91,
+          "at": 0,
+          "entrance": 0.4,
+          "entranceOffset": 12,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front"
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Molhado e embolado?"
+          ],
+          "x": 105,
+          "y": 340,
+          "fontSize": 74,
+          "style": "speech"
+        }
+      ],
+      "transition": "fade"
+    },
+    {
+      "id": "bebel-mostra-como-estender",
+      "from": 4.319,
+      "to": 7.802,
+      "background": {
+        "asset": "assets/cenario/cozinha-moderna-sitio.png",
+        "type": "image",
+        "timing": "global"
+      },
+      "character": {
+        "faceX": 410,
+        "faceY": 940,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-apontando.png",
+            "width": 790,
+            "anchorX": 575,
+            "anchorY": 440
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "pano-unico-aberto-suporte",
+          "asset": "assets/itens/pano-unico-aberto-suporte.png",
+          "width": 1040,
+          "x": 20,
+          "ground": 1740,
+          "anchorY": 0.91,
+          "at": 0,
+          "entrance": 0.4,
+          "entranceOffset": 12,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front"
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Abra para secar."
+          ],
+          "x": 105,
+          "y": 340,
+          "fontSize": 74,
+          "style": "speech"
+        }
+      ],
+      "transition": "fade"
+    },
+    {
+      "id": "guarde-so-quando-seco",
+      "from": 7.802,
+      "to": 10.124,
+      "background": {
+        "asset": "assets/cenario/cozinha-moderna-sitio.png",
+        "type": "image",
+        "timing": "global"
+      },
+      "items": [
+        {
+          "id": "pano-unico-aberto-suporte",
+          "asset": "assets/itens/pano-unico-aberto-suporte.png",
+          "width": 1320,
+          "x": -120,
+          "ground": 1740,
+          "anchorY": 0.91,
+          "at": 0,
+          "entrance": 0.4,
+          "entranceOffset": 12,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front",
+          "zoom": {
+            "to": 1.025,
+            "seconds": 2.2
+          }
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Guarde só",
+            "quando seco."
+          ],
+          "x": 105,
+          "y": 230,
+          "fontSize": 82
+        }
+      ],
+      "transition": "fade"
+    },
+    {
+      "id": "bancada-livre-e-seguir",
+      "from": 10.124,
+      "to": 13.5604375,
+      "background": {
+        "asset": "assets/cenario/cozinha-moderna-sitio.png",
+        "type": "image",
+        "timing": "global"
+      },
+      "character": {
+        "faceX": 410,
+        "faceY": 940,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-surpresa.png",
+            "width": 790,
+            "anchorX": 664,
+            "anchorY": 440
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "pano-unico-aberto-suporte",
+          "asset": "assets/itens/pano-unico-aberto-suporte.png",
+          "width": 1040,
+          "x": 20,
+          "ground": 1740,
+          "anchorY": 0.91,
+          "at": 0,
+          "entrance": 0.4,
+          "entranceOffset": 12,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front"
+        }
+      ],
+      "titles": [],
+      "transition": "fade",
+      "follow": {
+        "at": 0,
+        "tapAt": 1.6,
+        "avatar": "assets/personagem/bebe-roxa.jpg",
+        "handle": "bebelzinha.app",
+        "subtitle": "Casa mais prática",
+        "y": 260
+      }
+    }
+  ],
+  "voice": {
+    "provider": "elevenlabs",
+    "fingerprint": "a218ecf334a664b9684a5b48db6e716e24c42fe6ba0299ebc23c078506a64aa8",
+    "audioHash": "a99085d78de2b8127a79da7f35f2576a7f6d0c6e053af2cc84838145af6a0ff8"
+  },
+  "output": {
+    "file": "output/convertido-0001.mp4",
+    "hash": "3e61f1623bbbc5f6c3a10a6c813e2c1c53afc3c988a7d15c19e6273524669768",
+    "signature": "a462641a2830c54240d465dd855d163653956530a135774a1586d72fe2f4f601"
+  }
+}

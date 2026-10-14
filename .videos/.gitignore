@@ -22,3 +22,6 @@ assets/cenas/tarefas/**/.runtime/
 assets/cenas/tarefas/**/.work.json
 assets/cenas/tarefas/**/output/
 assets/cenas/tarefas/**/*.tmp.mp3
+
+# Material temporário de inspeção, sem alterar arquivos locais.
+tmp/

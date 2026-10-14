@@ -9,6 +9,7 @@ import { background, importImage } from '../factory/cenas/assets.ts';
 import { editorial, remember } from '../factory/cenas/editorial.ts';
 import { acceleratedFrames } from '../factory/cenas/speed.ts';
 import { backgroundRate, bank, fingerprint, prepare, validatePlan } from '../factory/cenas/prepare.ts';
+import {itemSoundCueTimes} from '../factory/cenas/item-sounds.ts';
 import { compact } from '../factory/cenas/render.ts';
 import { synthesize, wordMarkers } from '../factory/narration/elevenlabs.ts';
 import type { VoiceConfig } from '../factory/narration/elevenlabs.ts';
@@ -31,6 +32,37 @@ const plan = (): Plan => ({ schemaVersion: 1, narration: 'Minha filha', audio: '
     { id: 'cena-01', from: 0, to: 2, background: { asset: 'assets/cenario/cozinha.png', type: 'image' }, items: [], titles: [] },
     { id: 'cena-02', from: 2, to: 4, background: { asset: 'assets/cenario/cozinha.png', type: 'image' }, items: [], titles: [] },
   ] });
+
+test('cartão de seguir valida timing e avatar sem afetar planos antigos',()=>{
+  const p=plan();
+  assert.doesNotThrow(()=>validatePlan(p,4));
+  p.scenes[1].follow={at:0,tapAt:1,avatar:'assets/personagem/bebe-roxa.jpg',handle:'bebelzinha.app'};
+  assert.doesNotThrow(()=>validatePlan(p,4));
+  p.scenes[1].follow.tapAt=2;
+  assert.throws(()=>validatePlan(p,4),/Cartão de seguir/);
+  p.scenes[1].follow.tapAt=1;p.scenes[1].follow.avatar='../avatar.png';
+  assert.throws(()=>validatePlan(p,4),/Cartão de seguir/);
+});
+
+test('fechamento interativo exige ordem, marcações dentro da cena e som no banco',()=>{
+  const p=plan();p.scenes[1].engagement={likeAt:.2,commentAt:.6,shareAt:1,sound:'assets/sons/pop.wav'};
+  assert.doesNotThrow(()=>validatePlan(p,4));
+  p.scenes[1].engagement.commentAt=.1;
+  assert.throws(()=>validatePlan(p,4),/Fechamento interativo/);
+  p.scenes[1].engagement.commentAt=.6;p.scenes[1].engagement.shareAt=2;
+  assert.throws(()=>validatePlan(p,4),/Fechamento interativo/);
+  p.scenes[1].engagement.shareAt=1;p.scenes[1].engagement.sound='../fora.wav';
+  assert.throws(()=>validatePlan(p,4),/Fechamento interativo/);
+});
+
+test('som de item agrupa entradas e não repete na continuidade ou no close',()=>{
+ const p=plan();const item={id:'pote',asset:'assets/itens/pote.png',x:0,ground:1800,width:800,at:0};
+ p.scenes[0].items=[item];p.scenes[1].items=[{...item,width:1000},{...item,id:'colher',asset:'assets/itens/colher.png',at:1},{...item,id:'garfo',asset:'assets/itens/garfo.png',at:1}];
+ assert.deepEqual(itemSoundCueTimes(p.scenes[0]),[0]);
+ assert.deepEqual(itemSoundCueTimes(p.scenes[1],p.scenes[0]),[1]);
+ p.scenes[0].items[0].until=1;
+ assert.deepEqual(itemSoundCueTimes(p.scenes[1],p.scenes[0]),[0,1]);
+});
 
 test('velocidade final 1.3x mantém FPS e arredonda a duração completa', () => {
   assert.equal(acceleratedFrames(609, 1.3), 469);
@@ -65,6 +97,14 @@ test('tema cria ID novo sem sobrescrever outro com mesmo nome', (t) => {
   assert.equal(first.task, '001-arroz-repetido'); assert.equal(second.task, '002-arroz-repetido');
   assert.throws(() => narration(scriptText(root, first.roteiro)), /vazia/);
   assert.throws(() => create(root, '../', 20)); assert.throws(() => create(root, 'Tema', 0));
+});
+test('roteiro pode definir duração sem alvo fixo e aceita estimativa acima de dois minutos', (t) => {
+  const root = fixture(t);
+  const automatic = create(root, 'História sem limite editorial');
+  assert.match(scriptText(root, automatic.roteiro), /Duração definida pelo roteiro e pelo áudio real/);
+  const longer = create(root, 'Explicação que precisa de mais tempo', 180);
+  assert.match(scriptText(root, longer.roteiro), /180s \(referência, não limite\)/);
+  assert.throws(() => create(root, 'Estimativa inválida', Number.NaN));
 });
 function scriptText(root: string, path: string) { return readFileSync(safe(root, path), 'utf8'); }
 

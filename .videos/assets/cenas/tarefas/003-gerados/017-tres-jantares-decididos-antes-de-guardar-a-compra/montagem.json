@@ -1,0 +1,236 @@
+{
+  "schemaVersion": 1,
+  "narration": "Jantar em cima da hora? Escolha três opções antes de guardar a compra. Arroz com frango e cenoura. Wrap com frango e cenoura. Omelete de cenoura. Anote uma por noite. Pronto, minha filha! Três jantares decididos. Uma preocupação a menos!",
+  "audio": "audio.mp3",
+  "font": "assets/fontes/roboto.ttf",
+  "holdSeconds": 0.3,
+  "scenes": [
+    {
+      "id": "antes-da-correria",
+      "from": 0,
+      "to": 3.692,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video",
+        "timing": "global"
+      },
+      "items": [
+        {
+          "id": "sacola-compra-tres-jantares",
+          "asset": "assets/itens/sacola-compra-tres-jantares.png",
+          "width": 820,
+          "x": 130,
+          "ground": 1840,
+          "anchorY": 0.9345703125,
+          "at": 0,
+          "entrance": 0.4,
+          "entranceOffset": 16,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front"
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Jantar em cima",
+            "da hora?"
+          ],
+          "x": 105,
+          "y": 230,
+          "fontSize": 82
+        }
+      ],
+      "transition": "fade",
+      "character": {
+        "faceX": 440,
+        "faceY": 990,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-surpresa.png",
+            "width": 850,
+            "anchorX": 664,
+            "anchorY": 440
+          },
+          {
+            "at": 1.358,
+            "asset": "assets/personagem/bebel-apontando.png",
+            "width": 850,
+            "anchorX": 575,
+            "anchorY": 440
+          }
+        ]
+      }
+    },
+    {
+      "id": "primeira-opcao",
+      "from": 3.692,
+      "to": 5.968,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video",
+        "timing": "global"
+      },
+      "items": [
+        {
+          "id": "prato-arroz-frango-cenoura",
+          "asset": "assets/itens/prato-arroz-frango-cenoura.png",
+          "width": 1250,
+          "x": -85,
+          "ground": 1750,
+          "anchorY": 0.9150390625,
+          "at": 0,
+          "entrance": 0.4,
+          "entranceOffset": 16,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front"
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "1. Arroz e frango."
+          ],
+          "x": 105,
+          "y": 230,
+          "fontSize": 82
+        }
+      ],
+      "transition": "fade"
+    },
+    {
+      "id": "segunda-opcao",
+      "from": 5.968,
+      "to": 8.22,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video",
+        "timing": "global"
+      },
+      "items": [
+        {
+          "id": "prato-wrap-frango-cenoura",
+          "asset": "assets/itens/prato-wrap-frango-cenoura.png",
+          "width": 1250,
+          "x": -85,
+          "ground": 1750,
+          "anchorY": 0.912109375,
+          "at": 0,
+          "entrance": 0.4,
+          "entranceOffset": 16,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front"
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "2. Wrap de frango."
+          ],
+          "x": 105,
+          "y": 230,
+          "fontSize": 82
+        }
+      ],
+      "transition": "fade"
+    },
+    {
+      "id": "terceira-opcao",
+      "from": 8.22,
+      "to": 9.683,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video",
+        "timing": "global"
+      },
+      "items": [
+        {
+          "id": "frigideira-omelete-cenoura",
+          "asset": "assets/itens/frigideira-omelete-cenoura.png",
+          "width": 1280,
+          "x": -100,
+          "ground": 1760,
+          "anchorY": 0.95703125,
+          "at": 0,
+          "entrance": 0.4,
+          "entranceOffset": 16,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front"
+        }
+      ],
+      "titles": [],
+      "transition": "fade"
+    },
+    {
+      "id": "tarefa-resolvida",
+      "from": 9.683,
+      "to": 16.3933125,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video",
+        "timing": "global"
+      },
+      "items": [],
+      "titles": [
+        {
+          "at": 1.8919999999999995,
+          "lines": [
+            "Uma preocupação",
+            "a menos!"
+          ],
+          "x": 105,
+          "y": 230,
+          "fontSize": 82
+        }
+      ],
+      "transition": "fade",
+      "character": {
+        "faceX": 440,
+        "faceY": 990,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-apontando.png",
+            "width": 850,
+            "anchorX": 575,
+            "anchorY": 440
+          },
+          {
+            "at": 1.8919999999999995,
+            "asset": "assets/personagem/bebel-surpresa.png",
+            "width": 850,
+            "anchorX": 664,
+            "anchorY": 440
+          }
+        ]
+      },
+      "checklist": {
+        "heading": "3 jantares decididos",
+        "lines": [
+          "Arroz com frango",
+          "Wrap de frango",
+          "Omelete de cenoura"
+        ],
+        "y": 1190,
+        "checked": true
+      }
+    }
+  ],
+  "voice": {
+    "provider": "elevenlabs",
+    "fingerprint": "d4291413ab2881e864311e41ebc66872654c835c9b1eaf2d80dcccb3903354c8",
+    "audioHash": "7bc8389f06fd4d905b63ce76e4f6d6c3b1ad65aa20d4b4458683e822871694c5"
+  },
+  "output": {
+    "file": "output/convertido-0001.mp4",
+    "hash": "2e1eae1bee4302e4c52352ba60e611a3ac2db191c0c50417d7b5cc4d3012f03b",
+    "signature": "58cefd39141a148daf8dfbeee994b26030ab59812b0dbba8c02163a166c62c6a"
+  }
+}

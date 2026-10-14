@@ -1,0 +1,366 @@
+{
+  "schemaVersion": 1,
+  "narration": "Vai descascar batata de novo amanhã? Adiante a base dos dois jantares! Cozinhe até ficar macia, mas firme, escorra e separe. Guarde a porção de amanhã num pote raso, na geladeira. Hoje, ela vira salada com tomate e ovo cozido. Amanhã, com cebola e ovos, vira fritata. Pronto, minha filha! O prato muda, mas você não começa tudo do zero!",
+  "audio": "audio.mp3",
+  "font": "assets/fontes/roboto.ttf",
+  "holdSeconds": 0.4,
+  "scenes": [
+    {
+      "id": "descascar-de-novo",
+      "from": 0,
+      "to": 2.368,
+      "background": {
+        "asset": "assets/cenario/despensa-lilas-bancada.mp4",
+        "type": "video",
+        "timing": "global"
+      },
+      "character": {
+        "faceX": 410,
+        "faceY": 950,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-surpresa.png",
+            "width": 790,
+            "anchorX": 664,
+            "anchorY": 440
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "batatas-cruas-tabua-descascador",
+          "asset": "assets/itens/batatas-cruas-tabua-descascador.png",
+          "width": 1140,
+          "x": -30,
+          "ground": 1740,
+          "anchorY": 0.9,
+          "at": 0,
+          "entrance": 0.4,
+          "entranceOffset": 12,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front"
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Descascar tudo",
+            "de novo amanhã?"
+          ],
+          "x": 105,
+          "y": 340,
+          "fontSize": 74,
+          "style": "speech"
+        }
+      ],
+      "transition": "fade"
+    },
+    {
+      "id": "uma-base-dois-jantares",
+      "from": 2.368,
+      "to": 4.249,
+      "background": {
+        "asset": "assets/cenario/despensa-lilas-bancada.mp4",
+        "type": "video",
+        "timing": "global"
+      },
+      "character": {
+        "faceX": 410,
+        "faceY": 950,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-apontando.png",
+            "width": 790,
+            "anchorX": 575,
+            "anchorY": 440
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "batata-cozida-duas-porcoes",
+          "asset": "assets/itens/batata-cozida-duas-porcoes.png",
+          "width": 1140,
+          "x": -30,
+          "ground": 1740,
+          "anchorY": 0.9,
+          "at": 0,
+          "entrance": 0.4,
+          "entranceOffset": 12,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front"
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Uma base,",
+            "dois jantares!"
+          ],
+          "x": 105,
+          "y": 340,
+          "fontSize": 74,
+          "style": "speech"
+        }
+      ],
+      "transition": "fade"
+    },
+    {
+      "id": "cozinhar-escorrer-separar",
+      "from": 4.249,
+      "to": 8.557,
+      "background": {
+        "asset": "assets/cenario/despensa-lilas-bancada.mp4",
+        "type": "video",
+        "timing": "global"
+      },
+      "items": [
+        {
+          "id": "batata-cozida-duas-porcoes",
+          "asset": "assets/itens/batata-cozida-duas-porcoes.png",
+          "width": 1360,
+          "x": -140,
+          "ground": 1740,
+          "anchorY": 0.9,
+          "at": 0,
+          "entrance": 0.4,
+          "entranceOffset": 12,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front",
+          "zoom": {
+            "to": 1.03,
+            "seconds": 3.8
+          }
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Cozinhe. Escorra.",
+            "Separe as porções."
+          ],
+          "x": 105,
+          "y": 230,
+          "fontSize": 82
+        }
+      ],
+      "transition": "fade"
+    },
+    {
+      "id": "porcao-de-amanha",
+      "from": 8.557,
+      "to": 11.947,
+      "background": {
+        "asset": "assets/cenario/despensa-lilas-bancada.mp4",
+        "type": "video",
+        "timing": "global"
+      },
+      "items": [
+        {
+          "id": "batata-cozida-duas-porcoes",
+          "asset": "assets/itens/batata-cozida-duas-porcoes.png",
+          "width": 1700,
+          "x": -800,
+          "ground": 1740,
+          "anchorY": 0.9,
+          "at": 0,
+          "entrance": 0.4,
+          "entranceOffset": 12,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front"
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Porção de amanhã:",
+            "na geladeira."
+          ],
+          "x": 105,
+          "y": 230,
+          "fontSize": 82
+        }
+      ],
+      "transition": "fade"
+    },
+    {
+      "id": "hoje-salada",
+      "from": 11.947,
+      "to": 15.476,
+      "background": {
+        "asset": "assets/cenario/despensa-lilas-bancada.mp4",
+        "type": "video",
+        "timing": "global"
+      },
+      "items": [
+        {
+          "id": "salada-batata-tomate-ovo",
+          "asset": "assets/itens/salada-batata-tomate-ovo.png",
+          "width": 1400,
+          "x": -160,
+          "ground": 1740,
+          "anchorY": 0.9,
+          "at": 0,
+          "entrance": 0.4,
+          "entranceOffset": 12,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front",
+          "zoom": {
+            "to": 1.03,
+            "seconds": 3.2
+          }
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Hoje: salada",
+            "com tomate e ovo."
+          ],
+          "x": 105,
+          "y": 230,
+          "fontSize": 82
+        }
+      ],
+      "transition": "fade"
+    },
+    {
+      "id": "amanha-fritata",
+      "from": 15.476,
+      "to": 18.529,
+      "background": {
+        "asset": "assets/cenario/despensa-lilas-bancada.mp4",
+        "type": "video",
+        "timing": "global"
+      },
+      "character": {
+        "faceX": 410,
+        "faceY": 950,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-apontando.png",
+            "width": 790,
+            "anchorX": 575,
+            "anchorY": 440
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "fritata-batata-cebola",
+          "asset": "assets/itens/fritata-batata-cebola.png",
+          "width": 1140,
+          "x": -30,
+          "ground": 1740,
+          "anchorY": 0.9,
+          "at": 0,
+          "entrance": 0.4,
+          "entranceOffset": 12,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front"
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Amanhã: fritata",
+            "de batata e cebola."
+          ],
+          "x": 105,
+          "y": 340,
+          "fontSize": 74,
+          "style": "speech"
+        }
+      ],
+      "transition": "fade"
+    },
+    {
+      "id": "dois-caminhos-encaminhados",
+      "from": 18.529,
+      "to": 22.8484375,
+      "background": {
+        "asset": "assets/cenario/despensa-lilas-bancada.mp4",
+        "type": "video",
+        "timing": "global"
+      },
+      "character": {
+        "faceX": 410,
+        "faceY": 950,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-surpresa.png",
+            "width": 790,
+            "anchorX": 664,
+            "anchorY": 440
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "salada-batata-tomate-ovo",
+          "asset": "assets/itens/salada-batata-tomate-ovo.png",
+          "width": 650,
+          "x": -20,
+          "ground": 1760,
+          "anchorY": 0.9,
+          "at": 0,
+          "entrance": 0.4,
+          "entranceOffset": 12,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front"
+        },
+        {
+          "id": "fritata-batata-cebola",
+          "asset": "assets/itens/fritata-batata-cebola.png",
+          "width": 650,
+          "x": 450,
+          "ground": 1820,
+          "anchorY": 0.9,
+          "at": 0,
+          "entrance": 0.4,
+          "entranceOffset": 12,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front"
+        }
+      ],
+      "titles": [],
+      "transition": "fade",
+      "follow": {
+        "at": 0,
+        "tapAt": 1.6,
+        "avatar": "assets/personagem/bebe-roxa.jpg",
+        "handle": "bebelzinha.app",
+        "subtitle": "Jantar mais fácil",
+        "y": 260
+      }
+    }
+  ],
+  "voice": {
+    "provider": "elevenlabs",
+    "fingerprint": "4f5403eb12e78764e1b1a5b1bfa861a2c646ed49aeb64e525df08d03ceb0074c",
+    "audioHash": "6c3c51fc439dc613f87aab29a3a01c100b64be49638b1889d3c3037fec3d1b4a"
+  },
+  "output": {
+    "file": "output/convertido-0001.mp4",
+    "hash": "cdd1dde4b39bf2e5934620b0d656159d9cc13355844e3c9e82aa6bc68d84373e",
+    "signature": "8a9e58daa8ded1a3f9a3c05f63c5cb368520fa138a1597978b281cac060c6eb4"
+  }
+}

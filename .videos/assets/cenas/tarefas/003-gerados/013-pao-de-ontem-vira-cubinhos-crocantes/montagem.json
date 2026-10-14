@@ -1,0 +1,356 @@
+{
+  "schemaVersion": 1,
+  "narration": "Pão de ontem ficou duro? Transforma em cubinhos crocantes, minha filha! Corte em cubos. Aqueça duas colheres de azeite na frigideira, em fogo médio. Junte duas xícaras de pão, tempere com sal e mexa até dourar e ficar sequinho. Finalize com um fio de azeite e alecrim. Olha essa crocância para a salada! O pão que sobrou virou acompanhamento.",
+  "audio": "audio.mp3",
+  "font": "assets/fontes/roboto.ttf",
+  "holdSeconds": 0.3,
+  "scenes": [
+    {
+      "id": "gancho",
+      "from": 0,
+      "to": 4.458,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video"
+      },
+      "character": {
+        "faceX": 440,
+        "faceY": 990,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-surpresa.png",
+            "width": 850,
+            "anchorX": 664,
+            "anchorY": 440
+          },
+          {
+            "at": 1.892,
+            "asset": "assets/personagem/bebel-apontando.png",
+            "width": 850,
+            "anchorX": 575,
+            "anchorY": 440
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "pao-inteiro-tabua",
+          "asset": "assets/itens/pao-inteiro-tabua.png",
+          "x": 10,
+          "width": 1060,
+          "ground": 1840,
+          "anchorY": 0.9150390625,
+          "at": 0,
+          "entrance": 0.35,
+          "entranceOffset": 20,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front",
+          "until": 2.2,
+          "exit": 0.3
+        },
+        {
+          "id": "panela-lilas-croutons-alecrim",
+          "asset": "assets/itens/panela-lilas-croutons-alecrim.png",
+          "x": 10,
+          "width": 1060,
+          "ground": 1840,
+          "anchorY": 0.8701171875,
+          "at": 1.892,
+          "entrance": 0.35,
+          "entranceOffset": 20,
+          "initiallyVisible": false,
+          "shadow": true,
+          "layer": "front"
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Pão de ontem?"
+          ],
+          "x": 90,
+          "y": 170,
+          "fontSize": 82
+        }
+      ],
+      "transition": "fade"
+    },
+    {
+      "id": "corte",
+      "from": 4.458,
+      "to": 5.817,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video"
+      },
+      "character": {
+        "faceX": 440,
+        "faceY": 990,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-apontando.png",
+            "width": 850,
+            "anchorX": 575,
+            "anchorY": 440
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "pao-cubos-tabua",
+          "asset": "assets/itens/pao-cubos-tabua.png",
+          "x": 10,
+          "width": 1060,
+          "ground": 1840,
+          "anchorY": 0.865234375,
+          "at": 0,
+          "entrance": 0.35,
+          "entranceOffset": 20,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front"
+        }
+      ],
+      "titles": [],
+      "transition": "fade"
+    },
+    {
+      "id": "azeite",
+      "from": 5.817,
+      "to": 9.242,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video"
+      },
+      "character": {
+        "faceX": 440,
+        "faceY": 990,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-olhando.png",
+            "width": 850,
+            "anchorX": 675,
+            "anchorY": 440
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "panela-lilas-azeite-fino",
+          "asset": "assets/itens/panela-lilas-azeite-fino.png",
+          "x": 10,
+          "width": 1060,
+          "ground": 1840,
+          "anchorY": 0.869140625,
+          "at": 0,
+          "entrance": 0.35,
+          "entranceOffset": 20,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front"
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Azeite.",
+            "Fogo médio."
+          ],
+          "x": 90,
+          "y": 170,
+          "fontSize": 82
+        }
+      ],
+      "transition": "fade"
+    },
+    {
+      "id": "junte-pao",
+      "from": 9.242,
+      "to": 12.527,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video"
+      },
+      "character": {
+        "faceX": 440,
+        "faceY": 990,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-apontando.png",
+            "width": 850,
+            "anchorX": 575,
+            "anchorY": 440
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "panela-lilas-pao-cru",
+          "asset": "assets/itens/panela-lilas-pao-cru.png",
+          "x": 10,
+          "width": 1060,
+          "ground": 1840,
+          "anchorY": 0.869140625,
+          "at": 0,
+          "entrance": 0.35,
+          "entranceOffset": 20,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front"
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Junte pão e sal."
+          ],
+          "x": 90,
+          "y": 170,
+          "fontSize": 82
+        }
+      ],
+      "transition": "fade"
+    },
+    {
+      "id": "dourar",
+      "from": 12.527,
+      "to": 17.787,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video"
+      },
+      "character": {
+        "faceX": 440,
+        "faceY": 990,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-olhando.png",
+            "width": 850,
+            "anchorX": 675,
+            "anchorY": 440
+          },
+          {
+            "at": 2.183,
+            "asset": "assets/personagem/bebel-apontando.png",
+            "width": 850,
+            "anchorX": 575,
+            "anchorY": 440
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "panela-lilas-croutons-dourados",
+          "asset": "assets/itens/panela-lilas-croutons-dourados.png",
+          "x": 10,
+          "width": 1060,
+          "ground": 1840,
+          "anchorY": 0.8701171875,
+          "at": 0,
+          "entrance": 0.35,
+          "entranceOffset": 20,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front",
+          "until": 4.6,
+          "exit": 0.3
+        },
+        {
+          "id": "panela-lilas-croutons-alecrim",
+          "asset": "assets/itens/panela-lilas-croutons-alecrim.png",
+          "x": 10,
+          "width": 1060,
+          "ground": 1840,
+          "anchorY": 0.8701171875,
+          "at": 4.308,
+          "entrance": 0.35,
+          "entranceOffset": 20,
+          "initiallyVisible": false,
+          "shadow": true,
+          "layer": "front"
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Dourado e sequinho."
+          ],
+          "x": 90,
+          "y": 170,
+          "fontSize": 82
+        }
+      ],
+      "transition": "fade"
+    },
+    {
+      "id": "resultado",
+      "from": 17.787,
+      "to": 22.8484375,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video"
+      },
+      "character": {
+        "faceX": 440,
+        "faceY": 990,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-surpresa.png",
+            "width": 850,
+            "anchorX": 664,
+            "anchorY": 440
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "panela-lilas-croutons-alecrim",
+          "asset": "assets/itens/panela-lilas-croutons-alecrim.png",
+          "x": -40,
+          "width": 1160,
+          "ground": 1840,
+          "anchorY": 0.8701171875,
+          "at": 0,
+          "entrance": 0.35,
+          "entranceOffset": 20,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front"
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Pão virou crocância!"
+          ],
+          "x": 90,
+          "y": 170,
+          "fontSize": 82
+        }
+      ],
+      "transition": "fade"
+    }
+  ],
+  "voice": {
+    "provider": "elevenlabs",
+    "fingerprint": "196d225e3e6dc9caf24e1e86df0dad862cb85faea337f24f889bf53af538242b",
+    "audioHash": "466093d4f0dfe3379eb9cd97b35e8e9a293614fa47c023c3639777e137a7de7a"
+  },
+  "output": {
+    "file": "output/convertido-0001.mp4",
+    "hash": "2e4d2226c0f0f9fe081fd3d24b8203ce69777b6b730f7cc841f2c29157c614d3",
+    "signature": "346becda8ef69e8a5cb6a6d60275c01e65578141f77f75d8b38c33bdfea01518"
+  }
+}

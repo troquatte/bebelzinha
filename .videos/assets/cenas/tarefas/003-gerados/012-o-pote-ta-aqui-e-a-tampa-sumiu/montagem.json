@@ -48,7 +48,9 @@
           "lines": [
             "Cadê a tampa?"
           ],
-          "fontSize": 82
+          "fontSize": 82,
+          "x": 90,
+          "y": 170
         }
       ],
       "objectFocus": true,
@@ -91,15 +93,7 @@
           "entranceOffset": 24
         }
       ],
-      "titles": [
-        {
-          "at": 0,
-          "lines": [
-            "Depois: tudo à vista."
-          ],
-          "fontSize": 82
-        }
-      ],
+      "titles": [],
       "objectFocus": true,
       "transition": "fade"
     },
@@ -144,9 +138,11 @@
         {
           "at": 0,
           "lines": [
-            "Pilha esconde tampas."
+            "A pilha esconde tampas."
           ],
-          "fontSize": 82
+          "fontSize": 82,
+          "x": 90,
+          "y": 170
         }
       ],
       "objectFocus": true,
@@ -193,10 +189,11 @@
         {
           "at": 0,
           "lines": [
-            "Potes secos.",
-            "Encaixe os compatíveis."
+            "Encaixe os potes."
           ],
-          "fontSize": 82
+          "fontSize": 82,
+          "x": 90,
+          "y": 170
         }
       ],
       "objectFocus": true,
@@ -243,10 +240,12 @@
         {
           "at": 0,
           "lines": [
-            "Tampas em pé.",
-            "Separe por tamanho."
+            "Tampas em pé,",
+            "por tamanho."
           ],
-          "fontSize": 82
+          "fontSize": 82,
+          "x": 90,
+          "y": 170
         }
       ],
       "objectFocus": true,
@@ -293,9 +292,11 @@
         {
           "at": 0,
           "lines": [
-            "Enxergue a tampa certa."
+            "Veja a tampa certa."
           ],
-          "fontSize": 82
+          "fontSize": 82,
+          "x": 90,
+          "y": 170
         }
       ],
       "objectFocus": true,
@@ -342,9 +343,12 @@
         {
           "at": 0,
           "lines": [
-            "Achou. Fechou!"
+            "Tampa certa.",
+            "Pote fechado."
           ],
-          "fontSize": 82
+          "fontSize": 82,
+          "x": 90,
+          "y": 170
         }
       ],
       "objectFocus": true,
@@ -357,8 +361,8 @@
     "audioHash": "aebf221d8e74facf00c265103d7c3ca59ca34de9e05793746a77944fb9a9af94"
   },
   "output": {
-    "file": "output/convertido-0002.mp4",
-    "hash": "7f7a3c3eef96540f4d2b01d660e6a931285b8dcd51f7dd2c2cfe49769895627c",
-    "signature": "b69493a147eb0bbcc85075f9934b6de9980e37e3c99d4234cd3982327c99957c"
+    "file": "output/convertido-0003.mp4",
+    "hash": "690d83ab67ce25138c29676983e5d30558209953a8e7c5487359d5534175f5ff",
+    "signature": "00a5532a7490a037665c01414113ef037afe2b7659fa8187748a3932577cb34f"
   }
 }

@@ -1,0 +1,418 @@
+{
+  "schemaVersion": 1,
+  "narration": "Um creminho rosinha sem açúcar adicionado? Minha filha, olha como é simples! Para bebês a partir de seis meses, com a introdução alimentar já iniciada. Amasse meia banana madura e dois morangos higienizados e bem macios com um garfo. Misture duas colheres de iogurte natural integral, pasteurizado e sem açúcar. Use ingredientes que o bebê já tolera. Sem mel e sem liquidificador! Ofereça na textura adequada, com o bebê sentado e acompanhado. Menina, gostou? Curte, comenta e compartilha!",
+  "audio": "audio.mp3",
+  "font": "assets/fontes/roboto.ttf",
+  "holdSeconds": 1.1,
+  "scenes": [
+    {
+      "id": "gancho",
+      "from": 0,
+      "to": 5.724,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video",
+        "timing": "global"
+      },
+      "character": {
+        "faceX": 440,
+        "faceY": 990,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-surpresa.png",
+            "width": 850,
+            "anchorX": 664,
+            "anchorY": 440
+          },
+          {
+            "at": 3.088,
+            "asset": "assets/personagem/bebel-apontando.png",
+            "width": 850,
+            "anchorX": 575,
+            "anchorY": 440
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "tigela-lilas-creminho-morango-banana",
+          "asset": "assets/itens/tigela-lilas-creminho-morango-banana.png",
+          "width": 1100,
+          "x": -10,
+          "ground": 1800,
+          "anchorY": 0.9189453125,
+          "at": 0,
+          "entrance": 0.45,
+          "entranceOffset": 18,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front"
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Creminho rosinha!",
+            "Sem açúcar adicionado."
+          ],
+          "x": 90,
+          "y": 170,
+          "fontSize": 76
+        }
+      ],
+      "transition": "fade"
+    },
+    {
+      "id": "contexto",
+      "from": 5.724,
+      "to": 9.834,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video",
+        "timing": "global"
+      },
+      "character": {
+        "faceX": 440,
+        "faceY": 990,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-apontando.png",
+            "width": 850,
+            "anchorX": 575,
+            "anchorY": 440
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "creminho-ingredientes-banana-morango-iogurte",
+          "asset": "assets/itens/creminho-ingredientes-banana-morango-iogurte.png",
+          "width": 1080,
+          "x": 0,
+          "ground": 1800,
+          "anchorY": 0.896484375,
+          "at": 0,
+          "entrance": 0.45,
+          "entranceOffset": 18,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front"
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "6 meses ou mais.",
+            "Introdução já iniciada."
+          ],
+          "x": 90,
+          "y": 170,
+          "fontSize": 76
+        }
+      ],
+      "transition": "fade"
+    },
+    {
+      "id": "amassar",
+      "from": 9.834,
+      "to": 15.604,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video",
+        "timing": "global"
+      },
+      "character": {
+        "faceX": 440,
+        "faceY": 990,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-olhando.png",
+            "width": 850,
+            "anchorX": 675,
+            "anchorY": 440
+          },
+          {
+            "at": 2.136,
+            "asset": "assets/personagem/bebel-apontando.png",
+            "width": 850,
+            "anchorX": 575,
+            "anchorY": 440
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "tigela-lilas-banana-amassada",
+          "asset": "assets/itens/tigela-lilas-banana-amassada.png",
+          "width": 1100,
+          "x": -10,
+          "ground": 1800,
+          "anchorY": 0.921875,
+          "at": 0,
+          "entrance": 0.45,
+          "entranceOffset": 18,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front",
+          "until": 2.48,
+          "exit": 0.4
+        },
+        {
+          "id": "tigela-lilas-frutas-amassadas",
+          "asset": "assets/itens/tigela-lilas-frutas-amassadas.png",
+          "width": 1100,
+          "x": -10,
+          "ground": 1800,
+          "anchorY": 0.919921875,
+          "at": 2.136,
+          "entrance": 0.45,
+          "entranceOffset": 18,
+          "initiallyVisible": false,
+          "shadow": true,
+          "layer": "front"
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "1. Amasse as frutas",
+            "com garfo."
+          ],
+          "x": 90,
+          "y": 170,
+          "fontSize": 76
+        }
+      ],
+      "transition": "fade"
+    },
+    {
+      "id": "misturar",
+      "from": 15.604,
+      "to": 20.619,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video",
+        "timing": "global"
+      },
+      "character": {
+        "faceX": 440,
+        "faceY": 990,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-apontando.png",
+            "width": 850,
+            "anchorX": 575,
+            "anchorY": 440
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "tigela-lilas-frutas-iogurte",
+          "asset": "assets/itens/tigela-lilas-frutas-iogurte.png",
+          "width": 1100,
+          "x": -10,
+          "ground": 1800,
+          "anchorY": 0.9189453125,
+          "at": 0,
+          "entrance": 0.45,
+          "entranceOffset": 18,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front"
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "2. Iogurte natural,",
+            "sem açúcar."
+          ],
+          "x": 90,
+          "y": 170,
+          "fontSize": 76
+        }
+      ],
+      "transition": "fade"
+    },
+    {
+      "id": "cuidados",
+      "from": 20.619,
+      "to": 25.333,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video",
+        "timing": "global"
+      },
+      "character": {
+        "faceX": 440,
+        "faceY": 990,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-olhando.png",
+            "width": 850,
+            "anchorX": 675,
+            "anchorY": 440
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "tigela-lilas-creminho-morango-banana",
+          "asset": "assets/itens/tigela-lilas-creminho-morango-banana.png",
+          "width": 1100,
+          "x": -10,
+          "ground": 1800,
+          "anchorY": 0.9189453125,
+          "at": 0,
+          "entrance": 0.45,
+          "entranceOffset": 18,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front"
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Ingredientes já tolerados.",
+            "Sem mel."
+          ],
+          "x": 90,
+          "y": 170,
+          "fontSize": 76
+        }
+      ],
+      "transition": "fade"
+    },
+    {
+      "id": "resultado",
+      "from": 25.333,
+      "to": 29.745,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video",
+        "timing": "global"
+      },
+      "character": {
+        "faceX": 440,
+        "faceY": 990,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-apontando.png",
+            "width": 850,
+            "anchorX": 575,
+            "anchorY": 440
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "tigela-lilas-creminho-morango-banana",
+          "asset": "assets/itens/tigela-lilas-creminho-morango-banana.png",
+          "width": 1160,
+          "x": -40,
+          "ground": 1800,
+          "anchorY": 0.9189453125,
+          "at": 0,
+          "entrance": 0.45,
+          "entranceOffset": 18,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front"
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Textura adequada.",
+            "Sentado e acompanhado."
+          ],
+          "x": 90,
+          "y": 170,
+          "fontSize": 76
+        }
+      ],
+      "transition": "fade"
+    },
+    {
+      "id": "fechamento",
+      "from": 29.745,
+      "to": 34.4584375,
+      "background": {
+        "asset": "assets/cenario/fundo-video.mp4",
+        "type": "video",
+        "timing": "global"
+      },
+      "character": {
+        "faceX": 440,
+        "faceY": 990,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-surpresa.png",
+            "width": 850,
+            "anchorX": 664,
+            "anchorY": 440
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "tigela-lilas-creminho-morango-banana",
+          "asset": "assets/itens/tigela-lilas-creminho-morango-banana.png",
+          "width": 1160,
+          "x": -40,
+          "ground": 1800,
+          "anchorY": 0.9189453125,
+          "at": 0,
+          "entrance": 0.45,
+          "entranceOffset": 18,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front"
+        }
+      ],
+      "titles": [
+        {
+          "at": 0,
+          "lines": [
+            "Menina, gostou?"
+          ],
+          "x": 90,
+          "y": 170,
+          "fontSize": 76
+        }
+      ],
+      "transition": "fade",
+      "engagement": {
+        "likeAt": 1.9849999999999994,
+        "commentAt": 2.6239999999999988,
+        "shareAt": 3.389999999999997,
+        "sound": "assets/sons/pop-interface-suave.wav"
+      }
+    }
+  ],
+  "voice": {
+    "provider": "elevenlabs",
+    "fingerprint": "bc7c62058693c3c4f058f69a30afba748a9a20876941b76d55268f2e882cc814",
+    "audioHash": "5f73c39e2e4b732a004b7ae433372a6111cc15a3b339ab97b5fefc74e5981842"
+  },
+  "output": {
+    "file": "output/convertido-0001.mp4",
+    "hash": "ae6b4ea2b95b8319638331508c77ba85fe35912b179d4f8770a708bac70f6312",
+    "signature": "600a5f9885d1241656faa5f8259b701ad2737c962ed70a0dc8ffea530664ec59"
+  }
+}

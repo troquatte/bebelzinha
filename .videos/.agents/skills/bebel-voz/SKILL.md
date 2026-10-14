@@ -3,19 +3,12 @@ name: bebel-voz
 description: Preparar a narração da Bebel com áudio fornecido ou ElevenLabs explicitamente habilitado, preservando fala e evitando gerações duplicadas.
 ---
 
-Consulte Persona e escrita em brand/identidade-bebel.md para conferir que a fala vem do roteiro da Bebel, sem reescrevê-la silenciosamente. Preserve voz configurada; não inferir sotaque da imagem nem escolher/clonar uma voz nova. Texto de persona não vira trecho narrado.
+Receba ID e roteiro completo. Use a persona em brand/identidade-bebel.md e o fechamento em brand/formato-reels-bebel.md sem reescrever silenciosamente a fala. A voz real é configurada em brand/narracao.json; não escolher/clonar outra voz ou inferir sotaque da imagem.
 
+Use cenas:prepare quando necessário. cenas:audio sem --generate não faz chamada paga. audio.mp3 existente tem prioridade: preserve e confira correspondência com ## Narração. Divergência conhecida é pendência, não motivo para adaptar outro roteiro ao áudio.
 
-Receba ID e roteiro completo da central. cenas:prepare reserva e prepara dados; cenas:audio sem --generate nunca faz chamada paga. audio.mp3 existente tem prioridade: preservar e conferir correspondência com fala sem reescrever roteiro para encaixar áudio de outra produção. Divergência conhecida é pendência.
+Sem áudio, consulte cenas:voice-status e brand/narracao.json. Provedor desligado/provided: informe o caminho esperado. ElevenLabs exige configuração/chave/voz e autorização de geração no pedido (o prompt 02-audio-imagens autoriza quando habilitado). Roteiro ou render isolado não autorizam voz. Não ativar provedor nem comprar créditos automaticamente.
 
-Sem áudio, consulte cenas:voice-status e brand/narracao.json. Provider provided/desligado: informar caminho exato do audio.mp3 esperado; sem chamada externa. Provider elevenlabs exige chave/voz no ambiente e autorização de geração no pedido ou prompt invocado. Somente o pedido da etapa audio-imagens em assets/cenas/02-audio-imagens.md autoriza voz quando habilitada. Etapas roteiro e video não autorizam geração de voz. Não ativar provider, escolher/clonar voz ou comprar créditos automaticamente.
+Autorizado: cenas:audio --task ID --generate, somente a seção Narração integral, uma faixa contínua em velocidade 1. Preserve configuração escolhida: Rivs, eleven_multilingual_v2, stability 0.30, similarity_boost 0.85, style 0.45 e speaker boost ligado. A aceleração final 1.2× pertence ao motor; não duplicar na API.
 
-Autorizado/configurado: cenas:audio --task ID --generate. Somente seção Narração, integral, velocidade1, sem leitura de instruções; uma faixa contínua para todas as cenas. Comando preserva arquivo existente e retorna timestamps por palavra em memória para montagem. Chave somente no ambiente/.env ignorado; nunca no roteiro/JSON/logs/resposta.
-
-Não repetir requisição incerta: conferir resultado no provedor antes de --retry-request, que exige autorização específica. Se há temporário pendente, recuperar antes de outra chamada; não apagar silenciosamente áudio recuperável. Retornar áudio/timestamps disponíveis ou pendência à central, sem arquivo de transcrição/relatório. Não renderizar nem chamar próxima skill.
-
-Voz aprovada pelo usuário: manter Rivs / eleven_multilingual_v2, stability=0.45, similarity_boost=0.85, style=0.25, use_speaker_boost=true e speed=1. Configuração real em brand/narracao.json; não voltar aos valores antigos. A velocidade final1.2x é aplicada pelo motor ao áudio e vídeo juntos, sem duplicar aceleração na API.
-
-
-Referência compartilhada do método atual: brand/formato-reels-bebel.md. Preserve o roteiro verificado e os marcadores reais da fala; não gerar novamente mídia válida.
-
+Use timestamps retornados ou transcrição local disponível para marcadores reais. Retorne áudio/timings ou pendência, sem transcrição/relatório em disco. Requisição incerta exige conferir recuperação/provedor antes de --retry-request, com autorização específica; não repetir cobrança automaticamente. Chave somente no ambiente/.env ignorado, nunca em JSON, logs ou resposta. Sem render ou próxima etapa.

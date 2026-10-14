@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "editorial": {
     "personality": "Bebel acolhedora, prática e bem-humorada. Conversa de cozinha, sem humilhar, julgar ou infantilizar o público.",
-    "structure": "Gancho imediato, lista quando pertinente, dicas completas e conclusão natural. Não narrar CTA no miolo: o exportador anexa o MP4 final configurado, com sua fala original.",
+    "structure": "Jantar da mulher com rotina corrida: gancho emocional imediato (humor, identificação, curiosidade ou pequena treta doméstica) com Bebel e problema visível; motivo curto, ação concreta demonstrada e resultado celebrado, conectado à mesma promessa. Cinco caminhos: decisão, compras, pré-preparo, combinações e finalização. Cartão de seguir no fechamento; sem CTA anexado, botões de curtir/comentar/compartilhar, música ou pocs. Duração conforme roteiro, sem alvo fixo; receitas preservam etapas essenciais.",
     "avoid": [
       "política",
       "religião",
@@ -62,10 +62,117 @@
           "A louça parece que se multiplica",
           "Guardar algo tão bem que ninguém acha"
         ]
+      },
+      {
+        "id": "pre-preparo",
+        "description": "Adiantar uma tarefa concreta para finalizar o jantar sem comecar do zero.",
+        "examples": [
+          "Adiantar um legume para o jantar do mesmo dia"
+        ]
+      },
+      {
+        "id": "finalizacao",
+        "description": "Transformar o que ja esta preparado em comida na mesa.",
+        "examples": [
+          "Finalizar um jantar com frango previamente cozido"
+        ]
+      },
+      {
+        "id": "decisao",
+        "description": "Decidir o jantar considerando o trabalho que falta, antes da correria.",
+        "examples": [
+          "Compra feita nao significa preparo encaminhado"
+        ]
+      },
+      {
+        "id": "compras",
+        "description": "Comprar o necessario para jantares definidos e facilitar a finalizacao.",
+        "examples": [
+          "Contar porcoes por pessoa e por jantar antes de comprar"
+        ]
+      },
+      {
+        "id": "convivencia-e-rotina",
+        "description": "Situacoes da familia e divisao das pequenas decisoes domesticas, conforme a persona dos carrosseis.",
+        "examples": [
+          "Dividir a escolha do jantar sem pergunta aberta"
+        ]
+      },
+      {
+        "id": "ambiente-e-bem-estar",
+        "description": "Cuidados cotidianos e simbolicos do ambiente domestico, sem promessas espirituais ou de saude.",
+        "examples": [
+          "Renovar o clima da casa"
+        ]
+      },
+      {
+        "id": "utensilios-e-cuidados",
+        "description": "Escolhas e uso correto de recipientes domesticos, sem promessas de prevencao de doencas.",
+        "examples": [
+          "Escolher vidro ou plastico pelo uso e indicacao de calor"
+        ]
+      },
+      {
+        "id": "roupa-de-cama",
+        "description": "Organizacao e cuidados praticos com conjuntos de cama, sem promessas de saude.",
+        "examples": [
+          "Manter lencois e fronhas do mesmo jogo juntos"
+        ]
+      },
+      {
+        "id": "cuidados-com-tecidos",
+        "description": "Cuidados cotidianos com tecidos da casa, com instruções concretas e sem promessas sanitárias.",
+        "examples": [
+          "Estender o pano úmido antes de guardar"
+        ]
+      },
+      {
+        "id": "rotina-de-saida",
+        "description": "Pequenas ações para sair de casa com os itens necessários organizados, sem correria inventada.",
+        "examples": [
+          "Lugar fixo para a chave ao chegar"
+        ]
+      },
+      {
+        "id": "combinacoes",
+        "description": "Uma mesma base ou ingrediente preparado vira jantares diferentes, com exemplos conectados e seguros.",
+        "examples": [
+          "Batata cozida para salada hoje e fritata amanhã"
+        ]
+      },
+      {
+        "id": "reservas-no-freezer",
+        "description": "Reservas de preparos por jantar e uso planejado do freezer, com manuseio seguro e sem prazo inventado.",
+        "examples": [
+          "Feijão dividido por jantar, em vez de um panelão congelado"
+        ]
       }
     ],
-    "repetitionPolicy": "Temas e ideias nunca se repetem; categoria não se repete dentro da rodada. Rodada2 iniciada com autorização do usuário, sem apagar histórico.",
-    "categoryRound": 2
+    "repetitionPolicy": "Temas e ideias nunca se repetem; categoria não se repete dentro da rodada. Rodada3 iniciada com autorização do usuário, mantendo todo o histórico.",
+    "categoryRound": 3,
+    "productFocus": "Facilitar o jantar da mulher com rotina corrida: o jantar fica mais facil quando voce prepara o caminho antes.",
+    "productPaths": [
+      {
+        "id": "decisao",
+        "description": "Escolher o jantar antes da correria."
+      },
+      {
+        "id": "compras",
+        "description": "Ter ingredientes coerentes para facilitar os jantares."
+      },
+      {
+        "id": "pre-preparo",
+        "description": "Adiantar uma tarefa concreta para finalizar o jantar sem comecar do zero."
+      },
+      {
+        "id": "combinacoes",
+        "description": "Usar os mesmos ingredientes em jantares diferentes."
+      },
+      {
+        "id": "finalizacao",
+        "description": "Transformar o que ja esta preparado em comida na mesa."
+      }
+    ]
   },
   "used": [
     {
@@ -157,6 +264,158 @@
       "summary": "Humor sobre a tampa que desaparece: encaixar bases compatíveis e deixar tampas verticais por tamanho para visualizar e encontrar o par sem desmontar pilhas.",
       "createdAt": "2026-10-13T13:51:15.055Z",
       "round": 2
+    },
+    {
+      "id": "013-pao-de-ontem-vira-cubinhos-crocantes",
+      "theme": "Pão de ontem vira cubinhos crocantes",
+      "category": "economia-domestica",
+      "summary": "Reaproveitar pão amanhecido: cortar em cubos, tostar no azeite em fogo médio e finalizar com alecrim para obter croutons sequinhos para saladas ou sopas.",
+      "createdAt": "2026-10-13T14:48:09.265Z",
+      "round": 3
+    },
+    {
+      "id": "014-a-gaveta-engasga-toda-vez-que-voce-abre",
+      "theme": "A gaveta engasga toda vez que você abre?",
+      "category": "organizacao-da-casa",
+      "summary": "Gaveta presa por utensilios atravessados: separar uso diario, organizar compridos deitados em divisoes sem empilhar e conferir folga antes de fechar.",
+      "createdAt": "2026-10-13T15:22:30.762Z",
+      "round": 3
+    },
+    {
+      "id": "015-creminho-de-morango-e-banana-sem-acucar-adicionado",
+      "theme": "Creminho de morango e banana sem acucar adicionado",
+      "category": "receitinhas-rapidas",
+      "summary": "Creminho de banana e morango amassados com iogurte natural integral pasteurizado sem acucar, para introducao ja iniciada a partir de6meses e ingredientes tolerados, sem equivalencia ao Danoninho.",
+      "createdAt": "2026-10-13T16:39:20.889Z",
+      "round": 3
+    },
+    {
+      "id": "016-alho-amargando-no-refogado-coloque-a-cebola-primeiro",
+      "theme": "Alho amargando no refogado coloque a cebola primeiro",
+      "category": "cozinha-do-dia-a-dia",
+      "summary": "Evitar alho queimado no refogado classico: cebola primeiro em fogo baixo, alho depois que ela murchar e ficar transparente, acompanhar o dourado claro porque cozinha mais rapido.",
+      "createdAt": "2026-10-13T17:28:13.700Z",
+      "round": 3
+    },
+    {
+      "id": "017-tres-jantares-decididos-antes-de-guardar-a-compra",
+      "theme": "Tres jantares decididos antes de guardar a compra",
+      "category": "rotina-e-humor",
+      "summary": "Tirar a indecisao do jantar com tres escolhas antecipadas: arroz com frango e cenoura, wrap de frango e cenoura e omelete de cenoura; ingredientes em comum e uma escolha anotada por noite.",
+      "createdAt": "2026-10-13T18:07:26.042Z",
+      "round": 3
+    },
+    {
+      "id": "018-um-jantar-reserva-na-despensa-para-o-dia-que-apertar",
+      "theme": "Um jantar reserva na despensa",
+      "category": "despensa-e-compras",
+      "summary": "Separar macarrao seco e molho fechado juntos num cantinho da despensa como jantar reserva e repor os dois pela lista quando usados, em vez de decidir e procurar ingredientes no dia corrido.",
+      "createdAt": "2026-10-13T18:50:27.774Z",
+      "round": 3
+    },
+    {
+      "id": "019-rale-a-cenoura-antes-para-nao-comecar-o-jantar-do-zero",
+      "theme": "Rale a cenoura antes para nao comecar o jantar do zero",
+      "category": "pre-preparo",
+      "summary": "Adiantar a cenoura do omelete do jantar do mesmo dia: lavar, ralar e manter em pote tampado refrigerado para retirar essa tarefa da correria noturna.",
+      "createdAt": "2026-10-13T20:46:47.930Z",
+      "round": 3
+    },
+    {
+      "id": "020-frango-ja-pronto-vira-wrap-em-tres-passos",
+      "theme": "Frango já pronto vira wrap em três passos",
+      "category": "finalizacao",
+      "summary": "Finalizar frango previamente cozido em um wrap: reaquecer completamente, montar com cenoura em tortilha e dobrar/dourar na frigideira; demonstracao numerada na cozinha moderna do sitio.",
+      "createdAt": "2026-10-13T22:31:42.897Z",
+      "round": 3
+    },
+    {
+      "id": "021-geladeira-cheia-nao-e-jantar-encaminhado",
+      "theme": "Geladeira cheia não é jantar encaminhado",
+      "category": "decisao",
+      "summary": "Distinguir compra concluida de preparo adiantado: escolher arroz com frango para amanha, adiantar a etapa demorada do frango e deixar apenas o arroz e a montagem para a noite; situacao e resolucao em linguagem de carrossel.",
+      "createdAt": "2026-10-14T00:13:05.790Z",
+      "round": 3
+    },
+    {
+      "id": "022-conte-os-jantares-antes-de-comprar-as-porcoes",
+      "theme": "Conte os jantares antes de comprar as porções",
+      "category": "compras",
+      "summary": "Planejar a quantidade de compra pelo numero de pessoas e jantares: duas pessoas em duas noites sao quatro porcoes conforme receita; conferir estoque e separar o frango cozido em dois potes por jantar.",
+      "createdAt": "2026-10-14T00:29:13.569Z",
+      "round": 3
+    },
+    {
+      "id": "023-o-tanto-faz-deixa-o-jantar-inteiro-nas-suas-costas",
+      "theme": "O tanto faz deixa o jantar inteiro nas suas costas",
+      "category": "convivencia-e-rotina",
+      "summary": "Dividir a decisao do jantar quando a familia responde tanto faz: oferecer duas opcoes viaveis e pedir escolha; um empate pode definir hoje e amanha em vez de deixar toda a decisao com a mulher.",
+      "createdAt": "2026-10-14T00:37:36.815Z",
+      "round": 3
+    },
+    {
+      "id": "024-cinco-cuidados-para-renovar-as-energias-da-casa",
+      "theme": "Cinco cuidados para renovar as energias da casa",
+      "category": "ambiente-e-bem-estar",
+      "summary": "Renovar o clima da casa com cinco cuidados simbolicos e concretos: ventilacao segura, passagem sem acumulo, superficie limpa, luz natural e cantinho de descanso, sem efeitos espirituais garantidos.",
+      "createdAt": "2026-10-14T00:44:34.942Z",
+      "round": 3
+    },
+    {
+      "id": "025-tres-trocas-praticas-do-plastico-para-o-vidro",
+      "theme": "Três trocas práticas do plástico para o vidro",
+      "category": "utensilios-e-cuidados",
+      "summary": "Tres escolhas opcionais de vidro pela funcao: garrafa reutilizavel, potes para armazenamento e recipiente indicado para microondas; plastico apropriado tambem serve, sem alegacao de prevencao de cancer.",
+      "createdAt": "2026-10-14T00:58:41.313Z",
+      "round": 3
+    },
+    {
+      "id": "026-cinco-coisas-para-conferir-antes-de-sair-para-o-mercado",
+      "theme": "Cinco coisas para conferir antes de sair para o mercado",
+      "category": "compras",
+      "summary": "Checklist antes de sair ao mercado: revisar estoque, refeicoes previstas, pessoas e quantidades, lista com limpeza/higiene e sacolas; Bebel orienta no supermercado, tema escolhido pelo usuario.",
+      "createdAt": "2026-10-14T01:14:42.599Z",
+      "round": 3
+    },
+    {
+      "id": "027-a-fronha-sumiu-guarde-o-jogo-de-cama-junto",
+      "theme": "A fronha sumiu? Guarde o jogo de cama junto",
+      "category": "roupa-de-cama",
+      "summary": "Evitar procurar a fronha ao trocar a cama: reunir lencois secos e demais pecas do mesmo jogo dentro de uma fronha de tamanho adequado, mostrando conjunto separado virar pacote completo.",
+      "createdAt": "2026-10-14T01:29:22.146Z",
+      "round": 3
+    },
+    {
+      "id": "028-pano-molhado-embolado-abra-antes-de-guardar",
+      "theme": "Pano molhado embolado? Abra antes de guardar",
+      "category": "cuidados-com-tecidos",
+      "summary": "Evitar pano molhado embolado na bancada: abrir e estender em suporte sem amontoar, guardar somente seco; Bebel reage ao problema e celebra bancada livre.",
+      "createdAt": "2026-10-14T02:02:17.532Z",
+      "round": 3
+    },
+    {
+      "id": "029-cade-a-chave-quando-voce-ja-esta-atrasada",
+      "theme": "Cadê a chave quando você já está atrasada?",
+      "category": "rotina-de-saida",
+      "summary": "Evitar procurar a chave na hora de sair: escolher bandejinha fixa perto da porta e devolver ao chegar; chave entre papéis vira chave acessível no mesmo lugar.",
+      "createdAt": "2026-10-14T02:15:35.416Z",
+      "round": 3
+    },
+    {
+      "id": "030-cozinhe-a-batata-uma-vez-e-encaminhe-dois-jantares",
+      "theme": "Cozinhe a batata uma vez e encaminhe dois jantares",
+      "category": "combinacoes",
+      "summary": "Adiantar uma base de batata cozida e separar antes da finalização: salada com tomate e ovo hoje, fritata com cebola e ovos amanhã; porção reservada refrigerada prontamente em pote raso.",
+      "createdAt": "2026-10-14T12:32:56.513Z",
+      "round": 3
+    },
+    {
+      "id": "031-feijao-ou-tijolo-congele-por-jantar-nao-por-panelao",
+      "theme": "Feijão ou tijolo? Congele por jantar, não por panelão",
+      "category": "reservas-no-freezer",
+      "summary": "Evitar o bloco grande de feijao na hora do jantar: dividir em recipientes rasos proprios para freezer, refrigerar prontamente e congelar; passar uma porcao para a geladeira antes e reaquecer completamente.",
+      "createdAt": "2026-10-14T13:18:21.735Z",
+      "round": 3
     }
   ]
 }

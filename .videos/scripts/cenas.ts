@@ -33,7 +33,7 @@ async function main() {
       if (!theme) throw new Error('Roteiro precisa de título # Tema');
       return remember(root, task.key, theme, value('--category') ?? '', value('--summary') ?? '', args.includes('--allow-repeat'));
     }
-    if (command === 'new') return create(root, value('--theme') ?? '', Number(value('--seconds') ?? 20));
+    if (command === 'new') return create(root, value('--theme') ?? '', value('--seconds') === undefined ? undefined : Number(value('--seconds')));
     if (command === 'asset') {
       const source = value('--source'); if (!source) throw new Error('--source obrigatório');
       return importImage(root, source, value('--kind') ?? '', value('--name') ?? '');

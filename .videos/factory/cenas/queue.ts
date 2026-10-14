@@ -26,9 +26,10 @@ export function find(root: string, key: string) {
   if (!task) throw new Error(`Tema não encontrado: ${key}`);
   return task;
 }
-export function create(root: string, theme: string, seconds = 20) {
-  if (!theme?.trim() || /[\r\n]/.test(theme) || theme.length > 300 || !Number.isFinite(seconds) || seconds < 5 || seconds > 120)
-    throw new Error('Informe tema em uma linha e duração estimada entre 5 e 120s');
+export function create(root: string, theme: string, seconds?: number) {
+  if (!theme?.trim() || /[\r\n]/.test(theme) || theme.length > 300 ||
+    (seconds !== undefined && (!Number.isFinite(seconds) || seconds <= 0)))
+    throw new Error('Informe tema em uma linha; duração estimada é opcional e deve ser positiva');
   const slug = theme.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase()
     .replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 70).replace(/-$/, '');
   if (!slug) throw new Error('Tema precisa conter letras ou números');
@@ -37,7 +38,7 @@ export function create(root: string, theme: string, seconds = 20) {
   const key = `${String(next).padStart(3, '0')}-${slug}`, path = `${queueRoot}/${states[0]}/${key}`;
   mkdirSync(safe(root, `${queueRoot}/${states[0]}`), { recursive: true });
   mkdirSync(safe(root, path));
-  writeFileSync(safe(root, `${path}/roteiro.md`), `# ${theme.trim()}\n\nDuração estimada: ${seconds}s.\n\n## Narração\n\n## Cenas\n`, { flag: 'wx' });
+  writeFileSync(safe(root, `${path}/roteiro.md`), `# ${theme.trim()}\n\n${seconds === undefined ? 'Duração definida pelo roteiro e pelo áudio real.' : `Duração estimada: ${seconds}s (referência, não limite).`}\n\n## Narração\n\n## Cenas\n`, { flag: 'wx' });
   return { task: key, roteiro: `${path}/roteiro.md`, status: 'agente deve escrever narração e cenas' };
 }
 export const work = (root: string, task: Task) => readJson(safe(root, `${task.path}/.work.json`)) as Work;
