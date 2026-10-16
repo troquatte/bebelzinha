@@ -3,12 +3,10 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
-    "types": []
+    "outDir": "./out-tsc/app",
+    "types": ["node"]
   },
-  "include": [
-    "src/**/*.ts"
-  ],
-  "exclude": [
-    "src/**/*.spec.ts"
-  ]
+  "files": ["src/main.ts", "src/main.server.ts", "src/server.ts"],
+  "include": ["src/**/*.d.ts"],
+  "exclude": ["cypress", "./cypress.config.ts", "**/*.cy.tsx"]
 }

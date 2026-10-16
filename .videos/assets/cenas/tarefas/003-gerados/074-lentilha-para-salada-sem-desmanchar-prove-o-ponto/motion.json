@@ -1,0 +1,97 @@
+{
+  "renderer": "BebelMotionReferencia",
+  "reference": "035",
+  "immediateHook": true,
+  "regionPrompt": {
+    "from": 14.269,
+    "to": 19.83
+  },
+  "method": "Marcadores reais ElevenLabs API1× exportação1.2×; problema/correção/resultado e mapa aprovado no meio.",
+  "typography": [
+    {
+      "from": 0,
+      "to": 2.368,
+      "lead": "Salada de lentilha...",
+      "word": "VIROU PURÊ?",
+      "wordAt": 0,
+      "tone": "cream"
+    },
+    {
+      "from": 2.368,
+      "to": 5.283,
+      "lead": "Antes do tempero,",
+      "word": "ACERTE O PONTO!",
+      "wordAt": 3.03,
+      "tone": "purple"
+    },
+    {
+      "from": 5.283,
+      "to": 9.102,
+      "lead": "1 xícara de lentilha",
+      "word": "+ 1 LITRO DE ÁGUA",
+      "wordAt": 6.931,
+      "tone": "cream",
+      "step": "01"
+    },
+    {
+      "from": 9.102,
+      "to": 11.807,
+      "lead": "Ferveu?",
+      "word": "ABAIXE O FOGO",
+      "wordAt": 10.495,
+      "tone": "purple",
+      "step": "02"
+    },
+    {
+      "from": 11.807,
+      "to": 14.269,
+      "lead": "Cozinhe por cerca de",
+      "word": "20 MINUTOS",
+      "wordAt": 12.875,
+      "tone": "cream"
+    },
+    {
+      "from": 14.269,
+      "to": 19.83,
+      "lead": "Antes do grão chegar no ponto...",
+      "word": "DE QUAL REGIÃO?",
+      "wordAt": 15.952,
+      "tone": "purple"
+    },
+    {
+      "from": 19.83,
+      "to": 22.257,
+      "lead": "Agora prove um grão:",
+      "word": "PRECISA ESTAR COZIDO",
+      "wordAt": 21.63,
+      "tone": "cream",
+      "step": "03"
+    },
+    {
+      "from": 22.257,
+      "to": 24.753,
+      "lead": "Mas ainda firme:",
+      "word": "SEM SE DESFAZER",
+      "wordAt": 23.522,
+      "tone": "purple"
+    },
+    {
+      "from": 24.753,
+      "to": 28.433,
+      "lead": "Chegou ao ponto?",
+      "word": "ESCORRA BEM",
+      "wordAt": 24.753,
+      "tone": "cream"
+    },
+    {
+      "from": 28.433,
+      "to": 33.669,
+      "lead": "",
+      "word": "Grão inteirinho!",
+      "wordAt": 28.433,
+      "tone": "ending",
+      "tail": "Base da salada encaminhada!",
+      "tailAt": 31.336
+    }
+  ]
+}

@@ -1,108 +1,48 @@
 # Estrutura do Projeto
 
-## Estado atual
-
-O repositório começa como uma aplicação Angular 22 simples e deve evoluir incrementalmente.
+## Estrutura alvo do repositório
 
 ```text
-.
-├── .agents/
-├── .spec/
-├── public/
-├── src/
-│   ├── app/
-│   ├── scss/
-│   ├── index.html
-│   ├── main.ts
-│   └── styles.scss
-├── angular.json
-└── package.json
-```
-
-Não antecipar monorepo, múltiplas aplicações, backend ou packages compartilhados sem necessidade concreta.
-
-## SDD
-
-- `.spec/changes` — mudanças ativas e histórico arquivado;
-- `.spec/memory` — contexto permanente do produto e da arquitetura;
-- `.spec/shared` — regras reutilizáveis;
-- `.spec/templates` — modelos para novas specs.
-
-## Frontend
-
-A aplicação fica em `src/app` e deve crescer por domínio/feature quando as funcionalidades surgirem.
-
-Estrutura padrão dos módulos:
-
-```text
-src/app/
-  core/
+.specs/
+  changes/
+  memory/
   shared/
-  modules/
-    <feature>/
-      components/
-      shared/
-      service/
-      enum/
-      interface/
-      helpers/
-      etc/
+  templates/
+apps/
+  frontend/
+modules/
+  customer/
+packages/
+  shared/
 ```
 
-Dentro de `modules/<feature>`, arquivos não devem ficar soltos na raiz da feature. Cada responsabilidade deve viver na subpasta correspondente. Criar somente as subpastas que tenham conteúdo real; diretórios vazios não são necessários.
+## Responsabilidades
 
-### `core`
-Responsabilidades realmente globais da aplicação.
+- `.specs/changes` — specs de mudanças específicas
+- `.specs/memory` — contexto global do projeto
+- `.specs/shared` — convenções reutilizáveis entre specs
+- `.specs/templates` — modelos para criar novas mudanças
+- `apps/frontend` — aplicação Angular SSR v21 contendo as telas (client) e a API/Backend integrada (server em `server.ts` ou Server Routes)
+- `modules/<dominio>` — regras de negócio por domínio
+- `packages/shared` — contratos e utilitários reaproveitáveis por front e back
 
-### `shared`
-Somente código reutilizável, genérico e sem regra de negócio específica.
+## Organização de módulos
 
-### `modules/<feature>`
-UI, estado e serviços ligados a uma área funcional do produto.
+- um módulo por área de negócio relevante
+- regras de negócio primeiro, detalhes técnicos depois
 
-Organização:
-- `components/` — componentes Angular e seus templates/estilos;
-- `service/` — services, stores e orquestração da feature;
-- `interface/` — contratos, models e tipos de domínio da feature;
-- `enum/` — enums quando existirem;
-- `helpers/` — funções auxiliares específicas da feature;
-- `shared/` — reutilização interna entre componentes da própria feature;
-- outras subpastas podem existir quando uma responsabilidade concreta exigir.
+## Limites entre camadas
 
-## Estilos
+- o front-end não conhece banco de dados
+- o back-end expõe casos de uso via API
+- regras de negócio não dependem diretamente da interface web
+- a spec descreve a mudança **antes** da implementação
 
-O design system vive em `src/scss/`.
+## Convenções para `apps/frontend/src/app/shared`
 
-Entradas globais:
-- `src/styles.css` — carrega Tailwind CSS;
-- `src/styles.scss` — carrega o SCSS global da Bebel e deve vir depois de `styles.css` em `angular.json`.
-
-Antes de criar valores novos, verificar tokens, variáveis, mixins e componentes existentes.
-
-## Conteúdo editorial
-
-Conteúdo estruturado da Bebel que não pertence a componentes pode ficar em `public/content/`.
-
-Comidinhas usa `public/content/recipes/`, com um `index.json` e um arquivo JSON por receita. A interface consome um contrato próprio e não deve depender da futura origem dos dados.
-
-
-## SEO e publicação estática
-
-- `src/app/core/seo.service.ts` centraliza title, description, Open Graph, Twitter Card e canonical no runtime.
-- `scripts/generate-pages.mjs` gera shells HTML estáticos para rotas públicas relevantes durante o deploy, preservando metadata específica sem SSR.
-- `.github/workflows/pages.yml` valida o build e publica a saída Angular no GitHub Pages quando Pages estiver habilitado no repositório.
-- Assets públicos usados por rotas devem respeitar o `base href`, evitando caminhos absolutos iniciados por `/` quando o app estiver hospedado em subdiretório.
-
-## Limites
-
-- componentes visuais não devem concentrar regras de negócio complexas;
-- código compartilhado não deve conhecer detalhes de uma feature específica;
-- persistência e integrações futuras devem ser adicionadas somente quando uma spec exigir;
-- a spec descreve a mudança antes da implementação;
-- arquitetura deve refletir o produto atual, não uma escala hipotética.
-
-## Evolução futura
-
-Backend, banco de dados, autenticação, armazenamento de objetos ou packages compartilhados podem ser introduzidos quando uma necessidade de produto justificar.
-
-Até lá, manter a fundação simples.
+- `shared` contém apenas código reutilizável e sem acoplamento ao estado ou configuração da aplicação atual
+- configurações, navegação/rotas, chaves de storage e dados específicos do projeto ficam na camada da aplicação (`app`), fora de `shared`
+- services, pipes, diretivas e componentes de UI genéricos, reutilizáveis e agnósticos ao projeto podem viver em `shared`
+- stores (Signal/RxJS), guards, resolvers ou services ligados a autenticação, sessão, regras de negócio, rotas, tenant ou permissões devem ficar no diretório principal ou em features de negócio do `app` (fora de `shared`)
+- a pasta `shared/components/ui` é exceção: componentes originados de bibliotecas de UI (como Spartan/Shadcn para Angular) podem manter a convenção original da biblioteca
+- estas convenções podem evoluir quando houver necessidade explícita do time, desde que permaneçam consistentes dentro do contexto alterado

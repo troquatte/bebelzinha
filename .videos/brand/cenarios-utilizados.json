@@ -1,0 +1,1746 @@
+{
+  "schemaVersion": 1,
+  "policy": {
+    "scope": "Compartilhada entre Instagram, Shorts, TikTok e YouTube horizontal.",
+    "eligibility": "Primeiro assunto/ambiente, adequação visual e suporte real do renderer. Não usar quarto para receita nem vídeo como Img no horizontal.",
+    "rotation": "Usar cada fundo elegível uma vez na rodada do conjunto de contexto/formato antes de repetir. Ao esgotar, iniciar outra rodada e preferir o menos recente.",
+    "recency": "Evitar o último fundo quando houver alternativa elegível; preferir fora dos dois últimos quando houver pelo menos três opções.",
+    "continuity": "Manter continuidade dentro do vídeo; registrar uma vez por produção os fundos distintos, não a cada corte.",
+    "exceptions": "Um só fundo adequado, continuidade de série, pedido explícito ou limitação de mídia: registrar motivo. Se imagens estiverem autorizadas, gerar apenas cenário novo necessário.",
+    "recording": "Registrar productionId, formato, assets/IDs reais, conjunto elegível, rodada e motivo de exceção quando houver. Revisão não consome rodada de novo salvo mudança real do ambiente.",
+    "historyPolicy": "Histórico antigo extraído das configurações existentes; rodadas novas começam após adoção da regra. Não inferir publicação, plataforma vertical exata ou sequência de postagem."
+  },
+  "catalog": [
+    {
+      "id": "cozinha-moderna-sitio",
+      "asset": "assets/cenario/cozinha-moderna-sitio.png",
+      "context": "cozinha",
+      "mediaType": "image",
+      "label": "cozinha moderna sitio",
+      "classificationSource": "Nome do arquivo e referências existentes; confirmar adequação visual ao selecionar.",
+      "rendererCompatibility": [
+        "BebelMotionReferencia",
+        "BebelYoutubeMotion"
+      ]
+    },
+    {
+      "id": "despensa-lilas-bancada",
+      "asset": "assets/cenario/despensa-lilas-bancada.mp4",
+      "context": "cozinha",
+      "mediaType": "video",
+      "label": "despensa lilas bancada",
+      "classificationSource": "Nome do arquivo e referências existentes; confirmar adequação visual ao selecionar.",
+      "rendererCompatibility": [
+        "BebelMotionReferencia",
+        "BebelYoutubeMotion"
+      ],
+      "motionStatus": "Vídeo fornecido pelo usuário; validado ao selecionar."
+    },
+    {
+      "id": "entrada-casa-porta-aparador-lilas",
+      "asset": "assets/cenario/entrada-casa-porta-aparador-lilas.png",
+      "context": "entrada",
+      "mediaType": "image",
+      "label": "entrada casa porta aparador lilas",
+      "classificationSource": "Nome do arquivo e referências existentes; confirmar adequação visual ao selecionar.",
+      "rendererCompatibility": [
+        "BebelMotionReferencia",
+        "BebelYoutubeMotion"
+      ]
+    },
+    {
+      "id": "fundo-video",
+      "asset": "assets/cenario/fundo-video.mp4",
+      "context": "cozinha",
+      "mediaType": "video",
+      "label": "fundo video",
+      "classificationSource": "Nome do arquivo e referências existentes; confirmar adequação visual ao selecionar.",
+      "rendererCompatibility": [
+        "BebelMotionReferencia",
+        "BebelYoutubeMotion"
+      ],
+      "motionStatus": "Vídeo fornecido pelo usuário; validado ao selecionar."
+    },
+    {
+      "id": "quarto-armario-roupa-de-cama",
+      "asset": "assets/cenario/quarto-armario-roupa-de-cama.png",
+      "context": "quarto",
+      "mediaType": "image",
+      "label": "quarto armario roupa de cama",
+      "classificationSource": "Nome do arquivo e referências existentes; confirmar adequação visual ao selecionar.",
+      "rendererCompatibility": [
+        "BebelMotionReferencia",
+        "BebelYoutubeMotion"
+      ]
+    },
+    {
+      "id": "sala-lilas-acolhedora",
+      "asset": "assets/cenario/sala-lilas-acolhedora.png",
+      "context": "sala",
+      "mediaType": "image",
+      "label": "sala lilas acolhedora",
+      "classificationSource": "Nome do arquivo e referências existentes; confirmar adequação visual ao selecionar.",
+      "rendererCompatibility": [
+        "BebelMotionReferencia",
+        "BebelYoutubeMotion"
+      ]
+    },
+    {
+      "id": "sala-lilas-antes-da-organizacao",
+      "asset": "assets/cenario/sala-lilas-antes-da-organizacao.png",
+      "context": "sala",
+      "mediaType": "image",
+      "label": "sala lilas antes da organizacao",
+      "classificationSource": "Nome do arquivo e referências existentes; confirmar adequação visual ao selecionar.",
+      "rendererCompatibility": [
+        "BebelMotionReferencia",
+        "BebelYoutubeMotion"
+      ]
+    },
+    {
+      "id": "sala-lilas-janela-aberta",
+      "asset": "assets/cenario/sala-lilas-janela-aberta.png",
+      "context": "sala",
+      "mediaType": "image",
+      "label": "sala lilas janela aberta",
+      "classificationSource": "Nome do arquivo e referências existentes; confirmar adequação visual ao selecionar.",
+      "rendererCompatibility": [
+        "BebelMotionReferencia",
+        "BebelYoutubeMotion"
+      ]
+    },
+    {
+      "id": "sala-lilas-limpeza-da-mesa",
+      "asset": "assets/cenario/sala-lilas-limpeza-da-mesa.png",
+      "context": "sala",
+      "mediaType": "image",
+      "label": "sala lilas limpeza da mesa",
+      "classificationSource": "Nome do arquivo e referências existentes; confirmar adequação visual ao selecionar.",
+      "rendererCompatibility": [
+        "BebelMotionReferencia",
+        "BebelYoutubeMotion"
+      ]
+    },
+    {
+      "id": "sala-lilas-passagem-livre",
+      "asset": "assets/cenario/sala-lilas-passagem-livre.png",
+      "context": "sala",
+      "mediaType": "image",
+      "label": "sala lilas passagem livre",
+      "classificationSource": "Nome do arquivo e referências existentes; confirmar adequação visual ao selecionar.",
+      "rendererCompatibility": [
+        "BebelMotionReferencia",
+        "BebelYoutubeMotion"
+      ]
+    },
+    {
+      "id": "supermercado-caixas-lilas",
+      "asset": "assets/cenario/supermercado-caixas-lilas.png",
+      "context": "mercado",
+      "mediaType": "image",
+      "label": "supermercado caixas lilas",
+      "classificationSource": "Nome do arquivo e referências existentes; confirmar adequação visual ao selecionar.",
+      "rendererCompatibility": [
+        "BebelMotionReferencia",
+        "BebelYoutubeMotion"
+      ]
+    },
+    {
+      "id": "supermercado-corredor-lilas",
+      "asset": "assets/cenario/supermercado-corredor-lilas.png",
+      "context": "mercado",
+      "mediaType": "image",
+      "label": "supermercado corredor lilas",
+      "classificationSource": "Nome do arquivo e referências existentes; confirmar adequação visual ao selecionar.",
+      "rendererCompatibility": [
+        "BebelMotionReferencia",
+        "BebelYoutubeMotion"
+      ]
+    },
+    {
+      "id": "cozinha-urbana-ilha-lilas",
+      "asset": "assets/cenario/cozinha-urbana-ilha-lilas.png",
+      "context": "cozinha",
+      "mediaType": "image",
+      "label": "Cozinha urbana com ilha",
+      "classificationSource": "Inspeção visual da imagem gerada nesta solicitação; cenário vazio reutilizável.",
+      "rendererCompatibility": [
+        "BebelMotionReferencia",
+        "BebelYoutubeMotion"
+      ],
+      "nativeFormat": "vertical",
+      "width": 940,
+      "height": 1672,
+      "motionStatus": "Imagem-base; animação pendente no Kling.",
+      "promptReference": "assets/referencias/fundos-kling-01.md"
+    },
+    {
+      "id": "cozinha-sitio-tijolo-madeira",
+      "asset": "assets/cenario/cozinha-sitio-tijolo-madeira.mp4",
+      "context": "cozinha",
+      "mediaType": "video",
+      "label": "Cozinha rústica do sítio",
+      "classificationSource": "Inspeção visual da imagem gerada nesta solicitação; cenário vazio reutilizável.",
+      "rendererCompatibility": [
+        "BebelMotionReferencia",
+        "BebelYoutubeMotion"
+      ],
+      "nativeFormat": "vertical",
+      "width": 941,
+      "height": 1672,
+      "motionStatus": "Vídeo fornecido pelo usuário; validado ao selecionar.",
+      "promptReference": "assets/referencias/fundos-kling-01.md",
+      "imageAsset": "assets/cenario/cozinha-sitio-tijolo-madeira.png"
+    },
+    {
+      "id": "despensa-organizada-bancada-clara",
+      "asset": "assets/cenario/despensa-organizada-bancada-clara.png",
+      "context": "cozinha",
+      "mediaType": "image",
+      "label": "Despensa organizada",
+      "classificationSource": "Inspeção visual da imagem gerada nesta solicitação; cenário vazio reutilizável.",
+      "rendererCompatibility": [
+        "BebelMotionReferencia",
+        "BebelYoutubeMotion"
+      ],
+      "nativeFormat": "vertical",
+      "width": 941,
+      "height": 1672,
+      "motionStatus": "Imagem-base; animação pendente no Kling.",
+      "promptReference": "assets/referencias/fundos-kling-01.md"
+    },
+    {
+      "id": "varanda-gourmet-jardim",
+      "asset": "assets/cenario/varanda-gourmet-jardim.mp4",
+      "context": "cozinha",
+      "mediaType": "video",
+      "label": "Varanda gourmet com jardim",
+      "classificationSource": "Inspeção visual da imagem gerada nesta solicitação; cenário vazio reutilizável.",
+      "rendererCompatibility": [
+        "BebelMotionReferencia",
+        "BebelYoutubeMotion"
+      ],
+      "nativeFormat": "vertical",
+      "width": 941,
+      "height": 1672,
+      "motionStatus": "Vídeo fornecido pelo usuário; validado ao selecionar.",
+      "promptReference": "assets/referencias/fundos-kling-01.md",
+      "imageAsset": "assets/cenario/varanda-gourmet-jardim.png"
+    },
+    {
+      "id": "cozinha-noturna-luz-quente",
+      "asset": "assets/cenario/cozinha-noturna-luz-quente.png",
+      "context": "cozinha",
+      "mediaType": "image",
+      "label": "Cozinha à noite",
+      "classificationSource": "Inspeção visual da imagem gerada nesta solicitação; cenário vazio reutilizável.",
+      "rendererCompatibility": [
+        "BebelMotionReferencia",
+        "BebelYoutubeMotion"
+      ],
+      "nativeFormat": "vertical",
+      "width": 941,
+      "height": 1672,
+      "motionStatus": "Imagem-base; animação pendente no Kling.",
+      "promptReference": "assets/referencias/fundos-kling-01.md"
+    }
+  ],
+  "rotationState": {
+    "startedAfterProduction": "038-youtube-salada-de-folhas-sem-murchar-preparo-e-molho-separado",
+    "pools": {
+      "cozinha:vertical": {
+        "round": 5,
+        "eligibleBackgroundIds": [
+          "cozinha-moderna-sitio",
+          "despensa-lilas-bancada",
+          "fundo-video",
+          "cozinha-urbana-ilha-lilas",
+          "cozinha-sitio-tijolo-madeira",
+          "despensa-organizada-bancada-clara",
+          "varanda-gourmet-jardim",
+          "cozinha-noturna-luz-quente"
+        ],
+        "usedBackgroundIds": [
+          "fundo-video",
+          "despensa-lilas-bancada"
+        ],
+        "lastProductionId": "074-lentilha-para-salada-sem-desmanchar-prove-o-ponto"
+      },
+      "cozinha:horizontal": {
+        "round": 1,
+        "eligibleBackgroundIds": [
+          "cozinha-moderna-sitio",
+          "despensa-lilas-bancada",
+          "fundo-video",
+          "cozinha-urbana-ilha-lilas",
+          "cozinha-sitio-tijolo-madeira",
+          "despensa-organizada-bancada-clara",
+          "varanda-gourmet-jardim",
+          "cozinha-noturna-luz-quente"
+        ],
+        "usedBackgroundIds": [
+          "cozinha-moderna-sitio",
+          "cozinha-sitio-tijolo-madeira"
+        ],
+        "lastProductionId": "043-youtube-abobrinha-recheada-com-carne-moida-passo-a-passo"
+      }
+    },
+    "note": "Inicializar cada conjunto elegível na próxima produção. Histórico anterior orienta recência, sem inventar rodadas retroativas."
+  },
+  "history": [
+    {
+      "productionId": "001-o-almoco-nem-acabou-e-ja-perguntaram-da-janta",
+      "format": "vertical",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/fundo-video.mp4",
+          "backgroundId": "fundo-video"
+        }
+      ],
+      "outputFile": null,
+      "evidence": "assets/cenas/tarefas/003-gerados/001-o-almoco-nem-acabou-e-ja-perguntaram-da-janta/montagem.json",
+      "evidenceType": "Configuração salva, não inspeção de pixels nem evidência de publicação."
+    },
+    {
+      "productionId": "002-a-despensa-esconde-o-que-voce-procura",
+      "format": "vertical",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/fundo-video.mp4",
+          "backgroundId": "fundo-video"
+        }
+      ],
+      "outputFile": null,
+      "evidence": "assets/cenas/tarefas/003-gerados/002-a-despensa-esconde-o-que-voce-procura/montagem.json",
+      "evidenceType": "Configuração salva, não inspeção de pixels nem evidência de publicação."
+    },
+    {
+      "productionId": "003-pacote-grande-nem-sempre-e-economia",
+      "format": "vertical",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/fundo-video.mp4",
+          "backgroundId": "fundo-video"
+        }
+      ],
+      "outputFile": null,
+      "evidence": "assets/cenas/tarefas/003-gerados/003-pacote-grande-nem-sempre-e-economia/montagem.json",
+      "evidenceType": "Configuração salva, não inspeção de pixels nem evidência de publicação."
+    },
+    {
+      "productionId": "004-3-passos-para-nao-esquecer-nada-no-mercado",
+      "format": "vertical",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/fundo-video.mp4",
+          "backgroundId": "fundo-video"
+        }
+      ],
+      "outputFile": null,
+      "evidence": "assets/cenas/tarefas/003-gerados/004-3-passos-para-nao-esquecer-nada-no-mercado/montagem.json",
+      "evidenceType": "Configuração salva, não inspeção de pixels nem evidência de publicação."
+    },
+    {
+      "productionId": "005-3-passos-para-tirar-a-receita-dos-salvos",
+      "format": "vertical",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/fundo-video.mp4",
+          "backgroundId": "fundo-video"
+        },
+        {
+          "asset": "assets/cenario/cozinha-roxa-despensa.png",
+          "backgroundId": null
+        }
+      ],
+      "outputFile": null,
+      "evidence": "assets/cenas/tarefas/003-gerados/005-3-passos-para-tirar-a-receita-dos-salvos/montagem.json",
+      "evidenceType": "Configuração salva, não inspeção de pixels nem evidência de publicação."
+    },
+    {
+      "productionId": "006-omelete-sem-borracha-em-3-passos",
+      "format": "vertical",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/fundo-video.mp4",
+          "backgroundId": "fundo-video"
+        },
+        {
+          "asset": "assets/cenario/cozinha-roxa-despensa.png",
+          "backgroundId": null
+        }
+      ],
+      "outputFile": null,
+      "evidence": "assets/cenas/tarefas/003-gerados/006-omelete-sem-borracha-em-3-passos/montagem.json",
+      "evidenceType": "Configuração salva, não inspeção de pixels nem evidência de publicação."
+    },
+    {
+      "productionId": "007-a-agua-que-voce-joga-fora-melhora-o-molho-do-macarrao",
+      "format": "vertical",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/fundo-video.mp4",
+          "backgroundId": "fundo-video"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/007-a-agua-que-voce-joga-fora-melhora-o-molho-do-macarrao/output/convertido-0001.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/007-a-agua-que-voce-joga-fora-melhora-o-molho-do-macarrao/montagem.json",
+      "evidenceType": "Configuração salva, não inspeção de pixels nem evidência de publicação."
+    },
+    {
+      "productionId": "008-alface-murchando-no-pote-3-cuidados-antes-de-guardar",
+      "format": "vertical",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/fundo-video.mp4",
+          "backgroundId": "fundo-video"
+        }
+      ],
+      "outputFile": null,
+      "evidence": "assets/cenas/tarefas/003-gerados/008-alface-murchando-no-pote-3-cuidados-antes-de-guardar/montagem.json",
+      "evidenceType": "Configuração salva, não inspeção de pixels nem evidência de publicação."
+    },
+    {
+      "productionId": "009-receita-no-fogo-e-cade-o-ingrediente",
+      "format": "vertical",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/fundo-video.mp4",
+          "backgroundId": "fundo-video"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/009-receita-no-fogo-e-cade-o-ingrediente/output/convertido-0002.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/009-receita-no-fogo-e-cade-o-ingrediente/montagem.json",
+      "evidenceType": "Configuração salva, não inspeção de pixels nem evidência de publicação."
+    },
+    {
+      "productionId": "010-ovo-marrom-e-melhor-que-o-branco",
+      "format": "vertical",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/fundo-video.mp4",
+          "backgroundId": "fundo-video"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/010-ovo-marrom-e-melhor-que-o-branco/output/convertido-0001.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/010-ovo-marrom-e-melhor-que-o-branco/montagem.json",
+      "evidenceType": "Configuração salva, não inspeção de pixels nem evidência de publicação."
+    },
+    {
+      "productionId": "011-dois-ovos-viram-um-prato-de-ovos-no-molho-de-tomate",
+      "format": "vertical",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/fundo-video.mp4",
+          "backgroundId": "fundo-video"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/011-dois-ovos-viram-um-prato-de-ovos-no-molho-de-tomate/output/convertido-0003.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/011-dois-ovos-viram-um-prato-de-ovos-no-molho-de-tomate/montagem.json",
+      "evidenceType": "Configuração salva, não inspeção de pixels nem evidência de publicação."
+    },
+    {
+      "productionId": "012-o-pote-ta-aqui-e-a-tampa-sumiu",
+      "format": "vertical",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/fundo-video.mp4",
+          "backgroundId": "fundo-video"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/012-o-pote-ta-aqui-e-a-tampa-sumiu/output/convertido-0003.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/012-o-pote-ta-aqui-e-a-tampa-sumiu/montagem.json",
+      "evidenceType": "Configuração salva, não inspeção de pixels nem evidência de publicação."
+    },
+    {
+      "productionId": "013-pao-de-ontem-vira-cubinhos-crocantes",
+      "format": "vertical",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/fundo-video.mp4",
+          "backgroundId": "fundo-video"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/013-pao-de-ontem-vira-cubinhos-crocantes/output/convertido-0001.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/013-pao-de-ontem-vira-cubinhos-crocantes/montagem.json",
+      "evidenceType": "Configuração salva, não inspeção de pixels nem evidência de publicação."
+    },
+    {
+      "productionId": "014-a-gaveta-engasga-toda-vez-que-voce-abre",
+      "format": "vertical",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/fundo-video.mp4",
+          "backgroundId": "fundo-video"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/014-a-gaveta-engasga-toda-vez-que-voce-abre/output/convertido-0004.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/014-a-gaveta-engasga-toda-vez-que-voce-abre/montagem.json",
+      "evidenceType": "Configuração salva, não inspeção de pixels nem evidência de publicação."
+    },
+    {
+      "productionId": "015-creminho-de-morango-e-banana-sem-acucar-adicionado",
+      "format": "vertical",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/fundo-video.mp4",
+          "backgroundId": "fundo-video"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/015-creminho-de-morango-e-banana-sem-acucar-adicionado/output/convertido-0001.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/015-creminho-de-morango-e-banana-sem-acucar-adicionado/montagem.json",
+      "evidenceType": "Configuração salva, não inspeção de pixels nem evidência de publicação."
+    },
+    {
+      "productionId": "016-alho-amargando-no-refogado-coloque-a-cebola-primeiro",
+      "format": "vertical",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/fundo-video.mp4",
+          "backgroundId": "fundo-video"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/016-alho-amargando-no-refogado-coloque-a-cebola-primeiro/output/convertido-0003.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/016-alho-amargando-no-refogado-coloque-a-cebola-primeiro/montagem.json",
+      "evidenceType": "Configuração salva, não inspeção de pixels nem evidência de publicação."
+    },
+    {
+      "productionId": "017-tres-jantares-decididos-antes-de-guardar-a-compra",
+      "format": "vertical",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/fundo-video.mp4",
+          "backgroundId": "fundo-video"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/017-tres-jantares-decididos-antes-de-guardar-a-compra/output/convertido-0001.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/017-tres-jantares-decididos-antes-de-guardar-a-compra/montagem.json",
+      "evidenceType": "Configuração salva, não inspeção de pixels nem evidência de publicação."
+    },
+    {
+      "productionId": "018-um-jantar-reserva-na-despensa-para-o-dia-que-apertar",
+      "format": "vertical",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/despensa-lilas-bancada.mp4",
+          "backgroundId": "despensa-lilas-bancada"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/018-um-jantar-reserva-na-despensa-para-o-dia-que-apertar/output/convertido-0005.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/018-um-jantar-reserva-na-despensa-para-o-dia-que-apertar/montagem.json",
+      "evidenceType": "Configuração salva, não inspeção de pixels nem evidência de publicação."
+    },
+    {
+      "productionId": "019-rale-a-cenoura-antes-para-nao-comecar-o-jantar-do-zero",
+      "format": "vertical",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/despensa-lilas-bancada.mp4",
+          "backgroundId": "despensa-lilas-bancada"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/019-rale-a-cenoura-antes-para-nao-comecar-o-jantar-do-zero/output/convertido-0001.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/019-rale-a-cenoura-antes-para-nao-comecar-o-jantar-do-zero/montagem.json",
+      "evidenceType": "Configuração salva, não inspeção de pixels nem evidência de publicação."
+    },
+    {
+      "productionId": "020-frango-ja-pronto-vira-wrap-em-tres-passos",
+      "format": "vertical",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/cozinha-moderna-sitio.png",
+          "backgroundId": "cozinha-moderna-sitio"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/020-frango-ja-pronto-vira-wrap-em-tres-passos/output/convertido-0001.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/020-frango-ja-pronto-vira-wrap-em-tres-passos/montagem.json",
+      "evidenceType": "Configuração salva, não inspeção de pixels nem evidência de publicação."
+    },
+    {
+      "productionId": "021-geladeira-cheia-nao-e-jantar-encaminhado",
+      "format": "vertical",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/cozinha-moderna-sitio.png",
+          "backgroundId": "cozinha-moderna-sitio"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/021-geladeira-cheia-nao-e-jantar-encaminhado/output/convertido-0001.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/021-geladeira-cheia-nao-e-jantar-encaminhado/montagem.json",
+      "evidenceType": "Configuração salva, não inspeção de pixels nem evidência de publicação."
+    },
+    {
+      "productionId": "022-conte-os-jantares-antes-de-comprar-as-porcoes",
+      "format": "vertical",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/cozinha-moderna-sitio.png",
+          "backgroundId": "cozinha-moderna-sitio"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/022-conte-os-jantares-antes-de-comprar-as-porcoes/output/convertido-0001.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/022-conte-os-jantares-antes-de-comprar-as-porcoes/montagem.json",
+      "evidenceType": "Configuração salva, não inspeção de pixels nem evidência de publicação."
+    },
+    {
+      "productionId": "023-o-tanto-faz-deixa-o-jantar-inteiro-nas-suas-costas",
+      "format": "vertical",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/cozinha-moderna-sitio.png",
+          "backgroundId": "cozinha-moderna-sitio"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/023-o-tanto-faz-deixa-o-jantar-inteiro-nas-suas-costas/output/convertido-0001.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/023-o-tanto-faz-deixa-o-jantar-inteiro-nas-suas-costas/montagem.json",
+      "evidenceType": "Configuração salva, não inspeção de pixels nem evidência de publicação."
+    },
+    {
+      "productionId": "024-cinco-cuidados-para-renovar-as-energias-da-casa",
+      "format": "vertical",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/sala-lilas-antes-da-organizacao.png",
+          "backgroundId": "sala-lilas-antes-da-organizacao"
+        },
+        {
+          "asset": "assets/cenario/sala-lilas-janela-aberta.png",
+          "backgroundId": "sala-lilas-janela-aberta"
+        },
+        {
+          "asset": "assets/cenario/sala-lilas-passagem-livre.png",
+          "backgroundId": "sala-lilas-passagem-livre"
+        },
+        {
+          "asset": "assets/cenario/sala-lilas-limpeza-da-mesa.png",
+          "backgroundId": "sala-lilas-limpeza-da-mesa"
+        },
+        {
+          "asset": "assets/cenario/sala-lilas-acolhedora.png",
+          "backgroundId": "sala-lilas-acolhedora"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/024-cinco-cuidados-para-renovar-as-energias-da-casa/output/convertido-0001.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/024-cinco-cuidados-para-renovar-as-energias-da-casa/montagem.json",
+      "evidenceType": "Configuração salva, não inspeção de pixels nem evidência de publicação."
+    },
+    {
+      "productionId": "025-tres-trocas-praticas-do-plastico-para-o-vidro",
+      "format": "vertical",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/cozinha-moderna-sitio.png",
+          "backgroundId": "cozinha-moderna-sitio"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/025-tres-trocas-praticas-do-plastico-para-o-vidro/output/convertido-0001.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/025-tres-trocas-praticas-do-plastico-para-o-vidro/montagem.json",
+      "evidenceType": "Configuração salva, não inspeção de pixels nem evidência de publicação."
+    },
+    {
+      "productionId": "026-cinco-coisas-para-conferir-antes-de-sair-para-o-mercado",
+      "format": "vertical",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/supermercado-corredor-lilas.png",
+          "backgroundId": "supermercado-corredor-lilas"
+        },
+        {
+          "asset": "assets/cenario/supermercado-caixas-lilas.png",
+          "backgroundId": "supermercado-caixas-lilas"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/026-cinco-coisas-para-conferir-antes-de-sair-para-o-mercado/output/convertido-0001.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/026-cinco-coisas-para-conferir-antes-de-sair-para-o-mercado/montagem.json",
+      "evidenceType": "Configuração salva, não inspeção de pixels nem evidência de publicação."
+    },
+    {
+      "productionId": "027-a-fronha-sumiu-guarde-o-jogo-de-cama-junto",
+      "format": "vertical",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/quarto-armario-roupa-de-cama.png",
+          "backgroundId": "quarto-armario-roupa-de-cama"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/027-a-fronha-sumiu-guarde-o-jogo-de-cama-junto/output/convertido-0001.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/027-a-fronha-sumiu-guarde-o-jogo-de-cama-junto/montagem.json",
+      "evidenceType": "Configuração salva, não inspeção de pixels nem evidência de publicação."
+    },
+    {
+      "productionId": "028-pano-molhado-embolado-abra-antes-de-guardar",
+      "format": "vertical",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/cozinha-moderna-sitio.png",
+          "backgroundId": "cozinha-moderna-sitio"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/028-pano-molhado-embolado-abra-antes-de-guardar/output/convertido-0001.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/028-pano-molhado-embolado-abra-antes-de-guardar/montagem.json",
+      "evidenceType": "Configuração salva, não inspeção de pixels nem evidência de publicação."
+    },
+    {
+      "productionId": "029-cade-a-chave-quando-voce-ja-esta-atrasada",
+      "format": "vertical",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/entrada-casa-porta-aparador-lilas.png",
+          "backgroundId": "entrada-casa-porta-aparador-lilas"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/029-cade-a-chave-quando-voce-ja-esta-atrasada/output/convertido-0001.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/029-cade-a-chave-quando-voce-ja-esta-atrasada/montagem.json",
+      "evidenceType": "Configuração salva, não inspeção de pixels nem evidência de publicação."
+    },
+    {
+      "productionId": "030-cozinhe-a-batata-uma-vez-e-encaminhe-dois-jantares",
+      "format": "vertical",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/despensa-lilas-bancada.mp4",
+          "backgroundId": "despensa-lilas-bancada"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/030-cozinhe-a-batata-uma-vez-e-encaminhe-dois-jantares/output/convertido-0001.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/030-cozinhe-a-batata-uma-vez-e-encaminhe-dois-jantares/montagem.json",
+      "evidenceType": "Configuração salva, não inspeção de pixels nem evidência de publicação."
+    },
+    {
+      "productionId": "031-feijao-ou-tijolo-congele-por-jantar-nao-por-panelao",
+      "format": "vertical",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/cozinha-moderna-sitio.png",
+          "backgroundId": "cozinha-moderna-sitio"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/031-feijao-ou-tijolo-congele-por-jantar-nao-por-panelao/output/convertido-0001.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/031-feijao-ou-tijolo-congele-por-jantar-nao-por-panelao/montagem.json",
+      "evidenceType": "Configuração salva, não inspeção de pixels nem evidência de publicação."
+    },
+    {
+      "productionId": "033-o-tomate-do-jantar-sumiu-reserve-os-ingredientes-juntos",
+      "format": "vertical",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/despensa-lilas-bancada.mp4",
+          "backgroundId": "despensa-lilas-bancada"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/033-o-tomate-do-jantar-sumiu-reserve-os-ingredientes-juntos/output/convertido-0001.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/033-o-tomate-do-jantar-sumiu-reserve-os-ingredientes-juntos/montagem.json",
+      "evidenceType": "Configuração salva, não inspeção de pixels nem evidência de publicação."
+    },
+    {
+      "productionId": "034-carne-moida-virou-sopa-doure-em-pequenas-levas",
+      "format": "vertical",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/cozinha-moderna-sitio.png",
+          "backgroundId": "cozinha-moderna-sitio"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/034-carne-moida-virou-sopa-doure-em-pequenas-levas/output/convertido-0001.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/034-carne-moida-virou-sopa-doure-em-pequenas-levas/montagem.json",
+      "evidenceType": "Configuração salva, não inspeção de pixels nem evidência de publicação."
+    },
+    {
+      "productionId": "035-arroz-pronto-vira-tortilha-de-frigideira",
+      "format": "vertical",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/despensa-lilas-bancada.mp4",
+          "backgroundId": "despensa-lilas-bancada"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/035-arroz-pronto-vira-tortilha-de-frigideira/output/convertido-0001.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/035-arroz-pronto-vira-tortilha-de-frigideira/montagem.json",
+      "evidenceType": "Configuração salva, não inspeção de pixels nem evidência de publicação."
+    },
+    {
+      "productionId": "036-youtube-tortilhas-de-arroz-com-carne-moida-e-tomate-passo-a-passo",
+      "format": "youtube-horizontal",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/cozinha-moderna-sitio.png",
+          "backgroundId": "cozinha-moderna-sitio"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/036-youtube-tortilhas-de-arroz-com-carne-moida-e-tomate-passo-a-passo/output/convertido-0002.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/036-youtube-tortilhas-de-arroz-com-carne-moida-e-tomate-passo-a-passo/montagem.json",
+      "evidenceType": "Configuração salva, não inspeção de pixels nem evidência de publicação."
+    },
+    {
+      "productionId": "037-salada-pronta-sem-murchar-deixe-o-molho-separado",
+      "format": "vertical",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/cozinha-moderna-sitio.png",
+          "backgroundId": "cozinha-moderna-sitio"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/037-salada-pronta-sem-murchar-deixe-o-molho-separado/output/convertido-0001.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/037-salada-pronta-sem-murchar-deixe-o-molho-separado/montagem.json",
+      "evidenceType": "Configuração salva, não inspeção de pixels nem evidência de publicação."
+    },
+    {
+      "productionId": "038-youtube-salada-de-folhas-sem-murchar-preparo-e-molho-separado",
+      "format": "youtube-horizontal",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/cozinha-moderna-sitio.png",
+          "backgroundId": "cozinha-moderna-sitio"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/038-youtube-salada-de-folhas-sem-murchar-preparo-e-molho-separado/output/convertido-0001.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/038-youtube-salada-de-folhas-sem-murchar-preparo-e-molho-separado/horizontal.json",
+      "evidenceType": "Configuração salva, não inspeção de pixels nem evidência de publicação."
+    },
+    {
+      "productionId": "039-tabua-escorregando-firme-com-papel-toalha-umido",
+      "format": "instagram-reels",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/fundo-video.mp4",
+          "backgroundId": "fundo-video"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/039-tabua-escorregando-firme-com-papel-toalha-umido/output/convertido-0002.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/039-tabua-escorregando-firme-com-papel-toalha-umido/montagem.json",
+      "evidenceType": "Configuração da composição renderizada e MP4 validado.",
+      "rotationPool": "cozinha:vertical",
+      "round": 1,
+      "eligibleBackgroundIds": [
+        "cozinha-moderna-sitio",
+        "despensa-lilas-bancada",
+        "fundo-video"
+      ],
+      "exception": null,
+      "outputHistory": [
+        "assets/cenas/tarefas/003-gerados/039-tabua-escorregando-firme-com-papel-toalha-umido/output/convertido-0001.mp4",
+        "assets/cenas/tarefas/003-gerados/039-tabua-escorregando-firme-com-papel-toalha-umido/output/convertido-0002.mp4"
+      ],
+      "revisionReason": "Remover braços extras da tábua; preservar mãos no close isolado do papel. Sem trocar cenário nem consumir outra rodada."
+    },
+    {
+      "productionId": "040-bife-grudou-espere-dourar-antes-de-virar",
+      "format": "instagram-reels",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/despensa-lilas-bancada.mp4",
+          "backgroundId": "despensa-lilas-bancada"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/040-bife-grudou-espere-dourar-antes-de-virar/output/convertido-0001.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/040-bife-grudou-espere-dourar-antes-de-virar/montagem.json",
+      "evidenceType": "Configuração renderizada e MP4 validado.",
+      "rotationPool": "cozinha:vertical",
+      "round": 1,
+      "eligibleBackgroundIds": [
+        "cozinha-moderna-sitio",
+        "despensa-lilas-bancada",
+        "fundo-video"
+      ],
+      "exception": null
+    },
+    {
+      "productionId": "041-tres-molhos-para-tirar-a-salada-da-mesmice",
+      "format": "instagram-reels",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/cozinha-moderna-sitio.png",
+          "backgroundId": "cozinha-moderna-sitio"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/041-tres-molhos-para-tirar-a-salada-da-mesmice/output/convertido-0001.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/041-tres-molhos-para-tirar-a-salada-da-mesmice/montagem.json",
+      "evidenceType": "Configuração renderizada e MP4 validado.",
+      "rotationPool": "cozinha:vertical",
+      "round": 1,
+      "eligibleBackgroundIds": [
+        "cozinha-moderna-sitio",
+        "despensa-lilas-bancada",
+        "fundo-video"
+      ],
+      "exception": null
+    },
+    {
+      "productionId": "042-youtube-tres-molhos-para-salada-medidas-preparo-e-como-usar",
+      "format": "youtube-horizontal",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/cozinha-moderna-sitio.png",
+          "backgroundId": "cozinha-moderna-sitio"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/042-youtube-tres-molhos-para-salada-medidas-preparo-e-como-usar/output/convertido-0001.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/042-youtube-tres-molhos-para-salada-medidas-preparo-e-como-usar/horizontal.json",
+      "evidenceType": "Configuração da composição renderizada e MP4 validado.",
+      "rotationPool": "cozinha:horizontal",
+      "round": 1,
+      "eligibleBackgroundIds": [
+        "cozinha-moderna-sitio"
+      ],
+      "exception": "Um só fundo elegível: demais cozinhas do banco são vídeo, não suportado nesta composição."
+    },
+    {
+      "productionId": "043-youtube-abobrinha-recheada-com-carne-moida-passo-a-passo",
+      "format": "youtube-horizontal",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/cozinha-sitio-tijolo-madeira.mp4",
+          "backgroundId": "cozinha-sitio-tijolo-madeira"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/043-youtube-abobrinha-recheada-com-carne-moida-passo-a-passo/output/convertido-0001.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/043-youtube-abobrinha-recheada-com-carne-moida-passo-a-passo/horizontal.json",
+      "evidenceType": "Configuração da composição renderizada e MP4 validado.",
+      "rotationPool": "cozinha:horizontal",
+      "round": 1,
+      "eligibleBackgroundIds": [
+        "cozinha-moderna-sitio",
+        "despensa-lilas-bancada",
+        "fundo-video",
+        "cozinha-urbana-ilha-lilas",
+        "cozinha-sitio-tijolo-madeira",
+        "despensa-organizada-bancada-clara",
+        "varanda-gourmet-jardim",
+        "cozinha-noturna-luz-quente"
+      ],
+      "exception": null
+    },
+    {
+      "productionId": "044-pure-cheio-de-carocos-batata-quente-e-leite-aquecido",
+      "format": "instagram-reels",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/varanda-gourmet-jardim.mp4",
+          "backgroundId": "varanda-gourmet-jardim"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/044-pure-cheio-de-carocos-batata-quente-e-leite-aquecido/output/convertido-0001.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/044-pure-cheio-de-carocos-batata-quente-e-leite-aquecido/montagem.json",
+      "evidenceType": "Configuração renderizada e MP4 validado.",
+      "rotationPool": "cozinha:vertical",
+      "round": 1,
+      "eligibleBackgroundIds": [
+        "cozinha-moderna-sitio",
+        "despensa-lilas-bancada",
+        "fundo-video",
+        "cozinha-urbana-ilha-lilas",
+        "cozinha-sitio-tijolo-madeira",
+        "despensa-organizada-bancada-clara",
+        "varanda-gourmet-jardim",
+        "cozinha-noturna-luz-quente"
+      ],
+      "exception": null
+    },
+    {
+      "productionId": "045-arroz-soltinho-pare-de-mexer-e-deixe-descansar",
+      "format": "instagram-reels",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/cozinha-sitio-tijolo-madeira.mp4",
+          "backgroundId": "cozinha-sitio-tijolo-madeira"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/045-arroz-soltinho-pare-de-mexer-e-deixe-descansar/output/convertido-0001.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/045-arroz-soltinho-pare-de-mexer-e-deixe-descansar/montagem.json",
+      "evidenceType": "Configuração renderizada e MP4 validado.",
+      "rotationPool": "cozinha:vertical",
+      "round": 1,
+      "eligibleBackgroundIds": [
+        "cozinha-moderna-sitio",
+        "despensa-lilas-bancada",
+        "fundo-video",
+        "cozinha-urbana-ilha-lilas",
+        "cozinha-sitio-tijolo-madeira",
+        "despensa-organizada-bancada-clara",
+        "varanda-gourmet-jardim",
+        "cozinha-noturna-luz-quente"
+      ],
+      "exception": null
+    },
+    {
+      "productionId": "045-arroz-soltinho-pare-de-mexer-e-deixe-descansar",
+      "format": "instagram-reels",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/cozinha-sitio-tijolo-madeira.mp4",
+          "backgroundId": "cozinha-sitio-tijolo-madeira"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/045-arroz-soltinho-pare-de-mexer-e-deixe-descansar/output/convertido-0002.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/045-arroz-soltinho-pare-de-mexer-e-deixe-descansar/montagem.json",
+      "evidenceType": "Configuração renderizada e MP4 validado.",
+      "rotationPool": "cozinha:vertical",
+      "round": 1,
+      "eligibleBackgroundIds": [
+        "cozinha-moderna-sitio",
+        "despensa-lilas-bancada",
+        "fundo-video",
+        "cozinha-urbana-ilha-lilas",
+        "cozinha-sitio-tijolo-madeira",
+        "despensa-organizada-bancada-clara",
+        "varanda-gourmet-jardim",
+        "cozinha-noturna-luz-quente"
+      ],
+      "exception": null
+    },
+    {
+      "productionId": "046-molho-de-tomate-aguado-reduza-sem-tampa",
+      "format": "instagram-reels",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/cozinha-urbana-ilha-lilas.png",
+          "backgroundId": "cozinha-urbana-ilha-lilas"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/046-molho-de-tomate-aguado-reduza-sem-tampa/output/convertido-0001.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/046-molho-de-tomate-aguado-reduza-sem-tampa/montagem.json",
+      "evidenceType": "Configuração renderizada e MP4 validado.",
+      "rotationPool": "cozinha:vertical",
+      "round": 1,
+      "eligibleBackgroundIds": [
+        "cozinha-moderna-sitio",
+        "despensa-lilas-bancada",
+        "fundo-video",
+        "cozinha-urbana-ilha-lilas",
+        "cozinha-sitio-tijolo-madeira",
+        "despensa-organizada-bancada-clara",
+        "varanda-gourmet-jardim",
+        "cozinha-noturna-luz-quente"
+      ],
+      "exception": null
+    },
+    {
+      "productionId": "047-ovo-cozido-sem-aro-esverdeado-cronometre-e-resfrie",
+      "format": "instagram-reels",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/cozinha-noturna-luz-quente.png",
+          "backgroundId": "cozinha-noturna-luz-quente"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/047-ovo-cozido-sem-aro-esverdeado-cronometre-e-resfrie/output/convertido-0001.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/047-ovo-cozido-sem-aro-esverdeado-cronometre-e-resfrie/montagem.json",
+      "evidenceType": "Configuração renderizada e MP4 validado.",
+      "rotationPool": "cozinha:vertical",
+      "round": 1,
+      "eligibleBackgroundIds": [
+        "cozinha-moderna-sitio",
+        "despensa-lilas-bancada",
+        "fundo-video",
+        "cozinha-urbana-ilha-lilas",
+        "cozinha-sitio-tijolo-madeira",
+        "despensa-organizada-bancada-clara",
+        "varanda-gourmet-jardim",
+        "cozinha-noturna-luz-quente"
+      ],
+      "exception": null
+    },
+    {
+      "productionId": "048-farofa-de-banana-sem-desmanchar-os-pedacos",
+      "format": "instagram-reels",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/despensa-organizada-bancada-clara.png",
+          "backgroundId": "despensa-organizada-bancada-clara"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/048-farofa-de-banana-sem-desmanchar-os-pedacos/output/convertido-0001.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/048-farofa-de-banana-sem-desmanchar-os-pedacos/montagem.json",
+      "evidenceType": "Configuração renderizada e MP4 validado.",
+      "rotationPool": "cozinha:vertical",
+      "round": 1,
+      "eligibleBackgroundIds": [
+        "cozinha-moderna-sitio",
+        "despensa-lilas-bancada",
+        "fundo-video",
+        "cozinha-urbana-ilha-lilas",
+        "cozinha-sitio-tijolo-madeira",
+        "despensa-organizada-bancada-clara",
+        "varanda-gourmet-jardim",
+        "cozinha-noturna-luz-quente"
+      ],
+      "exception": null
+    },
+    {
+      "productionId": "049-couve-refogada-sem-ficar-escura-e-molenga",
+      "format": "instagram-reels",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/fundo-video.mp4",
+          "backgroundId": "fundo-video"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/049-couve-refogada-sem-ficar-escura-e-molenga/output/convertido-0001.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/049-couve-refogada-sem-ficar-escura-e-molenga/montagem.json",
+      "evidenceType": "Configuração renderizada e MP4 validado.",
+      "rotationPool": "cozinha:vertical",
+      "round": 2,
+      "eligibleBackgroundIds": [
+        "cozinha-moderna-sitio",
+        "despensa-lilas-bancada",
+        "fundo-video",
+        "cozinha-urbana-ilha-lilas",
+        "cozinha-sitio-tijolo-madeira",
+        "despensa-organizada-bancada-clara",
+        "varanda-gourmet-jardim",
+        "cozinha-noturna-luz-quente"
+      ],
+      "exception": null
+    },
+    {
+      "productionId": "050-cabotia-assada-com-casca-menos-trabalho-no-jantar",
+      "format": "instagram-reels",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/despensa-lilas-bancada.mp4",
+          "backgroundId": "despensa-lilas-bancada"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/050-cabotia-assada-com-casca-menos-trabalho-no-jantar/output/convertido-0001.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/050-cabotia-assada-com-casca-menos-trabalho-no-jantar/montagem.json",
+      "evidenceType": "Configuração renderizada e MP4 validado.",
+      "rotationPool": "cozinha:vertical",
+      "round": 2,
+      "eligibleBackgroundIds": [
+        "cozinha-moderna-sitio",
+        "despensa-lilas-bancada",
+        "fundo-video",
+        "cozinha-urbana-ilha-lilas",
+        "cozinha-sitio-tijolo-madeira",
+        "despensa-organizada-bancada-clara",
+        "varanda-gourmet-jardim",
+        "cozinha-noturna-luz-quente"
+      ],
+      "exception": null
+    },
+    {
+      "productionId": "051-cuscuz-macio-hidrate-o-flocao-e-nao-compacte",
+      "format": "instagram-reels",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/cozinha-moderna-sitio.png",
+          "backgroundId": "cozinha-moderna-sitio"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/051-cuscuz-macio-hidrate-o-flocao-e-nao-compacte/output/convertido-0001.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/051-cuscuz-macio-hidrate-o-flocao-e-nao-compacte/montagem.json",
+      "evidenceType": "Configuração renderizada e MP4 validado.",
+      "rotationPool": "cozinha:vertical",
+      "round": 2,
+      "eligibleBackgroundIds": [
+        "cozinha-moderna-sitio",
+        "despensa-lilas-bancada",
+        "fundo-video",
+        "cozinha-urbana-ilha-lilas",
+        "cozinha-sitio-tijolo-madeira",
+        "despensa-organizada-bancada-clara",
+        "varanda-gourmet-jardim",
+        "cozinha-noturna-luz-quente"
+      ],
+      "exception": null
+    },
+    {
+      "productionId": "052-molho-branco-lisinho-use-leite-gelado-no-roux",
+      "format": "instagram-reels",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/varanda-gourmet-jardim.mp4",
+          "backgroundId": "varanda-gourmet-jardim"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/052-molho-branco-lisinho-use-leite-gelado-no-roux/output/convertido-0001.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/052-molho-branco-lisinho-use-leite-gelado-no-roux/montagem.json",
+      "evidenceType": "Configuração renderizada e MP4 validado.",
+      "rotationPool": "cozinha:vertical",
+      "round": 2,
+      "eligibleBackgroundIds": [
+        "cozinha-moderna-sitio",
+        "despensa-lilas-bancada",
+        "fundo-video",
+        "cozinha-urbana-ilha-lilas",
+        "cozinha-sitio-tijolo-madeira",
+        "despensa-organizada-bancada-clara",
+        "varanda-gourmet-jardim",
+        "cozinha-noturna-luz-quente"
+      ],
+      "exception": null
+    },
+    {
+      "productionId": "053-o-corte-do-alho-muda-a-intensidade-do-sabor",
+      "format": "instagram-reels",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/cozinha-sitio-tijolo-madeira.mp4",
+          "backgroundId": "cozinha-sitio-tijolo-madeira"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/053-o-corte-do-alho-muda-a-intensidade-do-sabor/output/convertido-0001.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/053-o-corte-do-alho-muda-a-intensidade-do-sabor/montagem.json",
+      "evidenceType": "Configuração renderizada e MP4 validado.",
+      "rotationPool": "cozinha:vertical",
+      "round": 2,
+      "eligibleBackgroundIds": [
+        "cozinha-moderna-sitio",
+        "despensa-lilas-bancada",
+        "fundo-video",
+        "cozinha-urbana-ilha-lilas",
+        "cozinha-sitio-tijolo-madeira",
+        "despensa-organizada-bancada-clara",
+        "varanda-gourmet-jardim",
+        "cozinha-noturna-luz-quente"
+      ],
+      "exception": null
+    },
+    {
+      "productionId": "054-macarrao-sem-grudar-nao-precisa-de-oleo-na-agua",
+      "format": "instagram-reels",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/cozinha-urbana-ilha-lilas.png",
+          "backgroundId": "cozinha-urbana-ilha-lilas"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/054-macarrao-sem-grudar-nao-precisa-de-oleo-na-agua/output/convertido-0001.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/054-macarrao-sem-grudar-nao-precisa-de-oleo-na-agua/montagem.json",
+      "evidenceType": "Configuração renderizada e MP4 validado.",
+      "rotationPool": "cozinha:vertical",
+      "round": 2,
+      "eligibleBackgroundIds": [
+        "cozinha-moderna-sitio",
+        "despensa-lilas-bancada",
+        "fundo-video",
+        "cozinha-urbana-ilha-lilas",
+        "cozinha-sitio-tijolo-madeira",
+        "despensa-organizada-bancada-clara",
+        "varanda-gourmet-jardim",
+        "cozinha-noturna-luz-quente"
+      ],
+      "exception": null
+    },
+    {
+      "productionId": "055-brocolis-verdinho-e-crocante-com-choque-termico",
+      "format": "instagram-reels",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/cozinha-noturna-luz-quente.png",
+          "backgroundId": "cozinha-noturna-luz-quente"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/055-brocolis-verdinho-e-crocante-com-choque-termico/output/convertido-0001.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/055-brocolis-verdinho-e-crocante-com-choque-termico/montagem.json",
+      "evidenceType": "Configuração renderizada e MP4 validado.",
+      "rotationPool": "cozinha:vertical",
+      "round": 2,
+      "eligibleBackgroundIds": [
+        "cozinha-moderna-sitio",
+        "despensa-lilas-bancada",
+        "fundo-video",
+        "cozinha-urbana-ilha-lilas",
+        "cozinha-sitio-tijolo-madeira",
+        "despensa-organizada-bancada-clara",
+        "varanda-gourmet-jardim",
+        "cozinha-noturna-luz-quente"
+      ],
+      "exception": null
+    },
+    {
+      "productionId": "056-salada-de-tomate-sem-piscina-no-prato",
+      "format": "instagram-reels",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/despensa-organizada-bancada-clara.png",
+          "backgroundId": "despensa-organizada-bancada-clara"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/056-salada-de-tomate-sem-piscina-no-prato/output/convertido-0001.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/056-salada-de-tomate-sem-piscina-no-prato/montagem.json",
+      "evidenceType": "Configuração renderizada e MP4 validado.",
+      "rotationPool": "cozinha:vertical",
+      "round": 2,
+      "eligibleBackgroundIds": [
+        "cozinha-moderna-sitio",
+        "despensa-lilas-bancada",
+        "fundo-video",
+        "cozinha-urbana-ilha-lilas",
+        "cozinha-sitio-tijolo-madeira",
+        "despensa-organizada-bancada-clara",
+        "varanda-gourmet-jardim",
+        "cozinha-noturna-luz-quente"
+      ],
+      "exception": null
+    },
+    {
+      "productionId": "057-pimentao-assado-sem-pele-deixe-o-vapor-ajudar",
+      "format": "instagram-reels",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/fundo-video.mp4",
+          "backgroundId": "fundo-video"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/057-pimentao-assado-sem-pele-deixe-o-vapor-ajudar/output/convertido-0001.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/057-pimentao-assado-sem-pele-deixe-o-vapor-ajudar/montagem.json",
+      "evidenceType": "Configuração renderizada e MP4 validado.",
+      "rotationPool": "cozinha:vertical",
+      "round": 3,
+      "eligibleBackgroundIds": [
+        "cozinha-moderna-sitio",
+        "despensa-lilas-bancada",
+        "fundo-video",
+        "cozinha-urbana-ilha-lilas",
+        "cozinha-sitio-tijolo-madeira",
+        "despensa-organizada-bancada-clara",
+        "varanda-gourmet-jardim",
+        "cozinha-noturna-luz-quente"
+      ],
+      "exception": null
+    },
+    {
+      "productionId": "058-batata-bolinha-ao-murro-com-casquinha-na-frigideira",
+      "format": "instagram-reels",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/despensa-lilas-bancada.mp4",
+          "backgroundId": "despensa-lilas-bancada"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/058-batata-bolinha-ao-murro-com-casquinha-na-frigideira/output/convertido-0001.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/058-batata-bolinha-ao-murro-com-casquinha-na-frigideira/montagem.json",
+      "evidenceType": "Configuração renderizada e MP4 validado.",
+      "rotationPool": "cozinha:vertical",
+      "round": 3,
+      "eligibleBackgroundIds": [
+        "cozinha-moderna-sitio",
+        "despensa-lilas-bancada",
+        "fundo-video",
+        "cozinha-urbana-ilha-lilas",
+        "cozinha-sitio-tijolo-madeira",
+        "despensa-organizada-bancada-clara",
+        "varanda-gourmet-jardim",
+        "cozinha-noturna-luz-quente"
+      ],
+      "exception": null
+    },
+    {
+      "productionId": "059-feijao-com-caldo-ralo-amasse-uma-concha-dos-graos",
+      "format": "instagram-reels",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/cozinha-moderna-sitio.png",
+          "backgroundId": "cozinha-moderna-sitio"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/059-feijao-com-caldo-ralo-amasse-uma-concha-dos-graos/output/convertido-0001.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/059-feijao-com-caldo-ralo-amasse-uma-concha-dos-graos/montagem.json",
+      "evidenceType": "Configuração renderizada e MP4 validado.",
+      "rotationPool": "cozinha:vertical",
+      "round": 3,
+      "eligibleBackgroundIds": [
+        "cozinha-moderna-sitio",
+        "despensa-lilas-bancada",
+        "fundo-video",
+        "cozinha-urbana-ilha-lilas",
+        "cozinha-sitio-tijolo-madeira",
+        "despensa-organizada-bancada-clara",
+        "varanda-gourmet-jardim",
+        "cozinha-noturna-luz-quente"
+      ],
+      "exception": null
+    },
+    {
+      "productionId": "060-fraldinha-fatie-contra-as-fibras-na-hora-de-servir",
+      "format": "instagram-reels",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/varanda-gourmet-jardim.mp4",
+          "backgroundId": "varanda-gourmet-jardim"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/060-fraldinha-fatie-contra-as-fibras-na-hora-de-servir/output/convertido-0001.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/060-fraldinha-fatie-contra-as-fibras-na-hora-de-servir/montagem.json",
+      "evidenceType": "Configuração renderizada e MP4 validado.",
+      "rotationPool": "cozinha:vertical",
+      "round": 3,
+      "eligibleBackgroundIds": [
+        "cozinha-moderna-sitio",
+        "despensa-lilas-bancada",
+        "fundo-video",
+        "cozinha-urbana-ilha-lilas",
+        "cozinha-sitio-tijolo-madeira",
+        "despensa-organizada-bancada-clara",
+        "varanda-gourmet-jardim",
+        "cozinha-noturna-luz-quente"
+      ],
+      "exception": null
+    },
+    {
+      "productionId": "061-quiabo-douradinho-seque-bem-e-grelhe-sem-amontoar",
+      "format": "instagram-reels",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/cozinha-sitio-tijolo-madeira.mp4",
+          "backgroundId": "cozinha-sitio-tijolo-madeira"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/061-quiabo-douradinho-seque-bem-e-grelhe-sem-amontoar/output/convertido-0001.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/061-quiabo-douradinho-seque-bem-e-grelhe-sem-amontoar/montagem.json",
+      "evidenceType": "Configuração renderizada e MP4 validado.",
+      "rotationPool": "cozinha:vertical",
+      "round": 3,
+      "eligibleBackgroundIds": [
+        "cozinha-moderna-sitio",
+        "despensa-lilas-bancada",
+        "fundo-video",
+        "cozinha-urbana-ilha-lilas",
+        "cozinha-sitio-tijolo-madeira",
+        "despensa-organizada-bancada-clara",
+        "varanda-gourmet-jardim",
+        "cozinha-noturna-luz-quente"
+      ],
+      "exception": null
+    },
+    {
+      "productionId": "062-cebola-crua-menos-ardida-dez-minutos-na-agua-com-gelo",
+      "format": "instagram-reels",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/cozinha-urbana-ilha-lilas.png",
+          "backgroundId": "cozinha-urbana-ilha-lilas"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/062-cebola-crua-menos-ardida-dez-minutos-na-agua-com-gelo/output/convertido-0001.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/062-cebola-crua-menos-ardida-dez-minutos-na-agua-com-gelo/montagem.json",
+      "evidenceType": "Configuração renderizada e MP4 validado.",
+      "rotationPool": "cozinha:vertical",
+      "round": 3,
+      "eligibleBackgroundIds": [
+        "cozinha-moderna-sitio",
+        "despensa-lilas-bancada",
+        "fundo-video",
+        "cozinha-urbana-ilha-lilas",
+        "cozinha-sitio-tijolo-madeira",
+        "despensa-organizada-bancada-clara",
+        "varanda-gourmet-jardim",
+        "cozinha-noturna-luz-quente"
+      ],
+      "exception": null
+    },
+    {
+      "productionId": "063-mandioca-cozida-ganha-casquinha-na-manteiga",
+      "format": "instagram-reels",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/cozinha-noturna-luz-quente.png",
+          "backgroundId": "cozinha-noturna-luz-quente"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/063-mandioca-cozida-ganha-casquinha-na-manteiga/output/convertido-0001.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/063-mandioca-cozida-ganha-casquinha-na-manteiga/montagem.json",
+      "evidenceType": "Configuração renderizada e MP4 validado.",
+      "rotationPool": "cozinha:vertical",
+      "round": 3,
+      "eligibleBackgroundIds": [
+        "cozinha-moderna-sitio",
+        "despensa-lilas-bancada",
+        "fundo-video",
+        "cozinha-urbana-ilha-lilas",
+        "cozinha-sitio-tijolo-madeira",
+        "despensa-organizada-bancada-clara",
+        "varanda-gourmet-jardim",
+        "cozinha-noturna-luz-quente"
+      ],
+      "exception": null
+    },
+    {
+      "productionId": "064-polenta-sem-empelotar-semola-aos-poucos-e-batedor",
+      "format": "instagram-reels",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/despensa-organizada-bancada-clara.png",
+          "backgroundId": "despensa-organizada-bancada-clara"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/064-polenta-sem-empelotar-semola-aos-poucos-e-batedor/output/convertido-0001.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/064-polenta-sem-empelotar-semola-aos-poucos-e-batedor/montagem.json",
+      "evidenceType": "Configuração renderizada e MP4 validado.",
+      "rotationPool": "cozinha:vertical",
+      "round": 3,
+      "eligibleBackgroundIds": [
+        "cozinha-moderna-sitio",
+        "despensa-lilas-bancada",
+        "fundo-video",
+        "cozinha-urbana-ilha-lilas",
+        "cozinha-sitio-tijolo-madeira",
+        "despensa-organizada-bancada-clara",
+        "varanda-gourmet-jardim",
+        "cozinha-noturna-luz-quente"
+      ],
+      "exception": null
+    },
+    {
+      "productionId": "065-grao-de-bico-cozido-vira-crocante-no-forno",
+      "format": "instagram-reels",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/fundo-video.mp4",
+          "backgroundId": "fundo-video"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/065-grao-de-bico-cozido-vira-crocante-no-forno/output/convertido-0001.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/065-grao-de-bico-cozido-vira-crocante-no-forno/montagem.json",
+      "evidenceType": "Configuração renderizada e MP4 validado.",
+      "rotationPool": "cozinha:vertical",
+      "round": 4,
+      "eligibleBackgroundIds": [
+        "cozinha-moderna-sitio",
+        "despensa-lilas-bancada",
+        "fundo-video",
+        "cozinha-urbana-ilha-lilas",
+        "cozinha-sitio-tijolo-madeira",
+        "despensa-organizada-bancada-clara",
+        "varanda-gourmet-jardim",
+        "cozinha-noturna-luz-quente"
+      ],
+      "exception": null
+    },
+    {
+      "productionId": "066-linguica-com-batata-jantar-em-uma-assadeira",
+      "format": "instagram-reels",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/despensa-lilas-bancada.mp4",
+          "backgroundId": "despensa-lilas-bancada"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/066-linguica-com-batata-jantar-em-uma-assadeira/output/convertido-0001.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/066-linguica-com-batata-jantar-em-uma-assadeira/montagem.json",
+      "evidenceType": "Configuração renderizada e MP4 validado.",
+      "rotationPool": "cozinha:vertical",
+      "round": 4,
+      "eligibleBackgroundIds": [
+        "cozinha-moderna-sitio",
+        "despensa-lilas-bancada",
+        "fundo-video",
+        "cozinha-urbana-ilha-lilas",
+        "cozinha-sitio-tijolo-madeira",
+        "despensa-organizada-bancada-clara",
+        "varanda-gourmet-jardim",
+        "cozinha-noturna-luz-quente"
+      ],
+      "exception": null
+    },
+    {
+      "productionId": "067-cogumelo-dourado-na-frigideira-alho-so-no-final",
+      "format": "instagram-reels",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/cozinha-moderna-sitio.png",
+          "backgroundId": "cozinha-moderna-sitio"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/067-cogumelo-dourado-na-frigideira-alho-so-no-final/output/convertido-0001.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/067-cogumelo-dourado-na-frigideira-alho-so-no-final/montagem.json",
+      "evidenceType": "Configuração renderizada e MP4 validado.",
+      "rotationPool": "cozinha:vertical",
+      "round": 4,
+      "eligibleBackgroundIds": [
+        "cozinha-moderna-sitio",
+        "despensa-lilas-bancada",
+        "fundo-video",
+        "cozinha-urbana-ilha-lilas",
+        "cozinha-sitio-tijolo-madeira",
+        "despensa-organizada-bancada-clara",
+        "varanda-gourmet-jardim",
+        "cozinha-noturna-luz-quente"
+      ],
+      "exception": null
+    },
+    {
+      "productionId": "068-abobrinha-agridoce-mel-e-vinagre-transformam-o-jantar",
+      "format": "instagram-reels",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/varanda-gourmet-jardim.mp4",
+          "backgroundId": "varanda-gourmet-jardim"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/068-abobrinha-agridoce-mel-e-vinagre-transformam-o-jantar/output/convertido-0001.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/068-abobrinha-agridoce-mel-e-vinagre-transformam-o-jantar/montagem.json",
+      "evidenceType": "Configuração renderizada e MP4 validado.",
+      "rotationPool": "cozinha:vertical",
+      "round": 4,
+      "eligibleBackgroundIds": [
+        "cozinha-moderna-sitio",
+        "despensa-lilas-bancada",
+        "fundo-video",
+        "cozinha-urbana-ilha-lilas",
+        "cozinha-sitio-tijolo-madeira",
+        "despensa-organizada-bancada-clara",
+        "varanda-gourmet-jardim",
+        "cozinha-noturna-luz-quente"
+      ],
+      "exception": null
+    },
+    {
+      "productionId": "069-repolho-assado-gomos-dourados-com-manteiga-temperada",
+      "format": "instagram-reels",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/cozinha-sitio-tijolo-madeira.mp4",
+          "backgroundId": "cozinha-sitio-tijolo-madeira"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/069-repolho-assado-gomos-dourados-com-manteiga-temperada/output/convertido-0001.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/069-repolho-assado-gomos-dourados-com-manteiga-temperada/montagem.json",
+      "evidenceType": "Configuração renderizada e MP4 validado.",
+      "rotationPool": "cozinha:vertical",
+      "round": 4,
+      "eligibleBackgroundIds": [
+        "cozinha-moderna-sitio",
+        "despensa-lilas-bancada",
+        "fundo-video",
+        "cozinha-urbana-ilha-lilas",
+        "cozinha-sitio-tijolo-madeira",
+        "despensa-organizada-bancada-clara",
+        "varanda-gourmet-jardim",
+        "cozinha-noturna-luz-quente"
+      ],
+      "exception": null
+    },
+    {
+      "productionId": "070-ervilha-congelada-vai-direto-para-a-frigideira",
+      "format": "instagram-reels",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/cozinha-urbana-ilha-lilas.png",
+          "backgroundId": "cozinha-urbana-ilha-lilas"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/070-ervilha-congelada-vai-direto-para-a-frigideira/output/convertido-0001.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/070-ervilha-congelada-vai-direto-para-a-frigideira/montagem.json",
+      "evidenceType": "Configuração renderizada e MP4 validado.",
+      "rotationPool": "cozinha:vertical",
+      "round": 4,
+      "eligibleBackgroundIds": [
+        "cozinha-moderna-sitio",
+        "despensa-lilas-bancada",
+        "fundo-video",
+        "cozinha-urbana-ilha-lilas",
+        "cozinha-sitio-tijolo-madeira",
+        "despensa-organizada-bancada-clara",
+        "varanda-gourmet-jardim",
+        "cozinha-noturna-luz-quente"
+      ],
+      "exception": null
+    },
+    {
+      "productionId": "071-creme-de-milho-sem-farinha-o-proprio-grao-engrossa",
+      "format": "instagram-reels",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/cozinha-noturna-luz-quente.png",
+          "backgroundId": "cozinha-noturna-luz-quente"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/071-creme-de-milho-sem-farinha-o-proprio-grao-engrossa/output/convertido-0001.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/071-creme-de-milho-sem-farinha-o-proprio-grao-engrossa/montagem.json",
+      "evidenceType": "Configuração renderizada e MP4 validado.",
+      "rotationPool": "cozinha:vertical",
+      "round": 4,
+      "eligibleBackgroundIds": [
+        "cozinha-moderna-sitio",
+        "despensa-lilas-bancada",
+        "fundo-video",
+        "cozinha-urbana-ilha-lilas",
+        "cozinha-sitio-tijolo-madeira",
+        "despensa-organizada-bancada-clara",
+        "varanda-gourmet-jardim",
+        "cozinha-noturna-luz-quente"
+      ],
+      "exception": null
+    },
+    {
+      "productionId": "072-berinjela-assada-com-cominho-dourada-sem-ressecar",
+      "format": "instagram-reels",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/despensa-organizada-bancada-clara.png",
+          "backgroundId": "despensa-organizada-bancada-clara"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/072-berinjela-assada-com-cominho-dourada-sem-ressecar/output/convertido-0001.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/072-berinjela-assada-com-cominho-dourada-sem-ressecar/montagem.json",
+      "evidenceType": "Configuração renderizada e MP4 validado.",
+      "rotationPool": "cozinha:vertical",
+      "round": 4,
+      "eligibleBackgroundIds": [
+        "cozinha-moderna-sitio",
+        "despensa-lilas-bancada",
+        "fundo-video",
+        "cozinha-urbana-ilha-lilas",
+        "cozinha-sitio-tijolo-madeira",
+        "despensa-organizada-bancada-clara",
+        "varanda-gourmet-jardim",
+        "cozinha-noturna-luz-quente"
+      ],
+      "exception": null
+    },
+    {
+      "productionId": "073-peixe-no-papel-manteiga-papilote-com-legumes",
+      "format": "instagram-reels",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/fundo-video.mp4",
+          "backgroundId": "fundo-video"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/073-peixe-no-papel-manteiga-papilote-com-legumes/output/convertido-0001.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/073-peixe-no-papel-manteiga-papilote-com-legumes/montagem.json",
+      "evidenceType": "Configuração renderizada e MP4 validado.",
+      "rotationPool": "cozinha:vertical",
+      "round": 5,
+      "eligibleBackgroundIds": [
+        "cozinha-moderna-sitio",
+        "despensa-lilas-bancada",
+        "fundo-video",
+        "cozinha-urbana-ilha-lilas",
+        "cozinha-sitio-tijolo-madeira",
+        "despensa-organizada-bancada-clara",
+        "varanda-gourmet-jardim",
+        "cozinha-noturna-luz-quente"
+      ],
+      "exception": null
+    },
+    {
+      "productionId": "074-lentilha-para-salada-sem-desmanchar-prove-o-ponto",
+      "format": "instagram-reels",
+      "backgrounds": [
+        {
+          "asset": "assets/cenario/despensa-lilas-bancada.mp4",
+          "backgroundId": "despensa-lilas-bancada"
+        }
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/074-lentilha-para-salada-sem-desmanchar-prove-o-ponto/output/convertido-0001.mp4",
+      "evidence": "assets/cenas/tarefas/003-gerados/074-lentilha-para-salada-sem-desmanchar-prove-o-ponto/montagem.json",
+      "evidenceType": "Configuração renderizada e MP4 validado.",
+      "rotationPool": "cozinha:vertical",
+      "round": 5,
+      "eligibleBackgroundIds": [
+        "cozinha-moderna-sitio",
+        "despensa-lilas-bancada",
+        "fundo-video",
+        "cozinha-urbana-ilha-lilas",
+        "cozinha-sitio-tijolo-madeira",
+        "despensa-organizada-bancada-clara",
+        "varanda-gourmet-jardim",
+        "cozinha-noturna-luz-quente"
+      ],
+      "exception": null
+    }
+  ]
+}

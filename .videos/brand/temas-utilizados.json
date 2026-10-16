@@ -146,6 +146,223 @@
         "examples": [
           "Feijão dividido por jantar, em vez de um panelão congelado"
         ]
+      },
+      {
+        "id": "ordem-do-preparo",
+        "description": "Organizar a sequência do preparo para aproveitar esperas na mesma cozinha, acompanhando o fogão e sem prazo garantido.",
+        "examples": [
+          "Começar o arroz antes da salada"
+        ]
+      },
+      {
+        "id": "ingredientes-reservados",
+        "description": "Separar e comunicar os ingredientes de uma refeição para evitar uso em outra antes do preparo.",
+        "examples": [
+          "Reservar ingredientes do jantar juntos numa bandeja e combinar em casa"
+        ]
+      },
+      {
+        "id": "dourado-das-carnes",
+        "description": "Técnicas demonstráveis para dourar carnes sem amontoar, com preparo completo e fontes culinárias.",
+        "examples": [
+          "Dourar carne moída em pequenas levas"
+        ]
+      },
+      {
+        "id": "transformacao-do-arroz",
+        "description": "Transformar arroz cozido corretamente armazenado numa nova preparação com receita e proporções verificadas.",
+        "examples": [
+          "Arroz branco cozido vira tortilha de frigideira"
+        ]
+      },
+      {
+        "id": "momento-de-temperar",
+        "description": "Separar temperos do alimento sensível até servir, para adiantar preparo sem perder textura.",
+        "examples": [
+          "Guardar folhas e molho separados até a hora do jantar"
+        ]
+      },
+      {
+        "id": "estabilidade-na-bancada",
+        "description": "Apoio firme da tábua e utensílios durante o preparo."
+      },
+      {
+        "id": "virar-o-bife",
+        "description": "Esperar o bife dourar e soltar antes de virar, evitando arrancar a crosta."
+      },
+      {
+        "id": "molhos-frios-para-salada",
+        "description": "Receitas completas de molhos frios com medidas e mistura para variar o sabor da salada."
+      },
+      {
+        "id": "legumes-recheados-no-forno",
+        "description": "Preparar legumes em canoas com recheio cozido e cobertura de forno, preservando estrutura e aproveitando o miolo."
+      },
+      {
+        "id": "textura-do-pure",
+        "description": "Técnica e temperatura para incorporar batata, leite e manteiga no purê, com medidas e textura demonstráveis."
+      },
+      {
+        "id": "cozimento-e-descanso-do-arroz",
+        "description": "Técnica específica para arroz branco: não mexer durante cozimento e repousar tampado antes de soltar os grãos; distinta de receitas com sobras e ordem geral do jantar."
+      },
+      {
+        "id": "reducao-de-molhos-quentes",
+        "description": "Corrigir excesso de líquido de molho quente por evaporação antes da massa, observar consistência e ajustar sal ao final; distinta de emulsão com água de macarrão e molhos frios."
+      },
+      {
+        "id": "ponto-e-resfriamento-do-ovo",
+        "description": "Controle do tempo do ovo cozido e resfriamento imediato para evitar excesso de cozimento e aro esverdeado; distinto de omelete e ovos no molho."
+      },
+      {
+        "id": "textura-da-farofa",
+        "description": "Farofas com farinha de mandioca torrada: incorporação delicada e ordem de preparo para preservar pedaços e obter textura crocante."
+      },
+      {
+        "id": "ponto-das-folhas-refogadas",
+        "description": "Corte fino e refogado breve de folhas para preservar textura e evitar cozinhar em excesso; distinta de conservação e tempero de saladas cruas."
+      },
+      {
+        "id": "cabotia-com-casca-no-forno",
+        "description": "Assar abóbora japonesa/cabotiá com casca higienizada para simplificar o preparo, com fatias e tempero culinário verificados."
+      },
+      {
+        "id": "hidratacao-e-vapor-do-cuscuz",
+        "description": "Hidratação do flocão próprio para cuscuz e distribuição sem compactar no cesto de vapor para obter textura macia."
+      },
+      {
+        "id": "roux-e-molho-branco",
+        "description": "Preparar roux claro e incorporar leite gelado com batedor para bechamel liso, com proporções e cozimento verificados; distinto de reduzir molho de tomate."
+      },
+      {
+        "id": "intensidade-do-alho",
+        "description": "Comparar como corte e preparo alteram a intensidade do alho, tema explicitamente solicitado pelo usuário."
+      },
+      {
+        "id": "cozimento-da-massa",
+        "description": "Água, fervura, movimento e ponto da massa no cozimento tradicional, sem repetir uso da água no molho."
+      },
+      {
+        "id": "branqueamento-do-brocolis",
+        "description": "Cozimento breve dos ramos e interrupção em banho de gelo para manter textura no acompanhamento."
+      },
+      {
+        "id": "drenagem-do-tomate",
+        "description": "Drenar salada de tomate com sal em peneira refrigerada antes da finalização."
+      },
+      {
+        "id": "pele-do-pimentao-assado",
+        "description": "Assar pimentão inteiro e abafar para soltar a pele antes de limpar e cortar para o jantar."
+      },
+      {
+        "id": "batata-ao-murro-na-frigideira",
+        "description": "Cozinhar batatinhas com casca, achatar levemente e dourar os dois lados com azeite."
+      },
+      {
+        "id": "corpo-do-caldo-de-feijao",
+        "description": "Finalizar feijão cozido amassando uma parte dos grãos e apurando o caldo destampado."
+      },
+      {
+        "id": "fatiamento-contra-fibras",
+        "description": "Identificar os feixes musculares da fraldinha preparada e fatiar transversalmente ao servir."
+      },
+      {
+        "id": "quiabo-grelhado",
+        "description": "Secagem, corte longitudinal e grelha em levas para quiabo tostado, com receita e ponto verificados.",
+        "examples": [
+          "Quiabo douradinho na frigideira"
+        ]
+      },
+      {
+        "id": "suavizar-cebola-crua",
+        "description": "Corte fino e molho em água gelada para suavizar a ardência da cebola crua, distinto de refogado e drenagem de tomate salgado.",
+        "examples": [
+          "Cebola menos ardida na salada"
+        ]
+      },
+      {
+        "id": "mandioca-salteada",
+        "description": "Finalizar mandioca previamente cozida em rodelas com manteiga e cheiro-verde, com referência culinária verificada.",
+        "examples": [
+          "Mandioca cozida ganha casquinha"
+        ]
+      },
+      {
+        "id": "polenta-sem-empelotar",
+        "description": "Adição gradual de sêmola de milho em água fervente e cozimento com batedor para polenta cremosa, distinta de roux e purê.",
+        "examples": [
+          "Polenta sem empelotar"
+        ]
+      },
+      {
+        "id": "grao-de-bico-crocante",
+        "description": "Transformar grãos de bico já cozidos e escorridos em cobertura crocante assada, com tempero proporcional e resfriamento antes de servir.",
+        "examples": [
+          "Grão-de-bico crocante no forno"
+        ]
+      },
+      {
+        "id": "linguica-assada-com-batata",
+        "description": "Jantar com linguiça toscana e batatas assadas juntas, proporções e sinais de ponto.",
+        "examples": [
+          "Uma assadeira resolve o jantar"
+        ]
+      },
+      {
+        "id": "cogumelo-refogado",
+        "description": "Cogumelo paris fresco dourado em frigideira grande, alho e salsinha na finalização.",
+        "examples": [
+          "Cogumelo dourado para acompanhar arroz"
+        ]
+      },
+      {
+        "id": "abobrinha-agridoce",
+        "description": "Abobrinha quadriculada na frigideira com molho de mel e vinagre.",
+        "examples": [
+          "Abobrinha ganha molho agridoce"
+        ]
+      },
+      {
+        "id": "repolho-assado-em-gomos",
+        "description": "Repolho em gomos unidos pelo talo, manteiga temperada e forno.",
+        "examples": [
+          "Repolho fora da salada"
+        ]
+      },
+      {
+        "id": "ervilha-congelada-na-frigideira",
+        "description": "Ervilha fresca congelada direto na manteiga, ponto e hortelã.",
+        "examples": [
+          "Acompanhamento sem descongelar antes"
+        ]
+      },
+      {
+        "id": "creme-de-milho-sem-farinha",
+        "description": "Milho batido com leite e refogado dão textura sem farinha.",
+        "examples": [
+          "O milho engrossa o próprio creme"
+        ]
+      },
+      {
+        "id": "berinjela-assada-cominho",
+        "description": "Berinjela em pedaços uniformes envolvida em óleo/azeite temperados e assada.",
+        "examples": [
+          "Berinjela ganha dourado no forno"
+        ]
+      },
+      {
+        "id": "peixe-no-papilote",
+        "description": "Pescada com minimilho/cebola em pacote de papel-manteiga para forno.",
+        "examples": [
+          "Guardar vapor no papilote de peixe"
+        ]
+      },
+      {
+        "id": "ponto-lentilha-salada",
+        "description": "Cozinhar lentilha verde/marrom para salada com grãos inteiros e escorrer no ponto.",
+        "examples": [
+          "Lentilha sem virar purê"
+        ]
       }
     ],
     "repetitionPolicy": "Temas e ideias nunca se repetem; categoria não se repete dentro da rodada. Rodada3 iniciada com autorização do usuário, mantendo todo o histórico.",
@@ -172,7 +389,21 @@
         "id": "finalizacao",
         "description": "Transformar o que ja esta preparado em comida na mesa."
       }
-    ]
+    ],
+    "contentPolicy": {
+      "defaultContentType": "evergreen",
+      "platforms": [
+        "instagram-reels",
+        "youtube-shorts",
+        "tiktok-vertical",
+        "youtube-horizontal"
+      ],
+      "definition": "Ajuda concreta para uma necessidade recorrente, útil ao longo do tempo e independente de notícia/data/tendência passageira.",
+      "override": "Pedido explícito de outro tipo prevalece na produção solicitada.",
+      "discoveryPolicy": "Definir uma dúvida principal e palavra-chave natural; verificar fontes e resultados disponíveis; adaptar título/capa/legenda/descrição à plataforma, sem inventar demanda ou ranking.",
+      "preserveApprovedFormats": true
+    },
+    "scenarioMemory": "brand/cenarios-utilizados.json"
   },
   "used": [
     {
@@ -415,6 +646,342 @@
       "category": "reservas-no-freezer",
       "summary": "Evitar o bloco grande de feijao na hora do jantar: dividir em recipientes rasos proprios para freezer, refrigerar prontamente e congelar; passar uma porcao para a geladeira antes e reaquecer completamente.",
       "createdAt": "2026-10-14T13:18:21.735Z",
+      "round": 3
+    },
+    {
+      "id": "032-seu-jantar-virou-uma-fila-comece-pelo-que-demora",
+      "theme": "Seu jantar virou uma fila? Comece pelo que demora",
+      "category": "ordem-do-preparo",
+      "summary": "Evitar preparar salada e depois esperar pelo arroz: iniciar pelo arroz e usar seu tempo de cozimento para adiantar a salada na mesma cozinha, acompanhando a panela; uma espera a menos no jantar.",
+      "createdAt": "2026-10-14T14:48:44.484Z",
+      "round": 3
+    },
+    {
+      "id": "033-o-tomate-do-jantar-sumiu-reserve-os-ingredientes-juntos",
+      "theme": "O tomate do jantar sumiu?",
+      "category": "ingredientes-reservados",
+      "summary": "Evitar que o tomate reservado para a omelete do jantar seja usado no almoço: reunir tomates e ovos em bandeja na geladeira e combinar a reserva com a família; ingredientes disponíveis na hora do preparo.",
+      "createdAt": "2026-10-14T15:56:31.745Z",
+      "round": 3
+    },
+    {
+      "id": "034-carne-moida-virou-sopa-doure-em-pequenas-levas",
+      "theme": "Carne moída virou sopa?",
+      "category": "dourado-das-carnes",
+      "summary": "Carne moída cozinhando em líquido por panela superlotada: na próxima aquecer com óleo, dourar pequenas levas sem amontoar e sem mexer imediatamente; repetir e concluir o cozimento completo.",
+      "createdAt": "2026-10-14T16:23:22.948Z",
+      "round": 3
+    },
+    {
+      "id": "035-arroz-pronto-vira-tortilha-de-frigideira",
+      "theme": "Uma xícara de arroz vira quatro tortilhas!",
+      "category": "transformacao-do-arroz",
+      "summary": "Uma xícara de arroz branco cozido vira quatro tortilhas: processar com colher de água, dividir e abrir fino entre plásticos alimentares, retirar plástico, tostar ambos lados e cobrir com pano; recheio carne cozida e tomate. Resultado desde frame 0.",
+      "createdAt": "2026-10-14T18:43:11.666Z",
+      "round": 3
+    },
+    {
+      "id": "037-salada-pronta-sem-murchar-deixe-o-molho-separado",
+      "theme": "Salada pronta sem murchar: molho separado",
+      "category": "momento-de-temperar",
+      "summary": "Adiantar salada de folhas sem temperar antes: folhas higienizadas e secas em pote tampado refrigerado, molho separado e mistura apenas ao servir; foco no momento do tempero, diferente de conservação com papel-toalha.",
+      "createdAt": "2026-10-14T20:33:22.412Z",
+      "round": 3
+    },
+    {
+      "id": "038-youtube-salada-de-folhas-sem-murchar-preparo-e-molho-separado",
+      "theme": "Como preparar salada de folhas sem murchar: molho separado",
+      "category": "momento-de-temperar",
+      "summary": "Adaptação YouTube do Reels 037: ações de secagem e finalização, molho de alho e limão com quantidades e correção de erros.",
+      "createdAt": "2026-10-14T20:47:03.999Z",
+      "round": 3
+    },
+    {
+      "id": "039-tabua-escorregando-firme-com-papel-toalha-umido",
+      "theme": "Tábua escorregando? Firme com papel-toalha úmido",
+      "category": "estabilidade-na-bancada",
+      "summary": "Tábua escorregando: colocar papel-toalha limpo levemente úmido entre bancada e tábua, acomodar e testar firmeza antes de usar a faca.",
+      "createdAt": "2026-10-14T22:20:06.997Z",
+      "round": 3
+    },
+    {
+      "id": "040-bife-grudou-espere-dourar-antes-de-virar",
+      "theme": "Bife grudou? Espere dourar antes de virar",
+      "category": "virar-o-bife",
+      "summary": "Bife preso e rasgado por virar cedo: frigideira aquecida com óleo, esperar dourar e soltar antes de virar e concluir o outro lado.",
+      "createdAt": "2026-10-15T00:38:54.422Z",
+      "round": 3
+    },
+    {
+      "id": "041-tres-molhos-para-tirar-a-salada-da-mesmice",
+      "theme": "Três molhos para tirar a salada da mesmice",
+      "category": "molhos-frios-para-salada",
+      "summary": "Três receitas completas de molhos para salada: iogurte com alho, mostarda Dijon com mel e vinagre, balsâmico com mel; medidas, mistura e aplicação ao servir.",
+      "createdAt": "2026-10-15T01:38:47.165Z",
+      "round": 3
+    },
+    {
+      "id": "042-youtube-tres-molhos-para-salada-medidas-preparo-e-como-usar",
+      "theme": "3 molhos para salada fáceis: iogurte, mostarda e mel, balsâmico",
+      "category": "molhos-frios-para-salada",
+      "summary": "Adaptação YouTube autorizada do Reels 041: três molhos com medidas, ações ilustradas, textura, ajustes e como servir sem encharcar a salada.",
+      "createdAt": "2026-10-15T02:37:49.947Z",
+      "round": 3
+    },
+    {
+      "id": "043-youtube-abobrinha-recheada-com-carne-moida-passo-a-passo",
+      "theme": "Abobrinha recheada com carne moída no forno: passo a passo completo",
+      "category": "legumes-recheados-no-forno",
+      "summary": "Abobrinha em quatro canoas com carne moida e miolo no recheio: preservar borda, cozinhar carne, refogar miolo, rechear e assar com farinha de rosca e parmesao; medidas e sinais de ponto.",
+      "createdAt": "2026-10-15T03:43:06.963Z",
+      "round": 3
+    },
+    {
+      "id": "044-pure-cheio-de-carocos-batata-quente-e-leite-aquecido",
+      "theme": "Purê de batata sem grumos: batata quente e leite aquecido",
+      "category": "textura-do-pure",
+      "summary": "Pure de batata sem grumos: cozinhar quatro batatas, escorrer e espremer quentes, incorporar uma xicara de leite aquecido sem ferver e misturar duas colheres de manteiga gelada com fogo desligado; foco em textura e temperatura.",
+      "createdAt": "2026-10-15T12:39:52.741Z",
+      "round": 3
+    },
+    {
+      "id": "045-arroz-soltinho-pare-de-mexer-e-deixe-descansar",
+      "theme": "Arroz branco soltinho: sem mexer no cozimento e cinco minutos de descanso",
+      "category": "cozimento-e-descanso-do-arroz",
+      "summary": "Arroz branco soltinho: parar de mexer depois da água e sal, reduzir o fogo quando a água baixar, tampa parcial, desligar ao cozinhar e repousar cinco minutos tampado antes do garfo.",
+      "createdAt": "2026-10-15T14:52:55.021Z",
+      "round": 3
+    },
+    {
+      "id": "046-molho-de-tomate-aguado-reduza-sem-tampa",
+      "theme": "Molho de tomate aguado: reduza sem tampa antes de juntar a massa",
+      "category": "reducao-de-molhos-quentes",
+      "summary": "Molho de tomate ralo: reduzir destampado em fogo baixo antes da massa, mexer ocasionalmente, observar a textura e acertar o sal ao final.",
+      "createdAt": "2026-10-15T15:54:16.832Z",
+      "round": 3
+    },
+    {
+      "id": "047-ovo-cozido-sem-aro-esverdeado-cronometre-e-resfrie",
+      "theme": "Ovo cozido sem aro esverdeado: cronometre e resfrie",
+      "category": "ponto-e-resfriamento-do-ovo",
+      "summary": "Ovo cozido com aro verde-cinza: cronometrar o método em água fervente para gema firme e resfriar imediatamente em água com gelo; resultado amarelo sem prometer reverter aro já formado.",
+      "createdAt": "2026-10-15T16:18:02.429Z",
+      "round": 3
+    },
+    {
+      "id": "048-farofa-de-banana-sem-desmanchar-os-pedacos",
+      "theme": "Farofa de banana sem desmanchar os pedaços",
+      "category": "textura-da-farofa",
+      "summary": "Farofa de banana: cebola/manteiga, alho, banana em meias-luas mexida delicadamente por um minuto; farinha torrada aos poucos e mais cinco minutos, preservando pedaços.",
+      "createdAt": "2026-10-15T17:28:02.720Z",
+      "round": 3
+    },
+    {
+      "id": "049-couve-refogada-sem-ficar-escura-e-molenga",
+      "theme": "Couve refogada sem ficar escura e molenga",
+      "category": "ponto-das-folhas-refogadas",
+      "summary": "Couve refogada: retirar talos, fatiar fino, perfumar alho em azeite, refogar cerca de dois minutos só até começar a murchar e transferir logo para a tigela.",
+      "createdAt": "2026-10-15T17:44:13.121Z",
+      "round": 3
+    },
+    {
+      "id": "050-cabotia-assada-com-casca-menos-trabalho-no-jantar",
+      "theme": "Cabotiá assada com casca: menos trabalho no jantar",
+      "category": "cabotia-com-casca-no-forno",
+      "summary": "Cabotiá com casca em meias-luas de 2 cm, temperada com mel/balsâmico/azeite, assada a 200 °C cerca de 25 minutos e virada na metade; casca macia sem descascar.",
+      "createdAt": "2026-10-15T18:02:34.453Z",
+      "round": 3
+    },
+    {
+      "id": "051-cuscuz-macio-hidrate-o-flocao-e-nao-compacte",
+      "theme": "Cuscuz macio: hidrate o flocão e não compacte",
+      "category": "hidratacao-e-vapor-do-cuscuz",
+      "summary": "Cuscuz de milho: 2 xícaras de flocão, 1 de água, sal, hidratação 10 minutos, cesto sem compactar, vapor em fogo baixo 10 minutos e soltar com garfo.",
+      "createdAt": "2026-10-15T18:32:23.173Z",
+      "round": 3
+    },
+    {
+      "id": "052-molho-branco-lisinho-use-leite-gelado-no-roux",
+      "theme": "Molho branco lisinho: use leite gelado no roux",
+      "category": "roux-e-molho-branco",
+      "summary": "Bechamel: roux de 3 colheres de manteiga e 3 de farinha por 2 minutos, 1 litro de leite gelado de uma vez com batedor, ferver e cozinhar em fogo baixo cerca de 10 minutos até espesso.",
+      "createdAt": "2026-10-15T18:50:47.381Z",
+      "round": 3
+    },
+    {
+      "id": "053-o-corte-do-alho-muda-a-intensidade-do-sabor",
+      "theme": "O corte do alho muda a intensidade do sabor",
+      "category": "intensidade-do-alho",
+      "summary": "Comparar alho em lâminas, picadinho e pasta: mais ruptura tende a maior pungência, principalmente cru; calor também altera sabor, usar pouco e provar em molho cru. Tema sugerido pelo usuário.",
+      "createdAt": "2026-10-15T19:07:56.385Z",
+      "round": 3
+    },
+    {
+      "id": "054-macarrao-sem-grudar-nao-precisa-de-oleo-na-agua",
+      "theme": "Macarrão sem grudar: não precisa de óleo na água",
+      "category": "cozimento-da-massa",
+      "summary": "Penne sem grudar no cozimento tradicional: panela grande, referência 1L água por100g, fervura e sal, mexer no início e ocasionalmente, tempo embalagem e prova, escorrer e molho imediato; sem óleo na água.",
+      "createdAt": "2026-10-15T19:24:05.490Z",
+      "round": 3
+    },
+    {
+      "id": "055-brocolis-verdinho-e-crocante-com-choque-termico",
+      "theme": "Brócolis verdinho e crocante com choque térmico",
+      "category": "branqueamento-do-brocolis",
+      "summary": "Ramos de brócolis uniformes e lavados: água fervente com sal 2 minutos, banho de gelo imediato para parar cozimento, escorrer bem e temperar para servir; evitar papa na próxima vez.",
+      "createdAt": "2026-10-15T19:41:23.356Z",
+      "round": 3
+    },
+    {
+      "id": "056-salada-de-tomate-sem-piscina-no-prato",
+      "theme": "Salada de tomate sem piscina no prato",
+      "category": "drenagem-do-tomate",
+      "summary": "Salada de3tomates e1cebola-roxa com1colher chá sal, peneira sobre tigela por30min na geladeira, descartar líquido da montagem e finalizar azeite/pimenta; evitar poça no prato.",
+      "createdAt": "2026-10-15T20:01:12.350Z",
+      "round": 3
+    },
+    {
+      "id": "057-pimentao-assado-sem-pele-deixe-o-vapor-ajudar",
+      "theme": "Pimentão assado sem pele: deixe o vapor ajudar",
+      "category": "pele-do-pimentao-assado",
+      "summary": "Pimentões inteiros lavados e secos, forno220°C cerca30min virando metade até pele tostar; abafar10min, aguardar manuseio, retirar pele/cabo/sementes e cortar tiras para acompanhamento.",
+      "createdAt": "2026-10-15T20:25:09.354Z",
+      "round": 3
+    },
+    {
+      "id": "058-batata-bolinha-ao-murro-com-casquinha-na-frigideira",
+      "theme": "Batata-bolinha ao murro com casquinha na frigideira",
+      "category": "batata-ao-murro-na-frigideira",
+      "summary": "Batata-bolinha500g com casca: cozinhar15min após fervura abaixando fogo, escorrer/amornar, achatar de leve sob pano limpo, dourar em2colheres azeite cerca5min cada lado; sal/pimenta.",
+      "createdAt": "2026-10-15T20:45:17.060Z",
+      "round": 3
+    },
+    {
+      "id": "059-feijao-com-caldo-ralo-amasse-uma-concha-dos-graos",
+      "theme": "Feijão com caldo ralo: amasse uma concha dos grãos",
+      "category": "corpo-do-caldo-de-feijao",
+      "summary": "Caldo ralo de feijão já cozido/temperado: amassar uma concha dos grãos com pouco caldo, devolver, ferver suavemente destampado e mexer até encorpar, acertar sal ao final; sem farinha.",
+      "createdAt": "2026-10-15T21:02:38.156Z",
+      "round": 3
+    },
+    {
+      "id": "060-fraldinha-fatie-contra-as-fibras-na-hora-de-servir",
+      "theme": "Fraldinha: fatie contra as fibras na hora de servir",
+      "category": "fatiamento-contra-fibras",
+      "summary": "Fraldinha já preparada: identificar fibras naturais, orientar faca atravessando os fios e fazer fatias finas para encurtar feixes em cada pedaço; não confundir com marcas da grelha ou recuperar carne passada.",
+      "createdAt": "2026-10-15T21:20:12.368Z",
+      "round": 3
+    },
+    {
+      "id": "061-quiabo-douradinho-seque-bem-e-grelhe-sem-amontoar",
+      "theme": "Quiabo douradinho: seque bem e grelhe sem amontoar",
+      "category": "quiabo-grelhado",
+      "summary": "Quiabo longitudinal bem seco e grelhado em levas com alho inteiro: três minutos por lado, sem amontoar, para acompanhamento tostado.",
+      "createdAt": "2026-10-15T21:36:23.224Z",
+      "round": 3
+    },
+    {
+      "id": "062-cebola-crua-menos-ardida-dez-minutos-na-agua-com-gelo",
+      "theme": "Cebola crua menos ardida: dez minutos na água com gelo",
+      "category": "suavizar-cebola-crua",
+      "summary": "Suavizar cebola crua fatiada fina com água e gelo por dez minutos, descartar a água e escorrer antes da salada de pepino, sem prometer eliminar a ardência.",
+      "createdAt": "2026-10-15T22:16:50.451Z",
+      "round": 3
+    },
+    {
+      "id": "063-mandioca-cozida-ganha-casquinha-na-manteiga",
+      "theme": "Mandioca cozida ganha casquinha na manteiga",
+      "category": "mandioca-salteada",
+      "summary": "Mandioca já cozida em rodelas dourada na manteiga dos dois lados, finalizada com cheiro-verde; experimento de conversa regional antes da revelação.",
+      "createdAt": "2026-10-15T22:34:48.660Z",
+      "round": 3
+    },
+    {
+      "id": "064-polenta-sem-empelotar-semola-aos-poucos-e-batedor",
+      "theme": "Polenta sem empelotar: sêmola aos poucos e batedor",
+      "category": "polenta-sem-empelotar",
+      "summary": "Polenta de sêmola: adição gradual em água fervente com batedor, vinte minutos mexendo e finalização fora do fogo com manteiga e parmesão; mapa regional no meio.",
+      "createdAt": "2026-10-15T22:58:57.684Z",
+      "round": 3
+    },
+    {
+      "id": "065-grao-de-bico-cozido-vira-crocante-no-forno",
+      "theme": "Grão-de-bico cozido vira crocante no forno",
+      "category": "grao-de-bico-crocante",
+      "summary": "Grão-de-bico já cozido e escorrido com cominho, azeite e sal, assado200C30min mexendo na metade e resfriado antes de servir como crocante; conversa regional no meio.",
+      "createdAt": "2026-10-15T23:20:24.868Z",
+      "round": 3
+    },
+    {
+      "id": "066-linguica-com-batata-jantar-em-uma-assadeira",
+      "theme": "Linguiça com batata: jantar em uma assadeira",
+      "category": "linguica-assada-com-batata",
+      "summary": "Linguiça toscana com batata, cebola e temperos numa assadeira; corte uniforme, forno220°C e ponto; mapa regional no meio.",
+      "createdAt": "2026-10-15T23:48:45.286Z",
+      "round": 3
+    },
+    {
+      "id": "067-cogumelo-dourado-na-frigideira-alho-so-no-final",
+      "theme": "Cogumelo dourado na frigideira",
+      "category": "cogumelo-refogado",
+      "summary": "Cogumelo paris fresco refogado na frigideira grande, dourado em5min e finalizado com alho1min e salsinha; companhia para arroz; mapa regional.",
+      "createdAt": "2026-10-16T00:03:44.037Z",
+      "round": 3
+    },
+    {
+      "id": "068-abobrinha-agridoce-mel-e-vinagre-transformam-o-jantar",
+      "theme": "Abobrinha agridoce com mel e vinagre",
+      "category": "abobrinha-agridoce",
+      "summary": "Abobrinha quadriculada dourada e cozida em frigideira; molho mel/vinagre e ervas; sequência5+1+4+1min; mapa regional.",
+      "createdAt": "2026-10-16T00:23:54.527Z",
+      "round": 3
+    },
+    {
+      "id": "069-repolho-assado-gomos-dourados-com-manteiga-temperada",
+      "theme": "Repolho assado em gomos",
+      "category": "repolho-assado-em-gomos",
+      "summary": "Repolho em8gomos presos pelo talo, manteiga com alho/cominho/páprica e forno220°C30min sem virar; mapa regional.",
+      "createdAt": "2026-10-16T00:40:35.392Z",
+      "round": 3
+    },
+    {
+      "id": "070-ervilha-congelada-vai-direto-para-a-frigideira",
+      "theme": "Ervilha congelada direto na frigideira",
+      "category": "ervilha-congelada-na-frigideira",
+      "summary": "Ervilhas frescas congeladas direto na frigideira com manteiga, mexer até macias/firmes, sal/pimenta e hortelã; mapa regional.",
+      "createdAt": "2026-10-16T01:06:55.726Z",
+      "round": 3
+    },
+    {
+      "id": "071-creme-de-milho-sem-farinha-o-proprio-grao-engrossa",
+      "theme": "Creme de milho sem farinha",
+      "category": "creme-de-milho-sem-farinha",
+      "summary": "Milho batido com leite e líquido da lata; refogar cebola2min, milho escorrido2min e creme5min, sem farinha; mapa regional.",
+      "createdAt": "2026-10-16T01:19:30.746Z",
+      "round": 3
+    },
+    {
+      "id": "072-berinjela-assada-com-cominho-dourada-sem-ressecar",
+      "theme": "Berinjela assada com cominho",
+      "category": "berinjela-assada-cominho",
+      "summary": "Berinjela cortada uniforme1cm, envolvida em azeite/óleo com cominho, assar220°C40min virando metade até macia/dourada; mapa regional.",
+      "createdAt": "2026-10-16T01:40:11.977Z",
+      "round": 3
+    },
+    {
+      "id": "073-peixe-no-papel-manteiga-papilote-com-legumes",
+      "theme": "Peixe no papel-manteiga com legumes",
+      "category": "peixe-no-papilote",
+      "summary": "Pescada150g porporção com minimilho/cebola no papel-manteiga bem fechado, forno180°C10min e ponto; abrir cuidadovapor; mapa regional.",
+      "createdAt": "2026-10-16T02:07:44.051Z",
+      "round": 3
+    },
+    {
+      "id": "074-lentilha-para-salada-sem-desmanchar-prove-o-ponto",
+      "theme": "Lentilha para salada sem desmanchar",
+      "category": "ponto-lentilha-salada",
+      "summary": "Pré-preparo:1xícara lentilha/1litro água, abaixar apósferver,cerca20min e provar grão cozido/firme; escorrer para salada sem virar papa; mapa regional.",
+      "createdAt": "2026-10-16T02:40:51.833Z",
       "round": 3
     }
   ]

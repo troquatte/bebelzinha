@@ -36,11 +36,11 @@ Banco único: .videos/assets/referencias, relativo à raiz do projeto; dentro de
 ## Aplicação por etapa
 
 - Editorial lê Persona e escrita antes de escolher tema/roteiro. Se houver texto oficial adicional, incorpora a fonte e segue seu tom.
-- Mídia inspeciona e fornece à ferramenta somente as referências pertinentes. Mantém rosto/cabelo/óculos/roupa e estilo; gera camadas separadas, sem texto embutido. Personagem/objetos transparentes. Sem referência ou acesso essencial, informar pendência.
+- Mídia inspeciona e fornece à ferramenta somente as referências pertinentes. Mantém rosto/cabelo/óculos/roupa e estilo; gera camadas separadas, sem texto embutido. Itens/objetos e poses são sempre PNG com recorte real sem fundo; a regra não se aplica aos cenários completos. Ter canal alpha ou alguns pixels semitransparentes não prova recorte: conferir área externa realmente transparente (alpha zero), margens e ausência de fundo retangular/halo opaco. Sem referência ou acesso essencial, informar pendência.
 - Voz usa a fala pronta e a voz configurada da Bebel. Não inferir sotaque a partir da imagem nem escolher/clonar outra voz automaticamente.
-- Cena conserva os assets e motion definido: Bebel sem deformação/pulsação; fades40→100/100→45; títulos brancos Roboto em caixas por linha. Sem alterações de identidade para adaptar layout.
+- Cena conserva os assets e a identidade da Bebel, sem deformação/pulsação e com os fades definidos. Tipografia, cores, composição e fechamento seguem a direção da plataforma confirmada; não impor os títulos brancos por linha do formato antigo.
 - CTA conserva seus três arquivos; não reescreve narração nem regenera arte/personagem para aplicar esta base.
 
 Leia apenas a seção e as referências necessárias à etapa, uma vez por produção; a central compartilha o contexto entre etapas. Não varrer todo o banco a cada passo nem criar relatório de identidade por vídeo. Não gerar conteúdo por causa de uma atualização deste arquivo.
 
-Direção de vídeo atual: consulte [formato-reels-bebel.md](formato-reels-bebel.md). Voz e motion têm parâmetros em narracao.json e miolo.json; não duplicar regras de formato nesta base de identidade.
+Direção de vídeo pela plataforma confirmada: Reels/Shorts/TikTok vertical → [formato-reels-bebel.md](formato-reels-bebel.md); YouTube horizontal → [formato-youtube-bebel.md](formato-youtube-bebel.md). Voz e motion têm parâmetros em narracao.json e miolo.json; não duplicar regras de formato nesta base de identidade.

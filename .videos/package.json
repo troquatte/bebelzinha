@@ -39,6 +39,9 @@
     "cta:transcribe": "node --experimental-strip-types scripts/cta.ts transcribe",
     "miolo:cena1": "node --experimental-strip-types scripts/miolo-cena-01.ts",
     "cenas:list": "node --experimental-strip-types scripts/cenas.ts list",
+    "cenas:approve": "node --experimental-strip-types scripts/cenas.ts approve",
+    "cenas:publication": "node --experimental-strip-types scripts/cenas.ts publication",
+    "cenas:carousel-ready": "node --experimental-strip-types scripts/cenas.ts carousel-ready",
     "cenas:new": "node --experimental-strip-types scripts/cenas.ts new",
     "cenas:editorial": "node --experimental-strip-types scripts/cenas.ts editorial",
     "cenas:remember": "node --experimental-strip-types scripts/cenas.ts remember",
@@ -52,7 +55,7 @@
     "cenas:transcribe": "node --experimental-strip-types scripts/cenas.ts transcribe",
     "cenas:audio": "node --experimental-strip-types scripts/cenas.ts audio",
     "cenas:voice-status": "node --experimental-strip-types scripts/cenas.ts voice-status",
-    "cenas:test": "node --experimental-strip-types --test tests/cenas.test.ts"
+    "cenas:test": "node --experimental-strip-types --test tests/cenas.test.ts tests/publication.test.ts"
   },
   "type": "module"
 }

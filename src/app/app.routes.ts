@@ -1,38 +1,51 @@
+import { inject } from '@angular/core';
 import { Routes } from '@angular/router';
+import { authGuard } from './modules/auth/guards/auth.guard';
+import { adminGuard } from './modules/auth/guards/admin.guard';
+import { clientGuard } from './modules/auth/guards/client.guard';
+import { AuthService } from './modules/auth/services/auth.service';
 
 export const routes: Routes = [
   {
-    path: '',
-    loadComponent: () =>
-      import('./modules/home/components/home.component').then(({ HomeComponent }) => HomeComponent),
-  },
-  {
-    path: 'comidinhas',
-    loadComponent: () =>
-      import('./modules/meals/components/meals.component').then(({ MealsComponent }) => MealsComponent),
-  },
-  {
-    path: 'comidinhas/:slug',
-    loadComponent: () =>
-      import('./modules/meals/components/recipe.component').then(({ RecipeComponent }) => RecipeComponent),
+    path: 'auth',
+    loadChildren: () =>
+      import('./modules/auth/auth.routes').then((m) => m.authRoutes),
   },
 
   {
-    path: 'compras',
-    loadComponent: () =>
-      import('./modules/shopping/components/shopping-lists.component').then(
-        ({ ShoppingListsComponent }) => ShoppingListsComponent,
+    path: 'design-system',
+    canActivate: [authGuard, adminGuard],
+    loadChildren: () =>
+      import('./modules/design-system/design-system.routes').then(
+        (m) => m.designSystemRoutes,
       ),
   },
   {
-    path: 'compras/:listId',
+    path: 'admin/dashboard',
+    canActivate: [authGuard, adminGuard],
     loadComponent: () =>
-      import('./modules/shopping/components/shopping-list.component').then(
-        ({ ShoppingListComponent }) => ShoppingListComponent,
+      import(
+        './modules/dashboard-admin/pages/dashboard/dashboard-admin/dashboard-admin.component'
+      ).then((m) => m.DashboardAdminComponent),
+  },
+  {
+    path: 'client/home',
+    canActivate: [clientGuard],
+    loadComponent: () =>
+      import('./modules/auth/pages/client-home/client-home.component').then(
+        (m) => m.ClientHomeComponent,
       ),
   },
   {
-    path: '**',
-    redirectTo: '',
+    path: '',
+    redirectTo: () => {
+      const authService = inject(AuthService);
+      const user = authService.currentUser();
+      if (user) {
+        return user.role === 'ADMIN' ? 'admin/dashboard' : 'client/home';
+      }
+      return 'auth/login';
+    },
+    pathMatch: 'full',
   },
 ];

@@ -3,7 +3,7 @@ name: bebel-voz
 description: Preparar a narração da Bebel com áudio fornecido ou ElevenLabs explicitamente habilitado, preservando fala e evitando gerações duplicadas.
 ---
 
-Receba ID e roteiro completo. Use a persona em brand/identidade-bebel.md e o fechamento em brand/formato-reels-bebel.md sem reescrever silenciosamente a fala. A voz real é configurada em brand/narracao.json; não escolher/clonar outra voz ou inferir sotaque da imagem.
+Receba ID e roteiro completo. Use a persona em brand/identidade-bebel.md e o fechamento da rota confirmada (brand/formato-reels-bebel.md no vertical; brand/formato-youtube-bebel.md no horizontal) sem reescrever silenciosamente a fala. A voz real é configurada em brand/narracao.json; não escolher/clonar outra voz ou inferir sotaque da imagem.
 
 Use cenas:prepare quando necessário. cenas:audio sem --generate não faz chamada paga. audio.mp3 existente tem prioridade: preserve e confira correspondência com ## Narração. Divergência conhecida é pendência, não motivo para adaptar outro roteiro ao áudio.
 

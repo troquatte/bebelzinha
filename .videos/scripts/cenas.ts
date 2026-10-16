@@ -8,6 +8,9 @@ import { importImage } from '../factory/cenas/assets.ts';
 import { compact, finish, recoverPromotion, render, stage } from '../factory/cenas/render.ts';
 import { audio, config } from '../factory/narration/task.ts';
 import { voiceStatus } from '../factory/narration/elevenlabs.ts';
+import { approve, recordPublication } from '../factory/cenas/publication.ts';
+import { finishCarousel, isCarousel } from '../factory/cenas/carousel.ts';
+import { readJson } from '../factory/storage.ts';
 import { executable, execute } from '../factory/media.ts';
 import { transcriptionEnvironment } from '../factory/cta/transcribe.ts';
 
@@ -27,13 +30,25 @@ async function main() {
   if (command === 'editorial') return editorial(root) ?? { pending: 'Falta brand/temas-utilizados.json' };
   return exclusive(root, async () => {
     recover(root);
+    if (command === 'approve') return approve(root, selected(), value('--file') ?? '', value('--format') ?? '');
+    if (command === 'carousel-ready') return finishCarousel(root, selected());
+    if (command === 'publication') {
+      const receipt = value('--receipt');
+      if (!receipt) throw new Error('--receipt obrigatório: resposta verificada do Postiz, sem credenciais');
+      return recordPublication(root, selected(), readJson(safe(root, receipt)));
+    }
     if (command === 'remember') {
-      const task = selected(), text = script(root, task); narration(text);
+      const task = selected(), text = script(root, task);
+      if (!isCarousel(root, task)) narration(text);
       const theme = text.match(/^#\s+(.+)$/m)?.[1]?.trim();
       if (!theme) throw new Error('Roteiro precisa de título # Tema');
       return remember(root, task.key, theme, value('--category') ?? '', value('--summary') ?? '', args.includes('--allow-repeat'));
     }
-    if (command === 'new') return create(root, value('--theme') ?? '', value('--seconds') === undefined ? undefined : Number(value('--seconds')));
+    if (command === 'new') {
+      const kind = value('--kind') ?? 'video';
+      if (kind !== 'video' && kind !== 'carousel') throw new Error('--kind video ou carousel');
+      return create(root, value('--theme') ?? '', value('--seconds') === undefined ? undefined : Number(value('--seconds')), kind);
+    }
     if (command === 'asset') {
       const source = value('--source'); if (!source) throw new Error('--source obrigatório');
       return importImage(root, source, value('--kind') ?? '', value('--name') ?? '');
@@ -41,8 +56,9 @@ async function main() {
     if (command === 'reconcile') {
       for (const task of list(root)) {
         const hasControl = existsSync(safe(root, `${task.path}/.work.json`));
+        if (isCarousel(root, task)) continue;
         if (task.state === '003-gerados') { if (hasControl) compact(root, task); }
-        else if (hasControl) recoverPromotion(root, task);
+        else if (task.state === '002-desenvolvendo' && hasControl) recoverPromotion(root, task);
       }
       return { status: 'OK' };
     }
@@ -60,13 +76,14 @@ async function main() {
     if (command === 'finish') return finish(root, selected());
     if (command === 'stage') {
       const task = selected();
-      if (task.state === '001-afazer') throw new Error('Prepare o tema antes de abrir a montagem');
+      if (isCarousel(root, task)) throw new Error('Carrossel não usa Studio de vídeo');
+      if (task.state !== '002-desenvolvendo' && task.state !== '003-gerados') throw new Error('Studio exige tema em desenvolvimento ou gerado');
       if (!existsSync(safe(root, `${task.path}/.work.json`))) saveWork(root, task, { key: task.key, id: randomUUID() });
       stage(root, task);
       return { composition: 'BebelMioloTema', props: `${task.path}/.runtime/props.json` };
     }
     if (command !== 'process') throw new Error('Comando: new, asset, list, prepare, process, render, finish, reconcile, stage, transcribe, audio, voice-status');
-    const tasks = list(root).filter((t) => t.state !== '003-gerados' && (!key || key === t.key));
+    const tasks = list(root).filter((t) => (t.state === '001-afazer' || t.state === '002-desenvolvendo') && !isCarousel(root, t) && (!key || key === t.key));
     if (key && !tasks.length) throw new Error('Tema inexistente ou já gerado');
     const result = [];
     for (let task of tasks) {

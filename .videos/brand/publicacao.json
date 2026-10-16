@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "provider": "postiz",
+  "baseUrl": "https://postiz.bebelzinha.com.br",
+  "mcpUrl": "https://postiz.bebelzinha.com.br/api/mcp",
+  "connectionVerified": true,
+  "connection": {
+    "serverName": "postiz",
+    "protocolVersion": "2025-03-26",
+    "verifiedOperations": [
+      "initialize",
+      "tools/list",
+      "integrationList",
+      "POST /api/public/v1/upload",
+      "integrationSchema",
+      "postsListTool",
+      "integrationSchedulePostTool"
+    ],
+    "credentialsLocation": "configuração privada local do MCP; sem segredo neste arquivo",
+    "uploadVerified": true,
+    "schedulingVerified": true
+  },
+  "timeZone": "America/Sao_Paulo",
+  "approvalRequired": true,
+  "reviewDelivery": {
+    "channel": "current chat",
+    "include": [
+      "final video or ordered carousel images",
+      "publication caption or description"
+    ],
+    "approvalSignal": "user explicitly says aprovei for the delivered version",
+    "generatedIsApproved": false
+  },
+  "publicCopyPolicy": {
+    "captionRequired": true,
+    "referenceLinksInCaptionsAndDescriptions": false,
+    "researchSources": "keep verified source URLs internally in roteiro.md or editorial metadata",
+    "appLinksEnabled": false,
+    "appLinksActivation": "only after the user supplies or authorizes real Bebel app links",
+    "scope": "new captions, YouTube descriptions and texts sent to Postiz; do not rewrite approved or historical posts automatically"
+  },
+  "dailyWindow": {
+    "start": "10:00",
+    "end": "23:00",
+    "endInclusive": true
+  },
+  "neverScheduleInPast": true,
+  "referenceTime": "current time when approved media is ready for scheduling",
+  "vertical": {
+    "targets": [
+      "instagram-reels",
+      "youtube-shorts"
+    ],
+    "sameInstant": true,
+    "countingUnit": "one content ID distributed to both platforms",
+    "preferredGapMinutesBetweenDifferentVideos": 60,
+    "publishNowWhenEligible": {
+      "enabled": true,
+      "conditions": ["approved media uploaded and ready", "inside daily window", "daily capacity available", "no video published today or at least 60 minutes since the latest video on either target", "no conflict with future reservations on either target"],
+      "waitForRoundHour": false,
+      "preserveExistingPostIds": true,
+      "scope": "new eligible approved short videos; do not recreate existing scheduled posts"
+    },
+    "minimumGapMinutesBetweenDifferentVideos": 30,
+    "maximumVideosPerDay": 15,
+    "recalculateFutureSlotsWhenQueueGrows": true,
+    "overflow": "next day at or after 10:00",
+    "fixedDailySlots": false
+  },
+  "horizontal": {
+    "targets": [
+      "youtube-horizontal"
+    ],
+    "defaultVideosPerDay": 2,
+    "maximumVideosPerDay": 2,
+    "dailySlots": [
+      "10:00",
+      "19:00"
+    ]
+  },
+  "carousel": {
+    "targets": [
+      "instagram-carousel"
+    ],
+    "independentFromVideoSlots": true,
+    "preferredGapMinutesBetweenCarousels": 60,
+    "minimumGapMinutesBetweenCarousels": 30,
+    "maximumCarouselsPerDay": null,
+    "dailyLimitStatus": "not yet defined; do not assume 15 additional Instagram posts",
+    "implementationStatus": "shared folder lifecycle and ordered image/caption approval supported; remote upload/scheduling not yet tested"
+  },
+  "integrations": {
+    "instagram-carousel": {
+      "id": "cmv9448180001mk76pilugfa3",
+      "name": "Bebelzinha App | Casa & Receitas",
+      "platform": "instagram-standalone"
+    },
+    "instagram-reels": {
+      "id": "cmv9448180001mk76pilugfa3",
+      "name": "Bebelzinha App | Casa & Receitas",
+      "platform": "instagram-standalone"
+    },
+    "youtube-shorts": {
+      "id": "cmv9jg0br0001qq9mr4q4sj6h",
+      "name": "Bebelzinha",
+      "platform": "youtube"
+    },
+    "youtube-horizontal": {
+      "id": "cmv9jg0br0001qq9mr4q4sj6h",
+      "name": "Bebelzinha",
+      "platform": "youtube"
+    }
+  }
+}

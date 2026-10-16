@@ -26,7 +26,8 @@ export function find(root: string, key: string) {
   if (!task) throw new Error(`Tema não encontrado: ${key}`);
   return task;
 }
-export function create(root: string, theme: string, seconds?: number) {
+export function create(root: string, theme: string, seconds?: number, kind: 'video' | 'carousel' = 'video') {
+  if (kind !== 'video' && kind !== 'carousel') throw new Error('Tipo deve ser video ou carousel');
   if (!theme?.trim() || /[\r\n]/.test(theme) || theme.length > 300 ||
     (seconds !== undefined && (!Number.isFinite(seconds) || seconds <= 0)))
     throw new Error('Informe tema em uma linha; duração estimada é opcional e deve ser positiva');
@@ -38,8 +39,13 @@ export function create(root: string, theme: string, seconds?: number) {
   const key = `${String(next).padStart(3, '0')}-${slug}`, path = `${queueRoot}/${states[0]}/${key}`;
   mkdirSync(safe(root, `${queueRoot}/${states[0]}`), { recursive: true });
   mkdirSync(safe(root, path));
-  writeFileSync(safe(root, `${path}/roteiro.md`), `# ${theme.trim()}\n\n${seconds === undefined ? 'Duração definida pelo roteiro e pelo áudio real.' : `Duração estimada: ${seconds}s (referência, não limite).`}\n\n## Narração\n\n## Cenas\n`, { flag: 'wx' });
-  return { task: key, roteiro: `${path}/roteiro.md`, status: 'agente deve escrever narração e cenas' };
+  const template = kind === 'carousel' ? `# ${theme.trim()}\n\n## Slides\n\n## Fontes\n` : `# ${theme.trim()}\n\n${seconds === undefined ? 'Duração definida pelo roteiro e pelo áudio real.' : `Duração estimada: ${seconds}s (referência, não limite).`}\n\n## Narração\n\n## Cenas\n`;
+  writeFileSync(safe(root, `${path}/roteiro.md`), template, { flag: 'wx' });
+  if (kind === 'carousel') {
+    mkdirSync(safe(root, `${path}/slides`));
+    atomic(safe(root, `${path}/carrossel.json`), { schemaVersion: 1, type: 'carousel', slides: [], caption: 'legenda.md' });
+  }
+  return { task: key, roteiro: `${path}/roteiro.md`, status: kind === 'carousel' ? 'agente deve escrever roteiro, legenda e criar slides' : 'agente deve escrever narração e cenas' };
 }
 export const work = (root: string, task: Task) => readJson(safe(root, `${task.path}/.work.json`)) as Work;
 export const saveWork = (root: string, task: Task, value: Work) => atomic(safe(root, `${task.path}/.work.json`), value);

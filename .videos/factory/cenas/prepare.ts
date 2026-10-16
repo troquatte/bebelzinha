@@ -2,6 +2,7 @@ import { existsSync, statSync } from 'node:fs';
 import { atomic, digest, engineRoot, fileHash, readJson, safe } from '../storage.ts';
 import { pcm, probe } from '../media.ts';
 import { narration, reserve, saveWork, script, work } from './queue.ts';
+import { isCarousel } from './carousel.ts';
 import type { AssetInfo, Plan, Scene, Task, ThemeProps } from './contracts.ts';
 import { background } from './assets.ts';
 
@@ -123,7 +124,8 @@ export function fingerprint(root: string, task: Task) {
   return digest(JSON.stringify(values));
 }
 export function prepare(root: string, candidate: Task) {
-  if (candidate.state === '003-gerados') throw new Error('Tema concluído; crie outro ID para uma nova produção');
+  if (isCarousel(root, candidate)) throw new Error('Carrossel não usa render de vídeo; use cenas:carousel-ready');
+  if (candidate.state !== '001-afazer' && candidate.state !== '002-desenvolvendo') throw new Error('Tema concluído; crie outro ID para uma nova produção');
   const text = narration(script(root, candidate));
   const task = reserve(root, candidate), file = safe(root, `${task.path}/montagem.json`);
   if (!existsSync(file)) atomic(file, { schemaVersion: 1, narration: text, audio: 'audio.mp3',

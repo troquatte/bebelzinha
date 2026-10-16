@@ -1,0 +1,15 @@
+{
+  "platforms": [
+    "instagram-reels",
+    "youtube-shorts"
+  ],
+  "orientation": "vertical",
+  "contentDepth": "curto-direto",
+  "title": "Como cozinhar lentilha para salada sem desmanchar",
+  "primarySearchQuery": "como cozinhar lentilha para salada",
+  "strategy": "Evergreen; pré-preparo concreto, fogo/ponto e drenagem, sem prometer salada completa; mapa regional e cenário alternado.",
+  "productionAuthorizedNow": true,
+  "sources": [
+    "https://panelinha.com.br/receita/salada-de-lentilha-com-pimentao-e-coentro"
+  ]
+}

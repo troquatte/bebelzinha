@@ -1,48 +1,90 @@
-# Bebelzinha
+# 🐳 Executando a Infraestrutura Local com Docker
 
-Webapp da **Bebel**, uma ajudante prática para organização da vida doméstica.
-
-> **Bebel é um app gratuito de organização prática da vida doméstica, monetizado por afiliados e futuras ofertas.**
-
-## Stack atual
-
-- Angular 22
-- TypeScript 6
-- SPA
-- Standalone Components
-- Angular Router
-- Signals
-- Angular Material
-- Tailwind CSS 4
-- Vitest
-- SCSS
-
-## Desenvolvimento
+Para rodar a aplicação localmente com PostgreSQL, Redis e MinIO, suba os containers da infraestrutura local:
 
 ```bash
-npm install
-npm start
+docker compose -f doc/docker/local/docker-compose.yml up -d
 ```
 
-Aplicação local: `http://localhost:4200`.
+Isso criará os seguintes serviços:
+- **PostgreSQL**: Porta `5432`, com banco `boilerplate_db` (usuário: `postgres`, senha: `postgres`).
+- **Redis**: Porta `6379`.
+- **MinIO**: Porta `9000` (API) e `9001` (Console WEB), com usuário/senha `minioadmin` / `minioadmin`.
 
-## Build e testes
+Certifique-se de que o arquivo `.env_local` (ou `.env` se for o caso) está configurado com essas conexões.
 
-```bash
-npm run build
-npm test
+---
+
+1 - Instalar o plugin prisma
+
+```
+Adicione no settings.json
+
+"[prisma]": {
+  "editor.defaultFormatter": "Prisma.prisma"
+},
+
+Rode o comando
+npx prisma init
+
+no arquivo env será gerado:
+DATABASE_URL="postgresql://POSTGRES_USER:POSTGRES_PASSWORD@localhost:5432/POSTGRES_DB?schema=public"
+
+Usaremos as variaveis do postgress da nossa infra, substitua por:
+POSTGRES_USER=root
+POSTGRES_PASSWORD=root
+POSTGRES_DB=mydatabase
+
+*****************************
+Rode o comando caso seja o DEV:
+npx prisma db push
+npx prisma generate
+
+Apra o prisma studio
+npx prisma studio
+
+Ele abria a porta localhost:5555
+
+| Comando                              | Uso                                          |
+| ------------------------------------ | -------------------------------------------- |
+| `npx prisma migrate dev --name init` | Criar nova migração e aplicar no banco local |
+| `npx prisma migrate deploy`          | Aplicar migrações pendentes em produção      |
+| `npx prisma generate`                | Gerar Prisma Client atualizado               |
+| `npx prisma db push`                 | Sincronizar schema com banco sem migração    |
+| `npx prisma migrate reset`           | Reseta todo nosso banco de dados             |
+
 ```
 
-## Spec Driven Development
+---
 
-O desenvolvimento do projeto é guiado pelo processo SDD documentado em [`.spec/README.md`](.spec/README.md).
+🚀 Cenário 1 — Banco de produção zerado
 
-Antes de implementar uma mudança relevante:
+```
+1 - No seu ambiente local/dev, crie os modelos e rode:
+# Isso gera e aplica migrações + atualiza o client.
+Comando: npx prisma migrate dev --name init
 
-1. leia `.spec/memory/produto.md`;
-2. leia `.spec/memory/contexto-tecnico.md`;
-3. crie ou revise a spec correspondente em `.spec/changes/`;
-4. implemente somente após a spec estar clara;
-5. registre decisões duráveis na memória do projeto.
+2 - Suba essas migrações no repositório (ex: prisma/migrations).
 
-Regras para agentes estão em [`.agents/AGENTS.md`](.agents/AGENTS.md).
+3 - No servidor (produtivo):
+Comando: npx prisma migrate deploy
+👉 Isso aplica todas as migrações criadas localmente, deixando o banco com a estrutura correta.
+
+```
+
+---
+
+🧩 Cenário 2 — Banco de produção já tem dados
+Aqui, nunca use migrate dev ou db push diretamente no prod, pois podem sobrescrever dados.
+
+```
+1 - Faça as alterações localmente (adicione campos, novas tabelas, etc.) e rode:
+comando: npx prisma migrate dev --name add_nova_tabela
+
+2 - Teste localmente; garanta que funciona.
+3 - Suba o código + as novas migrações (/prisma/migrations).
+
+4 - No servidor:
+npx prisma migrate deploy
+
+```

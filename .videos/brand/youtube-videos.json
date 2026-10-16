@@ -1,0 +1,1244 @@
+{
+  "schemaVersion": 1,
+  "platform": "youtube",
+  "channel": {
+    "name": "Bebelzinha",
+    "channelId": null
+  },
+  "sharedEditorialMemory": "brand/temas-utilizados.json",
+  "sharedAssetBanks": [
+    "assets/cenario",
+    "assets/personagem",
+    "assets/itens",
+    "assets/fontes"
+  ],
+  "briefing": {
+    "requiredBeforeCreation": [
+      "platform",
+      "orientation",
+      "contentDepth"
+    ],
+    "question": "É para Instagram vertical ou YouTube horizontal? Você quer um conteúdo curto e direto ou mais completo?",
+    "preferredRoutes": [
+      {
+        "platform": "instagram",
+        "orientation": "vertical",
+        "aspectRatio": "9:16"
+      },
+      {
+        "platform": "youtube",
+        "orientation": "horizontal",
+        "aspectRatio": "16:9"
+      }
+    ],
+    "allowYouTubeShorts": true,
+    "durationPolicy": "Definida pelo conteúdo e pela narração real; curto/completo orienta profundidade, não fixa segundos. Plataforma e orientação não substituem essa escolha.",
+    "reusePolicy": "Consultar as duas memórias. Adaptar conteúdo existente entre plataformas somente quando pedido ou confirmado, registrando IDs de origem; não tratar uma adaptação como ideia inédita."
+  },
+  "metricPolicy": {
+    "missingValue": null,
+    "organicAndPaidSeparate": true,
+    "compareSameTimeSincePublication": true,
+    "shorts": "Registrar continuaram/pularam e duração média entre visualizações intencionais separadamente.",
+    "horizontal": "Registrar impressões, CTR, duração média, percentual médio assistido e retenção quando disponíveis; não usar a taxa de pulo de Shorts como equivalente."
+  },
+  "videos": [
+    {
+      "id": "yt-short-030",
+      "sourceProductionIds": [
+        "030-cozinhe-a-batata-uma-vez-e-encaminhe-dois-jantares"
+      ],
+      "format": "short",
+      "orientation": "vertical",
+      "contentDepth": "curto",
+      "title": "Não deixe tudo para hora de cozinhar, facilit…",
+      "titleIsTruncated": true,
+      "topic": "Batata cozida como base para dois jantares",
+      "youtubeVideoId": null,
+      "url": null,
+      "publishedAt": null,
+      "publicationEvidence": "Prints do YouTube Studio enviados pelo usuário em 2026-10-14",
+      "outputFile": null,
+      "observations": [
+        {
+          "observedDate": "2026-10-14",
+          "observedAt": null,
+          "hoursSincePublication": null,
+          "source": "Print de visão geral: 423 visualizações e 98,1% de tráfego no feed dos Shorts",
+          "metrics": {
+            "views": 423,
+            "shortsFeedTrafficPercent": 98.1
+          }
+        },
+        {
+          "observedDate": "2026-10-14",
+          "observedAt": null,
+          "hoursSincePublication": null,
+          "source": "Print de engajamento: visualizações intencionais e duração média",
+          "metrics": {
+            "engagedViews": 60,
+            "watchTimeHours": 0.7,
+            "averageViewDurationSeconds": 32
+          }
+        },
+        {
+          "observedDate": "2026-10-14",
+          "observedAt": null,
+          "hoursSincePublication": null,
+          "source": "Último print de continuaram/pularam; não corresponde necessariamente ao mesmo instante dos outros prints",
+          "metrics": {
+            "stayedToWatchPercent": 13.9,
+            "swipedAwayPercent": 86.1
+          }
+        }
+      ]
+    },
+    {
+      "id": "yt-horizontal-036",
+      "sourceProductionIds": [
+        "036-youtube-tortilhas-de-arroz-com-carne-moida-e-tomate-passo-a-passo",
+        "034-carne-moida-virou-sopa-doure-em-pequenas-levas",
+        "035-arroz-pronto-vira-tortilha-de-frigideira"
+      ],
+      "format": "horizontal",
+      "orientation": "horizontal",
+      "contentDepth": "completo",
+      "topic": "Arroz branco cozido vira tortilhas recheadas com carne moída e tomate",
+      "primarySearchQuery": "como aproveitar arroz cozido",
+      "secondarySearchQueries": [
+        "tortilha de arroz",
+        "tortilha de arroz na frigideira"
+      ],
+      "searchResearchSources": [
+        "https://panelinha.com.br/receita/tortilha-de-arroz-reaproveitamento",
+        "https://www.youtube.com/watch?v=3N_mGbSngTY"
+      ],
+      "searchResearchNote": "Resultados pesquisados confirmam conteúdos relacionados, inclusive farinha de arroz distinta de arroz cozido. Não há volume de busca validado nem garantia de ranking.",
+      "title": "Como aproveitar arroz cozido: tortilhas com carne moída e tomate",
+      "youtubeVideoId": null,
+      "url": null,
+      "publishedAt": null,
+      "outputFile": "assets/cenas/tarefas/003-gerados/036-youtube-tortilhas-de-arroz-com-carne-moida-e-tomate-passo-a-passo/output/convertido-0002.mp4",
+      "thumbnailFile": "assets/cenas/tarefas/003-gerados/036-youtube-tortilhas-de-arroz-com-carne-moida-e-tomate-passo-a-passo/capa.png",
+      "descriptionFile": "assets/cenas/tarefas/003-gerados/036-youtube-tortilhas-de-arroz-com-carne-moida-e-tomate-passo-a-passo/descricao.md",
+      "chapters": [
+        {
+          "seconds": 0,
+          "title": "ARROZ PRONTO? FAÇA 4 TORTILHAS"
+        },
+        {
+          "seconds": 13,
+          "title": "Ingredientes da massa"
+        },
+        {
+          "seconds": 41,
+          "title": "O ponto no processador"
+        },
+        {
+          "seconds": 56,
+          "title": "Divida em quatro"
+        },
+        {
+          "seconds": 84,
+          "title": "Retire o plástico"
+        },
+        {
+          "seconds": 110,
+          "title": "Mantenha maleável"
+        },
+        {
+          "seconds": 123,
+          "title": "Prepare o recheio"
+        },
+        {
+          "seconds": 137,
+          "title": "Carne moída sem virar caldo"
+        },
+        {
+          "seconds": 165,
+          "title": "Monte e sirva"
+        }
+      ],
+      "observations": [],
+      "durationSeconds": 196.666667,
+      "outputHistory": [
+        {
+          "file": "assets/cenas/tarefas/003-gerados/036-youtube-tortilhas-de-arroz-com-carne-moida-e-tomate-passo-a-passo/output/convertido-0001.mp4",
+          "note": "Primeira versão preservada"
+        }
+      ],
+      "motionReferencePrompt": "https://github.com/yihui-dev/awesome-opus5-5-videos/blob/main/prompts/anabology-491441.md",
+      "motionComposition": "BebelYoutubeMotion",
+      "creativeApproval": {
+        "approved": true,
+        "approvedOutputFile": "assets/cenas/tarefas/003-gerados/036-youtube-tortilhas-de-arroz-com-carne-moida-e-tomate-passo-a-passo/output/convertido-0002.mp4",
+        "scope": "Direção visual e motion, pelo usuário; não autoriza publicação nem aprova automaticamente novas entregas."
+      },
+      "backgroundAssets": [
+        "assets/cenario/cozinha-moderna-sitio.png"
+      ]
+    },
+    {
+      "id": "yt-horizontal-038",
+      "productionId": "038-youtube-salada-de-folhas-sem-murchar-preparo-e-molho-separado",
+      "sourceProductionIds": [
+        "037-salada-pronta-sem-murchar-deixe-o-molho-separado"
+      ],
+      "format": "horizontal",
+      "orientation": "horizontal",
+      "contentDepth": "completo",
+      "title": "Como preparar salada de folhas sem murchar | Molho separado e jantar mais fácil",
+      "topic": "Adaptação completa do Reels 037 com ações ilustradas e molho de alho e limão",
+      "productionAuthorizedNow": true,
+      "youtubeVideoId": null,
+      "url": null,
+      "publishedAt": null,
+      "outputFile": "assets/cenas/tarefas/003-gerados/038-youtube-salada-de-folhas-sem-murchar-preparo-e-molho-separado/output/convertido-0001.mp4",
+      "thumbnailFile": "assets/cenas/tarefas/003-gerados/038-youtube-salada-de-folhas-sem-murchar-preparo-e-molho-separado/capa.png",
+      "descriptionFile": "assets/cenas/tarefas/003-gerados/038-youtube-salada-de-folhas-sem-murchar-preparo-e-molho-separado/descricao.md",
+      "metrics": null,
+      "durationSeconds": 163.9,
+      "chapters": [
+        {
+          "seconds": 0,
+          "title": "Salada encaminhada"
+        },
+        {
+          "seconds": 23,
+          "title": "Higienize primeiro"
+        },
+        {
+          "seconds": 39,
+          "title": "Seque sem apertar"
+        },
+        {
+          "seconds": 53,
+          "title": "Confira e guarde"
+        },
+        {
+          "seconds": 67,
+          "title": "Ingredientes do molho"
+        },
+        {
+          "seconds": 81,
+          "title": "Amasse o alho"
+        },
+        {
+          "seconds": 93,
+          "title": "Misture no potinho"
+        },
+        {
+          "seconds": 109,
+          "title": "Dois recipientes"
+        },
+        {
+          "seconds": 122,
+          "title": "Finalize ao servir"
+        },
+        {
+          "seconds": 136,
+          "title": "Reconheça o resultado"
+        }
+      ],
+      "renderReference": "BebelYoutubeMotion",
+      "primarySearchQuery": "como preparar salada sem murchar",
+      "searchResearchSources": [
+        "https://panelinha.com.br/receita/salada-de-folhas-verdes",
+        "https://panelinha.com.br/receita/molho-de-alho-e-limao-para-salada"
+      ],
+      "visualExecution": "Ilustrações novas de mãos executando lavagem, secagem, acomodação, molho e finalização; não filmagem real.",
+      "creativeApproval": {
+        "approved": true,
+        "source": "Usuário: gostei do vídeo YouTube, está mais completo; salvar na geração e revisar skill",
+        "scope": "Direção de conteúdo completo e ações ilustradas; não valida alcance nem retenção."
+      },
+      "backgroundAssets": [
+        "assets/cenario/cozinha-moderna-sitio.png"
+      ]
+    },
+    {
+      "id": "yt-short-035",
+      "sourceProductionIds": [
+        "035-arroz-pronto-vira-tortilha-de-frigideira"
+      ],
+      "format": "short",
+      "orientation": "vertical",
+      "contentDepth": "curto",
+      "topic": "Tortilha de arroz",
+      "title": null,
+      "youtubeVideoId": null,
+      "url": null,
+      "publishedAt": null,
+      "publicationEvidence": "Relato do usuário sobre o Short da tortilha",
+      "observations": [
+        {
+          "observedAt": null,
+          "hoursSincePublication": null,
+          "source": "Relato do usuário: o Short da tortilha ganhou 1 inscrito",
+          "metrics": {
+            "subscribersGained": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "yt-horizontal-042",
+      "productionId": "042-youtube-tres-molhos-para-salada-medidas-preparo-e-como-usar",
+      "sourceProductionIds": [
+        "041-tres-molhos-para-tirar-a-salada-da-mesmice"
+      ],
+      "format": "horizontal",
+      "orientation": "horizontal",
+      "contentDepth": "completo",
+      "strategy": "evergreen",
+      "title": "3 molhos para salada fáceis: iogurte, mostarda e mel, balsâmico",
+      "topic": "Três molhos para salada: medidas, preparo e como servir",
+      "primarySearchQuery": "3 molhos para salada fáceis",
+      "searchResearchSources": [
+        "https://panelinha.com.br/receita/molho-de-iogurte-para-salada",
+        "https://panelinha.com.br/receita/molho-de-mostarda-para-salada",
+        "https://panelinha.com.br/receita/molho-balsamico-mel"
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/042-youtube-tres-molhos-para-salada-medidas-preparo-e-como-usar/output/convertido-0001.mp4",
+      "thumbnailFile": "assets/cenas/tarefas/003-gerados/042-youtube-tres-molhos-para-salada-medidas-preparo-e-como-usar/capa.png",
+      "descriptionFile": "assets/cenas/tarefas/003-gerados/042-youtube-tres-molhos-para-salada-medidas-preparo-e-como-usar/descricao.md",
+      "durationSeconds": 170.66666666666666,
+      "chapters": [
+        {
+          "seconds": 0,
+          "title": "Três molhos para variar"
+        },
+        {
+          "seconds": 13,
+          "title": "Iogurte: medidas"
+        },
+        {
+          "seconds": 56,
+          "title": "Mostarda e mel: medidas"
+        },
+        {
+          "seconds": 95,
+          "title": "Balsâmico: medidas"
+        },
+        {
+          "seconds": 121,
+          "title": "Como temperar sem encharcar"
+        },
+        {
+          "seconds": 139,
+          "title": "O que deixar encaminhado"
+        },
+        {
+          "seconds": 155,
+          "title": "Salada sem mesmice"
+        }
+      ],
+      "youtubeVideoId": null,
+      "url": null,
+      "publishedAt": null,
+      "productionAuthorizedNow": true,
+      "observations": [],
+      "renderReference": "BebelYoutubeMotion",
+      "visualExecution": "Reutilização dos ingredientes/resultados do 041 e pilão do 038; ações novas de colher, pote fechado e finalização da salada, em ilustrações."
+    },
+    {
+      "id": "yt-horizontal-043",
+      "productionId": "043-youtube-abobrinha-recheada-com-carne-moida-passo-a-passo",
+      "sourceProductionIds": [],
+      "format": "horizontal",
+      "orientation": "horizontal",
+      "contentDepth": "completo",
+      "strategy": "evergreen",
+      "title": "Abobrinha recheada com carne moída no forno: passo a passo completo",
+      "topic": "Abobrinha recheada com carne moída: canoa, recheio e crosta no forno",
+      "primarySearchQuery": "abobrinha recheada com carne moída no forno",
+      "searchResearchSources": [
+        "https://panelinha.com.br/receita/abobrinhas-recheadas",
+        "https://www.friboi.com.br/receitas/abobrinha-recheada-com-carne-moida/"
+      ],
+      "outputFile": "assets/cenas/tarefas/003-gerados/043-youtube-abobrinha-recheada-com-carne-moida-passo-a-passo/output/convertido-0001.mp4",
+      "thumbnailFile": "assets/cenas/tarefas/003-gerados/043-youtube-abobrinha-recheada-com-carne-moida-passo-a-passo/capa.png",
+      "descriptionFile": "assets/cenas/tarefas/003-gerados/043-youtube-abobrinha-recheada-com-carne-moida-passo-a-passo/descricao.md",
+      "durationSeconds": 209.93333333333334,
+      "chapters": [
+        {
+          "seconds": 0,
+          "title": "Abobrinha virou jantar"
+        },
+        {
+          "seconds": 13,
+          "title": "Separe os ingredientes"
+        },
+        {
+          "seconds": 42,
+          "title": "Faça a canoa sem furar"
+        },
+        {
+          "seconds": 70,
+          "title": "Cozinhe e doure a carne"
+        },
+        {
+          "seconds": 96,
+          "title": "Refogue o miolo e a cebola"
+        },
+        {
+          "seconds": 123,
+          "title": "Distribua o recheio"
+        },
+        {
+          "seconds": 148,
+          "title": "Forno e sinais do ponto"
+        },
+        {
+          "seconds": 178,
+          "title": "Deixe o caminho preparado"
+        },
+        {
+          "seconds": 193,
+          "title": "Agora tem jantar"
+        }
+      ],
+      "youtubeVideoId": null,
+      "url": null,
+      "publishedAt": null,
+      "productionAuthorizedNow": true,
+      "observations": [],
+      "renderReference": "BebelYoutubeMotion",
+      "visualExecution": "Canoas de abobrinha, miolo/refogado e montagem ilustrados com continuidade de assadeira; carne dourada do banco. Fundo animado do sítio enviado pelo usuário."
+    },
+    {
+      "id": "yt-short-045",
+      "sourceProductionIds": [
+        "045-arroz-soltinho-pare-de-mexer-e-deixe-descansar"
+      ],
+      "format": "short",
+      "orientation": "vertical",
+      "contentDepth": "curto",
+      "title": "Arroz soltinho: tem hora de largar a colher!",
+      "topic": "Arroz branco sem mexer durante cozimento e cinco minutos de descanso",
+      "strategy": "evergreen",
+      "primarySearchQuery": "arroz soltinho",
+      "youtubeVideoId": null,
+      "url": null,
+      "publishedAt": null,
+      "scheduledAt": "2026-10-15T15:45:00Z",
+      "outputFile": "assets/cenas/tarefas/005-postados/045-arroz-soltinho-pare-de-mexer-e-deixe-descansar/output/convertido-0002.mp4",
+      "descriptionFile": "assets/cenas/tarefas/005-postados/045-arroz-soltinho-pare-de-mexer-e-deixe-descansar/legenda.md",
+      "postiz": {
+        "integrationId": "cmv9jg0br0001qq9mr4q4sj6h",
+        "postId": "cmv9phqrf0001o587igx1d1k1",
+        "state": "PUBLISHED",
+        "checkedAt": "2026-10-15T15:46:45Z"
+      },
+      "observations": [],
+      "publicationEvidence": "Estado PUBLISHED confirmado no Postiz para o ID remoto registrado; instante real não exposto, publishedAt permanece null."
+    },
+    {
+      "id": "yt-short-046",
+      "sourceProductionIds": [
+        "046-molho-de-tomate-aguado-reduza-sem-tampa"
+      ],
+      "format": "short",
+      "orientation": "vertical",
+      "contentDepth": "curto",
+      "title": "Molho de tomate aguado? Como engrossar sem farinha",
+      "topic": "Redução de molho de tomate ralo antes de juntar a massa",
+      "strategy": "evergreen",
+      "primarySearchQuery": "como engrossar molho de tomate aguado",
+      "youtubeVideoId": null,
+      "url": null,
+      "publishedAt": null,
+      "scheduledAt": "2026-10-15T16:47:00Z",
+      "outputFile": "assets/cenas/tarefas/005-postados/046-molho-de-tomate-aguado-reduza-sem-tampa/output/convertido-0001.mp4",
+      "descriptionFile": "assets/cenas/tarefas/005-postados/046-molho-de-tomate-aguado-reduza-sem-tampa/legenda.md",
+      "postiz": {
+        "integrationId": "cmv9jg0br0001qq9mr4q4sj6h",
+        "postId": "cmv9qdors0003o587r5qwr3el",
+        "state": "PUBLISHED",
+        "checkedAt": "2026-10-15T17:26:43.168Z"
+      },
+      "observations": []
+    },
+    {
+      "id": "yt-short-047",
+      "sourceProductionIds": [
+        "047-ovo-cozido-sem-aro-esverdeado-cronometre-e-resfrie"
+      ],
+      "format": "short",
+      "orientation": "vertical",
+      "contentDepth": "dica curta",
+      "title": "Ovo cozido: como evitar o aro esverdeado na gema",
+      "topic": "Ovo cozido sem aro esverdeado: cronometre e resfrie",
+      "strategy": "evergreen",
+      "primarySearchQuery": "ovo cozido gema esverdeada como evitar",
+      "youtubeVideoId": null,
+      "url": null,
+      "publishedAt": null,
+      "scheduledAt": "2026-10-15T17:47:00Z",
+      "outputFile": "assets/cenas/tarefas/005-postados/047-ovo-cozido-sem-aro-esverdeado-cronometre-e-resfrie/output/convertido-0001.mp4",
+      "descriptionFile": "assets/cenas/tarefas/005-postados/047-ovo-cozido-sem-aro-esverdeado-cronometre-e-resfrie/legenda.md",
+      "postiz": {
+        "integrationId": "cmv9jg0br0001qq9mr4q4sj6h",
+        "postId": "cmv9t84jp0009o587qfriz6eg",
+        "state": "PUBLISHED",
+        "checkedAt": "2026-10-15T17:55:28.685Z"
+      },
+      "observations": []
+    },
+    {
+      "id": "yt-short-048",
+      "sourceProductionIds": [
+        "048-farofa-de-banana-sem-desmanchar-os-pedacos"
+      ],
+      "format": "short",
+      "orientation": "vertical",
+      "contentDepth": "receita curta",
+      "title": "Farofa de banana: como manter os pedaços inteiros",
+      "topic": "Farofa de banana sem desmanchar os pedaços",
+      "strategy": "evergreen",
+      "primarySearchQuery": "farofa de banana sem desmanchar",
+      "youtubeVideoId": null,
+      "url": null,
+      "publishedAt": null,
+      "scheduledAt": "2026-10-15T18:47:00Z",
+      "outputFile": "assets/cenas/tarefas/005-postados/048-farofa-de-banana-sem-desmanchar-os-pedacos/output/convertido-0001.mp4",
+      "descriptionFile": "assets/cenas/tarefas/005-postados/048-farofa-de-banana-sem-desmanchar-os-pedacos/legenda.md",
+      "postiz": {
+        "integrationId": "cmv9jg0br0001qq9mr4q4sj6h",
+        "postId": "cmv9tsgbn000bo5878aczhf1o",
+        "state": "PUBLISHED",
+        "checkedAt": "2026-10-15T18:49:16.974Z"
+      },
+      "observations": []
+    },
+    {
+      "id": "yt-short-049",
+      "sourceProductionIds": [
+        "049-couve-refogada-sem-ficar-escura-e-molenga"
+      ],
+      "format": "short",
+      "orientation": "vertical",
+      "contentDepth": "receita curta",
+      "title": "Couve refogada: como acertar o ponto sem cozinhar demais",
+      "topic": "Couve refogada sem ficar escura e molenga",
+      "strategy": "evergreen",
+      "primarySearchQuery": "couve refogada sem ficar amarga",
+      "youtubeVideoId": null,
+      "url": null,
+      "publishedAt": null,
+      "scheduledAt": "2026-10-15T19:47:00Z",
+      "outputFile": "assets/cenas/tarefas/004-aprovados/049-couve-refogada-sem-ficar-escura-e-molenga/output/convertido-0001.mp4",
+      "descriptionFile": "assets/cenas/tarefas/004-aprovados/049-couve-refogada-sem-ficar-escura-e-molenga/legenda.md",
+      "postiz": {
+        "integrationId": "cmv9jg0br0001qq9mr4q4sj6h",
+        "postId": "cmv9uhyjt000do587jv9hv29e",
+        "state": "QUEUE",
+        "checkedAt": "2026-10-15T18:01:25.423Z"
+      },
+      "observations": []
+    },
+    {
+      "id": "yt-short-050",
+      "sourceProductionIds": [
+        "050-cabotia-assada-com-casca-menos-trabalho-no-jantar"
+      ],
+      "format": "short",
+      "orientation": "vertical",
+      "contentDepth": "receita curta",
+      "title": "Cabotiá assada com casca: menos trabalho no jantar",
+      "topic": "Cabotiá assada com casca: menos trabalho no jantar",
+      "strategy": "evergreen",
+      "primarySearchQuery": "cabotiá assada com casca",
+      "youtubeVideoId": null,
+      "url": null,
+      "publishedAt": null,
+      "scheduledAt": "2026-10-15T20:47:00Z",
+      "outputFile": "assets/cenas/tarefas/004-aprovados/050-cabotia-assada-com-casca-menos-trabalho-no-jantar/output/convertido-0001.mp4",
+      "descriptionFile": "assets/cenas/tarefas/004-aprovados/050-cabotia-assada-com-casca-menos-trabalho-no-jantar/legenda.md",
+      "postiz": {
+        "integrationId": "cmv9jg0br0001qq9mr4q4sj6h",
+        "postId": "cmv9vjfdr000fo58751ai6gcp",
+        "state": "QUEUE",
+        "checkedAt": "2026-10-15T18:30:33.537Z"
+      },
+      "observations": []
+    },
+    {
+      "id": "yt-short-051",
+      "sourceProductionIds": [
+        "051-cuscuz-macio-hidrate-o-flocao-e-nao-compacte"
+      ],
+      "format": "short",
+      "orientation": "vertical",
+      "contentDepth": "receita curta",
+      "title": "Cuscuz macio: hidrate o flocão e não compacte",
+      "topic": "Cuscuz macio: hidrate o flocão e não compacte",
+      "strategy": "evergreen",
+      "primarySearchQuery": "como fazer cuscuz macio sem ficar seco",
+      "youtubeVideoId": null,
+      "url": null,
+      "publishedAt": null,
+      "scheduledAt": "2026-10-15T21:47:00Z",
+      "outputFile": "assets/cenas/tarefas/004-aprovados/051-cuscuz-macio-hidrate-o-flocao-e-nao-compacte/output/convertido-0001.mp4",
+      "descriptionFile": "assets/cenas/tarefas/004-aprovados/051-cuscuz-macio-hidrate-o-flocao-e-nao-compacte/legenda.md",
+      "postiz": {
+        "integrationId": "cmv9jg0br0001qq9mr4q4sj6h",
+        "postId": "cmv9w7i2l000ho587h12akaoy",
+        "state": "QUEUE",
+        "checkedAt": "2026-10-15T18:49:16.645Z"
+      },
+      "observations": []
+    },
+    {
+      "id": "yt-short-052",
+      "sourceProductionIds": [
+        "052-molho-branco-lisinho-use-leite-gelado-no-roux"
+      ],
+      "format": "short",
+      "orientation": "vertical",
+      "contentDepth": "receita curta",
+      "title": "Molho branco sem empelotar: leite gelado no roux",
+      "topic": "Molho branco lisinho: use leite gelado no roux",
+      "strategy": "evergreen",
+      "primarySearchQuery": "molho branco sem empelotar com leite gelado",
+      "youtubeVideoId": null,
+      "url": null,
+      "publishedAt": null,
+      "scheduledAt": "2026-10-15T22:47:00Z",
+      "outputFile": "assets/cenas/tarefas/004-aprovados/052-molho-branco-lisinho-use-leite-gelado-no-roux/output/convertido-0001.mp4",
+      "descriptionFile": "assets/cenas/tarefas/004-aprovados/052-molho-branco-lisinho-use-leite-gelado-no-roux/legenda.md",
+      "postiz": {
+        "integrationId": "cmv9jg0br0001qq9mr4q4sj6h",
+        "postId": "cmv9wtw5i000jo587v919den6",
+        "state": "QUEUE",
+        "checkedAt": "2026-10-15T19:06:58.047Z"
+      },
+      "observations": []
+    },
+    {
+      "id": "yt-short-053",
+      "sourceProductionIds": [
+        "053-o-corte-do-alho-muda-a-intensidade-do-sabor"
+      ],
+      "format": "short",
+      "orientation": "vertical",
+      "contentDepth": "dica curta",
+      "title": "Como o corte do alho muda o sabor: lâminas, picado e pasta",
+      "topic": "O corte do alho muda a intensidade do sabor",
+      "strategy": "evergreen",
+      "primarySearchQuery": "como o corte do alho altera o sabor",
+      "youtubeVideoId": null,
+      "url": null,
+      "publishedAt": null,
+      "scheduledAt": "2026-10-15T23:47:00Z",
+      "outputFile": "assets/cenas/tarefas/004-aprovados/053-o-corte-do-alho-muda-a-intensidade-do-sabor/output/convertido-0001.mp4",
+      "descriptionFile": "assets/cenas/tarefas/004-aprovados/053-o-corte-do-alho-muda-a-intensidade-do-sabor/legenda.md",
+      "postiz": {
+        "integrationId": "cmv9jg0br0001qq9mr4q4sj6h",
+        "postId": "cmv9xeidw000lo587l5t1vgls",
+        "state": "QUEUE",
+        "checkedAt": "2026-10-15T19:23:21.647Z"
+      },
+      "observations": []
+    },
+    {
+      "id": "yt-short-054",
+      "sourceProductionIds": [
+        "054-macarrao-sem-grudar-nao-precisa-de-oleo-na-agua"
+      ],
+      "format": "short",
+      "orientation": "vertical",
+      "contentDepth": "dica curta de preparo",
+      "title": "Macarrão sem grudar: não precisa de óleo na água",
+      "topic": "Macarrão sem grudar: não precisa de óleo na água",
+      "strategy": "evergreen",
+      "primarySearchQuery": "como cozinhar macarrão sem grudar sem óleo",
+      "youtubeVideoId": null,
+      "url": null,
+      "publishedAt": null,
+      "scheduledAt": "2026-10-16T00:47:00Z",
+      "outputFile": "assets/cenas/tarefas/004-aprovados/054-macarrao-sem-grudar-nao-precisa-de-oleo-na-agua/output/convertido-0001.mp4",
+      "descriptionFile": "assets/cenas/tarefas/004-aprovados/054-macarrao-sem-grudar-nao-precisa-de-oleo-na-agua/legenda.md",
+      "postiz": {
+        "integrationId": "cmv9jg0br0001qq9mr4q4sj6h",
+        "postId": "cmv9y9s82000no587r6wcypyf",
+        "state": "QUEUE",
+        "checkedAt": "2026-10-15T19:50:49.267Z"
+      },
+      "observations": []
+    },
+    {
+      "id": "yt-short-055",
+      "sourceProductionIds": [
+        "055-brocolis-verdinho-e-crocante-com-choque-termico"
+      ],
+      "format": "short",
+      "orientation": "vertical",
+      "contentDepth": "dica curta de técnica",
+      "title": "Brócolis verde e crocante: cozimento curto e choque térmico",
+      "topic": "Brócolis verde e crocante: cozimento e choque térmico",
+      "strategy": "evergreen",
+      "primarySearchQuery": "como cozinhar brócolis verde e crocante",
+      "youtubeVideoId": null,
+      "url": null,
+      "publishedAt": null,
+      "scheduledAt": "2026-10-16T01:47:00Z",
+      "outputFile": "assets/cenas/tarefas/004-aprovados/055-brocolis-verdinho-e-crocante-com-choque-termico/output/convertido-0001.mp4",
+      "descriptionFile": "assets/cenas/tarefas/004-aprovados/055-brocolis-verdinho-e-crocante-com-choque-termico/legenda.md",
+      "postiz": {
+        "integrationId": "cmv9jg0br0001qq9mr4q4sj6h",
+        "postId": "cmv9yq796000po587j8b64bdm",
+        "state": "QUEUE",
+        "checkedAt": "2026-10-15T20:00:16.417Z"
+      },
+      "observations": []
+    },
+    {
+      "id": "yt-short-056",
+      "sourceProductionIds": [
+        "056-salada-de-tomate-sem-piscina-no-prato"
+      ],
+      "format": "short",
+      "orientation": "vertical",
+      "contentDepth": "receita curta",
+      "title": "Salada de tomate aguada? Escorra antes de finalizar",
+      "topic": "Salada de tomate aguada: escorra antes de finalizar",
+      "strategy": "evergreen",
+      "primarySearchQuery": "salada de tomate aguada como evitar",
+      "youtubeVideoId": null,
+      "url": null,
+      "publishedAt": null,
+      "scheduledAt": "2026-10-16T13:00:00Z",
+      "outputFile": "assets/cenas/tarefas/004-aprovados/056-salada-de-tomate-sem-piscina-no-prato/output/convertido-0001.mp4",
+      "descriptionFile": "assets/cenas/tarefas/004-aprovados/056-salada-de-tomate-sem-piscina-no-prato/legenda.md",
+      "postiz": {
+        "integrationId": "cmv9jg0br0001qq9mr4q4sj6h",
+        "postId": "cmv9zl1c0000ro587a6pt1v1i",
+        "state": "QUEUE",
+        "checkedAt": "2026-10-15T20:24:16.150Z"
+      },
+      "observations": []
+    },
+    {
+      "id": "yt-short-057",
+      "sourceProductionIds": [
+        "057-pimentao-assado-sem-pele-deixe-o-vapor-ajudar"
+      ],
+      "format": "short",
+      "orientation": "vertical",
+      "contentDepth": "técnica curta de pré-preparo",
+      "title": "Como tirar a pele do pimentão assado: descanso abafado",
+      "topic": "Como tirar a pele do pimentão assado com descanso abafado",
+      "strategy": "evergreen",
+      "primarySearchQuery": "como tirar a pele do pimentão assado",
+      "youtubeVideoId": null,
+      "url": null,
+      "publishedAt": null,
+      "scheduledAt": "2026-10-16T14:00:00Z",
+      "outputFile": "assets/cenas/tarefas/004-aprovados/057-pimentao-assado-sem-pele-deixe-o-vapor-ajudar/output/convertido-0001.mp4",
+      "descriptionFile": "assets/cenas/tarefas/004-aprovados/057-pimentao-assado-sem-pele-deixe-o-vapor-ajudar/legenda.md",
+      "postiz": {
+        "integrationId": "cmv9jg0br0001qq9mr4q4sj6h",
+        "postId": "cmva0ange000to587sh53n1q5",
+        "state": "QUEUE",
+        "checkedAt": "2026-10-15T20:44:13.153Z"
+      },
+      "observations": []
+    },
+    {
+      "id": "yt-short-058",
+      "sourceProductionIds": [
+        "058-batata-bolinha-ao-murro-com-casquinha-na-frigideira"
+      ],
+      "format": "short",
+      "orientation": "vertical",
+      "contentDepth": "receita curta completa",
+      "title": "Batata ao murro na frigideira: casquinha dourada",
+      "topic": "Batata ao murro na frigideira: casquinha dourada",
+      "strategy": "evergreen",
+      "primarySearchQuery": "batata ao murro de frigideira",
+      "youtubeVideoId": null,
+      "url": null,
+      "publishedAt": null,
+      "scheduledAt": "2026-10-16T15:00:00Z",
+      "outputFile": "assets/cenas/tarefas/004-aprovados/058-batata-bolinha-ao-murro-com-casquinha-na-frigideira/output/convertido-0001.mp4",
+      "descriptionFile": "assets/cenas/tarefas/004-aprovados/058-batata-bolinha-ao-murro-com-casquinha-na-frigideira/legenda.md",
+      "postiz": {
+        "integrationId": "cmv9jg0br0001qq9mr4q4sj6h",
+        "postId": "cmva0wqni000vo587hye7wrqq",
+        "state": "QUEUE",
+        "checkedAt": "2026-10-15T21:01:38.620Z"
+      },
+      "observations": []
+    },
+    {
+      "id": "yt-short-059",
+      "sourceProductionIds": [
+        "059-feijao-com-caldo-ralo-amasse-uma-concha-dos-graos"
+      ],
+      "format": "short",
+      "orientation": "vertical",
+      "contentDepth": "técnica curta de finalização",
+      "title": "Como engrossar o caldo do feijão sem farinha",
+      "topic": "Como engrossar o caldo do feijão sem farinha",
+      "strategy": "evergreen",
+      "primarySearchQuery": "como engrossar caldo do feijão sem farinha",
+      "youtubeVideoId": null,
+      "url": null,
+      "publishedAt": null,
+      "scheduledAt": "2026-10-16T16:00:00Z",
+      "outputFile": "assets/cenas/tarefas/004-aprovados/059-feijao-com-caldo-ralo-amasse-uma-concha-dos-graos/output/convertido-0001.mp4",
+      "descriptionFile": "assets/cenas/tarefas/004-aprovados/059-feijao-com-caldo-ralo-amasse-uma-concha-dos-graos/legenda.md",
+      "postiz": {
+        "integrationId": "cmv9jg0br0001qq9mr4q4sj6h",
+        "postId": "cmva1j946000xo587a1sxijgt",
+        "state": "QUEUE",
+        "checkedAt": "2026-10-15T21:19:09.065Z"
+      },
+      "observations": []
+    },
+    {
+      "id": "yt-short-060",
+      "sourceProductionIds": [
+        "060-fraldinha-fatie-contra-as-fibras-na-hora-de-servir"
+      ],
+      "format": "short",
+      "orientation": "vertical",
+      "contentDepth": "técnica curta de finalização",
+      "title": "Como cortar fraldinha contra as fibras para facilitar mastigar",
+      "topic": "Como cortar fraldinha contra as fibras",
+      "strategy": "evergreen",
+      "primarySearchQuery": "como cortar fraldinha contra as fibras",
+      "youtubeVideoId": null,
+      "url": null,
+      "publishedAt": null,
+      "scheduledAt": "2026-10-16T17:00:00Z",
+      "outputFile": "assets/cenas/tarefas/004-aprovados/060-fraldinha-fatie-contra-as-fibras-na-hora-de-servir/output/convertido-0001.mp4",
+      "descriptionFile": "assets/cenas/tarefas/004-aprovados/060-fraldinha-fatie-contra-as-fibras-na-hora-de-servir/legenda.md",
+      "postiz": {
+        "integrationId": "cmv9jg0br0001qq9mr4q4sj6h",
+        "postId": "cmva255p1000zo587ocds1xep",
+        "state": "QUEUE",
+        "checkedAt": "2026-10-15T21:35:49.294Z"
+      },
+      "observations": []
+    },
+    {
+      "id": "yt-short-061",
+      "sourceProductionIds": [
+        "061-quiabo-douradinho-seque-bem-e-grelhe-sem-amontoar"
+      ],
+      "format": "short",
+      "orientation": "vertical",
+      "title": "Como fazer quiabo grelhado douradinho na frigideira",
+      "youtubeVideoId": null,
+      "url": null,
+      "publishedAt": null,
+      "scheduledAt": "2026-10-16T18:00:00Z",
+      "outputFile": "assets/cenas/tarefas/004-aprovados/061-quiabo-douradinho-seque-bem-e-grelhe-sem-amontoar/output/convertido-0001.mp4",
+      "descriptionFile": "assets/cenas/tarefas/004-aprovados/061-quiabo-douradinho-seque-bem-e-grelhe-sem-amontoar/legenda.md",
+      "postiz": {
+        "integrationId": "cmv9jg0br0001qq9mr4q4sj6h",
+        "postId": "cmva2rvdt0011o5876oevyesi",
+        "state": "QUEUE",
+        "checkedAt": "2026-10-15T21:53:04.802Z"
+      },
+      "observations": []
+    },
+    {
+      "id": "yt-short-062",
+      "sourceProductionIds": [
+        "062-cebola-crua-menos-ardida-dez-minutos-na-agua-com-gelo"
+      ],
+      "format": "short",
+      "orientation": "vertical",
+      "title": "Como diminuir a ardência da cebola crua na salada",
+      "youtubeVideoId": null,
+      "url": null,
+      "publishedAt": null,
+      "scheduledAt": "2026-10-16T19:00:00Z",
+      "outputFile": "assets/cenas/tarefas/004-aprovados/062-cebola-crua-menos-ardida-dez-minutos-na-agua-com-gelo/output/convertido-0001.mp4",
+      "descriptionFile": "assets/cenas/tarefas/004-aprovados/062-cebola-crua-menos-ardida-dez-minutos-na-agua-com-gelo/legenda.md",
+      "postiz": {
+        "integrationId": "cmv9jg0br0001qq9mr4q4sj6h",
+        "postId": "cmva42pes0013o587jt3vloqq",
+        "state": "QUEUE",
+        "checkedAt": "2026-10-15T22:29:30.415Z"
+      },
+      "observations": []
+    },
+    {
+      "id": "yt-short-063",
+      "sourceProductionIds": [
+        "063-mandioca-cozida-ganha-casquinha-na-manteiga"
+      ],
+      "format": "short",
+      "orientation": "vertical",
+      "contentDepth": "curto-direto",
+      "title": "Mandioca cozida dourada na manteiga: acompanhamento fácil",
+      "topic": "Mandioca cozida ganha casquinha na manteiga",
+      "strategy": "Evergreen; transformação de acompanhamento já cozido. Experimento regional no ponto de expectativa antes do dourado.",
+      "primarySearchQuery": "mandioca cozida dourada na manteiga",
+      "youtubeVideoId": null,
+      "url": null,
+      "publishedAt": null,
+      "scheduledAt": "2026-10-16T20:00:00Z",
+      "outputFile": "assets/cenas/tarefas/004-aprovados/063-mandioca-cozida-ganha-casquinha-na-manteiga/output/convertido-0001.mp4",
+      "descriptionFile": "assets/cenas/tarefas/004-aprovados/063-mandioca-cozida-ganha-casquinha-na-manteiga/legenda.md",
+      "postiz": {
+        "integrationId": "cmv9jg0br0001qq9mr4q4sj6h",
+        "postId": "cmva51tma0015o587cae0wq8i",
+        "state": "QUEUE",
+        "checkedAt": "2026-10-15T22:56:48.837Z"
+      },
+      "observations": []
+    },
+    {
+      "id": "yt-short-064",
+      "sourceProductionIds": [
+        "064-polenta-sem-empelotar-semola-aos-poucos-e-batedor"
+      ],
+      "format": "short",
+      "orientation": "vertical",
+      "contentDepth": "curto-direto",
+      "title": "Como fazer polenta sem empelotar: cremosa com sêmola de milho",
+      "topic": "Polenta sem empelotar: sêmola aos poucos e batedor",
+      "strategy": "Evergreen; adição gradual, cozimento e finalização completos. Interação regional aprovada antes do ponto.",
+      "primarySearchQuery": "como fazer polenta sem empelotar",
+      "youtubeVideoId": null,
+      "url": null,
+      "publishedAt": null,
+      "scheduledAt": "2026-10-16T21:00:00Z",
+      "outputFile": "assets/cenas/tarefas/004-aprovados/064-polenta-sem-empelotar-semola-aos-poucos-e-batedor/output/convertido-0001.mp4",
+      "descriptionFile": "assets/cenas/tarefas/004-aprovados/064-polenta-sem-empelotar-semola-aos-poucos-e-batedor/legenda.md",
+      "postiz": {
+        "integrationId": "cmv9jg0br0001qq9mr4q4sj6h",
+        "postId": "cmva5ttgf0017o587lmwekc4u",
+        "state": "QUEUE",
+        "checkedAt": "2026-10-15T23:18:35.646Z"
+      },
+      "observations": []
+    },
+    {
+      "id": "yt-short-065",
+      "sourceProductionIds": [
+        "065-grao-de-bico-cozido-vira-crocante-no-forno"
+      ],
+      "format": "short",
+      "orientation": "vertical",
+      "contentDepth": "curto-direto",
+      "title": "Grão-de-bico crocante no forno: como preparar",
+      "topic": "Grão-de-bico cozido vira crocante no forno",
+      "strategy": "Evergreen; transformação de grão já cozido em textura para salada, sequência completa. Interação regional aprovada no meio.",
+      "primarySearchQuery": "grão-de-bico crocante no forno",
+      "youtubeVideoId": null,
+      "url": null,
+      "publishedAt": null,
+      "scheduledAt": "2026-10-16T22:00:00Z",
+      "outputFile": "assets/cenas/tarefas/004-aprovados/065-grao-de-bico-cozido-vira-crocante-no-forno/output/convertido-0001.mp4",
+      "descriptionFile": "assets/cenas/tarefas/004-aprovados/065-grao-de-bico-cozido-vira-crocante-no-forno/legenda.md",
+      "postiz": {
+        "integrationId": "cmv9jg0br0001qq9mr4q4sj6h",
+        "postId": "cmva6v4av0019o5874bqbxnv6",
+        "state": "QUEUE",
+        "checkedAt": "2026-10-15T23:47:50.742Z"
+      },
+      "observations": []
+    },
+    {
+      "id": "yt-short-066",
+      "sourceProductionIds": [
+        "066-linguica-com-batata-jantar-em-uma-assadeira"
+      ],
+      "format": "short",
+      "orientation": "vertical",
+      "contentDepth": "curto-direto",
+      "title": "Linguiça assada com batata: jantar em uma assadeira",
+      "topic": "Linguiça assada com batata: jantar em uma assadeira",
+      "strategy": "Evergreen: finalização de jantar completo em uma assadeira; receita nova no histórico, mapa regional no meio e resultado visível.",
+      "primarySearchQuery": "linguiça assada com batata",
+      "youtubeVideoId": null,
+      "url": null,
+      "publishedAt": null,
+      "scheduledAt": "2026-10-16T23:00:00Z",
+      "outputFile": "assets/cenas/tarefas/004-aprovados/066-linguica-com-batata-jantar-em-uma-assadeira/output/convertido-0001.mp4",
+      "descriptionFile": "assets/cenas/tarefas/004-aprovados/066-linguica-com-batata-jantar-em-uma-assadeira/legenda.md",
+      "postiz": {
+        "integrationId": "cmv9jg0br0001qq9mr4q4sj6h",
+        "postId": "cmva7gzk0001bo5875qpfeb5j",
+        "state": "QUEUE",
+        "checkedAt": "2026-10-16T00:05:24.230Z"
+      },
+      "observations": [],
+      "durationSeconds": 31.5
+    },
+    {
+      "id": "yt-short-067",
+      "sourceProductionIds": [
+        "067-cogumelo-dourado-na-frigideira-alho-so-no-final"
+      ],
+      "format": "short",
+      "orientation": "vertical",
+      "contentDepth": "curto-direto",
+      "title": "Cogumelo dourado na frigideira: alho e salsinha",
+      "topic": "Cogumelo dourado na frigideira: alho e salsinha",
+      "strategy": "Evergreen; cogumelos frescos dourados como companhia para arroz pronto, técnica completa e mapa regional no meio.",
+      "primarySearchQuery": "cogumelo na frigideira",
+      "youtubeVideoId": null,
+      "url": null,
+      "publishedAt": null,
+      "scheduledAt": "2026-10-17T00:00:00Z",
+      "outputFile": "assets/cenas/tarefas/004-aprovados/067-cogumelo-dourado-na-frigideira-alho-so-no-final/output/convertido-0001.mp4",
+      "descriptionFile": "assets/cenas/tarefas/004-aprovados/067-cogumelo-dourado-na-frigideira-alho-so-no-final/legenda.md",
+      "postiz": {
+        "integrationId": "cmv9jg0br0001qq9mr4q4sj6h",
+        "postId": "cmva85s5v001do587aiepyxqy",
+        "state": "QUEUE",
+        "checkedAt": "2026-10-16T00:24:35.671Z"
+      },
+      "observations": [],
+      "durationSeconds": 33.333333333333336
+    },
+    {
+      "id": "yt-short-068",
+      "sourceProductionIds": [
+        "068-abobrinha-agridoce-mel-e-vinagre-transformam-o-jantar"
+      ],
+      "format": "short",
+      "orientation": "vertical",
+      "contentDepth": "curto-direto",
+      "title": "Abobrinha agridoce na frigideira: mel e vinagre",
+      "topic": "Abobrinha agridoce na frigideira: mel e vinagre",
+      "strategy": "Evergreen; acompanhamento de jantar com molho mel/vinagre, corte quadriculado e ponto; pergunta regional no meio.",
+      "primarySearchQuery": "abobrinha agridoce na frigideira",
+      "youtubeVideoId": null,
+      "url": null,
+      "publishedAt": null,
+      "scheduledAt": "2026-10-17T01:00:00Z",
+      "outputFile": "assets/cenas/tarefas/004-aprovados/068-abobrinha-agridoce-mel-e-vinagre-transformam-o-jantar/output/convertido-0001.mp4",
+      "descriptionFile": "assets/cenas/tarefas/004-aprovados/068-abobrinha-agridoce-mel-e-vinagre-transformam-o-jantar/legenda.md",
+      "postiz": {
+        "integrationId": "cmv9jg0br0001qq9mr4q4sj6h",
+        "postId": "cmva8qess001fo587ss6pa8yv",
+        "state": "QUEUE",
+        "checkedAt": "2026-10-16T00:40:40.541Z"
+      },
+      "observations": [],
+      "durationSeconds": 38.63333333333333
+    },
+    {
+      "id": "yt-short-069",
+      "sourceProductionIds": [
+        "069-repolho-assado-gomos-dourados-com-manteiga-temperada"
+      ],
+      "format": "short",
+      "orientation": "vertical",
+      "contentDepth": "curto-direto",
+      "title": "Repolho assado em gomos: manteiga temperada e dourado",
+      "topic": "Repolho assado em gomos: manteiga temperada e dourado",
+      "strategy": "Evergreen; nova forma de preparar repolho para o jantar, gomos unidos pelo talo, tempero e assamento completos, mapa regional.",
+      "primarySearchQuery": "repolho assado em gomos",
+      "youtubeVideoId": null,
+      "url": null,
+      "publishedAt": null,
+      "scheduledAt": "2026-10-17T02:00:00Z",
+      "outputFile": "assets/cenas/tarefas/004-aprovados/069-repolho-assado-gomos-dourados-com-manteiga-temperada/output/convertido-0001.mp4",
+      "descriptionFile": "assets/cenas/tarefas/004-aprovados/069-repolho-assado-gomos-dourados-com-manteiga-temperada/legenda.md",
+      "postiz": {
+        "integrationId": "cmv9jg0br0001qq9mr4q4sj6h",
+        "postId": "cmva9o46l001ho58743qw7odd",
+        "state": "QUEUE",
+        "checkedAt": "2026-10-16T01:07:03.948Z"
+      },
+      "observations": [],
+      "durationSeconds": 38.666666666666664
+    },
+    {
+      "id": "yt-short-070",
+      "sourceProductionIds": [
+        "070-ervilha-congelada-vai-direto-para-a-frigideira"
+      ],
+      "format": "short",
+      "orientation": "vertical",
+      "contentDepth": "curto-direto",
+      "title": "Ervilha congelada na frigideira: manteiga e hortelã",
+      "topic": "Ervilha congelada na frigideira: manteiga e hortelã",
+      "strategy": "Evergreen; acompanhamento direto do congelador, ponto e finalização, mapa regional e cenário alternado.",
+      "primarySearchQuery": "ervilha congelada na frigideira",
+      "youtubeVideoId": null,
+      "url": null,
+      "publishedAt": null,
+      "scheduledAt": "2026-10-17T13:00:00Z",
+      "outputFile": "assets/cenas/tarefas/004-aprovados/070-ervilha-congelada-vai-direto-para-a-frigideira/output/convertido-0001.mp4",
+      "descriptionFile": "assets/cenas/tarefas/004-aprovados/070-ervilha-congelada-vai-direto-para-a-frigideira/legenda.md",
+      "postiz": {
+        "integrationId": "cmv9jg0br0001qq9mr4q4sj6h",
+        "postId": "cmvaa4d1r001jo587m1gtefvf",
+        "state": "QUEUE",
+        "checkedAt": "2026-10-16T01:19:33.777Z"
+      },
+      "observations": [],
+      "durationSeconds": 28.833333333333332
+    },
+    {
+      "id": "yt-short-071",
+      "sourceProductionIds": [
+        "071-creme-de-milho-sem-farinha-o-proprio-grao-engrossa"
+      ],
+      "format": "short",
+      "orientation": "vertical",
+      "contentDepth": "curto-direto",
+      "title": "Creme de milho sem farinha: cremoso com o próprio grão",
+      "topic": "Creme de milho sem farinha: cremoso com o próprio grão",
+      "strategy": "Evergreen; textura do milho batido, refogado e cozimento completo; mapa regional e cenário alternado.",
+      "primarySearchQuery": "creme de milho sem farinha",
+      "youtubeVideoId": null,
+      "url": null,
+      "publishedAt": null,
+      "scheduledAt": "2026-10-17T14:00:00Z",
+      "outputFile": "assets/cenas/tarefas/004-aprovados/071-creme-de-milho-sem-farinha-o-proprio-grao-engrossa/output/convertido-0001.mp4",
+      "descriptionFile": "assets/cenas/tarefas/004-aprovados/071-creme-de-milho-sem-farinha-o-proprio-grao-engrossa/legenda.md",
+      "postiz": {
+        "integrationId": "cmv9jg0br0001qq9mr4q4sj6h",
+        "postId": "cmvaauwnm001lo5872ca0mbim",
+        "state": "QUEUE",
+        "checkedAt": "2026-10-16T01:40:14.125Z"
+      },
+      "observations": [],
+      "durationSeconds": 33.3
+    },
+    {
+      "id": "yt-short-072",
+      "sourceProductionIds": [
+        "072-berinjela-assada-com-cominho-dourada-sem-ressecar"
+      ],
+      "format": "short",
+      "orientation": "vertical",
+      "contentDepth": "curto-direto",
+      "title": "Berinjela assada com cominho: macia e dourada",
+      "topic": "Berinjela assada com cominho: macia e dourada",
+      "strategy": "Evergreen; corte uniforme, tempero e forno completos; mapa regional, despensa de bancada clara.",
+      "primarySearchQuery": "berinjela assada com cominho",
+      "youtubeVideoId": null,
+      "url": null,
+      "publishedAt": null,
+      "scheduledAt": "2026-10-17T15:00:00Z",
+      "outputFile": "assets/cenas/tarefas/004-aprovados/072-berinjela-assada-com-cominho-dourada-sem-ressecar/output/convertido-0001.mp4",
+      "descriptionFile": "assets/cenas/tarefas/004-aprovados/072-berinjela-assada-com-cominho-dourada-sem-ressecar/legenda.md",
+      "postiz": {
+        "integrationId": "cmv9jg0br0001qq9mr4q4sj6h",
+        "postId": "cmvabtm1v001no587v84o5rkd",
+        "state": "QUEUE",
+        "checkedAt": "2026-10-16T02:08:20.460Z"
+      },
+      "observations": [],
+      "durationSeconds": 35
+    },
+    {
+      "id": "yt-short-073",
+      "sourceProductionIds": [
+        "073-peixe-no-papel-manteiga-papilote-com-legumes"
+      ],
+      "format": "short",
+      "orientation": "vertical",
+      "contentDepth": "curto-direto",
+      "title": "Peixe no papel-manteiga com legumes: papilote no forno",
+      "topic": "Peixe no papel-manteiga com legumes: papilote no forno",
+      "strategy": "Evergreen; proteína com legumes no papilote, fechamento e ponto, mapa regional e cenário alternado.",
+      "primarySearchQuery": "peixe no papel manteiga no forno",
+      "youtubeVideoId": null,
+      "url": null,
+      "publishedAt": null,
+      "scheduledAt": "2026-10-17T16:00:00Z",
+      "outputFile": "assets/cenas/tarefas/004-aprovados/073-peixe-no-papel-manteiga-papilote-com-legumes/output/convertido-0001.mp4",
+      "descriptionFile": "assets/cenas/tarefas/004-aprovados/073-peixe-no-papel-manteiga-papilote-com-legumes/legenda.md",
+      "postiz": {
+        "integrationId": "cmv9jg0br0001qq9mr4q4sj6h",
+        "postId": "cmvad0p08001po587u7vtkkpp",
+        "state": "QUEUE",
+        "checkedAt": "2026-10-16T02:40:53.861Z"
+      },
+      "observations": [],
+      "durationSeconds": 39.9
+    },
+    {
+      "id": "yt-short-074",
+      "sourceProductionIds": [
+        "074-lentilha-para-salada-sem-desmanchar-prove-o-ponto"
+      ],
+      "format": "short",
+      "orientation": "vertical",
+      "contentDepth": "curto-direto",
+      "title": "Como cozinhar lentilha para salada sem desmanchar",
+      "topic": "Como cozinhar lentilha para salada sem desmanchar",
+      "strategy": "Evergreen; pré-preparo concreto, fogo/ponto e drenagem, sem prometer salada completa; mapa regional e cenário alternado.",
+      "primarySearchQuery": "como cozinhar lentilha para salada",
+      "youtubeVideoId": null,
+      "url": null,
+      "publishedAt": null,
+      "scheduledAt": null,
+      "postiz": null,
+      "observations": [],
+      "outputFile": "assets/cenas/tarefas/003-gerados/074-lentilha-para-salada-sem-desmanchar-prove-o-ponto/output/convertido-0001.mp4",
+      "descriptionFile": "assets/cenas/tarefas/003-gerados/074-lentilha-para-salada-sem-desmanchar-prove-o-ponto/legenda.md",
+      "durationSeconds": 28.433333333333334
+    }
+  ],
+  "pendingBriefs": [],
+  "editorialPackage": {
+    "strategy": "evergreen",
+    "searchPolicy": "Conferir procura e resultados antes de escolher; não inventar volume nem garantir SEO.",
+    "title": "Busca principal + benefício verdadeiro",
+    "thumbnail": "Resultado em destaque, Bebel e poucas palavras",
+    "opening": "Mostrar imediatamente o que o título prometeu",
+    "content": "Passo a passo reproduzível com execução ilustrada, medidas quando pertinentes, sinais de ponto/textura, exemplos e correção de erros; direção aprovada do 038.",
+    "description": "Resumo, ingredientes quando houver e capítulos úteis com tempos reais; fontes internas e sem links de referência públicos por enquanto, conforme publicCopyPolicy",
+    "horizontalDurationGuidance": {
+      "initialTestMinutes": [
+        3,
+        5
+      ],
+      "isHardLimit": false,
+      "rule": "Duração acompanha o conteúdo; não alongar nem cortar explicação para alcançar a faixa."
+    },
+    "deliveryFiles": [
+      "video.mp4",
+      "capa.png",
+      "descricao.md"
+    ],
+    "recordFields": [
+      "primarySearchQuery",
+      "searchResearchSources",
+      "title",
+      "thumbnailFile",
+      "descriptionFile",
+      "chapters",
+      "sourceProductionIds"
+    ],
+    "publicationPolicy": "Somente entrega; publicação requer autorização explícita.",
+    "sharedContentPolicy": "brand/temas-utilizados.json → editorial.contentPolicy",
+    "strategyOverride": "Pedido explícito de outro tipo prevalece; padrão evergreen inclui Shorts e horizontal."
+  },
+  "renderReference": {
+    "entry": "references/bebel-youtube/index.tsx",
+    "videoComposition": "BebelYoutubeMotion",
+    "thumbnailComposition": "BebelYoutubeCapa",
+    "videoSize": [
+      1920,
+      1080
+    ],
+    "thumbnailSize": [
+      1280,
+      720
+    ],
+    "fps": 30,
+    "voiceSpeedInComposition": 1,
+    "finalPlaybackRate": 1.2,
+    "notes": "Direção criativa aprovada pelo usuário: motion por grupos, caixas expansivas, objetos com movimentos curtos e inscrição subindo do rodapé. Recriar props a partir dos bancos/montagem e beats de cada tarefa; não depender de temp nem usar BebelYoutubeHorizontal (versão estática anterior) como padrão. Aprovação criativa não comprova desempenho. Conteúdo completo aprovado: 038, com ações ilustradas, medidas e correção de erros; motion do 036-0002 preservado.",
+    "approvedVideo": "assets/cenas/tarefas/003-gerados/038-youtube-salada-de-folhas-sem-murchar-preparo-e-molho-separado/output/convertido-0001.mp4",
+    "motionReferencePrompt": "https://github.com/yihui-dev/awesome-opus5-5-videos/blob/main/prompts/anabology-491441.md",
+    "directionFile": "brand/formato-youtube-bebel.md",
+    "approvedMotionVideo": "assets/cenas/tarefas/003-gerados/036-youtube-tortilhas-de-arroz-com-carne-moida-e-tomate-passo-a-passo/output/convertido-0002.mp4"
+  },
+  "sharedScenarioMemory": "brand/cenarios-utilizados.json"
+}

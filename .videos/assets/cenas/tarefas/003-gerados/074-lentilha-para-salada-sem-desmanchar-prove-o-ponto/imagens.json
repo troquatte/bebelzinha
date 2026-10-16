@@ -1,0 +1,23 @@
+{
+  "tool": "image_gen built-in",
+  "transparentBackground": true,
+  "reference": "assets/itens/panela-lilas-cebola-translucida.png",
+  "direction": "Lentilha verde/marrom passada em papa; grãos inteiros cozinhando em água na panela roxa; peneira com grãos cozidos inteiros escorridos. Sem ingredientes extras, mãos, braços, texto ou fundo. Alfa0 externo conferido.",
+  "images": [
+    {
+      "asset": "assets/itens/lentilha-passada-papa-tigela.png",
+      "reused": false,
+      "source": "C:/Users/Troquatte/.codex/generated_images/01a12cf7-8513-7661-b0bb-fe1bb0578169/exec-31610333-a45d-421d-9b20-e24aff4b8358.png"
+    },
+    {
+      "asset": "assets/itens/lentilha-inteira-cozimento-panela.png",
+      "reused": false,
+      "source": "C:/Users/Troquatte/.codex/generated_images/01a12cf7-8513-7661-b0bb-fe1bb0578169/exec-5727a40a-73bc-4f25-ab49-3afd3defd46c.png"
+    },
+    {
+      "asset": "assets/itens/lentilha-cozida-inteira-peneira.png",
+      "reused": false,
+      "source": "C:/Users/Troquatte/.codex/generated_images/01a12cf7-8513-7661-b0bb-fe1bb0578169/exec-1775223b-8d28-4a7e-83fb-12d093fe8df0.png"
+    }
+  ]
+}

@@ -1,0 +1,374 @@
+{
+  "schemaVersion": 1,
+  "narration": "Salada de lentilha virou purê? Minha filha, o ponto vem antes do tempero! Cubra uma xícara de lentilha com um litro de água e leve ao fogo médio. Ferveu? Abaixe o fogo e conte cerca de vinte minutos. Antes desse grão chegar no ponto: de qual região você acompanha a Bebel? Conta aqui nos comentários! Agora prove um grão: ele deve estar cozido, mas ainda firme, sem se desfazer. Escorra bem na peneira assim que chegar nesse ponto. Pronto! Grão inteirinho, sem virar papa. A base da salada tá encaminhada!",
+  "audio": "audio.mp3",
+  "font": "assets/fontes/roboto.ttf",
+  "holdSeconds": 0.4,
+  "scenes": [
+    {
+      "id": "gancho",
+      "from": 0,
+      "to": 5.283,
+      "background": {
+        "asset": "assets/cenario/despensa-lilas-bancada.mp4",
+        "type": "video",
+        "timing": "global"
+      },
+      "character": {
+        "faceX": 410,
+        "faceY": 940,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-surpresa.png",
+            "width": 790,
+            "anchorX": 664,
+            "anchorY": 440
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "lentilha-passada-papa-tigela",
+          "asset": "assets/itens/lentilha-passada-papa-tigela.png",
+          "width": 1210,
+          "x": -65,
+          "ground": 1760,
+          "anchorY": 0.9,
+          "at": 0,
+          "entrance": 0.35,
+          "entranceOffset": 12,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front",
+          "zoom": {
+            "to": 1.025,
+            "seconds": 2
+          }
+        }
+      ],
+      "titles": [],
+      "transition": "fade"
+    },
+    {
+      "id": "proporcao",
+      "from": 5.283,
+      "to": 9.102,
+      "background": {
+        "asset": "assets/cenario/despensa-lilas-bancada.mp4",
+        "type": "video",
+        "timing": "global"
+      },
+      "items": [
+        {
+          "id": "lentilha-inteira-cozimento-panela",
+          "asset": "assets/itens/lentilha-inteira-cozimento-panela.png",
+          "width": 1400,
+          "x": -160,
+          "ground": 1760,
+          "anchorY": 0.9,
+          "at": 0,
+          "entrance": 0.35,
+          "entranceOffset": 12,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front",
+          "zoom": {
+            "to": 1.025,
+            "seconds": 2
+          }
+        }
+      ],
+      "titles": [],
+      "transition": "fade"
+    },
+    {
+      "id": "fervura",
+      "from": 9.102,
+      "to": 11.807,
+      "background": {
+        "asset": "assets/cenario/despensa-lilas-bancada.mp4",
+        "type": "video",
+        "timing": "global"
+      },
+      "character": {
+        "faceX": 410,
+        "faceY": 940,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-surpresa.png",
+            "width": 790,
+            "anchorX": 664,
+            "anchorY": 440
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "lentilha-inteira-cozimento-panela",
+          "asset": "assets/itens/lentilha-inteira-cozimento-panela.png",
+          "width": 1210,
+          "x": -65,
+          "ground": 1760,
+          "anchorY": 0.9,
+          "at": 0,
+          "entrance": 0.35,
+          "entranceOffset": 12,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front",
+          "zoom": {
+            "to": 1.025,
+            "seconds": 2
+          }
+        }
+      ],
+      "titles": [],
+      "transition": "fade"
+    },
+    {
+      "id": "tempo",
+      "from": 11.807,
+      "to": 14.269,
+      "background": {
+        "asset": "assets/cenario/despensa-lilas-bancada.mp4",
+        "type": "video",
+        "timing": "global"
+      },
+      "items": [
+        {
+          "id": "lentilha-inteira-cozimento-panela",
+          "asset": "assets/itens/lentilha-inteira-cozimento-panela.png",
+          "width": 1400,
+          "x": -160,
+          "ground": 1760,
+          "anchorY": 0.9,
+          "at": 0,
+          "entrance": 0.35,
+          "entranceOffset": 12,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front",
+          "zoom": {
+            "to": 1.025,
+            "seconds": 2
+          }
+        }
+      ],
+      "titles": [],
+      "transition": "fade"
+    },
+    {
+      "id": "regiao",
+      "from": 14.269,
+      "to": 19.83,
+      "background": {
+        "asset": "assets/cenario/despensa-lilas-bancada.mp4",
+        "type": "video",
+        "timing": "global"
+      },
+      "character": {
+        "faceX": 410,
+        "faceY": 940,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-surpresa.png",
+            "width": 790,
+            "anchorX": 664,
+            "anchorY": 440
+          }
+        ]
+      },
+      "items": [],
+      "titles": [],
+      "transition": "fade"
+    },
+    {
+      "id": "provar",
+      "from": 19.83,
+      "to": 22.257,
+      "background": {
+        "asset": "assets/cenario/despensa-lilas-bancada.mp4",
+        "type": "video",
+        "timing": "global"
+      },
+      "character": {
+        "faceX": 410,
+        "faceY": 940,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-surpresa.png",
+            "width": 790,
+            "anchorX": 664,
+            "anchorY": 440
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "lentilha-inteira-cozimento-panela",
+          "asset": "assets/itens/lentilha-inteira-cozimento-panela.png",
+          "width": 1210,
+          "x": -65,
+          "ground": 1760,
+          "anchorY": 0.9,
+          "at": 0,
+          "entrance": 0.35,
+          "entranceOffset": 12,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front",
+          "zoom": {
+            "to": 1.025,
+            "seconds": 2
+          }
+        }
+      ],
+      "titles": [],
+      "transition": "fade"
+    },
+    {
+      "id": "firme",
+      "from": 22.257,
+      "to": 24.753,
+      "background": {
+        "asset": "assets/cenario/despensa-lilas-bancada.mp4",
+        "type": "video",
+        "timing": "global"
+      },
+      "items": [
+        {
+          "id": "lentilha-cozida-inteira-peneira",
+          "asset": "assets/itens/lentilha-cozida-inteira-peneira.png",
+          "width": 1400,
+          "x": -160,
+          "ground": 1760,
+          "anchorY": 0.9,
+          "at": 0,
+          "entrance": 0.35,
+          "entranceOffset": 12,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front",
+          "zoom": {
+            "to": 1.025,
+            "seconds": 2
+          }
+        }
+      ],
+      "titles": [],
+      "transition": "fade"
+    },
+    {
+      "id": "escorrer",
+      "from": 24.753,
+      "to": 28.433,
+      "background": {
+        "asset": "assets/cenario/despensa-lilas-bancada.mp4",
+        "type": "video",
+        "timing": "global"
+      },
+      "character": {
+        "faceX": 410,
+        "faceY": 940,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-surpresa.png",
+            "width": 790,
+            "anchorX": 664,
+            "anchorY": 440
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "lentilha-cozida-inteira-peneira",
+          "asset": "assets/itens/lentilha-cozida-inteira-peneira.png",
+          "width": 1210,
+          "x": -65,
+          "ground": 1760,
+          "anchorY": 0.9,
+          "at": 0,
+          "entrance": 0.35,
+          "entranceOffset": 12,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front",
+          "zoom": {
+            "to": 1.025,
+            "seconds": 2
+          }
+        }
+      ],
+      "titles": [],
+      "transition": "fade"
+    },
+    {
+      "id": "resultado",
+      "from": 28.433,
+      "to": 33.669,
+      "background": {
+        "asset": "assets/cenario/despensa-lilas-bancada.mp4",
+        "type": "video",
+        "timing": "global"
+      },
+      "character": {
+        "faceX": 410,
+        "faceY": 940,
+        "poses": [
+          {
+            "at": 0,
+            "asset": "assets/personagem/bebel-surpresa.png",
+            "width": 790,
+            "anchorX": 664,
+            "anchorY": 440
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "lentilha-cozida-inteira-peneira",
+          "asset": "assets/itens/lentilha-cozida-inteira-peneira.png",
+          "width": 1230,
+          "x": -75,
+          "ground": 1760,
+          "anchorY": 0.9,
+          "at": 0,
+          "entrance": 0.35,
+          "entranceOffset": 12,
+          "initiallyVisible": true,
+          "shadow": true,
+          "layer": "front",
+          "zoom": {
+            "to": 1.025,
+            "seconds": 2
+          }
+        }
+      ],
+      "titles": [],
+      "transition": "fade",
+      "follow": {
+        "at": 0.15,
+        "tapAt": 1.6,
+        "avatar": "assets/personagem/bebe-roxa.jpg",
+        "handle": "bebelzinha.app",
+        "subtitle": "Jantar sem complicar",
+        "y": 260
+      }
+    }
+  ],
+  "voice": {
+    "provider": "elevenlabs",
+    "fingerprint": "01525b524a1050bc493d263279e80851b2a4029038aae09e806f58f5b8c4f4f4",
+    "audioHash": "5f2c8d95cbac66a5bc5fce25a14be4886490081ce1bec011943bbb58712df9df"
+  },
+  "output": {
+    "file": "output/convertido-0001.mp4",
+    "hash": "ca936b3d7b0d796204b74026b409989847ee05f7318e1d55a9158022e3737f55",
+    "signature": "1228c7c75e94dc43d0e53efb8ee456b2a27283f8811fffcf4efcfa3512f259b9"
+  }
+}

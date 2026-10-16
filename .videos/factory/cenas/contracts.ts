@@ -1,5 +1,5 @@
 export const queueRoot = 'assets/cenas/tarefas';
-export const states = ['001-afazer', '002-desenvolvendo', '003-gerados'] as const;
+export const states = ['001-afazer', '002-desenvolvendo', '003-gerados', '004-aprovados', '005-postados'] as const;
 export type State = typeof states[number];
 export type Task = { key: string; state: State; path: string };
 export type Rect = { x: number; y: number; width: number; height: number };

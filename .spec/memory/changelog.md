@@ -4,21 +4,14 @@ Este arquivo registra cronologicamente todas as especificações (Specs) conclu�
 
 | Spec | Data | Título da Mudança | Autor/Responsável |
 | :--- | :--- | :--- | :--- |
-| 023 | 2026-10-04 | Onboarding de primeira abertura da Bebel | ChatGPT |
-| 026 | 2026-10-05 | Ativação do Google Analytics 4 | ChatGPT |
-| 027 | 2026-10-05 | Padrão compartilhado de microinterações dos heroes da Bebel | ChatGPT |
-| 028 | 2026-10-05 | Correção do GA4 SPA e microinterações dos heroes | ChatGPT |
-| 029 | 2026-10-05 | Correção do deploy no domínio customizado | ChatGPT |
-| 030 | 2026-10-05 | Meta Pixel e eventos de negócio para remarketing | ChatGPT |
-| 031 | 2026-10-05 | Restauração e padronização dos ícones Material Symbols | ChatGPT |
-| 032 | 2026-10-05 | Home orientada a ações rápidas | ChatGPT |
-| 033 | 2026-10-05 | Repetir lista de compras | ChatGPT |
-| 034 | 2026-10-05 | Retorno personalizado básico | ChatGPT |
-| 035 | 2026-10-05 | Minha Semana por dia | ChatGPT |
-| 036 | 2026-10-05 | Minha Semana para Lista de Compras | ChatGPT |
-| 038 | 2026-10-05 | Validação dos eventos de retenção e correção do ReturnVisit | ChatGPT |
-| 039 | 2026-10-05 | Correção visual mobile e confirmação ao repetir lista | ChatGPT |
-| 040 | 2026-10-05 | Redução de jank no mobile e otimização de persistência | ChatGPT |
-| 041 | 2026-10-05 | Padronização visual dos cards de dica e aviso | ChatGPT |
-| 042 | 2026-10-05 | Padronização dos módulos e remoção da feature descontinuada | Codex |
-| 043 | 2026-10-05 | Bloqueio do GA4 no ambiente local | Codex |
+| `000` | 2026-07-23 | Configuração de Boilerplate e Docker | troquatte / Antigravity |
+| `001` | 2026-07-23 | Módulo de Autenticação (absorvido pela spec 006) | troquatte / Antigravity |
+| `002` | 2026-07-23 | Refresh Token (absorvido pela spec 006) | troquatte / Antigravity |
+| `003` | 2026-07-23 | Cadastro, Proteção e Logout (absorvido pela spec 006) | troquatte / Antigravity |
+| `004` | 2026-07-23 | Reset de Senha (absorvido pela spec 006) | troquatte / Antigravity |
+| `005` | 2026-07-23 | Segurança e Testes de Autenticação (absorvido pela spec 006) | troquatte / Antigravity |
+| `006` | 2026-07-23 | Implementação e Segurança do Módulo de Autenticação | troquatte / Antigravity |
+| `007` | 2026-07-23 | Telas de Autenticação | troquatte / Antigravity |
+| `008` | 2026-07-23 | Telas Iniciais Client e Admin | troquatte / Antigravity |
+| `009` | 2026-07-31 | Página de Documentação do Design System | troquatte / Devin |
+| `010` | 2026-07-31 | Ajustes no Design System e Documentação de Código | troquatte / Devin |

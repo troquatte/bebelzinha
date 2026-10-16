@@ -1,0 +1,18 @@
+{
+  "backgroundId": "despensa-lilas-bancada",
+  "asset": "assets/cenario/despensa-lilas-bancada.mp4",
+  "pool": "cozinha:vertical",
+  "eligibleBackgroundIds": [
+    "cozinha-moderna-sitio",
+    "despensa-lilas-bancada",
+    "fundo-video",
+    "cozinha-urbana-ilha-lilas",
+    "cozinha-sitio-tijolo-madeira",
+    "despensa-organizada-bancada-clara",
+    "varanda-gourmet-jardim",
+    "cozinha-noturna-luz-quente"
+  ],
+  "round": 5,
+  "reason": "Próximo cenário elegível menos recente livre na rodada5 (último066). MP4 de mesmo nome-base prioritário, diferente de073.",
+  "exception": null
+}
