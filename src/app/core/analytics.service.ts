@@ -15,7 +15,9 @@ export type BusinessEvent =
   | 'HomeAction'
   | 'RepeatList'
   | 'PlanMeal'
-  | 'AddWeekToList';
+  | 'AddWeekToList'
+  | 'ChannelLandingView'
+  | 'WhatsAppChannelClick';
 
 type AnalyticsParams = Record<string, string | number | boolean>;
 type GtagCommand = 'config' | 'event' | 'js';
