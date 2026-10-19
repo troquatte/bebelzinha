@@ -1,0 +1,58 @@
+<article class="cantinho">
+  <header class="cantinho__hero bebel-hero-motion">
+    <figure class="cantinho__portrait">
+      <img
+        src="images/bebel/bebel-roxa.jpg"
+        alt="Ilustração da Bebel, uma senhora negra de cabelos brancos cacheados, óculos e roupa roxa"
+      />
+    </figure>
+
+    <div class="cantinho__copy">
+      <span class="cantinho__eyebrow">Um convite especial da Bebel</span>
+      <h1>Gostou das dicas da Bebel? Tem mais no WhatsApp!</h1>
+    </div>
+
+    <a
+      class="cantinho__cta"
+      [href]="channelUrl"
+      target="_blank"
+      rel="noopener noreferrer"
+      (click)="onJoin()"
+    >
+      <span class="material-symbols-outlined" aria-hidden="true">chat</span>
+      <span class="cantinho__cta-text">
+        <strong>Entrar grátis no canal</strong>
+        <small>Abre no WhatsApp</small>
+      </span>
+    </a>
+  </header>
+
+  <section class="cantinho__highlights" aria-label="O que você encontra no canal">
+    <article class="cantinho__card">
+      <span class="cantinho__card-icon material-symbols-outlined" aria-hidden="true"
+        >restaurant</span
+      >
+      <h2>Receitinhas fáceis</h2>
+      <p>Para o almoço, jantar e aquele docinho.</p>
+    </article>
+
+    <article class="cantinho__card">
+      <span class="cantinho__card-icon material-symbols-outlined" aria-hidden="true"
+        >lightbulb</span
+      >
+      <h2>Dicas que ajudam</h2>
+      <p>Truques de cozinha e organização.</p>
+    </article>
+
+    <article class="cantinho__card">
+      <span class="cantinho__card-icon material-symbols-outlined" aria-hidden="true">sell</span>
+      <h2>Achadinhos selecionados</h2>
+      <p>Produtos úteis e ofertas para conferir.</p>
+    </article>
+  </section>
+
+  <footer class="cantinho__footer">
+    <p>Canal de avisos, sem conversas em grupo. Algumas recomendações contêm links de afiliados.</p>
+    <span>Feito com carinho pela Bebelzinha 💜</span>
+  </footer>
+</article>

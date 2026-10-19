@@ -9,12 +9,9 @@ export const routes: Routes = [
   {
     path: 'comidinhas',
     loadComponent: () =>
-      import('./modules/meals/components/meals.component').then(({ MealsComponent }) => MealsComponent),
-  },
-  {
-    path: 'comidinhas/:slug',
-    loadComponent: () =>
-      import('./modules/meals/components/recipe.component').then(({ RecipeComponent }) => RecipeComponent),
+      import('./modules/meals/components/meals.component').then(
+        ({ MealsComponent }) => MealsComponent,
+      ),
   },
 
   {
@@ -29,6 +26,13 @@ export const routes: Routes = [
     loadComponent: () =>
       import('./modules/shopping/components/shopping-list.component').then(
         ({ ShoppingListComponent }) => ShoppingListComponent,
+      ),
+  },
+  {
+    path: 'wpp-bebelzinha',
+    loadComponent: () =>
+      import('./modules/wpp/components/wpp-bebelzinha.component').then(
+        ({ WppBebelzinhaComponent }) => WppBebelzinhaComponent,
       ),
   },
   {

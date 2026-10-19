@@ -1,24 +1,7 @@
 <section class="shopping-page" aria-labelledby="shopping-title">
-  <header class="shopping-hero bebel-hero-motion">
-    <div class="shopping-hero__portrait-wrap bebel-hero-motion__portrait">
-      <span class="shopping-hero__spark shopping-hero__spark--one bebel-hero-motion__spark--one" aria-hidden="true">✦</span>
-      <span class="shopping-hero__spark shopping-hero__spark--two bebel-hero-motion__spark--two" aria-hidden="true">✦</span>
-      <figure class="shopping-hero__portrait">
-        <img
-          src="images/bebel/bebel-roxa.jpg"
-          alt="Ilustração da Bebel, uma senhora negra de cabelos brancos cacheados, óculos e roupa roxa"
-        />
-      </figure>
-      <div class="shopping-hero__speech bebel-hero-motion__speech">Bora às compras? 💜</div>
-    </div>
-
-    <div class="shopping-hero__copy">
-      <span class="shopping-hero__eyebrow">Lista de compras</span>
-      <h1 id="shopping-title">Suas listas, sem papelzinho perdido.</h1>
-      <p>Crie uma lista, leve a Bebel pro mercado e vá marcando o que já entrou no carrinho.</p>
-      <button class="primary-button icon-action" type="button" (click)="createList()"><span class="material-symbols-outlined" aria-hidden="true">add</span>Nova lista</button>
-    </div>
-  </header>
+  <app-bebel-hero variant="shopping" eyebrow="Lista de compras" title="Suas listas, sem papelzinho perdido."
+    titleId="shopping-title" subtitle="Crie uma lista, leve a Bebel pro mercado e vá marcando o que já entrou no carrinho." speech="Bora às compras? 💜">
+    <button class="primary-button icon-action" type="button" (click)="createList()"><span class="material-symbols-outlined" aria-hidden="true">add</span>Nova lista</button></app-bebel-hero>
 
   @if (lists().length > 0) {
     <div class="shopping-lists" aria-label="Suas listas de compras">

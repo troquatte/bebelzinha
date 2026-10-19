@@ -1,3 +1,5 @@
+Nota de migração: em 2026-10-12, as referências foram consolidadas em .videos/assets/referencias/. Os caminhos .spec/ui-references citados abaixo descrevem a implementação histórica; consumidores ativos já usam a pasta consolidada.
+
 # 002-personalidade-visual-bebel
 
 ## Objetivo

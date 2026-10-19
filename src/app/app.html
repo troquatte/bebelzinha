@@ -1,6 +1,11 @@
-<app-onboarding />
+@if (isLanding()) {
+  <main class="app-content app-content--landing" id="conteudo-principal">
+    <router-outlet />
+  </main>
+} @else {
+  <app-onboarding />
 
-<div class="app-shell">
+  <div class="app-shell">
   <aside class="sidebar" aria-label="Navegação principal">
     <a class="brand" routerLink="/" aria-label="Bebel - início">
       <span class="brand__mark" aria-hidden="true">B</span>
@@ -90,3 +95,4 @@
 
   </nav>
 </div>
+}

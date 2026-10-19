@@ -274,13 +274,13 @@ Também analise antes de implementar:
 - tokens;
 - variáveis;
 - padrões atuais;
-- **todas as referências visuais relevantes em `.spec/ui-references/`**.
+- **todas as referências visuais relevantes em `.videos/assets/referencias/`**.
 
 ## Referências visuais obrigatórias
 
 Quando a tarefa envolver tela, componente visual, identidade, layout, home, navegação ou qualquer experiência de interface:
 
-1. verificar `.spec/ui-references/`;
+1. verificar `.videos/assets/referencias/`;
 2. inspecionar as imagens relevantes antes de propor ou implementar o visual;
 3. identificar linguagem visual, composição, cores, formas, tipografia percebida, ritmo, densidade, personalidade da personagem e atmosfera;
 4. usar as referências como direção de identidade, não como cópia literal;
@@ -626,4 +626,4 @@ Preserve a intenção e use engenharia para decidir como atendê-la.
 
 MODE: FULL
 
-[ESCREVA AQUI O QUE VOCÊ QUER FAZER]  
+[ESCREVA AQUI O QUE VOCÊ QUER FAZER]
