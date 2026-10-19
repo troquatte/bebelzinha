@@ -1,4 +1,5 @@
 import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
+import { BebelHeroComponent } from '../../../shared/components/bebel-hero/bebel-hero.component';
 import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import Swal from 'sweetalert2';
 
@@ -9,7 +10,7 @@ import { ShoppingStore } from '../service/shopping.store';
 
 @Component({
   changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [RouterLink],
+  imports: [RouterLink, BebelHeroComponent],
   selector: 'app-shopping-lists',
   styleUrl: './shopping-lists.component.scss',
   templateUrl: './shopping-lists.component.html',

@@ -1,0 +1,34 @@
+<header [ngClass]="'bebel-hero bebel-hero-motion bebel-hero--' + variant">
+  <div class="bebel-hero__portrait-wrap bebel-hero-motion__portrait">
+    <span class="bebel-hero__spark bebel-hero__spark--one bebel-hero-motion__spark--one" aria-hidden="true">✦</span>
+    <span class="bebel-hero__spark bebel-hero__spark--two bebel-hero-motion__spark--two" aria-hidden="true">✦</span>
+    <figure class="bebel-hero__portrait">
+      <img
+        src="images/bebel/bebel-roxa.jpg"
+        alt="Ilustração da Bebel, uma senhora negra de cabelos brancos cacheados, óculos e roupa roxa"
+      />
+    </figure>
+    @if (speech) {
+      <div class="bebel-hero__speech bebel-hero-motion__speech">{{ speech }}</div>
+    }
+  </div>
+
+  <div class="bebel-hero__copy">
+    @if (eyebrow) {
+      <span class="bebel-hero__eyebrow">{{ eyebrow }}</span>
+    }
+    @if (sticker) {
+      <span class="bebel-hero__sticker bebel-hero-motion__sticker">{{ sticker }}</span>
+    }
+    @if (kicker) {
+      <span class="bebel-hero__kicker">{{ kicker }}</span>
+    }
+    @if (title) {
+      <h1 [id]="titleId || null">{{ title }}</h1>
+    }
+    @if (subtitle) {
+      <p>{{ subtitle }}</p>
+    }
+    <ng-content></ng-content>
+  </div>
+</header>

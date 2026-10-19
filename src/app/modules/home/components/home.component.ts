@@ -1,10 +1,10 @@
 import { ChangeDetectionStrategy, Component, computed, inject } from '@angular/core';
+import { BebelHeroComponent } from '../../../shared/components/bebel-hero/bebel-hero.component';
 import { Router } from '@angular/router';
 
 import { AnalyticsService } from '../../../core/analytics.service';
 import { ContinuityArea, ContinuityService } from '../../../core/continuity.service';
 import { SeoService } from '../../../core/seo.service';
-import { MealsStore } from '../../meals/service/meals.store';
 import { ShoppingStore } from '../../shopping/service/shopping.store';
 
 type HomeAction = 'shopping' | 'meals-guide' | 'saved-recipes';
@@ -14,19 +14,20 @@ type HomeAction = 'shopping' | 'meals-guide' | 'saved-recipes';
   selector: 'app-home',
   styleUrl: './home.component.scss',
   templateUrl: './home.component.html',
+  imports: [BebelHeroComponent],
 })
 export class HomeComponent {
   private readonly analytics = inject(AnalyticsService);
   private readonly continuity = inject(ContinuityService);
-  private readonly mealsStore = inject(MealsStore);
   private readonly router = inject(Router);
   private readonly seo = inject(SeoService);
   private readonly shoppingStore = inject(ShoppingStore);
 
-  private readonly activeShoppingList = computed(() =>
-    [...this.shoppingStore.lists()]
-      .filter((list) => list.items.some((item) => !item.checked))
-      .sort((a, b) => b.updatedAt.localeCompare(a.updatedAt))[0] ?? null,
+  private readonly activeShoppingList = computed(
+    () =>
+      [...this.shoppingStore.lists()]
+        .filter((list) => list.items.some((item) => !item.checked))
+        .sort((a, b) => b.updatedAt.localeCompare(a.updatedAt))[0] ?? null,
   );
 
   readonly returnContext = computed(() => {
@@ -41,28 +42,6 @@ export class HomeComponent {
         cta: 'Continuar lista',
         action: () => this.router.navigate(['/compras', activeList.id]),
         tracking: 'resume-shopping',
-      };
-    }
-
-    if (this.mealsStore.weeklyRecipeIds().length > 0) {
-      return {
-        icon: 'calendar_month',
-        title: 'Sua semana já está tomando forma.',
-        copy: 'Quer ver o que você separou para os próximos dias?',
-        cta: 'Ver minha semana',
-        action: () => this.router.navigate(['/comidinhas'], { fragment: 'minha-semana' }),
-        tracking: 'resume-week',
-      };
-    }
-
-    if (this.mealsStore.savedRecipeIds().length > 0) {
-      return {
-        icon: 'favorite',
-        title: 'Você guardou umas receitinhas.',
-        copy: 'Vai que uma delas resolve a comida de hoje.',
-        cta: 'Ver receitas salvas',
-        action: () => this.router.navigate(['/comidinhas'], { fragment: 'receitas-salvas' }),
-        tracking: 'resume-saved-recipes',
       };
     }
 
@@ -95,13 +74,6 @@ export class HomeComponent {
     this.trackHomeAction('meals-guide');
     await this.router.navigate(['/comidinhas'], { fragment: 'bebel-escolhe' });
   }
-
-  async viewSavedRecipes(): Promise<void> {
-    this.trackHomeAction('saved-recipes');
-    const fragment = this.mealsStore.savedRecipeIds().length > 0 ? 'receitas-salvas' : 'receitas';
-    await this.router.navigate(['/comidinhas'], { fragment });
-  }
-
 
   async resumeContext(): Promise<void> {
     const context = this.returnContext();
