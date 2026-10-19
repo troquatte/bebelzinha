@@ -1,8 +1,0 @@
-{
-  "schemaVersion": 1,
-  "id": "cta-inicio",
-  "composition": "BebelInicio",
-  "timing": { "sustainSeconds": 0.5, "ctaEntranceSeconds": 0.5 },
-  "layout": { "ctaWidth": 880, "ctaTop": 24, "entranceOffset": 28, "margin": 24 },
-  "render": { "width": 1080, "height": 1920, "fps": 30 }
-}
