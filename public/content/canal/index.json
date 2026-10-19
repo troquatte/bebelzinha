@@ -1,0 +1,184 @@
+{
+  "_instrucoes": "Para adicionar um vídeo, inclua em \"videos\" um item com \"id\" (o trecho depois de v= na URL do YouTube) e \"title\". Para um short, inclua em \"shorts\" um item com \"id\", \"title\" e \"category\". O campo opcional \"thumbnail\" sobrescreve a miniatura automática.",
+  "channelUrl": "https://www.youtube.com/@bebelzinha-app",
+  "videos": [
+    {
+      "id": "n-IPzgSmEKc",
+      "title": "Macarrão ao limão sem creme de leite: aprenda as medidas para uma porção"
+    },
+    {
+      "id": "cyBR8muoELM",
+      "title": "Arroz de forno com legumes"
+    },
+    {
+      "id": "1HUCcjla8l0",
+      "title": "Como fazer estrogonofe de frango cremoso com creme de leite fresco"
+    },
+    {
+      "id": "LFaOXUy7nAQ",
+      "title": "Abobrinha recheada com carne moída no forno: passo a passo completo"
+    }
+  ],
+  "shorts": [
+    {
+      "id": "mSjlFw7Y5_Y",
+      "title": "Salada murcha nunca mais!",
+      "category": "Receitas"
+    },
+    {
+      "id": "LbHPvZ-Aikk",
+      "title": "Não deixe tudo para hora de cozinhar, facilite sua vida!",
+      "category": "Receitas"
+    },
+    {
+      "id": "K1dqHFPQ1q8",
+      "title": "Tortilha de arroz ou arroz com cara nova?",
+      "category": "Receitas"
+    },
+    {
+      "id": "LBVaMIJmPNM",
+      "title": "Aqueça essa frigideira menina",
+      "category": "Receitas"
+    },
+    {
+      "id": "eRT9oVgJntU",
+      "title": "Bife grudado é ruim?",
+      "category": "Receitas"
+    },
+    {
+      "id": "xO14dNAXXVE",
+      "category": "Receitas",
+      "title": "Arroz de forno com legumes: cremoso e gratinado"
+    },
+    {
+      "id": "iIEU-6OqHOA",
+      "category": "Receitas",
+      "title": "Macarrão ao limão sem creme de leite: molho na tigela"
+    },
+    {
+      "id": "VK44nHvtytA",
+      "category": "Receitas",
+      "title": "Salada morna de alho-poró com mostarda e nozes"
+    },
+    {
+      "id": "zDQ4Gu4pT4Q",
+      "category": "Receitas",
+      "title": "Ervilha-torta na manteiga: retire a fibra antes de refogar"
+    },
+    {
+      "id": "7RW43C3rcoo",
+      "category": "Receitas",
+      "title": "Tomate assado com manjericão: pele para baixo na assadeira"
+    },
+    {
+      "id": "dtryIY51nsc",
+      "category": "Receitas",
+      "title": "Purê de mandioquinha cremoso: manteiga entra no final"
+    },
+    {
+      "id": "I8gVZjSm-7E",
+      "category": "Receitas",
+      "title": "Rabanete assado com molho de mostarda para variar o jantar"
+    },
+    {
+      "id": "xy8mBlmcKoI",
+      "category": "Receitas",
+      "title": "Salada de pepino com iogurte e hortelã para variar o jantar"
+    },
+    {
+      "id": "dmi9nRqqvE0",
+      "category": "Receitas",
+      "title": "Batata-doce assada com páprica: deixe espaço para dourar"
+    },
+    {
+      "id": "J9DZkvmcuFw",
+      "category": "Receitas",
+      "title": "Beterraba assada no papel-alumínio: gomos macios e temperados"
+    },
+    {
+      "id": "i9r_DVUFcZw",
+      "category": "Receitas",
+      "title": "Espinafre refogado: verdinho sem passar do ponto"
+    },
+    {
+      "id": "GoKlu3wpEAw",
+      "category": "Receitas",
+      "title": "Filé de frango com páprica: doure e termine em fogo baixo"
+    },
+    {
+      "id": "Ihl91VisLpo",
+      "category": "Receitas",
+      "title": "Chuchu refogado com orégano: cozido e ainda firme"
+    },
+    {
+      "id": "oA1qbjji0eQ",
+      "category": "Receitas",
+      "title": "Farofa de ovo com cebola: como deixar úmida"
+    },
+    {
+      "id": "QHtfi9lSAaI",
+      "category": "Receitas",
+      "title": "Cenoura assada dourada: como cortar e virar no forno"
+    },
+    {
+      "id": "vWaMLjdD-2Y",
+      "category": "Receitas",
+      "title": "Couve-flor assada com páprica: dourada no forno"
+    },
+    {
+      "id": "ygtWmC1AD38",
+      "category": "Receitas",
+      "title": "Vagem tostada na frigideira sem azeite"
+    },
+    {
+      "id": "-uzf58WwKcc",
+      "category": "Receitas",
+      "title": "Estrogonofe de frango cremoso: cogumelos no final"
+    },
+    {
+      "id": "Zki_FZh--BI",
+      "category": "Receitas",
+      "title": "Como cozinhar lentilha para salada sem desmanchar"
+    },
+    {
+      "id": "m6ZML5N2_xo",
+      "category": "Receitas",
+      "title": "Berinjela assada com cominho: macia e dourada"
+    },
+    {
+      "id": "2KVKFUh-bQQ",
+      "category": "Receitas",
+      "title": "Peixe no papel-manteiga com legumes: papilote no forno"
+    },
+    {
+      "id": "CMuIkTHO21g",
+      "category": "Receitas",
+      "title": "Creme de milho sem farinha: cremoso com o próprio grão"
+    },
+    {
+      "id": "VQ-ZsRvjfkk",
+      "category": "Receitas",
+      "title": "Ervilha congelada na frigideira: manteiga e hortelã"
+    },
+    {
+      "id": "9CfyN_9Qwfs",
+      "category": "Receitas",
+      "title": "Repolho assado em gomos: manteiga temperada e dourado"
+    },
+    {
+      "id": "oYOzm2WWNlA",
+      "category": "Receitas",
+      "title": "Abobrinha agridoce na frigideira: mel e vinagre"
+    },
+    {
+      "id": "RXKzpwkDtdU",
+      "category": "Receitas",
+      "title": "Cogumelo dourado na frigideira: alho e salsinha"
+    },
+    {
+      "id": "N1V8EWar9eM",
+      "category": "Receitas",
+      "title": "Linguiça assada com batata: jantar em uma assadeira"
+    }
+  ]
+}
