@@ -1,39 +1,50 @@
 :host {
-  --cantinho-whatsapp: #1faa59;
-  --cantinho-whatsapp-strong: #128c46;
+  --cantinho-purple: var(--bebel-primary-strong, #552c89);
+  --cantinho-purple-soft: var(--bebel-primary-soft, #f1e4ff);
+  --cantinho-orange: var(--bebel-orange, #fa7826);
+  --cantinho-ink: var(--bebel-text-soft, #67576b);
+  --cantinho-surface: var(--bebel-surface, #fffdfb);
+  --cantinho-green: #179e52;
+  --cantinho-green-dark: #0d793c;
   display: block;
+  min-height: 100dvh;
+  background: #fffaf7;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 .cantinho {
   display: grid;
-  gap: 1.1rem;
-  width: min(100%, 34rem);
+  gap: 1.35rem;
+  width: min(100%, 38rem);
   min-height: 100dvh;
-  margin: 0 auto;
-  padding: 0.9rem 1.15rem calc(1.4rem + env(safe-area-inset-bottom));
-  background: radial-gradient(
-    circle at 50% -10%,
-    rgb(111 31 180 / 12%) 0%,
-    transparent 55%
-  );
+  margin-inline: auto;
+  padding: 1.1rem 1rem calc(1.5rem + env(safe-area-inset-bottom));
+  background:
+    radial-gradient(ellipse 110% 19rem at 50% -3%, rgba(133, 71, 189, 0.16), transparent 78%),
+    #fffaf7;
 }
 
 .cantinho__hero {
   display: grid;
-  gap: 0.8rem;
   justify-items: center;
+  gap: 0.85rem;
   text-align: center;
 }
 
 .cantinho__portrait {
-  width: min(46vw, 11rem);
-  margin: 0;
-  overflow: hidden;
+  width: clamp(6.8rem, 27vw, 9rem);
   aspect-ratio: 1;
+  overflow: hidden;
+  margin: 0.1rem 0 0.3rem;
   border: 0.3rem solid #fff;
   border-radius: 50% 46% 50% 44%;
-  background: var(--bebel-primary);
-  box-shadow: 0.35rem 0.4rem 0 var(--bebel-primary), 0.6rem 0.65rem 0 var(--bebel-orange);
+  background: #8028cb;
+  box-shadow:
+    0.28rem 0.32rem 0 var(--cantinho-purple),
+    0.5rem 0.55rem 0 var(--cantinho-orange);
   transform: rotate(1.5deg);
 }
 
@@ -46,161 +57,263 @@
 
 .cantinho__copy {
   display: grid;
-  gap: 0.6rem;
   justify-items: center;
+  gap: 0.55rem;
 }
 
 .cantinho__eyebrow {
-  color: var(--bebel-orange);
+  color: var(--cantinho-orange);
   font-size: 0.72rem;
+  line-height: 1.3;
   font-weight: 900;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.055em;
   text-transform: uppercase;
 }
 
 .cantinho__copy h1 {
+  max-width: 18ch;
   margin: 0;
-  color: var(--bebel-primary-strong);
-  font-size: clamp(1.5rem, 6.5vw, 2.2rem);
-  line-height: 1.12;
+  color: var(--cantinho-purple);
+  font-size: clamp(1.8rem, 7.1vw, 2.65rem);
+  line-height: 1.06;
+  letter-spacing: -0.045em;
+  font-weight: 900;
+  text-wrap: balance;
+}
+
+.cantinho__copy h1 span {
+  color: #7d35bb;
 }
 
 .cantinho__copy p {
+  max-width: 33ch;
   margin: 0;
-  max-width: 30rem;
-  color: var(--bebel-text-soft);
-  font-size: 1rem;
-  line-height: 1.45;
+  color: var(--cantinho-ink);
+  font-size: clamp(0.94rem, 3.5vw, 1.02rem);
+  line-height: 1.4;
+  text-wrap: pretty;
 }
 
 .cantinho__cta {
   display: flex;
   width: 100%;
+  min-height: 4rem;
   align-items: center;
   justify-content: center;
-  gap: 0.7rem;
-  min-height: 3.7rem;
-  padding: 0.8rem 1.2rem;
-  border-radius: 1.15rem;
+  gap: 0.72rem;
+  padding: 0.8rem 0.9rem;
+  border-radius: 1.1rem;
+  background: var(--cantinho-green);
   color: #fff;
-  background: var(--cantinho-whatsapp);
-  box-shadow: 0 0.35rem 0 var(--cantinho-whatsapp-strong);
+  box-shadow: 0 0.3rem 0 var(--cantinho-green-dark);
   text-decoration: none;
-  transition: transform 150ms ease, box-shadow 150ms ease;
+  transition:
+    transform 150ms ease,
+    box-shadow 150ms ease,
+    background-color 150ms ease;
 }
 
 .cantinho__cta:hover {
+  background: #128f49;
   transform: translateY(-0.1rem);
-  box-shadow: 0 0.45rem 0 var(--cantinho-whatsapp-strong);
+  box-shadow: 0 0.4rem 0 var(--cantinho-green-dark);
 }
 
 .cantinho__cta:active {
   transform: translateY(0.1rem);
-  box-shadow: 0 0.15rem 0 var(--cantinho-whatsapp-strong);
+  box-shadow: 0 0.15rem 0 var(--cantinho-green-dark);
 }
 
-.cantinho__cta .material-symbols-outlined {
-  font-size: 1.7rem;
+.cantinho__cta:focus-visible {
+  outline: 3px solid var(--cantinho-purple);
+  outline-offset: 4px;
 }
 
+.cantinho__cta > .material-symbols-outlined {
+  font-size: 1.5rem;
+  flex: 0 0 auto;
+}
 .cantinho__cta-text {
   display: grid;
-  gap: 0.1rem;
+  gap: 0.12rem;
   text-align: left;
 }
-
 .cantinho__cta-text strong {
-  font-size: 1.05rem;
+  font-size: 1.04rem;
+  line-height: 1.2;
   font-weight: 900;
 }
-
 .cantinho__cta-text small {
-  font-size: 0.72rem;
-  font-weight: 700;
-  opacity: 0.9;
+  font-size: 0.76rem;
+  line-height: 1.25;
+  font-weight: 650;
+  opacity: 0.92;
+}
+.cantinho__cta .cantinho__cta-arrow {
+  margin-left: auto;
+  font-size: 1.4rem;
+}
+
+.cantinho__trust {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.42rem 0.9rem;
+  color: var(--cantinho-ink);
+  font-size: 0.73rem;
+  font-weight: 650;
+}
+
+.cantinho__trust > span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+.cantinho__trust .material-symbols-outlined {
+  color: var(--cantinho-green-dark);
+  font-size: 0.9rem;
+}
+
+.cantinho__benefits {
+  display: grid;
+  gap: 0.8rem;
+}
+.cantinho__section-intro {
+  display: grid;
+  gap: 0.3rem;
+  text-align: center;
+}
+.cantinho__section-kicker {
+  color: var(--cantinho-orange);
+  text-transform: uppercase;
+  letter-spacing: 0.055em;
+  font-size: 0.7rem;
+  font-weight: 900;
+}
+.cantinho__section-intro h2 {
+  margin: 0;
+  color: var(--cantinho-purple);
+  font-size: 1.16rem;
+  line-height: 1.2;
+  font-weight: 850;
 }
 
 .cantinho__highlights {
   display: grid;
-  gap: 0.75rem;
+  gap: 0.65rem;
 }
-
 .cantinho__card {
-  display: grid;
-  gap: 0.3rem;
-  padding: 1rem;
-  border: 0.1rem solid rgb(111 31 180 / 14%);
-  border-radius: 1.2rem 1.2rem 1.2rem 0.5rem;
-  background: var(--bebel-surface);
-  box-shadow: 0.18rem 0.22rem 0 rgb(50 28 58 / 8%);
+  display: flex;
+  align-items: flex-start;
+  gap: 0.8rem;
+  padding: 0.8rem 0.9rem;
+  border: 1px solid #e9d6f4;
+  border-radius: 1rem;
+  background: var(--cantinho-surface);
+  box-shadow: 0 0.17rem 0 rgba(71, 30, 104, 0.075);
 }
-
 .cantinho__card-icon {
   display: grid;
-  width: 2.5rem;
-  height: 2.5rem;
+  flex: 0 0 2.6rem;
+  width: 2.6rem;
+  height: 2.6rem;
   place-items: center;
-  border-radius: 0.8rem;
-  color: var(--bebel-primary-strong);
-  background: var(--bebel-primary-soft);
+  border-radius: 0.75rem;
+  color: var(--cantinho-purple);
+  background: var(--cantinho-purple-soft);
   font-size: 1.35rem;
 }
-
-.cantinho__card h2 {
-  margin: 0.2rem 0 0;
-  color: var(--bebel-primary-strong);
-  font-size: 1rem;
+.cantinho__card h3 {
+  margin: 0 0 0.2rem;
+  color: var(--cantinho-purple);
+  font-size: 0.98rem;
+  line-height: 1.25;
 }
-
 .cantinho__card p {
   margin: 0;
-  color: var(--bebel-text-soft);
-  font-size: 0.85rem;
+  color: var(--cantinho-ink);
+  font-size: 0.81rem;
+  line-height: 1.35;
+}
+
+.cantinho__invitation {
+  display: grid;
+  justify-items: center;
+  gap: 0.6rem;
+  padding: 1.1rem 1rem 1.4rem;
+  border: 1px solid #ead8f5;
+  border-radius: 1.15rem;
+  background: linear-gradient(135deg, #f7eefe, #fff8f3);
+  text-align: center;
+}
+.cantinho__invitation h2 {
+  margin: 0;
+  color: var(--cantinho-purple);
+  font-size: 1.2rem;
+  line-height: 1.2;
+}
+.cantinho__invitation p {
+  max-width: 32rem;
+  margin: 0;
+  color: var(--cantinho-ink);
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+.cantinho__cta--secondary {
+  margin-top: 0.25rem;
 }
 
 .cantinho__footer {
   display: grid;
-  gap: 0.5rem;
-  margin-top: auto;
+  justify-items: center;
+  gap: 0.65rem;
   text-align: center;
 }
-
 .cantinho__footer p {
+  max-width: 33rem;
   margin: 0;
-  color: var(--bebel-text-soft);
+  color: var(--cantinho-ink);
   font-size: 0.72rem;
   line-height: 1.4;
 }
-
 .cantinho__footer span {
-  color: var(--bebel-primary-strong);
-  font-size: 0.75rem;
+  color: var(--cantinho-purple);
+  font-size: 0.74rem;
   font-weight: 800;
 }
 
-@media (min-width: 30rem) {
+@media (min-width: 40rem) {
   .cantinho {
-    gap: 1.4rem;
-    padding-top: 1.6rem;
+    gap: 1.75rem;
+    padding: 1.5rem 1.6rem 2rem;
   }
-
   .cantinho__hero {
-    gap: 1.1rem;
+    gap: 1rem;
   }
-
   .cantinho__portrait {
-    width: min(58vw, 14rem);
-    border-width: 0.35rem;
-    box-shadow: 0.4rem 0.45rem 0 var(--bebel-primary), 0.7rem 0.75rem 0 var(--bebel-orange);
+    width: 10.3rem;
   }
-
+  .cantinho__copy h1 {
+    max-width: 23ch;
+  }
+  .cantinho__copy p {
+    max-width: 44ch;
+  }
   .cantinho__highlights {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
-
   .cantinho__card {
-    text-align: center;
+    display: grid;
     justify-items: center;
+    align-content: start;
+    gap: 0.55rem;
+    text-align: center;
+  }
+  .cantinho__card-icon {
+    flex-basis: auto;
+  }
+  .cantinho__cta {
+    max-width: 33rem;
   }
 }
 

@@ -9,7 +9,7 @@
     />
     <meta name="theme-color" content="#6f3cc3" />
     <meta name="google-analytics-id" content="G-RL10XLKR71" />
-    <!-- Meta Pixel. PageView é enviado pelo Angular Router para manter o tracking correto na SPA. -->
+    <!-- Meta Pixel. NÃO incluir fbq('track', 'PageView') aqui: o PageView é enviado pelo Angular Router a cada rota da SPA, para não duplicar nem registrar a página errada. -->
     <script>
       !function(f,b,e,v,n,t,s)
       {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -75,7 +75,7 @@
         height="1"
         width="1"
         style="display:none"
-        src="https://www.facebook.com/tr?id=283243945816993&ev=PageView&noscript=1"
+        src="https://www.facebook.com/tr?id=1109961361844421&ev=PageView&noscript=1"
         alt=""
       />
     </noscript>

@@ -17,7 +17,8 @@ export type BusinessEvent =
   | 'PlanMeal'
   | 'AddWeekToList'
   | 'ChannelLandingView'
-  | 'WhatsAppChannelClick';
+  | 'WhatsAppChannelClick'
+  | 'Lead';
 
 type AnalyticsParams = Record<string, string | number | boolean>;
 type GtagCommand = 'config' | 'event' | 'js';
@@ -26,7 +27,11 @@ declare global {
   interface Window {
     dataLayer?: IArguments[];
     gtag?: (command: GtagCommand, target: string | Date, params?: Record<string, unknown>) => void;
-    fbq?: (command: 'init' | 'track' | 'trackCustom', eventOrId: string, params?: AnalyticsParams) => void;
+    fbq?: (
+      command: 'init' | 'track' | 'trackCustom',
+      eventOrId: string,
+      params?: AnalyticsParams,
+    ) => void;
   }
 }
 
@@ -38,6 +43,7 @@ export class AnalyticsService {
   private readonly sessionStorageKey = 'bebel.analytics.session-start.v1';
   private readonly returnVisitThresholdMs = 30 * 60 * 1000;
   private lastTrackedPath = '';
+  private appOpenTracked = false;
 
   constructor() {
     this.initializeGoogleAnalytics();
@@ -45,14 +51,21 @@ export class AnalyticsService {
     this.router.events
       .pipe(filter((event): event is NavigationEnd => event instanceof NavigationEnd))
       .subscribe((event) => {
-        queueMicrotask(() => this.trackPageView(event.urlAfterRedirects));
+        queueMicrotask(() => this.onNavigated(event.urlAfterRedirects));
       });
 
-    queueMicrotask(() => {
-      this.trackPageView(this.router.url);
-      this.track('AppOpen', { path: this.router.url });
-      this.trackReturnVisit();
-    });
+    queueMicrotask(() => this.trackReturnVisit());
+  }
+
+  private onNavigated(path: string): void {
+    this.trackPageView(path);
+
+    if (this.appOpenTracked) {
+      return;
+    }
+
+    this.appOpenTracked = true;
+    this.track('AppOpen', { path });
   }
 
   track(event: BusinessEvent, params: AnalyticsParams = {}): void {
@@ -88,8 +101,11 @@ export class AnalyticsService {
       hostname.endsWith('.local') ||
       hostname === '[::1]' ||
       hostname === '::1' ||
-      (ipv4.length === 4 && ipv4.every((part) => Number.isInteger(part) && part >= 0 && part <= 255) &&
-        (ipv4[0] === 0 || ipv4[0] === 127 || ipv4[0] === 10 ||
+      (ipv4.length === 4 &&
+        ipv4.every((part) => Number.isInteger(part) && part >= 0 && part <= 255) &&
+        (ipv4[0] === 0 ||
+          ipv4[0] === 127 ||
+          ipv4[0] === 10 ||
           (ipv4[0] === 192 && ipv4[1] === 168) ||
           (ipv4[0] === 172 && ipv4[1] >= 16 && ipv4[1] <= 31) ||
           (ipv4[0] === 169 && ipv4[1] === 254)))
@@ -102,9 +118,11 @@ export class AnalyticsService {
     }
 
     window.dataLayer = window.dataLayer || [];
-    window.gtag = window.gtag || function () {
-      window.dataLayer!.push(arguments);
-    };
+    window.gtag =
+      window.gtag ||
+      function () {
+        window.dataLayer!.push(arguments);
+      };
     window.gtag('js', new Date());
     window.gtag('config', this.measurementId, { send_page_view: false });
 

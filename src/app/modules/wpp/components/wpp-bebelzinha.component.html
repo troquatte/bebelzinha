@@ -1,15 +1,23 @@
-<article class="cantinho">
-  <header class="cantinho__hero bebel-hero-motion">
+<main class="cantinho">
+  <header class="cantinho__hero">
     <figure class="cantinho__portrait">
       <img
         src="images/bebel/bebel-roxa.jpg"
-        alt="Ilustração da Bebel, uma senhora negra de cabelos brancos cacheados, óculos e roupa roxa"
+        alt="Bebel sorrindo, com cabelos brancos cacheados, óculos e roupa roxa"
+        width="400"
+        height="400"
+        fetchpriority="high"
+        decoding="async"
       />
     </figure>
 
     <div class="cantinho__copy">
-      <span class="cantinho__eyebrow">Um convite especial da Bebel</span>
-      <h1>Gostou das dicas da Bebel? Tem mais no WhatsApp!</h1>
+      <span class="cantinho__eyebrow">💜 Um convite especial da Bebel</span>
+      <h1>Achadinhos úteis para sua <span>casa e cozinha.</span></h1>
+      <p>
+        A Bebel seleciona ofertas e ideias práticas para você conferir e escolher o que realmente
+        vale a pena.
+      </p>
     </div>
 
     <a
@@ -17,42 +25,102 @@
       [href]="channelUrl"
       target="_blank"
       rel="noopener noreferrer"
-      (click)="onJoin()"
+      aria-label="Entrar grátis no canal da Bebel no WhatsApp (abre em outra aba)"
+      (click)="onJoin('hero')"
+    >
+      <span class="material-symbols-outlined" aria-hidden="true">campaign</span>
+      <span class="cantinho__cta-text">
+        <strong>Quero entrar no canal grátis</strong>
+        <small>Abrir no WhatsApp</small>
+      </span>
+      <span class="material-symbols-outlined cantinho__cta-arrow" aria-hidden="true"
+        >arrow_forward</span
+      >
+    </a>
+
+    <div class="cantinho__trust" aria-label="Informações sobre o canal">
+      <span
+        ><span class="material-symbols-outlined" aria-hidden="true">check_circle</span>
+        Gratuito</span
+      >
+      <span
+        ><span class="material-symbols-outlined" aria-hidden="true">check_circle</span> Só
+        administradores publicam</span
+      >
+      <span
+        ><span class="material-symbols-outlined" aria-hidden="true">check_circle</span> Sem
+        conversas em grupo</span
+      >
+    </div>
+  </header>
+
+  <section class="cantinho__benefits" aria-labelledby="cantinho-benefits-title">
+    <div class="cantinho__section-intro">
+      <span class="cantinho__section-kicker">O que você vai encontrar</span>
+      <h2 id="cantinho-benefits-title">Um cantinho para facilitar seu dia 💜</h2>
+    </div>
+
+    <div class="cantinho__highlights">
+      <article class="cantinho__card">
+        <span class="cantinho__card-icon material-symbols-outlined" aria-hidden="true">sell</span>
+        <div>
+          <h3>Achadinhos selecionados</h3>
+          <p>Produtos úteis para casa e cozinha, com ofertas para conferir.</p>
+        </div>
+      </article>
+
+      <article class="cantinho__card">
+        <span class="cantinho__card-icon material-symbols-outlined" aria-hidden="true"
+          >lightbulb</span
+        >
+        <div>
+          <h3>Dicas que ajudam</h3>
+          <p>Truques simples de organização e do dia a dia.</p>
+        </div>
+      </article>
+
+      <article class="cantinho__card">
+        <span class="cantinho__card-icon material-symbols-outlined" aria-hidden="true"
+          >restaurant</span
+        >
+        <div>
+          <h3>Receitinhas fáceis</h3>
+          <p>Ideias práticas para o almoço, jantar e aquele docinho.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="cantinho__invitation" aria-labelledby="cantinho-invitation-title">
+    <h2 id="cantinho-invitation-title">A Bebel encontra. Você decide. 💜</h2>
+    <p>
+      Sem obrigação de comprar: acompanhe as dicas e aproveite os achadinhos que fizerem sentido
+      para você.
+    </p>
+    <a
+      class="cantinho__cta cantinho__cta--secondary"
+      [href]="channelUrl"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Seguir o canal da Bebel no WhatsApp gratuitamente (abre em outra aba)"
+      (click)="onJoin('bottom')"
     >
       <span class="material-symbols-outlined" aria-hidden="true">chat</span>
       <span class="cantinho__cta-text">
-        <strong>Entrar grátis no canal</strong>
-        <small>Abre no WhatsApp</small>
+        <strong>Entrar no canal da Bebel</strong>
+        <small>É grátis e abre no WhatsApp</small>
       </span>
+      <span class="material-symbols-outlined cantinho__cta-arrow" aria-hidden="true"
+        >arrow_forward</span
+      >
     </a>
-  </header>
-
-  <section class="cantinho__highlights" aria-label="O que você encontra no canal">
-    <article class="cantinho__card">
-      <span class="cantinho__card-icon material-symbols-outlined" aria-hidden="true"
-        >restaurant</span
-      >
-      <h2>Receitinhas fáceis</h2>
-      <p>Para o almoço, jantar e aquele docinho.</p>
-    </article>
-
-    <article class="cantinho__card">
-      <span class="cantinho__card-icon material-symbols-outlined" aria-hidden="true"
-        >lightbulb</span
-      >
-      <h2>Dicas que ajudam</h2>
-      <p>Truques de cozinha e organização.</p>
-    </article>
-
-    <article class="cantinho__card">
-      <span class="cantinho__card-icon material-symbols-outlined" aria-hidden="true">sell</span>
-      <h2>Achadinhos selecionados</h2>
-      <p>Produtos úteis e ofertas para conferir.</p>
-    </article>
   </section>
 
   <footer class="cantinho__footer">
-    <p>Canal de avisos, sem conversas em grupo. Algumas recomendações contêm links de afiliados.</p>
+    <p>
+      Canal de avisos: só administradores publicam. Alguns links são de afiliados e podem gerar
+      comissão para a Bebelzinha, sem custo adicional por isso.
+    </p>
     <span>Feito com carinho pela Bebelzinha 💜</span>
   </footer>
-</article>
+</main>
