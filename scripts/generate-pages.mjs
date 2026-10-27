@@ -60,6 +60,12 @@ await writeRoute('compras', {
   url: `${siteBase}compras/`,
 });
 
+await writeRoute('cortadores', {
+  title: 'Cortadores e marcadores de biscoitos | Bebelzinha',
+  description: 'Conheça os modelos de cortadores e marcadores feitos em impressão 3D para presentes, encomendas e lembrancinhas. Confira as opções na Shopee.',
+  url: `${siteBase}cortadores/`,
+});
+
 const manifest = JSON.parse(await readFile('public/content/recipes/index.json', 'utf8'));
 
 for (const slug of manifest.recipes) {

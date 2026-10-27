@@ -1,0 +1,101 @@
+<div class="cutters">
+  <section class="cutters__hero" id="inicio" aria-labelledby="cutters-title">
+    <div class="cutters__copy">
+      <span class="cutters__eyebrow">Feitos em impressão 3D, com carinho</span>
+      <h1 id="cutters-title">Tem carinho que vira <span>biscoito.</span></h1>
+    </div>
+  </section>
+
+  <section class="cutters__catalog" id="modelos" aria-labelledby="models-title">
+    <div class="cutters__section-heading">
+      <h2 id="models-title">Escolha o seu próximo carinho.</h2>
+      <p>Conheça os modelos e confira medidas, valores e opções no anúncio da Shopee.</p>
+    </div>
+    <div class="cutters__grid">
+      @for (product of products; track product.id) {
+        <article class="cutters__product">
+          <div class="cutters__product-photo">
+            <img
+              [src]="product.image"
+              [alt]="product.imageAlt"
+              width="960"
+              height="640"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+          <div class="cutters__product-copy">
+            <span class="cutters__category">{{ product.category }}</span>
+            <h3>{{ product.name }}</h3>
+            <p>{{ product.description }}</p>
+            <span class="cutters__product-note">Modelo de cortador / marcador</span>
+            <a
+              class="cutters__button cutters__button--shop"
+              [href]="productUrl(product)"
+              target="_blank"
+              rel="noopener noreferrer"
+              [attr.aria-label]="'Ver ' + product.name + ' na Shopee (abre em outra aba)'"
+              (click)="onShopeeClick(product, 'product')"
+            >
+              Ver na Shopee
+              <span class="material-symbols-outlined" aria-hidden="true">open_in_new</span>
+            </a>
+          </div>
+        </article>
+      }
+    </div>
+  </section>
+
+  <section class="cutters__how" aria-labelledby="how-title">
+    <span class="cutters__eyebrow">Do seu jeito, sem complicar</span>
+    <h2 id="how-title">Da ideia para a sua bancada.</h2>
+    <ol>
+      <li>
+        <span>01</span>
+        <div>
+          <h3>Escolha o desenho</h3>
+          <p>Encontre o modelo que combina com a sua ocasião.</p>
+        </div>
+      </li>
+      <li>
+        <span>02</span>
+        <div>
+          <h3>Confira os detalhes</h3>
+          <p>Veja tamanhos, valores e o que acompanha cada anúncio.</p>
+        </div>
+      </li>
+      <li>
+        <span>03</span>
+        <div>
+          <h3>Compre na Shopee</h3>
+          <p>Finalize o pedido e consulte o frete direto por lá.</p>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <aside class="cutters__notice">
+    <span class="material-symbols-outlined" aria-hidden="true">info</span>
+    <p>
+      São cortadores e marcadores, não biscoitos prontos. As imagens ilustram possibilidades de uso.
+      Confira medidas, conteúdo, disponibilidade e cuidados no anúncio de cada modelo.
+    </p>
+  </aside>
+
+  <footer class="cutters__footer">
+    <h2>Tem mais carinho por lá.</h2>
+    <p>Veja os outros modelos disponíveis na loja.</p>
+    <a
+      class="cutters__button cutters__button--purple"
+      [href]="storeUrl"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Ver todos os modelos na Shopee (abre em outra aba)"
+      (click)="onShopeeClick(null, 'footer')"
+    >
+      Ver todos na Shopee
+      <span class="material-symbols-outlined" aria-hidden="true">open_in_new</span>
+    </a>
+    <span class="cutters__signature">Feito com carinho · Bebelzinha</span>
+  </footer>
+</div>
