@@ -51,6 +51,6 @@ export class CuttersComponent {
     }
 
     // Sinal de intenção: saída para a loja, sem afirmar compra ou contato captado.
-    this.analytics.track('ClickShopee', context);
+    this.analytics.track('clickShopee', context);
   }
 }
