@@ -7,7 +7,7 @@ import { AnalyticsService } from './core/analytics.service';
 import { ContinuityService } from './core/continuity.service';
 import { OnboardingComponent } from './modules/onboarding/components/onboarding.component';
 
-const LANDING_ROUTES = ['/wpp-bebelzinha'];
+const LANDING_ROUTES = ['/wpp-bebelzinha', '/cortadores'];
 
 @Component({
   changeDetection: ChangeDetectionStrategy.OnPush,

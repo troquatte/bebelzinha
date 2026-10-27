@@ -1,0 +1,61 @@
+:host { display: block; color: var(--bebel-text); background: var(--bebel-background); }
+* { box-sizing: border-box; }
+.cutters { width: min(100%, 74rem); margin-inline: auto; padding: 0 1.1rem; }
+.cutters__hero { display: grid; gap: 1.5rem; align-items: center; padding-top: 1.25rem; }
+.cutters__eyebrow { display: block; color: var(--bebel-primary); font-size: .75rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+.cutters__copy h1 { margin-top: 1rem; max-width: 13ch; font-size: clamp(2.5rem, 6vw, 4.25rem); line-height: 1.03; letter-spacing: -.04em; color: var(--bebel-primary-strong); }
+.cutters__copy h1 span { color: var(--bebel-orange); }
+.cutters__button { display: inline-flex; align-items: center; justify-content: center; gap: .75rem; min-height: 3.25rem; padding: .8rem 1.2rem; border-radius: 1rem; text-decoration: none; font-weight: 750; transition: transform 150ms ease, filter 150ms ease; }
+.cutters__button:hover { filter: brightness(.94); transform: translateY(-2px); }
+.cutters__button:focus-visible { outline: 3px solid var(--bebel-primary); outline-offset: 5px; }
+.cutters__button--purple { color: var(--white, #fff); background: var(--bebel-primary-strong); }
+.cutters__details { display: flex; flex-wrap: wrap; justify-content: center; gap: .8rem 1.25rem; padding: 1.7rem 0; border-bottom: 1px solid var(--bebel-border); color: var(--bebel-text-soft); }
+.cutters__details > span { display: inline-flex; align-items: center; gap: .4rem; font-size: .76rem; }
+.cutters__details .material-symbols-outlined { color: var(--bebel-primary); font-size: 1.15rem; }
+.cutters__catalog { padding-top: 3rem; scroll-margin-top: 1rem; }
+.cutters__section-heading { max-width: 40rem; margin-bottom: 1.7rem; }
+.cutters__section-heading h2, .cutters__how h2 { margin-top: .65rem; color: var(--bebel-primary-strong); }
+.cutters__section-heading p { color: var(--bebel-text-soft); }
+.cutters__grid { display: grid; gap: 1.25rem; }
+.cutters__product { display: flex; flex-direction: column; overflow: hidden; border: 1px solid var(--bebel-border); border-radius: 1.3rem; background: var(--bebel-surface); }
+.cutters__product-photo { aspect-ratio: 3 / 2; background: var(--bebel-orange-soft); }
+.cutters__product-photo img { display: block; width: 100%; height: 100%; object-fit: contain; }
+.cutters__product-copy { display: flex; flex: 1; flex-direction: column; align-items: flex-start; padding: 1.25rem; }
+.cutters__category { margin-bottom: .6rem; color: var(--bebel-primary); font-size: .7rem; font-weight: 800; text-transform: uppercase; letter-spacing: .07em; }
+.cutters__product h3 { color: var(--bebel-primary-strong); }
+.cutters__product p { flex: 1; color: var(--bebel-text-soft); }
+.cutters__product-note { margin: 1rem 0 .65rem; color: var(--bebel-text-soft); font-size: .72rem; }
+.cutters__button--shop { width: 100%; background: var(--bebel-orange-soft); color: var(--bebel-primary-strong); border: 1px solid var(--bebel-border); }
+.cutters__how { margin-top: 3rem; padding: 1.5rem; border-radius: 1.5rem; background: var(--bebel-primary-soft); }
+.cutters__how ol { display: grid; gap: 1.4rem; list-style: none; margin: 1.75rem 0 0; padding: 0; }
+.cutters__how li { display: flex; align-items: flex-start; gap: .8rem; }
+.cutters__how li > span { color: var(--bebel-primary); font-size: 1.4rem; font-weight: 900; }
+.cutters__how p { color: var(--bebel-text-soft); }
+.cutters__notice { display: flex; align-items: flex-start; gap: .8rem; padding: 1.5rem 0; color: var(--bebel-text-soft); }
+.cutters__notice > span { flex-shrink: 0; margin-top: .75rem; }
+.cutters__footer { display: grid; justify-items: center; padding: 1.5rem 0 2rem; text-align: center; }
+.cutters__footer h2 { color: var(--bebel-primary-strong); }
+.cutters__footer p { color: var(--bebel-text-soft); }
+.cutters__footer .cutters__button { margin-top: 1.25rem; }
+.cutters__signature { margin-top: 2rem; color: var(--bebel-text-soft); font-size: .75rem; }
+@media (min-width: 42rem) {
+  .cutters { padding-inline: 2rem; }
+  .cutters__hero { padding-top: 2rem; }
+  .cutters__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .cutters__how { padding: 2rem; }
+}
+@media (min-width: 64rem) {
+  .cutters__grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .cutters__how ol { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+@media (prefers-reduced-motion: reduce) { .cutters__button { transition: none; } .cutters__button:hover { transform: none; } }
+
+/* Catálogo em duas colunas e convite da Amanda em largura total, só no celular. */
+@media (max-width: 41.999rem) {
+  .cutters__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .75rem; }
+  .cutters__product--all { grid-column: 1 / -1; }
+  .cutters__product:not(.cutters__product--all) .cutters__product-copy { padding: .8rem; }
+  .cutters__product:not(.cutters__product--all) .cutters__category { font-size: .61rem; letter-spacing: .04em; }
+  .cutters__product:not(.cutters__product--all) .cutters__button { gap: .3rem; padding-inline: .35rem; font-size: .78rem; }
+  .cutters__product:not(.cutters__product--all) .cutters__button .material-symbols-outlined { font-size: 1rem; }
+}

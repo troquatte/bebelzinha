@@ -36,6 +36,13 @@ export const routes: Routes = [
       ),
   },
   {
+    path: 'cortadores',
+    loadComponent: () =>
+      import('./modules/cutters/components/cutters.component').then(
+        ({ CuttersComponent }) => CuttersComponent,
+      ),
+  },
+  {
     path: '**',
     redirectTo: '',
   },
