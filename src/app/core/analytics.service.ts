@@ -18,7 +18,7 @@ export type BusinessEvent =
   | 'AddWeekToList'
   | 'ChannelLandingView'
   | 'WhatsAppChannelClick'
-  | 'clickShopee'
+  | 'ClickShopee'
   | 'Lead';
 
 type AnalyticsParams = Record<string, string | number | boolean>;
