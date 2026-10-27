@@ -13,7 +13,7 @@
     </div>
     <div class="cutters__grid">
       @for (product of products; track product.id) {
-        <article class="cutters__product">
+        <article class="cutters__product" [class.cutters__product--all]="product.id === 'todos'">
           <div class="cutters__product-photo">
             <img
               [src]="product.image"
@@ -44,34 +44,6 @@
         </article>
       }
     </div>
-  </section>
-
-  <section class="cutters__how" aria-labelledby="how-title">
-    <span class="cutters__eyebrow">Do seu jeito, sem complicar</span>
-    <h2 id="how-title">Da ideia para a sua bancada.</h2>
-    <ol>
-      <li>
-        <span>01</span>
-        <div>
-          <h3>Escolha o desenho</h3>
-          <p>Encontre o modelo que combina com a sua ocasião.</p>
-        </div>
-      </li>
-      <li>
-        <span>02</span>
-        <div>
-          <h3>Confira os detalhes</h3>
-          <p>Veja tamanhos, valores e o que acompanha cada anúncio.</p>
-        </div>
-      </li>
-      <li>
-        <span>03</span>
-        <div>
-          <h3>Compre na Shopee</h3>
-          <p>Finalize o pedido e consulte o frete direto por lá.</p>
-        </div>
-      </li>
-    </ol>
   </section>
 
   <aside class="cutters__notice">

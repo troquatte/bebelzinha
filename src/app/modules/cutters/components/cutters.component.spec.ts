@@ -35,11 +35,12 @@ describe('CuttersComponent conversion tracking', () => {
     expect(pixel.mock.calls.some(([, name]) => name === 'clickShopee' || name === 'Lead')).toBe(false);
   });
 
-  it('shows all five models and real store destinations while individual links are pending', () => {
+  it('shows the configured catalogue with product destinations or the real store fallback', () => {
     const links = harness.routeNativeElement!.querySelectorAll<HTMLAnchorElement>('.cutters__product a');
-    expect(links).toHaveLength(5);
-    links.forEach(link => {
-      expect(link.href).toBe(SHOPEE_STORE_URL);
+    expect(CUTTER_PRODUCTS.length).toBeGreaterThan(0);
+    expect(links).toHaveLength(CUTTER_PRODUCTS.length);
+    links.forEach((link, index) => {
+      expect(link.href).toBe(CUTTER_PRODUCTS[index].shopeeUrl?.trim() || SHOPEE_STORE_URL);
       expect(link.target).toBe('_blank');
       expect(link.rel).toContain('noopener');
     });
@@ -51,14 +52,17 @@ describe('CuttersComponent conversion tracking', () => {
     link.addEventListener('click', event => event.preventDefault(), { once: true });
     link.click();
     expect(pixel).toHaveBeenCalledExactlyOnceWith('trackCustom', 'clickShopee', expect.objectContaining({
-      content_id: 'gratidao-cliente', placement: 'product', destination_type: 'store',
-      destination_url: SHOPEE_STORE_URL, utm_source: 'instagram', utm_campaign: 'meio',
+      content_id: CUTTER_PRODUCTS[0].id, placement: 'product',
+      destination_type: CUTTER_PRODUCTS[0].shopeeUrl?.trim() ? 'product' : 'store',
+      destination_url: component.productUrl(CUTTER_PRODUCTS[0]), utm_source: 'instagram', utm_campaign: 'meio',
       utm_content: 'amanda', conversion_step: 'shopee_outbound_click',
     }));
   });
 
   it('uses the individual product destination when configured', () => {
     pixel.mockClear();
+    expect(component.productUrl({ ...CUTTER_PRODUCTS[0], shopeeUrl: null })).toBe(SHOPEE_STORE_URL);
+    expect(component.productUrl({ ...CUTTER_PRODUCTS[0], shopeeUrl: '  ' })).toBe(SHOPEE_STORE_URL);
     const product = { ...CUTTER_PRODUCTS[0], shopeeUrl: ' https://shopee.com.br/product/123/456 ' };
     expect(component.productUrl(product)).toBe('https://shopee.com.br/product/123/456');
     component.onShopeeClick(product, 'product');
@@ -75,12 +79,7 @@ describe('CuttersComponent conversion tracking', () => {
     }));
   });
 
-  it('does not count internal navigation and remains usable without the pixel', () => {
-    pixel.mockClear();
-    const link = harness.routeNativeElement!.querySelector<HTMLAnchorElement>('.cutters__copy a')!;
-    link.addEventListener('click', event => event.preventDefault(), { once: true });
-    link.click();
-    expect(pixel).not.toHaveBeenCalled();
+  it('remains usable without the pixel', () => {
     window.fbq = undefined;
     expect(() => component.onShopeeClick(CUTTER_PRODUCTS[0], 'product')).not.toThrow();
   });

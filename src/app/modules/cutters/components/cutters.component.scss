@@ -1,25 +1,14 @@
 :host { display: block; color: var(--bebel-text); background: var(--bebel-background); }
 * { box-sizing: border-box; }
 .cutters { width: min(100%, 74rem); margin-inline: auto; padding: 0 1.1rem; }
-.cutters__header { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 1.4rem 0; }
-.cutters__wordmark { display: flex; align-items: center; gap: .6rem; color: var(--bebel-primary-strong); font-weight: 900; font-size: 1.25rem; text-decoration: none; }
-.cutters__wordmark > .material-symbols-outlined { font-size: 2.1rem; }
-.cutters__wordmark small { display: block; margin-top: .1rem; color: var(--bebel-text-soft); font-size: .7rem; font-weight: 500; }
-.cutters__nav { display: flex; gap: .5rem; white-space: nowrap; color: var(--bebel-primary-strong); text-decoration: none; font-size: .88rem; font-weight: 700; }
 .cutters__hero { display: grid; gap: 1.5rem; align-items: center; padding-top: 1.25rem; }
 .cutters__eyebrow { display: block; color: var(--bebel-primary); font-size: .75rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
 .cutters__copy h1 { margin-top: 1rem; max-width: 13ch; font-size: clamp(2.5rem, 6vw, 4.25rem); line-height: 1.03; letter-spacing: -.04em; color: var(--bebel-primary-strong); }
 .cutters__copy h1 span { color: var(--bebel-orange); }
-.cutters__copy p { max-width: 37ch; color: var(--bebel-text-soft); }
 .cutters__button { display: inline-flex; align-items: center; justify-content: center; gap: .75rem; min-height: 3.25rem; padding: .8rem 1.2rem; border-radius: 1rem; text-decoration: none; font-weight: 750; transition: transform 150ms ease, filter 150ms ease; }
 .cutters__button:hover { filter: brightness(.94); transform: translateY(-2px); }
-.cutters__button:focus-visible, .cutters__nav:focus-visible, .cutters__wordmark:focus-visible { outline: 3px solid var(--bebel-primary); outline-offset: 5px; }
+.cutters__button:focus-visible { outline: 3px solid var(--bebel-primary); outline-offset: 5px; }
 .cutters__button--purple { color: var(--white, #fff); background: var(--bebel-primary-strong); }
-.cutters__copy .cutters__button { margin-top: 1.5rem; }
-.cutters__hero-note { display: block; margin-top: .85rem; color: var(--bebel-text-soft); font-size: .76rem; }
-.cutters__hero-image { position: relative; height: 23rem; overflow: hidden; margin: 0; border-radius: 5rem 1.5rem 1.5rem; background: var(--bebel-orange-soft); }
-.cutters__hero-image img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: 50% 32%; }
-.cutters__hero-image figcaption { position: absolute; bottom: 1rem; left: 1rem; right: 1rem; display: flex; align-items: center; justify-content: center; gap: .5rem; padding: .7rem; border-radius: .8rem; background: var(--bebel-surface); color: var(--bebel-primary-strong); font-size: .78rem; font-weight: 700; }
 .cutters__details { display: flex; flex-wrap: wrap; justify-content: center; gap: .8rem 1.25rem; padding: 1.7rem 0; border-bottom: 1px solid var(--bebel-border); color: var(--bebel-text-soft); }
 .cutters__details > span { display: inline-flex; align-items: center; gap: .4rem; font-size: .76rem; }
 .cutters__details .material-symbols-outlined { color: var(--bebel-primary); font-size: 1.15rem; }
@@ -51,8 +40,7 @@
 .cutters__signature { margin-top: 2rem; color: var(--bebel-text-soft); font-size: .75rem; }
 @media (min-width: 42rem) {
   .cutters { padding-inline: 2rem; }
-  .cutters__hero { grid-template-columns: 1.1fr 1fr; gap: 2rem; padding-top: 2rem; }
-  .cutters__hero-image { height: 34rem; }
+  .cutters__hero { padding-top: 2rem; }
   .cutters__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .cutters__how { padding: 2rem; }
 }
@@ -61,3 +49,13 @@
   .cutters__how ol { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
 @media (prefers-reduced-motion: reduce) { .cutters__button { transition: none; } .cutters__button:hover { transform: none; } }
+
+/* Catálogo em duas colunas e convite da Amanda em largura total, só no celular. */
+@media (max-width: 41.999rem) {
+  .cutters__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .75rem; }
+  .cutters__product--all { grid-column: 1 / -1; }
+  .cutters__product:not(.cutters__product--all) .cutters__product-copy { padding: .8rem; }
+  .cutters__product:not(.cutters__product--all) .cutters__category { font-size: .61rem; letter-spacing: .04em; }
+  .cutters__product:not(.cutters__product--all) .cutters__button { gap: .3rem; padding-inline: .35rem; font-size: .78rem; }
+  .cutters__product:not(.cutters__product--all) .cutters__button .material-symbols-outlined { font-size: 1rem; }
+}
