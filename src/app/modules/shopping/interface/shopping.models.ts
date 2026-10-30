@@ -7,6 +7,7 @@ export interface ShoppingItem {
 }
 
 export interface ShoppingList {
+  source?: 'dinner-plan';
   id: string;
   name: string;
   createdAt: string;

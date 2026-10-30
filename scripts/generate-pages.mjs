@@ -66,6 +66,12 @@ await writeRoute('cortadores', {
   url: `${siteBase}cortadores/`,
 });
 
+await writeRoute('jantar-resolvido', {
+  title: 'Jantar Resolvido — Protótipo | Bebelzinha',
+  description: 'Experimente três dias de exemplo com receita aberta e compras marcáveis para cada jantar.',
+  url: `${siteBase}jantar-resolvido/`,
+});
+
 const manifest = JSON.parse(await readFile('public/content/recipes/index.json', 'utf8'));
 
 for (const slug of manifest.recipes) {

@@ -19,7 +19,10 @@ export type BusinessEvent =
   | 'ChannelLandingView'
   | 'WhatsAppChannelClick'
   | 'clickShopee'
-  | 'Lead';
+  | 'Lead'
+  | 'ProductSalesView'
+  | 'ProductVideoPlay'
+  | 'ProductCheckoutClick';
 
 type AnalyticsParams = Record<string, string | number | boolean>;
 type GtagCommand = 'config' | 'event' | 'js';

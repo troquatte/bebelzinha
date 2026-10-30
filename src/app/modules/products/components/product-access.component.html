@@ -1,0 +1,23 @@
+<section class="access" aria-labelledby="access-title">
+  <a class="access__back" routerLink="/produtos"><span class="material-symbols-outlined" aria-hidden="true">arrow_back</span>Produtos da Bebel</a>
+  <div class="access__card">
+    <img src="images/bebel/bebel-roxa.jpg" alt="Bebel" width="88" height="88" />
+    <span class="access__eyebrow">Refeição Resolvida</span>
+    @if (access.hasAccess()) {
+      <h1 id="access-title">Seu cantinho já está aberto.</h1><p>Vamos escolher a próxima refeição?</p>
+      <button type="button" (click)="openProduct()">Abrir minhas refeições <span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></button>
+    } @else {
+      <h1 id="access-title">Bora abrir suas refeições?</h1><p>Digite o código que veio com as instruções da sua compra.</p>
+      <form (submit)="submit($event)" novalidate>
+        <label for="product-code">Seu código de acesso</label>
+        <input id="product-code" name="access-code" type="text" inputmode="numeric" pattern="[0-9]{6}" maxlength="6" autocomplete="off" placeholder="6 números" [value]="code()" (input)="code.set($any($event.target).value); error.set('')" [attr.aria-invalid]="error() ? 'true' : null" [attr.aria-describedby]="error() ? 'code-help code-error' : 'code-help'" />
+        <small id="code-help">Você pode colar os 6 números aqui.</small>
+        @if (error()) { <p id="code-error" role="alert" class="access__error">{{ error() }}</p> }
+        <button type="submit" [disabled]="busy()">{{ busy() ? 'Conferindo seu código…' : 'Acessar minhas refeições' }}<span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></button>
+      </form>
+      <details><summary>Onde encontro meu código?</summary><p>Confira o material de acesso e as instruções recebidas após a compra. O número do pedido da Hotmart é diferente do código de acesso.</p></details>
+      <a class="access__offer" routerLink="/produtos">Ainda não comprei. Quero conhecer.</a>
+    }
+    <small class="access__remember">Seu acesso fica salvo neste navegador quando o aparelho permite. Em outro aparelho, é só informar o código de novo.</small>
+  </div>
+</section>

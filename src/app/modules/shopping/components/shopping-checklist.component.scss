@@ -1,0 +1,20 @@
+:host { display: block; }
+.shopping-groups { display: grid; gap: 1.1rem; margin-top: 1.3rem; }
+.items-group__header { display: flex; align-items: end; justify-content: space-between; gap: 1rem; margin-bottom: .55rem; }
+.items-group__eyebrow { display: block; margin-bottom: .2rem; color: var(--bebel-orange); font-size: .7rem; font-weight: 900; letter-spacing: .08em; text-transform: uppercase; }
+.items-group--cart .items-group__eyebrow { color: var(--bebel-primary); }
+.items-group__count { display: grid; min-width: 2rem; height: 2rem; place-items: center; border-radius: 999px; color: var(--bebel-primary-strong); background: var(--bebel-primary-soft); font-size: .72rem; font-weight: 900; }
+.items-card { overflow: hidden; border: .1rem solid var(--bebel-border); border-radius: 1.25rem; background: var(--bebel-surface); box-shadow: .18rem .22rem 0 rgb(50 28 58 / 8%); }
+.items-group--cart .items-card { background: rgb(234 210 255 / 18%); }
+.shopping-item { display: grid; grid-template-columns: auto minmax(0, 1fr); align-items: center; gap: .8rem; padding: .9rem; border-bottom: .1rem solid var(--bebel-border); }
+.shopping-item:last-child { border-bottom: 0; }
+.shopping-item__name { min-width: 0; color: var(--bebel-text); font-size: .92rem; font-weight: 800; overflow-wrap: anywhere; }
+.shopping-item--checked .shopping-item__name { color: var(--bebel-text-soft); text-decoration: line-through; opacity: .7; }
+.shopping-item__actions { grid-column: 1 / -1; display: flex; justify-content: flex-end; gap: .45rem; }
+.shopping-item__actions button { display: inline-flex; align-items: center; gap: .3rem; min-height: 2.25rem; padding: .4rem .65rem; border: 0; border-radius: .7rem; color: var(--bebel-primary-strong); background: var(--bebel-primary-soft); font: inherit; font-size: .72rem; font-weight: 900; cursor: pointer; }
+.shopping-item__actions .danger { color: #9f1c13; background: #fff0ef; }
+.group-empty { padding: .9rem 1rem; border: .1rem dashed rgb(111 31 180 / 24%); border-radius: .95rem; color: var(--bebel-text-soft); background: rgb(255 253 249 / 76%); font-size: .78rem; }
+button:focus-visible { outline: .2rem solid var(--bebel-orange); outline-offset: .18rem; }
+@media (min-width: 40rem) { .shopping-item:has(.shopping-item__actions) { grid-template-columns: auto minmax(0, 1fr) auto; } .shopping-item__actions { grid-column: auto; } }
+
+:host(.compact-headings) .items-group__header h2 { font-size: 1.25rem; }

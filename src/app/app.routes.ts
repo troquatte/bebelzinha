@@ -1,8 +1,11 @@
 import { Routes } from '@angular/router';
+import { productAccessGuard, productEntryGuard, productLinkGuard } from './modules/products/service/product-access.guard';
 
 export const routes: Routes = [
   {
     path: '',
+    pathMatch: 'full',
+    canActivate: [productLinkGuard],
     loadComponent: () =>
       import('./modules/home/components/home.component').then(({ HomeComponent }) => HomeComponent),
   },
@@ -41,6 +44,24 @@ export const routes: Routes = [
       import('./modules/cutters/components/cutters.component').then(
         ({ CuttersComponent }) => CuttersComponent,
       ),
+  },
+  {
+    path: 'jantar-resolvido',
+    canActivate: [productAccessGuard],
+    loadComponent: () => import('./modules/dinner-plan/components/dinner-plan.component').then(({ DinnerPlanComponent }) => DinnerPlanComponent),
+  },
+  {
+    path: 'produtos', pathMatch: 'full', redirectTo: 'produtos/refeicao-resolvida',
+  },
+  {
+    path: 'produtos/refeicao-resolvida',
+    canActivate: [productEntryGuard],
+    loadComponent: () => import('./modules/products/components/products.component').then(({ ProductsComponent }) => ProductsComponent),
+  },
+  {
+    path: 'produtos/refeicao-resolvida/acessar',
+    canActivate: [productEntryGuard],
+    loadComponent: () => import('./modules/products/components/product-access.component').then(({ ProductAccessComponent }) => ProductAccessComponent),
   },
   {
     path: '**',

@@ -1,0 +1,46 @@
+<section class="products" aria-labelledby="products-title">
+  <div class="products__top"><span class="products__eyebrow">Produtos da Bebel</span><a routerLink="/produtos/refeicao-resolvida/acessar">Já comprei <span class="material-symbols-outlined" aria-hidden="true">key</span></a></div>
+  <section class="products__hero" [class.products__hero--with-video]="product.presentationVideoUrl">
+    <div class="products__copy">
+      <div class="products__intro">
+      <div class="products__signature"><img src="images/bebel/bebel-roxa.jpg" alt="Bebel" width="48" height="48" /><span>Da Bebel para a sua rotina</span></div>
+      <h1 id="products-title">O que fazer de almoço ou jantar?</h1>
+      <p>Com o <strong>Refeição Resolvida</strong>, você escolhe entre 22 refeições e já encontra os ingredientes, o preparo e a lista de compras no mesmo lugar.</p>
+      <div class="products__tags"><span>Comida de casa</span><span>2 ou 4 porções</span><span>No seu celular</span></div>
+      </div>
+      <div class="products__purchase">
+      <div class="products__offer"><span>Refeição Resolvida</span><strong>{{ product.price }}</strong><span>Pagamento único</span></div>
+      @if (access.hasAccess()) {
+        <a class="products__button" routerLink="/jantar-resolvido">Continuar minhas refeições <span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a>
+      } @else {
+        <a class="products__button" [href]="product.checkoutUrl" (click)="trackCheckout()" target="_blank" rel="noopener noreferrer">Comprar por {{ product.price }} <span class="material-symbols-outlined" aria-hidden="true">open_in_new</span></a>
+        <a class="products__access" routerLink="/produtos/refeicao-resolvida/acessar">Já comprei, tenho um código</a>
+      }
+      </div>
+    </div>
+    @if (product.presentationVideoUrl; as videoUrl) {
+      <div class="products__visual"><div class="products__player">
+        <video #presentationVideo [src]="videoUrl" [poster]="product.presentationVideoPoster" width="1080" height="1920" [controls]="videoStarted()" playsinline preload="metadata" aria-label="Como funciona o Refeição Resolvida"></video>
+        @if (!videoStarted()) {
+          <button class="products__play" type="button" aria-label="Assistir ao vídeo: como funciona o Refeição Resolvida" (click)="playPresentation(presentationVideo)"></button>
+        }
+      </div></div>
+    }
+  </section>
+
+  <section class="products__section" aria-labelledby="included-title"><span class="products__eyebrow">Tudo junto, para facilitar</span><h2 id="included-title">Escolheu a refeição? O resto está aqui.</h2>
+    <div class="products__features">@for (feature of features; track feature.icon) { <article><span class="material-symbols-outlined" aria-hidden="true">{{ feature.icon }}</span><h3>{{ feature.title }}</h3><p>{{ feature.text }}</p></article> }</div>
+  </section>
+
+  <section class="products__how products__section" aria-labelledby="how-title"><h2 id="how-title">Como você usa</h2><ol><li><strong>Escolha o dia</strong><span>Veja a refeição e decida quanto vai preparar.</span></li><li><strong>Confira as compras</strong><span>Marque o que já tem e leve a lista ao mercado.</span></li><li><strong>Prepare no seu ritmo</strong><span>Siga os passos e consulte como guardar a porção extra.</span></li></ol></section>
+
+  <section class="products__section products__faq" aria-labelledby="faq-title"><h2 id="faq-title">Antes de entrar</h2>
+    <details><summary>Preciso instalar outro aplicativo?</summary><p>Você usa aqui mesmo, pelo navegador do celular ou computador. Não precisa instalar outro app.</p></details>
+    <details><summary>Como acesso depois da compra?</summary><p>Entre em “Já comprei”, informe o código recebido com as instruções da compra e abra suas refeições. O acesso fica salvo neste navegador quando o aparelho permite. Se trocar de aparelho ou limpar os dados, informe o código novamente.</p></details>
+    <details><summary>É só para jantar?</summary><p>Você pode usar as ideias no almoço ou no jantar e seguir os dias na ordem que fizer sentido na sua casa.</p></details>
+    <details><summary>Todas ficam prontas em 30 minutos?</summary><p>Os tempos variam por receita e quantidade. Cada prato mostra uma estimativa de preparo completo. As receitas ainda estão em revisão culinária para esta primeira versão.</p></details>
+    <details><summary>Tem vídeo e posso congelar tudo?</summary><p>Os vídeos próprios ainda estão em preparação. Cada receita explica como guardar; o congelamento depende do prato e não está disponível como orientação para todas as refeições.</p></details>
+  </section>
+
+  <aside class="products__footer"><div><strong>Já tem seu código?</strong><p>Suas refeições ficam aqui no cantinho da Bebel.</p></div><a class="products__button products__button--soft" routerLink="/produtos/refeicao-resolvida/acessar">Acessar meu produto <span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a></aside>
+</section>

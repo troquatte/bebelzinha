@@ -1,0 +1,29 @@
+<section class="dinner__routine" aria-label="Conservação da refeição">
+  <div class="dinner__extra-summary"><span class="material-symbols-outlined" aria-hidden="true">restaurant</span><strong>{{ extraMeal() ? 'São 4 porções: 2 para hoje e 2 para guardar.' : 'São 2 porções para a refeição de hoje.' }}</strong></div>
+  @for (routineDay of [dayId()]; track routineDay) {
+    <details class="dinner__routine-item">
+      <summary><span class="material-symbols-outlined" aria-hidden="true">kitchen</span>Como guardar e reaquecer<span class="material-symbols-outlined" aria-hidden="true">expand_more</span></summary>
+      <div class="dinner__routine-body">
+        @if (storage(); as sections) {
+          @for (section of sections; track section.title) { <div class="dinner__storage-section"><h4>{{ section.title }}</h4><p>{{ section.text }}</p></div> }
+        } @else {
+        <p>As orientações deste prato vão ficar reunidas aqui:</p>
+        <ul><li>Se pode congelar e o que guardar separado.</li><li>Como porcionar e qual recipiente usar.</li><li>Prazo de conservação e identificação da porção.</li><li>Como descongelar e reaquecer.</li></ul>
+        <span class="dinner__routine-note">Conteúdo demonstrativo. As instruções serão pesquisadas e validadas para cada receita.</span>
+        }
+      </div>
+    </details>
+  }
+  @if (sources(); as references) { <details class="dinner__routine-item dinner__sources"><summary><span class="material-symbols-outlined" aria-hidden="true">menu_book</span>Fontes e referências<span class="material-symbols-outlined" aria-hidden="true">expand_more</span></summary><div class="dinner__routine-body"><p>Estas foram as referências que consultamos para o preparo e os cuidados ao guardar. A receita adaptada ainda precisa do nosso teste na cozinha.</p><ul>@for (source of references; track source.url) { <li><a [href]="source.url" target="_blank" rel="noopener noreferrer">{{ source.title }}</a></li> }</ul></div></details> }
+</section>
+
+        <section class="dinner__tools" aria-labelledby="tools-title">
+          <h3 id="tools-title">Utensílios que ajudam</h3>
+          <p>Use o que você já tem. Estas serão sugestões opcionais.</p>
+          <div class="dinner__tools-grid">
+            <div><span class="material-symbols-outlined" aria-hidden="true">inventory_2</span><strong>Potes com tampa</strong><span>Para separar porções</span></div>
+            <div><span class="material-symbols-outlined" aria-hidden="true">grid_view</span><strong>Formas para porcionar</strong><span>Quando fizer sentido no preparo</span></div>
+            <div><span class="material-symbols-outlined" aria-hidden="true">sell</span><strong>Etiquetas</strong><span>Para identificar o que guardou</span></div>
+          </div>
+          <span class="dinner__routine-note">Prévia das categorias, sem produtos ou links de compra por enquanto.</span>
+        </section>

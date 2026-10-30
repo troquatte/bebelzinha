@@ -46,3 +46,5 @@ Antes de implementar uma mudança relevante:
 5. registre decisões duráveis na memória do projeto.
 
 Regras para agentes estão em [`.agents/AGENTS.md`](.agents/AGENTS.md).
+
+482719
