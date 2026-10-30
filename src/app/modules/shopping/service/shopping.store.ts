@@ -1,4 +1,4 @@
-import { Injectable, signal } from '@angular/core';
+import { Injectable, computed, signal } from '@angular/core';
 
 import { ShoppingItem, ShoppingList } from '../interface/shopping.models';
 
@@ -8,13 +8,15 @@ const STORAGE_KEY = 'bebel.shopping-lists.v1';
 export class ShoppingStore {
   private readonly state = signal<ShoppingList[]>(this.load());
 
-  readonly lists = this.state.asReadonly();
+  readonly lists = computed(() => this.state().filter(list => list.source !== 'dinner-plan'));
+  readonly dinnerLists = computed(() => this.state().filter(list => list.source === 'dinner-plan'));
 
-  createList(name: string): ShoppingList {
+  createList(name: string, source?: 'dinner-plan'): ShoppingList {
     const now = new Date().toISOString();
     const list: ShoppingList = {
       id: crypto.randomUUID(),
       name: name.trim(),
+      source,
       createdAt: now,
       updatedAt: now,
       items: [],
@@ -247,7 +249,16 @@ export class ShoppingStore {
 
     try {
       const parsed: unknown = JSON.parse(stored);
-      return Array.isArray(parsed) ? (parsed as ShoppingList[]) : [];
+      if (!Array.isArray(parsed)) return [];
+      // Migração por vínculo explícito, preservando todos os itens e marcações.
+      let linkedIds = new Set<string>();
+      try {
+        const progress = JSON.parse(localStorage.getItem('bebel.dinner-plan.prototype.v1') ?? 'null');
+        if (progress?.lists && typeof progress.lists === 'object' && !Array.isArray(progress.lists)) {
+          linkedIds = new Set(Object.values(progress.lists).filter((id): id is string => typeof id === 'string'));
+        }
+      } catch { /* Listas gerais continuam disponíveis se o vínculo antigo estiver inválido. */ }
+      return (parsed as ShoppingList[]).map(list => linkedIds.has(list.id) ? { ...list, source: 'dinner-plan' } : list);
     } catch {
       return [];
     }

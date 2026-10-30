@@ -1,0 +1,26 @@
+<div class="shopping-groups">
+  @for (group of groups(); track group.id) {
+    <section class="items-group" [class.items-group--cart]="group.checked" [attr.aria-labelledby]="idPrefix() + '-' + group.id">
+      <header class="items-group__header">
+        <div><span class="items-group__eyebrow">{{ group.eyebrow }}</span><h2 [id]="idPrefix() + '-' + group.id">{{ group.title }}</h2></div>
+        <span class="items-group__count">{{ group.items.length }}</span>
+      </header>
+      @if (group.items.length) {
+        <div class="items-card" [attr.aria-label]="group.title">
+          @for (item of group.items; track item.id) {
+            <article class="shopping-item" [class.shopping-item--checked]="item.checked">
+              <mat-slide-toggle [checked]="item.checked" [aria-label]="(item.checked ? 'Desmarcar ' : 'Marcar ') + item.name + ' como comprado'" (change)="checkedChange.emit({item, checked: $event.checked})" />
+              <span class="shopping-item__name">{{ compactHeadings() ? item.name.replaceAll(' — ', ' - ') : item.name }}</span>
+              @if (editable()) {
+                <div class="shopping-item__actions">
+                  <button type="button" (click)="edit.emit(item)" [attr.aria-label]="'Editar ' + item.name"><span class="material-symbols-outlined" aria-hidden="true">edit</span>Editar</button>
+                  <button type="button" class="danger" (click)="remove.emit(item)" [attr.aria-label]="'Excluir ' + item.name"><span class="material-symbols-outlined" aria-hidden="true">delete</span>Excluir</button>
+                </div>
+              }
+            </article>
+          }
+        </div>
+      } @else { <div class="group-empty">{{ group.empty }}</div> }
+    </section>
+  }
+</div>

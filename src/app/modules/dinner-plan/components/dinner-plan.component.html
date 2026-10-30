@@ -1,0 +1,83 @@
+<div class="dinner">
+  <app-product-return />
+  <header #pageTop class="dinner__hero" tabindex="-1">
+    <img src="images/bebel/bebel-roxa.jpg" alt="Bebel, com cabelos brancos cacheados, óculos e roupa roxa" width="80" height="80" />
+    <div class="dinner__hero-copy">
+      <span class="dinner__signature">Bebelzinha · comida de casa</span>
+      <h1>Refeição Resolvida</h1>
+      <p>Escolha o dia. Eu te ajudo do mercado à mesa.</p>
+    </div>
+  </header>
+
+  <nav class="dinner__days" aria-label="Escolher o dia da refeição">
+    <button type="button" aria-label="Dia anterior" [disabled]="plan.selectedDay().day === 1" (click)="moveDay(-1)"><span class="material-symbols-outlined" aria-hidden="true">chevron_left</span></button>
+    <label class="dinner__day-picker"><span class="sr-only">Escolher dia</span>
+      <select [value]="plan.selectedDay().id" (change)="selectDay($any($event.target).value)">
+        @for (day of plan.days; track day.id) { <option [value]="day.id" [selected]="plan.selectedDay().id === day.id">Dia {{ day.day }} · {{ day.title }}</option> }
+      </select>
+      <span class="material-symbols-outlined dinner__select-arrow" aria-hidden="true">expand_more</span>
+    </label>
+    <button type="button" aria-label="Próximo dia" [disabled]="plan.selectedDay().day === plan.days.length" (click)="moveDay(1)"><span class="material-symbols-outlined" aria-hidden="true">chevron_right</span></button>
+  </nav>
+
+  @let day = plan.selectedDay();
+  <div class="dinner__layout">
+    <article class="dinner__recipe" aria-labelledby="dinner-title">
+      <span class="dinner__eyebrow">Dia {{ day.day }} · {{ day.contentRevision ? 'receita pesquisada' : day.isMock ? 'demonstração com receita repetida' : 'receita de exemplo' }}</span>
+      <img class="dinner__photo" [class.dinner__photo--complete]="!!day.contentRevision" [src]="day.image" [alt]="day.imageAlt" width="720" height="450" decoding="async" />
+      @if (day.contentRevision) { <span class="dinner__image-note">Imagem ilustrativa gerada por IA.</span> }
+      <div class="dinner__recipe-content">
+        <h2 id="dinner-title">{{ day.title }}</h2>
+        @if (day.description) { <p>{{ day.description }}</p> }
+        <div class="dinner__metadata">
+          <span><span class="material-symbols-outlined" aria-hidden="true">group</span>{{ plan.extraMeal() ? '2 pessoas · 2 refeições' : '2 pessoas' }}</span>
+          @if (!plan.extraMeal() || day.extraMinutes) { <span><span class="material-symbols-outlined" aria-hidden="true">schedule</span>{{ plan.extraMeal() ? day.extraMinutes : day.minutes }} min estimados</span> }
+        </div>
+        <fieldset class="dinner__meal-mode">
+          <legend>Quanto você quer preparar?</legend>
+          <label [class.is-selected]="!plan.extraMeal()"><input type="radio" name="meal-mode" [checked]="!plan.extraMeal()" (change)="plan.setExtraMeal(false)" />Só hoje<span>2 porções</span></label>
+          <label [class.is-selected]="plan.extraMeal()"><input type="radio" name="meal-mode" [checked]="plan.extraMeal()" (change)="plan.setExtraMeal(true)" />Hoje + outra refeição<span>4 porções no total</span></label>
+          <span class="dinner__mode-note">{{ plan.extraMeal() ? 'Ingredientes e compras ajustados para duas refeições de 2 pessoas.' : 'Ingredientes e compras para uma refeição de 2 pessoas.' }} {{ day.contentRevision ? 'Use xícara de 240 ml e colher de sopa de 15 ml.' : 'Quantidades de demonstração.' }}{{ plan.extraMeal() && !day.extraMinutes ? ' Tempo da porção extra a validar.' : '' }}</span>
+        </fieldset>
+
+        @if (day.videoStatus === 'pending') {
+          <span class="dinner__video-caption">Vídeo desta receita: ainda não disponível.</span>
+        } @else {
+        @for (videoDay of [day]; track videoDay.id) {
+          <details class="dinner__video" (toggle)="videoOpen.set($any($event.target).open ? videoDay.id : null)">
+            <summary><span class="material-symbols-outlined" aria-hidden="true">play_circle</span>Assistir ao preparo<span class="material-symbols-outlined dinner__video-chevron" aria-hidden="true">expand_more</span></summary>
+            @if (videoOpen() === videoDay.id) {
+              <div class="dinner__video-player">
+                <iframe src="https://www.youtube-nocookie.com/embed/cyBR8muoELM" title="Vídeo de exemplo do preparo" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div>
+              <span class="dinner__video-caption">Vídeo de exemplo para testar o formato.</span>
+            }
+          </details>
+        }
+        }
+        @if (day.equipment) { <details class="dinner__video"><summary><span class="material-symbols-outlined" aria-hidden="true">skillet</span>Separe os utensílios<span class="material-symbols-outlined dinner__video-chevron" aria-hidden="true">expand_more</span></summary><ul class="dinner__equipment">@for (item of day.equipment; track item) { <li>{{ item }}</li> }</ul></details> }
+        <section class="dinner__section" aria-labelledby="ingredients-title">
+          <h3 id="ingredients-title">Ingredientes</h3>
+          <ol class="dinner__ingredients">@for (ingredient of day.ingredients; track ingredient.id) { <li>{{ ingredient.label.replaceAll(' — ', ' - ') }}</li> }</ol>
+        </section>
+        <section class="dinner__section" aria-labelledby="method-title">
+          <h3 id="method-title">Modo de preparo</h3>
+          <span class="dinner__step-progress" role="status">{{ plan.completedSteps().length }} de {{ day.steps.length }} passos concluídos</span>
+          <span class="dinner__step-help">Marque a caixinha ao terminar cada passo. Toque de novo para desmarcar.</span>
+          <ol class="dinner__steps">@for (step of day.steps; track $index) { <li [class.is-done]="plan.completedSteps().includes($index)"><label><input type="checkbox" [checked]="plan.completedSteps().includes($index)" (change)="plan.toggleStep($index)" [attr.aria-label]="'Passo ' + ($index + 1) + ': ' + step" /><span class="dinner__step-number" aria-hidden="true">{{ $index + 1 }}</span><span class="dinner__step-text">{{ step }}</span></label></li> }</ol>
+        </section>
+        <aside class="dinner__tip"><span class="material-symbols-outlined" aria-hidden="true">lightbulb</span><div><strong>Dica da Bebel</strong><p>{{ day.tip }}</p></div></aside>
+
+        <app-dinner-routine [extraMeal]="plan.extraMeal()" [dayId]="day.id" [storage]="day.storage" [sources]="day.sources" />
+      </div>
+    </article>
+
+    <section class="dinner__shopping" aria-labelledby="dinner-shopping-title">
+      <header class="dinner__shopping-header"><span class="material-symbols-outlined" aria-hidden="true">shopping_cart</span><div><h2 #shoppingHeading id="dinner-shopping-title" tabindex="-1">Compras desta refeição</h2><p>Dia {{ day.day }} · {{ plan.extraMeal() ? '2 pessoas · 2 refeições' : '2 pessoas · 1 refeição' }}</p></div></header>
+      <p class="dinner__shopping-help">Marque o que já tem em casa ou colocou no carrinho. Pode desmarcar quando quiser.</p>
+      <app-shopping-checklist [compactHeadings]="true" [items]="plan.items()" [idPrefix]="'dinner-' + day.id" (checkedChange)="plan.setChecked($event.item.id, $event.checked)" />
+      <span class="dinner__progress" role="status" aria-live="polite">{{ plan.checkedCount() }} de {{ plan.items().length }} itens resolvidos no Dia {{ day.day }}.</span>
+    </section>
+  </div>
+  <app-dinner-actions [showingShopping]="showingShopping()" (printRecipe)="printRecipe()" (navigate)="useShortcut()" />
+</div>

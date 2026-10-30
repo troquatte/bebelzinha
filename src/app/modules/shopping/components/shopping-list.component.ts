@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component, computed, effect, inject } from '@angular/core';
-import { MatSlideToggleChange, MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { ShoppingChecklistComponent } from './shopping-checklist.component';
 import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import Swal from 'sweetalert2';
 
@@ -10,7 +10,7 @@ import { ShoppingStore } from '../service/shopping.store';
 
 @Component({
   changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [MatSlideToggleModule, RouterLink],
+  imports: [ShoppingChecklistComponent, RouterLink],
   selector: 'app-shopping-list',
   styleUrl: './shopping-list.component.scss',
   templateUrl: './shopping-list.component.html',
@@ -201,10 +201,10 @@ export class ShoppingListComponent {
     }
   }
 
-  toggleItem(item: ShoppingItem, event: MatSlideToggleChange): void {
-    this.store.setItemChecked(this.listId, item.id, event.checked);
+  toggleItem(item: ShoppingItem, checked: boolean): void {
+    this.store.setItemChecked(this.listId, item.id, checked);
 
-    if (event.checked) {
+    if (checked) {
       this.analytics.track('CompleteItem', { source: 'shopping' });
     }
   }

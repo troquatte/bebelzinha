@@ -1,0 +1,23 @@
+:host { display: block; }
+* { box-sizing: border-box; }
+.access { max-width: 38rem; padding: 1rem; margin: auto; }
+.access__back { display: inline-flex; align-items: center; gap: .4rem; min-height: 2.75rem; color: var(--bebel-primary-strong); text-decoration: none; font-weight: 700; }
+.access__card { display: grid; justify-items: start; margin-top: 1rem; padding: 1.5rem; border: 1px solid var(--bebel-border); border-radius: 1.5rem; background: var(--bebel-surface); }
+.access__card > img { border-radius: 50%; margin-bottom: 1rem; }
+.access__eyebrow { color: var(--bebel-primary); font-size: .8rem; font-weight: 800; margin-bottom: .6rem; }
+h1 { color: var(--bebel-primary-strong); }
+p { color: var(--bebel-text-soft); line-height: 1.5; }
+form { width: 100%; margin-top: 1.5rem; }
+label { display: block; margin-bottom: .5rem; font-weight: 700; }
+input { width: 100%; min-height: 3.5rem; padding: .8rem; font: inherit; font-size: 1.25rem; letter-spacing: .12em; border: 1px solid var(--bebel-border); border-radius: .8rem; background: var(--bebel-background); color: var(--bebel-primary-strong); }
+input[aria-invalid=true] { border-color: var(--danger); }
+small { display: block; margin-top: .5rem; color: var(--bebel-text-soft); font-size: .78rem; line-height: 1.5; }
+button { display: flex; width: 100%; justify-content: center; align-items: center; gap: .5rem; min-height: 3rem; margin-top: 1rem; padding: .8rem; border: 0; border-radius: .8rem; font: inherit; font-weight: 800; background: var(--bebel-primary-strong); color: var(--bebel-surface); cursor: pointer; }
+button:disabled { opacity: .65; cursor: wait; }
+.access__error { color: var(--danger); }
+details { width: 100%; padding: 1rem 0; margin-top: 1rem; border-top: 1px solid var(--bebel-border); }
+summary { cursor: pointer; color: var(--bebel-primary-strong); font-weight: 700; }
+.access__offer { color: var(--bebel-primary); }
+.access__remember { margin-top: 1.5rem; }
+a:focus-visible, input:focus-visible, button:focus-visible, summary:focus-visible { outline: 3px solid var(--bebel-orange); outline-offset: 3px; }
+@media(min-width: 42rem) { .access { padding: 2rem; } .access__card { padding: 2rem; } }

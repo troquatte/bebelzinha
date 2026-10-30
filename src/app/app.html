@@ -3,7 +3,7 @@
     <router-outlet />
   </main>
 } @else {
-  <app-onboarding />
+  @if (showOnboarding()) { <app-onboarding /> }
 
   <div class="app-shell">
   <aside class="sidebar" aria-label="Navegação principal">
@@ -49,7 +49,8 @@
         <span>Lista de compras</span>
       </a>
 
-    </nav>
+      <a class="nav-item" routerLink="/produtos" routerLinkActive="nav-item--active" ariaCurrentWhenActive="page"><span class="nav-item__icon material-symbols-outlined" aria-hidden="true">auto_stories</span><span>Produtos da Bebel</span></a>
+  </nav>
 
     <aside class="sidebar__note">
       <span class="sidebar__note-label">Bebel diz</span>
@@ -93,6 +94,7 @@
       <span class="bottom-nav__label">Lista de<br />compras</span>
     </a>
 
+      <a class="bottom-nav__item" routerLink="/produtos" routerLinkActive="bottom-nav__item--active" ariaCurrentWhenActive="page"><span class="bottom-nav__icon material-symbols-outlined" aria-hidden="true">auto_stories</span><span>Produtos</span></a>
   </nav>
 </div>
 }

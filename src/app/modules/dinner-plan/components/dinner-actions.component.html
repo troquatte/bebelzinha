@@ -1,0 +1,4 @@
+<div class="actions" role="group" aria-label="Ações da receita">
+  <button class="actions__print" type="button" aria-label="Imprimir ou salvar em PDF" title="Imprimir ou salvar em PDF" (click)="printRecipe.emit()"><span class="material-symbols-outlined" aria-hidden="true">print</span><span class="actions__print-label">Imprimir</span></button>
+  <button class="actions__navigate" type="button" (click)="navigate.emit()"><span class="material-symbols-outlined" aria-hidden="true">{{ showingShopping() ? 'arrow_upward' : 'shopping_cart' }}</span>{{ showingShopping() ? 'Voltar ao topo' : 'Lista de compras' }}</button>
+</div>
