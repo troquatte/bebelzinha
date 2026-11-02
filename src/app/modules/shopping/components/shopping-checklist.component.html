@@ -6,7 +6,7 @@
         <span class="items-group__count">{{ group.items.length }}</span>
       </header>
       @if (group.items.length) {
-        <div class="items-card" [attr.aria-label]="group.title">
+        <div class="items-card" role="region" tabindex="0" [attr.aria-label]="group.title">
           @for (item of group.items; track item.id) {
             <article class="shopping-item" [class.shopping-item--checked]="item.checked">
               <mat-slide-toggle [checked]="item.checked" [aria-label]="(item.checked ? 'Desmarcar ' : 'Marcar ') + item.name + ' como comprado'" (change)="checkedChange.emit({item, checked: $event.checked})" />

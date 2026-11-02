@@ -157,3 +157,17 @@ App abre diretamente sem onboarding. Sidebar desktop usa token único de 15rem, 
 ## Biblioteca paginada e ficha — revisões 065/066
 Library-navigation centraliza página de 12, busca normalizada, ordenação por publishedAt/slug e geração de parâmetros SSG. /comidinhas/ é página 1; /comidinhas/pagina/N/ tem canonical próprio e HTML SSG por build. q/categoria persistem seleção na URL, são noindex no navegador e não geram combinações SSG; canonical aponta à sequência base. Alias página 1 não ganha shell SSG de redirect. Catálogo completo ainda é importado no bundle: paginação limita DOM, não divide download do acervo.
 RecipePage usa capa/play local e só monta iframe após clique. RecipePortion pode fornecer equipment; compilação preserva/valida utensílios por variante. Macarrão público passa a base 2 e opção 4 já pesquisadas; vídeo original é referência de 1 porção. Rendimento/schema seguem quantidade exibida, sem inventar tempo de execução. Marcação antiga não é apagada.
+
+## Receita de abobrinha e metadados opcionais — 067
+PublicRecipe.recipe.storage fornece orientações de conservação com title/text; compilador valida e preserva só esses campos. RecipePage renderiza disclosure usando estilos existentes, sem adicionar seção em receitas sem dados. PublicRecipe.video opcional fornece metadados conferidos para Recipe.video e VideoObject. Sem metadados, não gerar VideoObject.
+Abobrinha preenchida, ainda draft, sem publishedAt. Revisão é documental; não equivale a teste culinário. Prévia isolada em .videos/output/seo/abobrinha-implementacao, sem promover manifesto.
+
+## Preferência de entrega de receitas — 2026-11-02
+Toda ficha concluída e revisada deve entrar também na biblioteca Comidinhas, com card, rota e artefatos SEO gerados juntos. Não entregar só prévia isolada se a ficha já está completa. Publicação no catálogo local não equivale a deploy. Fontes incompletas continuam draft.
+
+## Entrega 068 — 2026-11-02 UTC
+Concluída localmente: play rosa #ea225d; Falta pegar/Já no carrinho com rolagem independente, cabeçalhos externos, foco de teclado e impressão sem recorte. Bolo de banana na airfryer com farinha de trigo incluído na listagem e detalhe, com fontes e imagem ilustrativa, sem vídeo. videoId null permitido e sem player/link/VideoObject; receitas sem variantes exibem rendimento próprio (bolo:10 porções).
+Validação: build/postbuild completos (3 publicadas,8 URLs no sitemap),2 testes de schema,desktop e mobile390px sem overflow horizontal; ambas as listas com conteúdo excedente e itens movidos/restaurados. Pesquisa OpenSEO documentada; volume histórico reutilizado, SERP exata checada. Sem teste culinário, commit,push ou deploy.
+
+Preferência do usuário (2026-11-02): não expor nas receitas observações internas como piloto ou não testado pela Bebel. Manter orientações práticas apoiadas nas fontes e referências, sem inventar alegação de teste próprio. Auditoria documental permanece interna.
+

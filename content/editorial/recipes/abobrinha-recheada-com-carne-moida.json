@@ -1,25 +1,377 @@
 {
   "id": "abobrinha-recheada-com-carne-moida",
   "slug": "abobrinha-recheada-com-carne-moida",
-  "title": "Abobrinha recheada com carne moída no forno: passo a passo completo",
+  "title": "Abobrinha recheada com carne moída no forno",
   "videoId": "LFaOXUy7nAQ",
   "categoryIds": [
     "pratos-do-dia",
     "forno"
   ],
-  "description": null,
-  "intro": null,
-  "image": null,
-  "publishedAt": null,
-  "updatedAt": null,
-  "seo": null,
-  "recipe": null,
+  "description": "Abobrinha em canoas com carne moída, miolo aproveitado e cobertura de parmesão. Escolha 2 ou 4 porções e acompanhe o preparo no forno.",
+  "intro": "O vídeo apresenta 2 abobrinhas grandes, formando 4 metades recheadas. A ficha oferece também a redução para 2 porções. As quantidades foram conferidas com a descrição e a transcrição do vídeo e com a receita-base do Panelinha.",
+  "image": {
+    "src": "images/recipes/abobrinha-recheada-video.jpg",
+    "alt": "Capa ilustrada do vídeo da Bebel: abobrinha recheada com carne moída"
+  },
+  "publishedAt": "2026-11-02T20:42:52Z",
+  "updatedAt": "2026-11-02T20:42:52Z",
+  "seo": {
+    "title": "Abobrinha recheada com carne moída no forno | Bebel",
+    "description": "Abobrinha recheada com carne moída para 2 ou 4 porções: ingredientes, vídeo, preparo no forno, lista de compras e cuidados ao guardar e reaquecer."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 2,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "O forno leva cerca de 30 minutos, além do corte e do preparo do recheio. O tempo total varia com o tamanho das abobrinhas, a panela e o forno.",
+    "sourceNote": "Revisão documental do vídeo e das referências. Versão de 2 porções adaptada da base de 4; sem teste culinário da Bebel.",
+    "ingredients": [
+      {
+        "id": "abobrinha",
+        "name": "Abobrinha grande",
+        "quantity": 1,
+        "unit": "unidade",
+        "note": "Corte em 2 metades; aproveite o miolo no recheio."
+      },
+      {
+        "id": "patinho",
+        "name": "Patinho moído",
+        "quantity": 250,
+        "unit": "g"
+      },
+      {
+        "id": "cebola",
+        "name": "Cebola",
+        "quantity": 0.5,
+        "unit": "unidade"
+      },
+      {
+        "id": "alho",
+        "name": "Alho",
+        "quantity": 1,
+        "unit": "dente"
+      },
+      {
+        "id": "farinha-trigo",
+        "name": "Farinha de trigo",
+        "quantity": 0.5,
+        "unit": "colher (sopa)",
+        "note": "Para o recheio."
+      },
+      {
+        "id": "agua",
+        "name": "Água",
+        "quantity": 30,
+        "unit": "ml",
+        "note": "Equivale a 2 colheres (sopa).",
+        "shopping": false
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite para refogar",
+        "quantity": 2,
+        "unit": "colheres (sopa)",
+        "note": "Use 1 e meia na carne e meia no refogado do miolo."
+      },
+      {
+        "id": "azeite-montagem",
+        "name": "Azeite para a montagem",
+        "quantity": null,
+        "unit": "a gosto",
+        "note": "Um fio sobre as canoas recheadas."
+      },
+      {
+        "id": "paprica",
+        "name": "Páprica doce",
+        "quantity": 0.25,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "pimenta-siria",
+        "name": "Pimenta síria",
+        "quantity": 0.25,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "canela",
+        "name": "Canela em pó",
+        "quantity": null,
+        "unit": "a gosto",
+        "note": "Use uma pitada pequena."
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "pimenta-reino",
+        "name": "Pimenta-do-reino",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "farinha-rosca",
+        "name": "Farinha de rosca",
+        "quantity": 1,
+        "unit": "colher (sopa)",
+        "note": "Para a cobertura."
+      },
+      {
+        "id": "parmesao",
+        "name": "Parmesão ralado fino",
+        "quantity": 1,
+        "unit": "colher (sopa)",
+        "note": "Para a cobertura."
+      }
+    ],
+    "steps": [
+      {
+        "id": "organizar",
+        "text": "Preaqueça o forno a 180 °C. Separe os ingredientes da quantidade escolhida. Para 2 porções, use 1 abobrinha grande, que rende 2 canoas, e uma assadeira em que elas fiquem apoiadas."
+      },
+      {
+        "id": "canoas",
+        "text": "Lave e seque a abobrinha. Corte ao meio no comprimento e retire o miolo com uma colher de sobremesa, preservando o fundo e uma borda de cerca de 0,5 cm. Pique o miolo para usar no recheio."
+      },
+      {
+        "id": "picar",
+        "text": "Pique a cebola e o alho. Mantenha a carne crua separada dos legumes e lave mãos, tábua e utensílios depois de manuseá-la."
+      },
+      {
+        "id": "carne",
+        "text": "Aqueça a panela em fogo médio e coloque 1 e meia colher (sopa) de azeite. Junte os 250 g de carne, polvilhe meia colher (sopa) de farinha de trigo e tempere com sal e pimenta. Mexa para soltar os pedaços e deixe cozinhar e dourar. O vídeo usa cerca de 10 minutos como referência para a quantidade maior; observe o ponto, sem reduzir o tempo pela metade."
+      },
+      {
+        "id": "conferir-carne",
+        "text": "A carne deve estar cozida antes da montagem. Confira com termômetro culinário: carne bovina moída deve atingir pelo menos 71 °C. Cor e tempo, sozinhos, não confirmam segurança. Transfira para uma tigela limpa."
+      },
+      {
+        "id": "miolo",
+        "text": "Na mesma panela, coloque meia colher (sopa) de azeite, a meia cebola picada e o miolo da abobrinha. Tempere com uma pitada de sal e refogue até murchar. Junte o alho, a páprica, a pimenta síria e a canela; mexa por cerca de 1 minuto."
+      },
+      {
+        "id": "recheio",
+        "text": "Adicione os 30 ml de água e solte com a espátula a parte dourada do fundo, sem incorporar resíduos queimados. Volte a carne para a panela e misture: o recheio deve ficar úmido, sem caldo acumulado. Desligue e ajuste o tempero."
+      },
+      {
+        "id": "montagem",
+        "text": "Tempere as cavidades com sal e pimenta. Divida o recheio entre as 2 canoas, sem amassar, e regue com um fio de azeite. Misture 1 colher (sopa) de farinha de rosca com 1 colher (sopa) de parmesão e distribua a cobertura."
+      },
+      {
+        "id": "forno",
+        "text": "Leve a assadeira ao forno preaquecido a 180 °C. Use cerca de 30 minutos como referência, conferindo antes conforme o forno e o tamanho do legume. A cobertura deve dourar e a abobrinha ficar macia ao espetar com um garfo, mantendo a forma. O tempo não dobra ao preparar mais canoas."
+      },
+      {
+        "id": "servir",
+        "text": "Retire com luvas térmicas. Sirva 1 metade recheada por porção; uma salada de folhas pode acompanhar. Se escolheu preparar para outra refeição, separe a parte de guardar antes de servir e siga as orientações abaixo."
+      }
+    ],
+    "equipment": [
+      "Assadeira para acomodar 2 canoas sem sobrepor",
+      "Panela média para refogar o recheio",
+      "Tábua e faca",
+      "Colher de sobremesa para retirar o miolo",
+      "Espátula e tigela para reservar a carne",
+      "Tigela pequena para a cobertura",
+      "Colheres e recipiente medidores",
+      "Termômetro culinário e luvas térmicas"
+    ],
+    "tips": [
+      {
+        "title": "Aproveite o miolo",
+        "text": "Pique o miolo e use no recheio. Preserve o fundo e a borda das canoas para que elas sustentem a carne."
+      },
+      {
+        "title": "Confira dois sinais",
+        "text": "Além da cobertura dourada, confira a maciez da abobrinha com um garfo. O dourado do queijo sozinho não indica que o legume chegou ao ponto."
+      },
+      {
+        "title": "Mantenha o recheio úmido",
+        "text": "O recheio deve estar úmido antes de ir ao forno, sem formar uma sopa. Evite cozinhar até secar completamente."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Separe antes de servir",
+        "text": "Preparou 4 porções? Sirva 2 e reserve as outras 2 em recipientes limpos e rasos. Leve à geladeira prontamente, sem esperar esfriar completamente na bancada."
+      },
+      {
+        "title": "Na geladeira",
+        "text": "Mantenha a 4 °C ou menos e consuma em até 2 a 3 dias. Identifique a data. Descarte se a comida ficou mais de 2 horas em temperatura ambiente; em calor acima de 32 °C, esse limite cai para 1 hora."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça somente a porção que vai comer, em recipiente adequado ao forno ou micro-ondas, até o centro atingir 74 °C. Use termômetro culinário. Não há um tempo fixo: ele depende do aparelho e do tamanho da porção."
+      }
+    ],
+    "portions": [
+      {
+        "servings": 2,
+        "note": "2 metades recheadas: 1 para cada pessoa. Redução da receita do vídeo.",
+        "ingredientOverrides": [],
+        "stepOverrides": [],
+        "equipment": [
+          "Assadeira para acomodar 2 canoas sem sobrepor",
+          "Panela média para refogar o recheio",
+          "Tábua e faca",
+          "Colher de sobremesa para retirar o miolo",
+          "Espátula e tigela para reservar a carne",
+          "Tigela pequena para a cobertura",
+          "Colheres e recipiente medidores",
+          "Termômetro culinário e luvas térmicas"
+        ]
+      },
+      {
+        "servings": 4,
+        "note": "4 metades recheadas: 2 para hoje e 2 para outra refeição. Quantidade apresentada no vídeo.",
+        "ingredientOverrides": [
+          {
+            "id": "abobrinha",
+            "quantity": 2,
+            "unit": "unidades",
+            "note": "Corte em 4 metades; aproveite o miolo no recheio."
+          },
+          {
+            "id": "patinho",
+            "quantity": 500
+          },
+          {
+            "id": "cebola",
+            "quantity": 1
+          },
+          {
+            "id": "alho",
+            "quantity": 2,
+            "unit": "dentes"
+          },
+          {
+            "id": "farinha-trigo",
+            "quantity": 1
+          },
+          {
+            "id": "agua",
+            "quantity": 60,
+            "note": "Equivale a um quarto de xícara (chá) de 240 ml."
+          },
+          {
+            "id": "azeite",
+            "quantity": 4,
+            "note": "Use 3 colheres na carne e 1 no refogado do miolo."
+          },
+          {
+            "id": "paprica",
+            "quantity": 0.5
+          },
+          {
+            "id": "pimenta-siria",
+            "quantity": 0.5
+          },
+          {
+            "id": "farinha-rosca",
+            "quantity": 2,
+            "unit": "colheres (sopa)"
+          },
+          {
+            "id": "parmesao",
+            "quantity": 2,
+            "unit": "colheres (sopa)"
+          },
+          {
+            "id": "canela",
+            "quantity": null,
+            "note": "Use 1 pitada."
+          }
+        ],
+        "stepOverrides": [
+          {
+            "id": "organizar",
+            "text": "Preaqueça o forno a 180 °C. Separe os ingredientes da quantidade escolhida. Para 4 porções, use 2 abobrinhas grandes, que rendem 4 canoas, e uma assadeira em que todas fiquem apoiadas, sem sobrepor."
+          },
+          {
+            "id": "canoas",
+            "text": "Lave e seque as 2 abobrinhas. Corte cada uma ao meio no comprimento e retire o miolo com uma colher de sobremesa, preservando o fundo e uma borda de cerca de 0,5 cm. Pique o miolo para usar no recheio."
+          },
+          {
+            "id": "carne",
+            "text": "Aqueça a panela larga em fogo médio e coloque 3 colheres (sopa) de azeite. Junte os 500 g de carne, polvilhe 1 colher (sopa) de farinha de trigo e tempere com sal e pimenta. Mexa para soltar os pedaços e deixe cozinhar e dourar por cerca de 10 minutos, conferindo o ponto. Faça em levas se a panela ficar cheia."
+          },
+          {
+            "id": "miolo",
+            "text": "Na mesma panela, coloque 1 colher (sopa) de azeite, a cebola picada e o miolo das 2 abobrinhas. Tempere com uma pitada de sal e refogue até murchar, cerca de 2 minutos. Junte o alho, a páprica, a pimenta síria e a canela; mexa por cerca de 1 minuto."
+          },
+          {
+            "id": "recheio",
+            "text": "Adicione os 60 ml de água e solte com a espátula a parte dourada do fundo, sem incorporar resíduos queimados. Volte a carne para a panela e misture: o recheio deve ficar úmido, sem caldo acumulado. Desligue e ajuste o tempero."
+          },
+          {
+            "id": "montagem",
+            "text": "Tempere as cavidades com sal e pimenta. Divida o recheio entre as 4 canoas, sem amassar, e regue com um fio de azeite. Misture 2 colheres (sopa) de farinha de rosca com 2 colheres (sopa) de parmesão e distribua a cobertura."
+          }
+        ],
+        "equipment": [
+          "Assadeira para acomodar 4 canoas sem sobrepor",
+          "Panela larga para refogar 500 g de carne; faça em levas se necessário",
+          "Tábua e faca",
+          "Colher de sobremesa para retirar o miolo",
+          "Espátula e tigela para reservar a carne",
+          "Tigela pequena para a cobertura",
+          "Colheres e recipiente medidores",
+          "Termômetro culinário e luvas térmicas"
+        ]
+      }
+    ]
+  },
   "review": {
-    "status": "pending",
-    "reviewer": null,
-    "reviewedAt": null
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da descrição/transcrição do vídeo e das fontes; sem teste culinário",
+    "reviewedAt": "2026-11-02T20:23:51Z"
   },
   "editorialNotes": [
-    "Título e vínculo vêm do catálogo de vídeos. Conferir vídeo, medidas e preparo antes de preencher a receita. Não publicar automaticamente."
-  ]
+    "Manifesto permanece draft; sem data de publicação inventada. Prévia local usa cópia em memória, sem promoção do conteúdo.",
+    "Transcrição automática e descrição oficial conferidas em 2026-11-02T20:23:51Z. Vídeo ilustra quatro metades e não comprova teste culinário.",
+    "Base de 2 porções é redução editorial da referência de 4. Sal, pimenta e canela não recebem duplicação cega. Tempos não são escalados.",
+    "Capa é a miniatura existente do vídeo, não fotografia de execução da Bebel.",
+    "Pedido posterior do usuário em 2026-11-02T20:42:52Z: receitas concluídas devem entrar também na biblioteca Comidinhas. Abobrinha incluída no catálogo local; sem deploy automático."
+  ],
+  "sources": [
+    {
+      "title": "Bebelzinha — vídeo da abobrinha recheada",
+      "url": "https://www.youtube.com/watch?v=LFaOXUy7nAQ",
+      "role": "Descrição e transcrição: ingredientes, quatro metades, etapas e sinais de ponto."
+    },
+    {
+      "title": "Panelinha — abobrinhas recheadas",
+      "url": "https://panelinha.com.br/receita/abobrinhas-recheadas",
+      "role": "Receita-base, técnica das canoas e rendimento de até 4 porções."
+    },
+    {
+      "title": "Health Canada — cuidados com sobras",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento em recipientes rasos, conservação de 2 a 3 dias e reaquecimento."
+    },
+    {
+      "title": "FoodSafety.gov — temperaturas mínimas",
+      "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+      "role": "Carne bovina moída a 71 °C e reaquecimento a 74 °C."
+    },
+    {
+      "title": "CDC — prevenção de intoxicação alimentar",
+      "url": "https://www.cdc.gov/food-safety/prevention/",
+      "role": "Refrigeração e limites de 2 horas, ou 1 hora acima de 32 °C."
+    }
+  ],
+  "video": {
+    "name": "Abobrinha recheada com carne moída no forno: passo a passo completo",
+    "description": "A Bebel apresenta o preparo ilustrado de 2 abobrinhas grandes, formando 4 metades recheadas com carne moída e cobertura de parmesão.",
+    "uploadDate": "2026-10-15",
+    "duration": "PT3M29S"
+  }
 }

@@ -4,7 +4,7 @@
 .items-group__eyebrow { display: block; margin-bottom: .2rem; color: var(--bebel-orange); font-size: .7rem; font-weight: 900; letter-spacing: .08em; text-transform: uppercase; }
 .items-group--cart .items-group__eyebrow { color: var(--bebel-primary); }
 .items-group__count { display: grid; min-width: 2rem; height: 2rem; place-items: center; border-radius: 999px; color: var(--bebel-primary-strong); background: var(--bebel-primary-soft); font-size: .72rem; font-weight: 900; }
-.items-card { overflow: hidden; border: .1rem solid var(--bebel-border); border-radius: 1.25rem; background: var(--bebel-surface); box-shadow: .18rem .22rem 0 rgb(50 28 58 / 8%); }
+.items-card { max-height: min(24rem, 45dvh); overflow-x: hidden; overflow-y: auto; overscroll-behavior-y: contain; scrollbar-gutter: stable; border: .1rem solid var(--bebel-border); border-radius: 1.25rem; background: var(--bebel-surface); box-shadow: .18rem .22rem 0 rgb(50 28 58 / 8%); }
 .items-group--cart .items-card { background: rgb(234 210 255 / 18%); }
 .shopping-item { display: grid; grid-template-columns: auto minmax(0, 1fr); align-items: center; gap: .8rem; padding: .9rem; border-bottom: .1rem solid var(--bebel-border); }
 .shopping-item:last-child { border-bottom: 0; }
@@ -21,3 +21,6 @@ button:focus-visible { outline: .2rem solid var(--bebel-orange); outline-offset:
 
 :host(.compact-headings) .shopping-item__name { font-size: 1rem; }
 :host(.compact-headings) .group-empty { font-size: .875rem; }
+
+.items-card:focus-visible { outline: .2rem solid var(--bebel-orange); outline-offset: .18rem; }
+@media print { .items-card { max-height: none; overflow: visible; scrollbar-gutter: auto; } }

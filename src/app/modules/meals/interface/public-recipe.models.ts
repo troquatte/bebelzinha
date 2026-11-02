@@ -34,7 +34,8 @@ export interface PublicRecipe {
   description: string;
   intro: string;
   categoryIds: string[];
-  videoId: string;
+  videoId: string | null;
+  video?: { name: string; description: string; uploadDate: string; duration: string };
   image: { src: string; alt: string };
   publishedAt: string;
   updatedAt: string;
@@ -47,6 +48,7 @@ export interface PublicRecipe {
     sourceNote?: string;
     equipment?: string[];
     tips?: Array<{ title: string; text: string }>;
+    storage?: Array<{ title: string; text: string }>;
     portions?: RecipePortion[];
     ingredients: RecipeIngredient[];
     steps: RecipeStep[];

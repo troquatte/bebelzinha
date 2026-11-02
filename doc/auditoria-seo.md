@@ -7,7 +7,7 @@ Saída de produção inspecionada; não é auditoria do domínio publicado.
 | Breadcrumbs | Início → Receitas → receita; visível e BreadcrumbList |
 | Meta description | Única e específica, conferida no HTML |
 | Links internos | Breadcrumb, biblioteca e navegação; sem links para rascunhos |
-| XML sitemap | Automático, 6 URLs; lastmod editorial de receitas |
+| XML sitemap | Automático, 8 URLs; lastmod editorial de receitas |
 | Robots.txt | Automático, referência ao sitemap e crawl permitido para ler noindex |
 | Meta robots / noindex | Receita index,follow; áreas pessoais/testes/drafts fora do índice e sitemap |
 | Canonical | HTTPS de produção, barra final, sem parâmetros |
@@ -19,7 +19,9 @@ Saída de produção inspecionada; não é auditoria do domínio publicado.
 
 | Página | HTML bruto | HTML gzip calculado | Assets locais declarados no HTML | Assets brutos | Assets gzip calculado |
 |---|---|---|---|---|---|
-| /comidinhas/macarrao-ao-limao-sem-creme-de-leite | 127.0 KiB | 22.1 KiB | 13 | 1002.1 KiB | 692.1 KiB |
+| /comidinhas/bolo-de-banana-na-airfryer-com-farinha-de-trigo | 133.1 KiB | 22.2 KiB | 13 | 977.7 KiB | 657.4 KiB |
+| /comidinhas/abobrinha-recheada-com-carne-moida | 148.9 KiB | 24.8 KiB | 13 | 1028.4 KiB | 706.3 KiB |
+| /comidinhas/macarrao-ao-limao-sem-creme-de-leite | 127.8 KiB | 22.3 KiB | 13 | 1019.7 KiB | 696.7 KiB |
 
 Gzip é compressão calculada localmente, não confirmação de transferência/compressão no servidor. Assets contam referências diretas únicas do HTML, não dependências transitivas dos módulos ou recursos carregados depois. YouTube, fontes e analytics externos não estão somados; o peso completo e Core Web Vitals exigem medição de navegação em ambiente publicado. Os tamanhos não são uma tag SEO.
 

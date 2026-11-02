@@ -1,0 +1,190 @@
+{
+  "id": "bolo-de-banana-na-airfryer-com-farinha-de-trigo",
+  "slug": "bolo-de-banana-na-airfryer-com-farinha-de-trigo",
+  "title": "Bolo de banana na airfryer com farinha de trigo",
+  "videoId": null,
+  "categoryIds": [
+    "doces",
+    "lanches"
+  ],
+  "description": "Bolo de banana com farinha de trigo, canela e gotas de chocolate. Veja ingredientes, preparo na airfryer e os cuidados para conferir o ponto.",
+  "intro": "Esta versão usa farinha de trigo e manteiga, com banana amassada e gotas de chocolate. O rendimento de referência é de 10 porções; o tamanho das fatias muda conforme a forma escolhida.",
+  "image": {
+    "src": "images/recipes/bolo-banana-airfryer-trigo.webp",
+    "alt": "Imagem ilustrativa de bolo de banana com trigo e gotas de chocolate, com uma fatia cortada"
+  },
+  "publishedAt": "2026-11-02T20:52:13Z",
+  "updatedAt": "2026-11-02T20:52:13Z",
+  "seo": {
+    "title": "Bolo de banana na airfryer com farinha de trigo | Bebel",
+    "description": "Receita de bolo de banana na airfryer com farinha de trigo, canela e chocolate. Confira quantidades, preparo, utensílios e lista de compras."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 10,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "A referência indica 25 a 30 minutos a 160 °C, além do preparo. O ponto depende da forma e da airfryer; confira o centro antes de retirar.",
+    "ingredients": [
+      {
+        "id": "manteiga",
+        "name": "Manteiga derretida",
+        "quantity": 5,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar",
+        "quantity": 0.5,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "ovo",
+        "name": "Ovo",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "banana",
+        "name": "Banana madura",
+        "quantity": 2,
+        "unit": "unidades",
+        "note": "Amasse para incorporar à massa."
+      },
+      {
+        "id": "canela",
+        "name": "Canela em pó",
+        "quantity": 1,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "baunilha",
+        "name": "Extrato de baunilha",
+        "quantity": 1,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "trigo",
+        "name": "Farinha de trigo",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "id": "fermento",
+        "name": "Fermento químico em pó",
+        "quantity": 1,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "bicarbonato",
+        "name": "Bicarbonato de sódio",
+        "quantity": 1,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "chocolate",
+        "name": "Gotas de chocolate",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "manteiga-forma",
+        "name": "Manteiga para untar",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "forma",
+        "text": "Escolha uma forma própria para airfryer, com capacidade para a massa e espaço livre para crescer. Ela deve caber no cesto sem bloquear a circulação. Unte e siga o manual do aparelho para uso de papel manteiga."
+      },
+      {
+        "id": "preaquecer",
+        "text": "Preaqueça a airfryer a 160 °C conforme o manual. Amasse as bananas e deixe a manteiga derretida amornar."
+      },
+      {
+        "id": "liquidos",
+        "text": "Misture a manteiga com o açúcar. Junte o ovo, a banana amassada, a canela e a baunilha."
+      },
+      {
+        "id": "secos",
+        "text": "Peneire a farinha, o fermento e o bicarbonato. Incorpore à mistura sem bater em excesso e distribua as gotas de chocolate."
+      },
+      {
+        "id": "assar",
+        "text": "Transfira para a forma e asse a 160 °C. Comece a conferir próximo dos 25 minutos; a referência vai até 30 minutos, mas o aparelho e a forma mudam o tempo."
+      },
+      {
+        "id": "ponto",
+        "text": "Espete o centro: se houver massa crua, continue o cozimento e confira novamente. Deixe amornar antes de desenformar e fatiar."
+      }
+    ],
+    "equipment": [
+      "Airfryer",
+      "Forma própria para airfryer, com capacidade para a massa e espaço no cesto",
+      "Tigela, garfo e espátula",
+      "Peneira, balança e medidores",
+      "Palito e luvas térmicas"
+    ],
+    "tips": [
+      {
+        "title": "Trigo nesta receita",
+        "text": "Use os 200 g de farinha de trigo indicados. A versão com aveia exige outra formulação; não troque as farinhas mantendo todas as medidas."
+      },
+      {
+        "title": "Uma massa, uma forma adequada",
+        "text": "O rendimento é uma referência de 10 porções. Não dobre a massa na mesma forma: ela precisa de espaço para crescer e assar por dentro."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Depois de preparar",
+        "text": "Divida o que vai guardar em recipientes limpos e rasos. Refrigere prontamente, sem deixar a comida esperando por horas na bancada."
+      },
+      {
+        "title": "Para os próximos dias",
+        "text": "Mantenha a 4 °C ou menos e consuma em até 2 a 3 dias, seguindo a orientação geral de conservação de preparações prontas. Identifique a data."
+      },
+      {
+        "title": "Na hora de servir",
+        "text": "Sirva a fatia fria ou aqueça apenas a porção que vai consumir, usando recipiente adequado ao aparelho."
+      }
+    ],
+    "sourceNote": "Receita adaptada da referência de banana bread na airfryer. Imagem ilustrativa."
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental das medidas e do método; sem teste culinário",
+    "reviewedAt": "2026-11-02T20:52:13Z"
+  },
+  "editorialNotes": [
+    "Sem vídeo correspondente no acervo consultado; videoId null por autorização do usuário. Não usar vídeo de forno, panqueca ou Short como equivalente.",
+    "Legado bolo-de-banana é receita de forno com outra composição, preservada e não promovida. Sem correspondência entre as 22 refeições pagas.",
+    "Volume720/mês e ranking históricoReceiteria#9 reutilizados da pesquisa OpenSEO Nov2; não recomprados. SERP específica adicional consultada com Brasil2076/pt,depth10; mistura trigo/aveia e destinos redirecionados.",
+    "Fontes Nestlé acessíveis em resultado de busca com conteúdo completo; abertura direta403. Fonte de bolo de banana simples rejeitada: forma10cm sem temperatura clara. Muffin em oven e página airfryerfacil não usados como fórmula (métodos/ingredientes divergentes).",
+    "Ilustração gerada de banana bread com chocolate não comprova execução ou rendimento. A receita não contém alegações fit,semglúten ousem açúcar."
+  ],
+  "sources": [
+    {
+      "title": "Receitas Nestlé — banana bread na airfryer",
+      "url": "https://www.receitasnestle.com.br/receitas/receita-banana-bread-air-fryer",
+      "role": "Referência de ingredientes, rendimento e cozimento a 160 °C; conteúdo recuperado pela busca."
+    },
+    {
+      "title": "Panelinha — muffin de banana na Air Fryer Oven",
+      "url": "https://panelinha.com.br/receita/muffin-banana-airfryer-oven",
+      "role": "Consulta de técnica de mistura e limites de adaptação: forminhas/oven não definem tempo para bolo único."
+    },
+    {
+      "title": "Health Canada — cuidados com sobras",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Orientação geral de resfriamento e conservação refrigerada, sem validação de textura específica do bolo."
+    }
+  ]
+}

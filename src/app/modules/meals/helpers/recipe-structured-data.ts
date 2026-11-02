@@ -36,7 +36,16 @@ export function recipeStructuredData(recipe: PublicRecipe, servings = recipe.rec
         recipeIngredient: ingredients.map(item => `${item.name} — ${item.quantity === null ? item.unit : item.quantity.toLocaleString('pt-BR') + ' ' + item.unit}${item.note ? ' (' + item.note + ')' : ''}`),
         recipeInstructions: steps.map((step, index) => ({ '@type': 'HowToStep', name: `Passo ${index + 1}`, text: step.text, url: url + '#passo-' + step.id })),
         citation: recipe.sources?.map(source => source.url) ?? [],
+        ...(recipe.video && recipe.videoId ? { video: { '@id': url + '#video' } } : {}),
       },
+      ...(recipe.video && recipe.videoId ? [{
+        '@type': 'VideoObject', '@id': url + '#video',
+        name: recipe.video.name, description: recipe.video.description,
+        thumbnailUrl: [new URL(recipe.image.src, seo.origin + '/').href],
+        uploadDate: recipe.video.uploadDate, duration: recipe.video.duration,
+        embedUrl: 'https://www.youtube-nocookie.com/embed/' + encodeURIComponent(recipe.videoId),
+        contentUrl: 'https://www.youtube.com/watch?v=' + encodeURIComponent(recipe.videoId),
+      }] : []),
     ],
   };
 }

@@ -9,7 +9,9 @@
       <article class="dinner__recipe" aria-labelledby="recipe-title">
         <span class="dinner__eyebrow">Receita pesquisada · {{ servings() }} {{ servings() === 1 ? 'porção' : 'porções' }}</span>
         <div class="recipe-public__media" id="video">
-          @if (videoStarted()) {
+          @if (!recipe.videoId) {
+            <img [src]="recipe.image.src" [alt]="recipe.image.alt" width="1280" height="720" />
+          } @else if (videoStarted()) {
           <iframe [src]="videoUrl()" [title]="'Vídeo: ' + recipe.title" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>
           } @else {
             <button class="recipe-public__play" type="button" [attr.aria-label]="'Assistir ao vídeo: ' + recipe.title" (click)="videoStarted.set(true)"><img [src]="recipe.image.src" [alt]="recipe.image.alt" width="1280" height="720" /><span class="recipe-public__play-label"><span class="material-symbols-outlined" aria-hidden="true">play_arrow</span>Assistir ao preparo</span></button>
@@ -18,9 +20,9 @@
         <div class="dinner__recipe-content">
           <h1 id="recipe-title">{{ recipe.title }}</h1>
           <p>{{ recipe.description }}</p>
-          <a class="dinner__video-caption" [href]="'https://www.youtube.com/watch?v=' + recipe.videoId" target="_blank" rel="noopener noreferrer">Abrir vídeo no YouTube</a>
+          @if (recipe.videoId) { <a class="dinner__video-caption" [href]="'https://www.youtube.com/watch?v=' + recipe.videoId" target="_blank" rel="noopener noreferrer">Abrir vídeo no YouTube</a> }
           <div class="dinner__metadata">
-            <span><span class="material-symbols-outlined" aria-hidden="true">group</span>2 pessoas</span>
+            <span><span class="material-symbols-outlined" aria-hidden="true">group</span>{{ recipe.recipe.portions?.length ? '2 pessoas' : 'Rende ' + servings() + ' porções' }}</span>
             @if (servings() === recipe.recipe.yield.servings && recipe.recipe.times.totalMinutes) { <span><span class="material-symbols-outlined" aria-hidden="true">schedule</span>{{ recipe.recipe.times.totalMinutes }} min estimados</span> }
           </div>
           @if (recipe.recipe.portions; as portions) {
@@ -47,6 +49,9 @@
           @if ((recipe.recipe.tips?.length ?? 0) > 1) {
             <details class="dinner__video recipe-print-panel"><summary><span class="material-symbols-outlined" aria-hidden="true">restaurant</span>Mais dicas de preparo<span class="material-symbols-outlined dinner__video-chevron" aria-hidden="true">expand_more</span></summary><div class="recipe-public__details">@for (tip of recipe.recipe.tips?.slice(1) ?? []; track tip.title) { <h3>{{ tip.title }}</h3><p>{{ tip.text }}</p> }</div></details>
           }
+          @if (recipe.recipe.storage?.length) {
+            <details class="dinner__video recipe-print-panel" id="conservacao"><summary><span class="material-symbols-outlined" aria-hidden="true">kitchen</span>Como guardar e reaquecer<span class="material-symbols-outlined dinner__video-chevron" aria-hidden="true">expand_more</span></summary><div class="recipe-public__details">@for (item of recipe.recipe.storage; track item.title) { <h3>{{ item.title }}</h3><p>{{ item.text }}</p> }</div></details>
+          }
           @if (recipe.sources?.length) {
             <details class="dinner__video recipe-print-panel"><summary><span class="material-symbols-outlined" aria-hidden="true">menu_book</span>Fontes e referências<span class="material-symbols-outlined dinner__video-chevron" aria-hidden="true">expand_more</span></summary><div class="recipe-public__details"><p>{{ recipe.intro }}</p><ul class="dinner__equipment">@for (source of recipe.sources; track source.url) { <li><a [href]="source.url" target="_blank" rel="noopener noreferrer">{{ source.title }} (abre em outra aba)</a><span class="dinner__video-caption">{{ source.role }}</span></li> }</ul></div></details>
           }
@@ -54,7 +59,7 @@
         </div>
       </article>
       <section class="dinner__shopping" aria-labelledby="recipe-shopping-title">
-        <header class="dinner__shopping-header"><span class="material-symbols-outlined" aria-hidden="true">shopping_cart</span><div><h2 #shoppingHeading id="recipe-shopping-title" tabindex="-1">Compras desta receita</h2><p>2 pessoas · {{ servings() === 2 ? '1 refeição' : '2 refeições' }} · {{ servings() }} porções</p></div></header>
+        <header class="dinner__shopping-header"><span class="material-symbols-outlined" aria-hidden="true">shopping_cart</span><div><h2 #shoppingHeading id="recipe-shopping-title" tabindex="-1">Compras desta receita</h2><p>@if (recipe.recipe.portions?.length) { 2 pessoas · {{ servings() === 2 ? '1 refeição' : '2 refeições' }} · }{{ servings() }} porções</p></div></header>
         <p class="dinner__shopping-help">Marque o que já tem em casa ou colocou no carrinho. Pode desmarcar quando quiser.</p>
         <app-shopping-checklist [compactHeadings]="true" [items]="shoppingItems()" [idPrefix]="'public-' + recipe.id" (checkedChange)="toggle('ingredients', $event.item.id, $event.checked)" />
         <span class="dinner__progress" role="status">{{ resolvedShopping() }} de {{ shoppingItems().length }} itens resolvidos.</span>

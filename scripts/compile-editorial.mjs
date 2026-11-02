@@ -27,14 +27,15 @@ export function compileEditorial(manifest, load, channel, assetExists, now = Dat
     assert.equal(recipe.id, entry.id, 'ID divergente');
     assert.equal(recipe.slug, entry.slug, 'Slug divergente');
     assert.ok(text(recipe.title), entry.slug + ': título obrigatório');
-    assert.ok(longVideos.has(recipe.videoId), entry.slug + ': vincular vídeo longo existente, não Short');
+    assert.ok(recipe.videoId === null || longVideos.has(recipe.videoId), entry.slug + ': vincular vídeo longo existente, não Short');
+    assert.ok(!recipe.video || recipe.videoId !== null, entry.slug + ': metadados sem vídeo');
     assert.ok(Array.isArray(recipe.categoryIds) && recipe.categoryIds.length > 0 && recipe.categoryIds.every(id => categories.has(id)), entry.slug + ': categoria desconhecida');
     unique(recipe.categoryIds, 'Categorias da receita');
     return { entry, recipe };
   });
   unique(records.map(({ recipe }) => recipe.id), 'IDs');
   unique(records.map(({ recipe }) => recipe.slug), 'Slugs');
-  unique(records.map(({ recipe }) => recipe.videoId), 'Vídeos longos');
+  unique(records.map(({ recipe }) => recipe.videoId).filter(id => id !== null), 'Vídeos longos');
   const recipes = [];
   for (const { entry, recipe } of records) {
     if (entry.status !== 'published') continue;
@@ -64,6 +65,10 @@ export function compileEditorial(manifest, load, channel, assetExists, now = Dat
     }
     if (body.equipment) assert.ok(Array.isArray(body.equipment) && body.equipment.every(text), label + 'utensílios inválidos');
     if (body.tips) assert.ok(Array.isArray(body.tips) && body.tips.every(tip => text(tip.title) && text(tip.text)), label + 'dicas inválidas');
+    if (recipe.video) {
+      assert.ok(text(recipe.video.name) && text(recipe.video.description) && /^\d{4}-\d{2}-\d{2}$/.test(recipe.video.uploadDate) && new Date(recipe.video.uploadDate).toISOString().slice(0,10) === recipe.video.uploadDate && Date.parse(recipe.video.uploadDate) <= now && /^PT(?=\d)(?:\d+H)?(?:\d+M)?(?:\d+S)?$/.test(recipe.video.duration), label + 'metadados de vídeo inválidos');
+    }
+    if (body.storage) assert.ok(Array.isArray(body.storage) && body.storage.length > 0 && body.storage.every(item => text(item.title) && text(item.text)), label + 'conservação inválida');
     if (body.portions) {
       assert.ok(Array.isArray(body.portions) && body.portions.some(portion => portion.servings === body.yield.servings), label + 'porção base ausente');
       unique(body.portions.map(portion => portion.servings), label + 'porções');
@@ -86,6 +91,7 @@ export function compileEditorial(manifest, load, channel, assetExists, now = Dat
     // Lista explícita: notas internas, revisão e rascunhos nunca entram no pacote público.
     recipes.push({ id, slug, title, description, intro, categoryIds, videoId,
       image: { src: image.src, alt: image.alt }, publishedAt, updatedAt,
+      ...(recipe.video ? { video: { name: recipe.video.name, description: recipe.video.description, uploadDate: recipe.video.uploadDate, duration: recipe.video.duration } } : {}),
       seo: { title: seo.title, description: seo.description },
       ...(recipe.sources ? { sources: recipe.sources.map(({ title, url, role }) => ({ title, url, role })) } : {}),
       recipe: {
@@ -95,6 +101,7 @@ export function compileEditorial(manifest, load, channel, assetExists, now = Dat
         ...(text(body.sourceNote) ? { sourceNote: body.sourceNote } : {}),
         ...(body.equipment ? { equipment: [...body.equipment] } : {}),
         ...(body.tips ? { tips: body.tips.map(({ title, text }) => ({ title, text })) } : {}),
+        ...(body.storage ? { storage: body.storage.map(({ title, text }) => ({ title, text })) } : {}),
         ...(body.portions ? { portions: body.portions.map(({ servings, note, equipment, ingredientOverrides, stepOverrides }) => ({ servings, note, ...(equipment ? { equipment: [...equipment] } : {}), ingredientOverrides: ingredientOverrides.map(({ id, quantity, unit, note }) => ({ id, quantity, ...(unit ? { unit } : {}), ...(note ? { note } : {}) })), stepOverrides: stepOverrides.map(({ id, text }) => ({ id, text })) })) } : {}),
         ingredients: body.ingredients.map(({ id, name, quantity, unit, note, section, shopping }) => ({ id, name, quantity, unit, ...(shopping === false ? { shopping: false } : {}), ...(text(note) ? { note } : {}), ...(text(section) ? { section } : {}) })),
         steps: body.steps.map(({ id, text: stepText, section }) => ({ id, text: stepText, ...(text(section) ? { section } : {}) })),

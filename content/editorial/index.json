@@ -44,8 +44,14 @@
     {
       "id": "abobrinha-recheada-com-carne-moida",
       "slug": "abobrinha-recheada-com-carne-moida",
-      "status": "draft",
+      "status": "published",
       "file": "recipes/abobrinha-recheada-com-carne-moida.json"
+    },
+    {
+      "id": "bolo-de-banana-na-airfryer-com-farinha-de-trigo",
+      "slug": "bolo-de-banana-na-airfryer-com-farinha-de-trigo",
+      "status": "published",
+      "file": "recipes/bolo-de-banana-na-airfryer-com-farinha-de-trigo.json"
     }
   ]
 }

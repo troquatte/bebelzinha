@@ -29,7 +29,8 @@ for (const entry of manifest.recipes) {
   assert.equal(document.title, recipe.seo.title);
   assert.equal(document.querySelector('meta[name="description"]')?.content, recipe.seo.description);
   assert.ok(document.querySelector('h1')?.textContent.includes(recipe.title));
-  assert.ok(html.includes(recipe.videoId), 'Vídeo da publicação ausente');
+  if (recipe.videoId) assert.ok(html.includes(recipe.videoId), 'Vídeo da publicação ausente');
+  else assert.equal(document.querySelectorAll('.recipe-public__play, .recipe-public__media iframe').length, 0, 'Receita sem vídeo não deve fingir player');
   assert.equal(document.querySelectorAll('.dinner__steps input[type="checkbox"]').length, recipe.recipe.steps.length, 'Checklist de preparo incompleto');
   assert.equal(document.querySelectorAll('[role="switch"]').length, recipe.recipe.ingredients.filter(item => item.shopping !== false).length, 'Compras incompletas');
   assert.ok(document.querySelector('.dinner__recipe #recipe-title'), 'Título precisa estar dentro do card da receita');
@@ -39,13 +40,14 @@ for (const entry of manifest.recipes) {
   if (recipe.recipe.sourceNote) assert.ok(!document.body.textContent.includes(recipe.recipe.sourceNote), 'Parágrafo removido não deve aparecer');
   assert.equal(document.querySelectorAll('input[type="checkbox"][checked], [role="switch"][aria-checked="true"]').length, 0, 'HTML não pode distribuir marcações pessoais');
   assert.equal(document.querySelectorAll('iframe').length, 0, 'Não carregar YouTube antes do clique');
-  assert.ok(document.querySelector('.recipe-public__media button.recipe-public__play img'), 'Capa/play devem ocupar o topo do card');
+  assert.ok(document.querySelector(recipe.videoId ? '.recipe-public__media button.recipe-public__play img' : '.recipe-public__media > img'), 'Imagem ou capa/play deve ocupar o topo do card');
   assert.ok(!document.querySelector('details#video'), 'Remover seção duplicada de vídeo');
   for (const item of recipe.recipe.ingredients) assert.ok(document.body.textContent.includes(item.name), 'Ingrediente ausente: ' + item.id);
   for (const step of recipe.recipe.steps) assert.ok(document.body.textContent.includes(step.text), 'Passo ausente: ' + step.id);
   for (const source of recipe.sources ?? []) assert.ok([...document.querySelectorAll('a')].some(link => link.href === source.url), 'Fonte não exibida');
   for (const item of recipe.recipe.equipment ?? []) assert.ok(document.body.textContent.includes(item), 'Utensílio ausente');
   for (const tip of recipe.recipe.tips ?? []) assert.ok(document.body.textContent.includes(tip.text), 'Orientação ausente');
+  for (const item of recipe.recipe.storage ?? []) assert.ok(document.body.textContent.includes(item.text), 'Conservação ausente');
   assert.ok(sitemap.includes(pageUrl('/comidinhas/' + entry.slug)), 'Receita publicada fora do sitemap');
 }
 
@@ -103,3 +105,15 @@ if (lemon) {
 console.log('Complementos validados: fontes HTTPS, variantes e preparo coerentes.');
 
 assert.throws(() => run('published', recipe => { recipe.sources = []; }), /fontes obrigatórias/);
+
+// Conservação editorial deve atravessar o compilador sem notas internas.
+assert.deepEqual(run('published', recipe => { recipe.recipe.storage = [{title:'Guardar', text:'Orientação conferida', internalNote:'Não distribuir'}]; }).recipes[0].recipe.storage, [{title:'Guardar', text:'Orientação conferida'}]);
+assert.throws(() => run('published', recipe => { recipe.recipe.storage = [{title:'Guardar', text:''}]; }), /conservação inválida/);
+
+const videoFixture = {name:'Vídeo conferido',description:'Descrição conferida',uploadDate:'2026-01-01',duration:'PT3M29S'};
+assert.deepEqual(run('published', recipe => { recipe.video = {...videoFixture, internal:'Não distribuir'}; }).recipes[0].video, videoFixture);
+assert.throws(() => run('published', recipe => { recipe.video = {...videoFixture, uploadDate:'2099-01-01'}; }), /metadados de vídeo/);
+assert.throws(() => run('published', recipe => { recipe.video = {...videoFixture, duration:'3:29'}; }), /metadados de vídeo/);
+
+assert.equal(run('published', recipe => { recipe.videoId = null; }).recipes[0].videoId, null);
+assert.throws(() => run('published', recipe => { recipe.videoId = null; recipe.video = videoFixture; }), /metadados sem vídeo/);
