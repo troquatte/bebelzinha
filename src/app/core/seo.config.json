@@ -1,0 +1,57 @@
+{
+  "origin": "https://bebelzinha.com.br",
+  "image": "/images/bebel/bebel-roxa.jpg",
+  "privatePaths": [
+    "/compras",
+    "/jantar-resolvido",
+    "/produtos/refeicao-resolvida/acessar",
+    "/produtos/refeicao-resolvida/teste-a",
+    "/produtos/refeicao-resolvida/teste-b"
+  ],
+  "shells": [
+    {
+      "path": "/",
+      "title": "Bebel - Sua casa mais leve",
+      "description": "A Bebel ajuda você a organizar a vida de casa com receitas, listas de compras e ideias práticas sem complicação.",
+      "indexable": true
+    },
+    {
+      "path": "/produtos/refeicao-resolvida",
+      "title": "Refeição Resolvida | 22 refeições caseiras com a Bebel",
+      "description": "Escolha entre 22 refeições caseiras. Ingredientes, porções e lista de compras organizados no celular, por R$ 27,00 em pagamento único.",
+      "indexable": true
+    },
+    {
+      "path": "/compras",
+      "title": "Lista de compras da Bebel - Organize o mercado sem complicação",
+      "description": "Crie suas listas de compras e marque o que já foi para o carrinho.",
+      "indexable": false
+    },
+    {
+      "path": "/jantar-resolvido",
+      "title": "Refeição Resolvida | Bebelzinha",
+      "description": "Acesse suas refeições e listas de compras.",
+      "indexable": false
+    },
+    {
+      "path": "/produtos/refeicao-resolvida/acessar",
+      "title": "Acessar Refeição Resolvida | Bebelzinha",
+      "description": "Informe seu código para acessar o Refeição Resolvida.",
+      "indexable": false
+    },
+    {
+      "path": "/produtos/refeicao-resolvida/teste-a",
+      "canonical": "/produtos/refeicao-resolvida",
+      "title": "Refeição Resolvida | 22 refeições caseiras com a Bebel",
+      "description": "Conheça o Refeição Resolvida da Bebel.",
+      "indexable": false
+    },
+    {
+      "path": "/produtos/refeicao-resolvida/teste-b",
+      "canonical": "/produtos/refeicao-resolvida",
+      "title": "Refeição Resolvida | 22 refeições caseiras com a Bebel",
+      "description": "Conheça o Refeição Resolvida da Bebel.",
+      "indexable": false
+    }
+  ]
+}

@@ -4,6 +4,7 @@ import { ActivatedRoute, RouterLink } from '@angular/router';
 import { AnalyticsService } from '../../../core/analytics.service';
 import { SeoService } from '../../../core/seo.service';
 import { MEAL_PRODUCT } from '../data/meal-product.config';
+import { publicRecipeSource } from '../data/recipe-attribution';
 import { salesCampaign } from '../data/sales-campaign';
 import { ProductAccessService } from '../service/product-access.service';
 import { SALES_EXPERIMENT_ID, SALES_VARIANT_STORAGE_KEY, checkoutUrlForVariant, resolveSalesVariant, SalesVariant } from '../service/sales-experiment';
@@ -67,6 +68,8 @@ export class ProductsComponent {
         const value = params.get(key)?.trim();
         if (value) this.campaignParams[key] = value.slice(0, 100);
       }
+      const sourceRecipe = publicRecipeSource(params.get('receita'));
+      if (sourceRecipe) this.campaignParams['source_recipe'] = sourceRecipe;
       this.analytics.track('ProductSalesView', this.campaignParams);
     });
     inject(SeoService).update({

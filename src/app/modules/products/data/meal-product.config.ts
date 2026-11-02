@@ -1,6 +1,8 @@
 // Configuração pública do protótipo. O código é uma barreira local, sem validação de compra.
 export const MEAL_PRODUCT = {
   id: 'refeicao-resolvida',
+  name: 'Refeição Resolvida',
+  salesPath: '/produtos/refeicao-resolvida',
   accessVersion: 1,
   price: 'R$ 27,00',
   checkoutUrl: 'https://pay.hotmart.com/N108248127W?bid=1793286828627',

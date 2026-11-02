@@ -1,148 +1,35 @@
 <section class="meals-page" aria-labelledby="meals-title">
   <app-bebel-hero
     variant="meals"
-    eyebrow="Canal da Bebel"
-    title="Vídeos da Bebel"
+    eyebrow="Blog da Bebel"
+    title="Receitas da Bebel"
     titleId="meals-title"
-    subtitle="Dicas rápidas e práticas pra te ajudar na cozinha e na rotina de casa. Dá uma olhada e, se gostar, se inscreve no canal."
-    speech="Bora assistir? 💜"
+    subtitle="Escolha por categoria. Cada receita tem ingredientes, porções, modo de preparo e uma lista para marcar o que você já tem."
+    speech="Bora pra cozinha? 💜"
   ></app-bebel-hero>
 
-  <section class="canal-section" aria-labelledby="videos-title">
-    <div class="section-heading section-heading--between">
-      <div class="section-heading__left">
-        <span class="section-heading__eyebrow">Assiste aí</span>
-        <h2 id="videos-title">Vídeos</h2>
-      </div>
-      @if (channelUrl(); as url) {
-        <a class="canal-button canal-button--compact" [href]="url" target="_blank" rel="noopener noreferrer">
-          <span class="material-symbols-outlined" aria-hidden="true">smart_display</span>
-          Veja no canal
-        </a>
-      }
-    </div>
-
-    @if (loading()) {
-      <p class="canal-status">Só um instante, tô buscando os vídeos…</p>
-    } @else if (error()) {
-      <p class="canal-status">
-        Não consegui carregar os vídeos agora. Tenta de novo daqui a pouco.
-      </p>
-    } @else if (videos().length === 0) {
-      <p class="canal-status">
-        Ainda tô preparando os vídeos por aqui. Enquanto isso, dá uma passadinha no canal. 💜
-      </p>
-      @if (channelUrl(); as url) {
-        <a class="canal-button" [href]="url" target="_blank" rel="noopener noreferrer">
-          <span class="material-symbols-outlined" aria-hidden="true">smart_display</span>
-          Veja mais no canal
-        </a>
-      }
-    } @else {
-      <div class="video-grid">
-        @for (video of videos(); track video.id) {
-          <a
-            class="video-card"
-            [href]="videoUrl(video.id)"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <span class="video-card__thumb">
-              <img
-                [src]="thumbnail(video.id, video.thumbnail)"
-                [alt]="video.title"
-                loading="lazy"
-              />
-              <span class="video-card__play material-symbols-outlined" aria-hidden="true"
-                >play_circle</span
-              >
-            </span>
-            <strong class="video-card__title">{{ video.title }}</strong>
-          </a>
-        }
-        @if (channelUrl(); as url) {
-          <a
-            class="video-card video-card--button"
-            [href]="url"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <span class="video-card__button-content">
-              <span class="material-symbols-outlined" aria-hidden="true">smart_display</span>
-              <span>Veja mais no canal</span>
-            </span>
-          </a>
-        }
-      </div>
-    }
-  </section>
-
-  <section class="canal-section" aria-labelledby="shorts-title">
-    <div class="section-heading section-heading--between">
-      <div class="section-heading__left">
-        <span class="section-heading__eyebrow">Rapidinhos</span>
-        <h2 id="shorts-title">Shorts</h2>
-      </div>
-      @if (channelUrl(); as url) {
-        <a class="canal-button canal-button--compact" [href]="url" target="_blank" rel="noopener noreferrer">
-          <span class="material-symbols-outlined" aria-hidden="true">smart_display</span>
-          Veja no canal
-        </a>
-      }
-    </div>
-
-    @if (loading()) {
-      <p class="canal-status">Só um instante, tô buscando os shorts…</p>
-    } @else if (error()) {
-      <p class="canal-status">
-        Não consegui carregar os shorts agora. Tenta de novo daqui a pouco.
-      </p>
-    } @else if (shortGroups().length === 0) {
-      <p class="canal-status">Os shorts ainda estão vindo. Já já tem novidade por aqui. 💜</p>
-      @if (channelUrl(); as url) {
-        <a class="canal-button" [href]="url" target="_blank" rel="noopener noreferrer">
-          <span class="material-symbols-outlined" aria-hidden="true">smart_display</span>
-          Veja mais no canal
-        </a>
-      }
-    } @else {
-      @for (group of shortGroups(); track group.category) {
-        <div class="shorts-group">
-          <h3 class="shorts-group__title">{{ group.category }}</h3>
-          <div class="shorts-grid">
-            @for (short of group.shorts; track short.id) {
-              <a
-                class="short-card"
-                [href]="shortUrl(short.id)"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span class="short-card__thumb">
-                  <img
-                    [src]="thumbnail(short.id, short.thumbnail)"
-                    [alt]="short.title"
+  @if (recipeGroups.length) {
+    <section class="canal-section" aria-labelledby="recipes-title">
+      @for (group of recipeGroups; track group.id) {
+        <section class="recipe-group" [attr.aria-labelledby]="'category-' + group.id">
+          <h3 class="recipe-group__title" [id]="'category-' + group.id">{{ group.label }}</h3>
+          <div class="recipe-grid">
+            @for (recipe of group.recipes; track recipe.id) {
+              <a class="recipe-card" [routerLink]="recipePath(recipe.slug)">
+                <span class="recipe-card__thumb"
+                  ><img
+                    [src]="recipe.image.src"
+                    [alt]="recipe.image.alt"
+                    width="1280"
+                    height="720"
                     loading="lazy"
-                  />
-                </span>
-                <strong class="short-card__title">{{ short.title }}</strong>
-              </a>
-            }
-            @if (channelUrl(); as url) {
-              <a
-                class="short-card short-card--button"
-                [href]="url"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span class="short-card__button-content">
-                  <span class="material-symbols-outlined" aria-hidden="true">smart_display</span>
-                  <span>Veja mais no canal</span>
-                </span>
+                /></span>
+                <strong class="recipe-card__title">{{ recipe.title }}</strong>
               </a>
             }
           </div>
-        </div>
+        </section>
       }
-    }
-  </section>
+    </section>
+  }
 </section>

@@ -1,0 +1,31 @@
+@use '../../../../shared/styles/recipe-layout';
+
+:host { background: var(--bebel-background); }
+.recipe-public__back { margin-bottom: 1rem; }
+.recipe-public a { color: var(--bebel-primary-strong); text-decoration: underline; text-underline-offset: .2em; overflow-wrap: anywhere; }
+.recipe-public .dinner__hero { margin-bottom: 1.25rem; border-color: var(--bebel-border); }
+.recipe-public .dinner__signature, .recipe-public .dinner__hero p { color: var(--bebel-text-soft); }
+.recipe-public__brand { display: block; color: var(--bebel-primary-strong); font-size: 2.375rem; line-height: 1.2; }
+.recipe-public .dinner__recipe h1 { color: var(--bebel-primary-strong); }
+.recipe-public__photo { aspect-ratio: 16 / 9; object-fit: contain; }
+.recipe-public .dinner__meal-mode { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.recipe-public .dinner__section h2 { font-size: 1.125rem; line-height: 1.2; }
+.recipe-public .dinner__shopping h2 { font-size: 1.25rem; }
+.recipe-public__details { padding: .75rem; }
+.recipe-public__details h3 { margin-top: .8rem; }
+.recipe-public :focus-visible { outline: 3px solid var(--bebel-orange); outline-offset: 3px; }
+@media print {
+  .recipe-public__back, .recipe-public__brand, .recipe-public .dinner__shopping, .recipe-public #video { display: none !important; }
+  .recipe-public .dinner__recipe h1 { font-size: 20pt; color: #111; }
+}
+
+#recipe-shopping-title { scroll-margin-top: 1rem; }
+
+.recipe-public__media { width: 100%; aspect-ratio: 16 / 9; overflow: hidden; background: var(--bebel-primary-soft); }
+.recipe-public__media iframe { display: block; width: 100%; height: 100%; border: 0; }
+@media (max-width: 50rem) { .recipe-public__brand { font-size: 1.375rem; } }
+
+@media (min-width: 52rem) and (max-width: 74rem) { .recipe-public .dinner__layout { grid-template-columns: minmax(0, 1fr); } }
+
+.recipe-breadcrumb ol { display: flex; gap: .4rem .6rem; flex-wrap: wrap; list-style: none; padding: 0; margin: 0; font-size: .8rem; color: var(--bebel-text-soft); }
+.recipe-breadcrumb li + li::before { content: "/"; padding-right: .6rem; }

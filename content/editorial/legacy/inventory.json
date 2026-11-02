@@ -1,0 +1,344 @@
+[
+  {
+    "slug": "arroz-carreteiro-simples",
+    "title": "Arroz carreteiro simples",
+    "source": "content/editorial/legacy/arroz-carreteiro-simples.json",
+    "previousPath": "/comidinhas/arroz-carreteiro-simples/",
+    "status": "legacy-unreviewed",
+    "imageExists": true,
+    "ingredientCount": 5,
+    "stepCount": 3,
+    "blockers": [
+      "Sem vínculo confirmado com vídeo longo",
+      "Sem revisão editorial/culinária e datas de publicação",
+      "Sem metadados e contrato de publicação atual"
+    ],
+    "notes": []
+  },
+  {
+    "slug": "arroz-com-lentilha",
+    "title": "Arroz com lentilha da panela",
+    "source": "content/editorial/legacy/arroz-com-lentilha.json",
+    "previousPath": "/comidinhas/arroz-com-lentilha/",
+    "status": "legacy-unreviewed",
+    "imageExists": true,
+    "ingredientCount": 5,
+    "stepCount": 3,
+    "blockers": [
+      "Sem vínculo confirmado com vídeo longo",
+      "Sem revisão editorial/culinária e datas de publicação",
+      "Sem metadados e contrato de publicação atual"
+    ],
+    "notes": []
+  },
+  {
+    "slug": "arroz-de-forno",
+    "title": "Arroz de forno da Bebel",
+    "source": "content/editorial/legacy/arroz-de-forno.json",
+    "previousPath": "/comidinhas/arroz-de-forno/",
+    "status": "legacy-unreviewed",
+    "imageExists": true,
+    "ingredientCount": 5,
+    "stepCount": 3,
+    "blockers": [
+      "Sem vínculo confirmado com vídeo longo",
+      "Sem revisão editorial/culinária e datas de publicação",
+      "Sem metadados e contrato de publicação atual"
+    ],
+    "notes": [
+      "Legado contém frango; vídeo atual é arroz de forno com legumes. Não assumir equivalência."
+    ]
+  },
+  {
+    "slug": "bolo-de-banana",
+    "title": "Bolo de banana sem frescura",
+    "source": "content/editorial/legacy/bolo-de-banana.json",
+    "previousPath": "/comidinhas/bolo-de-banana/",
+    "status": "legacy-unreviewed",
+    "imageExists": true,
+    "ingredientCount": 5,
+    "stepCount": 3,
+    "blockers": [
+      "Sem vínculo confirmado com vídeo longo",
+      "Sem revisão editorial/culinária e datas de publicação",
+      "Sem metadados e contrato de publicação atual"
+    ],
+    "notes": []
+  },
+  {
+    "slug": "bolo-de-cenoura",
+    "title": "Bolo de cenoura com chocolate",
+    "source": "content/editorial/legacy/bolo-de-cenoura.json",
+    "previousPath": "/comidinhas/bolo-de-cenoura/",
+    "status": "legacy-unreviewed",
+    "imageExists": true,
+    "ingredientCount": 5,
+    "stepCount": 3,
+    "blockers": [
+      "Sem vínculo confirmado com vídeo longo",
+      "Sem revisão editorial/culinária e datas de publicação",
+      "Sem metadados e contrato de publicação atual"
+    ],
+    "notes": [
+      "Preparo cita açúcar e fermento sem quantidades na lista de ingredientes."
+    ]
+  },
+  {
+    "slug": "brigadeiro-de-panela",
+    "title": "Brigadeiro de panela",
+    "source": "content/editorial/legacy/brigadeiro-de-panela.json",
+    "previousPath": "/comidinhas/brigadeiro-de-panela/",
+    "status": "legacy-unreviewed",
+    "imageExists": true,
+    "ingredientCount": 3,
+    "stepCount": 3,
+    "blockers": [
+      "Sem vínculo confirmado com vídeo longo",
+      "Sem revisão editorial/culinária e datas de publicação",
+      "Sem metadados e contrato de publicação atual"
+    ],
+    "notes": []
+  },
+  {
+    "slug": "carne-moida-com-batata",
+    "title": "Carne moída com batata",
+    "source": "content/editorial/legacy/carne-moida-com-batata.json",
+    "previousPath": "/comidinhas/carne-moida-com-batata/",
+    "status": "legacy-unreviewed",
+    "imageExists": true,
+    "ingredientCount": 5,
+    "stepCount": 3,
+    "blockers": [
+      "Sem vínculo confirmado com vídeo longo",
+      "Sem revisão editorial/culinária e datas de publicação",
+      "Sem metadados e contrato de publicação atual"
+    ],
+    "notes": []
+  },
+  {
+    "slug": "cuscuz-com-ovo",
+    "title": "Cuscuz com ovo",
+    "source": "content/editorial/legacy/cuscuz-com-ovo.json",
+    "previousPath": "/comidinhas/cuscuz-com-ovo/",
+    "status": "legacy-unreviewed",
+    "imageExists": true,
+    "ingredientCount": 5,
+    "stepCount": 3,
+    "blockers": [
+      "Sem vínculo confirmado com vídeo longo",
+      "Sem revisão editorial/culinária e datas de publicação",
+      "Sem metadados e contrato de publicação atual"
+    ],
+    "notes": []
+  },
+  {
+    "slug": "escondidinho-de-carne-moida",
+    "title": "Escondidinho de carne moída",
+    "source": "content/editorial/legacy/escondidinho-de-carne-moida.json",
+    "previousPath": "/comidinhas/escondidinho-de-carne-moida/",
+    "status": "legacy-unreviewed",
+    "imageExists": true,
+    "ingredientCount": 5,
+    "stepCount": 3,
+    "blockers": [
+      "Sem vínculo confirmado com vídeo longo",
+      "Sem revisão editorial/culinária e datas de publicação",
+      "Sem metadados e contrato de publicação atual"
+    ],
+    "notes": []
+  },
+  {
+    "slug": "frango-com-batata-na-assadeira",
+    "title": "Frango com batata na assadeira",
+    "source": "content/editorial/legacy/frango-com-batata-na-assadeira.json",
+    "previousPath": "/comidinhas/frango-com-batata-na-assadeira/",
+    "status": "legacy-unreviewed",
+    "imageExists": true,
+    "ingredientCount": 5,
+    "stepCount": 3,
+    "blockers": [
+      "Sem vínculo confirmado com vídeo longo",
+      "Sem revisão editorial/culinária e datas de publicação",
+      "Sem metadados e contrato de publicação atual"
+    ],
+    "notes": []
+  },
+  {
+    "slug": "frango-cremoso",
+    "title": "Frango cremoso de panela",
+    "source": "content/editorial/legacy/frango-cremoso.json",
+    "previousPath": "/comidinhas/frango-cremoso/",
+    "status": "legacy-unreviewed",
+    "imageExists": true,
+    "ingredientCount": 5,
+    "stepCount": 3,
+    "blockers": [
+      "Sem vínculo confirmado com vídeo longo",
+      "Sem revisão editorial/culinária e datas de publicação",
+      "Sem metadados e contrato de publicação atual"
+    ],
+    "notes": []
+  },
+  {
+    "slug": "macarrao-de-panela",
+    "title": "Macarrão de uma panela só",
+    "source": "content/editorial/legacy/macarrao-de-panela.json",
+    "previousPath": "/comidinhas/macarrao-de-panela/",
+    "status": "legacy-unreviewed",
+    "imageExists": true,
+    "ingredientCount": 5,
+    "stepCount": 3,
+    "blockers": [
+      "Sem vínculo confirmado com vídeo longo",
+      "Sem revisão editorial/culinária e datas de publicação",
+      "Sem metadados e contrato de publicação atual"
+    ],
+    "notes": []
+  },
+  {
+    "slug": "mousse-de-limao",
+    "title": "Mousse de limão rapidinha",
+    "source": "content/editorial/legacy/mousse-de-limao.json",
+    "previousPath": "/comidinhas/mousse-de-limao/",
+    "status": "legacy-unreviewed",
+    "imageExists": true,
+    "ingredientCount": 4,
+    "stepCount": 3,
+    "blockers": [
+      "Sem vínculo confirmado com vídeo longo",
+      "Sem revisão editorial/culinária e datas de publicação",
+      "Sem metadados e contrato de publicação atual"
+    ],
+    "notes": []
+  },
+  {
+    "slug": "omelete-de-forno",
+    "title": "Omelete de forno que rende",
+    "source": "content/editorial/legacy/omelete-de-forno.json",
+    "previousPath": "/comidinhas/omelete-de-forno/",
+    "status": "legacy-unreviewed",
+    "imageExists": true,
+    "ingredientCount": 5,
+    "stepCount": 3,
+    "blockers": [
+      "Sem vínculo confirmado com vídeo longo",
+      "Sem revisão editorial/culinária e datas de publicação",
+      "Sem metadados e contrato de publicação atual"
+    ],
+    "notes": []
+  },
+  {
+    "slug": "panqueca-de-banana",
+    "title": "Panqueca de banana de frigideira",
+    "source": "content/editorial/legacy/panqueca-de-banana.json",
+    "previousPath": "/comidinhas/panqueca-de-banana/",
+    "status": "legacy-unreviewed",
+    "imageExists": true,
+    "ingredientCount": 4,
+    "stepCount": 3,
+    "blockers": [
+      "Sem vínculo confirmado com vídeo longo",
+      "Sem revisão editorial/culinária e datas de publicação",
+      "Sem metadados e contrato de publicação atual"
+    ],
+    "notes": []
+  },
+  {
+    "slug": "pao-de-frigideira",
+    "title": "Pão de frigideira da Bebel",
+    "source": "content/editorial/legacy/pao-de-frigideira.json",
+    "previousPath": "/comidinhas/pao-de-frigideira/",
+    "status": "legacy-unreviewed",
+    "imageExists": true,
+    "ingredientCount": 5,
+    "stepCount": 3,
+    "blockers": [
+      "Sem vínculo confirmado com vídeo longo",
+      "Sem revisão editorial/culinária e datas de publicação",
+      "Sem metadados e contrato de publicação atual"
+    ],
+    "notes": []
+  },
+  {
+    "slug": "pastel-de-forno-de-queijo",
+    "title": "Pastel de forno de queijo",
+    "source": "content/editorial/legacy/pastel-de-forno-de-queijo.json",
+    "previousPath": "/comidinhas/pastel-de-forno-de-queijo/",
+    "status": "legacy-unreviewed",
+    "imageExists": true,
+    "ingredientCount": 5,
+    "stepCount": 3,
+    "blockers": [
+      "Sem vínculo confirmado com vídeo longo",
+      "Sem revisão editorial/culinária e datas de publicação",
+      "Sem metadados e contrato de publicação atual"
+    ],
+    "notes": []
+  },
+  {
+    "slug": "salada-de-macarrao",
+    "title": "Salada de macarrão cremosa",
+    "source": "content/editorial/legacy/salada-de-macarrao.json",
+    "previousPath": "/comidinhas/salada-de-macarrao/",
+    "status": "legacy-unreviewed",
+    "imageExists": true,
+    "ingredientCount": 5,
+    "stepCount": 3,
+    "blockers": [
+      "Sem vínculo confirmado com vídeo longo",
+      "Sem revisão editorial/culinária e datas de publicação",
+      "Sem metadados e contrato de publicação atual"
+    ],
+    "notes": []
+  },
+  {
+    "slug": "sopa-de-legumes-com-frango",
+    "title": "Sopa de legumes com frango",
+    "source": "content/editorial/legacy/sopa-de-legumes-com-frango.json",
+    "previousPath": "/comidinhas/sopa-de-legumes-com-frango/",
+    "status": "legacy-unreviewed",
+    "imageExists": true,
+    "ingredientCount": 5,
+    "stepCount": 3,
+    "blockers": [
+      "Sem vínculo confirmado com vídeo longo",
+      "Sem revisão editorial/culinária e datas de publicação",
+      "Sem metadados e contrato de publicação atual"
+    ],
+    "notes": []
+  },
+  {
+    "slug": "strogonoff-de-frango",
+    "title": "Strogonoff de frango simples",
+    "source": "content/editorial/legacy/strogonoff-de-frango.json",
+    "previousPath": "/comidinhas/strogonoff-de-frango/",
+    "status": "legacy-unreviewed",
+    "imageExists": true,
+    "ingredientCount": 5,
+    "stepCount": 3,
+    "blockers": [
+      "Sem vínculo confirmado com vídeo longo",
+      "Sem revisão editorial/culinária e datas de publicação",
+      "Sem metadados e contrato de publicação atual"
+    ],
+    "notes": [
+      "Não vincular ao vídeo de creme de leite fresco sem conferir ingredientes e técnica."
+    ]
+  },
+  {
+    "slug": "torta-de-liquidificador-de-legumes",
+    "title": "Torta de liquidificador de legumes",
+    "source": "content/editorial/legacy/torta-de-liquidificador-de-legumes.json",
+    "previousPath": "/comidinhas/torta-de-liquidificador-de-legumes/",
+    "status": "legacy-unreviewed",
+    "imageExists": true,
+    "ingredientCount": 5,
+    "stepCount": 3,
+    "blockers": [
+      "Sem vínculo confirmado com vídeo longo",
+      "Sem revisão editorial/culinária e datas de publicação",
+      "Sem metadados e contrato de publicação atual"
+    ],
+    "notes": []
+  }
+]
