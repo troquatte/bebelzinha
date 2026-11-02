@@ -30,7 +30,7 @@ export class App {
   );
 
 
-  readonly isRecipePage = computed(() => /^\/comidinhas\/[^/]+/.test(this.url().split(/[?#]/)[0]));
+  readonly isRecipePage = computed(() => /^\/comidinhas\/[^/]+\/?$/.test(this.url().split(/[?#]/)[0]));
 
   readonly isLanding = computed(() => {
     const url = this.url();

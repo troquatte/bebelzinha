@@ -1,35 +1,48 @@
-<section class="meals-page" aria-labelledby="meals-title">
-  <app-bebel-hero
-    variant="meals"
-    eyebrow="Blog da Bebel"
-    title="Receitas da Bebel"
-    titleId="meals-title"
-    subtitle="Escolha por categoria. Cada receita tem ingredientes, porções, modo de preparo e uma lista para marcar o que você já tem."
-    speech="Bora pra cozinha? 💜"
-  ></app-bebel-hero>
-
-  @if (recipeGroups.length) {
+@if (result().valid) {
+  <section class="meals-page" aria-labelledby="meals-title">
+    <app-bebel-hero variant="meals" eyebrow="Blog da Bebel" title="Receitas da Bebel" titleId="meals-title" subtitle="Escolha por categoria. Cada receita tem ingredientes, porções, modo de preparo e uma lista para marcar o que você já tem." speech="Bora pra cozinha? 💜" />
     <section class="canal-section" aria-labelledby="recipes-title">
-      @for (group of recipeGroups; track group.id) {
-        <section class="recipe-group" [attr.aria-labelledby]="'category-' + group.id">
-          <h3 class="recipe-group__title" [id]="'category-' + group.id">{{ group.label }}</h3>
-          <div class="recipe-grid">
-            @for (recipe of group.recipes; track recipe.id) {
-              <a class="recipe-card" [routerLink]="recipePath(recipe.slug)">
-                <span class="recipe-card__thumb"
-                  ><img
-                    [src]="recipe.image.src"
-                    [alt]="recipe.image.alt"
-                    width="1280"
-                    height="720"
-                    loading="lazy"
-                /></span>
-                <strong class="recipe-card__title">{{ recipe.title }}</strong>
-              </a>
-            }
-          </div>
-        </section>
+      <h2 id="recipes-title">Encontre sua receita</h2>
+      <form class="recipe-search" action="/comidinhas/" method="get" role="search" (submit)="search($event)">
+        <label for="recipe-search">Busque pelo prato ou ingrediente</label>
+        <div class="recipe-search__row">
+          <input id="recipe-search" type="search" name="q" maxlength="120" placeholder="Ex.: macarrão, limão, frango" [value]="draftSearch()" (input)="draftSearch.set($any($event.target).value)" />
+          @if (category()) { <input type="hidden" name="categoria" [value]="category()" /> }
+          <button type="submit" class="library-button">Buscar<span class="material-symbols-outlined" aria-hidden="true">search</span></button>
+        </div>
+      </form>
+      <nav class="recipe-filters" aria-label="Filtrar receitas por categoria">
+        <a routerLink="/comidinhas" [queryParams]="{q: searchTerm() || null}" [class.is-selected]="!category()" [attr.aria-current]="!category() ? 'true' : null">Todas</a>
+        @for (item of categories; track item.id) {
+          <a routerLink="/comidinhas" [queryParams]="{categoria: item.id, q: searchTerm() || null}" [class.is-selected]="category() === item.id" [attr.aria-current]="category() === item.id ? 'true' : null">{{ item.label }}</a>
+        }
+      </nav>
+      <div class="library-summary">
+        <p role="status" aria-live="polite">{{ result().total }} {{ result().total === 1 ? 'receita encontrada' : 'receitas encontradas' }}@if (searchTerm()) { para “{{ searchTerm() }}” }@if (result().total) { · Mostrando {{ (result().page - 1) * pageSize + 1 }}–{{ (result().page - 1) * pageSize + result().items.length }} }</p>
+        @if (searchTerm() || category()) { <a routerLink="/comidinhas">Limpar busca e filtros</a> }
+      </div>
+      @if (result().items.length) {
+        <div class="recipe-grid">
+          @for (recipe of result().items; track recipe.id) {
+            <a class="recipe-card" [routerLink]="recipePath(recipe.slug)">
+              <span class="recipe-card__thumb"><img [src]="recipe.image.src" [alt]="recipe.image.alt" width="1280" height="720" loading="lazy" /></span>
+              <strong class="recipe-card__title">{{ recipe.title }}</strong>
+              <span class="recipe-card__categories">@for (item of categories; track item.id) { @if (recipe.categoryIds.includes(item.id)) { <span>{{ item.label }}</span> } }</span>
+            </a>
+          }
+        </div>
+      } @else {
+        <div class="library-empty"><h3>Nenhuma receita por aqui com essa busca.</h3><p>Tente outro prato ou ingrediente, ou veja todas as receitas.</p><a routerLink="/comidinhas">Ver todas as receitas</a></div>
+      }
+      @if (result().pageCount > 1) {
+        <nav class="library-pagination" aria-label="Páginas de receitas">
+          @if (result().page > 1) { <a [routerLink]="libraryPath(result().page - 1)" [queryParams]="queryParams()" rel="prev">Anterior</a> }
+          @for (number of pages(); track $index) {
+            @if (number) { <a [routerLink]="libraryPath(number)" [queryParams]="queryParams()" [attr.aria-label]="'Página ' + number" [attr.aria-current]="result().page === number ? 'page' : null">{{ number }}</a> } @else { <span aria-hidden="true">…</span> }
+          }
+          @if (result().page < result().pageCount) { <a [routerLink]="libraryPath(result().page + 1)" [queryParams]="queryParams()" rel="next">Próxima</a> }
+        </nav>
       }
     </section>
-  }
-</section>
+  </section>
+} @else { <app-not-found /> }

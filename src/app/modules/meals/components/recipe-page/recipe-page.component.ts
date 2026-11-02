@@ -36,16 +36,18 @@ export class RecipePageComponent {
   private readonly shoppingHeading = viewChild<ElementRef<HTMLElement>>('shoppingHeading');
   private closedPrintPanels: HTMLDetailsElement[] = [];
   readonly showingShopping = signal(false);
+  readonly videoStarted = signal(false);
   private ready = false;
   readonly recipe = signal<PublicRecipe | undefined>(undefined);
   readonly servings = signal(1);
   readonly selectedPortion = computed(() => this.recipe()?.recipe.portions?.find(portion => portion.servings === this.servings()));
+  readonly equipment = computed(() => this.selectedPortion()?.equipment ?? this.recipe()?.recipe.equipment ?? []);
   readonly ingredients = computed(() => (this.recipe()?.recipe.ingredients ?? []).map(item => ({ ...item, ...this.selectedPortion()?.ingredientOverrides.find(override => override.id === item.id) })));
   readonly steps = computed(() => (this.recipe()?.recipe.steps ?? []).map(step => ({ ...step, ...this.selectedPortion()?.stepOverrides.find(override => override.id === step.id) })));
   readonly progress = signal<RecipeProgress>(emptyProgress());
   readonly storageAvailable = signal(true);
   readonly videoUrl = computed(() => this.sanitizer.bypassSecurityTrustResourceUrl(
-    `https://www.youtube-nocookie.com/embed/${encodeURIComponent(this.recipe()?.videoId ?? '')}?rel=0`,
+    `https://www.youtube-nocookie.com/embed/${encodeURIComponent(this.recipe()?.videoId ?? '')}?rel=0&autoplay=1`,
   ));
   readonly shoppingItems = computed(() => this.ingredients().filter(item => item.shopping !== false).map(item => ({ id: item.id, name: `${item.name} — ${this.amount(item)}${item.note ? ` (${item.note})` : ''}`, checked: this.progress().ingredients.includes(item.id), createdAt: '', updatedAt: '' })));
   readonly resolvedShopping = computed(() => this.shoppingItems().filter(item => item.checked).length);
@@ -55,6 +57,7 @@ export class RecipePageComponent {
     this.route.paramMap.pipe(takeUntilDestroyed()).subscribe(params => {
       const recipe = recipeBySlug(params.get('slug') ?? '');
       this.recipe.set(recipe);
+      this.videoStarted.set(false);
       this.servings.set(recipe?.recipe.yield.servings ?? 1);
       this.progress.set(emptyProgress());
       if (recipe) this.seo.update({ ...recipe.seo, path: recipePath(recipe.slug), image: recipe.image.src, imageAlt: recipe.image.alt, type: 'article', structuredData: recipeStructuredData(recipe) });

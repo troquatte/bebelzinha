@@ -20,6 +20,7 @@ export interface RecipeStep {
 }
 
 export interface RecipePortion {
+  equipment?: string[];
   servings: number;
   note: string;
   ingredientOverrides: Array<{ id: string; quantity: number | null; unit?: string; note?: string }>;

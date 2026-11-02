@@ -9,7 +9,7 @@
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
 .dinner__layout { display: grid; grid-template-columns: minmax(0, 1fr); gap: 1.25rem; align-items: start; }
 .dinner__recipe, .dinner__shopping { overflow: hidden; border: 1px solid var(--bebel-border); border-radius: 1.5rem; background: var(--bebel-surface); }
-.dinner__eyebrow { display: block; padding: 1rem 1rem .75rem; color: var(--bebel-primary); font-size: .75rem; font-weight: 800; text-transform: uppercase; }
+.dinner__eyebrow { display: block; padding: 1rem 1rem .75rem; color: var(--bebel-primary); font-size: .875rem; font-weight: 800; text-transform: uppercase; }
 .dinner__photo { display: block; width: 100%; aspect-ratio: 8 / 5; object-fit: cover; }
 .dinner__recipe-content { padding: 1.15rem; }
 .dinner__recipe h2, .dinner__shopping h2 { color: var(--bebel-primary-strong); }
@@ -28,7 +28,7 @@
 .dinner__shopping-header > span { color: var(--bebel-primary); font-size: 2rem; margin-top: .2rem; }
 .dinner__shopping-header p { color: var(--bebel-text-soft); margin-top: .35rem; }
 .dinner__shopping-help { color: var(--bebel-text-soft); }
-.dinner__progress { display: block; margin-top: 1rem; color: var(--bebel-text-soft); font-size: .78rem; }
+.dinner__progress { display: block; margin-top: 1rem; color: var(--bebel-text-soft); font-size: .875rem; }
 button:focus-visible, select:focus-visible { outline: 3px solid var(--bebel-orange); outline-offset: 3px; }
 @media (min-width: 58rem) { .dinner { padding: 2rem 2rem 6rem; } .dinner__layout { grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 1.5rem; } }
 
@@ -47,7 +47,7 @@ button:focus-visible, select:focus-visible { outline: 3px solid var(--bebel-oran
 
 .dinner__video-player { aspect-ratio: 16 / 9; margin-top: .6rem; overflow: hidden; border-radius: 1rem; background: var(--bebel-primary-soft); }
 .dinner__video-player iframe { display: block; width: 100%; height: 100%; border: 0; }
-.dinner__video-caption { display: block; margin-top: .4rem; color: var(--bebel-text-soft); font-size: .75rem; }
+.dinner__video-caption { display: block; margin-top: .4rem; color: var(--bebel-text-soft); font-size: .875rem; }
 
 .dinner__shopping h2 { font-size: 1.25rem; }
 
@@ -58,12 +58,12 @@ button:focus-visible, select:focus-visible { outline: 3px solid var(--bebel-oran
 .dinner__day-picker select { max-width: 100%; text-overflow: ellipsis; }
 .dinner__meal-mode { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .5rem; margin: 1rem 0 0; padding: 0; border: 0; }
 .dinner__meal-mode legend { margin-bottom: .6rem; font-weight: 700; color: var(--bebel-primary-strong); }
-.dinner__meal-mode label { display: flex; flex-wrap: wrap; align-content: center; align-items: center; gap: .4rem; padding: .75rem .6rem; border: 1px solid var(--bebel-border); border-radius: .85rem; cursor: pointer; font-size: .85rem; font-weight: 700; }
+.dinner__meal-mode label { display: flex; flex-wrap: wrap; align-content: center; align-items: center; gap: .4rem; padding: .75rem .6rem; border: 1px solid var(--bebel-border); border-radius: .85rem; cursor: pointer; font-size: .9375rem; font-weight: 700; }
 .dinner__meal-mode label.is-selected { background: var(--bebel-primary-soft); border-color: var(--bebel-primary); color: var(--bebel-primary-strong); }
 .dinner__meal-mode input { accent-color: var(--bebel-primary-strong); }
-.dinner__meal-mode label > span { flex-basis: 100%; font-size: .75rem; font-weight: 400; }
-.dinner__mode-note { grid-column: 1 / -1; color: var(--bebel-text-soft); font-size: .75rem; line-height: 1.4; }
-.dinner__step-progress { display: block; margin-top: .65rem; color: var(--bebel-text-soft); font-size: .75rem; }
+.dinner__meal-mode label > span { flex-basis: 100%; font-size: .875rem; font-weight: 400; }
+.dinner__mode-note { grid-column: 1 / -1; color: var(--bebel-text-soft); font-size: .875rem; line-height: 1.4; }
+.dinner__step-progress { display: block; margin-top: .65rem; color: var(--bebel-text-soft); font-size: .875rem; }
 .dinner__steps label { display: flex; align-items: start; gap: .75rem; min-height: 2.75rem; cursor: pointer; position: relative; }
 .dinner__steps input { flex: 0 0 1.2rem; width: 1.2rem; height: 1.2rem; margin: .4rem 0 0; accent-color: var(--bebel-primary-strong); cursor: pointer; }
 .dinner__step-number { display: grid; place-items: center; flex: 0 0 2rem; height: 2rem; border-radius: 50%; background: var(--bebel-primary-soft); color: var(--bebel-primary-strong); font-weight: 800; }
@@ -72,7 +72,7 @@ button:focus-visible, select:focus-visible { outline: 3px solid var(--bebel-oran
 .dinner__steps .is-done .dinner__step-number { background: var(--bebel-primary-strong); color: var(--white); }
 .dinner__steps .is-done .dinner__step-text { text-decoration: line-through; color: var(--bebel-text-soft); }
 
-.dinner__step-help { display: block; margin-top: .4rem; color: var(--bebel-text-soft); font-size: .8rem; line-height: 1.4; }
+.dinner__step-help { display: block; margin-top: .4rem; color: var(--bebel-text-soft); font-size: .9rem; line-height: 1.4; }
 
 @media print {
   :host { color: #111; background: #fff; }
@@ -103,8 +103,13 @@ button:focus-visible, select:focus-visible { outline: 3px solid var(--bebel-oran
 .dinner__hero { display: flex; align-items: center; gap: .85rem; padding: .25rem 0 1.15rem; border-bottom: 1px solid var(--bebel-border); scroll-margin-top: 1rem; }
 .dinner__hero img { width: 4rem; height: 4rem; flex-shrink: 0; border-radius: 50%; }
 .dinner__hero-copy { min-width: 0; }
-.dinner__signature { display: block; margin-bottom: .3rem; color: var(--bebel-text-soft); font-size: .75rem; font-weight: 700; }
+.dinner__signature { display: block; margin-bottom: .3rem; color: var(--bebel-text-soft); font-size: .875rem; font-weight: 700; }
 .dinner__hero h1 { color: var(--bebel-primary-strong); }
 .dinner__hero p { margin-top: .4rem; color: var(--bebel-text-soft); }
 @media (min-width: 58rem) { .dinner__hero { gap: 1.2rem; } .dinner__hero img { width: 5rem; height: 5rem; } }
 @media print { .dinner__hero { border: 0; padding: 0 0 .75rem; } .dinner__hero h1 { font-size: 14pt; color: #111; } .dinner__signature { color: #111; } }
+
+.dinner__ingredients, .dinner__steps { font-size: 1.0625rem; line-height: 1.5; }
+.dinner__recipe-content > p, .dinner__shopping > p { font-size: 1.0625rem; line-height: 1.45; }
+
+.dinner__equipment { font-size: 1rem; line-height: 1.5; }

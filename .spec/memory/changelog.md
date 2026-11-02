@@ -40,3 +40,6 @@ Este arquivo registra cronologicamente todas as especificações (Specs) conclu�
 | 062 | 2026-11-02 | Onboarding removido e auditoria local versus produção/IA/indexação registrada | Codex |
 | 063 | 2026-11-02 | Biblioteca só com receitas, menu desktop uniforme e copy explícita no CTA | Codex |
 | 064 | 2026-11-02 | Banner visual do produto e verificação do mecanismo A/B existente | Codex |
+
+| 065 | 2026-11-02 | Busca/filtros com estado na URL e paginação SSG rastreável de 12 receitas | Codex |
+| 066 | 2026-11-02 | Capa/play sob demanda, modos 2/4, utensílios proporcionais e textos maiores | Codex |
