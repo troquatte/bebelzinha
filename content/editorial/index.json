@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "categories": [
+    {
+      "id": "pratos-do-dia",
+      "label": "Pratos do dia a dia"
+    },
+    {
+      "id": "massas",
+      "label": "Massas"
+    },
+    {
+      "id": "forno",
+      "label": "Receitas de forno"
+    },
+    {
+      "id": "doces",
+      "label": "Doces"
+    },
+    {
+      "id": "lanches",
+      "label": "Lanches"
+    }
+  ],
+  "recipes": [
+    {
+      "id": "macarrao-ao-limao-sem-creme-de-leite",
+      "slug": "macarrao-ao-limao-sem-creme-de-leite",
+      "status": "published",
+      "file": "recipes/macarrao-ao-limao-sem-creme-de-leite.json"
+    },
+    {
+      "id": "arroz-de-forno-com-legumes",
+      "slug": "arroz-de-forno-com-legumes",
+      "status": "draft",
+      "file": "recipes/arroz-de-forno-com-legumes.json"
+    },
+    {
+      "id": "estrogonofe-de-frango-com-creme-de-leite-fresco",
+      "slug": "estrogonofe-de-frango-com-creme-de-leite-fresco",
+      "status": "draft",
+      "file": "recipes/estrogonofe-de-frango-com-creme-de-leite-fresco.json"
+    },
+    {
+      "id": "abobrinha-recheada-com-carne-moida",
+      "slug": "abobrinha-recheada-com-carne-moida",
+      "status": "draft",
+      "file": "recipes/abobrinha-recheada-com-carne-moida.json"
+    }
+  ]
+}

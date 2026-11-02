@@ -1,5 +1,5 @@
-import { DOCUMENT } from '@angular/common';
-import { Injectable, inject, isDevMode } from '@angular/core';
+import { DOCUMENT, isPlatformBrowser } from '@angular/common';
+import { Injectable, PLATFORM_ID, inject, isDevMode } from '@angular/core';
 import { NavigationEnd, Router } from '@angular/router';
 import { filter } from 'rxjs';
 
@@ -20,6 +20,7 @@ export type BusinessEvent =
   | 'WhatsAppChannelClick'
   | 'clickShopee'
   | 'Lead'
+  | 'RecipeProductClick'
   | 'ProductSalesView'
   | 'ProductVideoPlay'
   | 'ProductCheckoutClick';
@@ -42,6 +43,7 @@ declare global {
 @Injectable({ providedIn: 'root' })
 export class AnalyticsService {
   private readonly document = inject(DOCUMENT);
+  private readonly browser = isPlatformBrowser(inject(PLATFORM_ID));
   private readonly router = inject(Router);
   private readonly measurementId = this.readMeasurementId();
   private readonly sessionStorageKey = 'bebel.analytics.session-start.v1';
@@ -50,6 +52,7 @@ export class AnalyticsService {
   private appOpenTracked = false;
 
   constructor() {
+    if (!this.browser) return;
     this.initializeGoogleAnalytics();
 
     this.router.events
@@ -73,6 +76,7 @@ export class AnalyticsService {
   }
 
   track(event: BusinessEvent, params: AnalyticsParams = {}): void {
+    if (!this.browser) return;
     if (this.measurementId && window.gtag) {
       window.gtag('event', event, {
         ...params,
@@ -84,7 +88,7 @@ export class AnalyticsService {
   }
 
   private readMeasurementId(): string | null {
-    if (isDevMode() || this.isLocalHost()) {
+    if (!this.browser || isDevMode() || this.isLocalHost()) {
       return null;
     }
 

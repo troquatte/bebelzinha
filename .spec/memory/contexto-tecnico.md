@@ -5,9 +5,9 @@
 - nome técnico do projeto: **Bebelzinha**
 - nome do produto/marca: **Bebel**
 - namespace npm: `@bebelzinha`
-- aplicação web **SPA**
+- aplicação web Angular com SSG seletivo e navegação SPA
 - arquitetura orientada principalmente para experiência mobile
-- sem SSR
+- sem servidor SSR em produção: saída estática; SSG em `/comidinhas`, `/cortadores` e `/wpp-bebelzinha`; demais rotas em CSR
 - sem necessidade inicial de aplicação nativa
 - evolução futura para PWA ou experiência semelhante a aplicativo pode acontecer caso exista necessidade real de produto
 
@@ -27,7 +27,7 @@ A arquitetura técnica deve acompanhar esse princípio:
 
 - **Angular 22**
 - TypeScript
-- SPA
+- SSG seletivo + CSR e hidratação
 - Standalone Components
 - Angular Router
 - Signals

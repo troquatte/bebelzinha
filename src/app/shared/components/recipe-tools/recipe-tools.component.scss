@@ -1,0 +1,12 @@
+:host { display: block; }
+.tools { margin-top: 1.5rem; padding-top: 1.25rem; border-top: 1px solid var(--bebel-border); }
+.tools h3, .tools-grid strong { color: var(--bebel-primary-strong); }
+.tools > p, .tools-grid span { color: var(--bebel-text-soft); }
+.tools-grid { display: grid; gap: .6rem; margin-top: .85rem; }
+.tools-grid > div { display: flex; flex-direction: column; gap: .35rem; padding: .75rem; border-radius: .75rem; background: var(--bebel-primary-soft); }
+.tools-grid strong { font-size: .85rem; }
+.tools-grid span { font-size: .8rem; }
+.tools-grid .material-symbols-outlined { color: var(--bebel-primary); font-size: 1.5rem; }
+.tools-note { display: block; margin-top: .7rem; color: var(--bebel-text-soft); font-size: .75rem; line-height: 1.4; }
+@media (min-width: 40rem) { .tools-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media print { .tools-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } .tools-grid > div { border: 1px solid #ddd; background: transparent; } }

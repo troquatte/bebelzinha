@@ -1,85 +1,22 @@
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
+import { seo, pageHtml, generateSeoArtifacts } from './seo-artifacts.mjs';
 
-const distRoot = process.argv[2];
-const siteBase = 'https://bebelzinha.com.br/';
-const shareImage = `${siteBase}images/bebel/bebel-roxa.jpg`;
-
-if (!distRoot) {
-  throw new Error('Informe o diretório de saída do build.');
-}
-
-const baseHtml = await readFile(join(distRoot, 'index.html'), 'utf8');
-
-function replaceMeta(html, selector, content) {
-  const [attribute, value] = selector;
-  const expression = new RegExp(
-    `<meta([^>]*\\s${attribute}=["']${value}["'][^>]*)content=["'][^"']*["']([^>]*)>`,
-    'i',
-  );
-
-  return html.replace(expression, `<meta$1content="${content}"$2>`);
-}
-
-function pageHtml({ title, description, url }) {
-  let html = baseHtml.replace(/<title>.*?<\/title>/i, `<title>${title}</title>`);
-
-  html = replaceMeta(html, ['name', 'description'], description);
-  html = replaceMeta(html, ['property', 'og:title'], title);
-  html = replaceMeta(html, ['property', 'og:description'], description);
-  html = replaceMeta(html, ['property', 'og:url'], url);
-  html = replaceMeta(html, ['property', 'og:image'], shareImage);
-  html = replaceMeta(html, ['name', 'twitter:title'], title);
-  html = replaceMeta(html, ['name', 'twitter:description'], description);
-  html = replaceMeta(html, ['name', 'twitter:image'], shareImage);
-  html = html.replace(
-    /<link\s+rel=["']canonical["']\s+href=["'][^"']*["']\s*\/?>/i,
-    `<link rel="canonical" href="${url}" />`,
-  );
-
-  return html;
-}
-
-async function writeRoute(route, seo) {
-  const output = join(distRoot, route, 'index.html');
-  await mkdir(join(distRoot, route), { recursive: true });
-  await writeFile(output, pageHtml(seo));
-}
-
-await writeRoute('comidinhas', {
-  title: 'Comidinhas da Bebel - Receitas simples para o dia a dia',
-  description:
-    'Receitas simples para almoço, jantar, lanche e doce. A Bebel ajuda você a escolher o que fazer e organizar a semana.',
-  url: `${siteBase}comidinhas/`,
+const root = process.argv[2];
+if (!root) throw new Error('Informe o diretório de saída do build.');
+const shell = await readFile(join(root, 'index.csr.html'), 'utf8');
+const fallback = pageHtml(shell, {
+  path: null,
+  title: 'Página não encontrada | Bebelzinha',
+  description: 'Volte às receitas e ferramentas da Bebel.',
+  indexable: false,
 });
-
-await writeRoute('compras', {
-  title: 'Lista de compras da Bebel - Organize o mercado sem complicação',
-  description:
-    'Crie suas listas de compras, marque o que já foi para o carrinho e leve ingredientes das receitas da Bebel para o mercado.',
-  url: `${siteBase}compras/`,
-});
-
-await writeRoute('cortadores', {
-  title: 'Cortadores e marcadores de biscoitos | Bebelzinha',
-  description: 'Conheça os modelos de cortadores e marcadores feitos em impressão 3D para presentes, encomendas e lembrancinhas. Confira as opções na Shopee.',
-  url: `${siteBase}cortadores/`,
-});
-
-await writeRoute('jantar-resolvido', {
-  title: 'Jantar Resolvido — Protótipo | Bebelzinha',
-  description: 'Experimente três dias de exemplo com receita aberta e compras marcáveis para cada jantar.',
-  url: `${siteBase}jantar-resolvido/`,
-});
-
-const manifest = JSON.parse(await readFile('public/content/recipes/index.json', 'utf8'));
-
-for (const slug of manifest.recipes) {
-  const recipe = JSON.parse(await readFile(`public/content/recipes/${slug}.json`, 'utf8'));
-
-  await writeRoute(join('comidinhas', slug), {
-    title: `${recipe.title} - Receita da Bebel`,
-    description: recipe.description,
-    url: `${siteBase}comidinhas/${slug}/`,
-  });
+await writeFile(join(root, 'index.csr.html'), fallback);
+await writeFile(join(root, '404.html'), fallback);
+for (const page of seo.shells) {
+  const directory = join(root, page.path.slice(1));
+  await mkdir(directory, { recursive: true });
+  await writeFile(join(directory, 'index.html'), pageHtml(shell, page));
 }
+// O catálogo antigo não publica shells de receitas sem uma rota e conteúdo reais.
+await generateSeoArtifacts(root);

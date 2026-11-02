@@ -38,12 +38,6 @@ jobs:
       - name: Build
         run: npm run build -- --base-href /
 
-      - name: Generate static route shells
-        run: node scripts/generate-pages.mjs dist/bebelzinha/browser
-
-      - name: Add SPA fallback
-        run: cp dist/bebelzinha/browser/index.html dist/bebelzinha/browser/404.html
-
       - name: Upload Pages artifact
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         uses: actions/upload-pages-artifact@v4
