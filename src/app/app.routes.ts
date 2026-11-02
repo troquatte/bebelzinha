@@ -59,6 +59,18 @@ export const routes: Routes = [
     loadComponent: () => import('./modules/products/components/products.component').then(({ ProductsComponent }) => ProductsComponent),
   },
   {
+    path: 'produtos/refeicao-resolvida/teste-a',
+    canActivate: [productEntryGuard],
+    data: { variant: 'a' },
+    loadComponent: () => import('./modules/products/components/products.component').then(({ ProductsComponent }) => ProductsComponent),
+  },
+  {
+    path: 'produtos/refeicao-resolvida/teste-b',
+    canActivate: [productEntryGuard],
+    data: { variant: 'b' },
+    loadComponent: () => import('./modules/products/components/products.component').then(({ ProductsComponent }) => ProductsComponent),
+  },
+  {
     path: 'produtos/refeicao-resolvida/acessar',
     canActivate: [productEntryGuard],
     loadComponent: () => import('./modules/products/components/product-access.component').then(({ ProductAccessComponent }) => ProductAccessComponent),

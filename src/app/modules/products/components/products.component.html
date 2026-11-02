@@ -1,46 +1,109 @@
-<section class="products" aria-labelledby="products-title">
-  <div class="products__top"><span class="products__eyebrow">Produtos da Bebel</span><a routerLink="/produtos/refeicao-resolvida/acessar">Já comprei <span class="material-symbols-outlined" aria-hidden="true">key</span></a></div>
-  <section class="products__hero" [class.products__hero--with-video]="product.presentationVideoUrl">
-    <div class="products__copy">
-      <div class="products__intro">
-      <div class="products__signature"><img src="images/bebel/bebel-roxa.jpg" alt="Bebel" width="48" height="48" /><span>Da Bebel para a sua rotina</span></div>
-      <h1 id="products-title">O que fazer de almoço ou jantar?</h1>
-      <p>Com o <strong>Refeição Resolvida</strong>, você escolhe entre 22 refeições e já encontra os ingredientes, o preparo e a lista de compras no mesmo lugar.</p>
-      <div class="products__tags"><span>Comida de casa</span><span>2 ou 4 porções</span><span>No seu celular</span></div>
+<div class="sales" [class.sales--b]="variant() === 'b'">
+  <header class="sales__top">
+    <a class="sales__brand" routerLink="/"><img src="images/bebel/bebel-roxa.jpg" alt="" width="38" height="38" /> <span>Produtos da <strong>Bebel</strong></span></a>
+    <a class="sales__member-link" routerLink="/produtos/refeicao-resolvida/acessar"><span class="material-symbols-outlined" aria-hidden="true">key</span> Já comprei</a>
+  </header>
+
+  @if (variant() === 'a') {
+    <!-- A: promessa emocional e explicação progressiva, inspirada no formato longo de vendas. -->
+    <section class="sales-hero sales-hero--a" aria-labelledby="sales-title">
+      <div class="sales-hero__content">
+        <span class="sales__pill sales__pill--light"><span class="material-symbols-outlined" aria-hidden="true">favorite</span> Uma ajudinha da Bebel para sua rotina</span>
+        <h1 id="sales-title">Todo dia a mesma pergunta: <em>o que fazer de almoço ou jantar?</em></h1>
+        <p class="sales-hero__lead">Não precisa começar do zero toda vez que for cozinhar. A Bebel reuniu <strong>22 refeições caseiras</strong> com ingredientes, preparo e lista de compras para facilitar sua escolha.</p>
+        <div class="sales-hero__chips"><span>Comida de casa</span><span>2 ou 4 porções</span><span>Direto no celular</span></div>
+        <div class="sales-hero__buy">
+          @if (access.hasAccess()) {
+            <a class="sales__cta" routerLink="/jantar-resolvido">Abrir minhas refeições <span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a>
+          } @else {
+            <div class="sales-hero__price"><strong>{{ product.price }}</strong><span>pagamento único · sem mensalidade</span></div>
+            <a class="sales__cta" [href]="checkoutUrl()" target="_blank" rel="noopener noreferrer" (click)="trackCheckout('hero-a')">Quero facilitar minhas refeições <span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a>
+            <small>Compra realizada no checkout da Hotmart</small>
+          }
+        </div>
       </div>
-      <div class="products__purchase">
-      <div class="products__offer"><span>Refeição Resolvida</span><strong>{{ product.price }}</strong><span>Pagamento único</span></div>
-      @if (access.hasAccess()) {
-        <a class="products__button" routerLink="/jantar-resolvido">Continuar minhas refeições <span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a>
-      } @else {
-        <a class="products__button" [href]="product.checkoutUrl" (click)="trackCheckout()" target="_blank" rel="noopener noreferrer">Comprar por {{ product.price }} <span class="material-symbols-outlined" aria-hidden="true">open_in_new</span></a>
-        <a class="products__access" routerLink="/produtos/refeicao-resolvida/acessar">Já comprei, tenho um código</a>
-      }
+      <div class="sales-hero__visual" aria-label="Apresentação visual de refeições da Bebel">
+        <div class="sales-hero__food"><img src="images/recipes/frango-arroz-cenoura-v1.webp" alt="Imagem ilustrativa de frango, arroz e cenoura" width="720" height="450" fetchpriority="high" /></div>
+        <div class="sales-hero__portrait"><img src="images/bebel/bebel-roxa.jpg" alt="Bebel, personagem da marca" width="160" height="160" /></div>
+        <div class="sales-hero__stamp"><strong>22</strong><span>refeições<br />para escolher</span></div>
+        <p class="sales-hero__photo-note">Imagem ilustrativa da receita</p>
       </div>
-    </div>
-    @if (product.presentationVideoUrl; as videoUrl) {
-      <div class="products__visual"><div class="products__player">
-        <video #presentationVideo [src]="videoUrl" [poster]="product.presentationVideoPoster" width="1080" height="1920" [controls]="videoStarted()" playsinline preload="metadata" aria-label="Como funciona o Refeição Resolvida"></video>
-        @if (!videoStarted()) {
-          <button class="products__play" type="button" aria-label="Assistir ao vídeo: como funciona o Refeição Resolvida" (click)="playPresentation(presentationVideo)"></button>
+    </section>
+
+    <section class="sales__section sales-problem" aria-labelledby="problem-title">
+      <div class="sales__section-head"><span class="sales__eyebrow">Parece familiar?</span><h2 id="problem-title">Pensar no almoço não deveria ser a parte mais cansativa do dia.</h2><p>Às vezes o mais difícil nem é cozinhar. É escolher o prato, conferir o que falta e lembrar dos ingredientes na hora de comprar.</p></div>
+      <div class="sales-problem__grid">
+        <article class="sales-problem__card"><span class="material-symbols-outlined" aria-hidden="true">sentiment_dissatisfied</span><h3>Sem uma ideia pronta</h3><p>Você abre a geladeira, procura receitas soltas e tenta montar a lista de cabeça.</p></article>
+        <article class="sales-problem__card sales-problem__card--solution"><span class="material-symbols-outlined" aria-hidden="true">favorite</span><h3>Com a Bebel por perto</h3><p>Escolha uma das refeições, ajuste as porções e confira os ingredientes no mesmo lugar.</p></article>
+      </div>
+    </section>
+
+    <section class="sales__section" aria-labelledby="recipes-a-title">
+      <div class="sales__section-head"><span class="sales__eyebrow">Comida simples, de casa</span><h2 id="recipes-a-title">Olha algumas das refeições que você encontra por aqui</h2><p>São 22 opções para variar entre almoço e jantar, sem depender de receitas mirabolantes.</p></div>
+      <div class="sales-recipes">
+        @for (sample of samples; track sample.image) {
+          <article class="sales-recipes__card"><img [src]="sample.image" [alt]="'Imagem ilustrativa: ' + sample.name" width="440" height="295" loading="lazy" /><h3>{{ sample.name }}</h3></article>
         }
-      </div></div>
-    }
+      </div>
+      <p class="sales__fineprint">Imagens ilustrativas das receitas do catálogo. A apresentação do prato pode variar.</p>
+    </section>
+
+    <section class="sales__section sales-demo" aria-labelledby="demo-a-title">
+      <div class="sales-demo__content"><span class="sales__eyebrow">Veja como funciona de verdade</span><h2 id="demo-a-title">Não é só uma lista de receitas. É um cantinho para organizar sua refeição.</h2><p>Veja a Bebel mostrando a escolha do prato, as porções, o preparo e a lista de ingredientes no aplicativo.</p>
+        <ul class="sales__tick-list"><li>Escolha entre as 22 refeições</li><li>Veja ingredientes para 2 ou 4 porções</li><li>Marque os itens na lista de compras</li><li>Siga o passo a passo no seu ritmo</li></ul>
+        @if (access.hasAccess()) { <a routerLink="/jantar-resolvido" class="sales__inline-link">Acessar minhas refeições <span aria-hidden="true">→</span></a> }
+        @else { <a class="sales__inline-link" [href]="checkoutUrl()" target="_blank" rel="noopener noreferrer" (click)="trackCheckout('demonstracao-a')">Quero minhas refeições organizadas <span aria-hidden="true">→</span></a> }
+      </div>
+      <div class="sales-video">
+        <span class="sales-video__label"><span class="material-symbols-outlined" aria-hidden="true">play_circle</span> Assista à demonstração</span>
+        <div class="sales-video__player"><video #videoA [src]="product.presentationVideoUrl" [poster]="product.presentationVideoPoster" [controls]="videoStarted()" playsinline preload="metadata" width="1080" height="1920" aria-label="Demonstração do Refeição Resolvida"></video>
+          @if (!videoStarted()) { <button class="sales-video__play" type="button" (click)="playPresentation(videoA)" aria-label="Reproduzir vídeo de demonstração"><span class="material-symbols-outlined" aria-hidden="true">play_arrow</span></button> }
+        </div>
+        <p>Vídeo com a apresentação das funcionalidades do produto.</p>
+      </div>
+    </section>
+  } @else {
+    <!-- B: proposta direta, demonstração rápida e oferta na primeira dobra. -->
+    <section class="sales-hero sales-hero--b" aria-labelledby="sales-title">
+      <div class="sales-hero__content">
+        <span class="sales__pill"><span class="material-symbols-outlined" aria-hidden="true">restaurant</span> Refeição Resolvida da Bebel</span>
+        <h1 id="sales-title">22 refeições caseiras. <em>Uma preocupação a menos.</em></h1>
+        <p class="sales-hero__lead">Escolha o prato, ajuste entre 2 ou 4 porções, confira os ingredientes e leve sua lista de compras no celular.</p>
+        <ul class="sales__tick-list"><li>22 opções de almoço ou jantar</li><li>Ingredientes e modo de preparo</li><li>Lista de compras interativa</li><li>Acesso pelo navegador, sem instalar</li></ul>
+        <div class="sales-hero__buy">
+          @if (access.hasAccess()) { <a routerLink="/jantar-resolvido" class="sales__cta">Abrir minhas refeições <span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a> }
+          @else {
+            <div class="sales-hero__price"><strong>{{ product.price }}</strong><span>pagamento único</span></div>
+            <a class="sales__cta" [href]="checkoutUrl()" target="_blank" rel="noopener noreferrer" (click)="trackCheckout('hero-b')">Quero acessar as 22 refeições <span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a>
+            <small>Checkout da Hotmart • Acesso por código após a compra</small>
+          }
+        </div>
+      </div>
+      <div class="sales-video sales-video--hero"><span class="sales-video__label">Veja o produto em funcionamento</span><div class="sales-video__player"><video #videoB [src]="product.presentationVideoUrl" [poster]="product.presentationVideoPoster" [controls]="videoStarted()" playsinline preload="metadata" width="1080" height="1920" aria-label="Demonstração do Refeição Resolvida"></video>
+          @if (!videoStarted()) { <button class="sales-video__play" type="button" (click)="playPresentation(videoB)" aria-label="Reproduzir vídeo de demonstração"><span class="material-symbols-outlined" aria-hidden="true">play_arrow</span></button> }
+        </div></div>
+    </section>
+    <section class="sales__section" aria-labelledby="b-benefits-title"><div class="sales__section-head"><span class="sales__eyebrow">O que vem no acesso</span><h2 id="b-benefits-title">Tudo para escolher, comprar e preparar</h2></div><div class="sales-benefits">
+      @for (benefit of benefits; track benefit.title) { <article><span class="material-symbols-outlined" aria-hidden="true">{{ benefit.icon }}</span><h3>{{ benefit.title }}</h3><p>{{ benefit.text }}</p></article> }
+    </div></section>
+    <section class="sales__section" aria-labelledby="recipes-b-title"><div class="sales__section-head"><span class="sales__eyebrow">Algumas opções incluídas</span><h2 id="recipes-b-title">Comida conhecida, para a rotina de casa</h2></div><div class="sales-recipes">
+      @for (sample of samples; track sample.image) { <article class="sales-recipes__card"><img [src]="sample.image" [alt]="'Imagem ilustrativa: ' + sample.name" width="440" height="295" loading="lazy" /><h3>{{ sample.name }}</h3></article> }
+    </div><p class="sales__fineprint">Fotos ilustrativas das receitas.</p></section>
+  }
+
+  <section class="sales__section sales-included" aria-labelledby="included-title">
+    <div class="sales__section-head"><span class="sales__eyebrow">Simples de usar</span><h2 id="included-title">Três passos para a próxima refeição</h2></div>
+    <div class="sales-included__steps"><article><span>01</span><h3>Escolha</h3><p>Abra uma das 22 opções para o almoço ou jantar.</p></article><article><span>02</span><h3>Confira</h3><p>Selecione 2 ou 4 porções e consulte os ingredientes.</p></article><article><span>03</span><h3>Prepare</h3><p>Siga a receita e marque o que falta na lista de compras.</p></article></div>
+    @if (!access.hasAccess()) {<a class="sales__cta sales__cta--center" [href]="checkoutUrl()" target="_blank" rel="noopener noreferrer" (click)="trackCheckout('passos')">Quero a ajuda da Bebel <span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a>}
   </section>
 
-  <section class="products__section" aria-labelledby="included-title"><span class="products__eyebrow">Tudo junto, para facilitar</span><h2 id="included-title">Escolheu a refeição? O resto está aqui.</h2>
-    <div class="products__features">@for (feature of features; track feature.icon) { <article><span class="material-symbols-outlined" aria-hidden="true">{{ feature.icon }}</span><h3>{{ feature.title }}</h3><p>{{ feature.text }}</p></article> }</div>
+  <section class="sales__section sales-faq" aria-labelledby="faq-title"><div class="sales__section-head"><span class="sales__eyebrow">Tire suas dúvidas</span><h2 id="faq-title">Antes de entrar no cantinho da Bebel</h2></div>
+    @for (faq of faqs; track faq.question) {<details><summary>{{ faq.question }} <span class="material-symbols-outlined" aria-hidden="true">expand_more</span></summary><p>{{ faq.answer }}</p></details>}
   </section>
 
-  <section class="products__how products__section" aria-labelledby="how-title"><h2 id="how-title">Como você usa</h2><ol><li><strong>Escolha o dia</strong><span>Veja a refeição e decida quanto vai preparar.</span></li><li><strong>Confira as compras</strong><span>Marque o que já tem e leve a lista ao mercado.</span></li><li><strong>Prepare no seu ritmo</strong><span>Siga os passos e consulte como guardar a porção extra.</span></li></ol></section>
-
-  <section class="products__section products__faq" aria-labelledby="faq-title"><h2 id="faq-title">Antes de entrar</h2>
-    <details><summary>Preciso instalar outro aplicativo?</summary><p>Você usa aqui mesmo, pelo navegador do celular ou computador. Não precisa instalar outro app.</p></details>
-    <details><summary>Como acesso depois da compra?</summary><p>Entre em “Já comprei”, informe o código recebido com as instruções da compra e abra suas refeições. O acesso fica salvo neste navegador quando o aparelho permite. Se trocar de aparelho ou limpar os dados, informe o código novamente.</p></details>
-    <details><summary>É só para jantar?</summary><p>Você pode usar as ideias no almoço ou no jantar e seguir os dias na ordem que fizer sentido na sua casa.</p></details>
-    <details><summary>Todas ficam prontas em 30 minutos?</summary><p>Os tempos variam por receita e quantidade. Cada prato mostra uma estimativa de preparo completo. As receitas ainda estão em revisão culinária para esta primeira versão.</p></details>
-    <details><summary>Tem vídeo e posso congelar tudo?</summary><p>Os vídeos próprios ainda estão em preparação. Cada receita explica como guardar; o congelamento depende do prato e não está disponível como orientação para todas as refeições.</p></details>
+  <section class="sales-final" aria-labelledby="final-title"><div class="sales-final__bebel"><img src="images/bebel/bebel-roxa.jpg" alt="Bebel" width="96" height="96" loading="lazy" /></div><span class="sales__pill sales__pill--light">Um pouquinho mais de praticidade na cozinha</span><h2 id="final-title">O almoço e o jantar podem começar com uma ideia pronta.</h2><p>22 refeições, ingredientes, porções e lista de compras reunidos em um lugar só.</p>
+    @if (access.hasAccess()) {<a class="sales__cta sales__cta--center" routerLink="/jantar-resolvido">Continuar minhas refeições <span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a>}
+    @else {<strong class="sales-final__price">{{ product.price }} <small>• pagamento único</small></strong><a class="sales__cta sales__cta--center" [href]="checkoutUrl()" target="_blank" rel="noopener noreferrer" (click)="trackCheckout('final')">Quero meu Refeição Resolvida <span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a><small>Você será direcionado para o checkout da Hotmart.</small>}
   </section>
-
-  <aside class="products__footer"><div><strong>Já tem seu código?</strong><p>Suas refeições ficam aqui no cantinho da Bebel.</p></div><a class="products__button products__button--soft" routerLink="/produtos/refeicao-resolvida/acessar">Acessar meu produto <span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a></aside>
-</section>
+  <footer class="sales__footer"><span>Produtos da Bebel · Refeição Resolvida</span><a routerLink="/produtos/refeicao-resolvida/acessar">Já tenho meu código de acesso <span aria-hidden="true">→</span></a></footer>
+</div>
