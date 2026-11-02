@@ -3,9 +3,8 @@
     <router-outlet />
   </main>
 } @else {
-  @if (showOnboarding()) { <app-onboarding /> }
 
-  <div class="app-shell">
+  <div class="app-shell" [class.app-shell--recipe]="isRecipePage()">
   <aside class="sidebar" aria-label="Navegação principal">
     <a class="brand" routerLink="/" aria-label="Bebel - início">
       <span class="brand__mark" aria-hidden="true">B</span>

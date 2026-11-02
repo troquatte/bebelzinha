@@ -1,0 +1,25 @@
+{
+  "id": "arroz-de-forno-com-legumes",
+  "slug": "arroz-de-forno-com-legumes",
+  "title": "Arroz de forno com legumes",
+  "videoId": "cyBR8muoELM",
+  "categoryIds": [
+    "pratos-do-dia",
+    "forno"
+  ],
+  "description": null,
+  "intro": null,
+  "image": null,
+  "publishedAt": null,
+  "updatedAt": null,
+  "seo": null,
+  "recipe": null,
+  "review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewedAt": null
+  },
+  "editorialNotes": [
+    "Título e vínculo vêm do catálogo de vídeos. Conferir vídeo, medidas e preparo antes de preencher a receita. Não publicar automaticamente."
+  ]
+}

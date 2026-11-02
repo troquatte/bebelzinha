@@ -1,0 +1,263 @@
+{
+  "id": "macarrao-ao-limao-sem-creme-de-leite",
+  "slug": "macarrao-ao-limao-sem-creme-de-leite",
+  "title": "Macarrão ao limão sem creme de leite",
+  "videoId": "n-IPzgSmEKc",
+  "categoryIds": [
+    "massas"
+  ],
+  "description": "Espaguete com parmesão, azeite e limão: veja as medidas para uma porção e como acertar o molho na tigela com água do cozimento.",
+  "intro": "A base do molho é preparada na tigela e recebe o espaguete ainda quente. O segredo do ponto está em adicionar a água reservada aos poucos, misturando e observando antes de colocar mais.",
+  "image": {
+    "src": "images/recipes/macarrao-ao-limao-video.jpg",
+    "alt": "Capa ilustrada do vídeo da Bebel: macarrão ao limão sem creme de leite"
+  },
+  "publishedAt": "2026-11-02T17:05:53Z",
+  "updatedAt": "2026-11-02T17:52:26Z",
+  "seo": {
+    "title": "Macarrão ao limão sem creme de leite: receita | Bebel",
+    "description": "Macarrão ao limão sem creme de leite com medidas para 1, 2 ou 4 porções. Veja vídeo, preparo, ingredientes marcáveis e fontes da receita."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 1,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": 30
+    },
+    "timeNote": "Cerca de 30 minutos para a receita-base, como referência de planejamento do Cozinha Prática/GNT. Não foi cronometrado por nós; o tempo varia com a massa, o fogão e a quantidade.",
+    "ingredients": [
+      {
+        "id": "espaguete",
+        "name": "Espaguete de grano duro",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "id": "limao",
+        "name": "Limão",
+        "quantity": 1,
+        "unit": "unidade",
+        "note": "Use as raspas e apenas 1 colher (chá) do caldo; mais raspas para finalizar a gosto."
+      },
+      {
+        "id": "parmesao",
+        "name": "Parmesão ralado fino",
+        "quantity": 3,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": 2,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "agua",
+        "name": "Água para cozinhar a massa",
+        "quantity": 2,
+        "unit": "litros",
+        "note": "Antes de escorrer, reserve ½ xícara (chá) dessa água. Não precisa usar toda a reserva no molho.",
+        "shopping": false
+      },
+      {
+        "id": "sal",
+        "name": "Sal para a água de cozimento",
+        "quantity": 2,
+        "unit": "colheres (chá)"
+      }
+    ],
+    "steps": [
+      {
+        "id": "preparar",
+        "text": "Separe os ingredientes e deixe uma tigela grande à mão. Lave e seque o limão, retire as raspas e meça só 1 colher (chá) do caldo, sem usar o suco inteiro."
+      },
+      {
+        "id": "cozinhar",
+        "text": "Leve 2 litros de água ao fogo alto. Quando ferver, adicione as 2 colheres (chá) de sal e o espaguete. Cozinhe pelo tempo indicado na embalagem, provando para conferir o ponto al dente."
+      },
+      {
+        "id": "molho",
+        "text": "Enquanto a massa cozinha, misture na tigela as raspas, o caldo medido, o azeite, o parmesão e a pimenta-do-reino nas quantidades da porção escolhida. Incorpore com um garfo ou batedor pequeno."
+      },
+      {
+        "id": "reservar",
+        "text": "Antes de escorrer o espaguete, separe ½ xícara (chá) da água do cozimento. Ela será acrescentada aos poucos; não é uma medida que precisa entrar inteira no molho."
+      },
+      {
+        "id": "misturar",
+        "text": "Escorra e transfira o espaguete ainda quente para a tigela. Misture com um pegador para distribuir a base de limão e queijo entre os fios."
+      },
+      {
+        "id": "ajustar",
+        "text": "Adicione um pouco da água reservada e misture. Observe a textura antes de acrescentar mais. Pare quando o molho estiver fluido e envolver a massa, sem deixar uma poça no fundo."
+      },
+      {
+        "id": "servir",
+        "text": "Sirva imediatamente e finalize com mais raspas de limão a gosto. O molho é finalizado na tigela e não leva creme de leite."
+      }
+    ],
+    "sourceNote": "Ficha pesquisada e adaptada a partir das referências abaixo. O vídeo ensina a base de uma porção; as opções de duas e quatro são adaptações editoriais. Execução ilustrada e receita não testada por nós.",
+    "equipment": [
+      "Panela média para a base; panela maior para quatro porções",
+      "Tigela grande para misturar e servir o molho",
+      "Ralador fino e medidores de colher e xícara",
+      "Garfo ou batedor pequeno, pegador e peneira"
+    ],
+    "tips": [
+      {
+        "title": "Meça o caldo",
+        "text": "As raspas dão perfume; o caldo entra medido. Use a quantidade indicada para a porção escolhida, sem espremer todos os limões dentro do molho."
+      },
+      {
+        "title": "Observe antes de pôr mais água",
+        "text": "Misture a cada pequena adição. A reserva pode sobrar: pare quando o molho envolver os fios, sem líquido acumulado."
+      },
+      {
+        "title": "Da panela para o molho",
+        "text": "Mantenha a tigela pronta antes de escorrer. Não lave o espaguete depois do cozimento; misture-o ainda quente ao molho."
+      },
+      {
+        "title": "Ajuste a panela",
+        "text": "Para quatro porções, use uma panela e uma tigela com espaço para mexer. O molho e a massa aumentam; o tempo de cozimento segue a embalagem, não é multiplicado por quatro."
+      }
+    ],
+    "portions": [
+      {
+        "servings": 1,
+        "note": "Base do vídeo e das referências: uma porção.",
+        "ingredientOverrides": [],
+        "stepOverrides": []
+      },
+      {
+        "servings": 2,
+        "note": "Adaptação editorial para 2 porções: massa e molho proporcionais. O vídeo mostra uma porção; os lotes maiores não foram testados por nós. Água e sal de cozimento foram ajustados à panela, sem multiplicação automática do tempo.",
+        "ingredientOverrides": [
+          {
+            "id": "espaguete",
+            "quantity": 200
+          },
+          {
+            "id": "limao",
+            "quantity": 2,
+            "unit": "unidades",
+            "note": "Use as raspas e apenas 2 colheres (chá) do caldo; mais raspas para finalizar a gosto."
+          },
+          {
+            "id": "parmesao",
+            "quantity": 6
+          },
+          {
+            "id": "azeite",
+            "quantity": 4
+          },
+          {
+            "id": "agua",
+            "quantity": 2,
+            "note": "Reserve 1 xícara (chá) antes de escorrer. Acrescente só o necessário para o molho; a reserva pode sobrar."
+          },
+          {
+            "id": "sal",
+            "quantity": 2
+          }
+        ],
+        "stepOverrides": [
+          {
+            "id": "preparar",
+            "text": "Separe os ingredientes da porção escolhida. Lave e seque os 2 limões, retire as raspas e meça apenas 2 colheres (chá) do caldo. Deixe uma tigela grande pronta para receber a massa."
+          },
+          {
+            "id": "cozinhar",
+            "text": "Ferva 2 litros de água em uma panela com espaço para mexer. Adicione 2 colheres (chá) de sal e os 200 g de espaguete. Mexa no início e siga o tempo da embalagem, provando para conferir o ponto al dente."
+          },
+          {
+            "id": "reservar",
+            "text": "Antes de escorrer, separe 1 xícara (chá) da água do cozimento. Essa reserva é uma margem para ajustar o molho, não uma quantidade que precisa entrar inteira."
+          }
+        ]
+      },
+      {
+        "servings": 4,
+        "note": "Adaptação editorial para 4 porções: massa e molho proporcionais. O vídeo mostra uma porção; os lotes maiores não foram testados por nós. Água e sal de cozimento foram ajustados à panela, sem multiplicação automática do tempo.",
+        "ingredientOverrides": [
+          {
+            "id": "espaguete",
+            "quantity": 400
+          },
+          {
+            "id": "limao",
+            "quantity": 4,
+            "unit": "unidades",
+            "note": "Use as raspas e apenas 4 colheres (chá) do caldo; mais raspas para finalizar a gosto."
+          },
+          {
+            "id": "parmesao",
+            "quantity": 12
+          },
+          {
+            "id": "azeite",
+            "quantity": 8
+          },
+          {
+            "id": "agua",
+            "quantity": 4,
+            "note": "Reserve 2 xícaras (chá) antes de escorrer. Acrescente só o necessário para o molho; a reserva pode sobrar."
+          },
+          {
+            "id": "sal",
+            "quantity": 4
+          }
+        ],
+        "stepOverrides": [
+          {
+            "id": "preparar",
+            "text": "Separe os ingredientes da porção escolhida. Lave e seque os 4 limões, retire as raspas e meça apenas 4 colheres (chá) do caldo. Deixe uma tigela grande pronta para receber a massa."
+          },
+          {
+            "id": "cozinhar",
+            "text": "Ferva 4 litros de água em uma panela com espaço para mexer. Adicione 4 colheres (chá) de sal e os 400 g de espaguete. Mexa no início e siga o tempo da embalagem, provando para conferir o ponto al dente."
+          },
+          {
+            "id": "reservar",
+            "text": "Antes de escorrer, separe 2 xícaras (chá) da água do cozimento. Essa reserva é uma margem para ajustar o molho, não uma quantidade que precisa entrar inteira."
+          }
+        ]
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — conferência documental do vídeo, Panelinha, Cozinha Prática/GNT e Barilla",
+    "reviewedAt": "2026-11-02T17:19:11Z"
+  },
+  "editorialNotes": [
+    "Descrição oficial expandida e transcrição automática concordam nas medidas e técnica, conferidas nesta etapa. Execução ilustrada; receita não testada pela marca. Não afirmar teste culinário. Tempo total não informado, mantido null.",
+    "Complementação pesquisada: fonte-base Panelinha concorda com vídeo; GNT indica cerca de 30min. Variantes 2/4 são adaptação proporcional, água segue referência técnica Barilla e concentração de sal da base. Não alegar teste culinário."
+  ],
+  "sources": [
+    {
+      "title": "Panelinha — macarrão ao limão",
+      "url": "https://panelinha.com.br/receita/macarrao-com-limao",
+      "role": "Receita-base para uma porção e técnica do molho na tigela."
+    },
+    {
+      "title": "Cozinha Prática / Receitas Globo — limão e parmesão",
+      "url": "https://receitas.globo.com/receitas-da-tv/cozinha-pratica/macarrao-com-limao-e-queijo-parmesao-gnt.ghtml",
+      "role": "Confirmação da base e referência de tempo de aproximadamente 30 minutos."
+    },
+    {
+      "title": "Barilla — como cozinhar macarrão",
+      "url": "https://www.barilla.com/pt-br/ajuda-com/dicas-de-massa-e-cozinha/como-cozinhar-macarrao",
+      "role": "Orientação de água, ponto e manejo da massa para a adaptação de porções."
+    }
+  ]
+}

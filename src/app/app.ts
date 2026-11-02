@@ -6,14 +6,13 @@ import { filter, map } from 'rxjs';
 
 import { AnalyticsService } from './core/analytics.service';
 import { ContinuityService } from './core/continuity.service';
-import { OnboardingComponent } from './modules/onboarding/components/onboarding.component';
 
 
 const LANDING_ROUTES = ['/wpp-bebelzinha', '/cortadores', '/jantar-resolvido'];
 
 @Component({
   changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [OnboardingComponent, RouterLink, RouterLinkActive, RouterOutlet],
+  imports: [RouterLink, RouterLinkActive, RouterOutlet],
   selector: 'app-root',
   styleUrl: './app.scss',
   templateUrl: './app.html',
@@ -30,7 +29,8 @@ export class App {
     { initialValue: this.router.url === '/' ? this.location.path() || '/' : this.router.url },
   );
 
-  readonly showOnboarding = computed(() => !this.url().startsWith('/produtos'));
+
+  readonly isRecipePage = computed(() => /^\/comidinhas\/[^/]+/.test(this.url().split(/[?#]/)[0]));
 
   readonly isLanding = computed(() => {
     const url = this.url();

@@ -18,6 +18,10 @@ export const routes: Routes = [
   },
 
   {
+    path: 'comidinhas/:slug',
+    loadComponent: () => import('./modules/meals/components/recipe-page/recipe-page.component').then(({ RecipePageComponent }) => RecipePageComponent),
+  },
+  {
     path: 'compras',
     loadComponent: () =>
       import('./modules/shopping/components/shopping-lists.component').then(
@@ -77,6 +81,6 @@ export const routes: Routes = [
   },
   {
     path: '**',
-    redirectTo: '',
+    loadComponent: () => import('./shared/components/not-found/not-found').then(({ NotFound }) => NotFound),
   },
 ];

@@ -1,4 +1,5 @@
 :host {
+  --bebel-sidebar-width: 15rem;
   --bebel-primary: #6f1fb4;
   --bebel-primary-strong: #47106f;
   --bebel-primary-soft: #ead2ff;
@@ -23,11 +24,7 @@
 
 .app-shell {
   min-height: 100dvh;
-  background:
-    radial-gradient(circle at 8% 8%, rgb(255 122 26 / 9%) 0 0.45rem, transparent 0.5rem),
-    radial-gradient(circle at 92% 12%, rgb(111 31 180 / 8%) 0 0.4rem, transparent 0.45rem),
-    linear-gradient(180deg, #fffaf5 0%, #fff8f1 100%);
-  background-size: 4.5rem 4.5rem, 5.5rem 5.5rem, auto;
+  background: var(--bebel-background);
 }
 
 .app-content {
@@ -37,9 +34,7 @@
 
 .app-content--landing {
   padding-bottom: 0;
-  background:
-    radial-gradient(circle at 50% -10%, rgb(111 31 180 / 12%) 0%, transparent 55%),
-    linear-gradient(180deg, #fffaf5 0%, #fff8f1 100%);
+  background: var(--bebel-background);
 }
 
 .sidebar {
@@ -117,7 +112,7 @@ a:focus-visible {
 @media (min-width: 52rem) {
   .app-shell {
     display: grid;
-    grid-template-columns: 17.5rem minmax(0, 1fr);
+    grid-template-columns: var(--bebel-sidebar-width) minmax(0, 1fr);
   }
 
   .sidebar {
@@ -128,9 +123,7 @@ a:focus-visible {
     flex-direction: column;
     padding: 1.4rem 1rem;
     border-right: 1px solid rgb(111 31 180 / 10%);
-    background:
-      radial-gradient(circle at 1.3rem 6rem, rgb(255 122 26 / 14%) 0 0.25rem, transparent 0.3rem),
-      rgb(255 253 249 / 95%);
+    background: var(--bebel-surface);
     backdrop-filter: blur(0.8rem);
   }
 
@@ -257,3 +250,6 @@ a:focus-visible {
     display: none;
   }
 }
+
+.app-shell--recipe .app-content { padding-bottom: 0; }
+.app-shell--recipe .bottom-nav { display: none; }
