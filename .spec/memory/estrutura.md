@@ -153,3 +153,7 @@ RecipeProductCtaComponent pertence a products e é composto pelo template públi
 
 ## Preferências vigentes — revisões 062–064
 App abre diretamente sem onboarding. Sidebar desktop usa token único de 15rem, sem override de largura por receita. Comidinhas contém somente blog agrupado por categorias publicadas; Shorts/longos não aparecem na listagem. Esta decisão substitui a apresentação da 061. Player permanece na receita. CTA do produto é banner de largura inteira após ficha/compras, com imagem/retrato e copy do usuário, sem mudar atribuição. A/B continua renderizando variantes na mesma URL; rotas dedicadas são prévias, sem redirecionamento automático.
+
+## Biblioteca paginada e ficha — revisões 065/066
+Library-navigation centraliza página de 12, busca normalizada, ordenação por publishedAt/slug e geração de parâmetros SSG. /comidinhas/ é página 1; /comidinhas/pagina/N/ tem canonical próprio e HTML SSG por build. q/categoria persistem seleção na URL, são noindex no navegador e não geram combinações SSG; canonical aponta à sequência base. Alias página 1 não ganha shell SSG de redirect. Catálogo completo ainda é importado no bundle: paginação limita DOM, não divide download do acervo.
+RecipePage usa capa/play local e só monta iframe após clique. RecipePortion pode fornecer equipment; compilação preserva/valida utensílios por variante. Macarrão público passa a base 2 e opção 4 já pesquisadas; vídeo original é referência de 1 porção. Rendimento/schema seguem quantidade exibida, sem inventar tempo de execução. Marcação antiga não é apagada.

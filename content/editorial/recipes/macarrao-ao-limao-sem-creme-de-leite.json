@@ -6,53 +6,53 @@
   "categoryIds": [
     "massas"
   ],
-  "description": "Espaguete com parmesão, azeite e limão: veja as medidas para uma porção e como acertar o molho na tigela com água do cozimento.",
+  "description": "Espaguete com parmesão, azeite e limão: veja as medidas para duas pessoas e como acertar o molho na tigela com água do cozimento.",
   "intro": "A base do molho é preparada na tigela e recebe o espaguete ainda quente. O segredo do ponto está em adicionar a água reservada aos poucos, misturando e observando antes de colocar mais.",
   "image": {
     "src": "images/recipes/macarrao-ao-limao-video.jpg",
     "alt": "Capa ilustrada do vídeo da Bebel: macarrão ao limão sem creme de leite"
   },
   "publishedAt": "2026-11-02T17:05:53Z",
-  "updatedAt": "2026-11-02T17:52:26Z",
+  "updatedAt": "2026-11-02T19:12:47Z",
   "seo": {
     "title": "Macarrão ao limão sem creme de leite: receita | Bebel",
-    "description": "Macarrão ao limão sem creme de leite com medidas para 1, 2 ou 4 porções. Veja vídeo, preparo, ingredientes marcáveis e fontes da receita."
+    "description": "Macarrão ao limão sem creme de leite com medidas para 2 ou 4 porções. Veja vídeo, preparo, ingredientes marcáveis e fontes da receita."
   },
   "recipe": {
     "yield": {
-      "servings": 1,
+      "servings": 2,
       "unit": "porção"
     },
     "times": {
       "prepMinutes": null,
       "cookMinutes": null,
-      "totalMinutes": 30
+      "totalMinutes": null
     },
-    "timeNote": "Cerca de 30 minutos para a receita-base, como referência de planejamento do Cozinha Prática/GNT. Não foi cronometrado por nós; o tempo varia com a massa, o fogão e a quantidade.",
+    "timeNote": "O tempo varia conforme a massa, o fogão e a quantidade preparada. Confira o ponto durante o preparo.",
     "ingredients": [
       {
         "id": "espaguete",
         "name": "Espaguete de grano duro",
-        "quantity": 100,
+        "quantity": 200,
         "unit": "g"
       },
       {
         "id": "limao",
         "name": "Limão",
-        "quantity": 1,
-        "unit": "unidade",
-        "note": "Use as raspas e apenas 1 colher (chá) do caldo; mais raspas para finalizar a gosto."
+        "quantity": 2,
+        "unit": "unidades",
+        "note": "Use as raspas e apenas 2 colheres (chá) do caldo; mais raspas para finalizar a gosto."
       },
       {
         "id": "parmesao",
         "name": "Parmesão ralado fino",
-        "quantity": 3,
+        "quantity": 6,
         "unit": "colheres (sopa)"
       },
       {
         "id": "azeite",
         "name": "Azeite",
-        "quantity": 2,
+        "quantity": 4,
         "unit": "colheres (sopa)"
       },
       {
@@ -66,7 +66,7 @@
         "name": "Água para cozinhar a massa",
         "quantity": 2,
         "unit": "litros",
-        "note": "Antes de escorrer, reserve ½ xícara (chá) dessa água. Não precisa usar toda a reserva no molho.",
+        "note": "Reserve 1 xícara (chá) antes de escorrer. Acrescente só o necessário para o molho; a reserva pode sobrar.",
         "shopping": false
       },
       {
@@ -79,11 +79,11 @@
     "steps": [
       {
         "id": "preparar",
-        "text": "Separe os ingredientes e deixe uma tigela grande à mão. Lave e seque o limão, retire as raspas e meça só 1 colher (chá) do caldo, sem usar o suco inteiro."
+        "text": "Separe os ingredientes da porção escolhida. Lave e seque os 2 limões, retire as raspas e meça apenas 2 colheres (chá) do caldo. Deixe uma tigela média pronta para receber a massa."
       },
       {
         "id": "cozinhar",
-        "text": "Leve 2 litros de água ao fogo alto. Quando ferver, adicione as 2 colheres (chá) de sal e o espaguete. Cozinhe pelo tempo indicado na embalagem, provando para conferir o ponto al dente."
+        "text": "Ferva 2 litros de água em uma panela com espaço para mexer. Adicione 2 colheres (chá) de sal e os 200 g de espaguete. Mexa no início e siga o tempo da embalagem, provando para conferir o ponto al dente."
       },
       {
         "id": "molho",
@@ -91,7 +91,7 @@
       },
       {
         "id": "reservar",
-        "text": "Antes de escorrer o espaguete, separe ½ xícara (chá) da água do cozimento. Ela será acrescentada aos poucos; não é uma medida que precisa entrar inteira no molho."
+        "text": "Antes de escorrer, separe 1 xícara (chá) da água do cozimento. Essa reserva é uma margem para ajustar o molho, não uma quantidade que precisa entrar inteira."
       },
       {
         "id": "misturar",
@@ -108,10 +108,12 @@
     ],
     "sourceNote": "Ficha pesquisada e adaptada a partir das referências abaixo. O vídeo ensina a base de uma porção; as opções de duas e quatro são adaptações editoriais. Execução ilustrada e receita não testada por nós.",
     "equipment": [
-      "Panela média para a base; panela maior para quatro porções",
-      "Tigela grande para misturar e servir o molho",
-      "Ralador fino e medidores de colher e xícara",
-      "Garfo ou batedor pequeno, pegador e peneira"
+      "Panela média para cozinhar a massa",
+      "Tigela média para misturar o molho",
+      "Ralador fino",
+      "Colher e xícara medidoras",
+      "Garfo ou batedor pequeno",
+      "Pegador de massa e peneira"
     ],
     "tips": [
       {
@@ -128,19 +130,13 @@
       },
       {
         "title": "Ajuste a panela",
-        "text": "Para quatro porções, use uma panela e uma tigela com espaço para mexer. O molho e a massa aumentam; o tempo de cozimento segue a embalagem, não é multiplicado por quatro."
+        "text": "Use os utensílios indicados para a quantidade escolhida, com espaço para misturar a massa e o molho. O tempo de cozimento segue a embalagem; não aumenta na mesma proporção dos ingredientes."
       }
     ],
     "portions": [
       {
-        "servings": 1,
-        "note": "Base do vídeo e das referências: uma porção.",
-        "ingredientOverrides": [],
-        "stepOverrides": []
-      },
-      {
         "servings": 2,
-        "note": "Adaptação editorial para 2 porções: massa e molho proporcionais. O vídeo mostra uma porção; os lotes maiores não foram testados por nós. Água e sal de cozimento foram ajustados à panela, sem multiplicação automática do tempo.",
+        "note": "Ingredientes e compras para uma refeição de 2 pessoas.",
         "ingredientOverrides": [
           {
             "id": "espaguete",
@@ -173,7 +169,7 @@
         "stepOverrides": [
           {
             "id": "preparar",
-            "text": "Separe os ingredientes da porção escolhida. Lave e seque os 2 limões, retire as raspas e meça apenas 2 colheres (chá) do caldo. Deixe uma tigela grande pronta para receber a massa."
+            "text": "Separe os ingredientes da porção escolhida. Lave e seque os 2 limões, retire as raspas e meça apenas 2 colheres (chá) do caldo. Deixe uma tigela média pronta para receber a massa."
           },
           {
             "id": "cozinhar",
@@ -183,11 +179,19 @@
             "id": "reservar",
             "text": "Antes de escorrer, separe 1 xícara (chá) da água do cozimento. Essa reserva é uma margem para ajustar o molho, não uma quantidade que precisa entrar inteira."
           }
+        ],
+        "equipment": [
+          "Panela média para cozinhar a massa",
+          "Tigela média para misturar o molho",
+          "Ralador fino",
+          "Colher e xícara medidoras",
+          "Garfo ou batedor pequeno",
+          "Pegador de massa e peneira"
         ]
       },
       {
         "servings": 4,
-        "note": "Adaptação editorial para 4 porções: massa e molho proporcionais. O vídeo mostra uma porção; os lotes maiores não foram testados por nós. Água e sal de cozimento foram ajustados à panela, sem multiplicação automática do tempo.",
+        "note": "Quatro porções no total: 2 para hoje e 2 para outra refeição.",
         "ingredientOverrides": [
           {
             "id": "espaguete",
@@ -230,6 +234,14 @@
             "id": "reservar",
             "text": "Antes de escorrer, separe 2 xícaras (chá) da água do cozimento. Essa reserva é uma margem para ajustar o molho, não uma quantidade que precisa entrar inteira."
           }
+        ],
+        "equipment": [
+          "Panela grande para cozinhar a massa",
+          "Tigela grande para misturar o molho",
+          "Ralador fino",
+          "Colher e xícara medidoras",
+          "Garfo ou batedor pequeno",
+          "Pegador de massa e peneira"
         ]
       }
     ]
@@ -241,7 +253,8 @@
   },
   "editorialNotes": [
     "Descrição oficial expandida e transcrição automática concordam nas medidas e técnica, conferidas nesta etapa. Execução ilustrada; receita não testada pela marca. Não afirmar teste culinário. Tempo total não informado, mantido null.",
-    "Complementação pesquisada: fonte-base Panelinha concorda com vídeo; GNT indica cerca de 30min. Variantes 2/4 são adaptação proporcional, água segue referência técnica Barilla e concentração de sal da base. Não alegar teste culinário."
+    "Complementação pesquisada: fonte-base Panelinha concorda com vídeo; GNT indica cerca de 30min. Variantes 2/4 são adaptação proporcional, água segue referência técnica Barilla e concentração de sal da base. Não alegar teste culinário.",
+    "Revisão 066: a variante pesquisada de duas porções passa a ser a base exibida; vídeo original permanece referência de uma porção. Opções públicas 2/4 por solicitação. Nenhuma execução culinária nova foi testada."
   ],
   "sources": [
     {

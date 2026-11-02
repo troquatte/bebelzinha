@@ -57,3 +57,6 @@ Comidinhas apresenta Shorts primeiro e receitas do blog depois, por categorias c
 
 ## Revisões 062–064 e pendências reais de publicação
 Onboarding removido, biblioteca somente blog, menu padronizado e banner visual atualizado; A/B existente conferido sem mudar sorteio/rotas. Produção observada em 02/11 ainda diverge: receita/sitemap 404 e jantar interno com index,follow, inclusive renderizado. A aptidão técnica das revisões locais não comprova elegibilidade publicada nem indexação/citações. Prioridades detalhadas em doc/auditoria-producao-ia-indexacao.md: publicar e verificar HTTP/noindex, Search Console/Bing, Rich Results e desempenho móvel. Sem deploy efetuado.
+
+## Navegação pronta e revisão da ficha — 065/066
+Busca, filtros e paginação de 12 com URLs/SSG/canonical e testes de acervo maior implementados localmente. Ficha com capa/play sob demanda, modos 2/4, equipamento dinâmico e legibilidade ajustados. Build/SEO e desktop/mobile aprovados; sem conteúdo novo e sem deploy. Próximo trabalho editorial continua dependendo da pesquisa OpenSEO.

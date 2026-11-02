@@ -18,3 +18,6 @@ button:focus-visible { outline: .2rem solid var(--bebel-orange); outline-offset:
 @media (min-width: 40rem) { .shopping-item:has(.shopping-item__actions) { grid-template-columns: auto minmax(0, 1fr) auto; } .shopping-item__actions { grid-column: auto; } }
 
 :host(.compact-headings) .items-group__header h2 { font-size: 1.25rem; }
+
+:host(.compact-headings) .shopping-item__name { font-size: 1rem; }
+:host(.compact-headings) .group-empty { font-size: .875rem; }

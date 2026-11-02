@@ -38,10 +38,8 @@ for (const entry of manifest.recipes) {
   assert.ok(!document.body.textContent.includes('Abrir lista de compras →'), 'Link removido não deve aparecer');
   if (recipe.recipe.sourceNote) assert.ok(!document.body.textContent.includes(recipe.recipe.sourceNote), 'Parágrafo removido não deve aparecer');
   assert.equal(document.querySelectorAll('input[type="checkbox"][checked], [role="switch"][aria-checked="true"]').length, 0, 'HTML não pode distribuir marcações pessoais');
-  assert.equal(document.querySelectorAll('iframe').length, 1, 'Deve existir um único player');
-  const player = document.querySelector('.dinner__recipe > .recipe-public__media iframe');
-  assert.ok(player, 'Player deve ocupar o topo do card');
-  assert.ok(!player.getAttribute('src').includes('autoplay=1'), 'Não iniciar reprodução automaticamente');
+  assert.equal(document.querySelectorAll('iframe').length, 0, 'Não carregar YouTube antes do clique');
+  assert.ok(document.querySelector('.recipe-public__media button.recipe-public__play img'), 'Capa/play devem ocupar o topo do card');
   assert.ok(!document.querySelector('details#video'), 'Remover seção duplicada de vídeo');
   for (const item of recipe.recipe.ingredients) assert.ok(document.body.textContent.includes(item.name), 'Ingrediente ausente: ' + item.id);
   for (const step of recipe.recipe.steps) assert.ok(document.body.textContent.includes(step.text), 'Passo ausente: ' + step.id);
@@ -85,13 +83,15 @@ console.log(`Editorial validado: ${manifest.recipes.length} fontes, ${catalog.re
 
 const portionFixture = recipe => { recipe.recipe.portions = [{ servings:1, note:'Base de teste', ingredientOverrides:[], stepOverrides:[] }]; };
 assert.equal(run('published', portionFixture).recipes[0].recipe.portions.length, 1);
+assert.deepEqual(run('published', recipe => { portionFixture(recipe); recipe.recipe.portions[0].equipment = ['Panela de teste']; }).recipes[0].recipe.portions[0].equipment, ['Panela de teste']);
+assert.throws(() => run('published', recipe => { portionFixture(recipe); recipe.recipe.portions[0].equipment = ['']; }), /utensílios da porção/);
 assert.throws(() => run('published', recipe => { portionFixture(recipe); recipe.recipe.portions.push(recipe.recipe.portions[0]); }), /duplicados/);
 assert.throws(() => run('published', recipe => { portionFixture(recipe); recipe.recipe.portions[0].ingredientOverrides = [{id:'inexistente',quantity:2}]; }), /ajuste de ingrediente/);
 assert.throws(() => run('published', recipe => { portionFixture(recipe); recipe.recipe.portions[0].stepOverrides = [{id:'inexistente',text:'Inválido'}]; }), /ajuste de passo/);
 assert.throws(() => run('published', recipe => { recipe.sources = [{title:'Fonte',role:'Teste',url:'javascript:alert(1)'}]; }), /fonte inválida/);
 const lemon = catalog.recipes.find(recipe => recipe.slug === 'macarrao-ao-limao-sem-creme-de-leite');
 if (lemon) {
-  assert.deepEqual(lemon.recipe.portions.map(portion => portion.servings), [1,2,4]);
+  assert.deepEqual(lemon.recipe.portions.map(portion => portion.servings), [2,4]);
   for (const count of [2,4]) {
     const portion = lemon.recipe.portions.find(portion => portion.servings === count);
     assert.equal(portion.ingredientOverrides.find(item => item.id === 'espaguete').quantity, count * 100);

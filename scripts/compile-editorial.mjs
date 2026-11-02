@@ -68,6 +68,7 @@ export function compileEditorial(manifest, load, channel, assetExists, now = Dat
       assert.ok(Array.isArray(body.portions) && body.portions.some(portion => portion.servings === body.yield.servings), label + 'porção base ausente');
       unique(body.portions.map(portion => portion.servings), label + 'porções');
       for (const portion of body.portions) {
+        if (portion.equipment) assert.ok(Array.isArray(portion.equipment) && portion.equipment.length > 0 && portion.equipment.every(text), label + 'utensílios da porção inválidos');
         assert.ok(Number.isInteger(portion.servings) && portion.servings > 0 && text(portion.note), label + 'porção inválida');
         assert.ok(Array.isArray(portion.ingredientOverrides) && Array.isArray(portion.stepOverrides), label + 'ajustes inválidos');
         unique(portion.ingredientOverrides.map(item => item.id), label + 'ajustes de ingredientes');
@@ -94,7 +95,7 @@ export function compileEditorial(manifest, load, channel, assetExists, now = Dat
         ...(text(body.sourceNote) ? { sourceNote: body.sourceNote } : {}),
         ...(body.equipment ? { equipment: [...body.equipment] } : {}),
         ...(body.tips ? { tips: body.tips.map(({ title, text }) => ({ title, text })) } : {}),
-        ...(body.portions ? { portions: body.portions.map(({ servings, note, ingredientOverrides, stepOverrides }) => ({ servings, note, ingredientOverrides: ingredientOverrides.map(({ id, quantity, unit, note }) => ({ id, quantity, ...(unit ? { unit } : {}), ...(note ? { note } : {}) })), stepOverrides: stepOverrides.map(({ id, text }) => ({ id, text })) })) } : {}),
+        ...(body.portions ? { portions: body.portions.map(({ servings, note, equipment, ingredientOverrides, stepOverrides }) => ({ servings, note, ...(equipment ? { equipment: [...equipment] } : {}), ingredientOverrides: ingredientOverrides.map(({ id, quantity, unit, note }) => ({ id, quantity, ...(unit ? { unit } : {}), ...(note ? { note } : {}) })), stepOverrides: stepOverrides.map(({ id, text }) => ({ id, text })) })) } : {}),
         ingredients: body.ingredients.map(({ id, name, quantity, unit, note, section, shopping }) => ({ id, name, quantity, unit, ...(shopping === false ? { shopping: false } : {}), ...(text(note) ? { note } : {}), ...(text(section) ? { section } : {}) })),
         steps: body.steps.map(({ id, text: stepText, section }) => ({ id, text: stepText, ...(text(section) ? { section } : {}) })),
       },

@@ -19,7 +19,7 @@ Saída de produção inspecionada; não é auditoria do domínio publicado.
 
 | Página | HTML bruto | HTML gzip calculado | Assets locais declarados no HTML | Assets brutos | Assets gzip calculado |
 |---|---|---|---|---|---|
-| /comidinhas/macarrao-ao-limao-sem-creme-de-leite | 124.8 KiB | 21.9 KiB | 12 | 794.6 KiB | 489.6 KiB |
+| /comidinhas/macarrao-ao-limao-sem-creme-de-leite | 127.0 KiB | 22.1 KiB | 13 | 1002.1 KiB | 692.1 KiB |
 
 Gzip é compressão calculada localmente, não confirmação de transferência/compressão no servidor. Assets contam referências diretas únicas do HTML, não dependências transitivas dos módulos ou recursos carregados depois. YouTube, fontes e analytics externos não estão somados; o peso completo e Core Web Vitals exigem medição de navegação em ambiente publicado. Os tamanhos não são uma tag SEO.
 

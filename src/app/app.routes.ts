@@ -18,6 +18,10 @@ export const routes: Routes = [
   },
 
   {
+    path: 'comidinhas/pagina/:page',
+    loadComponent: () => import('./modules/meals/components/meals.component').then(({ MealsComponent }) => MealsComponent),
+  },
+  {
     path: 'comidinhas/:slug',
     loadComponent: () => import('./modules/meals/components/recipe-page/recipe-page.component').then(({ RecipePageComponent }) => RecipePageComponent),
   },
