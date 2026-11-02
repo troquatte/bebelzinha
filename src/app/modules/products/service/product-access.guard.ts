@@ -13,7 +13,7 @@ export const productAccessGuard: CanActivateFn = route => {
 
 // A apresentação continua acessível por escolha explícita, inclusive para compradores.
 export const productEntryGuard: CanActivateFn = route => {
-  const preview = route.routeConfig?.path === 'produtos/refeicao-resolvida' && (route.queryParamMap.get('apresentacao') === '1' || salesCampaign(route.queryParamMap.get('venda')) !== null);
+  const preview = route.routeConfig?.path?.startsWith('produtos/refeicao-resolvida') && (route.queryParamMap.get('apresentacao') === '1' || route.queryParamMap.has('ab') || route.routeConfig?.data?.['variant'] !== undefined || salesCampaign(route.queryParamMap.get('venda')) !== null);
   if (!inject(ProductAccessService).hasAccess() || preview) return true;
   const day = route.queryParamMap.get('dia');
   return inject(Router).createUrlTree(['/jantar-resolvido'], {

@@ -8,7 +8,6 @@ import { AnalyticsService } from './core/analytics.service';
 import { ContinuityService } from './core/continuity.service';
 import { OnboardingComponent } from './modules/onboarding/components/onboarding.component';
 
-import { salesCampaign } from './modules/products/data/sales-campaign';
 
 const LANDING_ROUTES = ['/wpp-bebelzinha', '/cortadores', '/jantar-resolvido'];
 
@@ -37,8 +36,11 @@ export class App {
     const url = this.url();
     const tree = this.router.parseUrl(url);
     const path = tree.root.children['primary']?.segments.map(segment => segment.path).join('/') ?? '';
-    const salesPage = ['produtos', 'produtos/refeicao-resolvida'].includes(path)
-      && salesCampaign(tree.queryParams['venda']) !== null;
+    // Ambas as versões do experimento precisam aparecer como landing pages,
+    // mesmo nos links de prévia sem parâmetros de campanha.
+    const salesPage = path === 'produtos' || path === 'produtos/refeicao-resolvida'
+      || path === 'produtos/refeicao-resolvida/teste-a'
+      || path === 'produtos/refeicao-resolvida/teste-b';
     return salesPage || LANDING_ROUTES.some(route => url.startsWith(route));
   });
 
