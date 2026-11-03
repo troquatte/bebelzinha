@@ -6,7 +6,8 @@
     "/jantar-resolvido",
     "/produtos/refeicao-resolvida/acessar",
     "/produtos/refeicao-resolvida/teste-a",
-    "/produtos/refeicao-resolvida/teste-b"
+    "/produtos/refeicao-resolvida/teste-b",
+    "/produtos/refeicao-resolvida/sem-delivery"
   ],
   "shells": [
     {
@@ -51,6 +52,12 @@
       "canonical": "/produtos/refeicao-resolvida",
       "title": "Refeição Resolvida | 22 refeições caseiras com a Bebel",
       "description": "Conheça o Refeição Resolvida da Bebel.",
+      "indexable": false
+    },
+    {
+      "path": "/produtos/refeicao-resolvida/sem-delivery",
+      "title": "Almoço e jantar sem depender do delivery | Refeição Resolvida",
+      "description": "22 soluções completas de refeição e o PDF completo para baixar ou imprimir. Refeição Resolvida da Bebel por R$ 27,00, pagamento único.",
       "indexable": false
     }
   ]

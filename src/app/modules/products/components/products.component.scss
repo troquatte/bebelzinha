@@ -176,3 +176,27 @@ a { text-decoration: none; }
 @media (prefers-reduced-motion: reduce) {
   .sales__cta, .sales-faq summary .material-symbols-outlined { transition: none; }
 }
+
+/* Headline da promessa independente, com leitura confortável em telas menores. */
+.sales--delivery .sales-hero__content h1 { font-size: clamp(2rem, 3.6vw, 3.35rem); line-height: 1.08; }
+
+.sales-delivery-formats__grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+.sales-delivery-formats__grid article { padding: 28px; border: 1px solid #dfc2f0; border-radius: 20px; background: #fff; }
+.sales-delivery-formats__grid article > .material-symbols-outlined { font-size: 38px; color: var(--purple); margin-bottom: 12px; }
+.sales-delivery-formats__grid h3 { font-size: 23px; margin-bottom: 12px; }
+.sales-delivery-formats__grid p { color: var(--muted); line-height: 1.6; }
+.sales-delivery-formats__grid strong { display: block; margin-top: 18px; color: var(--purple); }
+.sales-walkthrough { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
+.sales-walkthrough__step { min-width: 0; padding: 24px; border-radius: 20px; border: 1px solid #ead4f4; background: #fff; }
+.sales-walkthrough__heading { display: flex; gap: 12px; align-items: center; }
+.sales-walkthrough__heading > span { display: grid; place-items: center; flex: 0 0 38px; height: 38px; border-radius: 50%; background: var(--purple); color: #fff; font-weight: 900; }
+.sales-walkthrough__heading h3 { font-size: 22px; }
+.sales-walkthrough__step > p { margin: 14px 0 20px; color: var(--muted); min-height: 78px; line-height: 1.55; }
+.sales-walkthrough__screen { display: block; max-width: 300px; margin: 0 auto; border: 6px solid var(--deep); border-radius: 24px; overflow: hidden; background: var(--cream); }
+.sales-walkthrough__screen img { display: block; width: 100%; height: auto; }
+.sales-walkthrough__step small { display: block; margin-top: 12px; text-align: center; color: var(--muted); font-size: 12px; }
+@media (max-width: 650px) {
+  .sales-delivery-formats__grid, .sales-walkthrough { grid-template-columns: 1fr; }
+  .sales-delivery-formats__grid article, .sales-walkthrough__step { padding: 20px; }
+  .sales-walkthrough__step > p { min-height: 0; }
+}

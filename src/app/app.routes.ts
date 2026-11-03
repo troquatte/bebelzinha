@@ -67,6 +67,12 @@ export const routes: Routes = [
     loadComponent: () => import('./modules/products/components/products.component').then(({ ProductsComponent }) => ProductsComponent),
   },
   {
+    path: 'produtos/refeicao-resolvida/sem-delivery',
+    canActivate: [productEntryGuard],
+    data: { salesPromise: 'delivery' },
+    loadComponent: () => import('./modules/products/components/products.component').then(({ ProductsComponent }) => ProductsComponent),
+  },
+  {
     path: 'produtos/refeicao-resolvida/teste-a',
     canActivate: [productEntryGuard],
     data: { variant: 'a' },

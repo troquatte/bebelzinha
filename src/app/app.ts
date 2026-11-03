@@ -40,7 +40,8 @@ export class App {
     // mesmo nos links de prévia sem parâmetros de campanha.
     const salesPage = path === 'produtos' || path === 'produtos/refeicao-resolvida'
       || path === 'produtos/refeicao-resolvida/teste-a'
-      || path === 'produtos/refeicao-resolvida/teste-b';
+      || path === 'produtos/refeicao-resolvida/teste-b'
+      || path === 'produtos/refeicao-resolvida/sem-delivery';
     return salesPage || LANDING_ROUTES.some(route => url.startsWith(route));
   });
 

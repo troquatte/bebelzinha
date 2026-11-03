@@ -1,4 +1,4 @@
-<div class="sales" [class.sales--b]="variant() === 'b'">
+<div class="sales" [class.sales--b]="variant() === 'b'" [class.sales--delivery]="isDeliveryOffer">
   <header class="sales__top">
     <a class="sales__brand" routerLink="/"
       ><img src="images/bebel/bebel-roxa.jpg" alt="" width="38" height="38" />
@@ -18,15 +18,23 @@
           da Bebel para sua rotina</span
         >
         <h1 id="sales-title">
-          Todo dia a mesma pergunta: <em>o que fazer de almoço ou jantar?</em>
+          @if (isDeliveryOffer) {
+            Pare de gastar com delivery ou quebrar a cabeça todo dia para decidir <em>o almoço e o jantar.</em>
+          } @else {
+            Todo dia a mesma pergunta: <em>o que fazer de almoço ou jantar?</em>
+          }
         </h1>
         <p class="sales-hero__lead">
-          Não precisa começar do zero toda vez que for cozinhar. A Bebel reuniu
-          <strong>22 refeições caseiras</strong> com ingredientes, preparo e lista de compras para
-          facilitar sua escolha.
+          @if (isDeliveryOffer) {
+            Tenha acesso às <strong>22 refeições no celular, com preparo e lista de compras interativos.</strong> Você também recebe o <strong>PDF completo para baixar ou imprimir.</strong> Sem complicação e usando o que você já tem em casa.
+          } @else {
+            Não precisa começar do zero toda vez que for cozinhar. A Bebel reuniu
+            <strong>22 refeições caseiras</strong> com ingredientes, preparo e lista de compras para
+            facilitar sua escolha.
+          }
         </p>
         <div class="sales-hero__chips">
-          <span>Comida de casa</span><span>2 ou 4 porções</span><span>Direto no celular</span><span>7 dias de garantia</span>
+          <span>Comida de casa</span><span>2 ou 4 porções</span><span>{{ isDeliveryOffer ? 'Acesso no celular' : 'Direto no celular' }}</span><span>7 dias de garantia</span>
         </div>
         <div class="sales-hero__buy">
           @if (access.hasAccess()) {
@@ -44,8 +52,8 @@
               [href]="checkoutUrl()"
               target="_blank"
               rel="noopener noreferrer"
-              (click)="trackCheckout('hero-a')"
-              >Quero facilitar minhas refeições
+              (click)="trackCheckout(isDeliveryOffer ? 'hero-delivery' : 'hero-a')"
+              >{{ isDeliveryOffer ? 'Quero acesso no celular + PDF' : 'Quero facilitar minhas refeições' }}
               <span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a
             >
             <small>Compra realizada no checkout da Hotmart</small>
@@ -77,13 +85,41 @@
       </div>
     </section>
 
+    @if (isDeliveryOffer) {
+      <section class="sales__section sales-delivery-formats" aria-labelledby="delivery-formats-title">
+        <div class="sales__section-head">
+          <span class="sales__eyebrow">Os dois estão incluídos</span>
+          <h2 id="delivery-formats-title">Acesso no celular + PDF completo.</h2>
+          <p>Na mesma compra, por {{ product.price }} em pagamento único.</p>
+        </div>
+        <div class="sales-delivery-formats__grid">
+          <article>
+            <span class="material-symbols-outlined" aria-hidden="true">smartphone</span>
+            <h3>Use o produto no celular</h3>
+            <p>Abra no navegador, sem instalar. Escolha a refeição, ajuste as porções, acompanhe o preparo e marque a lista de compras.</p>
+            <strong>Acesso interativo incluído</strong>
+          </article>
+          <article>
+            <span class="material-symbols-outlined" aria-hidden="true">picture_as_pdf</span>
+            <h3>Tenha também o PDF</h3>
+            <p>Baixe o material completo com as 22 refeições para guardar no aparelho ou imprimir e consultar na cozinha.</p>
+            <strong>PDF incluído na mesma compra</strong>
+          </article>
+        </div>
+      </section>
+    }
+
     <section class="sales__section sales-problem" aria-labelledby="problem-title">
       <div class="sales__section-head">
         <span class="sales__eyebrow">Parece familiar?</span>
-        <h2 id="problem-title">Pensar no almoço não deveria ser a parte mais cansativa do dia.</h2>
+        <h2 id="problem-title">{{ isDeliveryOffer ? 'O delivery não precisa ser a saída para a falta de ideia.' : 'Pensar no almoço não deveria ser a parte mais cansativa do dia.' }}</h2>
         <p>
-          Às vezes o mais difícil nem é cozinhar. É escolher o prato, conferir o que falta e lembrar
-          dos ingredientes na hora de comprar.
+          @if (isDeliveryOffer) {
+            Quando falta uma ideia, o pedido pelo celular acaba parecendo o caminho mais fácil. Tenha opções de comida caseira à mão e confira o que já tem antes de comprar.
+          } @else {
+            Às vezes o mais difícil nem é cozinhar. É escolher o prato, conferir o que falta e lembrar
+            dos ingredientes na hora de comprar.
+          }
         </p>
       </div>
       <div class="sales-problem__grid">
@@ -141,6 +177,7 @@
         </p>
         <ul class="sales__tick-list">
           <li>Escolha entre as 22 refeições</li>
+          @if (isDeliveryOffer) { <li>Baixe ou imprima o PDF completo</li> }
           <li>Veja ingredientes para 2 ou 4 porções</li>
           <li>Marque os itens na lista de compras</li>
           <li>Siga o passo a passo no seu ritmo</li>
@@ -293,8 +330,23 @@
   <section class="sales__section sales-included" aria-labelledby="included-title">
     <div class="sales__section-head">
       <span class="sales__eyebrow">Simples de usar</span>
-      <h2 id="included-title">Três passos para a próxima refeição</h2>
+      <h2 id="included-title">{{ isDeliveryOffer ? 'Veja como você usa o produto no celular' : 'Três passos para a próxima refeição' }}</h2>
+      @if (isDeliveryOffer) { <p>Estas são telas reais do Refeição Resolvida. O PDF vem junto para você também baixar ou imprimir.</p> }
     </div>
+    @if (isDeliveryOffer) {
+      <div class="sales-walkthrough">
+        @for (step of deliverySteps; track step.image; let index = $index) {
+          <article class="sales-walkthrough__step">
+            <div class="sales-walkthrough__heading"><span>{{ index + 1 }}</span><h3>{{ step.title }}</h3></div>
+            <p>{{ step.text }}</p>
+            <a class="sales-walkthrough__screen" [href]="'images/products/refeicao-resolvida/' + step.image + '.webp'" target="_blank" rel="noopener" [attr.aria-label]="'Ampliar tela: ' + step.title">
+              <img [src]="'images/products/refeicao-resolvida/' + step.image + '.webp'" [alt]="step.alt" width="390" height="844" loading="lazy" />
+            </a>
+            <small>Tela real do produto · toque na imagem para ampliar</small>
+          </article>
+        }
+      </div>
+    } @else {
     <div class="sales-included__steps">
       <article>
         <span>01</span>
@@ -312,6 +364,7 @@
         <p>Siga a receita e marque o que falta na lista de compras.</p>
       </article>
     </div>
+    }
     @if (!access.hasAccess()) {
       <a
         class="sales__cta sales__cta--center"
@@ -319,7 +372,7 @@
         target="_blank"
         rel="noopener noreferrer"
         (click)="trackCheckout('passos')"
-        >Quero a ajuda da Bebel
+        >{{ isDeliveryOffer ? 'Quero acesso no celular + PDF' : 'Quero a ajuda da Bebel' }}
         <span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a
       >
     }
@@ -346,8 +399,8 @@
       <img src="images/bebel/bebel-roxa.jpg" alt="Bebel" width="96" height="96" loading="lazy" />
     </div>
     <span class="sales__pill sales__pill--light">Um pouquinho mais de praticidade na cozinha</span>
-    <h2 id="final-title">O almoço e o jantar podem começar com uma ideia pronta.</h2>
-    <p>22 refeições, ingredientes, porções e lista de compras reunidos em um lugar só.</p>
+    <h2 id="final-title">{{ isDeliveryOffer ? 'Decida a próxima refeição antes de abrir o delivery.' : 'O almoço e o jantar podem começar com uma ideia pronta.' }}</h2>
+    <p>{{ isDeliveryOffer ? 'Receba o acesso interativo às 22 refeições no celular e também o PDF completo para baixar ou imprimir.' : '22 refeições, ingredientes, porções e lista de compras reunidos em um lugar só.' }}</p>
     @if (access.hasAccess()) {
       <a class="sales__cta sales__cta--center" routerLink="/jantar-resolvido"
         >Continuar minhas refeições
@@ -362,7 +415,7 @@
         target="_blank"
         rel="noopener noreferrer"
         (click)="trackCheckout('final')"
-        >Quero meu Refeição Resolvida
+        >{{ isDeliveryOffer ? 'Quero acesso no celular + PDF' : 'Quero meu Refeição Resolvida' }}
         <span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a
       ><small>Você será direcionado para o checkout da Hotmart.</small>
     }

@@ -259,3 +259,8 @@ Build/postbuild aprovados:70receitas públicas/72registros/78rotas estáticas/80
 Revisão: arroz3xícaras para bater folhas/2efetivamente na cocção; alho1picado+4inteiros; frango do salpicão já cozido; vinagrete1xícara; maionese20pequenasporções; pavê chocolate33% e doisbiscoitos; palha32fatias/2hfrio; sagu semvinho comsucoeaçúcar.
 
 Sem commit, push, deploy ou agendamento. Fila concluida_localmente. Relatório privado: https://app.openseo.so/p/d9786bbb-b04d-4eaa-adf8-337b47b3010a/reports/9807ebb7-4aa1-48b8-b225-aa26c9d38ecc
+
+
+## Promessa independente de delivery — 3 nov 2026
+
+Nova página /produtos/refeicao-resolvida/sem-delivery com headline/subtítulo do usuário, 22 refeições + PDF, R$27 único. Não sorteia/lê/grava A/B; ignora queryab; eventos sales_promise:sem-delivery e checkout SCKbebel-sem-delivery. Oferta/rotas A/B antigas preservadas. Nenhum PDF alterado. Campanha noindex, canonical próprio, fora do sitemap. Dez testes e build/pós-build aprovados; desktop/mobile conferidos. Sem deploy. Detalhes: .spec/changes/078-promessa-delivery.md.

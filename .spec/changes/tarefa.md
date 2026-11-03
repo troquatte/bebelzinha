@@ -97,3 +97,14 @@ Sem commit, push, deploy ou agendamento. Fila concluida_localmente. Relatório p
 
 ## Vídeo da batata-doce associado — 3 nov 2026
 Pedido do usuário: SVNVUAIXNes na ficha batata-doce-na-airfryer. Canal e descrição conferidos no YouTube; pré-cozimento 6min, 180°C12min, duas porções. Catálogo do canal e metadados VideoObject incluídos (upload2026-11-03, duração DOM PT3M33S). Foto própria preservada e botão rosa #ea225d; navegador confirmou zero iframe antes do clique e um iframe com ID correto após clique. Build/pós-build aprovados:70receitas/78rotas/80URLs. Sem deploy. Evidência .videos/output/seo/batata-doce-video-associado.png.
+
+
+## Promessa independente de delivery — 3 nov 2026
+
+Nova página /produtos/refeicao-resolvida/sem-delivery com headline/subtítulo do usuário, 22 refeições + PDF, R$27 único. Não sorteia/lê/grava A/B; ignora queryab; eventos sales_promise:sem-delivery e checkout SCKbebel-sem-delivery. Oferta/rotas A/B antigas preservadas. Nenhum PDF alterado. Campanha noindex, canonical próprio, fora do sitemap. Dez testes e build/pós-build aprovados; desktop/mobile conferidos. Sem deploy. Detalhes: .spec/changes/078-promessa-delivery.md.
+
+## Revisão da entrega — acesso online e PDF
+
+Por pedido do usuário, o subtítulo agora explica acesso interativo no celular e PDF completo como duas entregas da mesma compra. Criado bloco com dois cards, FAQ explícita e CTAs alinhados. Acrescentadas quatro etapas com capturas reais do produto: escolher refeição, ajustar porções, acompanhar preparo e marcar compras. Quatro imagens WebP, carregamento lazy, texto alternativo e links para ampliar; capturas não contêm código de acesso. Marcações usadas na demonstração foram restauradas. PDF não foi modificado. A/B e checkout independente preservados.
+
+Validação: dez testes aprovados; build/pós-build/SEO aprovados. Desktop1280 e celular390 sem overflow; formatos e etapas em uma coluna no celular, quatro imagens carregadas. Prévia local em /produtos/refeicao-resolvida/sem-delivery. Sem deploy. Evidências .videos/output/seo/entrega-dois-formatos.png e entrega-etapas-desktop.png.
