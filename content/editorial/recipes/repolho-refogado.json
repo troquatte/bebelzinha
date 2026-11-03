@@ -1,0 +1,122 @@
+{
+  "id": "repolho-refogado",
+  "slug": "repolho-refogado",
+  "title": "Repolho refogado com bacon e alho",
+  "description": "Repolho refogado com bacon, alho e tempero em pó. Confira as quantidades para meio repolho e o ponto das tiras na panela.",
+  "intro": "O bacon solta a gordura usada para começar o refogado.",
+  "categoryIds": [
+    "acompanhamentos"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/repolho-refogado.webp",
+    "alt": "Imagem ilustrativa: Tirinhas de repolho verde refogado com cubinhos dourados de bacon e alho"
+  },
+  "publishedAt": "2026-11-03T20:10:17Z",
+  "updatedAt": "2026-11-03T20:10:17Z",
+  "seo": {
+    "title": "Repolho refogado com bacon e alho | Bebel",
+    "description": "Repolho refogado com bacon, alho e tempero em pó. Confira as quantidades para meio repolho e o ponto das tiras na panela."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 4,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 5 minutos para murchar o repolho depois de dourar o bacon e juntar o alho, além do corte.",
+    "ingredients": [
+      {
+        "id": "repolho",
+        "name": "Repolho",
+        "quantity": 0.5,
+        "unit": "unidade"
+      },
+      {
+        "id": "bacon",
+        "name": "Bacon picado",
+        "quantity": 3,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "alho",
+        "name": "Alho amassado",
+        "quantity": 1,
+        "unit": "dente"
+      },
+      {
+        "id": "tempero",
+        "name": "Tempero em pó MAGGI Fondor",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Lave o repolho e corte em tirinhas finas. Descasque e amasse o alho."
+      },
+      {
+        "id": "passo-2",
+        "text": "Coloque o bacon numa panela e deixe dourar na própria gordura. Junte o alho e mexa, sem deixar queimar."
+      },
+      {
+        "id": "passo-3",
+        "text": "Acrescente o repolho e o tempero em pó. Misture para distribuir."
+      },
+      {
+        "id": "passo-4",
+        "text": "Refogue por aproximadamente 5 minutos, até murchar um pouco. Sirva a seguir."
+      }
+    ],
+    "equipment": [
+      "Panela e colher ou espátula",
+      "Tábua, faca e medidor"
+    ],
+    "tips": [
+      {
+        "title": "Gordura do bacon",
+        "text": "A receita não pede óleo adicional."
+      },
+      {
+        "title": "Tempero já salgado",
+        "text": "Não há sal separado na lista desta formulação."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Transfira para recipiente raso e refrigere prontamente a 4 °C ou menos. Consuma em até 2 dias; descarte o que passou mais de 2 horas fora da geladeira."
+      },
+      {
+        "title": "Ao reaquecer",
+        "text": "Aqueça apenas o que será servido até atingir 74 °C no centro."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T20:10:17Z"
+  },
+  "sources": [
+    {
+      "title": "Receitas Nestlé — repolho refogado",
+      "url": "https://www.receitasnestle.com.br/receitas/repolho-refogado",
+      "role": "Meio repolho, bacon, alho, Fondor e quatro porções; cinco minutos após adicionar as tiras."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Páginadireta403;listae métodorecuperadospela busca. Não declararacessodireto. Fórmulacomtemperodemarca mantidapara não inventarsubstituição.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

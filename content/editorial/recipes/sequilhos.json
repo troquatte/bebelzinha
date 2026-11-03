@@ -1,0 +1,131 @@
+{
+  "id": "sequilhos",
+  "slug": "sequilhos",
+  "title": "Sequilhos de amido de milho com manteiga e gema",
+  "description": "Sequilhos de amido de milho, manteiga e gema, sem leite condensado. Confira a modelagem pequena, o forno e quando tirar da assadeira.",
+  "intro": "A massa rende cerca de 130 biscoitos pequenos; o tamanho muda o rendimento e o tempo.",
+  "categoryIds": [
+    "doces",
+    "forno",
+    "lanches"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/sequilhos.webp",
+    "alt": "Imagem ilustrativa: Biscoitinhos claros de sequilho com marcas de garfo e base levemente dourada"
+  },
+  "publishedAt": "2026-11-03T20:48:54Z",
+  "updatedAt": "2026-11-03T20:48:54Z",
+  "seo": {
+    "title": "Sequilhos de amido de milho com manteiga e gema | Bebel",
+    "description": "Sequilhos de amido de milho, manteiga e gema, sem leite condensado. Confira a modelagem pequena, o forno e quando tirar da assadeira."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 130,
+      "unit": "biscoitos pequenos"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 12 minutos a 180 °C por leva, além de modelar e deixar esfriar completamente na assadeira.",
+    "ingredients": [
+      {
+        "id": "amido",
+        "name": "Amido de milho para a massa",
+        "quantity": 2,
+        "unit": "xícaras (chá)"
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar",
+        "quantity": 0.3333333333333333,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "manteiga",
+        "name": "Manteiga em temperatura ambiente",
+        "quantity": 125,
+        "unit": "g"
+      },
+      {
+        "id": "gema",
+        "name": "Gema",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "amido-bancada",
+        "name": "Amido de milho para polvilhar",
+        "quantity": null,
+        "unit": "a gosto",
+        "note": "Use bem pouco, somente se a massa grudar."
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Preaqueça a 180 °C. Misture manteiga e açúcar até ficar cremoso e incorpore a gema."
+      },
+      {
+        "id": "passo-2",
+        "text": "Adicione o amido da massa e amasse até ficar lisa e sem grudar."
+      },
+      {
+        "id": "passo-3",
+        "text": "Faça rolinhos de 2 cm de espessura e corte pedaços de 1 cm. Forme bolinhas bem compactadas."
+      },
+      {
+        "id": "passo-4",
+        "text": "Distribua em assadeira sem untar, com 1 cm entre elas. Achate levemente com garfo."
+      },
+      {
+        "id": "passo-5",
+        "text": "Asse por cerca de 12 minutos, até secarem ao toque e dourarem só na base. Espere esfriar completamente antes de retirar; repita em levas."
+      }
+    ],
+    "equipment": [
+      "Forno e assadeiras",
+      "Tigela, espátula, faca lisa e garfo",
+      "Balança e medidores"
+    ],
+    "tips": [
+      {
+        "title": "Topo claro",
+        "text": "Não espere dourar por cima."
+      },
+      {
+        "title": "Esfrie na assadeira",
+        "text": "Os biscoitos firmam ao esfriar e podem quebrar quentes."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Pote bem fechado",
+        "text": "Espere esfriar por completo e guarde em recipiente hermético, protegido de calor e umidade. A referência informa conservação por até 1 mês."
+      },
+      {
+        "title": "Massa antes de assar",
+        "text": "Se preparar com antecedência, mantenha a massa crua embalada na geladeira por até 2 dias."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T20:48:54Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — sequilho",
+      "url": "https://panelinha.com.br/receita/sequilho",
+      "role": "Cerca de 130 biscoitos pequenos, massa com gema, 180 °C e armazenamento hermético."
+    }
+  ],
+  "editorialNotes": [
+    "Fonte130pequenos400gaprox;unidadecustomsemregra2/4. NãoépolvilhodoceSERP;semcondensado. Semalegaçãosemglúten,rótulosnãoauditados.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

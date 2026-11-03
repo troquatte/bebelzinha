@@ -522,6 +522,126 @@
       "slug": "ambrosia",
       "status": "published",
       "file": "recipes/ambrosia.json"
+    },
+    {
+      "id": "abacaxi-na-airfryer",
+      "slug": "abacaxi-na-airfryer",
+      "status": "published",
+      "file": "recipes/abacaxi-na-airfryer.json"
+    },
+    {
+      "id": "beterraba-na-airfryer",
+      "slug": "beterraba-na-airfryer",
+      "status": "published",
+      "file": "recipes/beterraba-na-airfryer.json"
+    },
+    {
+      "id": "cogumelos-salteados",
+      "slug": "cogumelos-salteados",
+      "status": "published",
+      "file": "recipes/cogumelos-salteados.json"
+    },
+    {
+      "id": "couve-refogada",
+      "slug": "couve-refogada",
+      "status": "published",
+      "file": "recipes/couve-refogada.json"
+    },
+    {
+      "id": "repolho-refogado",
+      "slug": "repolho-refogado",
+      "status": "published",
+      "file": "recipes/repolho-refogado.json"
+    },
+    {
+      "id": "batata-saute",
+      "slug": "batata-saute",
+      "status": "published",
+      "file": "recipes/batata-saute.json"
+    },
+    {
+      "id": "torta-de-limao",
+      "slug": "torta-de-limao",
+      "status": "published",
+      "file": "recipes/torta-de-limao.json"
+    },
+    {
+      "id": "banoffee",
+      "slug": "banoffee",
+      "status": "published",
+      "file": "recipes/banoffee.json"
+    },
+    {
+      "id": "doce-de-leite-caseiro",
+      "slug": "doce-de-leite-caseiro",
+      "status": "published",
+      "file": "recipes/doce-de-leite-caseiro.json"
+    },
+    {
+      "id": "pacoca-caseira",
+      "slug": "pacoca-caseira",
+      "status": "published",
+      "file": "recipes/pacoca-caseira.json"
+    },
+    {
+      "id": "arroz-a-grega",
+      "slug": "arroz-a-grega",
+      "status": "published",
+      "file": "recipes/arroz-a-grega.json"
+    },
+    {
+      "id": "salada-de-lentilha",
+      "slug": "salada-de-lentilha",
+      "status": "published",
+      "file": "recipes/salada-de-lentilha.json"
+    },
+    {
+      "id": "salada-de-pepino",
+      "slug": "salada-de-pepino",
+      "status": "published",
+      "file": "recipes/salada-de-pepino.json"
+    },
+    {
+      "id": "cenoura-refogada",
+      "slug": "cenoura-refogada",
+      "status": "published",
+      "file": "recipes/cenoura-refogada.json"
+    },
+    {
+      "id": "vagem-refogada",
+      "slug": "vagem-refogada",
+      "status": "published",
+      "file": "recipes/vagem-refogada.json"
+    },
+    {
+      "id": "pimentao-na-airfryer",
+      "slug": "pimentao-na-airfryer",
+      "status": "published",
+      "file": "recipes/pimentao-na-airfryer.json"
+    },
+    {
+      "id": "bolo-de-limao",
+      "slug": "bolo-de-limao",
+      "status": "published",
+      "file": "recipes/bolo-de-limao.json"
+    },
+    {
+      "id": "bolo-de-coco",
+      "slug": "bolo-de-coco",
+      "status": "published",
+      "file": "recipes/bolo-de-coco.json"
+    },
+    {
+      "id": "pudim-de-tapioca",
+      "slug": "pudim-de-tapioca",
+      "status": "published",
+      "file": "recipes/pudim-de-tapioca.json"
+    },
+    {
+      "id": "sequilhos",
+      "slug": "sequilhos",
+      "status": "published",
+      "file": "recipes/sequilhos.json"
     }
   ]
 }

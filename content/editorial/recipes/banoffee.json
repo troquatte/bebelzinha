@@ -1,0 +1,152 @@
+{
+  "id": "banoffee",
+  "slug": "banoffee",
+  "title": "Banoffee sem forno com banana e doce de leite",
+  "description": "Banoffee sem forno com base de biscoito, doce de leite pronto, banana e chantilly. Veja as etapas e o tempo de geladeira para firmar.",
+  "intro": "O doce de leite entra pronto e o creme fresco deve estar bem gelado.",
+  "categoryIds": [
+    "doces"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/banoffee.webp",
+    "alt": "Imagem ilustrativa: Torta em camadas de biscoito, doce de leite, banana e chantilly com chocolate em pó"
+  },
+  "publishedAt": "2026-11-03T20:10:17Z",
+  "updatedAt": "2026-11-03T20:10:17Z",
+  "seo": {
+    "title": "Banoffee sem forno com banana e doce de leite | Bebel",
+    "description": "Banoffee sem forno com base de biscoito, doce de leite pronto, banana e chantilly. Veja as etapas e o tempo de geladeira para firmar."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 10,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Reserve 30 minutos de geladeira para a base e pelo menos 2 horas depois da montagem, além do preparo.",
+    "ingredients": [
+      {
+        "id": "biscoito",
+        "name": "Biscoito maisena",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "id": "manteiga",
+        "name": "Manteiga sem sal derretida",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "id": "doce",
+        "name": "Doce de leite cremoso pronto",
+        "quantity": 400,
+        "unit": "g"
+      },
+      {
+        "id": "banana",
+        "name": "Banana madura",
+        "quantity": 4,
+        "unit": "unidades"
+      },
+      {
+        "id": "creme",
+        "name": "Creme de leite fresco bem gelado",
+        "quantity": 200,
+        "unit": "ml"
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar",
+        "quantity": 2,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "baunilha",
+        "name": "Essência de baunilha",
+        "quantity": 1,
+        "unit": "colher (chá)",
+        "note": "Opcional."
+      },
+      {
+        "id": "chocolate",
+        "name": "Chocolate em pó para polvilhar",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Triture os biscoitos e misture com a manteiga. Pressione somente no fundo de uma forma de 20 a 22 cm ou refratário."
+      },
+      {
+        "id": "passo-2",
+        "text": "Refrigere a base por 30 minutos. Espalhe o doce de leite e cubra com as bananas fatiadas."
+      },
+      {
+        "id": "passo-3",
+        "text": "Bata o creme fresco com açúcar e baunilha, se usar, até formar chantilly firme. Pare antes de separar em manteiga."
+      },
+      {
+        "id": "passo-4",
+        "text": "Cubra as bananas com chantilly e polvilhe chocolate em pó."
+      },
+      {
+        "id": "passo-5",
+        "text": "Gele por pelo menos 2 horas antes de servir."
+      }
+    ],
+    "equipment": [
+      "Forma de fundo removível de 20–22 cm ou refratário",
+      "Liquidificador ou processador e batedeira",
+      "Tigelas, faca e espátula"
+    ],
+    "tips": [
+      {
+        "title": "Creme fresco",
+        "text": "Creme de leite de caixinha comum não bate da mesma maneira."
+      },
+      {
+        "title": "Base sem forno",
+        "text": "O descanso na geladeira firma a mistura de biscoito e manteiga."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Mantenha refrigerado",
+        "text": "Guarde em recipiente fechado a 4 °C ou menos, por até 2 dias. Refrigere prontamente, sem ultrapassar 2 horas fora da geladeira."
+      },
+      {
+        "title": "Sirva porções",
+        "text": "Retire com utensílio limpo somente a quantidade desejada e devolva o restante à geladeira."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T20:10:17Z"
+  },
+  "sources": [
+    {
+      "title": "Receitas Nestlé / Laryssa Ventura — Banoffee Noel",
+      "url": "https://www.receitasnestle.com.br/receitas/receita-banoffee-noel",
+      "role": "Dez porções; base sem forno de 200 g de biscoito, 400 g de doce pronto e dois descansos refrigerados."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "403direto,conteúdo completo recuperadobuscacache. Fórmulado modo/lista cremefresco200ml,nãoparágrafoNestilly. NãoéPanelinhamassasablée/café/lata pressão.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

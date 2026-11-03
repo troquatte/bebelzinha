@@ -1,0 +1,159 @@
+{
+  "id": "torta-de-limao",
+  "slug": "torta-de-limao",
+  "title": "Torta de limão com base de biscoito e raspas",
+  "description": "Torta de limão com base assada de biscoito, recheio com gelatina e raspas. Confira a forma de 20 cm e o descanso de quatro horas na geladeira.",
+  "intro": "A base deve estar fria antes de receber o creme.",
+  "categoryIds": [
+    "doces",
+    "forno"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/torta-limao.webp",
+    "alt": "Imagem ilustrativa: Torta de creme claro de limão com base de biscoito e raspas verdes, sem merengue"
+  },
+  "publishedAt": "2026-11-03T20:10:17Z",
+  "updatedAt": "2026-11-03T20:10:17Z",
+  "seo": {
+    "title": "Torta de limão com base de biscoito e raspas | Bebel",
+    "description": "Torta de limão com base assada de biscoito, recheio com gelatina e raspas. Confira a forma de 20 cm e o descanso de quatro horas na geladeira."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 10,
+      "unit": "pedaço"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 13,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 13 minutos de forno a 180 °C, resfriamento da base e pelo menos 4 horas de geladeira após montar.",
+    "ingredients": [
+      {
+        "id": "biscoito",
+        "name": "Biscoito maisena ou maria",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "id": "raspa-base",
+        "name": "Raspas de limão para a base",
+        "quantity": 0.5,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "manteiga",
+        "name": "Manteiga sem sal em temperatura ambiente",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "id": "condensado",
+        "name": "Leite condensado",
+        "quantity": 395,
+        "unit": "g"
+      },
+      {
+        "id": "creme",
+        "name": "Creme de leite",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "id": "suco",
+        "name": "Suco de limão",
+        "quantity": 145,
+        "unit": "ml"
+      },
+      {
+        "id": "agua",
+        "name": "Água para a gelatina",
+        "quantity": 50,
+        "unit": "ml",
+        "shopping": false
+      },
+      {
+        "id": "gelatina",
+        "name": "Gelatina em pó sem sabor",
+        "quantity": 6,
+        "unit": "g"
+      },
+      {
+        "id": "raspa-topo",
+        "name": "Raspas de limão para finalizar",
+        "quantity": 0.5,
+        "unit": "colher (sopa)"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Preaqueça a 180 °C. Triture os biscoitos e misture com as raspas da base e a manteiga."
+      },
+      {
+        "id": "passo-2",
+        "text": "Pressione metade no fundo e metade nas laterais de uma forma de 20 cm. Asse cerca de 13 minutos, até dourar levemente, e esfrie."
+      },
+      {
+        "id": "passo-3",
+        "text": "Hidrate a gelatina nos 50 ml de água por 4 minutos. Aqueça suavemente no micro-ondas só até dissolver, sem ferver; siga também as orientações da embalagem."
+      },
+      {
+        "id": "passo-4",
+        "text": "Bata leite condensado, creme de leite, suco e gelatina dissolvida no liquidificador."
+      },
+      {
+        "id": "passo-5",
+        "text": "Despeje na base fria e nivele. Gele por no mínimo 4 horas, até firmar, e finalize com as raspas restantes."
+      }
+    ],
+    "equipment": [
+      "Forno e forma de 20 cm",
+      "Processador ou liquidificador",
+      "Tigelas, espátula, medidores e micro-ondas"
+    ],
+    "tips": [
+      {
+        "title": "Base fria",
+        "text": "Espere esfriar antes de colocar o recheio."
+      },
+      {
+        "title": "Sem merengue",
+        "text": "Esta versão termina com raspas, sem cobertura de claras."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Mantenha refrigerado",
+        "text": "Guarde em recipiente fechado a 4 °C ou menos, por até 2 dias. Refrigere prontamente, sem ultrapassar 2 horas fora da geladeira."
+      },
+      {
+        "title": "Sirva porções",
+        "text": "Retire com utensílio limpo somente a quantidade desejada e devolva o restante à geladeira."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T20:10:17Z"
+  },
+  "sources": [
+    {
+      "title": "Receiteria — torta de limão simples",
+      "url": "https://www.receiteria.com.br/receita/torta-de-limao-simples/",
+      "role": "Dez pedaços, forma de 20 cm, gelatina e descanso alternativo de quatro horas na geladeira."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Seguidageladeira4h,nãoopçãofreezer1h15. Gelatinadissolvidasemfervura; nãofixar40segundospotênciaindefinida. Forma20cm fonte,inicialmente refratário; fundo removível opcional nãoessencial.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

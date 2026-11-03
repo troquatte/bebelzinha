@@ -1,0 +1,136 @@
+{
+  "id": "cenoura-refogada",
+  "slug": "cenoura-refogada",
+  "title": "Cenoura refogada ralada com cebola e molho inglês",
+  "description": "Cenoura refogada ralada com cebola, caldo e molho inglês. Confira o preparo rápido na frigideira e a pequena adição de água.",
+  "intro": "A cenoura entra ralada para cozinhar em poucos minutos.",
+  "categoryIds": [
+    "acompanhamentos"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/cenoura-refogada.webp",
+    "alt": "Imagem ilustrativa: Fios finos de cenoura refogada com pequenos pedaços de cebola, sem milho ou sardinha"
+  },
+  "publishedAt": "2026-11-03T20:48:54Z",
+  "updatedAt": "2026-11-03T20:48:54Z",
+  "seo": {
+    "title": "Cenoura refogada ralada com cebola e molho inglês | Bebel",
+    "description": "Cenoura refogada ralada com cebola, caldo e molho inglês. Confira o preparo rápido na frigideira e a pequena adição de água."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 2,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 1 a 2 minutos de refogado da cenoura e mais 1 a 2 após a água, além de dourar a cebola e ralar.",
+    "ingredients": [
+      {
+        "id": "cenoura",
+        "name": "Cenoura",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": 2,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "caldo",
+        "name": "Caldo em tablete de sua preferência",
+        "quantity": 0.5,
+        "unit": "tablete"
+      },
+      {
+        "id": "cebola",
+        "name": "Cebola picada",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "molho",
+        "name": "Molho inglês",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "agua",
+        "name": "Água",
+        "quantity": 2,
+        "unit": "colheres",
+        "note": "Adicione aos poucos para terminar a cocção.",
+        "shopping": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Lave, descasque e rale a cenoura. Pique a cebola."
+      },
+      {
+        "id": "passo-2",
+        "text": "Aqueça azeite, caldo e cebola numa frigideira, mexendo até a cebola começar a dourar."
+      },
+      {
+        "id": "passo-3",
+        "text": "Junte a cenoura e refogue, mexendo, por cerca de 1 a 2 minutos."
+      },
+      {
+        "id": "passo-4",
+        "text": "Adicione molho inglês, misture e coloque a água. Cozinhe por mais 1 a 2 minutos, até amaciar ao seu gosto."
+      }
+    ],
+    "equipment": [
+      "Frigideira e espátula",
+      "Ralador, tábua, faca e medidores"
+    ],
+    "tips": [
+      {
+        "title": "Caldo já salgado",
+        "text": "Não há sal separado nesta formulação."
+      },
+      {
+        "title": "Rale antes",
+        "text": "Deixe a cenoura pronta antes de aquecer a frigideira."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Refrigere prontamente em recipiente raso, a 4 °C ou menos, e consuma em até 2 dias. Descarte o que ficou mais de 2 horas fora da geladeira."
+      },
+      {
+        "title": "Ao reaquecer",
+        "text": "Aqueça somente a porção desejada até 74 °C no centro."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T20:48:54Z"
+  },
+  "sources": [
+    {
+      "title": "TudoGostoso / Luciana Dias — cenoura delícia refogada",
+      "url": "https://www.tudogostoso.com.br/receita/50267-cenoura-delicia-refogada.html",
+      "role": "Duas porções com caldo em tablete, cebola, molho inglês e duas colheres de água."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Nãoéfonte197993quecolocamilho/sardinha. Água2colheres fonte nãoespecificatipo;preservadacolheressem conversão. Não inventarsalagosto.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

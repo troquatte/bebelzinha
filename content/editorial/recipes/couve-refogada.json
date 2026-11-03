@@ -1,0 +1,123 @@
+{
+  "id": "couve-refogada",
+  "slug": "couve-refogada",
+  "title": "Couve refogada em tiras finas com alho",
+  "description": "Couve refogada com um dente de alho inteiro para perfumar. Veja o corte fino e o preparo rápido para manter as folhas no ponto.",
+  "intro": "O alho entra inteiro e amassado e sai antes de servir.",
+  "categoryIds": [
+    "acompanhamentos"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/couve-refogada.webp",
+    "alt": "Imagem ilustrativa: Couve verde cortada em tiras muito finas, levemente refogada e sem pedaços de alho"
+  },
+  "publishedAt": "2026-11-03T20:10:17Z",
+  "updatedAt": "2026-11-03T20:10:17Z",
+  "seo": {
+    "title": "Couve refogada em tiras finas com alho | Bebel",
+    "description": "Couve refogada com um dente de alho inteiro para perfumar. Veja o corte fino e o preparo rápido para manter as folhas no ponto."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 4,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 3,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 1 minuto para perfumar o azeite e 2 para a couve, além de lavar, secar e cortar.",
+    "ingredients": [
+      {
+        "id": "couve",
+        "name": "Couve",
+        "quantity": 1,
+        "unit": "maço"
+      },
+      {
+        "id": "alho",
+        "name": "Alho",
+        "quantity": 1,
+        "unit": "dente"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": 2,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Lave e seque a couve. Retire os talos centrais, empilhe algumas folhas, enrole e fatie bem fino."
+      },
+      {
+        "id": "passo-2",
+        "text": "Descasque o alho e amasse com a lateral da faca, mantendo o dente inteiro."
+      },
+      {
+        "id": "passo-3",
+        "text": "Aqueça uma frigideira grande em fogo médio. Junte azeite e alho e mexa por cerca de 1 minuto."
+      },
+      {
+        "id": "passo-4",
+        "text": "Adicione a couve, tempere com sal e refogue por cerca de 2 minutos, só até começar a murchar. Retire o alho e sirva."
+      }
+    ],
+    "equipment": [
+      "Frigideira grande e espátula",
+      "Tábua, faca e pano limpo",
+      "Colher medidora"
+    ],
+    "tips": [
+      {
+        "title": "Corte fino",
+        "text": "Tiras finas dispensam um cozimento longo."
+      },
+      {
+        "title": "Não prolongue",
+        "text": "Retire assim que começar a murchar para preservar a textura."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Transfira para recipiente raso e refrigere prontamente a 4 °C ou menos. Consuma em até 2 dias; descarte o que passou mais de 2 horas fora da geladeira."
+      },
+      {
+        "title": "Ao reaquecer",
+        "text": "Aqueça apenas o que será servido até atingir 74 °C no centro."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T20:10:17Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — couve refogada",
+      "url": "https://panelinha.com.br/receita/couve-refogada",
+      "role": "Até quatro porções, alho inteiro retirado no final e cerca de dois minutos de refogado das folhas."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Nãoécópiaderefeiçãopaga10/13:acompanhamentovegetalindependente,formulaçãoprópriafonte. Short049semIDnãoassociado.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

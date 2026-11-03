@@ -1,0 +1,189 @@
+{
+  "id": "salada-de-lentilha",
+  "slug": "salada-de-lentilha",
+  "title": "Salada de lentilha com pimentão amarelo e coentro",
+  "description": "Salada de lentilha com pimentão amarelo e cebola-roxa marinada. Veja como cozinhar os grãos firmes e temperar ainda mornos.",
+  "intro": "As seis porções são de acompanhamento. A lentilha recebe o tempero ainda morna.",
+  "categoryIds": [
+    "acompanhamentos"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/salada-lentilha.webp",
+    "alt": "Imagem ilustrativa: Salada de lentilhas inteiras com pimentão amarelo, cebola-roxa e folhas de coentro"
+  },
+  "publishedAt": "2026-11-03T20:48:54Z",
+  "updatedAt": "2026-11-03T20:48:54Z",
+  "seo": {
+    "title": "Salada de lentilha com pimentão amarelo e coentro | Bebel",
+    "description": "Salada de lentilha com pimentão amarelo e cebola-roxa marinada. Veja como cozinhar os grãos firmes e temperar ainda mornos."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 6,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 20 minutos de lentilha após ferver, 3 para o pimentão e tempo de resfriar a salada.",
+    "ingredients": [
+      {
+        "id": "lentilha",
+        "name": "Lentilha seca",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "pimentao",
+        "name": "Pimentão amarelo pequeno",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "cebola",
+        "name": "Cebola-roxa",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "laranja",
+        "name": "Laranja para o suco",
+        "quantity": 0.5,
+        "unit": "unidade"
+      },
+      {
+        "id": "agua-marinada",
+        "name": "Água para a marinada",
+        "quantity": 0.5,
+        "unit": "xícara (chá)",
+        "shopping": false
+      },
+      {
+        "id": "vinagre",
+        "name": "Vinagre de vinho tinto",
+        "quantity": 0.3333333333333333,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "azeite-base",
+        "name": "Azeite para temperar a lentilha",
+        "quantity": 2,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "azeite-extra",
+        "name": "Azeite para refogar e finalizar",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "coentro-po",
+        "name": "Semente de coentro em pó",
+        "quantity": 1,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "coentro-fresco",
+        "name": "Folhas de coentro picadas",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "agua-cozimento",
+        "name": "Água para a lentilha",
+        "quantity": 1,
+        "unit": "litro",
+        "shopping": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Cubra a lentilha com o litro de água. Após ferver, abaixe o fogo e cozinhe cerca de 20 minutos, mantendo os grãos firmes."
+      },
+      {
+        "id": "passo-2",
+        "text": "Pique a cebola. Ferva vinagre, açúcar e água da marinada, despeje sobre ela e refrigere enquanto prepara o restante."
+      },
+      {
+        "id": "passo-3",
+        "text": "Corte o pimentão em cubinhos sem sementes. Refogue com um fio de azeite e sal por 3 minutos."
+      },
+      {
+        "id": "passo-4",
+        "text": "Escorra a lentilha e tempere morna com suco da meia laranja, azeite medido, coentro em pó, sal e pimenta."
+      },
+      {
+        "id": "passo-5",
+        "text": "Escorra a cebola, reúna com lentilha e pimentão e gele. Finalize com folhas de coentro e azeite."
+      }
+    ],
+    "equipment": [
+      "Panela média, panela pequena e frigideira",
+      "Tigelas, peneira, tábua e faca",
+      "Medidores e colher"
+    ],
+    "tips": [
+      {
+        "title": "Grãos inteiros",
+        "text": "Escorra antes que comecem a desmanchar."
+      },
+      {
+        "title": "Marinada escorrida",
+        "text": "O líquido da cebola não entra inteiro na salada."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Guarde refrigerado",
+        "text": "Mantenha em pote fechado a 4 °C ou menos por até 2 dias. Leve à geladeira prontamente, sem ultrapassar 2 horas fora de refrigeração."
+      },
+      {
+        "title": "Para servir",
+        "text": "Retire apenas o que será consumido, com utensílio limpo, e mantenha o restante gelado."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T20:48:54Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — salada de lentilha com pimentão e coentro",
+      "url": "https://panelinha.com.br/receita/salada-de-lentilha-com-pimentao-e-coentro",
+      "role": "Seis porções de acompanhamento, cebola marinada e tempero de laranja na lentilha morna."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Rendimento6acompanhamento,fonte4principalou6acmp. Águamarinada distinta1Lcozer. Não inclui arroz/linguiça dopago.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "abacaxi-na-airfryer",
+  "slug": "abacaxi-na-airfryer",
+  "title": "Abacaxi na airfryer com açúcar e canela",
+  "description": "Abacaxi na airfryer com açúcar e canela. Confira as quantidades para meio abacaxi e asse em levas, sem sobrepor as fatias.",
+  "intro": "Use abacaxi maduro. Esta quantidade prepara metade da fruta.",
+  "categoryIds": [
+    "airfryer",
+    "doces"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/abacaxi-airfryer.webp",
+    "alt": "Imagem ilustrativa: Fatias de abacaxi douradas com açúcar e canela, sem sorvete"
+  },
+  "publishedAt": "2026-11-03T20:10:17Z",
+  "updatedAt": "2026-11-03T20:10:17Z",
+  "seo": {
+    "title": "Abacaxi na airfryer com açúcar e canela | Bebel",
+    "description": "Abacaxi na airfryer com açúcar e canela. Confira as quantidades para meio abacaxi e asse em levas, sem sobrepor as fatias."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 1,
+      "unit": "receita"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "A referência indica cerca de 15 minutos a 200 °C. Em fatias, acompanhe o dourado; novas levas aumentam o tempo total.",
+    "ingredients": [
+      {
+        "id": "abacaxi",
+        "name": "Abacaxi descascado",
+        "quantity": 0.5,
+        "unit": "unidade"
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar",
+        "quantity": 0.5,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "canela",
+        "name": "Canela em pó",
+        "quantity": 1,
+        "unit": "colher (chá)"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Retire a casca e os olhos do abacaxi. Separe metade e corte em fatias que caibam no cesto."
+      },
+      {
+        "id": "passo-2",
+        "text": "Misture açúcar e canela num prato. Distribua sobre as superfícies da fruta."
+      },
+      {
+        "id": "passo-3",
+        "text": "Acomode as fatias sem sobrepor e asse a 200 °C, acompanhando o dourado, por cerca de 15 minutos. Faça novas levas se necessário."
+      },
+      {
+        "id": "passo-4",
+        "text": "Retire com pinça e sirva morno, com cuidado com o açúcar quente."
+      }
+    ],
+    "equipment": [
+      "Airfryer e pinça",
+      "Tábua, faca, prato e medidores"
+    ],
+    "tips": [
+      {
+        "title": "Fruta madura",
+        "text": "Prefira abacaxi maduro para um resultado mais doce."
+      },
+      {
+        "title": "Olhe o dourado",
+        "text": "Fatias menores e modelos de aparelho diferentes podem assar antes."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Transfira para recipiente raso e refrigere prontamente a 4 °C ou menos. Consuma em até 2 dias; descarte o que passou mais de 2 horas fora da geladeira."
+      },
+      {
+        "title": "Ao reaquecer",
+        "text": "Aqueça apenas o que será servido até atingir 74 °C no centro."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T20:10:17Z"
+  },
+  "sources": [
+    {
+      "title": "Maurício Rodrigues — abacaxi gratinado na AirFryer",
+      "url": "https://www.fritadeirasemoleo.com.br/2014/09/abacaxi-gratinado-na-airfryer.html",
+      "role": "Meio abacaxi, açúcar, canela e 200 °C; a fonte permite usar fatias ou cubos."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Rendimento1receita de meiafruta, sem inventarnúmerodepessoas. Texto original; não copiarfotografias/prosa. Variação emfatias permitidanafonte, tempoacompanhado peloponto. Semalegaçãolight.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

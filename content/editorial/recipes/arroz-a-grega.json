@@ -1,0 +1,187 @@
+{
+  "id": "arroz-a-grega",
+  "slug": "arroz-a-grega",
+  "title": "Arroz à grega com legumes e uvas-passas",
+  "description": "Arroz à grega com pimentões, cenoura, milho, ervilha e passas. Veja as quantidades com arroz cru e o descanso antes de servir.",
+  "intro": "Esta receita rende aproximadamente 1,5 kg de acompanhamento pronto.",
+  "categoryIds": [
+    "acompanhamentos"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/arroz-grega.webp",
+    "alt": "Imagem ilustrativa: Arroz branco com cenoura, pimentões vermelho e amarelo, milho, ervilha e passas"
+  },
+  "publishedAt": "2026-11-03T20:48:54Z",
+  "updatedAt": "2026-11-03T20:48:54Z",
+  "seo": {
+    "title": "Arroz à grega com legumes e uvas-passas | Bebel",
+    "description": "Arroz à grega com pimentões, cenoura, milho, ervilha e passas. Veja as quantidades com arroz cru e o descanso antes de servir."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 1500,
+      "unit": "g"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 20 minutos de cocção depois de adicionar a água, além dos refogados, cortes e descanso tampado.",
+    "ingredients": [
+      {
+        "id": "arroz",
+        "name": "Arroz agulhinha cru",
+        "quantity": 360,
+        "unit": "g"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": 15,
+        "unit": "ml"
+      },
+      {
+        "id": "cebola",
+        "name": "Cebola média",
+        "quantity": 0.5,
+        "unit": "unidade"
+      },
+      {
+        "id": "alho",
+        "name": "Alho",
+        "quantity": 2,
+        "unit": "dentes"
+      },
+      {
+        "id": "cenoura",
+        "name": "Cenoura média",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "pimentao-vermelho",
+        "name": "Pimentão vermelho",
+        "quantity": 70,
+        "unit": "g"
+      },
+      {
+        "id": "pimentao-amarelo",
+        "name": "Pimentão amarelo",
+        "quantity": 70,
+        "unit": "g"
+      },
+      {
+        "id": "passa",
+        "name": "Uva-passa",
+        "quantity": 75,
+        "unit": "g"
+      },
+      {
+        "id": "milho",
+        "name": "Milho-verde escorrido",
+        "quantity": 170,
+        "unit": "g"
+      },
+      {
+        "id": "ervilha",
+        "name": "Ervilha em conserva escorrida",
+        "quantity": 170,
+        "unit": "g"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 7.5,
+        "unit": "g"
+      },
+      {
+        "id": "agua",
+        "name": "Água",
+        "quantity": 960,
+        "unit": "ml",
+        "shopping": false
+      },
+      {
+        "id": "cheiro-verde",
+        "name": "Cheiro-verde picado",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Escorra milho e ervilha. Pique cebola, cenoura e pimentões em cubinhos e o alho bem fino."
+      },
+      {
+        "id": "passo-2",
+        "text": "Aqueça o azeite em panela grande. Refogue cebola por cerca de 1 minuto e alho por mais 30 segundos."
+      },
+      {
+        "id": "passo-3",
+        "text": "Junte cenoura, pimentões e passas e mexa brevemente. Adicione milho, ervilha e arroz e refogue por 2 minutos."
+      },
+      {
+        "id": "passo-4",
+        "text": "Acrescente água e sal, misture e tampe. Cozinhe em fogo médio por aproximadamente 20 minutos, até secar e o arroz amaciar."
+      },
+      {
+        "id": "passo-5",
+        "text": "Desligue e descanse tampado por alguns minutos. Solte com garfo e finalize com cheiro-verde."
+      }
+    ],
+    "equipment": [
+      "Panela grande com tampa e colher",
+      "Tábua, faca, escorredor e garfo",
+      "Balança e medidores"
+    ],
+    "tips": [
+      {
+        "title": "Arroz cru",
+        "text": "A quantidade da lista é anterior ao cozimento."
+      },
+      {
+        "title": "Conservas escorridas",
+        "text": "O peso de milho e ervilha não inclui o líquido."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Resfrie rapidamente",
+        "text": "Divida em recipientes rasos e leve à geladeira preferencialmente em até 1 hora. Consuma em até 24 horas."
+      },
+      {
+        "title": "Uma vez só",
+        "text": "Reaqueça uma única vez, por completo, até 74 °C e vapor em toda a porção."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T20:48:54Z"
+  },
+  "sources": [
+    {
+      "title": "Receiteria — arroz à grega tradicional",
+      "url": "https://www.receiteria.com.br/receita/arroz-a-grega-tradicional/",
+      "role": "Ingredientes, método com arroz cru e rendimento aproximado de 1,5 kg."
+    },
+    {
+      "title": "Food Standards Agency — conservação do arroz",
+      "url": "https://www.gov.uk/government/publications/home-food-fact-checker/home-food-fact-checker",
+      "role": "Resfriamento preferencialmente em uma hora, consumo em 24 horas e único reaquecimento."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Rendimento1500g preservaaproximação1,5kgfonte,nãoinventaporções. FórmulaReceiteria;nãomisturar3tabletesNestlé/listamétodoinconsistentes.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

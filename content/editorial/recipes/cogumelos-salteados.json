@@ -1,0 +1,158 @@
+{
+  "id": "cogumelos-salteados",
+  "slug": "cogumelos-salteados",
+  "title": "Cogumelos salteados com cebola e páprica defumada",
+  "description": "Cogumelos salteados com portobello, paris e shimeji. Confira as quantidades de azeite, alho e cebola para este acompanhamento.",
+  "intro": "Quatro tipos de cogumelo entram nesta versão com páprica defumada.",
+  "categoryIds": [
+    "acompanhamentos"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/cogumelos-salteados.webp",
+    "alt": "Imagem ilustrativa: Cogumelos paris, portobello e shimejis salteados com cebola e alho, sem molho cremoso"
+  },
+  "publishedAt": "2026-11-03T20:10:17Z",
+  "updatedAt": "2026-11-03T20:10:17Z",
+  "seo": {
+    "title": "Cogumelos salteados com cebola e páprica defumada | Bebel",
+    "description": "Cogumelos salteados com portobello, paris e shimeji. Confira as quantidades de azeite, alho e cebola para este acompanhamento."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 6,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Reserve o tempo de limpar, cortar e refogar. Cozinhe até os cogumelos amaciarem; o ponto orienta a cocção.",
+    "ingredients": [
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": 3,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "cebola",
+        "name": "Cebola picada",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "alho",
+        "name": "Alho picado",
+        "quantity": 3,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "portobello",
+        "name": "Cogumelo portobello fresco fatiado",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "paris",
+        "name": "Cogumelo paris fresco fatiado",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "shimeji-branco",
+        "name": "Shimeji branco fresco",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "shimeji-preto",
+        "name": "Shimeji preto fresco",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "paprica",
+        "name": "Páprica defumada",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Limpe os cogumelos frescos, retire partes duras das bases dos shimejis e separe os ramos. Fatie portobello e paris; pique cebola e alho."
+      },
+      {
+        "id": "passo-2",
+        "text": "Aqueça uma frigideira grande com azeite. Refogue cebola e alho até perderem o aspecto cru, sem queimar."
+      },
+      {
+        "id": "passo-3",
+        "text": "Junte os quatro cogumelos e tempere com sal, pimenta e páprica."
+      },
+      {
+        "id": "passo-4",
+        "text": "Mexa durante o cozimento até os cogumelos ficarem macios. Sirva como acompanhamento."
+      }
+    ],
+    "equipment": [
+      "Frigideira grande e espátula",
+      "Tábua, faca e medidores"
+    ],
+    "tips": [
+      {
+        "title": "Cogumelo fresco",
+        "text": "A formulação usa cogumelos frescos, diferentes dos conservados em vidro."
+      },
+      {
+        "title": "Acompanhamento",
+        "text": "As seis porções são pequenas; não equivalem a seis pratos principais."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Transfira para recipiente raso e refrigere prontamente a 4 °C ou menos. Consuma em até 2 dias; descarte o que passou mais de 2 horas fora da geladeira."
+      },
+      {
+        "title": "Ao reaquecer",
+        "text": "Aqueça apenas o que será servido até atingir 74 °C no centro."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T20:10:17Z"
+  },
+  "sources": [
+    {
+      "title": "Band Receitas / Edu Guedes — cogumelos salteados",
+      "url": "https://receitas.band.com.br/the-chef/receita/cogumelos-salteados-band-receitas-id-16539",
+      "role": "Seis porções e quatro cogumelos com cebola, alho e páprica."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "3colheressopaalho dafonte mantidas, nãocorrigirparadentessemteste. Semcreme/shoyu/manteiga. Short067alho finaldifere e semID.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

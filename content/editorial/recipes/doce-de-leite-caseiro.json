@@ -1,0 +1,111 @@
+{
+  "id": "doce-de-leite-caseiro",
+  "slug": "doce-de-leite-caseiro",
+  "title": "Doce de leite caseiro com leite e açúcar na panela",
+  "description": "Doce de leite caseiro feito com leite e açúcar, sem leite condensado. Veja o fogo baixo, o ponto cremoso e a conservação refrigerada.",
+  "intro": "Leite e açúcar cozinham juntos em fogo baixo até reduzir e ganhar cor.",
+  "categoryIds": [
+    "doces"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/doce-leite-caseiro.webp",
+    "alt": "Imagem ilustrativa: Doce de leite cremoso de cor caramelo-claro numa pequena tigela, sem acompanhamentos"
+  },
+  "publishedAt": "2026-11-03T20:10:17Z",
+  "updatedAt": "2026-11-03T20:10:17Z",
+  "seo": {
+    "title": "Doce de leite caseiro com leite e açúcar na panela | Bebel",
+    "description": "Doce de leite caseiro feito com leite e açúcar, sem leite condensado. Veja o fogo baixo, o ponto cremoso e a conservação refrigerada."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 6,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 10 minutos para dissolver o açúcar e mais 1 hora ou o necessário para engrossar, além do resfriamento.",
+    "ingredients": [
+      {
+        "id": "leite",
+        "name": "Leite",
+        "quantity": 4,
+        "unit": "xícaras (chá)"
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar",
+        "quantity": 2,
+        "unit": "xícaras (chá)"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Coloque leite e açúcar numa panela e aqueça em fogo baixo, mexendo com fouet por cerca de 10 minutos, até dissolver."
+      },
+      {
+        "id": "passo-2",
+        "text": "Continue em fogo baixo, mexendo para não grudar nem transbordar. Cozinhe por aproximadamente mais 1 hora, prolongando se necessário."
+      },
+      {
+        "id": "passo-3",
+        "text": "Quando engrossar e chegar à cor de caramelo-claro, retire do fogo. O doce ganha mais corpo ao esfriar."
+      },
+      {
+        "id": "passo-4",
+        "text": "Transfira para recipiente limpo, deixe perder o vapor e refrigere prontamente."
+      }
+    ],
+    "equipment": [
+      "Panela de laterais altas",
+      "Fouet e medidores",
+      "Recipiente limpo com tampa"
+    ],
+    "tips": [
+      {
+        "title": "Tempo variável",
+        "text": "Tamanho da panela e intensidade do fogo alteram a redução."
+      },
+      {
+        "title": "Sem leite condensado",
+        "text": "Esta ficha começa com leite e açúcar, não com uma lata cozida."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Mantenha refrigerado",
+        "text": "Guarde em recipiente fechado a 4 °C ou menos, por até 2 dias. Refrigere prontamente, sem ultrapassar 2 horas fora da geladeira."
+      },
+      {
+        "title": "Sirva porções",
+        "text": "Retire com utensílio limpo somente a quantidade desejada e devolva o restante à geladeira."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T20:10:17Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — doce de leite caseiro",
+      "url": "https://panelinha.com.br/receita/doce-de-leite-caseiro",
+      "role": "Quatro xícaras de leite, duas de açúcar, até seis porções e redução em fogo baixo."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Nãoreproduzirconservação10dias semvalidação;2dias conservadoresHealthCanada. Semglucose/bicarbonato/baunilha deoutraformulação. Sem alegar4xícaras=1litronãoexplicitado.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

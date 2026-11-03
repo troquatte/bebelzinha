@@ -1,0 +1,117 @@
+{
+  "id": "pudim-de-tapioca",
+  "slug": "pudim-de-tapioca",
+  "title": "Pudim de tapioca rápido no potinho, sem forno",
+  "description": "Pudim de tapioca no potinho com leite, açúcar e tapioca granulada. Confira o ponto na panela e o descanso na geladeira, sem forno nem ovos.",
+  "intro": "Use tapioca granulada, diferente da goma hidratada de frigideira.",
+  "categoryIds": [
+    "doces"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/pudim-tapioca-rapido.webp",
+    "alt": "Imagem ilustrativa: Dois pequenos potinhos de pudim branco cremoso com grãos finos de tapioca, sem caramelo"
+  },
+  "publishedAt": "2026-11-03T20:48:54Z",
+  "updatedAt": "2026-11-03T20:48:54Z",
+  "seo": {
+    "title": "Pudim de tapioca rápido no potinho, sem forno | Bebel",
+    "description": "Pudim de tapioca no potinho com leite, açúcar e tapioca granulada. Confira o ponto na panela e o descanso na geladeira, sem forno nem ovos."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 2,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Depois de aquecer o leite, cerca de 2 minutos mexendo e 20 minutos de geladeira para firmar.",
+    "ingredients": [
+      {
+        "id": "leite",
+        "name": "Leite",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "tapioca",
+        "name": "Tapioca granulada",
+        "quantity": 2,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Reúna leite e açúcar numa panela e aqueça em fogo médio."
+      },
+      {
+        "id": "passo-2",
+        "text": "Quando surgirem as primeiras bolhas, abaixe o fogo e adicione a tapioca granulada."
+      },
+      {
+        "id": "passo-3",
+        "text": "Mexa por cerca de 2 minutos, até engrossar e os grãos ficarem transparentes."
+      },
+      {
+        "id": "passo-4",
+        "text": "Divida ainda quente em dois potinhos resistentes ao calor. Leve à geladeira por cerca de 20 minutos, até firmar. Sirva gelado."
+      }
+    ],
+    "equipment": [
+      "Panela pequena e colher",
+      "Dois potinhos resistentes ao calor",
+      "Medidores"
+    ],
+    "tips": [
+      {
+        "title": "Tapioca certa",
+        "text": "Não substitua por goma hidratada ou polvilho seco."
+      },
+      {
+        "title": "Sirva no pote",
+        "text": "Esta versão é cremosa e não precisa desenformar."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Guarde refrigerado",
+        "text": "Mantenha em pote fechado a 4 °C ou menos por até 2 dias. Leve à geladeira prontamente, sem ultrapassar 2 horas fora de refrigeração."
+      },
+      {
+        "title": "Para servir",
+        "text": "Retire apenas o que será consumido, com utensílio limpo, e mantenha o restante gelado."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T20:48:54Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — pudim rápido de tapioca",
+      "url": "https://panelinha.com.br/receita/pudim-rapido-de-tapioca",
+      "role": "Dois potinhos, três ingredientes e cocção breve na panela antes de gelar."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "12100termoamplo misturaanelcarameloforno;recortepotinhosemfornoexplícito. NãoéRPC300gtapioca/coconut nemgelatina. Coberturaopcionalnãoincluída/foto semtopping.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "id": "vagem-refogada",
+  "slug": "vagem-refogada",
+  "title": "Vagem refogada com cebola e salsa",
+  "description": "Vagem refogada com cebola e salsa, cozida com pouca água na panela. Veja o ponto e quando colocar o tempero fresco.",
+  "intro": "A salsa entra nos minutos finais. Confira a maciez durante a cocção tampada.",
+  "categoryIds": [
+    "acompanhamentos"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/vagem-refogada.webp",
+    "alt": "Imagem ilustrativa: Vagens picadas cozidas com cebola e salsa, sem cenoura nem bacon"
+  },
+  "publishedAt": "2026-11-03T20:48:54Z",
+  "updatedAt": "2026-11-03T20:48:54Z",
+  "seo": {
+    "title": "Vagem refogada com cebola e salsa | Bebel",
+    "description": "Vagem refogada com cebola e salsa, cozida com pouca água na panela. Veja o ponto e quando colocar o tempero fresco."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 4,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Refogue a vagem por 2 minutos, cozinhe tampada cerca de 15 e finalize com salsa por mais 2, além da cebola e do corte.",
+    "ingredients": [
+      {
+        "id": "oleo",
+        "name": "Óleo",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "cebola",
+        "name": "Cebola picada",
+        "quantity": 0.5,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "vagem",
+        "name": "Vagem picada",
+        "quantity": 3,
+        "unit": "xícaras (chá)"
+      },
+      {
+        "id": "tempero",
+        "name": "Tempero em pó MAGGI Fondor",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "agua",
+        "name": "Água fervente",
+        "quantity": 0.5,
+        "unit": "xícara (chá)",
+        "note": "Acrescente um pouco mais apenas se precisar para amaciar.",
+        "shopping": false
+      },
+      {
+        "id": "salsa",
+        "name": "Salsa picada",
+        "quantity": 2,
+        "unit": "colheres (sopa)"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Lave a vagem, retire as pontas e pique. Separe cebola e salsa."
+      },
+      {
+        "id": "passo-2",
+        "text": "Aqueça o óleo numa panela e junte a cebola. Acrescente vagem e tempero e refogue por 2 minutos."
+      },
+      {
+        "id": "passo-3",
+        "text": "Coloque a água fervente, abaixe o fogo e tampe. Cozinhe cerca de 15 minutos, até a vagem amaciar; adicione mais água somente se necessário."
+      },
+      {
+        "id": "passo-4",
+        "text": "Junte a salsa e deixe apurar por aproximadamente 2 minutos antes de servir."
+      }
+    ],
+    "equipment": [
+      "Panela com tampa e colher",
+      "Tábua, faca e medidores"
+    ],
+    "tips": [
+      {
+        "title": "Confira a água",
+        "text": "Evite deixar o fundo secar antes da vagem cozinhar."
+      },
+      {
+        "title": "Salsa por último",
+        "text": "Junte nos minutos finais para preservar o aroma."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Refrigere prontamente em recipiente raso, a 4 °C ou menos, e consuma em até 2 dias. Descarte o que ficou mais de 2 horas fora da geladeira."
+      },
+      {
+        "title": "Ao reaquecer",
+        "text": "Aqueça somente a porção desejada até 74 °C no centro."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T20:48:54Z"
+  },
+  "sources": [
+    {
+      "title": "Receitas Nestlé — vagem refogada",
+      "url": "https://www.receitasnestle.com.br/receitas/vagem-refogada",
+      "role": "Quatro porções, cebola, Fondor, água e finalização com salsa."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Direto403;fichacompleta recuperadaembusca. Nãoexistealho/listaNestlé; nãoimportarOLiberal. Short139cominho/limão éoutraformulação.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

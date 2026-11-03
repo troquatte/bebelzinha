@@ -1,0 +1,147 @@
+{
+  "id": "salada-de-pepino",
+  "slug": "salada-de-pepino",
+  "title": "Salada de pepino em bastonetes com molho de coentro",
+  "description": "Salada de pepino com alho, coentro e pimenta dedo-de-moça. Veja o corte em bastonetes e o molho de azeite e vinagre aquecido.",
+  "intro": "O molho é aquecido separadamente e depois encontra os temperos e o pepino.",
+  "categoryIds": [
+    "acompanhamentos"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/salada-pepino.webp",
+    "alt": "Imagem ilustrativa: Bastonetes de pepino japonês com casca, coentro e pedacinhos de pimenta vermelha"
+  },
+  "publishedAt": "2026-11-03T20:48:54Z",
+  "updatedAt": "2026-11-03T20:48:54Z",
+  "seo": {
+    "title": "Salada de pepino em bastonetes com molho de coentro | Bebel",
+    "description": "Salada de pepino com alho, coentro e pimenta dedo-de-moça. Veja o corte em bastonetes e o molho de azeite e vinagre aquecido."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 4,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Separe o tempo de cortar e aquecer o molho. Sirva logo ou mantenha refrigerado por até 2 horas antes de servir.",
+    "ingredients": [
+      {
+        "id": "pepino",
+        "name": "Pepino japonês",
+        "quantity": 2,
+        "unit": "unidades"
+      },
+      {
+        "id": "alho",
+        "name": "Alho",
+        "quantity": 1,
+        "unit": "dente"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta dedo-de-moça",
+        "quantity": 0.5,
+        "unit": "unidade"
+      },
+      {
+        "id": "coentro",
+        "name": "Coentro com folhas, talos e raízes",
+        "quantity": 4,
+        "unit": "ramos"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": 0.25,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "vinagre",
+        "name": "Vinagre de vinho branco",
+        "quantity": 2.5,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar",
+        "quantity": 1,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 0.5,
+        "unit": "colher (chá)"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Lave e seque pepinos, coentro e pimenta. Abra os pepinos ao comprido, retire as sementes com colher e corte bastonetes de cerca de 4 cm por 0,5 cm."
+      },
+      {
+        "id": "passo-2",
+        "text": "Pique talos e raízes do coentro e reserve as folhas picadas. Rale o alho e pique a meia pimenta sem sementes."
+      },
+      {
+        "id": "passo-3",
+        "text": "Reúna alho, pimenta, talos, raízes, açúcar e sal numa tigela resistente ao calor."
+      },
+      {
+        "id": "passo-4",
+        "text": "Aqueça azeite e vinagre numa panela pequena em fogo baixo até começar a ferver. Despeje cuidadosamente sobre os temperos e misture."
+      },
+      {
+        "id": "passo-5",
+        "text": "Junte pepinos e folhas de coentro. Misture e sirva, ou refrigere por até 2 horas."
+      }
+    ],
+    "equipment": [
+      "Tábua, faca, colher e ralador fino",
+      "Panela pequena e tigela resistente ao calor",
+      "Medidores e escovinha para legumes"
+    ],
+    "tips": [
+      {
+        "title": "Folhas no final",
+        "text": "Separe folhas de talos e raízes durante o corte."
+      },
+      {
+        "title": "Pepino em bastões",
+        "text": "Retire o miolo com sementes antes de fatiar."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Melhor recém-preparada",
+        "text": "Sirva a seguir ou guarde coberta na geladeira a 4 °C ou menos por até 2 horas antes de servir, preservando a textura."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T20:48:54Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — salada de pepino marinado",
+      "url": "https://panelinha.com.br/receita/salada-de-pepino-marinado",
+      "role": "Quatro porções, bastonetes, molho aquecido e até duas horas refrigerada antes de servir."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Nãosunomono/nãoiogurte/nãomanga. Coentrocomraízes4ramosfonte. Sem inventar48hqualidadetextura.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

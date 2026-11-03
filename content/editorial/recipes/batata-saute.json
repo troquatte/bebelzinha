@@ -1,0 +1,146 @@
+{
+  "id": "batata-saute",
+  "slug": "batata-saute",
+  "title": "Batata sauté com manteiga e salsinha",
+  "description": "Batata sauté com batata-bolinha, manteiga e salsinha. Cozinhe até ficar firme, escorra e doure na frigideira.",
+  "intro": "As batatas vão inteiras e descascadas para a panela antes de dourar na manteiga.",
+  "categoryIds": [
+    "acompanhamentos"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/batata-saute.webp",
+    "alt": "Imagem ilustrativa: Batatas-bolinha inteiras e descascadas, douradas na manteiga com salsinha"
+  },
+  "publishedAt": "2026-11-03T20:10:17Z",
+  "updatedAt": "2026-11-03T20:10:17Z",
+  "seo": {
+    "title": "Batata sauté com manteiga e salsinha | Bebel",
+    "description": "Batata sauté com batata-bolinha, manteiga e salsinha. Cozinhe até ficar firme, escorra e doure na frigideira."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 4,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 30,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 20 minutos depois que a água ferver e mais 10 na frigideira, além de descascar e escorrer.",
+    "ingredients": [
+      {
+        "id": "batata",
+        "name": "Batata-bolinha",
+        "quantity": 1,
+        "unit": "kg"
+      },
+      {
+        "id": "manteiga",
+        "name": "Manteiga",
+        "quantity": 2,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "salsinha",
+        "name": "Salsinha picada",
+        "quantity": 3,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "sal-cozimento",
+        "name": "Sal para a água",
+        "quantity": 1,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "sal-final",
+        "name": "Sal para finalizar",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "agua",
+        "name": "Água para cobrir as batatas",
+        "quantity": null,
+        "unit": "a gosto",
+        "shopping": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Descasque as batatas e cubra com água numa panela média. Junte o sal da cocção e aqueça até ferver."
+      },
+      {
+        "id": "passo-2",
+        "text": "Reduza para fogo médio e cozinhe cerca de 20 minutos. Um garfo deve entrar, mas a batata ainda deve estar firme."
+      },
+      {
+        "id": "passo-3",
+        "text": "Escorra e espere eliminar a água antes de levar à manteiga quente."
+      },
+      {
+        "id": "passo-4",
+        "text": "Derreta a manteiga numa frigideira grande em fogo médio. Junte batatas, sal e pimenta e doure por cerca de 10 minutos, movimentando com espátula."
+      },
+      {
+        "id": "passo-5",
+        "text": "Desligue e misture a salsinha."
+      }
+    ],
+    "equipment": [
+      "Panela média e escorredor",
+      "Frigideira grande e espátula",
+      "Descascador, garfo e medidores"
+    ],
+    "tips": [
+      {
+        "title": "Cozida, sem desmanchar",
+        "text": "Batata muito mole se desfaz ao saltear."
+      },
+      {
+        "title": "Escorra bem",
+        "text": "Água acumulada pode fazer a manteiga quente espirrar."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Transfira para recipiente raso e refrigere prontamente a 4 °C ou menos. Consuma em até 2 dias; descarte o que passou mais de 2 horas fora da geladeira."
+      },
+      {
+        "title": "Ao reaquecer",
+        "text": "Aqueça apenas o que será servido até atingir 74 °C no centro."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T20:10:17Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — batata sauté",
+      "url": "https://panelinha.com.br/receita/batatas-saute",
+      "role": "Um quilo de batata-bolinha, até quatro porções e duas etapas de cocção."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Batatasinteirasdescascadas,nãocubosdafonteAnaMaria.30minnãocontafervura/frio.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "id": "bolo-de-coco",
+  "slug": "bolo-de-coco",
+  "title": "Bolo de coco gelado em pedaços com calda de leite",
+  "description": "Bolo de coco gelado, com massa batida, calda de leite condensado e coco ralado. Veja a assadeira de 33 × 22 cm e o descanso refrigerado.",
+  "intro": "A calda vai no bolo morno; o coco cobre os pedaços depois de gelados.",
+  "categoryIds": [
+    "doces",
+    "forno"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/bolo-coco-gelado.webp",
+    "alt": "Imagem ilustrativa: Pedaços retangulares de bolo gelado úmido cobertos de coco ralado por todos os lados"
+  },
+  "publishedAt": "2026-11-03T20:48:54Z",
+  "updatedAt": "2026-11-03T20:48:54Z",
+  "seo": {
+    "title": "Bolo de coco gelado em pedaços com calda de leite | Bebel",
+    "description": "Bolo de coco gelado, com massa batida, calda de leite condensado e coco ralado. Veja a assadeira de 33 × 22 cm e o descanso refrigerado."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 12,
+      "unit": "pedaço"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 30,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 30 minutos a 180 °C e pelo menos 2 horas de geladeira, além da massa e da montagem.",
+    "ingredients": [
+      {
+        "id": "ovo",
+        "name": "Ovo em temperatura ambiente",
+        "quantity": 5,
+        "unit": "unidades"
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar",
+        "quantity": 1.5,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "farinha",
+        "name": "Farinha de trigo para a massa",
+        "quantity": 1.5,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "fermento",
+        "name": "Fermento químico em pó",
+        "quantity": 1,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "leite-massa",
+        "name": "Leite integral para a massa",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "manteiga",
+        "name": "Manteiga para untar",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "farinha-forma",
+        "name": "Farinha para a assadeira",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "condensado",
+        "name": "Leite condensado",
+        "quantity": 395,
+        "unit": "g"
+      },
+      {
+        "id": "coco-leite",
+        "name": "Leite de coco",
+        "quantity": 0.75,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "leite-calda",
+        "name": "Leite para a calda",
+        "quantity": 1.75,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "coco",
+        "name": "Coco seco ralado",
+        "quantity": 1.5,
+        "unit": "xícara (chá)"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Preaqueça a 180 °C. Unte e enfarinhe assadeira de 33 × 22 cm. Misture farinha e fermento. Separe os ovos."
+      },
+      {
+        "id": "passo-2",
+        "text": "Bata claras em neve. Reduza a velocidade, junte gemas uma a uma e depois açúcar aos poucos."
+      },
+      {
+        "id": "passo-3",
+        "text": "Com espátula, incorpore farinha em três adições, alternando com o leite da massa em duas, sem perder o ar."
+      },
+      {
+        "id": "passo-4",
+        "text": "Nivele na assadeira e asse cerca de 30 minutos, até o palito sair limpo."
+      },
+      {
+        "id": "passo-5",
+        "text": "Misture leite condensado, leite de coco e leite da calda. Fure o bolo morno com garfo, regue e gele por pelo menos 2 horas."
+      },
+      {
+        "id": "passo-6",
+        "text": "Corte em 12 pedaços e envolva cada um no coco ralado. Mantenha refrigerado."
+      }
+    ],
+    "equipment": [
+      "Forno e assadeira de 33 × 22 cm",
+      "Batedeira, tigelas, peneira e espátula",
+      "Garfo, faca e medidores"
+    ],
+    "tips": [
+      {
+        "title": "Massa aerada",
+        "text": "Misture farinha e leite com movimentos leves."
+      },
+      {
+        "title": "Geladeira antes do corte",
+        "text": "O descanso ajuda o bolo a absorver a calda."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Guarde refrigerado",
+        "text": "Mantenha em pote fechado a 4 °C ou menos por até 2 dias. Leve à geladeira prontamente, sem ultrapassar 2 horas fora de refrigeração."
+      },
+      {
+        "title": "Para servir",
+        "text": "Retire apenas o que será consumido, com utensílio limpo, e mantenha o restante gelado."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T20:48:54Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — bolo gelado de coco",
+      "url": "https://panelinha.com.br/receita/bolo-gelado-de-coco",
+      "role": "Doze pedaços, assadeira de 33 × 22 cm, massa aerada e calda antes de gelar."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Leitecoco0,75xícarapreservamedida,nãoconverte200mlambíguo. Fonteusacaseiro;nomedotipogenérico,nãoinventarsemleite. Leitemassaecaldaseparados. Sembeijinhoextra.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

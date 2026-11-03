@@ -1,0 +1,123 @@
+{
+  "id": "pacoca-caseira",
+  "slug": "pacoca-caseira",
+  "title": "Paçoca caseira de amendoim com farinha de milho",
+  "description": "Paçoca caseira de amendoim torrado, açúcar e farinha de milho. Veja como triturar e prensar, sem fazer caramelo.",
+  "intro": "Use amendoim já torrado e sem pele. O rendimento é em porções; o número de paçoquinhas depende do molde.",
+  "categoryIds": [
+    "doces"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/pacoca-caseira.webp",
+    "alt": "Imagem ilustrativa: Paçoquinhas de amendoim prensadas em pequenos cilindros, com miolo esfarelado"
+  },
+  "publishedAt": "2026-11-03T20:10:17Z",
+  "updatedAt": "2026-11-03T20:10:17Z",
+  "seo": {
+    "title": "Paçoca caseira de amendoim com farinha de milho | Bebel",
+    "description": "Paçoca caseira de amendoim torrado, açúcar e farinha de milho. Veja como triturar e prensar, sem fazer caramelo."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 6,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Sem cocção nesta etapa. Separe o tempo de triturar aos poucos e prensar as porções.",
+    "ingredients": [
+      {
+        "id": "amendoim",
+        "name": "Amendoim torrado sem pele",
+        "quantity": 500,
+        "unit": "g"
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar",
+        "quantity": 2,
+        "unit": "xícaras (chá)"
+      },
+      {
+        "id": "farinha",
+        "name": "Farinha de milho amarela torrada pronta para consumo",
+        "quantity": 0.5,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 1,
+        "unit": "colher (café)"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Separe amendoim já torrado, açúcar, farinha e sal. Use processador ou liquidificador compatível com ingredientes secos."
+      },
+      {
+        "id": "passo-2",
+        "text": "Triture em pequenas levas até obter uma farofa fina. Pause para soltar as laterais com o aparelho desligado."
+      },
+      {
+        "id": "passo-3",
+        "text": "Misture as levas para distribuir os ingredientes uniformemente."
+      },
+      {
+        "id": "passo-4",
+        "text": "Coloque num aro ou molde e pressione bem. Desenforme com cuidado e repita com o restante."
+      }
+    ],
+    "equipment": [
+      "Processador ou liquidificador apto a triturar secos",
+      "Tigela, colher e medidores",
+      "Aro redondo ou quadrado para prensar"
+    ],
+    "tips": [
+      {
+        "title": "Porções e unidades",
+        "text": "O tamanho do molde muda a quantidade de paçoquinhas."
+      },
+      {
+        "title": "Farinha correta",
+        "text": "Use farinha de milho amarela torrada, não fubá cru."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Proteja da umidade",
+        "text": "Guarde em recipiente limpo e bem fechado. Para as sobras, use geladeira a 4 °C ou menos e consuma em até 2 dias."
+      },
+      {
+        "title": "Ao retirar",
+        "text": "Manuseie delicadamente para preservar o formato prensado."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T20:10:17Z"
+  },
+  "sources": [
+    {
+      "title": "Receitas Globo / Ana Maria Braga — paçoca caseira",
+      "url": "https://receitas.globo.com/ana-maria-braga/doces/pacoca-caseira-1.ghtml",
+      "role": "Quatro ingredientes, seis porções, trituração e prensagem em aro."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "60500termoamplo classificado transacional,não60milvisitasdestaformula. Fonte6porções,não6paçocasgigantes. Farinhade milhoamarelaprontaconsumoexplicitada; semmisturarmandioca/amendoim1,5kg daoutraformula.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

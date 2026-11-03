@@ -1,0 +1,16 @@
+# Lote080 — dez receitas
+
+
+## Entrega080 — dez receitas, 3 de novembro de 2026 UTC
+
+Abacaxi na airfryer com açúcar e canela; Beterraba na airfryer em cubos com azeite; Cogumelos salteados com cebola e páprica defumada; Couve refogada em tiras finas com alho; Repolho refogado com bacon e alho; Batata sauté com manteiga e salsinha; Torta de limão com base de biscoito e raspas; Banoffee sem forno com banana e doce de leite; Doce de leite caseiro com leite e açúcar na panela; Paçoca caseira de amendoim com farinha de milho.
+
+Dez fichas/fontes/fotos/cards/SSG/sitemap integrados. Fichas com ingredientes e quantidades, rendimento próprio, equipamentos, passos, dicas e conservação. Fotos originais ilustrativas geradas com image_gen, inspecionadas individualmente e convertidas para WebP, card e hero iguais. Água fora das compras. Sem vídeo compatível confirmado: couve049/cogumelos067 Shorts semID; beterraba086 fornoemalumínio; repolho069assado. Não associar vídeos só pelo ingrediente.
+
+OpenSEO: contexto e relatório competitivo consultados; sem linhas equivalentes para reuso dos dez termos. Dez métricas novas Brasil2076/pt, sem clickstream/tendências mensais, e dez SERPs depth10 resultId b4e91397-7564-4707-92a2-a0712744c684. abacaxi na airfryer: 880/mês KD0 CPCUSDnull; beterraba na airfryer: 1600/mês KD0 CPCUSDnull; cogumelos salteados: 320/mês KD0 CPCUSDnull; couve refogada: 9900/mês KD0 CPCUSD0.12; repolho refogado: 14800/mês KD2 CPCUSD0.22; batata sauté: 22200/mês KD0 CPCUSD0.01; torta de limão: 110000/mês KD0 CPCUSD0.14; banoffee: 60500/mês KD0 CPCUSD0.01; doce de leite caseiro: 18100/mês KD1 CPCUSD0.07; paçoca: 60500/mês KD0 CPCUSD0.05. Banoffee e paçoca transacionais; volumes não são visitas nem volume da variante; KD0não prova facilidade. Custo/saldo não retornados. Relatório privado: https://app.openseo.so/p/d9786bbb-b04d-4eaa-adf8-337b47b3010a/reports/c3892e6f-b483-42a4-bbe1-9d04ce7e039f
+
+Revisão: abacaxi meiafruta/fatias conforme alternativa fonte; beterraba cubos25min180°C; cogumelos4tipos/6porções pequenas; couve alho inteiro retirado; repolho bacon/Fondor sem sal extra; batata inteira descascada/20minágua+10minmanteiga; torta20cm/gelatina/4hfrio; banoffee base sem forno30min+2hcompleta/cremefresco200ml; doce leitepanela comum2ingredientes; paçoca farinha de milho/seisporçõesnão6unidades. Nestlé403direto, texto completo recuperado via busca. PDFSebraeredirecionou;nãousado. Não misturar formulações e não alegar teste próprio.
+
+Build/pós-build aprovados:90 receitas públicas/92registros/100rotas estáticas/102URLs. Desktop1280 e celular390 nas dez fichas: fotos carregadas, contagens coerentes, semoverflow, semiframe/VideoObject. Persistência de compras/preparo10/10 após recarregar; marcações restauradas. Catálogo12/12/12/12/12/12/12/6; página8exibe85–90; buscabanoffee1ficha/noindex. Filtrosnowrap/scrollauto. git diff --check aprovado; avisoLF/CRLFnãoéfalha. SweetAlert2CommonJSpréexistente. JSDOMnãointerpretapartedecssmoderno, DOMaprovado e layout conferido em navegador.
+
+Sem alteração de componentes/estilos/testesunitários, sem diálogo de impressão executado. Sem commit, push, deploy ou agendamento pelo agente. Alterações anteriores079preservadas. Fila concluida_localmente; não implica publicação em produção ou indexação.

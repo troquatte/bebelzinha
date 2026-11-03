@@ -1,0 +1,136 @@
+{
+  "id": "pimentao-na-airfryer",
+  "slug": "pimentao-na-airfryer",
+  "title": "Pimentão na airfryer sem pele com alho e manjericão",
+  "description": "Pimentão vermelho na airfryer, assado inteiro e depois descascado. Veja o descanso para soltar a pele e o tempero de alho e manjericão.",
+  "intro": "O tempero entra depois de assar, descansar e retirar a pele.",
+  "categoryIds": [
+    "airfryer",
+    "acompanhamentos"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/pimentao-airfryer.webp",
+    "alt": "Imagem ilustrativa: Tiras macias de pimentão vermelho sem pele com alho fatiado, azeite e manjericão"
+  },
+  "publishedAt": "2026-11-03T20:48:54Z",
+  "updatedAt": "2026-11-03T20:48:54Z",
+  "seo": {
+    "title": "Pimentão na airfryer sem pele com alho e manjericão | Bebel",
+    "description": "Pimentão vermelho na airfryer, assado inteiro e depois descascado. Veja o descanso para soltar a pele e o tempero de alho e manjericão."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 4,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 30 minutos a 200 °C por leva, mais 30 de descanso na airfryer desligada e o tempo de descascar.",
+    "ingredients": [
+      {
+        "id": "pimentao",
+        "name": "Pimentão vermelho",
+        "quantity": 3,
+        "unit": "unidades",
+        "note": "Cerca de 800 g no total."
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite extravirgem",
+        "quantity": 3,
+        "unit": "colheres"
+      },
+      {
+        "id": "oregano",
+        "name": "Orégano",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "manjericao",
+        "name": "Manjericão",
+        "quantity": 8,
+        "unit": "folhas"
+      },
+      {
+        "id": "alho",
+        "name": "Alho",
+        "quantity": 1,
+        "unit": "dente"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Lave e seque os pimentões inteiros. Acomode no cesto; faça levas se não couberem."
+      },
+      {
+        "id": "passo-2",
+        "text": "Asse a 200 °C por cerca de 30 minutos, virando na metade, até dourar de todos os lados."
+      },
+      {
+        "id": "passo-3",
+        "text": "Desligue e deixe descansar no aparelho por cerca de 30 minutos, até amornar e a pele soltar."
+      },
+      {
+        "id": "passo-4",
+        "text": "Retire pele, cabos, sementes e filamentos. Corte a polpa em tiras."
+      },
+      {
+        "id": "passo-5",
+        "text": "Misture com sal, orégano, folhas de manjericão rasgadas, alho descascado fatiado e azeite. Sirva ou refrigere."
+      }
+    ],
+    "equipment": [
+      "Airfryer e pinça",
+      "Tábua, faca, tigela e colher"
+    ],
+    "tips": [
+      {
+        "title": "Cesto menor",
+        "text": "Asse menos pimentões por vez, sem apertar."
+      },
+      {
+        "title": "Descanso ajuda",
+        "text": "Espere amornar antes de puxar a pele com os dedos."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Refrigere após preparar",
+        "text": "Guarde em pote fechado na geladeira a 4 °C ou menos por até 2 dias. Não deixe o alho e o azeite à temperatura ambiente."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T20:48:54Z"
+  },
+  "sources": [
+    {
+      "title": "GialloZafferano / Rosella Errante — pimentões assados na airfryer",
+      "url": "https://www.giallozafferano.com.br/receitas/pimentoes-na-fritadeira-eletrica.html",
+      "role": "Quatro porções, três pimentões vermelhos, 200 °C por 30 minutos e descanso de 30 antes de descascar."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Fontetraduzazeite3colheres,nãoconvertermlsemcerteza. NãoéversãorecheadaSERP;170termoamplo,nãotécnicaexclusiva.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

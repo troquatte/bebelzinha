@@ -1,0 +1,168 @@
+{
+  "id": "bolo-de-limao",
+  "slug": "bolo-de-limao",
+  "title": "Bolo de limão com cobertura de leite condensado",
+  "description": "Bolo de limão com claras em neve e cobertura de leite condensado. Confira as medidas, a forma de 25 cm e o preparo a 180 °C.",
+  "intro": "Separe claras e gemas antes de começar. O fermento entra junto das claras batidas, no final.",
+  "categoryIds": [
+    "doces",
+    "forno",
+    "lanches"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/bolo-limao.webp",
+    "alt": "Imagem ilustrativa: Bolo de limão com furo central, cobertura branca cremosa e raspas verdes"
+  },
+  "publishedAt": "2026-11-03T20:48:54Z",
+  "updatedAt": "2026-11-03T20:48:54Z",
+  "seo": {
+    "title": "Bolo de limão com cobertura de leite condensado | Bebel",
+    "description": "Bolo de limão com claras em neve e cobertura de leite condensado. Confira as medidas, a forma de 25 cm e o preparo a 180 °C."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 8,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 40,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 40 minutos a 180 °C, além do preparo da massa, da cobertura e do tempo de amornar.",
+    "ingredients": [
+      {
+        "id": "ovo",
+        "name": "Ovo",
+        "quantity": 2,
+        "unit": "unidades",
+        "note": "Separe claras e gemas."
+      },
+      {
+        "id": "leite",
+        "name": "Leite",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "manteiga",
+        "name": "Manteiga para a massa",
+        "quantity": 3,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar",
+        "quantity": 1.5,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "limao-massa",
+        "name": "Limão para suco e raspas da massa",
+        "quantity": 2,
+        "unit": "unidades",
+        "note": "Use o suco dos 2 e raspas de 1."
+      },
+      {
+        "id": "farinha",
+        "name": "Farinha de trigo",
+        "quantity": 3.5,
+        "unit": "xícaras (chá)"
+      },
+      {
+        "id": "fermento",
+        "name": "Fermento químico em pó",
+        "quantity": 2,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "manteiga-forma",
+        "name": "Manteiga para untar",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "condensado",
+        "name": "Leite condensado",
+        "quantity": 395,
+        "unit": "g"
+      },
+      {
+        "id": "limao-cobertura",
+        "name": "Limão para suco e raspas da cobertura",
+        "quantity": 1,
+        "unit": "unidade",
+        "note": "Use raspas de 1 e suco de metade; reserve a outra metade para outro uso."
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Preaqueça a 180 °C e unte uma forma com furo de 25 cm. Bata gemas, leite, manteiga e açúcar no liquidificador."
+      },
+      {
+        "id": "passo-2",
+        "text": "Transfira para tigela. Misture suco e raspas da massa e incorpore a farinha aos poucos."
+      },
+      {
+        "id": "passo-3",
+        "text": "Bata as claras em neve. Incorpore-as com o fermento, delicadamente."
+      },
+      {
+        "id": "passo-4",
+        "text": "Transfira para a forma e asse cerca de 40 minutos, até o palito sair sem massa crua. Espere amornar e desenforme."
+      },
+      {
+        "id": "passo-5",
+        "text": "Aqueça o leite condensado em fogo baixo. Misture o suco de meio limão até encorpar. Espalhe sobre o bolo e finalize com as raspas reservadas."
+      }
+    ],
+    "equipment": [
+      "Forno e forma de furo de 25 cm",
+      "Liquidificador, batedeira e panela pequena",
+      "Tigelas, fouet, espátula e medidores"
+    ],
+    "tips": [
+      {
+        "title": "Raspas finas",
+        "text": "Rale apenas a parte colorida da casca."
+      },
+      {
+        "title": "Claras delicadas",
+        "text": "Incorpore sem bater para preservar o ar da massa."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Guarde refrigerado",
+        "text": "Mantenha em pote fechado a 4 °C ou menos por até 2 dias. Leve à geladeira prontamente, sem ultrapassar 2 horas fora de refrigeração."
+      },
+      {
+        "title": "Para servir",
+        "text": "Retire apenas o que será consumido, com utensílio limpo, e mantenha o restante gelado."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T20:48:54Z"
+  },
+  "sources": [
+    {
+      "title": "Receiteria — bolo de limão",
+      "url": "https://www.receiteria.com.br/receita/bolo-de-limao/",
+      "role": "Oito porções, forma de 25 cm, claras em neve e cobertura aquecida de leite condensado com limão."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Fórmula2ovos/3,5xícarasfarinha/2colheresfermento mantidaexata;semgelatinamisturapronto. Limão compra3frutasnãousar4porraspas, suco2,5.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}
