@@ -1,0 +1,172 @@
+{
+  "id": "bolo-formigueiro",
+  "slug": "bolo-formigueiro",
+  "title": "Bolo formigueiro simples feito à mão",
+  "description": "Bolo formigueiro sem batedeira, com chocolate granulado na massa. Confira a forma de 22 cm, a temperatura e o ponto do palito.",
+  "intro": "O granulado é envolvido numa colher de farinha antes de entrar na massa.",
+  "categoryIds": [
+    "doces",
+    "forno",
+    "lanches"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/bolo-formigueiro.webp",
+    "alt": "Imagem ilustrativa: Bolo de furo central com massa clara pontilhada de chocolate granulado, sem cobertura"
+  },
+  "publishedAt": "2026-11-03T19:26:37Z",
+  "updatedAt": "2026-11-03T19:26:37Z",
+  "seo": {
+    "title": "Bolo formigueiro simples feito à mão | Bebel",
+    "description": "Bolo formigueiro sem batedeira, com chocolate granulado na massa. Confira a forma de 22 cm, a temperatura e o ponto do palito."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 10,
+      "unit": "fatia"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 45,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 45 minutos a 180 °C, além de misturar a massa e deixar amornar.",
+    "ingredients": [
+      {
+        "id": "ovo",
+        "name": "Ovo",
+        "quantity": 3,
+        "unit": "unidades"
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "id": "oleo",
+        "name": "Óleo",
+        "quantity": 120,
+        "unit": "ml"
+      },
+      {
+        "id": "leite",
+        "name": "Leite",
+        "quantity": 240,
+        "unit": "ml"
+      },
+      {
+        "id": "farinha",
+        "name": "Farinha de trigo para a massa",
+        "quantity": 300,
+        "unit": "g"
+      },
+      {
+        "id": "fermento",
+        "name": "Fermento químico em pó",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "baunilha",
+        "name": "Essência de baunilha",
+        "quantity": 1,
+        "unit": "colher (café)",
+        "note": "Opcional."
+      },
+      {
+        "id": "granulado",
+        "name": "Chocolate granulado",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "id": "farinha-granulado",
+        "name": "Farinha para envolver o granulado",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "manteiga",
+        "name": "Manteiga para untar",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "farinha-forma",
+        "name": "Farinha para a forma",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Preaqueça a 180 °C. Unte e enfarinhe uma forma com furo de 22 cm por 8 cm de altura."
+      },
+      {
+        "id": "passo-2",
+        "text": "Bata ovos, açúcar, óleo e baunilha com fouet. Misture o leite e incorpore a farinha peneirada aos poucos."
+      },
+      {
+        "id": "passo-3",
+        "text": "Adicione fermento delicadamente. Envolva o granulado na colher de farinha e misture à massa."
+      },
+      {
+        "id": "passo-4",
+        "text": "Transfira para a forma. Asse por cerca de 45 minutos, até um palito sair sem massa crua."
+      },
+      {
+        "id": "passo-5",
+        "text": "Espere amornar antes de desenformar."
+      }
+    ],
+    "equipment": [
+      "Forno e forma de furo de 22 × 8 cm",
+      "Tigela, fouet, espátula e peneira",
+      "Balança e medidores"
+    ],
+    "tips": [
+      {
+        "title": "Misture o necessário",
+        "text": "Depois do fermento, incorpore delicadamente."
+      },
+      {
+        "title": "Sem cobertura",
+        "text": "O chocolate desta versão fica dentro da massa."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Geladeira",
+        "text": "Guarde em pote fechado a 4 °C ou menos e consuma em até 2 dias. Leve à geladeira prontamente, sem ultrapassar 2 horas fora de refrigeração."
+      },
+      {
+        "title": "Ao servir",
+        "text": "Use colher limpa e retire somente a quantidade desejada. Mantenha o restante refrigerado."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T19:26:37Z"
+  },
+  "sources": [
+    {
+      "title": "Receiteria — bolo formigueiro fácil e rápido",
+      "url": "https://www.receiteria.com.br/receita/bolo-formigueiro-facil-e-rapido/",
+      "role": "Dez fatias, mistura manual, forma de 22 × 8 cm e forno a 180 °C."
+    },
+    {
+      "title": "Health Canada — conservação de sobras",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de alimentos preparados."
+    }
+  ],
+  "editorialNotes": [
+    "Sem misturarMaizena/coco/glacêdaoutraformula. Farinhagrânuloeunturaexplicitados.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

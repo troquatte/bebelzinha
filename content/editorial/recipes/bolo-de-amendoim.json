@@ -1,0 +1,137 @@
+{
+  "id": "bolo-de-amendoim",
+  "slug": "bolo-de-amendoim",
+  "title": "Bolo de amendoim de liquidificador sem farinha de trigo",
+  "description": "Bolo de amendoim cru com pele, ovos e açúcar, feito no liquidificador. Confira a forma e o preparo sem farinha de trigo.",
+  "intro": "Use amendoim cru com a película fina, sem a casca dura.",
+  "categoryIds": [
+    "doces",
+    "forno",
+    "lanches"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/bolo-amendoim.webp",
+    "alt": "Imagem ilustrativa: Bolo baixo de amendoim com furo central, casquinha dourada e fatia de miolo castanho claro"
+  },
+  "publishedAt": "2026-11-03T19:26:37Z",
+  "updatedAt": "2026-11-03T19:26:37Z",
+  "seo": {
+    "title": "Bolo de amendoim de liquidificador sem farinha de trigo | Bebel",
+    "description": "Bolo de amendoim cru com pele, ovos e açúcar, feito no liquidificador. Confira a forma e o preparo sem farinha de trigo."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 10,
+      "unit": "pedaço"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 30,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 30 minutos a 180 °C, além de bater a massa e esperar amornar.",
+    "ingredients": [
+      {
+        "id": "ovo",
+        "name": "Ovo",
+        "quantity": 6,
+        "unit": "unidades"
+      },
+      {
+        "id": "amendoim",
+        "name": "Amendoim cru com pele, sem casca dura",
+        "quantity": 2,
+        "unit": "xícaras (chá)"
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "fermento",
+        "name": "Fermento químico em pó",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "oleo",
+        "name": "Óleo para untar",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "cristal",
+        "name": "Açúcar cristal para a forma",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Preaqueça o forno a 180 °C. Unte uma forma com furo de 21 cm por 6 cm de altura e polvilhe açúcar cristal."
+      },
+      {
+        "id": "passo-2",
+        "text": "Bata ovos, amendoim e açúcar no liquidificador por cerca de 3 minutos. Se precisar soltar as laterais, desligue o aparelho antes de usar espátula."
+      },
+      {
+        "id": "passo-3",
+        "text": "Acrescente o fermento e bata brevemente. Transfira para a forma."
+      },
+      {
+        "id": "passo-4",
+        "text": "Asse por aproximadamente 30 minutos, até firmar e cozinhar no centro. Deixe amornar e desenforme com cuidado."
+      }
+    ],
+    "equipment": [
+      "Forno e forma de furo de 21 × 6 cm",
+      "Liquidificador e espátula",
+      "Tigela e medidores"
+    ],
+    "tips": [
+      {
+        "title": "Pele fina fica",
+        "text": "Retire apenas a casca dura do amendoim."
+      },
+      {
+        "title": "Sem farinha de trigo",
+        "text": "Esta formulação usa o amendoim triturado como base da massa."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Geladeira",
+        "text": "Guarde em pote fechado a 4 °C ou menos e consuma em até 2 dias. Leve à geladeira prontamente, sem ultrapassar 2 horas fora de refrigeração."
+      },
+      {
+        "title": "Ao servir",
+        "text": "Use colher limpa e retire somente a quantidade desejada. Mantenha o restante refrigerado."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T19:26:37Z"
+  },
+  "sources": [
+    {
+      "title": "Receitas Globo / Ana Maria Braga — bolo de amendoim",
+      "url": "https://receitas.globo.com/receitas-da-tv/mais-voce/bolo-de-amendoim-da-ana-maria-braga.ghtml",
+      "role": "Seis ovos, amendoim cru com pele, dez pedaços, forma de 21 × 6 cm e 180 °C por 30 minutos."
+    },
+    {
+      "title": "Health Canada — conservação de sobras",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de alimentos preparados."
+    }
+  ],
+  "editorialNotes": [
+    "Óleo para untar sóno método fonte, explicitado listagem. Sem alegação ausênciaalérgenos/glúten poisrótulos/contatocruzado.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

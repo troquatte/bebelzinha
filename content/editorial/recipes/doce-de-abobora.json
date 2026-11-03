@@ -1,0 +1,130 @@
+{
+  "id": "doce-de-abobora",
+  "slug": "doce-de-abobora",
+  "title": "Doce de abóbora em cubos com cravo e canela",
+  "description": "Doce de abóbora em cubos, sem coco, com cravo e canela. Veja o descanso com açúcar e o cozimento para preservar os pedaços.",
+  "intro": "O descanso com açúcar acontece antes de levar a panela ao fogo.",
+  "categoryIds": [
+    "doces"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/doce-abobora.webp",
+    "alt": "Imagem ilustrativa: Cubinhos macios de abóbora em calda clara, sem coco e sem amassar"
+  },
+  "publishedAt": "2026-11-03T19:26:37Z",
+  "updatedAt": "2026-11-03T19:26:37Z",
+  "seo": {
+    "title": "Doce de abóbora em cubos com cravo e canela | Bebel",
+    "description": "Doce de abóbora em cubos, sem coco, com cravo e canela. Veja o descanso com açúcar e o cozimento para preservar os pedaços."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 6,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 20,
+      "totalMinutes": null
+    },
+    "timeNote": "Reserve 2 horas de descanso, cerca de 20 minutos de cozimento após ferver e o tempo de esfriar.",
+    "ingredients": [
+      {
+        "id": "abobora",
+        "name": "Abóbora sem casca e sem sementes",
+        "quantity": 500,
+        "unit": "g"
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "id": "cravo",
+        "name": "Cravo-da-índia",
+        "quantity": 3,
+        "unit": "unidades"
+      },
+      {
+        "id": "canela",
+        "name": "Canela em pau",
+        "quantity": 2,
+        "unit": "ramas"
+      },
+      {
+        "id": "laranjeira",
+        "name": "Água de flor de laranjeira",
+        "quantity": 1,
+        "unit": "colher (chá)",
+        "note": "Opcional."
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Corte a abóbora em cubos pequenos. Coloque numa panela com açúcar, cravos e canela e deixe descansar por 2 horas."
+      },
+      {
+        "id": "passo-2",
+        "text": "Misture e aqueça até ferver. Abaixe o fogo e cozinhe por cerca de 20 minutos com a tampa entreaberta."
+      },
+      {
+        "id": "passo-3",
+        "text": "Desligue e, se usar, acrescente a água de flor de laranjeira. Tampe para esfriar inicialmente."
+      },
+      {
+        "id": "passo-4",
+        "text": "Transfira para recipiente limpo e refrigere prontamente. Retire as especiarias inteiras ao servir."
+      }
+    ],
+    "equipment": [
+      "Panela com tampa",
+      "Tábua, faca e colher",
+      "Balança e pote com tampa"
+    ],
+    "tips": [
+      {
+        "title": "Sem amassar",
+        "text": "Misture com cuidado para preservar os cubos."
+      },
+      {
+        "title": "Opcional perfumado",
+        "text": "Use água de flor de laranjeira própria para alimentos."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Geladeira",
+        "text": "Guarde em pote fechado a 4 °C ou menos e consuma em até 2 dias. Leve à geladeira prontamente, sem ultrapassar 2 horas fora de refrigeração."
+      },
+      {
+        "title": "Ao servir",
+        "text": "Use colher limpa e retire somente a quantidade desejada. Mantenha o restante refrigerado."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T19:26:37Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — doce de abóbora",
+      "url": "https://panelinha.com.br/receita/doce-de-abobora",
+      "role": "500 g de abóbora, seis porções, descanso de duas horas e cocção de 20 minutos."
+    },
+    {
+      "title": "Health Canada — conservação de sobras",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de alimentos preparados."
+    }
+  ],
+  "editorialNotes": [
+    "Fonte dizlocal secoarejado; substituídopor refrigeraçãoconservadoraHealthCanada. Nãoéconservaestávelprateleira. Cubossemcoco nãoamassado.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

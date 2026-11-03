@@ -1,0 +1,125 @@
+{
+  "id": "tapioca",
+  "slug": "tapioca",
+  "title": "Tapioca de polvilho doce com queijo meia-cura",
+  "description": "Tapioca feita com polvilho doce hidratado na hora, queijo meia-cura e mel. Veja o ponto da farinha úmida e como firmar na frigideira.",
+  "intro": "A base é polvilho doce seco; a água será adicionada aos poucos.",
+  "categoryIds": [
+    "lanches"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/tapioca.webp",
+    "alt": "Imagem ilustrativa: Tapioca branca dobrada com queijo meia-cura derretido e um fio de mel"
+  },
+  "publishedAt": "2026-11-03T19:26:37Z",
+  "updatedAt": "2026-11-03T19:26:37Z",
+  "seo": {
+    "title": "Tapioca de polvilho doce com queijo meia-cura | Bebel",
+    "description": "Tapioca feita com polvilho doce hidratado na hora, queijo meia-cura e mel. Veja o ponto da farinha úmida e como firmar na frigideira."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 1,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Depois de hidratar, cerca de 30 segundos para firmar e 1 minuto e meio de cada lado após dobrar, além de aquecer a frigideira.",
+    "ingredients": [
+      {
+        "id": "polvilho",
+        "name": "Polvilho doce",
+        "quantity": 0.5,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "agua",
+        "name": "Água filtrada",
+        "quantity": 2,
+        "unit": "colheres (sopa)",
+        "note": "Adicione aos poucos; ajuste a umidade se necessário.",
+        "shopping": false
+      },
+      {
+        "id": "queijo",
+        "name": "Queijo meia-cura ralado",
+        "quantity": 0.25,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "mel",
+        "name": "Mel para servir",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Regue o polvilho com a água aos poucos, esfregando com os dedos. A farinha deve ficar úmida, solta e unir ao apertar."
+      },
+      {
+        "id": "passo-2",
+        "text": "Aqueça uma frigideira pequena antiaderente em fogo médio. Alguns grãos de farinha devem saltar ao tocar a superfície."
+      },
+      {
+        "id": "passo-3",
+        "text": "Abaixe o fogo. Peneire a farinha por cima, distribuindo sem apertar. Espere cerca de 30 segundos para firmar."
+      },
+      {
+        "id": "passo-4",
+        "text": "Espalhe o queijo, dobre e aqueça cerca de 1 minuto e meio de cada lado, até derreter. Sirva com mel."
+      }
+    ],
+    "equipment": [
+      "Frigideira pequena antiaderente",
+      "Tigela, peneira e espátula",
+      "Medidores"
+    ],
+    "tips": [
+      {
+        "title": "Quebradiça?",
+        "text": "Falta umidade: ajuste a água aos poucos."
+      },
+      {
+        "title": "Muito molhada?",
+        "text": "Incorpore um pouco de polvilho para recuperar os grãos soltos."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Prefira na hora",
+        "text": "A tapioca perde maciez ao esfriar. Se sobrar, refrigere prontamente em pote fechado a 4 °C ou menos por até 2 dias."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça apenas a porção que vai comer, até atingir 74 °C no centro."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T19:26:37Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — tapioca para um",
+      "url": "https://panelinha.com.br/receita/tapioca-para-um",
+      "role": "Uma porção; hidratação de polvilho doce e recheio de queijo meia-cura com mel."
+    },
+    {
+      "title": "Health Canada — conservação de sobras",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de alimentos preparados."
+    }
+  ],
+  "editorialNotes": [
+    "110000volumeamplo inclui produtos; nãoévolumeda formulação. Semgoma prontana listapoisformulação partepolvilho.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

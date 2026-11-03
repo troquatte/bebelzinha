@@ -1,0 +1,123 @@
+{
+  "id": "maca-na-airfryer",
+  "slug": "maca-na-airfryer",
+  "title": "Maçã na airfryer com mel, canela e sorvete",
+  "description": "Maçã na airfryer em metades, com mel e canela. Veja o preparo a 200 °C e coloque o sorvete somente depois de assar.",
+  "intro": "Uma maçã rende duas metades. O sorvete entra no prato, depois da airfryer.",
+  "categoryIds": [
+    "airfryer",
+    "doces"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/maca-airfryer.webp",
+    "alt": "Imagem ilustrativa: Duas metades de maçã assada com canela e mel, acompanhadas de sorvete de creme"
+  },
+  "publishedAt": "2026-11-03T19:26:37Z",
+  "updatedAt": "2026-11-03T19:26:37Z",
+  "seo": {
+    "title": "Maçã na airfryer com mel, canela e sorvete | Bebel",
+    "description": "Maçã na airfryer em metades, com mel e canela. Veja o preparo a 200 °C e coloque o sorvete somente depois de assar."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 1,
+      "unit": "maçã"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 15,
+      "totalMinutes": null
+    },
+    "timeNote": "Aproximadamente 15 minutos a 200 °C, mais o tempo de preparar a fruta. Confira a maciez antes de retirar.",
+    "ingredients": [
+      {
+        "id": "maca",
+        "name": "Maçã",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "mel",
+        "name": "Mel",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "canela",
+        "name": "Canela em pó",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "sorvete",
+        "name": "Sorvete de creme para servir",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Lave a maçã e corte ao meio. Remova sementes e miolo com colher ou boleador."
+      },
+      {
+        "id": "passo-2",
+        "text": "Distribua canela e mel sobre a parte cortada."
+      },
+      {
+        "id": "passo-3",
+        "text": "Acomode as metades no cesto, com o corte para cima. Asse a 200 °C por aproximadamente 15 minutos, até a polpa amaciar."
+      },
+      {
+        "id": "passo-4",
+        "text": "Retire com cuidado e sirva com sorvete de creme."
+      }
+    ],
+    "equipment": [
+      "Airfryer e pinça",
+      "Tábua, faca e colher ou boleador"
+    ],
+    "tips": [
+      {
+        "title": "Confira a polpa",
+        "text": "Tamanho e variedade da maçã alteram o tempo."
+      },
+      {
+        "title": "Sorvete no final",
+        "text": "Não coloque o sorvete na airfryer."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Guarde sem sorvete",
+        "text": "Refrigere a maçã assada em pote fechado a 4 °C ou menos, por até 2 dias. Acrescente sorvete apenas ao servir."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça apenas a porção que vai comer, até atingir 74 °C no centro."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T19:26:37Z"
+  },
+  "sources": [
+    {
+      "title": "Guacira Alimentos — maçã assada na airfryer",
+      "url": "https://www.guacira.com.br/receita/maca-assada-na-airfryer-p797",
+      "role": "Uma maçã em metades, mel, canela, 200 °C por 15 minutos e sorvete na finalização."
+    },
+    {
+      "title": "Health Canada — conservação de sobras",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de alimentos preparados."
+    }
+  ],
+  "editorialNotes": [
+    "Rendimento expresso em1maçã; fonte não atribui número depessoas. Semfarofa/nuts nãoformulados.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

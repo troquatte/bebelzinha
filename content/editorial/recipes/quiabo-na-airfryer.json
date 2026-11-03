@@ -1,0 +1,130 @@
+{
+  "id": "quiabo-na-airfryer",
+  "slug": "quiabo-na-airfryer",
+  "title": "Quiabo na airfryer com páprica e alho em pó",
+  "description": "Quiabo na airfryer sem empanar, temperado com páprica doce e alho em pó. Confira como preparar a 180 °C e acompanhar o dourado.",
+  "intro": "Lave e seque o quiabo antes de cortar e temperar.",
+  "categoryIds": [
+    "airfryer",
+    "acompanhamentos"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/quiabo-airfryer.webp",
+    "alt": "Imagem ilustrativa: Quiabo cortado em rodelas, assado com páprica e bordas douradas, sem empanar"
+  },
+  "publishedAt": "2026-11-03T19:26:37Z",
+  "updatedAt": "2026-11-03T19:26:37Z",
+  "seo": {
+    "title": "Quiabo na airfryer com páprica e alho em pó | Bebel",
+    "description": "Quiabo na airfryer sem empanar, temperado com páprica doce e alho em pó. Confira como preparar a 180 °C e acompanhar o dourado."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 1,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Asse a 180 °C até dourar, mexendo durante o preparo. A fonte orienta pelo ponto e não informa minutos exatos de cocção.",
+    "ingredients": [
+      {
+        "id": "quiabo",
+        "name": "Quiabo",
+        "quantity": 250,
+        "unit": "g"
+      },
+      {
+        "id": "paprica",
+        "name": "Páprica doce",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "alho",
+        "name": "Alho em pó",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Lave os quiabos, seque e retire as pontas. Corte em pedaços transversais."
+      },
+      {
+        "id": "passo-2",
+        "text": "Misture com azeite, páprica, alho em pó e sal."
+      },
+      {
+        "id": "passo-3",
+        "text": "Espalhe no cesto e asse a 180 °C. Mexa algumas vezes para expor outros lados ao ar quente."
+      },
+      {
+        "id": "passo-4",
+        "text": "Retire quando os pedaços estiverem cozidos e com bordas douradas. Sirva a seguir."
+      }
+    ],
+    "equipment": [
+      "Airfryer",
+      "Tábua, faca e tigela",
+      "Colher e pano limpo para secar"
+    ],
+    "tips": [
+      {
+        "title": "Sem empanar",
+        "text": "Esta versão não leva farinha."
+      },
+      {
+        "title": "Acompanhe o ponto",
+        "text": "Abra para mexer e verificar o dourado; não dependa apenas do relógio."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Guarde refrigerado",
+        "text": "Coloque em recipiente fechado e refrigere prontamente a 4 °C ou menos. Consuma em até 2 dias; descarte o que permanecer mais de 2 horas fora da geladeira."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça apenas a porção que vai comer, até atingir 74 °C no centro."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T19:26:37Z"
+  },
+  "sources": [
+    {
+      "title": "Receitas Globo / Estúdio C — quiabo na air fryer",
+      "url": "https://receitas.globo.com/regionais/rpc/estudio-c/quiabo-na-air-fryer.ghtml",
+      "role": "250 g, uma porção, temperos e cocção a 180 °C até dourar."
+    },
+    {
+      "title": "Health Canada — conservação de sobras",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de alimentos preparados."
+    }
+  ],
+  "editorialNotes": [
+    "Cabeçalho14minnãoéminutagemdecocção; mantidopontodourado sem inventarcronômetro. Cortetransversalinterpretaçãohorizontal semprometersem baba.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

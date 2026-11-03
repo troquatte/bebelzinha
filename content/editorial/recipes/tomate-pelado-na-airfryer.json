@@ -1,0 +1,116 @@
+{
+  "id": "tomate-pelado-na-airfryer",
+  "slug": "tomate-pelado-na-airfryer",
+  "title": "Tomate pelado na airfryer para molhos e ensopados",
+  "description": "Tomate pelado na airfryer: aqueça os tomates inteiros, resfrie em água com gelo e retire a pele. Uma base para molhos, diferente de tomate confit.",
+  "intro": "Aqui a airfryer ajuda a soltar a pele. Os tomates ainda serão usados em outro preparo.",
+  "categoryIds": [
+    "airfryer",
+    "acompanhamentos"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/tomate-pelado-airfryer.webp",
+    "alt": "Imagem ilustrativa: Tomates italianos inteiros sem pele numa tigela, sem azeite nem ervas"
+  },
+  "publishedAt": "2026-11-03T19:26:37Z",
+  "updatedAt": "2026-11-03T19:26:37Z",
+  "seo": {
+    "title": "Tomate pelado na airfryer para molhos e ensopados | Bebel",
+    "description": "Tomate pelado na airfryer: aqueça os tomates inteiros, resfrie em água com gelo e retire a pele. Uma base para molhos, diferente de tomate confit."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 7,
+      "unit": "unidade"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 5,
+      "totalMinutes": null
+    },
+    "timeNote": "Preaqueça por 5 minutos a 200 °C e asse por cerca de 5 minutos por leva, além do resfriamento e da retirada da pele.",
+    "ingredients": [
+      {
+        "id": "tomate",
+        "name": "Tomate italiano maduro",
+        "quantity": 7,
+        "unit": "unidades"
+      },
+      {
+        "id": "agua",
+        "name": "Água fria para resfriar",
+        "quantity": null,
+        "unit": "a gosto",
+        "shopping": false
+      },
+      {
+        "id": "gelo",
+        "name": "Gelo para resfriar",
+        "quantity": null,
+        "unit": "a gosto",
+        "shopping": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Preaqueça a airfryer a 200 °C por 5 minutos. Lave os tomates."
+      },
+      {
+        "id": "passo-2",
+        "text": "Disponha inteiros no cesto, lado a lado. Aqueça por cerca de 5 minutos, até a pele inflar e começar a rachar."
+      },
+      {
+        "id": "passo-3",
+        "text": "Transfira com pinça para uma tigela com água e gelo. Aguarde esfriar o suficiente para manusear."
+      },
+      {
+        "id": "passo-4",
+        "text": "Retire a pele com os dedos e use os tomates em molhos ou ensopados."
+      }
+    ],
+    "equipment": [
+      "Airfryer e pinça",
+      "Tigela grande para água com gelo",
+      "Recipiente com tampa"
+    ],
+    "tips": [
+      {
+        "title": "Tomates maduros",
+        "text": "A maturação e o tamanho alteram o tempo para a pele soltar."
+      },
+      {
+        "title": "Não é confit",
+        "text": "Não há banho de azeite nem assado longo nesta técnica."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Até 3 dias",
+        "text": "Guarde os tomates pelados em pote fechado na geladeira a 4 °C ou menos e use em até 3 dias. Não conserve à temperatura ambiente."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T19:26:37Z"
+  },
+  "sources": [
+    {
+      "title": "Receitas Globo / Cozinha Prática — tomate pelado na air fryer",
+      "url": "https://receitas.globo.com/receitas-da-tv/cozinha-pratica/tomate-pelado-na-air-fryer.ghtml",
+      "role": "Sete tomates italianos; 200 °C, choque em água com gelo e geladeira por até três dias."
+    },
+    {
+      "title": "Health Canada — conservação de sobras",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de alimentos preparados."
+    }
+  ],
+  "editorialNotes": [
+    "Distinto de tomate-confit existente;termogeral390nãoévolumeda subtécnica. Água/gelo fora compras. Semconservaesterilizada/azeite.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

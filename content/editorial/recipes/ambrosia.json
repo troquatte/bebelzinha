@@ -1,0 +1,147 @@
+{
+  "id": "ambrosia",
+  "slug": "ambrosia",
+  "title": "Ambrosia de leite e ovos com cravo e canela",
+  "description": "Ambrosia com leite, ovos e limão, cozida em calda de açúcar com cravo e canela. Confira o ponto de fio fino e o momento de mexer.",
+  "intro": "A mistura de leite e ovos entra depois que a calda chega ao ponto de fio fino.",
+  "categoryIds": [
+    "doces"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/ambrosia.webp",
+    "alt": "Imagem ilustrativa: Grumos dourados de doce de leite e ovos envolvidos em calda âmbar, sem arroz"
+  },
+  "publishedAt": "2026-11-03T19:26:37Z",
+  "updatedAt": "2026-11-03T19:26:37Z",
+  "seo": {
+    "title": "Ambrosia de leite e ovos com cravo e canela | Bebel",
+    "description": "Ambrosia com leite, ovos e limão, cozida em calda de açúcar com cravo e canela. Confira o ponto de fio fino e o momento de mexer."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 6,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 45,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 15 minutos para a calda e 30 para a mistura de ovos, mais o tempo de gelar.",
+    "ingredients": [
+      {
+        "id": "acucar",
+        "name": "Açúcar",
+        "quantity": 1.5,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "agua",
+        "name": "Água",
+        "quantity": 1,
+        "unit": "xícara (chá)",
+        "shopping": false
+      },
+      {
+        "id": "ovo",
+        "name": "Ovo",
+        "quantity": 3,
+        "unit": "unidades"
+      },
+      {
+        "id": "leite",
+        "name": "Leite",
+        "quantity": 500,
+        "unit": "ml"
+      },
+      {
+        "id": "cravo",
+        "name": "Cravo-da-índia",
+        "quantity": 2,
+        "unit": "unidades"
+      },
+      {
+        "id": "canela",
+        "name": "Canela em pau",
+        "quantity": 1,
+        "unit": "rama"
+      },
+      {
+        "id": "limao",
+        "name": "Limão",
+        "quantity": 1,
+        "unit": "unidade",
+        "note": "Use a casca e o suco de metade; reserve a outra metade para outro uso."
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Numa panela média de laterais altas, reúna açúcar, água, cravos, canela e casca do limão. Cozinhe em fogo médio sem mexer por cerca de 15 minutos: a calda deve cair da colher em fio fino entre as gotas."
+      },
+      {
+        "id": "passo-2",
+        "text": "Bata os ovos apenas para unir claras e gemas. Misture leite e suco de meio limão."
+      },
+      {
+        "id": "passo-3",
+        "text": "Quando a calda atingir o ponto, abaixe o fogo e adicione a mistura de ovos. Cozinhe sem mexer por cerca de 30 minutos, até coagular e cozinhar completamente."
+      },
+      {
+        "id": "passo-4",
+        "text": "Divida os grumos delicadamente com espátula. Transfira com escumadeira para recipiente limpo."
+      },
+      {
+        "id": "passo-5",
+        "text": "Peneire a calda por cima para retirar as especiarias e a casca. Refrigere e sirva fria."
+      }
+    ],
+    "equipment": [
+      "Panela média de laterais altas",
+      "Tigelas, garfo, espátula e escumadeira",
+      "Peneira, medidores e compoteira"
+    ],
+    "tips": [
+      {
+        "title": "Sem mexer no início",
+        "text": "Espere os ovos coagularem antes de dividir os pedaços."
+      },
+      {
+        "title": "Calda peneirada",
+        "text": "Retire cravos e casca antes de servir."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Geladeira",
+        "text": "Guarde em pote fechado a 4 °C ou menos e consuma em até 2 dias. Leve à geladeira prontamente, sem ultrapassar 2 horas fora de refrigeração."
+      },
+      {
+        "title": "Ao servir",
+        "text": "Use colher limpa e retire somente a quantidade desejada. Mantenha o restante refrigerado."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T19:26:37Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — ambrosia",
+      "url": "https://panelinha.com.br/receita/ambrosia",
+      "role": "Seis porções, calda em fio fino e coagulação de ovos com leite e limão."
+    },
+    {
+      "title": "Health Canada — conservação de sobras",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de alimentos preparados."
+    }
+  ],
+  "editorialNotes": [
+    "Limãoúnico compõecasca1esuco0,5semduplicarlista. Fervura completa e refrigeraçãopronta.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

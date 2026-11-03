@@ -462,6 +462,66 @@
       "slug": "sagu-de-uva",
       "status": "published",
       "file": "recipes/sagu-de-uva.json"
+    },
+    {
+      "id": "rabanada-na-airfryer",
+      "slug": "rabanada-na-airfryer",
+      "status": "published",
+      "file": "recipes/rabanada-na-airfryer.json"
+    },
+    {
+      "id": "maca-na-airfryer",
+      "slug": "maca-na-airfryer",
+      "status": "published",
+      "file": "recipes/maca-na-airfryer.json"
+    },
+    {
+      "id": "quiabo-na-airfryer",
+      "slug": "quiabo-na-airfryer",
+      "status": "published",
+      "file": "recipes/quiabo-na-airfryer.json"
+    },
+    {
+      "id": "tomate-pelado-na-airfryer",
+      "slug": "tomate-pelado-na-airfryer",
+      "status": "published",
+      "file": "recipes/tomate-pelado-na-airfryer.json"
+    },
+    {
+      "id": "tapioca",
+      "slug": "tapioca",
+      "status": "published",
+      "file": "recipes/tapioca.json"
+    },
+    {
+      "id": "mingau-de-aveia",
+      "slug": "mingau-de-aveia",
+      "status": "published",
+      "file": "recipes/mingau-de-aveia.json"
+    },
+    {
+      "id": "bolo-formigueiro",
+      "slug": "bolo-formigueiro",
+      "status": "published",
+      "file": "recipes/bolo-formigueiro.json"
+    },
+    {
+      "id": "bolo-de-amendoim",
+      "slug": "bolo-de-amendoim",
+      "status": "published",
+      "file": "recipes/bolo-de-amendoim.json"
+    },
+    {
+      "id": "doce-de-abobora",
+      "slug": "doce-de-abobora",
+      "status": "published",
+      "file": "recipes/doce-de-abobora.json"
+    },
+    {
+      "id": "ambrosia",
+      "slug": "ambrosia",
+      "status": "published",
+      "file": "recipes/ambrosia.json"
     }
   ]
 }

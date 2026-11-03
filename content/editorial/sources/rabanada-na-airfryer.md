@@ -1,0 +1,11 @@
+# Rabanada na airfryer com leite condensado e canela — revisão interna
+
+2026-11-03T19:26:37Z
+
+- Não usar os25minutos do cabeçalho como tempo de uma leva; método especifica12. Rendimento10porções dafonte, número defatias varia.
+- Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página.
+
+- https://www.receiteria.com.br/receita/rabanada-na-airfryer/ — Formulação, dez porções e método a 180 °C por cerca de 12 minutos por leva.
+- https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html — Resfriamento, refrigeração e reaquecimento de alimentos preparados.
+
+OpenSEO BR2076/pt, volume mensal estimado do termo rabanada na airfryer: 4400; KD:0. Pesquisa2026-11-03 Brasil2076/pt; dez métricas novas. Dez SERPs exatas atuais resultIdf5781285-7550-4486-95f8-50f7f3090bf9. Custo e saldo não retornados.

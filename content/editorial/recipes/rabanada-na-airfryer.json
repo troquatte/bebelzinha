@@ -1,0 +1,140 @@
+{
+  "id": "rabanada-na-airfryer",
+  "slug": "rabanada-na-airfryer",
+  "title": "Rabanada na airfryer com leite condensado e canela",
+  "description": "Rabanada na airfryer com pão francês, leite condensado e canela. Confira a ordem dos banhos e asse as fatias sem amontoar.",
+  "intro": "O banho de leite vem antes do ovo. Escorra cada fatia para não encharcar.",
+  "categoryIds": [
+    "airfryer",
+    "doces"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/rabanada-airfryer.webp",
+    "alt": "Imagem ilustrativa: Fatias grossas de pão douradas e cobertas de açúcar com canela"
+  },
+  "publishedAt": "2026-11-03T19:26:37Z",
+  "updatedAt": "2026-11-03T19:26:37Z",
+  "seo": {
+    "title": "Rabanada na airfryer com leite condensado e canela | Bebel",
+    "description": "Rabanada na airfryer com pão francês, leite condensado e canela. Confira a ordem dos banhos e asse as fatias sem amontoar."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 10,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 12 minutos a 180 °C por leva, além da montagem. Mais levas aumentam o tempo total.",
+    "ingredients": [
+      {
+        "id": "pao",
+        "name": "Pão francês",
+        "quantity": 4,
+        "unit": "unidades"
+      },
+      {
+        "id": "condensado",
+        "name": "Leite condensado",
+        "quantity": 197,
+        "unit": "g"
+      },
+      {
+        "id": "leite",
+        "name": "Leite",
+        "quantity": 240,
+        "unit": "ml"
+      },
+      {
+        "id": "ovo",
+        "name": "Ovo",
+        "quantity": 2,
+        "unit": "unidades"
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar para finalizar",
+        "quantity": 90,
+        "unit": "g"
+      },
+      {
+        "id": "canela",
+        "name": "Canela em pó",
+        "quantity": 5,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Fatie o pão com cerca de 2 cm de espessura, retirando as pontas finas."
+      },
+      {
+        "id": "passo-2",
+        "text": "Misture leite e leite condensado numa tigela. Bata os ovos em outra e reúna açúcar e canela num prato."
+      },
+      {
+        "id": "passo-3",
+        "text": "Passe cada fatia no leite, escorra e envolva no ovo batido."
+      },
+      {
+        "id": "passo-4",
+        "text": "Disponha no cesto sem sobrepor. Asse a 180 °C por cerca de 12 minutos, até dourar e cozinhar o ovo; vire no meio se necessário."
+      },
+      {
+        "id": "passo-5",
+        "text": "Retire com pinça e envolva no açúcar com canela. Repita em levas."
+      }
+    ],
+    "equipment": [
+      "Airfryer e pinça",
+      "Faca, tábua, duas tigelas e prato",
+      "Balança e medidor"
+    ],
+    "tips": [
+      {
+        "title": "Espaço no cesto",
+        "text": "O ar precisa circular entre as fatias."
+      },
+      {
+        "title": "Sem banho demorado",
+        "text": "Molhe e escorra; o pão não deve se desfazer."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Guarde refrigerado",
+        "text": "Coloque em recipiente fechado e refrigere prontamente a 4 °C ou menos. Consuma em até 2 dias; descarte o que permanecer mais de 2 horas fora da geladeira."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça apenas a porção que vai comer, até atingir 74 °C no centro."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T19:26:37Z"
+  },
+  "sources": [
+    {
+      "title": "Receiteria — rabanada na airfryer",
+      "url": "https://www.receiteria.com.br/receita/rabanada-na-airfryer/",
+      "role": "Formulação, dez porções e método a 180 °C por cerca de 12 minutos por leva."
+    },
+    {
+      "title": "Health Canada — conservação de sobras",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de alimentos preparados."
+    }
+  ],
+  "editorialNotes": [
+    "Não usar os25minutos do cabeçalho como tempo de uma leva; método especifica12. Rendimento10porções dafonte, número defatias varia.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}
