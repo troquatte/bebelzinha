@@ -1,0 +1,156 @@
+{
+  "id": "berinjela-na-airfryer",
+  "slug": "berinjela-na-airfryer",
+  "title": "Berinjela na airfryer glaceada com mel e shoyu",
+  "description": "Rodelas grossas de berinjela com mel, shoyu e alho. Um acompanhamento agridoce feito em duas etapas na airfryer.",
+  "intro": "Faça cortes rasos na polpa para receber o molho, mantendo a casca e o formato das rodelas.",
+  "categoryIds": [
+    "acompanhamentos",
+    "airfryer"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/berinjela-airfryer.webp",
+    "alt": "Imagem ilustrativa de rodelas grossas de berinjela com cortes cruzados e glaceado dourado"
+  },
+  "publishedAt": "2026-11-03T00:05:36Z",
+  "updatedAt": "2026-11-03T00:05:36Z",
+  "seo": {
+    "title": "Berinjela na airfryer glaceada com mel e shoyu | Bebel",
+    "description": "Rodelas grossas de berinjela com mel, shoyu e alho. Um acompanhamento agridoce feito em duas etapas na airfryer. Ingredientes, passo a passo e lista de compras."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 2,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 20,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 20 minutos a 180 °C por leva, além do corte e do molho. Confira a maciez da polpa.",
+    "ingredients": [
+      {
+        "id": "berinjela",
+        "name": "Berinjela grande",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "mel",
+        "name": "Mel",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "shoyu",
+        "name": "Shoyu",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "paprica",
+        "name": "Páprica doce",
+        "quantity": 0.5,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "alho",
+        "name": "Alho picado",
+        "quantity": 1,
+        "unit": "dente"
+      },
+      {
+        "id": "limao",
+        "name": "Limão",
+        "quantity": 0.5,
+        "unit": "unidade"
+      }
+    ],
+    "steps": [
+      {
+        "id": "cortar",
+        "text": "Lave, seque e corte a berinjela em rodelas de cerca de 2 cm."
+      },
+      {
+        "id": "marcar",
+        "text": "Faça cortes cruzados rasos na polpa, sem atravessar as rodelas."
+      },
+      {
+        "id": "molho",
+        "text": "Misture mel, shoyu, páprica e alho. Pincele os dois lados das rodelas, reservando molho para a segunda etapa."
+      },
+      {
+        "id": "primeira-etapa",
+        "text": "Acomode no cesto sem sobrepor. Programe a airfryer a 180 °C e asse por 10 minutos."
+      },
+      {
+        "id": "glacear",
+        "text": "Pincele o molho reservado e volte por cerca de 10 minutos a 180 °C, até dourar e ficar macia. Faça em levas se não couber tudo."
+      },
+      {
+        "id": "finalizar",
+        "text": "Retire com pinça e esprema o meio limão sobre as rodelas ainda quentes. Sirva em seguida."
+      }
+    ],
+    "equipment": [
+      "Airfryer",
+      "Tábua e faca",
+      "Pote e colheres medidoras",
+      "Pincel culinário e pinça",
+      "Espremedor de limão"
+    ],
+    "tips": [
+      {
+        "title": "O corte importa",
+        "text": "Rodelas de 2 cm mantêm polpa suficiente para ficar macia; fatias muito finas mudam o resultado."
+      },
+      {
+        "title": "Confira a maciez",
+        "text": "Espete a polpa com um garfo antes de retirar. O glaceado pode dourar antes de o centro ficar macio."
+      },
+      {
+        "title": "Já tem shoyu",
+        "text": "Misture o molho antes de pensar em acrescentar sal. A receita não pede sal extra."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Para guardar",
+        "text": "Leve as sobras prontamente à geladeira, em recipiente limpo e raso. Mantenha a 4 °C ou menos e consuma em 2 a 3 dias. Identifique a data."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça somente a porção que vai consumir até o centro atingir 74 °C. Use recipiente adequado ao aparelho e termômetro culinário; o tempo muda conforme a quantidade."
+      },
+      {
+        "title": "Depois de servir",
+        "text": "Descarte o que ficou mais de 2 horas em temperatura ambiente. Separe a porção que vai guardar antes de levar o restante à mesa."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T00:05:36Z"
+  },
+  "sources": [
+    {
+      "title": "Receitas Nestlé — berinjela glaceada na airfryer",
+      "url": "https://www.receitasnestle.com.br/receitas/receita-berinjela-glaceada-air-fryer",
+      "role": "Ingredientes, rodelas de 2 cm e preparo em duas etapas."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Cuidados gerais de resfriamento, refrigeração e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Fonte completa recuperada pela busca; abertura direta403. Não atribuir teste próprio ou acesso direto. Receita sem empanamento, não fórmula oven/milanesa.",
+    "Volume2400/KD0 refere-se a receitas de berinjela na airfryer (coleção), não termo exato desta ficha. Métricas exatas mantidas null; SERP exata consultada eNestléglaceada organic4 identificada pelo provedor.",
+    "Produção072 é forno220°C40min/cominho, incompatível; não usar vídeo nem thumbnail. Método desta fonte começa180°C10min sem pré-aquecimento obrigatório documentado.",
+    "Notas de auditoria são internas. Não expor avisos de piloto/não testado, não alegar teste próprio. Imagem fotográfica ilustrativa, sem vídeo próprio correspondente no acervo."
+  ]
+}

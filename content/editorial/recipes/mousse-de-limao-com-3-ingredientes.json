@@ -1,0 +1,129 @@
+{
+  "id": "mousse-de-limao-com-3-ingredientes",
+  "slug": "mousse-de-limao-com-3-ingredientes",
+  "title": "Mousse de limão com 3 ingredientes, sem gelatina",
+  "description": "Mousse de limão com 3 ingredientes: leite condensado, creme de leite em lata e suco de limão-taiti. Veja a mistura e o tempo de geladeira.",
+  "intro": "O limão engrossa o creme durante a mistura. A geladeira completa o preparo; esta versão não leva gelatina.",
+  "categoryIds": [
+    "doces"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/mousse-limao.webp",
+    "alt": "Imagem ilustrativa: Mousse clara de limão em tigelas pequenas com poucas raspas verdes e uma colher mostrando a textura"
+  },
+  "publishedAt": "2026-11-03T01:02:56Z",
+  "updatedAt": "2026-11-03T01:02:56Z",
+  "seo": {
+    "title": "Mousse de limão com 3 ingredientes, sem gelatina | Bebel",
+    "description": "Mousse de limão com 3 ingredientes: leite condensado, creme de leite em lata e suco de limão-taiti. Veja a mistura e o tempo de geladeira."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 6,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Até cerca de 10 minutos de preparo, mais no mínimo 2 horas de geladeira, até ganhar consistência.",
+    "ingredients": [
+      {
+        "id": "creme",
+        "name": "Creme de leite em lata",
+        "quantity": 1,
+        "unit": "lata",
+        "note": "Embalagem de 300 g; retire o soro antes de usar."
+      },
+      {
+        "id": "condensado",
+        "name": "Leite condensado",
+        "quantity": 395,
+        "unit": "g"
+      },
+      {
+        "id": "limao",
+        "name": "Suco de limão-taiti",
+        "quantity": 120,
+        "unit": "ml",
+        "note": "Coado. Se desejar, reserve algumas raspas da casca antes de espremer para decorar."
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Separe o creme de leite e retire o soro. Esprema e coe o limão, medindo 120 ml."
+      },
+      {
+        "id": "passo-2",
+        "text": "Bata o creme e o leite condensado no liquidificador por cerca de 2 minutos, até a mistura começar a encorpar."
+      },
+      {
+        "id": "passo-3",
+        "text": "Acrescente o suco aos poucos, batendo até ficar uniforme e cremoso."
+      },
+      {
+        "id": "passo-4",
+        "text": "Divida em seis porções, cubra e leve à geladeira por pelo menos 2 horas, até firmar."
+      },
+      {
+        "id": "passo-5",
+        "text": "Se reservou raspas do limão, distribua um pouco por cima e sirva gelada."
+      }
+    ],
+    "equipment": [
+      "Liquidificador",
+      "Espremedor, peneira e medidor de líquidos",
+      "Tigela e colher",
+      "Seis potinhos ou uma travessa com tampa",
+      "Ralador fino, se usar raspas"
+    ],
+    "tips": [
+      {
+        "title": "Creme da fórmula",
+        "text": "Use creme de leite em lata e retire o soro. Uma caixinha menor muda a proporção."
+      },
+      {
+        "title": "Suco aos poucos",
+        "text": "Meça antes de bater e adicione gradualmente. Não acrescente água ao suco."
+      },
+      {
+        "title": "Três ingredientes",
+        "text": "As raspas opcionais vêm do próprio limão. Não é necessário acrescentar gelatina ou cobertura."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Mantenha em recipiente fechado, a 4 °C ou menos. Consuma em até 2 dias e anote a data."
+      },
+      {
+        "title": "Para servir",
+        "text": "Retire apenas a porção que vai servir, com utensílio limpo. Deixe o restante refrigerado e descarte o que ficou mais de 2 horas fora da geladeira."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T01:02:56Z"
+  },
+  "sources": [
+    {
+      "title": "Receiteria — mousse de limão rápida",
+      "url": "https://www.receiteria.com.br/receita/mousse-de-limao-rapido/",
+      "role": "Três ingredientes, rendimento de seis porções, creme sem soro e geladeira."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "1300évariantecom3ingredientesno relatórioNov2,KD/CPCunknown. Mantida latade300gantesdedrenar,sem inventarpesopósdrenagem. Raspas opcionais do própriolimão,não4ingrediente. Não copiar afirmaçõesnutricionais da fonte.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

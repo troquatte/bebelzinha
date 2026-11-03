@@ -1,0 +1,168 @@
+{
+  "id": "couve-flor-na-airfryer",
+  "slug": "couve-flor-na-airfryer",
+  "title": "Couve-flor na airfryer com mel e páprica",
+  "description": "Couve-flor na airfryer com mel, páprica, coentro e extrato de tomate. Veja o tamanho dos floretes, a marinada e o ponto do acompanhamento.",
+  "intro": "Seque bem a couve-flor depois de lavar. Os floretes vão crus e temperados para a airfryer.",
+  "categoryIds": [
+    "acompanhamentos",
+    "airfryer"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/couve-flor-airfryer.webp",
+    "alt": "Imagem ilustrativa: Floretes de couve-flor dourados com tempero avermelhado de páprica e extrato de tomate"
+  },
+  "publishedAt": "2026-11-03T01:02:56Z",
+  "updatedAt": "2026-11-03T01:02:56Z",
+  "seo": {
+    "title": "Couve-flor na airfryer com mel e páprica | Bebel",
+    "description": "Couve-flor na airfryer com mel, páprica, coentro e extrato de tomate. Veja o tamanho dos floretes, a marinada e o ponto do acompanhamento."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 4,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 25,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 25 minutos a 160 °C por leva, além de lavar, secar, cortar e temperar. Misture na metade do tempo.",
+    "ingredients": [
+      {
+        "id": "couve-flor",
+        "name": "Couve-flor",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "alho",
+        "name": "Alho",
+        "quantity": 1,
+        "unit": "dente"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": 2,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "mel",
+        "name": "Mel",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "extrato",
+        "name": "Extrato de tomate",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 1,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "coentro",
+        "name": "Sementes de coentro",
+        "quantity": 1,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "paprica",
+        "name": "Páprica doce",
+        "quantity": 2,
+        "unit": "colheres (chá)"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Separe floretes de aproximadamente 4 cm, descartando a base grossa. Lave e seque bem, inclusive entre as ramificações."
+      },
+      {
+        "id": "passo-2",
+        "text": "Preaqueça a airfryer a 160 °C conforme o manual."
+      },
+      {
+        "id": "passo-3",
+        "text": "Amasse no pilão o alho, o sal e as sementes de coentro. Misture azeite, mel, extrato, páprica e pimenta."
+      },
+      {
+        "id": "passo-4",
+        "text": "Numa tigela, envolva todos os floretes com a pasta de temperos."
+      },
+      {
+        "id": "passo-5",
+        "text": "Distribua no cesto sem amontoar e asse por cerca de 25 minutos a 160 °C, misturando na metade. Faça em levas se necessário."
+      },
+      {
+        "id": "passo-6",
+        "text": "Confira se os talos estão macios ao espetar e as pontas douradas. Retire com pinça e sirva."
+      }
+    ],
+    "equipment": [
+      "Airfryer",
+      "Tigela, tábua e faca",
+      "Pilão",
+      "Centrífuga de folhas ou pano limpo para secar",
+      "Colheres medidoras e pinça"
+    ],
+    "tips": [
+      {
+        "title": "Floretes parecidos",
+        "text": "Separe pedaços de tamanho semelhante para reduzir a diferença de ponto entre eles."
+      },
+      {
+        "title": "Coentro em semente",
+        "text": "Nesta pasta entram sementes amassadas. Folhas frescas não dão o mesmo tempero."
+      },
+      {
+        "title": "Sem empanamento",
+        "text": "A camada avermelhada vem dos temperos, não de farinha ou queijo."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Guarde prontamente em pote limpo e fechado, a 4 °C ou menos, e consuma em 2 a 3 dias. Descarte o que ficou mais de 2 horas sem refrigeração."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça apenas o que vai consumir até atingir 74 °C no centro, conferindo com termômetro culinário. Use recipiente adequado ao aparelho."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T01:02:56Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — couve-flor com mel e especiarias na airfryer",
+      "url": "https://panelinha.com.br/receita/couve-flor-com-mel-e-especiarias-na-air-fryer",
+      "role": "Formulação, floretes de 4 cm, rendimento e cocção a 160 °C."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Fonte até4porções/160°C25min. Não usar vídeo de couve-flor assada no forno. Diferente de empanada/gratinada/inteira da SERP.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

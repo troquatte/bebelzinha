@@ -1,0 +1,174 @@
+{
+  "id": "bolo-de-fuba-cremoso",
+  "slug": "bolo-de-fuba-cremoso",
+  "title": "Bolo de fubá cremoso com coco e parmesão",
+  "description": "Bolo de fubá com coco e parmesão, assado em tabuleiro e servido gelado. Rende 12 pedaços.",
+  "intro": "A massa líquida é a característica desta versão cremosa. Separe tempo para esfriar e gelar.",
+  "categoryIds": [
+    "doces",
+    "forno"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/bolo-fuba-cremoso.webp",
+    "alt": "Imagem ilustrativa de pedaços de bolo de fubá com camada cremosa e superfície dourada de coco"
+  },
+  "publishedAt": "2026-11-02T23:49:19Z",
+  "updatedAt": "2026-11-02T23:49:19Z",
+  "seo": {
+    "title": "Bolo de fubá cremoso com coco e parmesão | Bebel",
+    "description": "Bolo de fubá com coco e parmesão, assado em tabuleiro e servido gelado. Rende 12 pedaços. Confira ingredientes, preparo, utensílios e lista de compras."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 12,
+      "unit": "pedaço"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 40,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 40 minutos a 180 °C, mais o preparo, o resfriamento e 2 horas na geladeira.",
+    "ingredients": [
+      {
+        "id": "fuba",
+        "name": "Fubá mimoso",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "ovos",
+        "name": "Ovos",
+        "quantity": 3,
+        "unit": "unidades"
+      },
+      {
+        "id": "leite",
+        "name": "Leite",
+        "quantity": 3,
+        "unit": "xícaras (chá)"
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar",
+        "quantity": 2,
+        "unit": "xícaras (chá)"
+      },
+      {
+        "id": "parmesao",
+        "name": "Queijo parmesão ralado fino",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "manteiga",
+        "name": "Manteiga em temperatura ambiente",
+        "quantity": 2,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "farinha",
+        "name": "Farinha de trigo",
+        "quantity": 2,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "coco",
+        "name": "Coco seco ralado",
+        "quantity": 0.75,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "fermento",
+        "name": "Fermento químico em pó",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "manteiga-forma",
+        "name": "Manteiga para untar",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "fuba-forma",
+        "name": "Fubá para polvilhar",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "forma",
+        "text": "Aqueça o forno a 180 °C. Unte uma assadeira de 20 × 30 cm com manteiga e polvilhe fubá; retire o excesso."
+      },
+      {
+        "id": "bater",
+        "text": "Bata ovos, leite, açúcar, parmesão, manteiga, fubá e farinha no liquidificador por cerca de 2 minutos. A mistura fica líquida."
+      },
+      {
+        "id": "incorporar",
+        "text": "Transfira para uma tigela e incorpore coco e fermento com batedor de arame."
+      },
+      {
+        "id": "assar",
+        "text": "Despeje na assadeira. Asse por cerca de 40 minutos: superfície dourada, bordas soltando e centro cremoso. O palito deve sair levemente úmido, sem massa líquida."
+      },
+      {
+        "id": "gelar",
+        "text": "Retire com luvas. Deixe esfriar e leve à geladeira por cerca de 2 horas antes de cortar em 12 pedaços."
+      }
+    ],
+    "equipment": [
+      "Forno",
+      "Assadeira de 20 × 30 cm",
+      "Liquidificador, tigela e batedor de arame",
+      "Xícara e colheres medidoras",
+      "Palito, espátula e luvas térmicas"
+    ],
+    "tips": [
+      {
+        "title": "Massa líquida",
+        "text": "Não acrescente farinha para engrossar: esta versão forma uma parte cremosa."
+      },
+      {
+        "title": "Liquidificador pequeno",
+        "text": "Bata líquidos, açúcar e queijo; misture fubá e farinha na tigela, depois coco e fermento."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Mantenha gelado",
+        "text": "Depois de resfriar, guarde em recipiente fechado a 4 °C ou menos. Consuma em até 2 a 3 dias e identifique a data."
+      },
+      {
+        "title": "Para servir",
+        "text": "Retire apenas os pedaços que vai consumir e sirva frios. Refrigere o restante prontamente; não deixe o bolo esperando por horas na bancada."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental das fontes, medidas e método",
+    "reviewedAt": "2026-11-02T23:49:19Z"
+  },
+  "editorialNotes": [
+    "Fórmula Panelinha20x30cm/12porções/40min/gelar2h escolhida integralmente. Produção251 é bolo fofinho com erva-doce, outra fórmula, não reaproveitar vídeo nem thumbnail.",
+    "Fonte oferece até5dias refrigerado; adotada orientação geral conservadora2–3dias HealthCanada. Não inventado prazo de congelamento ou tempo total.",
+    "Banco OpenSEO BR/pt consultado2026-11-02: termo bolo de fuba cremoso165000/mês KD7, Panelinha#9 e TudoGostoso#1 em2026-09-06. Dado histórico não é ranking atual nem garantia de tráfego.",
+    "Revisão documental interna, não ensaio culinário; não expor comentários de piloto/teste ao leitor. Sem vídeo compatível no acervo consultado. Fotos ilustrativas geradas no padrão aprovado."
+  ],
+  "sources": [
+    {
+      "title": "Panelinha — bolo de fubá cremoso",
+      "url": "https://panelinha.com.br/receita/bolo-fuba-cremoso",
+      "role": "Formulação com coco e parmesão, assadeira, rendimento e ponto cremoso."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Cuidados gerais de resfriamento, refrigeração e reaquecimento."
+    }
+  ]
+}

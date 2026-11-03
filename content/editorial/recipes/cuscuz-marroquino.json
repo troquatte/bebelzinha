@@ -1,0 +1,170 @@
+{
+  "id": "cuscuz-marroquino",
+  "slug": "cuscuz-marroquino",
+  "title": "Cuscuz marroquino com alcaparras e amêndoas",
+  "description": "Cuscuz marroquino com alcaparras, cebola-roxa, amêndoas e limão. Veja a medida de água, a hidratação e como deixar os grãos soltos.",
+  "intro": "Use cuscuz marroquino de sêmola, não flocão de milho. A água quente hidrata os grãos antes de misturar o refogado.",
+  "categoryIds": [
+    "acompanhamentos"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/cuscuz-marroquino.webp",
+    "alt": "Imagem ilustrativa: Cuscuz marroquino soltinho com cebola, alcaparras, lâminas de amêndoa e raspas de limão"
+  },
+  "publishedAt": "2026-11-03T00:33:03Z",
+  "updatedAt": "2026-11-03T00:33:03Z",
+  "seo": {
+    "title": "Cuscuz marroquino com alcaparras e amêndoas | Bebel",
+    "description": "Cuscuz marroquino com alcaparras, cebola-roxa, amêndoas e limão. Veja a medida de água, a hidratação e como deixar os grãos soltos."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 6,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "São 5 minutos de hidratação, cerca de 3 minutos de refogado e o tempo para ferver a água e separar os ingredientes.",
+    "ingredients": [
+      {
+        "id": "cuscuz",
+        "name": "Cuscuz marroquino",
+        "quantity": 2,
+        "unit": "xícaras (chá)"
+      },
+      {
+        "id": "agua",
+        "name": "Água",
+        "quantity": 2,
+        "unit": "xícaras (chá)",
+        "shopping": false
+      },
+      {
+        "id": "cebola",
+        "name": "Cebola-roxa grande",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "alcaparras",
+        "name": "Alcaparras",
+        "quantity": 0.3333333333333333,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "amendoas",
+        "name": "Amêndoas laminadas e torradas",
+        "quantity": 0.5,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": 3,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "limao",
+        "name": "Limão para retirar as raspas",
+        "quantity": 2,
+        "unit": "unidades",
+        "note": "Use apenas a parte colorida da casca."
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto",
+        "note": "A referência usa meia colher (chá) nos grãos e uma pitada na cebola."
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Ferva a água medida. Coloque o cuscuz numa tigela, misture 2 colheres de azeite e meia colher de chá de sal."
+      },
+      {
+        "id": "passo-2",
+        "text": "Despeje a água quente, cubra e deixe hidratar por 5 minutos."
+      },
+      {
+        "id": "passo-3",
+        "text": "Enquanto isso, pique a cebola em cubos pequenos e retire raspas finas dos limões, sem a parte branca."
+      },
+      {
+        "id": "passo-4",
+        "text": "Aqueça a colher restante de azeite numa frigideira. Refogue a cebola com uma pitada de sal por cerca de 2 minutos."
+      },
+      {
+        "id": "passo-5",
+        "text": "Junte alcaparras e amêndoas, mexa por mais 1 minuto e desligue. Acrescente as raspas de limão."
+      },
+      {
+        "id": "passo-6",
+        "text": "Solte o cuscuz com garfo, misture o refogado e finalize com pimenta. Prove antes de ajustar o sal e sirva."
+      }
+    ],
+    "equipment": [
+      "Chaleira ou panela para ferver água",
+      "Tigela com tampa ou prato para cobrir",
+      "Frigideira e colher",
+      "Tábua, faca e ralador fino",
+      "Xícara e colheres medidoras, garfo"
+    ],
+    "tips": [
+      {
+        "title": "Qual cuscuz comprar?",
+        "text": "Procure a sêmola de trigo vendida como cuscuz marroquino. O cuscuz de milho da cuscuzeira tem outro preparo."
+      },
+      {
+        "title": "Solte antes de misturar",
+        "text": "Use o garfo para separar os grãos hidratados. Assim o refogado se distribui com mais facilidade."
+      },
+      {
+        "title": "Amêndoas prontas",
+        "text": "A medida é de lâminas já torradas. Confira se estão sem açúcar para manter o sabor salgado."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Guarde prontamente em pote limpo e fechado, a 4 °C ou menos. Consuma em 2 a 3 dias. Descarte o que ficou mais de 2 horas fora de refrigeração."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça apenas a porção que vai consumir até atingir 74 °C no centro. Confira com termômetro culinário e use recipiente adequado ao aparelho."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T00:33:03Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — cuscuz marroquino com alcaparras",
+      "url": "https://panelinha.com.br/receita/cuscuz-marroquino-alcaparras",
+      "role": "Proporção de água, hidratação, ingredientes, método e até seis porções."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e cuidados com sobras."
+    }
+  ],
+  "editorialNotes": [
+    "2cupsgrão/2água/3azeite/⅓alcaparra/½amêndoa/2limões,até6porções. Short118grãobico/caju éoutropreparo,não linkar. CompetiçãoadsHIGHnão éKDorgânico0.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

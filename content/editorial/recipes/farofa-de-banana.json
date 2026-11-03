@@ -1,0 +1,149 @@
+{
+  "id": "farofa-de-banana",
+  "slug": "farofa-de-banana",
+  "title": "Farofa de banana-prata com farinha de mandioca",
+  "description": "Farofa de banana-prata com cebola-roxa, manteiga e farinha de mandioca torrada. Veja a ordem dos ingredientes para preservar os pedaços da fruta.",
+  "intro": "A banana entra perto do final do refogado. Mexa delicadamente e acrescente a farinha aos poucos para não amassar os pedaços.",
+  "categoryIds": [
+    "acompanhamentos"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/farofa-banana.webp",
+    "alt": "Imagem ilustrativa: Farofa de mandioca com meias-luas de banana-prata e pedacinhos de cebola-roxa, sem bacon"
+  },
+  "publishedAt": "2026-11-03T01:47:38Z",
+  "updatedAt": "2026-11-03T01:47:38Z",
+  "seo": {
+    "title": "Farofa de banana-prata com farinha de mandioca | Bebel",
+    "description": "Farofa de banana-prata com cebola-roxa, manteiga e farinha de mandioca torrada. Veja a ordem dos ingredientes para preservar os pedaços da fruta."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 4,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Após murchar a cebola, conte cerca de 1 minuto para o alho, 1 para a banana e mais 5 para a farinha. Inclua o tempo de cortar e aquecer a panela.",
+    "ingredients": [
+      {
+        "id": "farinha",
+        "name": "Farinha de mandioca torrada",
+        "quantity": 1.5,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "banana",
+        "name": "Banana-prata",
+        "quantity": 2,
+        "unit": "unidades"
+      },
+      {
+        "id": "cebola",
+        "name": "Cebola-roxa",
+        "quantity": 0.5,
+        "unit": "unidade"
+      },
+      {
+        "id": "alho",
+        "name": "Alho",
+        "quantity": 1,
+        "unit": "dente"
+      },
+      {
+        "id": "manteiga",
+        "name": "Manteiga",
+        "quantity": 2,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Descasque as bananas e corte em meias-luas médias. Pique a cebola em cubos pequenos e o alho bem fino."
+      },
+      {
+        "id": "passo-2",
+        "text": "Derreta a manteiga em fogo médio. Junte a cebola com uma pitada de sal e refogue até murchar."
+      },
+      {
+        "id": "passo-3",
+        "text": "Acrescente o alho e mexa por aproximadamente 1 minuto."
+      },
+      {
+        "id": "passo-4",
+        "text": "Junte a banana, ajuste sal e pimenta e envolva por cerca de 1 minuto, sem desmanchar a fruta."
+      },
+      {
+        "id": "passo-5",
+        "text": "Adicione a farinha em etapas e cozinhe por mais 5 minutos, mexendo de vez em quando, até ficar crocante. Acerte o tempero e sirva."
+      }
+    ],
+    "equipment": [
+      "Panela média ou frigideira com bordas",
+      "Tábua e faca",
+      "Espátula e medidores"
+    ],
+    "tips": [
+      {
+        "title": "Banana madura e firme",
+        "text": "Escolha frutas doces que ainda possam ser cortadas em pedaços definidos."
+      },
+      {
+        "title": "Farinha torrada",
+        "text": "A receita usa farinha de mandioca já torrada. O tempo final é para aquecer e combinar com o refogado."
+      },
+      {
+        "title": "Movimentos leves",
+        "text": "Envolva a banana com a espátula, em vez de apertar os pedaços contra a panela."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Até 3 dias na geladeira",
+        "text": "Espere perder o vapor e guarde prontamente em pote fechado, a 4 °C ou menos. Consuma em até 3 dias."
+      },
+      {
+        "title": "Volte à frigideira",
+        "text": "Reaqueça a porção em frigideira, mexendo com cuidado. Para sobras refrigeradas, confira o aquecimento até 74 °C no centro."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T01:47:38Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — farofa de banana",
+      "url": "https://panelinha.com.br/receita/farofa-de-banana",
+      "role": "Banana-prata, farinha de mandioca torrada, até quatro porções e conservação por três dias."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, conservação refrigerada e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "SERPtambémtrazbanana-da-terra/ovos; fórmula aqui éprata semovo/bacon. Short048IDnull,nãoembed. Não converter parafarinha demilho.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

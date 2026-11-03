@@ -1,0 +1,147 @@
+{
+  "id": "crepioca",
+  "slug": "crepioca",
+  "title": "Crepioca simples com parmesão e orégano",
+  "description": "Crepioca individual com ovo, goma de tapioca e parmesão. Veja a mistura da massa, a frigideira antiaderente e o ponto de virar.",
+  "intro": "A receita é da massa salgada com queijo misturado, pronta para comer simples. Use goma de tapioca hidratada, própria para frigideira.",
+  "categoryIds": [
+    "lanches"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/crepioca-parmesao.webp",
+    "alt": "Imagem ilustrativa: Crepioca fina dourada de ovo, tapioca e parmesão dobrada ao meio, sem recheio"
+  },
+  "publishedAt": "2026-11-03T01:24:01Z",
+  "updatedAt": "2026-11-03T01:24:01Z",
+  "seo": {
+    "title": "Crepioca simples com parmesão e orégano | Bebel",
+    "description": "Crepioca individual com ovo, goma de tapioca e parmesão. Veja a mistura da massa, a frigideira antiaderente e o ponto de virar."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 1,
+      "unit": "unidade"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "A referência indica cerca de 15 minutos para o preparo. Na frigideira, espere firmar e dourar dos dois lados, sem deixar o centro líquido.",
+    "ingredients": [
+      {
+        "id": "ovo",
+        "name": "Ovo",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "parmesao",
+        "name": "Queijo parmesão ralado",
+        "quantity": 2,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "tapioca",
+        "name": "Goma de tapioca hidratada",
+        "quantity": 2,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "oregano",
+        "name": "Orégano",
+        "quantity": 1,
+        "unit": "pitada"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Quebre o ovo numa tigela e bata com um garfo até misturar clara e gema."
+      },
+      {
+        "id": "passo-2",
+        "text": "Junte parmesão, goma de tapioca, orégano, pimenta e pouco sal. Misture até não haver grumos de goma."
+      },
+      {
+        "id": "passo-3",
+        "text": "Aqueça uma frigideira antiaderente e distribua a massa numa camada uniforme. Ajuste o fogo para dourar sem queimar."
+      },
+      {
+        "id": "passo-4",
+        "text": "Quando a superfície firmar e a base se soltar com a espátula, vire. Cozinhe o segundo lado até o ovo estar completamente cozido."
+      },
+      {
+        "id": "passo-5",
+        "text": "Transfira para o prato, dobre e sirva. Não é necessário rechear: o queijo já está na massa."
+      }
+    ],
+    "equipment": [
+      "Frigideira antiaderente em boas condições",
+      "Tigela e garfo",
+      "Colher medidora e espátula larga"
+    ],
+    "tips": [
+      {
+        "title": "Goma hidratada",
+        "text": "Não troque a mesma medida por farinha de tapioca granulada, pois são produtos com comportamento diferente."
+      },
+      {
+        "title": "Sal com cuidado",
+        "text": "O parmesão já contribui com sal. Acrescente o tempero aos poucos."
+      },
+      {
+        "title": "Vire com a massa firme",
+        "text": "Solte primeiro as bordas. Se ainda estiver líquida, espere antes de tentar levantar a crepioca."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Sirva assim que ficar pronta",
+        "text": "A crepioca fica mais macia logo após o preparo. Planeje a massa para uma unidade de cada vez."
+      },
+      {
+        "title": "Guarde na geladeira",
+        "text": "Refrigere prontamente em recipiente limpo, a 4 °C ou menos, e consuma em 2 a 3 dias. Para esfriar mais rápido, distribua em recipientes rasos e tampe depois de frio."
+      },
+      {
+        "title": "Reaqueça a porção",
+        "text": "Aqueça apenas o que vai consumir até atingir 74 °C no centro. Use recipiente próprio para o aparelho e descarte sobras que ficaram mais de 2 horas fora da refrigeração."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T01:24:01Z"
+  },
+  "sources": [
+    {
+      "title": "Receiteria — crepioca",
+      "url": "https://www.receiteria.com.br/receita/crepioca/",
+      "role": "Uma unidade com um ovo, duas colheres de tapioca, duas de parmesão, orégano e cocção na frigideira."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, conservação refrigerada e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Fonte sugere recheio livre; ficha escolhe massa simples sem recheio, com título/foto/ingredientes coerentes. Não alegar fit, baixa caloria ou nutrição estimada; não copiar avaliações.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "id": "esfiha-de-frango",
+  "slug": "esfiha-de-frango",
+  "title": "Esfiha de frango fechada com massa caseira",
+  "description": "Esfiha de frango fechada com massa de fermento biológico. Veja a sova, os dois descansos e como rechear com frango já cozido e temperado.",
+  "intro": "Separe o recheio cozido, temperado e frio antes de modelar. A massa precisa crescer duas vezes, por isso planeje o preparo com antecedência.",
+  "categoryIds": [
+    "lanches",
+    "forno"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/esfiha-frango.webp",
+    "alt": "Imagem ilustrativa: Esfihas triangulares fechadas e douradas, uma cortada mostrando frango cozido desfiado sem queijo"
+  },
+  "publishedAt": "2026-11-03T01:47:38Z",
+  "updatedAt": "2026-11-03T01:47:38Z",
+  "seo": {
+    "title": "Esfiha de frango fechada com massa caseira | Bebel",
+    "description": "Esfiha de frango fechada com massa de fermento biológico. Veja a sova, os dois descansos e como rechear com frango já cozido e temperado."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 18,
+      "unit": "unidade"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 20,
+      "totalMinutes": null
+    },
+    "timeNote": "Sova de 10 a 15 minutos, primeiro descanso de cerca de 1 hora, segundo de 30 a 40 minutos e aproximadamente 20 minutos de forno, além da montagem.",
+    "ingredients": [
+      {
+        "id": "farinha",
+        "name": "Farinha de trigo",
+        "quantity": 500,
+        "unit": "g"
+      },
+      {
+        "id": "leite",
+        "name": "Leite",
+        "quantity": 300,
+        "unit": "ml"
+      },
+      {
+        "id": "oleo",
+        "name": "Óleo para a massa",
+        "quantity": 100,
+        "unit": "ml"
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar",
+        "quantity": 30,
+        "unit": "g"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 1,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "fermento",
+        "name": "Fermento biológico seco",
+        "quantity": 10,
+        "unit": "g"
+      },
+      {
+        "id": "frango",
+        "name": "Frango cozido, temperado e desfiado",
+        "quantity": 300,
+        "unit": "g",
+        "note": "Recheio pronto, frio e sem excesso de líquido."
+      },
+      {
+        "id": "gema",
+        "name": "Gema para pincelar",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "untar",
+        "name": "Óleo para untar a assadeira",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Organize os ingredientes e deixe o recheio pronto e frio. Misture leite, fermento, açúcar e óleo numa tigela."
+      },
+      {
+        "id": "passo-2",
+        "text": "Acrescente a farinha aos poucos e o sal por último, unindo até formar uma massa."
+      },
+      {
+        "id": "passo-3",
+        "text": "Sove por cerca de 10 a 15 minutos, até ficar lisa e elástica. Cubra com pano limpo e deixe crescer até dobrar, aproximadamente 1 hora."
+      },
+      {
+        "id": "passo-4",
+        "text": "Divida em 18 porções semelhantes e modele bolinhas. Abra cada uma em disco."
+      },
+      {
+        "id": "passo-5",
+        "text": "Divida o frango entre os discos, mantendo uma borda limpa. Junte três lados para formar triângulos fechados e aperte bem as emendas."
+      },
+      {
+        "id": "passo-6",
+        "text": "Coloque em assadeira untada, deixando espaço. Cubra e deixe descansar novamente por 30 a 40 minutos. Preaqueça o forno a 180 °C durante essa etapa."
+      },
+      {
+        "id": "passo-7",
+        "text": "Pincele a gema e asse por cerca de 20 minutos, até dourar e a massa ficar assada. Sirva com cuidado, pois o recheio sai quente."
+      }
+    ],
+    "equipment": [
+      "Forno e assadeiras",
+      "Tigela grande, bancada limpa e pano",
+      "Balança, medidores e rolo",
+      "Pincel culinário e luvas térmicas"
+    ],
+    "tips": [
+      {
+        "title": "Frango já preparado",
+        "text": "Os 300 g são de recheio pronto. Frango cru não cozinha com segurança dentro da massa seguindo este método."
+      },
+      {
+        "title": "Observe o crescimento",
+        "text": "A temperatura ambiente altera a fermentação. Use o aumento de volume junto do tempo de referência."
+      },
+      {
+        "title": "Feche sem recheio na borda",
+        "text": "Mantenha as extremidades limpas e pressione para que não abram durante o crescimento e o forno."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Distribua em recipientes rasos e refrigere prontamente a 4 °C ou menos. Feche depois de frio e consuma em 2 a 3 dias."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça somente a porção desejada até atingir 74 °C no centro. Descarte o que ficou mais de 2 horas fora da geladeira."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T01:47:38Z"
+  },
+  "sources": [
+    {
+      "title": "Receiteria — esfiha de frango",
+      "url": "https://www.receiteria.com.br/receita/esfiha-de-frango/",
+      "role": "Fórmula em gramas e mililitros, 18 unidades, recheio já cozido, dois descansos e forno a 180 °C."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, conservação refrigerada e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Métrica2900KD0reusadaNov2;CPCunknown. Tempo110da fonte nãofecha10–15sova+60descanso+30–40descanso+20forno: totalnãoinventado. Nãoadicionarcatupiryqueijogergelim sóparafoto. 50gmassaaproximada dafontenãoimposta;divisão18mantémrendimento.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

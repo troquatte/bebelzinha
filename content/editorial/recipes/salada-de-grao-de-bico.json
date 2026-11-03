@@ -1,0 +1,146 @@
+{
+  "id": "salada-de-grao-de-bico",
+  "slug": "salada-de-grao-de-bico",
+  "title": "Salada de grão-de-bico com limão e manjericão",
+  "description": "Salada de grão-de-bico cozido com limão, azeite e manjericão. Uma versão para duas porções, sem precisar cozinhar o grão na hora.",
+  "intro": "Use grão-de-bico já cozido ou em conserva. Grão seco precisa ser hidratado e cozido antes e não entra diretamente nesta salada.",
+  "categoryIds": [
+    "acompanhamentos"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/salada-grao-bico.webp",
+    "alt": "Imagem ilustrativa: Salada de grão-de-bico cozido com folhas de manjericão e molho de limão em prato claro"
+  },
+  "publishedAt": "2026-11-03T00:33:03Z",
+  "updatedAt": "2026-11-03T00:33:03Z",
+  "seo": {
+    "title": "Salada de grão-de-bico com limão e manjericão | Bebel",
+    "description": "Salada de grão-de-bico cozido com limão, azeite e manjericão. Uma versão para duas porções, sem precisar cozinhar o grão na hora."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 2,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Montagem rápida usando grão-de-bico já cozido e frio; o tempo de cozinhar o grão seco não está incluído.",
+    "ingredients": [
+      {
+        "id": "grao",
+        "name": "Grão-de-bico cozido e escorrido",
+        "quantity": 1.5,
+        "unit": "xícara (chá)",
+        "note": "Equivale a uma lata, conforme a referência."
+      },
+      {
+        "id": "limao",
+        "name": "Suco de limão",
+        "quantity": 2,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": 4,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "manjericao",
+        "name": "Manjericão fresco",
+        "quantity": 20,
+        "unit": "folhas"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Escorra o grão-de-bico cozido numa peneira. Se usar conserva, pode enxaguar e escorrer novamente."
+      },
+      {
+        "id": "passo-2",
+        "text": "Higienize as folhas de manjericão conforme as orientações do produto sanitizante e escorra."
+      },
+      {
+        "id": "passo-3",
+        "text": "Misture suco de limão, azeite, sal e pimenta numa tigela."
+      },
+      {
+        "id": "passo-4",
+        "text": "Acrescente o grão-de-bico e metade das folhas, envolvendo delicadamente no molho."
+      },
+      {
+        "id": "passo-5",
+        "text": "Divida em dois pratos e distribua as folhas restantes. Sirva em seguida."
+      }
+    ],
+    "equipment": [
+      "Peneira",
+      "Tigela e colher",
+      "Espremedor de limão",
+      "Xícara e colheres medidoras",
+      "Dois pratos para servir"
+    ],
+    "tips": [
+      {
+        "title": "Cozido e frio",
+        "text": "Se preparou os grãos em casa, resfrie e refrigere prontamente antes da montagem. Não use grão cru."
+      },
+      {
+        "title": "Escorra bem",
+        "text": "Água da conserva em excesso dilui o molho. Deixe a peneira trabalhar enquanto separa os demais ingredientes."
+      },
+      {
+        "title": "Para acompanhar",
+        "text": "Combine com um prato quente ou sirva como entrada. Não há tomate ou cebola nesta formulação."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Guarde refrigerada",
+        "text": "Coloque a salada num pote fechado a 4 °C ou menos e consuma em 2 a 3 dias. Mantenha refrigerada até servir."
+      },
+      {
+        "title": "Folhas na hora",
+        "text": "Se preparar antes, reserve parte do manjericão higienizado separadamente e finalize ao servir."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T00:33:03Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — salada rápida de grão-de-bico",
+      "url": "https://panelinha.com.br/receita/salada-rapida-de-grao-de-bico",
+      "role": "Quantidades, montagem e rendimento de até duas porções."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e cuidados com sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Fonte1,5xícara/2limão/4azeite/20folhas. Títuloespecificacombinaçãosemtomate. Noindexdebuscanãomudar página receitaindexável.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

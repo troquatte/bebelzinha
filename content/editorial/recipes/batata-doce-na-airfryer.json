@@ -1,0 +1,147 @@
+{
+  "id": "batata-doce-na-airfryer",
+  "slug": "batata-doce-na-airfryer",
+  "title": "Batata-doce na airfryer com páprica e chimichurri",
+  "description": "Batata-doce na airfryer com pré-cozimento, páprica e chimichurri. Veja como fatiar e acompanhar o dourado das rodelas sem queimar.",
+  "intro": "A batata passa rapidamente pela panela antes de ser fatiada e dourada na airfryer. O tempo final é por leva.",
+  "categoryIds": [
+    "acompanhamentos",
+    "airfryer"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/batata-doce-airfryer.webp",
+    "alt": "Imagem ilustrativa: Rodelas finas de batata-doce de casca avermelhada, levemente douradas e temperadas com páprica e ervas secas"
+  },
+  "publishedAt": "2026-11-03T01:47:38Z",
+  "updatedAt": "2026-11-03T01:47:38Z",
+  "seo": {
+    "title": "Batata-doce na airfryer com páprica e chimichurri | Bebel",
+    "description": "Batata-doce na airfryer com pré-cozimento, páprica e chimichurri. Veja como fatiar e acompanhar o dourado das rodelas sem queimar."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 2,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 18,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 6 minutos de pré-cozimento em água fervente e 12 minutos a 180 °C na airfryer, além de aquecer, cortar e temperar.",
+    "ingredients": [
+      {
+        "id": "batata",
+        "name": "Batata-doce",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "paprica",
+        "name": "Páprica defumada",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "chimichurri",
+        "name": "Chimichurri seco",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": null,
+        "unit": "a gosto",
+        "note": "Um fio para envolver as rodelas."
+      },
+      {
+        "id": "agua",
+        "name": "Água para o pré-cozimento",
+        "quantity": null,
+        "unit": "a gosto",
+        "shopping": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Lave bem a batata-doce, retirando os resíduos da casca. Separe a panela e a airfryer."
+      },
+      {
+        "id": "passo-2",
+        "text": "Cozinhe em água fervente por aproximadamente 6 minutos, sem deixar desmanchar. Escorra e espere amornar para manusear com segurança."
+      },
+      {
+        "id": "passo-3",
+        "text": "Corte em rodelas finas de espessura parecida. Seque a umidade superficial."
+      },
+      {
+        "id": "passo-4",
+        "text": "Envolva com sal, páprica, chimichurri e um fio de azeite. Acomode uma camada no cesto, sem amontoar."
+      },
+      {
+        "id": "passo-5",
+        "text": "Asse a 180 °C por cerca de 12 minutos ou até dourar. Confira antes do fim se as fatias forem muito finas; faça outras levas se necessário. Sirva logo depois."
+      }
+    ],
+    "equipment": [
+      "Airfryer",
+      "Panela e escorredor",
+      "Tábua, faca e pano limpo",
+      "Tigela e pinça"
+    ],
+    "tips": [
+      {
+        "title": "Espessura parecida",
+        "text": "As rodelas finas douram mais depressa. Evite misturar fatias muito grossas e muito finas numa mesma leva."
+      },
+      {
+        "title": "Observe o aparelho",
+        "text": "O açúcar natural da batata favorece o dourado. Confira antes do tempo se as bordas já estiverem escuras."
+      },
+      {
+        "title": "Sem excesso de tempero",
+        "text": "Distribua o azeite e as especiarias por toda a superfície, sem formar uma camada grossa de pó."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Distribua em recipientes rasos e refrigere prontamente a 4 °C ou menos. Feche depois de frio e consuma em 2 a 3 dias."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça somente a porção desejada até atingir 74 °C no centro. Descarte o que ficou mais de 2 horas fora da geladeira."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T01:47:38Z"
+  },
+  "sources": [
+    {
+      "title": "Receiteria — batata-doce na airfryer",
+      "url": "https://www.receiteria.com.br/receita/batata-doce-na-airfryer/",
+      "role": "Uma batata para duas porções, pré-cozimento de seis minutos e 180 °C por cerca de doze minutos."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, conservação refrigerada e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "URLcanônicarealésemhífenentreair/fryer; outra URLfalhou. Não misturar200°C30min/métodocru. Acervo087éfornotradicional, nãoassociar. Sem alegaçãochips industrialcrocante.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

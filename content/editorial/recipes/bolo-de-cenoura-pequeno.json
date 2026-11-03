@@ -1,0 +1,214 @@
+{
+  "id": "bolo-de-cenoura-pequeno",
+  "slug": "bolo-de-cenoura-pequeno",
+  "title": "Bolo de cenoura pequeno com calda de chocolate",
+  "videoId": null,
+  "categoryIds": [
+    "doces",
+    "lanches",
+    "forno"
+  ],
+  "description": "Bolo de cenoura pequeno para o café, com massa de liquidificador e calda de chocolate. Rende 8 pedaços.",
+  "intro": "Prepare a massa e a cobertura com as quantidades abaixo. A forma pequena faz parte desta receita.",
+  "image": {
+    "src": "images/recipes/bolo-cenoura-pequeno.webp",
+    "alt": "Imagem ilustrativa de bolo de cenoura pequeno com calda de chocolate e uma fatia cortada"
+  },
+  "publishedAt": "2026-11-02T23:38:24Z",
+  "updatedAt": "2026-11-02T23:38:24Z",
+  "seo": {
+    "title": "Bolo de cenoura pequeno com chocolate | Bebel",
+    "description": "Bolo de cenoura pequeno na forma de 15 × 5 cm, com calda de chocolate. Veja ingredientes, modo de preparo e lista de compras para 8 pedaços."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 8,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 40,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 40 minutos no forno a 180 °C, mais o preparo e a cobertura.",
+    "ingredients": [
+      {
+        "id": "cenoura",
+        "name": "Cenoura descascada e picada",
+        "quantity": 1.5,
+        "unit": "unidade",
+        "section": "Massa"
+      },
+      {
+        "id": "trigo",
+        "name": "Farinha de trigo",
+        "quantity": 130,
+        "unit": "g",
+        "section": "Massa"
+      },
+      {
+        "id": "acucar-massa",
+        "name": "Açúcar para a massa",
+        "quantity": 160,
+        "unit": "g",
+        "section": "Massa"
+      },
+      {
+        "id": "fermento",
+        "name": "Fermento químico em pó",
+        "quantity": 0.5,
+        "unit": "colher (sopa)",
+        "section": "Massa"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 1,
+        "unit": "pitada",
+        "section": "Massa"
+      },
+      {
+        "id": "ovos",
+        "name": "Ovos",
+        "quantity": 2,
+        "unit": "unidades",
+        "section": "Massa"
+      },
+      {
+        "id": "oleo",
+        "name": "Óleo vegetal",
+        "quantity": 100,
+        "unit": "ml",
+        "section": "Massa"
+      },
+      {
+        "id": "manteiga-forma",
+        "name": "Manteiga para untar",
+        "quantity": 1,
+        "unit": "colher (chá)",
+        "section": "Massa"
+      },
+      {
+        "id": "leite",
+        "name": "Leite",
+        "quantity": 1,
+        "unit": "xícara (chá)",
+        "section": "Cobertura"
+      },
+      {
+        "id": "chocolate",
+        "name": "Chocolate em pó",
+        "quantity": 4,
+        "unit": "colheres (sopa)",
+        "section": "Cobertura"
+      },
+      {
+        "id": "manteiga-calda",
+        "name": "Manteiga para a calda",
+        "quantity": 2,
+        "unit": "colheres (sopa)",
+        "section": "Cobertura"
+      },
+      {
+        "id": "acucar-calda",
+        "name": "Açúcar para a calda",
+        "quantity": 3,
+        "unit": "colheres (sopa)",
+        "section": "Cobertura"
+      },
+      {
+        "id": "granulado",
+        "name": "Chocolate granulado (opcional)",
+        "quantity": null,
+        "unit": "a gosto",
+        "section": "Cobertura"
+      }
+    ],
+    "steps": [
+      {
+        "id": "forma",
+        "text": "Aqueça o forno a 180 °C. Passe a manteiga de untar no fundo e nas laterais da forma de 15 × 5 cm."
+      },
+      {
+        "id": "creme",
+        "text": "Bata no liquidificador a cenoura, os ovos, o óleo e o açúcar da massa até obter um creme uniforme."
+      },
+      {
+        "id": "misturar",
+        "text": "Peneire farinha e fermento numa tigela. Acrescente o creme e o sal, misturando delicadamente com espátula."
+      },
+      {
+        "id": "assar",
+        "text": "Coloque na forma e asse por cerca de 40 minutos. Confira o centro com palito: deve sair sem massa crua. Retire com luvas e deixe amornar."
+      },
+      {
+        "id": "calda",
+        "text": "Em fogo baixo, derreta a manteiga da calda. Misture leite, açúcar da cobertura e chocolate em pó até engrossar."
+      },
+      {
+        "id": "finalizar",
+        "text": "Desenforme, espalhe a calda e, se quiser, finalize com granulado. Corte em 8 pedaços."
+      }
+    ],
+    "equipment": [
+      "Forno",
+      "Forma pequena de 15 × 5 cm",
+      "Liquidificador",
+      "Tigela, peneira e espátula",
+      "Panela pequena e colher",
+      "Balança e medidores",
+      "Palito e luvas térmicas"
+    ],
+    "tips": [
+      {
+        "title": "A farinha fica na tigela",
+        "text": "Bata os líquidos com a cenoura; incorpore a farinha depois, delicadamente."
+      },
+      {
+        "title": "Calda cremosa",
+        "text": "Mexa em fogo baixo até engrossar. Ela é uma calda, não uma cobertura de casquinha."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Para guardar",
+        "text": "Guarde as fatias com cobertura em recipiente limpo e fechado, na geladeira a 4 °C ou menos. Consuma em 2 a 3 dias e identifique a data."
+      },
+      {
+        "title": "Depois de servir",
+        "text": "Leve o que sobrou à geladeira prontamente, em recipiente raso. Se ainda estiver soltando vapor, deixe a tampa entreaberta até resfriar. Descarte o que ficou mais de 2 horas fora da geladeira."
+      },
+      {
+        "title": "Na hora de comer",
+        "text": "Pode servir frio. Se preferir aquecer, retire somente a fatia que vai consumir e use recipiente próprio para o aparelho."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental de ingredientes, forma, método e fontes",
+    "reviewedAt": "2026-11-02T23:38:24Z"
+  },
+  "editorialNotes": [
+    "Revisão documental, não ensaio culinário; este registro é interno e não integra a página pública.",
+    "Fonte Receitas Globo consultada integralmente em 2026-11-02: 8 pedaços, forma15x5cm,180°C,40min. Mantidas 1,5cenouras em unidades: não inventar peso nem converter uma cenoura de tamanho não especificado em gramas.",
+    "Fonte lista chocolate em pó e o chama de achocolatado no passo. Adotado chocolate em pó da lista e descrição principal; não criada porcentagem de cacau. Manteiga escolhida entre as alternativas da fonte. Granulado permanece opcional.",
+    "A fonte anuncia45min totais sem explicar descanso e finalização; totalMinutes null, cook40 e nota explícita. Não calculado prep5 por subtração.",
+    "Não reaproveitar vídeo213: fórmula360gcenoura/4ovos/forma30x20x5 e cobertura de casquinha é outra versão. Legado bolo-de-cenoura permanece intacto e fora da distribuição.",
+    "SEO: reutilizada pesquisa OpenSEO de2026-11-02 BR2076/pt,4400/mês KD0; não é dado de tráfego próprio ou ranking atual. Concorrente específico Receitas Globo inspecionado; não comprova lacuna fácil.",
+    "Sem cópia da ficha paga; imagem nova de aparência fotográfica, ilustrativa, sem thumbnail de YouTube. Sem vídeo próprio correspondente.",
+    "Conservação: orientação geral HealthCanada para sobras aplicada conservadoramente ao bolo com calda de leite; não inventado prazo de congelamento."
+  ],
+  "sources": [
+    {
+      "title": "Receitas — bolo de cenoura pequeno",
+      "url": "https://receitas.globo.com/tipos-de-prato/bolos/bolo-de-cenoura-pequeno-512ab4b1c5a64561eb000046.ghtml",
+      "role": "Ingredientes, forma pequena, rendimento e preparo da massa e da calda."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Cuidados gerais de refrigeração, resfriamento e armazenamento."
+    }
+  ]
+}

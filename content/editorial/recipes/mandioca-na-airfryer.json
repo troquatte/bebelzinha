@@ -1,0 +1,146 @@
+{
+  "id": "mandioca-na-airfryer",
+  "slug": "mandioca-na-airfryer",
+  "title": "Mandioca na airfryer dourada com manteiga",
+  "description": "Mandioca na airfryer: primeiro cozida, depois dourada com manteiga e azeite. Veja o ponto da panela, a montagem em levas e quando virar.",
+  "intro": "Use mandioca de mesa, também chamada de aipim ou macaxeira. Ela precisa cozinhar em água antes de ir à airfryer.",
+  "categoryIds": [
+    "acompanhamentos",
+    "airfryer"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/mandioca-airfryer.webp",
+    "alt": "Imagem ilustrativa: Bastões de mandioca com interior claro e bordas douradas em prato de cerâmica"
+  },
+  "publishedAt": "2026-11-03T01:02:56Z",
+  "updatedAt": "2026-11-03T01:02:56Z",
+  "seo": {
+    "title": "Mandioca na airfryer dourada com manteiga | Bebel",
+    "description": "Mandioca na airfryer: primeiro cozida, depois dourada com manteiga e azeite. Veja o ponto da panela, a montagem em levas e quando virar."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 4,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 25,
+      "totalMinutes": null
+    },
+    "timeNote": "Após levantar fervura, cozinhe até amaciar; a referência começa em 10 minutos. Deixe amornar por 10 minutos e asse por cerca de 25 minutos por leva.",
+    "ingredients": [
+      {
+        "id": "mandioca",
+        "name": "Mandioca de mesa descascada",
+        "quantity": 500,
+        "unit": "g"
+      },
+      {
+        "id": "manteiga",
+        "name": "Manteiga",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "sal",
+        "name": "Sal para a água do cozimento",
+        "quantity": 1,
+        "unit": "colher (sobremesa)"
+      },
+      {
+        "id": "agua",
+        "name": "Água para cozinhar",
+        "quantity": null,
+        "unit": "a gosto",
+        "note": "Suficiente para cobrir a mandioca na panela.",
+        "shopping": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Corte a mandioca em segmentos de cerca de 8 cm e divida no comprimento em bastões semelhantes."
+      },
+      {
+        "id": "passo-2",
+        "text": "Cubra com água numa panela, junte o sal e leve ao fogo. Depois de ferver, cozinhe até ficar macia, começando a conferir após 10 minutos."
+      },
+      {
+        "id": "passo-3",
+        "text": "Escorra, descarte a água e retire o fio duro central. Deixe amornar por cerca de 10 minutos."
+      },
+      {
+        "id": "passo-4",
+        "text": "Derreta a manteiga num recipiente adequado e misture o azeite. Pincele os bastões, reservando parte para a virada."
+      },
+      {
+        "id": "passo-5",
+        "text": "Disponha uma leva no cesto, sem sobrepor. Programe 200 °C e asse por cerca de 25 minutos."
+      },
+      {
+        "id": "passo-6",
+        "text": "Na metade do tempo, vire e pincele o restante da mistura. Retire quando dourar e confira a maciez. Repita com a outra leva."
+      }
+    ],
+    "equipment": [
+      "Panela e escorredor",
+      "Airfryer",
+      "Tábua, faca e garfo",
+      "Colheres medidoras e recipiente para derreter a manteiga",
+      "Pincel culinário, pinça e luvas térmicas"
+    ],
+    "tips": [
+      {
+        "title": "Começa na panela",
+        "text": "A airfryer doura a mandioca já cozida. Não pule o cozimento em água."
+      },
+      {
+        "title": "O ponto vale mais que o relógio",
+        "text": "Teste com garfo: a mandioca deve estar macia antes de escorrer, mas ainda manter o formato."
+      },
+      {
+        "title": "Divida em levas",
+        "text": "Os bastões precisam de espaço. Dobrar a quantidade não significa dobrar automaticamente o tempo de cada leva."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Guarde prontamente em pote limpo e fechado, a 4 °C ou menos, e consuma em 2 a 3 dias. Descarte o que ficou mais de 2 horas sem refrigeração."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça apenas o que vai consumir até atingir 74 °C no centro, conferindo com termômetro culinário. Use recipiente adequado ao aparelho."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T01:02:56Z"
+  },
+  "sources": [
+    {
+      "title": "Receiteria — mandioca frita na airfryer",
+      "url": "https://www.receiteria.com.br/receita/mandioca-frita-na-air-fryer/",
+      "role": "Ingredientes, rendimento, cozimento prévio, pinceladas e 200 °C por 25 minutos."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Fonte 500 g/4porções;10min como início de conferência, não garantia de maciez.25min por leva, sem copiar total45min que omite levas. Acervo mandioca na manteiga é frigideira, não vídeo correspondente.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

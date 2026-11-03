@@ -1,0 +1,172 @@
+{
+  "id": "bolo-de-milho",
+  "slug": "bolo-de-milho",
+  "title": "Bolo de milho de lata com fubá e coco",
+  "description": "Bolo de milho de lata com fubá, ovos e coco ralado. Use a lata como medida e veja a mistura no liquidificador e o ponto do forno.",
+  "intro": "Nesta formulação, o milho vai com a água da lata. Use a mesma lata vazia para medir óleo, açúcar e fubá.",
+  "categoryIds": [
+    "doces",
+    "lanches",
+    "forno"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/bolo-milho.webp",
+    "alt": "Imagem ilustrativa: Bolo baixo amarelo de milho com miolo úmido, coco discreto e superfície dourada, sem cobertura"
+  },
+  "publishedAt": "2026-11-03T01:47:38Z",
+  "updatedAt": "2026-11-03T01:47:38Z",
+  "seo": {
+    "title": "Bolo de milho de lata com fubá e coco | Bebel",
+    "description": "Bolo de milho de lata com fubá, ovos e coco ralado. Use a lata como medida e veja a mistura no liquidificador e o ponto do forno."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 10,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 40,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 40 minutos de forno a 180 °C, além de medir, bater e esperar amornar. O tempo varia com a forma e o forno.",
+    "ingredients": [
+      {
+        "id": "milho",
+        "name": "Milho-verde em lata com a água",
+        "quantity": 1,
+        "unit": "lata"
+      },
+      {
+        "id": "oleo",
+        "name": "Óleo para a massa",
+        "quantity": 0.5,
+        "unit": "lata",
+        "note": "Use a lata vazia do milho como medida."
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar",
+        "quantity": 1,
+        "unit": "lata",
+        "note": "Use a lata vazia do milho como medida."
+      },
+      {
+        "id": "fuba",
+        "name": "Fubá",
+        "quantity": 0.5,
+        "unit": "lata",
+        "note": "Use a lata vazia do milho como medida."
+      },
+      {
+        "id": "ovos",
+        "name": "Ovos",
+        "quantity": 4,
+        "unit": "unidades"
+      },
+      {
+        "id": "farinha",
+        "name": "Farinha de trigo",
+        "quantity": 2,
+        "unit": "colheres (sopa) bem cheias"
+      },
+      {
+        "id": "coco",
+        "name": "Coco ralado",
+        "quantity": 2,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "fermento",
+        "name": "Fermento químico em pó",
+        "quantity": 1.5,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "untar",
+        "name": "Óleo para untar a forma",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Preaqueça o forno a 180 °C e unte uma forma que comporte a massa com espaço para crescer. Separe uma tigela para apoiar os ingredientes medidos."
+      },
+      {
+        "id": "passo-2",
+        "text": "Retire milho e água da lata, sem descartar o líquido. Use a lata vazia para medir óleo, açúcar e fubá nas quantidades da lista."
+      },
+      {
+        "id": "passo-3",
+        "text": "Bata no liquidificador milho com sua água, óleo, açúcar, fubá, ovos e farinha até uniformizar."
+      },
+      {
+        "id": "passo-4",
+        "text": "Incorpore coco e fermento delicadamente com uma colher, sem bater além do necessário."
+      },
+      {
+        "id": "passo-5",
+        "text": "Despeje na forma e asse por cerca de 40 minutos, até dourar e firmar. O centro deve estar cozido, sem massa líquida."
+      },
+      {
+        "id": "passo-6",
+        "text": "Espere amornar antes de cortar e servir. A textura é úmida e mais densa que a de um bolo fofo de trigo."
+      }
+    ],
+    "equipment": [
+      "Liquidificador e forno",
+      "Forma para bolo, sem encher até a borda",
+      "Lata do milho como medida",
+      "Tigela, colher e medidores",
+      "Luvas térmicas"
+    ],
+    "tips": [
+      {
+        "title": "Não escorra o milho",
+        "text": "Esta receita usa o líquido da lata. Escorrer mudaria a quantidade de água da massa."
+      },
+      {
+        "title": "Uma única medida",
+        "text": "Use a própria lata em todas as quantidades indicadas, sem alternar com xícaras de tamanhos diferentes."
+      },
+      {
+        "title": "Fermento por último",
+        "text": "Misture delicadamente depois de bater a base. Leve a massa ao forno já aquecido."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Guarde depois de esfriar",
+        "text": "Embale em recipiente limpo e fechado, mantenha a 4 °C ou menos e consuma em até 2 dias. Identifique a data do preparo."
+      },
+      {
+        "title": "Sirva em pequenas porções",
+        "text": "Use utensílio limpo e mantenha o restante refrigerado. Descarte o que ficou mais de 2 horas fora da geladeira."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T01:47:38Z"
+  },
+  "sources": [
+    {
+      "title": "Receiteria — bolo de milho cremoso fácil",
+      "url": "https://www.receiteria.com.br/receita/bolo-de-milho-cremoso-facil/",
+      "role": "Milho com água, medidas na lata, dez porções e forno a 180 °C por cerca de quarenta minutos."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, conservação refrigerada e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Volume246000da buscabolo de milhoreusadorelatórioNov2;KD/CPCunknown. FormulaReceiteriadezporções,nenhumleiteadicionado. Fonte nãodádimensãodaforma; nãoinventada. Não ébolofubácremosoexistente nemcuraucolher.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

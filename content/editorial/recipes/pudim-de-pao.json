@@ -1,0 +1,161 @@
+{
+  "id": "pudim-de-pao",
+  "slug": "pudim-de-pao",
+  "title": "Pudim de pão em camadas com açúcar e canela",
+  "description": "Pudim de pão em camadas, sem leite condensado e sem caramelo. Receita de forno com leite, ovos e canela, em refratário quadrado de 20 cm.",
+  "intro": "As fatias finas absorvem o creme antes de assar. É um pudim rústico servido no refratário, sem precisar desenformar.",
+  "categoryIds": [
+    "doces",
+    "forno"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/pudim-pao-canela.webp",
+    "alt": "Imagem ilustrativa: Pudim de pão em refratário quadrado com fatias sobrepostas, creme assado e açúcar com canela"
+  },
+  "publishedAt": "2026-11-03T01:02:56Z",
+  "updatedAt": "2026-11-03T01:02:56Z",
+  "seo": {
+    "title": "Pudim de pão em camadas com açúcar e canela | Bebel",
+    "description": "Pudim de pão em camadas, sem leite condensado e sem caramelo. Receita de forno com leite, ovos e canela, em refratário quadrado de 20 cm."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 8,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 45,
+      "totalMinutes": null
+    },
+    "timeNote": "São 30 minutos de descanso do pão no creme e cerca de 45 minutos a 180 °C, além de montar e deixar esfriar.",
+    "ingredients": [
+      {
+        "id": "leite",
+        "name": "Leite",
+        "quantity": 450,
+        "unit": "ml"
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar para o creme",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "id": "ovos",
+        "name": "Ovos",
+        "quantity": 3,
+        "unit": "unidades"
+      },
+      {
+        "id": "pao",
+        "name": "Pão francês sem casca, cortado em fatias finas",
+        "quantity": 110,
+        "unit": "g",
+        "note": "Pese depois de retirar a casca."
+      },
+      {
+        "id": "acucar-topo",
+        "name": "Açúcar para polvilhar",
+        "quantity": 0.5,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "canela",
+        "name": "Canela em pó",
+        "quantity": 1,
+        "unit": "colher (café)"
+      },
+      {
+        "id": "manteiga",
+        "name": "Manteiga para untar",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Unte um refratário quadrado de 20 cm. Corte o pão sem casca em fatias finas."
+      },
+      {
+        "id": "passo-2",
+        "text": "Bata leite, os 200 g de açúcar e ovos no liquidificador até obter um creme uniforme."
+      },
+      {
+        "id": "passo-3",
+        "text": "Espalhe um quarto do creme no fundo. Alterne camadas de pão e creme, terminando com o restante do líquido sobre as fatias."
+      },
+      {
+        "id": "passo-4",
+        "text": "Deixe descansar por 30 minutos para o pão absorver o creme. Enquanto isso, preaqueça o forno a 180 °C."
+      },
+      {
+        "id": "passo-5",
+        "text": "Misture o açúcar de polvilhar com a canela e distribua na superfície."
+      },
+      {
+        "id": "passo-6",
+        "text": "Asse por cerca de 45 minutos, até o creme firmar e a superfície dourar. Confira se o centro está cozido, sem líquido de ovo."
+      },
+      {
+        "id": "passo-7",
+        "text": "Retire com luvas e deixe esfriar antes de cortar e servir no próprio refratário."
+      }
+    ],
+    "equipment": [
+      "Liquidificador e forno",
+      "Refratário quadrado de 20 cm",
+      "Balança e medidor de líquidos",
+      "Faca de serra e tábua",
+      "Tigela, colheres medidoras e luvas térmicas"
+    ],
+    "tips": [
+      {
+        "title": "Pão amanhecido em bom estado",
+        "text": "Use pão sem mofo. Ressecado pode ser aproveitado; pão mofado deve ser descartado por inteiro."
+      },
+      {
+        "title": "Dê tempo para hidratar",
+        "text": "Os 30 minutos antes do forno ajudam as fatias a receber o creme. Separe esse tempo na organização."
+      },
+      {
+        "title": "Sem banho-maria",
+        "text": "Nesta fórmula o refratário vai direto ao forno. Não misture o método com o pudim de caramelo."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Mantenha em recipiente fechado, a 4 °C ou menos. Consuma em até 2 dias e anote a data."
+      },
+      {
+        "title": "Para servir",
+        "text": "Retire apenas a porção que vai servir, com utensílio limpo. Deixe o restante refrigerado e descarte o que ficou mais de 2 horas fora da geladeira."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T01:02:56Z"
+  },
+  "sources": [
+    {
+      "title": "Receitas Globo — pudim de pão do Mais Você",
+      "url": "https://receitas.globo.com/receitas-da-tv/mais-voce/pudim-de-pao-524038994d38857923000040.ghtml",
+      "role": "Fórmula de oito porções, camadas, refratário de 20 cm, descanso e forno."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "EscolhidaGlobo8porções110gpãosemcasca450leite200açúcar3ovos30mindescanso45min180°C. Não usarPanelinha5pãespassasrendimentoimpreciso. Sem caldadevinho/opcionais dafotooriginal;foto criada semcaramelo. KD23indica desafio maior neste conjunto.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

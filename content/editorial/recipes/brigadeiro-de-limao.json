@@ -1,0 +1,152 @@
+{
+  "id": "brigadeiro-de-limao",
+  "slug": "brigadeiro-de-limao",
+  "title": "Brigadeiro de limão siciliano para enrolar",
+  "description": "Brigadeiro de limão siciliano com chocolate branco, suco e raspas. Veja o ponto de enrolar e o preparo de 25 docinhos.",
+  "intro": "O suco entra depois que a panela sai do fogo. Espere a massa esfriar completamente antes de modelar.",
+  "categoryIds": [
+    "doces"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/brigadeiro-limao.webp",
+    "alt": "Imagem ilustrativa de brigadeiros claros de limão siciliano, com raspas e um cortado ao meio"
+  },
+  "publishedAt": "2026-11-03T00:05:36Z",
+  "updatedAt": "2026-11-03T00:05:36Z",
+  "seo": {
+    "title": "Brigadeiro de limão siciliano para enrolar | Bebel",
+    "description": "Brigadeiro de limão siciliano com chocolate branco, suco e raspas. Veja o ponto de enrolar e o preparo de 25 docinhos. Ingredientes, passo a passo e lista de compras."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 25,
+      "unit": "brigadeiro"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "O tempo de fogo depende do ponto da massa. Reserve também tempo para esfriar completamente antes de enrolar.",
+    "ingredients": [
+      {
+        "id": "leite-condensado",
+        "name": "Leite condensado",
+        "quantity": 395,
+        "unit": "g",
+        "note": "1 lata ou caixinha."
+      },
+      {
+        "id": "chocolate-branco",
+        "name": "Chocolate branco picado",
+        "quantity": 0.5,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "manteiga",
+        "name": "Manteiga sem sal",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "suco",
+        "name": "Suco de limão siciliano",
+        "quantity": 1.5,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "raspas",
+        "name": "Raspas desidratadas de limão siciliano",
+        "quantity": null,
+        "unit": "a gosto",
+        "note": "Para a massa e a finalização."
+      }
+    ],
+    "steps": [
+      {
+        "id": "separar",
+        "text": "Meça os ingredientes e reserve parte das raspas para finalizar. Separe um prato limpo e resistente ao calor."
+      },
+      {
+        "id": "misturar",
+        "text": "Coloque leite condensado, chocolate branco e manteiga numa panela."
+      },
+      {
+        "id": "cozinhar",
+        "text": "Mexa em fogo baixo, raspando fundo e laterais, até o chocolate derreter e a massa engrossar."
+      },
+      {
+        "id": "ponto",
+        "text": "Continue até a massa desgrudar do fundo e acompanhar a espátula ao mexer: esse é o ponto de enrolar."
+      },
+      {
+        "id": "limao",
+        "text": "Retire do fogo. Incorpore o suco de limão siciliano e parte das raspas, misturando até ficar uniforme."
+      },
+      {
+        "id": "esfriar",
+        "text": "Transfira para o prato e deixe esfriar completamente. Se for modelar depois, cubra e mantenha refrigerado."
+      },
+      {
+        "id": "enrolar",
+        "text": "Divida em 25 porções semelhantes, enrole e finalize com as raspas reservadas. Acomode em forminhas ou numa travessa."
+      }
+    ],
+    "equipment": [
+      "Panela de fundo espesso",
+      "Espátula de silicone resistente ao calor",
+      "Xícara e colheres medidoras",
+      "Espremedor de limão",
+      "Prato resistente ao calor e colher para porcionar",
+      "Forminhas ou travessa"
+    ],
+    "tips": [
+      {
+        "title": "Qual limão usar?",
+        "text": "Use limão siciliano nesta formulação; trocar pelo taiti muda a acidez e o sabor."
+      },
+      {
+        "title": "Massa mole para enrolar?",
+        "text": "Confira o ponto na panela e espere esfriar completamente. Massa quente ainda fica macia."
+      },
+      {
+        "title": "O chocolate faz parte da massa",
+        "text": "Escolha chocolate branco para derreter, não granulado ou cobertura já pronta de sobremesa."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Guarde a massa ou os docinhos em recipiente fechado a 4 °C ou menos. Consuma em 2 a 3 dias e anote a data."
+      },
+      {
+        "title": "Para servir",
+        "text": "Retire apenas o que vai consumir. Deixe a porção perder um pouco do frio antes de servir, mantendo o restante refrigerado."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T00:05:36Z"
+  },
+  "sources": [
+    {
+      "title": "Receitas Nestlé — brigadeiro de limão siciliano",
+      "url": "https://www.receitasnestle.com.br/receitas/receita-brigadeiro-limo-siciliano",
+      "role": "Ingredientes, rendimento e incorporação do suco fora do fogo."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Cuidados gerais de resfriamento, refrigeração e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Fonte recuperada por busca com conteúdo completo; abertura direta403, não tratar como inspeção direta. Rendimento25; não assumir15min totais excluindo resfriamento.",
+    "Raspas desidratadas, citadas na lista para finalizar e no método ao incorporar, divididas entre massa/acabamento. Chocolate branco em0,5xícara, sem inventar peso em gramas. Não misturada fórmula com biscoito ou suco em pó.",
+    "SERPbrigadeiro exato: receitasNestlé organic1 eSicao2 reportados; URLs goto limitam associação inequívoca com uma página específica.",
+    "Notas de auditoria são internas. Não expor avisos de piloto/não testado, não alegar teste próprio. Imagem fotográfica ilustrativa, sem vídeo próprio correspondente no acervo."
+  ]
+}

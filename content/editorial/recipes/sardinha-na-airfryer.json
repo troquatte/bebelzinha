@@ -1,0 +1,165 @@
+{
+  "id": "sardinha-na-airfryer",
+  "slug": "sardinha-na-airfryer",
+  "title": "Sardinha na airfryer empanada com fubá",
+  "description": "Sardinha fresca, aberta e sem espinha dorsal, temperada com alho e empanada em fubá. Rende 2 porções.",
+  "intro": "Peça o peixe limpo e aberto na peixaria. A receita usa sardinha fresca, não sardinha em lata.",
+  "categoryIds": [
+    "pratos-do-dia",
+    "airfryer"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/sardinha-airfryer.webp",
+    "alt": "Imagem ilustrativa de sardinhas abertas com uma camada fina e dourada de fubá"
+  },
+  "publishedAt": "2026-11-03T00:05:36Z",
+  "updatedAt": "2026-11-03T00:05:36Z",
+  "seo": {
+    "title": "Sardinha na airfryer empanada com fubá | Bebel",
+    "description": "Sardinha fresca, aberta e sem espinha dorsal, temperada com alho e empanada em fubá. Rende 2 porções. Ingredientes, passo a passo e lista de compras."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 2,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 20,
+      "totalMinutes": null
+    },
+    "timeNote": "São 20 minutos de tempero na geladeira, 5 minutos para preaquecer e cerca de 20 minutos de airfryer por leva, além do preparo.",
+    "ingredients": [
+      {
+        "id": "sardinha",
+        "name": "Sardinhas frescas limpas e sem espinha dorsal",
+        "quantity": 500,
+        "unit": "g"
+      },
+      {
+        "id": "alho",
+        "name": "Alho picado",
+        "quantity": 1,
+        "unit": "dente"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta dedo-de-moça sem sementes e picada",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "fuba",
+        "name": "Fubá",
+        "quantity": 0.5,
+        "unit": "xícara (chá)"
+      }
+    ],
+    "steps": [
+      {
+        "id": "conferir",
+        "text": "Confira se as sardinhas estão limpas, abertas e sem a espinha dorsal; retire espinhas aparentes que tenham ficado. Se estavam congeladas, descongele na geladeira."
+      },
+      {
+        "id": "temperar",
+        "text": "Envolva o peixe com alho, pimenta, sal e azeite. Deixe temperar por 20 minutos na geladeira."
+      },
+      {
+        "id": "preaquecer",
+        "text": "Preaqueça a airfryer por 5 minutos a 180 °C."
+      },
+      {
+        "id": "empanar",
+        "text": "Passe as sardinhas no fubá e retire o excesso. Descarte o fubá que tocou no peixe cru."
+      },
+      {
+        "id": "assar",
+        "text": "Disponha em uma camada e asse por cerca de 20 minutos a 180 °C. Faça em levas se necessário, sem sobrepor."
+      },
+      {
+        "id": "ponto",
+        "text": "Confira a parte mais espessa: o peixe deve atingir 63 °C, ou apresentar carne opaca que se separe facilmente com garfo. Continue se o centro ainda estiver translúcido."
+      },
+      {
+        "id": "servir",
+        "text": "Retire com espátula para não quebrar e sirva em seguida. Ainda pode haver espinhas pequenas; confira ao comer."
+      }
+    ],
+    "equipment": [
+      "Airfryer",
+      "Tigela e prato para empanar",
+      "Tábua e faca",
+      "Colher e xícara medidoras",
+      "Espátula larga e termômetro culinário"
+    ],
+    "tips": [
+      {
+        "title": "Fresca, não enlatada",
+        "text": "Sardinha em lata já é cozida e não segue este método."
+      },
+      {
+        "title": "Empane sem excesso",
+        "text": "Uma película de fubá cobre o peixe; bata delicadamente para soltar o que não aderiu."
+      },
+      {
+        "title": "Espaço entre as peças",
+        "text": "Não empilhe. O tamanho das sardinhas e o aparelho podem alterar o tempo."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Para guardar",
+        "text": "Leve as sobras prontamente à geladeira, em recipiente limpo e raso. Mantenha a 4 °C ou menos e consuma em 2 a 3 dias. Identifique a data."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça somente a porção que vai consumir até o centro atingir 74 °C. Use recipiente adequado ao aparelho e termômetro culinário; o tempo muda conforme a quantidade."
+      },
+      {
+        "title": "Depois de servir",
+        "text": "Descarte o que ficou mais de 2 horas em temperatura ambiente. Separe a porção que vai guardar antes de levar o restante à mesa."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T00:05:36Z"
+  },
+  "sources": [
+    {
+      "title": "TudoGostoso — sardinha crocante na airfryer",
+      "url": "https://www.tudogostoso.com.br/receita/319488-sardinha-crocante-na-air-fryer.html",
+      "role": "Ingredientes, rendimento, descanso, pré-aquecimento e cocção."
+    },
+    {
+      "title": "FoodSafety.gov — temperaturas de cozimento",
+      "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+      "role": "Temperaturas internas de frango, peixe e sobras reaquecidas."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Cuidados gerais de resfriamento, refrigeração e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Fonte500g/2porções/fubá0,5xícara/1colherazeite.20minmarinada+5preheat+20cook, sem adotar total ambíguo25min.",
+    "Segurança FoodSafety63°C ou carne opaca/separandocomgarfo; peixe sem espinha dorsal pode reter pequenas espinhas. FontePanelinhaoven/farofa não adotada por incompatibilidade e alcaparra sem quantidade.",
+    "Acervo112 usa sardinha de lata com macarrão, não equivalente. SERPexata incluiCookpadorganic1 eTVGazetaorganic4; sem afirmarTudoGostoso no topo por esta consulta.",
+    "Notas de auditoria são internas. Não expor avisos de piloto/não testado, não alegar teste próprio. Imagem fotográfica ilustrativa, sem vídeo próprio correspondente no acervo."
+  ]
+}

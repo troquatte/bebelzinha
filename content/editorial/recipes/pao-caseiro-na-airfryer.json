@@ -1,0 +1,196 @@
+{
+  "id": "pao-caseiro-na-airfryer",
+  "slug": "pao-caseiro-na-airfryer",
+  "title": "Pão caseiro na airfryer: pão de leite",
+  "description": "Cinco pãezinhos de leite com fermento biológico, sovados e assados juntos na airfryer. Confira os dois descansos da massa.",
+  "intro": "O ovo serve para pincelar, não vai na massa. Esta receita tem fermentação e não é um pão instantâneo.",
+  "categoryIds": [
+    "lanches",
+    "airfryer"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/pao-caseiro-airfryer.webp",
+    "alt": "Imagem ilustrativa de cinco pãezinhos de leite unidos, com um aberto mostrando o miolo"
+  },
+  "publishedAt": "2026-11-03T00:05:36Z",
+  "updatedAt": "2026-11-03T00:05:36Z",
+  "seo": {
+    "title": "Pão caseiro na airfryer: pão de leite | Bebel",
+    "description": "Cinco pãezinhos de leite com fermento biológico, sovados e assados juntos na airfryer. Confira os dois descansos da massa. Ingredientes, passo a passo e lista de compras."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 5,
+      "unit": "pão"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 20,
+      "totalMinutes": null
+    },
+    "timeNote": "Reserve mais de 2 horas: há cerca de 10 minutos de sova, descansos de 1 hora e 30 minutos, 20 minutos para assar e resfriamento.",
+    "ingredients": [
+      {
+        "id": "farinha",
+        "name": "Farinha de trigo",
+        "quantity": 1.5,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "leite",
+        "name": "Leite em temperatura ambiente",
+        "quantity": 0.5,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar",
+        "quantity": 4,
+        "unit": "colheres (chá)"
+      },
+      {
+        "id": "manteiga",
+        "name": "Manteiga em ponto de pomada",
+        "quantity": 4,
+        "unit": "colheres (chá)"
+      },
+      {
+        "id": "fermento",
+        "name": "Fermento biológico seco instantâneo",
+        "quantity": 0.5,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 0.5,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "ovo",
+        "name": "Ovo para pincelar",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "agua",
+        "name": "Água para misturar ao ovo",
+        "quantity": 1,
+        "unit": "colher (chá)",
+        "shopping": false
+      },
+      {
+        "id": "oleo",
+        "name": "Óleo para untar",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "secos",
+        "text": "Misture farinha, fermento biológico e sal numa tigela. Dissolva o açúcar no leite."
+      },
+      {
+        "id": "incorporar",
+        "text": "Junte o leite aos poucos aos secos, misturando com espátula firme. Acrescente a manteiga e dobre a massa para incorporar."
+      },
+      {
+        "id": "sovar",
+        "text": "Sove por cerca de 10 minutos, até ficar lisa, sem acrescentar farinha além da medida."
+      },
+      {
+        "id": "primeiro-descanso",
+        "text": "Faça uma bola, cubra e deixe crescer em temperatura ambiente por cerca de 1 hora, até dobrar de volume."
+      },
+      {
+        "id": "modelar",
+        "text": "Achate delicadamente e divida em 5 partes. Boleie e apoie numa superfície levemente untada com óleo."
+      },
+      {
+        "id": "segundo-descanso",
+        "text": "Cubra e deixe descansar por mais 30 minutos."
+      },
+      {
+        "id": "preaquecer",
+        "text": "Preaqueça a airfryer a 130 °C conforme o manual. Bata o ovo com a colher de água."
+      },
+      {
+        "id": "dispor",
+        "text": "Pincele óleo no cesto. Acomode um pão no centro e os outros ao redor; pincele a mistura de ovo."
+      },
+      {
+        "id": "assar",
+        "text": "Asse por cerca de 20 minutos a 130 °C, até crescerem, dourarem e estarem assados por dentro. Retire com cuidado."
+      },
+      {
+        "id": "esfriar",
+        "text": "Deixe esfriar sobre uma grade antes de separar e servir."
+      }
+    ],
+    "equipment": [
+      "Airfryer com ajuste a 130 °C",
+      "Tigela grande e espátula firme",
+      "Jarra, xícara e colheres medidoras",
+      "Pano limpo e espátula para dividir a massa",
+      "Tigela pequena, garfo e pincel",
+      "Grade para resfriar e luvas térmicas"
+    ],
+    "tips": [
+      {
+        "title": "Qual fermento?",
+        "text": "Use o biológico seco instantâneo. Fermento químico de bolo não substitui esta fermentação."
+      },
+      {
+        "title": "Não corrija com farinha extra",
+        "text": "Junte o leite aos poucos e sove antes de avaliar a textura; farinha a mais deixa o pão pesado."
+      },
+      {
+        "title": "Confira seu aparelho",
+        "text": "A temperatura desta formulação é 130 °C. Se a airfryer não permite esse ajuste, escolha outra receita compatível."
+      },
+      {
+        "title": "Dois descansos",
+        "text": "O primeiro deixa a massa dobrar; o segundo acontece depois de modelar. A temperatura ambiente altera a velocidade de crescimento."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Depois de esfriar",
+        "text": "Guarde os pães frios em pote hermético por até 5 dias. Se aparecer mofo, descarte o pão inteiro, sem cortar só a parte visível."
+      },
+      {
+        "title": "Pode congelar",
+        "text": "Embale os pães já assados e frios em saco próprio para alimentos e congele por até 3 meses. Identifique a data."
+      },
+      {
+        "title": "Na hora de servir",
+        "text": "Retire apenas o que vai consumir. Descongele protegido e aqueça brevemente no aparelho adequado, conferindo para não ressecar."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T00:05:36Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — pão de leite na airfryer",
+      "url": "https://panelinha.com.br/receita/pao-de-leite-na-airfryer",
+      "role": "Fórmula de cinco pães, fermentações, temperatura e armazenamento."
+    },
+    {
+      "title": "USDA — cuidados com alimentos mofados",
+      "url": "https://ucfoodsafety.ucdavis.edu/sites/g/files/dgvnsk7366/files/inline-files/26438_0.pdf",
+      "role": "Descarte de pães com mofo."
+    }
+  ],
+  "editorialNotes": [
+    "FontePanelinha5pães,130°C20min; aparelho específico exige ajuste baixo, sem transferir160–180por conveniência.",
+    "Ovo inteiro pincelar+1colhercháágua citada no método, água fora das compras. Sova10min e fermentações60+30min; não prometer pão pronto20min. Não usar farinha extra nem afirmar peso exato.",
+    "Pão de queijo tapioca do acervo é outra formulação; não vinculado. SERPexata mistura semsova/leite/rápido: título explicita o recorte leite/fermentobiológico.",
+    "Notas de auditoria são internas. Não expor avisos de piloto/não testado, não alegar teste próprio. Imagem fotográfica ilustrativa, sem vídeo próprio correspondente no acervo."
+  ]
+}

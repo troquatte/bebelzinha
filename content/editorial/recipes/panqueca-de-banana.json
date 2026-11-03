@@ -1,0 +1,141 @@
+{
+  "id": "panqueca-de-banana",
+  "slug": "panqueca-de-banana",
+  "title": "Panqueca de banana com aveia para uma pessoa",
+  "description": "Panqueca de banana com ovo, aveia em flocos finos e canela. Receita individual de frigideira, com indicação do ponto para virar e servir.",
+  "intro": "Uma porção pequena feita com meia banana. A outra metade pode acompanhar depois que a panqueca estiver pronta.",
+  "categoryIds": [
+    "lanches",
+    "doces"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/panqueca-banana-aveia.webp",
+    "alt": "Imagem ilustrativa: Panqueca pequena de banana e aveia dourada numa porção individual em prato claro"
+  },
+  "publishedAt": "2026-11-03T01:02:56Z",
+  "updatedAt": "2026-11-03T01:02:56Z",
+  "seo": {
+    "title": "Panqueca de banana com aveia para uma pessoa | Bebel",
+    "description": "Panqueca de banana com ovo, aveia em flocos finos e canela. Receita individual de frigideira, com indicação do ponto para virar e servir."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 1,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Preparo na frigideira em fogo baixo, até firmar e dourar dos dois lados. O tempo depende da espessura e do calor da frigideira.",
+    "ingredients": [
+      {
+        "id": "ovo",
+        "name": "Ovo",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "aveia",
+        "name": "Aveia em flocos finos",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "banana",
+        "name": "Banana bem madura",
+        "quantity": 0.5,
+        "unit": "unidade",
+        "note": "Amassada para a massa."
+      },
+      {
+        "id": "canela",
+        "name": "Canela em pó",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite para untar",
+        "quantity": null,
+        "unit": "a gosto",
+        "note": "Um fio para a frigideira."
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Amasse a meia banana com um garfo. Junte o ovo, a aveia e a canela e misture até distribuir bem."
+      },
+      {
+        "id": "passo-2",
+        "text": "Unte levemente uma frigideira antiaderente com azeite e aqueça em fogo baixo."
+      },
+      {
+        "id": "passo-3",
+        "text": "Despeje a massa, formando uma panqueca pequena e sem deixá-la muito grossa."
+      },
+      {
+        "id": "passo-4",
+        "text": "Espere a base dourar e a superfície firmar o suficiente para virar inteira. Use uma espátula larga."
+      },
+      {
+        "id": "passo-5",
+        "text": "Doure o segundo lado e confira o centro: o ovo deve estar completamente cozido, sem massa líquida. Sirva em seguida."
+      }
+    ],
+    "equipment": [
+      "Frigideira antiaderente",
+      "Tigela ou prato fundo e garfo",
+      "Colher medidora",
+      "Espátula larga"
+    ],
+    "tips": [
+      {
+        "title": "Banana bem madura",
+        "text": "Amasse até eliminar os pedaços grandes, facilitando a mistura com o ovo."
+      },
+      {
+        "title": "Espere antes de virar",
+        "text": "Se a massa ainda se espalha, dê mais tempo em fogo baixo. Levantar cedo demais pode rasgar a panqueca."
+      },
+      {
+        "title": "O restante da fruta",
+        "text": "Sirva a outra metade da banana à parte, se quiser. Ela não está incluída na quantidade da massa."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Guarde prontamente em pote limpo e fechado, a 4 °C ou menos, e consuma em 2 a 3 dias. Descarte o que ficou mais de 2 horas sem refrigeração."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça apenas o que vai consumir até atingir 74 °C no centro, conferindo com termômetro culinário. Use recipiente adequado ao aparelho."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T01:02:56Z"
+  },
+  "sources": [
+    {
+      "title": "FNDE — caderno de receitas para alimentação escolar",
+      "url": "https://repositorio.fnde.gov.br/jspui/bitstream/prefix/223/1/CADERNO%20RECEITAS.pdf",
+      "role": "Panqueca de banana, porção individual: ovo, meia banana, aveia, canela e frigideira untada."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Fonte institucionalpágina23:1ovo/1colhersopaaveia/0,5banana/rendimentoindividual;semnutrição alegada. Sem trigo noingrediente mas não alegar semglúten. Short215semIDpúblico,formulanãoassumida equivalente.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

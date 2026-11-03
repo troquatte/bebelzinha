@@ -1,0 +1,153 @@
+{
+  "id": "beijinho-de-coco",
+  "slug": "beijinho-de-coco",
+  "title": "Beijinho de coco para enrolar",
+  "description": "Beijinho de coco com leite condensado e coco seco ralado. Confira a divisão do coco entre massa e cobertura e o ponto para enrolar 23 docinhos.",
+  "intro": "Metade do coco cozinha na massa; a outra metade cobre os docinhos. Deixe esfriar antes de enrolar.",
+  "categoryIds": [
+    "doces"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/beijinho-coco.webp",
+    "alt": "Imagem ilustrativa: Beijinhos brancos cobertos de coco ralado e decorados com um cravo em forminhas claras"
+  },
+  "publishedAt": "2026-11-03T01:24:01Z",
+  "updatedAt": "2026-11-03T01:24:01Z",
+  "seo": {
+    "title": "Beijinho de coco para enrolar | Bebel",
+    "description": "Beijinho de coco com leite condensado e coco seco ralado. Confira a divisão do coco entre massa e cobertura e o ponto para enrolar 23 docinhos."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 23,
+      "unit": "unidade"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 20,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 20 minutos no fogo baixo para dar ponto, além de aquecer, esfriar completamente e modelar os docinhos.",
+    "ingredients": [
+      {
+        "id": "condensado",
+        "name": "Leite condensado",
+        "quantity": 395,
+        "unit": "g"
+      },
+      {
+        "id": "coco",
+        "name": "Coco seco ralado",
+        "quantity": 1,
+        "unit": "xícara (chá)",
+        "note": "Cerca de 80 g: metade para a massa e metade para a cobertura."
+      },
+      {
+        "id": "leite",
+        "name": "Leite",
+        "quantity": 80,
+        "unit": "ml",
+        "note": "Equivale a ⅓ de xícara (chá) de 240 ml."
+      },
+      {
+        "id": "manteiga",
+        "name": "Manteiga",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "untar",
+        "name": "Manteiga para untar as mãos",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "cravo",
+        "name": "Cravo-da-índia",
+        "quantity": 23,
+        "unit": "unidades",
+        "note": "Um por docinho; retire antes de comer."
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Junte leite condensado, leite e manteiga numa panela pequena. Mexa em fogo baixo até derreter a manteiga."
+      },
+      {
+        "id": "passo-2",
+        "text": "Adicione meia xícara do coco. Cozinhe, mexendo e raspando fundo e laterais, por cerca de 20 minutos."
+      },
+      {
+        "id": "passo-3",
+        "text": "Quando a massa engrossar e soltar do fundo ao inclinar a panela, transfira para um prato e deixe esfriar completamente."
+      },
+      {
+        "id": "passo-4",
+        "text": "Separe as 23 forminhas nº 5 e coloque o restante do coco num prato. Unte levemente as mãos."
+      },
+      {
+        "id": "passo-5",
+        "text": "Divida a massa em 23 porções semelhantes, enrole e passe cada uma pelo coco. Acomode nas forminhas e decore com um cravo. Retire o cravo ao comer."
+      }
+    ],
+    "equipment": [
+      "Panela pequena e espátula de silicone",
+      "Prato para esfriar e prato para o coco",
+      "23 forminhas de doce nº 5",
+      "Xícaras e colheres medidoras"
+    ],
+    "tips": [
+      {
+        "title": "Reserve a cobertura",
+        "text": "Meça o coco inteiro antes de começar e separe as duas metades."
+      },
+      {
+        "title": "Fogo baixo e movimento",
+        "text": "Raspe as laterais junto com o fundo para evitar que a mistura caramelize em pontos isolados."
+      },
+      {
+        "title": "Massa fria para modelar",
+        "text": "Se o doce ainda estiver quente, espere. O resfriamento ajuda a firmar e evita queimar as mãos."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Depois de esfriar",
+        "text": "Embale em recipiente limpo e fechado e mantenha na geladeira a 4 °C ou menos. Consuma em até 2 dias e identifique a data do preparo."
+      },
+      {
+        "title": "Na hora de servir",
+        "text": "Separe somente a quantidade desejada com utensílio limpo. Mantenha o restante refrigerado e descarte alimentos que ficaram mais de 2 horas fora da geladeira."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T01:24:01Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — beijinho de coco",
+      "url": "https://panelinha.com.br/receita/beijinho-de-coco",
+      "role": "Fórmula com 395 g de leite condensado, coco dividido em duas etapas e rendimento de 23 unidades."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, conservação refrigerada e reaquecimento de sobras."
+    },
+    {
+      "title": "Na Cozinha da Helô — medidas na cozinha",
+      "url": "https://www.nacozinhadahelo.com.br/outros-assuntos/como-medir-ingredientes",
+      "role": "Medidas da autora: xícara padrão de 240 ml e ⅓ de xícara equivalente a 80 ml."
+    }
+  ],
+  "editorialNotes": [
+    "Volume33100 da busca beijinho, não volume de visitas do post. Fórmula23unidades com coco seco; não juntar proporções TG50unidades/coco fresco. Sem alegar testada pela Bebel.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página.",
+    "Leite convertido exatamente de1/3xicara240ml para80ml pela tabela daHelô; nenhum arredondamento da formulação."
+  ]
+}

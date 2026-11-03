@@ -1,0 +1,145 @@
+{
+  "id": "brigadeiro-de-morango",
+  "slug": "brigadeiro-de-morango",
+  "title": "Brigadeiro de morango com pó sabor morango",
+  "description": "Brigadeiro de morango com leite condensado e pó sabor morango: veja o ponto de enrolar, a finalização com açúcar e o rendimento de 40 docinhos.",
+  "intro": "O sabor e a cor vêm do pó sabor morango. Esta versão não leva fruta fresca nem recheio.",
+  "categoryIds": [
+    "doces"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/brigadeiro-morango.webp",
+    "alt": "Imagem ilustrativa: Brigadeiros rosados cobertos com açúcar cristal sobre prato claro; um aberto mostra o interior"
+  },
+  "publishedAt": "2026-11-03T00:33:03Z",
+  "updatedAt": "2026-11-03T00:33:03Z",
+  "seo": {
+    "title": "Brigadeiro de morango com pó sabor morango | Bebel",
+    "description": "Brigadeiro de morango com leite condensado e pó sabor morango: veja o ponto de enrolar, a finalização com açúcar e o rendimento de 40 docinhos."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 40,
+      "unit": "brigadeiro"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 10,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 10 minutos de fogo, além do resfriamento completo e do tempo para enrolar.",
+    "ingredients": [
+      {
+        "id": "leite-condensado",
+        "name": "Leite condensado",
+        "quantity": 395,
+        "unit": "g"
+      },
+      {
+        "id": "manteiga",
+        "name": "Manteiga",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "po-morango",
+        "name": "Pó sabor morango para misturar ao leite",
+        "quantity": 4,
+        "unit": "colheres (sopa)",
+        "note": "Como Nesquik sabor morango; não é gelatina nem suco em pó."
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar cristal",
+        "quantity": 0.5,
+        "unit": "xícara (chá)",
+        "note": "Para envolver os docinhos."
+      },
+      {
+        "id": "untar",
+        "name": "Manteiga para untar",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Misture o leite condensado, a colher de manteiga e o pó sabor morango numa panela."
+      },
+      {
+        "id": "passo-2",
+        "text": "Cozinhe em fogo baixo, mexendo continuamente no fundo e nas laterais."
+      },
+      {
+        "id": "passo-3",
+        "text": "Após cerca de 10 minutos, confira o ponto: a massa deve se soltar do fundo ao passar a espátula."
+      },
+      {
+        "id": "passo-4",
+        "text": "Transfira para um prato untado e espere esfriar completamente."
+      },
+      {
+        "id": "passo-5",
+        "text": "Com as mãos levemente untadas, divida a massa em 40 partes semelhantes e enrole."
+      },
+      {
+        "id": "passo-6",
+        "text": "Passe no açúcar cristal e acomode em forminhas ou travessa."
+      }
+    ],
+    "equipment": [
+      "Panela de fundo espesso",
+      "Espátula resistente ao calor",
+      "Xícara e colheres medidoras",
+      "Prato para esfriar a massa",
+      "Colher para porcionar e forminhas"
+    ],
+    "tips": [
+      {
+        "title": "Qual pó escolher?",
+        "text": "Confira no rótulo se o produto é para preparar bebida sabor morango com leite. Gelatina e refresco têm composições diferentes."
+      },
+      {
+        "title": "Antes de modelar",
+        "text": "A massa quente ainda está macia. Organize o prato e as forminhas enquanto ela esfria."
+      },
+      {
+        "title": "Rendimento",
+        "text": "São aproximadamente 40 docinhos pequenos; bolinhas maiores reduzem a contagem."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Mantenha em recipiente fechado, a 4 °C ou menos, e consuma em até 2 dias. Anote a data de preparo."
+      },
+      {
+        "title": "Para servir",
+        "text": "Use utensílio limpo e retire apenas a quantidade que vai servir. Deixe o restante refrigerado; descarte se ficar mais de 2 horas fora da geladeira."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T00:33:03Z"
+  },
+  "sources": [
+    {
+      "title": "Receitas Nestlé — brigadeiro rosa",
+      "url": "https://www.receitasnestle.com.br/receitas/brigadeiro-rosa",
+      "role": "Fórmula, ponto, cobertura e rendimento."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e cuidados com sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Fonte40unidades,395g/1colhermanteiga/4colherespó/0,5xícaraaçúcar. Untar já previsto no método. Sem alegar fruta fresca.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

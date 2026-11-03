@@ -1,0 +1,157 @@
+{
+  "id": "pao-de-alho-na-airfryer",
+  "slug": "pao-de-alho-na-airfryer",
+  "title": "Pão de alho na airfryer com pão francês",
+  "description": "Pão de alho na airfryer com pão francês, requeijão, maionese e queijo. Aprenda o corte em leque e como dourar a pasta sem queimar o pão.",
+  "intro": "Corte as fatias sem atravessar a base. Assim o pão continua inteiro e recebe a pasta entre as fendas.",
+  "categoryIds": [
+    "lanches",
+    "airfryer"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/pao-alho-airfryer.webp",
+    "alt": "Imagem ilustrativa: Pães franceses cortados em leque com pasta de alho e queijo gratinada nas fendas"
+  },
+  "publishedAt": "2026-11-03T01:02:56Z",
+  "updatedAt": "2026-11-03T01:02:56Z",
+  "seo": {
+    "title": "Pão de alho na airfryer com pão francês | Bebel",
+    "description": "Pão de alho na airfryer com pão francês, requeijão, maionese e queijo. Aprenda o corte em leque e como dourar a pasta sem queimar o pão."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 4,
+      "unit": "pão"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 7,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 5 a 7 minutos a 180 °C por leva, além de misturar a pasta e rechear. Acompanhe o dourado conforme o aparelho.",
+    "ingredients": [
+      {
+        "id": "pao",
+        "name": "Pão francês",
+        "quantity": 4,
+        "unit": "unidades"
+      },
+      {
+        "id": "requeijao",
+        "name": "Requeijão",
+        "quantity": 3,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "maionese",
+        "name": "Maionese",
+        "quantity": 3,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "manteiga",
+        "name": "Manteiga",
+        "quantity": 3,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "alho",
+        "name": "Alho",
+        "quantity": 3,
+        "unit": "dentes"
+      },
+      {
+        "id": "queijo",
+        "name": "Queijo ralado",
+        "quantity": 3,
+        "unit": "colheres",
+        "note": "Para misturar à pasta."
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Descasque e amasse o alho até obter uma pasta. Deixe a manteiga macia para misturar."
+      },
+      {
+        "id": "passo-2",
+        "text": "Junte alho, manteiga, requeijão, maionese e queijo ralado. Misture e ajuste o sal, lembrando que os cremes e o queijo já são salgados."
+      },
+      {
+        "id": "passo-3",
+        "text": "Faça cortes transversais nos pães, mantendo a base unida como um leque."
+      },
+      {
+        "id": "passo-4",
+        "text": "Espalhe a pasta nas fendas e sobre a parte cortada, dividindo entre os quatro pães."
+      },
+      {
+        "id": "passo-5",
+        "text": "Acomode uma leva no cesto, sem comprimir os pães, e asse a 180 °C por aproximadamente 5 a 7 minutos. Confira as orientações do seu aparelho para o início do preparo."
+      },
+      {
+        "id": "passo-6",
+        "text": "Retire quando a pasta estiver quente e a superfície levemente dourada. Sirva em seguida, com cuidado com o recheio quente."
+      }
+    ],
+    "equipment": [
+      "Airfryer",
+      "Tigela, garfo ou espremedor de alho",
+      "Tábua e faca de serra",
+      "Colheres medidoras",
+      "Pinça e luvas térmicas"
+    ],
+    "tips": [
+      {
+        "title": "Base unida",
+        "text": "Apoie o pão na tábua e controle a profundidade dos cortes para não separar as fatias."
+      },
+      {
+        "title": "Olhe antes do fim",
+        "text": "O pão já está assado e pode dourar rapidamente. O objetivo é aquecer a pasta e tostar a superfície."
+      },
+      {
+        "title": "Prepare em levas",
+        "text": "Se os quatro não couberem com folga, asse uma parte e mantenha o restante refrigerado."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Guarde prontamente em pote limpo e fechado, a 4 °C ou menos, e consuma em 2 a 3 dias. Descarte o que ficou mais de 2 horas sem refrigeração."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça apenas o que vai consumir até atingir 74 °C no centro, conferindo com termômetro culinário. Use recipiente adequado ao aparelho."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T01:02:56Z"
+  },
+  "sources": [
+    {
+      "title": "WAP — pão de alho na airfryer",
+      "url": "https://receitas.wap.ind.br/2023/10/25/pao-de-alho/",
+      "role": "Pães franceses, ingredientes da pasta, cortes em leque e 180 °C por 5 a 7 minutos."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Fonte4porções/4pães; rendimento expresso4pães sem converter pessoas. Queijo fonte3colheres sem especificação sopa: preservado literal. Sem trocar por fórmulaNestlé minipães/provolone200gmanteiga.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

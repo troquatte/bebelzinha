@@ -1,0 +1,182 @@
+{
+  "id": "bolo-de-laranja",
+  "slug": "bolo-de-laranja",
+  "title": "Bolo de laranja de liquidificador com glacê",
+  "description": "Bolo de laranja de liquidificador com glacê de laranja. Veja como retirar sementes e miolo branco, preparar a forma de 24 cm e aplicar a cobertura.",
+  "intro": "Uma laranja vai sem casca; a outra pode manter a casca para um sabor mais intenso. Tire sementes e miolo branco das duas.",
+  "categoryIds": [
+    "doces",
+    "forno",
+    "lanches"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/bolo-laranja.webp",
+    "alt": "Imagem ilustrativa: Bolo de laranja com furo central, glacê branco e uma fatia mostrando o miolo amarelo"
+  },
+  "publishedAt": "2026-11-03T01:02:56Z",
+  "updatedAt": "2026-11-03T01:02:56Z",
+  "seo": {
+    "title": "Bolo de laranja de liquidificador com glacê | Bebel",
+    "description": "Bolo de laranja de liquidificador com glacê de laranja. Veja como retirar sementes e miolo branco, preparar a forma de 24 cm e aplicar a cobertura."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 12,
+      "unit": "fatia"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 50,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 50 minutos a 180 °C, mais preparo, 30 minutos antes de desenformar, resfriamento completo e cerca de 20 minutos para o glacê secar.",
+    "ingredients": [
+      {
+        "id": "laranja",
+        "name": "Laranja-pera",
+        "quantity": 2,
+        "unit": "unidades",
+        "note": "Para a massa."
+      },
+      {
+        "id": "ovos",
+        "name": "Ovos",
+        "quantity": 2,
+        "unit": "unidades"
+      },
+      {
+        "id": "oleo",
+        "name": "Óleo",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar",
+        "quantity": 1.5,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "farinha",
+        "name": "Farinha de trigo",
+        "quantity": 2,
+        "unit": "xícaras (chá)"
+      },
+      {
+        "id": "fermento",
+        "name": "Fermento químico em pó",
+        "quantity": 2,
+        "unit": "colheres (chá)"
+      },
+      {
+        "id": "untar",
+        "name": "Manteiga para untar",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "polvilhar",
+        "name": "Farinha de trigo para polvilhar a forma",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "confeiteiro",
+        "name": "Açúcar de confeiteiro",
+        "quantity": 1,
+        "unit": "xícara (chá)",
+        "note": "Para o glacê."
+      },
+      {
+        "id": "suco",
+        "name": "Suco de laranja coado",
+        "quantity": 1.5,
+        "unit": "colher (sopa)",
+        "note": "Para o glacê; adicione aos poucos."
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Preaqueça o forno a 180 °C. Unte e enfarinhe uma forma com furo de 24 cm."
+      },
+      {
+        "id": "passo-2",
+        "text": "Descasque uma laranja, retirando a parte branca. Lave a outra e retire as pontas; mantenha sua casca ou descasque para um sabor menos amargo. Tire sementes e miolo branco das duas e corte em pedaços."
+      },
+      {
+        "id": "passo-3",
+        "text": "Bata as laranjas com ovos, óleo e açúcar no liquidificador até uniformizar."
+      },
+      {
+        "id": "passo-4",
+        "text": "Misture farinha e fermento. Peneire aos poucos sobre os líquidos numa tigela, incorporando delicadamente com batedor de arame."
+      },
+      {
+        "id": "passo-5",
+        "text": "Transfira à forma e asse por cerca de 50 minutos. Teste com palito no centro da massa: deve sair limpo. Espere 30 minutos antes de desenformar e deixe esfriar completamente."
+      },
+      {
+        "id": "passo-6",
+        "text": "Peneire o açúcar de confeiteiro e misture o suco aos poucos até obter pasta grossa. Aqueça em recipiente adequado no micro-ondas por 15 segundos em potência média, mexendo e acrescentando etapas de 5 segundos se necessário para ficar fluido."
+      },
+      {
+        "id": "passo-7",
+        "text": "Espalhe o glacê sobre o bolo frio e espere secar por cerca de 20 minutos antes de cortar."
+      }
+    ],
+    "equipment": [
+      "Liquidificador e forno",
+      "Forma com furo de 24 cm",
+      "Tigelas, peneira e batedor de arame",
+      "Tábua, faca e espremedor",
+      "Medidores, recipiente para micro-ondas e luvas térmicas"
+    ],
+    "tips": [
+      {
+        "title": "Sementes e parte branca",
+        "text": "Separe-as antes de bater. O preparo começa na escolha dos pedaços que entram no liquidificador."
+      },
+      {
+        "title": "Farinha fora do liquidificador",
+        "text": "Misture à mão aos poucos, para controlar a incorporação sem bater a massa além do necessário."
+      },
+      {
+        "title": "Bolo frio para cobrir",
+        "text": "Planeje o resfriamento antes do café. Não aplique o glacê assim que o bolo sair do forno."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Mantenha em recipiente fechado, a 4 °C ou menos. Consuma em até 2 dias e anote a data."
+      },
+      {
+        "title": "Para servir",
+        "text": "Retire apenas a porção que vai servir, com utensílio limpo. Deixe o restante refrigerado e descarte o que ficou mais de 2 horas fora da geladeira."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T01:02:56Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — bolo de laranja",
+      "url": "https://panelinha.com.br/receita/bolo-de-laranja",
+      "role": "Fórmula, forma de 24 cm, rendimento de 12 fatias e glacê."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Volume165000 do termoamplo no relatório competitivoNov2 reutilizado; KD/CPC não recuperados paraessalinha,unknown. Cobertura sem decoração opcionalflores/casca,nenhumnovoingredienteinventado. Acervo246published-reportedmasyoutubeVideoIdnull,nãoembed.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

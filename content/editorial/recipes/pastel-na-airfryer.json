@@ -1,0 +1,149 @@
+{
+  "id": "pastel-na-airfryer",
+  "slug": "pastel-na-airfryer",
+  "title": "Pastel na airfryer com carne e queijo",
+  "description": "Pastel na airfryer com massa pronta, carne moída já cozida e muçarela. Confira a montagem, a vedação das bordas e as viradas de cada leva.",
+  "intro": "O recheio de carne entra pronto, cozido e sem excesso de líquido. A receita rende aproximadamente 18 pastéis.",
+  "categoryIds": [
+    "lanches",
+    "airfryer"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/pastel-airfryer.webp",
+    "alt": "Imagem ilustrativa: Pastéis assados com bordas fechadas com garfo; um aberto mostra carne moída e queijo"
+  },
+  "publishedAt": "2026-11-03T01:02:56Z",
+  "updatedAt": "2026-11-03T01:02:56Z",
+  "seo": {
+    "title": "Pastel na airfryer com carne e queijo | Bebel",
+    "description": "Pastel na airfryer com massa pronta, carne moída já cozida e muçarela. Confira a montagem, a vedação das bordas e as viradas de cada leva."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 18,
+      "unit": "unidade"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 10,
+      "totalMinutes": null
+    },
+    "timeNote": "Preaqueça por 3 a 5 minutos a 180 °C e asse cada leva por cerca de 10 minutos, virando após 5. Some a montagem e o preparo prévio do recheio.",
+    "ingredients": [
+      {
+        "id": "massa",
+        "name": "Massa fresca de pastel pronta",
+        "quantity": 500,
+        "unit": "g"
+      },
+      {
+        "id": "carne",
+        "name": "Carne moída já cozida e temperada",
+        "quantity": 500,
+        "unit": "g",
+        "note": "Pese depois de cozinhar; use um recheio frio e sem caldo."
+      },
+      {
+        "id": "queijo",
+        "name": "Muçarela em fatias",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "id": "oregano",
+        "name": "Orégano",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite para pincelar",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Mantenha a massa coberta conforme a embalagem para não ressecar. Separe o recheio já frio e o queijo."
+      },
+      {
+        "id": "passo-2",
+        "text": "Divida a massa e o recheio para formar aproximadamente 18 pastéis, conforme o formato da massa."
+      },
+      {
+        "id": "passo-3",
+        "text": "Coloque carne, queijo e orégano em uma metade de cada pedaço, deixando as bordas livres."
+      },
+      {
+        "id": "passo-4",
+        "text": "Dobre, pressione a borda com os dedos e aperte com garfo para fechar. Pincele uma camada fina de azeite."
+      },
+      {
+        "id": "passo-5",
+        "text": "Preaqueça a airfryer a 180 °C por 3 a 5 minutos. Acomode uma leva sem sobrepor; a referência usa dois pastéis por vez."
+      },
+      {
+        "id": "passo-6",
+        "text": "Asse por 5 minutos, vire cuidadosamente e deixe mais cerca de 5 minutos, até dourar e aquecer o recheio."
+      },
+      {
+        "id": "passo-7",
+        "text": "Retire com pinça e repita com os demais. Mantenha os pastéis ainda crus refrigerados enquanto aguardam sua vez."
+      }
+    ],
+    "equipment": [
+      "Airfryer",
+      "Bancada ou tábua limpa e faca",
+      "Balança culinária",
+      "Garfo, colher e pincel",
+      "Pinça, prato e luvas térmicas"
+    ],
+    "tips": [
+      {
+        "title": "Carne crua não entra",
+        "text": "A quantidade da lista é de carne pronta. Cozinhe o recheio à parte e resfrie prontamente antes de montar."
+      },
+      {
+        "title": "Não encha até a borda",
+        "text": "Uma margem limpa ajuda a vedar; recheio em excesso pode abrir o pastel."
+      },
+      {
+        "title": "Aparência de assado",
+        "text": "A massa pronta dourada na airfryer tem textura própria. Confira o ponto sem esperar o mesmo resultado da fritura por imersão."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Guarde prontamente em pote limpo e fechado, a 4 °C ou menos, e consuma em 2 a 3 dias. Descarte o que ficou mais de 2 horas sem refrigeração."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça apenas o que vai consumir até atingir 74 °C no centro, conferindo com termômetro culinário. Use recipiente adequado ao aparelho."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T01:02:56Z"
+  },
+  "sources": [
+    {
+      "title": "Receiteria — pastel na airfryer simples",
+      "url": "https://www.receiteria.com.br/receita/pastel-na-air-fryer-simples/",
+      "role": "Quantidades, rendimento de 18 unidades, montagem, temperatura e viradas."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Escolhida ficha quantitativa18unidades/500massa500carnecozida200queijo. Campo total205min e fogo180min conflita com método5+5 por leva; não usar esses totais. Outra ficha sem quantidades foi descartada. Não mistura massa caseira/aveia.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "id": "geleia-de-morango",
+  "slug": "geleia-de-morango",
+  "title": "Geleia de morango caseira com limão",
+  "description": "Geleia de morango com açúcar e limão para guardar na geladeira. Veja a proporção dos ingredientes e o ponto da calda depois de esfriar.",
+  "intro": "São três ingredientes e um rendimento aproximado de 300 g. Prepare uma quantidade pequena para consumir nos próximos dias.",
+  "categoryIds": [
+    "doces",
+    "acompanhamentos"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/geleia-morango.webp",
+    "alt": "Imagem ilustrativa: Geleia vermelha de morango com pedaços macios em pequeno pote de vidro aberto e colher"
+  },
+  "publishedAt": "2026-11-03T01:24:01Z",
+  "updatedAt": "2026-11-03T01:24:01Z",
+  "seo": {
+    "title": "Geleia de morango caseira com limão | Bebel",
+    "description": "Geleia de morango com açúcar e limão para guardar na geladeira. Veja a proporção dos ingredientes e o ponto da calda depois de esfriar."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 1,
+      "unit": "pote"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 30,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 30 minutos de fogo baixo, além de higienizar os morangos e resfriar. O ponto varia conforme a água da fruta.",
+    "ingredients": [
+      {
+        "id": "morango",
+        "name": "Morango",
+        "quantity": 450,
+        "unit": "g"
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "limao",
+        "name": "Limão",
+        "quantity": 0.5,
+        "unit": "unidade",
+        "note": "Use o suco coado."
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Lave e higienize os morangos conforme as orientações do produto próprio para alimentos. Escorra, retire as folhas e descarte frutas deterioradas."
+      },
+      {
+        "id": "passo-2",
+        "text": "Coloque numa panela média com açúcar e o suco coado de meio limão."
+      },
+      {
+        "id": "passo-3",
+        "text": "Cozinhe em fogo baixo por cerca de 30 minutos, mexendo ocasionalmente, até os morangos amolecerem e a calda engrossar."
+      },
+      {
+        "id": "passo-4",
+        "text": "Desligue com a mistura ainda um pouco fluida: ela firma ao esfriar. Se quiser, amasse alguns pedaços com a colher durante o cozimento."
+      },
+      {
+        "id": "passo-5",
+        "text": "Transfira para recipiente limpo e resistente ao calor. Refrigere prontamente quando parar de soltar vapor e feche depois de frio. Mantenha sempre na geladeira."
+      }
+    ],
+    "equipment": [
+      "Panela média e colher ou espátula",
+      "Balança, xícara medidora e espremedor",
+      "Escorredor e recipiente para higienização",
+      "Pote limpo, com tampa e resistente ao calor"
+    ],
+    "tips": [
+      {
+        "title": "Rendimento aproximado",
+        "text": "A redução produz cerca de um pote de 300 g, variando com a fruta e o ponto escolhido."
+      },
+      {
+        "title": "Consistência depois de fria",
+        "text": "Evite cozinhar até ficar muito firme na panela: a geleia ganha corpo com o resfriamento."
+      },
+      {
+        "title": "Para acompanhar",
+        "text": "Sirva uma pequena quantidade com pão ou com a panqueca de banana do catálogo. Use colher limpa a cada vez."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Sempre refrigerada",
+        "text": "Guarde em pote limpo e fechado, a 4 °C ou menos, e consuma em até 2 dias. Esta receita é para consumo próximo."
+      },
+      {
+        "title": "Sirva com colher limpa",
+        "text": "Retire a quantidade desejada e volte o pote para a geladeira. Não guarde em temperatura ambiente nem trate o simples fechamento da tampa como conserva."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T01:24:01Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — geleia de morango",
+      "url": "https://panelinha.com.br/receita/geleia-de-morango",
+      "role": "Proporção de 450 g de fruta, açúcar e limão; redução por cerca de 30 minutos e rendimento de 300 g."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, conservação refrigerada e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Usada somente formulação da geleia, não recomendação da fonte sobre fechamento quente/vácuo/2mesesambiente. Escolhida geleia refrigerada para consumo próximo; sem prazo comercial, sem envasamento para prateleira, sem alegar conserva. Sem vínculo com brigadeiro de morango que usa pó, intenção distinta.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "id": "curau",
+  "slug": "curau",
+  "title": "Curau de milho-verde com leite e canela",
+  "description": "Curau de milho-verde feito com espiga, leite e açúcar, finalizado com canela. Veja como coar, engrossar na panela e gelar as seis porções.",
+  "intro": "O milho batido com leite é coado antes de ir ao fogo. A receita engrossa com o próprio milho, sem amido acrescentado.",
+  "categoryIds": [
+    "doces"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/curau-milho.webp",
+    "alt": "Imagem ilustrativa: Creme amarelo liso de milho-verde em tigelinhas claras com canela polvilhada"
+  },
+  "publishedAt": "2026-11-03T01:47:38Z",
+  "updatedAt": "2026-11-03T01:47:38Z",
+  "seo": {
+    "title": "Curau de milho-verde com leite e canela | Bebel",
+    "description": "Curau de milho-verde feito com espiga, leite e açúcar, finalizado com canela. Veja como coar, engrossar na panela e gelar as seis porções."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 6,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Depois de ferver, cerca de 5 minutos mexendo em fogo baixo. Reserve também o preparo das espigas e pelo menos 1 hora de geladeira.",
+    "ingredients": [
+      {
+        "id": "milho",
+        "name": "Espiga de milho-verde",
+        "quantity": 4,
+        "unit": "unidades",
+        "note": "Cerca de 3 xícaras (chá) de grãos debulhados."
+      },
+      {
+        "id": "leite",
+        "name": "Leite",
+        "quantity": 2,
+        "unit": "xícaras (chá)"
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar",
+        "quantity": 0.75,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "canela",
+        "name": "Canela em pó",
+        "quantity": null,
+        "unit": "a gosto",
+        "note": "Para polvilhar ao servir."
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Retire palhas e cabelos, lave as espigas e debulhe com faca, apoiando firmemente na tábua dentro de uma assadeira."
+      },
+      {
+        "id": "passo-2",
+        "text": "Bata os grãos com o leite no liquidificador até triturar. Passe por uma peneira sobre a panela, pressionando com a colher, e descarte o bagaço."
+      },
+      {
+        "id": "passo-3",
+        "text": "Misture o açúcar e leve ao fogo médio, mexendo com batedor até começar a ferver."
+      },
+      {
+        "id": "passo-4",
+        "text": "Reduza o fogo e continue mexendo por cerca de 5 minutos, até engrossar. Se formar grumos, retire brevemente do fogo e bata vigorosamente para alisar."
+      },
+      {
+        "id": "passo-5",
+        "text": "Distribua em seis tigelas e leve à geladeira por pelo menos 1 hora. Polvilhe canela ao servir."
+      }
+    ],
+    "equipment": [
+      "Liquidificador",
+      "Tábua, faca e assadeira para debulhar",
+      "Peneira e colher",
+      "Panela e batedor de arame",
+      "Medidores e seis tigelinhas"
+    ],
+    "tips": [
+      {
+        "title": "Extraia o líquido",
+        "text": "Pressione o milho batido na peneira para aproveitar o líquido antes de descartar o bagaço."
+      },
+      {
+        "title": "Engrossa depressa",
+        "text": "Mantenha o batedor em movimento depois da fervura, alcançando o fundo da panela."
+      },
+      {
+        "title": "Espiga e lata não são iguais",
+        "text": "A formulação usa milho-verde cru debulhado da espiga. Não substitua diretamente por milho de lata com o mesmo tempo."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Refrigerado até servir",
+        "text": "Guarde as tigelas cobertas depois de frias, a 4 °C ou menos, e consuma em até 2 dias."
+      },
+      {
+        "title": "Porções individuais",
+        "text": "Retire da geladeira apenas as tigelas que vai servir. Polvilhe a canela nesse momento."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T01:47:38Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — curau",
+      "url": "https://panelinha.com.br/receita/curau",
+      "role": "Quatro espigas, seis porções, peneira, cinco minutos após ferver e pelo menos uma hora de geladeira."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, conservação refrigerada e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Nomecurau regionalàsvezescanjica; não criarURLduplicadaporregionalismo. Diferentedacanjicaexistente comgrãosbrancos ebolo demilhoassado. Semamidonãonutriçãosemglútenalegada.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

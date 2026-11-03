@@ -1,0 +1,141 @@
+{
+  "id": "mousse-de-maracuja",
+  "slug": "mousse-de-maracuja",
+  "title": "Mousse de maracujá com suco concentrado",
+  "description": "Mousse de maracujá com suco concentrado, leite condensado, creme de leite e gelatina. Confira a hidratação e o tempo de geladeira para firmar.",
+  "intro": "A receita rende 8 porções e é servida em taças. O suco concentrado entra sem diluir em água.",
+  "categoryIds": [
+    "doces"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/mousse-maracuja.webp",
+    "alt": "Imagem ilustrativa: Mousse de maracujá amarelo-clara em taças de vidro, com uma colher mostrando a textura cremosa"
+  },
+  "publishedAt": "2026-11-03T00:33:03Z",
+  "updatedAt": "2026-11-03T00:33:03Z",
+  "seo": {
+    "title": "Mousse de maracujá com suco concentrado | Bebel",
+    "description": "Mousse de maracujá com suco concentrado, leite condensado, creme de leite e gelatina. Confira a hidratação e o tempo de geladeira para firmar."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 8,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Reserve cerca de 10 minutos para preparar, mais aproximadamente 2 horas de geladeira, até firmar.",
+    "ingredients": [
+      {
+        "id": "gelatina",
+        "name": "Gelatina em pó sem sabor",
+        "quantity": 1,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "agua",
+        "name": "Água fria",
+        "quantity": 3,
+        "unit": "colheres (sopa)",
+        "note": "Para hidratar a gelatina.",
+        "shopping": false
+      },
+      {
+        "id": "condensado",
+        "name": "Leite condensado",
+        "quantity": 395,
+        "unit": "g"
+      },
+      {
+        "id": "creme",
+        "name": "Creme de leite em lata",
+        "quantity": 1,
+        "unit": "lata",
+        "note": "Use a lata indicada na fórmula, não uma caixinha menor."
+      },
+      {
+        "id": "suco",
+        "name": "Suco de maracujá concentrado",
+        "quantity": 1,
+        "unit": "xícara (chá)",
+        "note": "Sem diluir."
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Coloque a água fria num recipiente próprio para micro-ondas e espalhe a gelatina. Deixe hidratar conforme as instruções da embalagem."
+      },
+      {
+        "id": "passo-2",
+        "text": "Aqueça por cerca de 30 segundos no micro-ondas, apenas para dissolver, sem deixar ferver. Confira se não restaram grumos."
+      },
+      {
+        "id": "passo-3",
+        "text": "No liquidificador, bata leite condensado, creme de leite, suco concentrado e a gelatina dissolvida até uniformizar."
+      },
+      {
+        "id": "passo-4",
+        "text": "Divida em 8 taças ou potinhos limpos e cubra."
+      },
+      {
+        "id": "passo-5",
+        "text": "Leve à geladeira por cerca de 2 horas, até ganhar consistência. Sirva gelada."
+      }
+    ],
+    "equipment": [
+      "Liquidificador",
+      "Micro-ondas e recipiente adequado",
+      "Xícara e colheres medidoras",
+      "Oito taças ou potinhos e tampas ou filme"
+    ],
+    "tips": [
+      {
+        "title": "Concentrado, não néctar",
+        "text": "Leia o rótulo: bebida pronta e suco diluído alteram a proporção de líquido da fórmula."
+      },
+      {
+        "title": "Antes de bater",
+        "text": "Organize as taças e libere espaço na geladeira antes de dissolver a gelatina."
+      },
+      {
+        "title": "Não encurte o frio",
+        "text": "A mistura precisa descansar refrigerada. Aparência cremosa ao sair do liquidificador não indica que já firmou."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Mantenha em recipiente fechado, a 4 °C ou menos, e consuma em até 2 dias. Anote a data de preparo."
+      },
+      {
+        "title": "Para servir",
+        "text": "Use utensílio limpo e retire apenas a quantidade que vai servir. Deixe o restante refrigerado; descarte se ficar mais de 2 horas fora da geladeira."
+      },
+      {
+        "title": "Congelamento",
+        "text": "Para esta versão com gelatina, prefira a geladeira. A referência orienta não congelar por perda de estrutura."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T00:33:03Z"
+  },
+  "sources": [
+    {
+      "title": "Receitas Nestlé — mousse de maracujá prático",
+      "url": "https://www.receitasnestle.com.br/receitas/mousse-de-maracuja-pratico",
+      "role": "Ingredientes, gelatina, oito porções, geladeira e conservação."
+    }
+  ],
+  "editorialNotes": [
+    "Escolhida fonteNestlé8porçõesgelatina, não fórmulaReceiteria950gsemgelatina. Água3colheres,gelatinacolherchá,cremelata;semconversãopeso nãofornecido. Hidrataçãoconformeembalagemevitasuposipoder. Fontebusca,direto403.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "id": "bolo-de-chocolate-simples",
+  "slug": "bolo-de-chocolate-simples",
+  "title": "Bolo de chocolate simples de batedeira com cobertura",
+  "description": "Bolo de chocolate de batedeira com manteiga e cobertura de chocolate amargo. Confira a forma de 24 cm, a ordem da mistura e o ponto de forno.",
+  "intro": "Esta versão usa batedeira e chocolate em pó, não achocolatado. Rende um bolo em forma com furo de 24 cm.",
+  "categoryIds": [
+    "doces",
+    "forno"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/bolo-chocolate-simples.webp",
+    "alt": "Imagem ilustrativa: Bolo de chocolate com furo central e cobertura de chocolate escura, com uma fatia retirada"
+  },
+  "publishedAt": "2026-11-03T00:33:03Z",
+  "updatedAt": "2026-11-03T00:33:03Z",
+  "seo": {
+    "title": "Bolo de chocolate simples de batedeira com cobertura | Bebel",
+    "description": "Bolo de chocolate de batedeira com manteiga e cobertura de chocolate amargo. Confira a forma de 24 cm, a ordem da mistura e o ponto de forno."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 1,
+      "unit": "bolo"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 40,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 40 minutos a 180 °C, mais o preparo, ao menos 15 minutos antes de desenformar e o resfriamento completo para cobrir.",
+    "ingredients": [
+      {
+        "id": "farinha",
+        "name": "Farinha de trigo",
+        "quantity": 2,
+        "unit": "xícaras (chá)"
+      },
+      {
+        "id": "chocolate-po",
+        "name": "Chocolate em pó",
+        "quantity": 1,
+        "unit": "xícara (chá)",
+        "note": "Não use achocolatado."
+      },
+      {
+        "id": "fermento",
+        "name": "Fermento químico em pó",
+        "quantity": 2,
+        "unit": "colheres (chá)"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 0.5,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "manteiga",
+        "name": "Manteiga em temperatura ambiente",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar",
+        "quantity": 2,
+        "unit": "xícaras (chá)"
+      },
+      {
+        "id": "ovos",
+        "name": "Ovos",
+        "quantity": 4,
+        "unit": "unidades"
+      },
+      {
+        "id": "leite",
+        "name": "Leite",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "untar",
+        "name": "Manteiga para untar",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "polvilhar",
+        "name": "Chocolate em pó para polvilhar a forma",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "chocolate-amargo",
+        "name": "Chocolate amargo 55% picado",
+        "quantity": 200,
+        "unit": "g",
+        "note": "Para a cobertura."
+      },
+      {
+        "id": "creme",
+        "name": "Creme de leite fresco",
+        "quantity": 100,
+        "unit": "ml",
+        "note": "Para a cobertura."
+      },
+      {
+        "id": "mel",
+        "name": "Mel",
+        "quantity": 1,
+        "unit": "colher (sopa)",
+        "note": "Para a cobertura."
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Preaqueça o forno a 180 °C. Unte a forma com furo de 24 cm com manteiga e polvilhe chocolate em pó."
+      },
+      {
+        "id": "passo-2",
+        "text": "Peneire farinha, chocolate em pó, fermento e sal. Na batedeira, bata a manteiga até ficar fofa."
+      },
+      {
+        "id": "passo-3",
+        "text": "Junte o açúcar e misture. Incorpore os ovos um a um, batendo após cada adição."
+      },
+      {
+        "id": "passo-4",
+        "text": "Em velocidade baixa, alterne os secos peneirados e o leite, batendo apenas até incorporar. Raspe a tigela com espátula."
+      },
+      {
+        "id": "passo-5",
+        "text": "Coloque na forma e asse por cerca de 40 minutos. Confira com palito no centro da massa: ele deve sair limpo."
+      },
+      {
+        "id": "passo-6",
+        "text": "Espere pelo menos 15 minutos antes de desenformar. Deixe o bolo esfriar completamente."
+      },
+      {
+        "id": "passo-7",
+        "text": "Em fogo baixo, mexa o chocolate amargo, o creme fresco e o mel até derreter. Deixe esfriar e encorpar antes de espalhar sobre o bolo frio."
+      }
+    ],
+    "equipment": [
+      "Forno e forma com furo de 24 cm",
+      "Batedeira",
+      "Peneira e espátula",
+      "Balança, xícara e colheres medidoras",
+      "Panela pequena, palito e luvas térmicas",
+      "Prato para desenformar"
+    ],
+    "tips": [
+      {
+        "title": "Manteiga macia",
+        "text": "Separe os 200 g com antecedência. Ela deve estar macia para bater, sem ficar líquida."
+      },
+      {
+        "title": "Cobertura no bolo frio",
+        "text": "Organize o resfriamento antes de servir; cobertura quente sobre massa quente tende a escorrer mais."
+      },
+      {
+        "title": "Forma indicada",
+        "text": "A forma com furo ajuda o calor a chegar ao centro. Outra geometria muda o tempo necessário."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Mantenha em recipiente fechado, a 4 °C ou menos, e consuma em até 2 dias. Anote a data de preparo."
+      },
+      {
+        "title": "Para servir",
+        "text": "Use utensílio limpo e retire apenas a quantidade que vai servir. Deixe o restante refrigerado; descarte se ficar mais de 2 horas fora da geladeira."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T00:33:03Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — bolo clássico de chocolate",
+      "url": "https://panelinha.com.br/receita/bolo-classico-de-chocolate",
+      "role": "Fórmula do bolo e cobertura, forma, temperatura e rendimento de um bolo."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e cuidados com sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Fonte1bolo/24cm/4ovos200gmanteiga/180°C40min. Fórmula completa incluindo cobertura55%/cremefresco/mel. Não atribuir volume específico à versão de batedeira;60500 é termo amplo. Blogfofíssimo sem corpo não usado.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

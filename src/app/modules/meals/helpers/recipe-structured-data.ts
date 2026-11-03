@@ -1,3 +1,4 @@
+import { recipeYieldLabel } from './recipe-yield';
 import seo from '../../../core/seo.config.json';
 import { PublicRecipe } from '../interface/public-recipe.models';
 
@@ -28,7 +29,7 @@ export function recipeStructuredData(recipe: PublicRecipe, servings = recipe.rec
         image: [new URL(recipe.image.src, seo.origin + '/').href],
         author: { '@type': 'Organization', name: 'Bebel', url: seo.origin + '/' },
         datePublished: recipe.publishedAt, dateModified: recipe.updatedAt,
-        recipeYield: `${servings} ${servings === 1 ? 'porção' : 'porções'}`,
+        recipeYield: recipeYieldLabel(servings, recipe.recipe.yield.unit),
         ...(servings === recipe.recipe.yield.servings && recipe.recipe.times.totalMinutes
           ? { totalTime: `PT${recipe.recipe.times.totalMinutes}M` } : {}),
         ...(recipe.recipe.times.prepMinutes ? { prepTime: `PT${recipe.recipe.times.prepMinutes}M` } : {}),

@@ -1,0 +1,134 @@
+{
+  "id": "cebola-caramelizada",
+  "slug": "cebola-caramelizada",
+  "title": "Cebola caramelizada sem açúcar adicionado",
+  "description": "Cebola caramelizada com azeite e água, sem açúcar adicionado. Aprenda a dourar devagar e soltar o fundo da panela para acompanhar sanduíches.",
+  "intro": "O sabor adocicado aparece com a cocção lenta da própria cebola. A água entra em pequenas quantidades para soltar o fundo dourado.",
+  "categoryIds": [
+    "acompanhamentos"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/cebola-caramelizada.webp",
+    "alt": "Imagem ilustrativa: Tiras de cebola caramelizada macias e brilhantes, de cor âmbar a marrom, numa tigela clara"
+  },
+  "publishedAt": "2026-11-03T01:47:38Z",
+  "updatedAt": "2026-11-03T01:47:38Z",
+  "seo": {
+    "title": "Cebola caramelizada sem açúcar adicionado | Bebel",
+    "description": "Cebola caramelizada com azeite e água, sem açúcar adicionado. Aprenda a dourar devagar e soltar o fundo da panela para acompanhar sanduíches."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 6,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 30,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 30 minutos de cocção, ou até ficar bem macia e marrom, além do tempo de fatiar. Não acelere aumentando o fogo.",
+    "ingredients": [
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": 2,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "cebola",
+        "name": "Cebola grande",
+        "quantity": 2,
+        "unit": "unidades",
+        "note": "Corte em meias-luas médias."
+      },
+      {
+        "id": "agua",
+        "name": "Água",
+        "quantity": 1,
+        "unit": "xícara (chá)",
+        "note": "Adicione aos poucos, conforme o fundo dourar.",
+        "shopping": false
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Descasque e corte as cebolas em meias-luas de espessura parecida."
+      },
+      {
+        "id": "passo-2",
+        "text": "Aqueça o azeite em fogo baixo numa panela ou frigideira ampla. Junte a cebola e mexa até começar a dourar e aderir levemente ao fundo."
+      },
+      {
+        "id": "passo-3",
+        "text": "Pingue um pouco da água e raspe o fundo dourado com a espátula para incorporar à cebola."
+      },
+      {
+        "id": "passo-4",
+        "text": "Continue em fogo baixo, mexendo e adicionando água em pequenas quantidades quando precisar, por cerca de 30 minutos."
+      },
+      {
+        "id": "passo-5",
+        "text": "Quando as tiras estiverem macias, adocicadas e marrons, ajuste o sal. Sirva uma pequena porção como acompanhamento."
+      }
+    ],
+    "equipment": [
+      "Panela ou frigideira ampla",
+      "Tábua e faca",
+      "Espátula e xícara medidora"
+    ],
+    "tips": [
+      {
+        "title": "Dourado não é queimado",
+        "text": "Solte o fundo antes que os resíduos fiquem pretos. Se estiver escurecendo rápido demais, reduza o calor."
+      },
+      {
+        "title": "Água em etapas",
+        "text": "Não despeje a xícara inteira de uma vez. A ideia é soltar o fundo e continuar a cocção lentamente."
+      },
+      {
+        "title": "Quantidade reduz ao cozinhar",
+        "text": "As duas cebolas perdem bastante volume. As seis porções são pequenas, para acompanhar outro preparo."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Distribua em recipientes rasos e refrigere prontamente a 4 °C ou menos. Feche depois de frio e consuma em 2 a 3 dias."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça somente a porção desejada até atingir 74 °C no centro. Descarte o que ficou mais de 2 horas fora da geladeira."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T01:47:38Z"
+  },
+  "sources": [
+    {
+      "title": "Receitas Globo / Ana Maria Braga — cebola caramelizada clássica",
+      "url": "https://receitas.globo.com/ana-maria-braga/salgados/cebola-caramelizada-classica.ghtml",
+      "role": "Duas cebolas, azeite, água, seis pequenas porções e cocção lenta sem açúcar adicionado."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, conservação refrigerada e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "SERPtemcompra/receitas; termo rotuladoinformationalna métrica, misturaexplicadanorelatório. FonteNestlé403descartada eReceiteriacomrum/salaltodescartada. Nãoalegarsemcarboidratos/zeroaçúcar; semaçúcaradicionado éverdadeformulação.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

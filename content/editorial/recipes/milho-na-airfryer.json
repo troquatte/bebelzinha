@@ -1,0 +1,150 @@
+{
+  "id": "milho-na-airfryer",
+  "slug": "milho-na-airfryer",
+  "title": "Milho na airfryer com manteiga de alho e salsinha",
+  "description": "Milho em espiga na airfryer com manteiga de alho e salsinha. Veja como embalar cada espiga e assar mantendo os grãos úmidos.",
+  "intro": "Cada espiga é assada numa embalagem individual de papel-alumínio, com uma colher de manteiga temperada. Confira se o manual da sua airfryer permite esse uso.",
+  "categoryIds": [
+    "acompanhamentos",
+    "lanches",
+    "airfryer"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/milho-airfryer.webp",
+    "alt": "Imagem ilustrativa: Três espigas de milho amarelo com manteiga derretida, alho e salsinha num prato claro"
+  },
+  "publishedAt": "2026-11-03T01:24:01Z",
+  "updatedAt": "2026-11-03T01:24:01Z",
+  "seo": {
+    "title": "Milho na airfryer com manteiga de alho e salsinha | Bebel",
+    "description": "Milho em espiga na airfryer com manteiga de alho e salsinha. Veja como embalar cada espiga e assar mantendo os grãos úmidos."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 3,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 30,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 30 minutos a 200 °C por leva, além de limpar as espigas, temperar e preaquecer o aparelho.",
+    "ingredients": [
+      {
+        "id": "milho",
+        "name": "Espiga de milho-verde",
+        "quantity": 3,
+        "unit": "unidades"
+      },
+      {
+        "id": "manteiga",
+        "name": "Manteiga em temperatura ambiente",
+        "quantity": 3,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "salsinha",
+        "name": "Salsinha",
+        "quantity": 3,
+        "unit": "ramos"
+      },
+      {
+        "id": "alho",
+        "name": "Alho pequeno",
+        "quantity": 1,
+        "unit": "dente"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 0.5,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Retire palhas e cabelos das espigas, lave e seque bem. Lave, seque e pique a salsinha; descasque e rale o alho."
+      },
+      {
+        "id": "passo-2",
+        "text": "Misture manteiga, alho, salsinha, sal e pimenta. Separe três pedaços de papel-alumínio maiores que as espigas, conforme as orientações do aparelho."
+      },
+      {
+        "id": "passo-3",
+        "text": "Espalhe uma colher de sopa da manteiga temperada em cada espiga e embrulhe bem, fechando para conter a manteiga."
+      },
+      {
+        "id": "passo-4",
+        "text": "Preaqueça a airfryer a 200 °C. Coloque os pacotes lado a lado no cesto, sem obstruir toda a circulação de ar. Se não couberem, faça em levas."
+      },
+      {
+        "id": "passo-5",
+        "text": "Asse por cerca de 30 minutos, sem precisar virar. Retire com pinça e abra com cuidado por causa do vapor."
+      },
+      {
+        "id": "passo-6",
+        "text": "Confira se os grãos estão macios e sirva com a manteiga que ficou no pacote."
+      }
+    ],
+    "equipment": [
+      "Airfryer cujo manual permita papel-alumínio",
+      "Papel-alumínio para três embalagens individuais",
+      "Tigela pequena, colher e ralador de alho",
+      "Tábua, faca, pinça e luvas térmicas"
+    ],
+    "tips": [
+      {
+        "title": "Espigas próprias para cozinhar",
+        "text": "Use milho-verde fresco, com grãos tenros, e retire todos os cabelos antes de temperar."
+      },
+      {
+        "title": "Pacotes bem fechados",
+        "text": "A manteiga deve ficar com o milho durante a cocção. Mantenha o alumínio preso ao alimento, longe da resistência."
+      },
+      {
+        "title": "Cuidado com o vapor",
+        "text": "Abra os pacotes voltados para longe do rosto e das mãos. A manteiga e o líquido acumulado estarão muito quentes."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Guarde na geladeira",
+        "text": "Refrigere prontamente em recipiente limpo, a 4 °C ou menos, e consuma em 2 a 3 dias. Para esfriar mais rápido, distribua em recipientes rasos e tampe depois de frio."
+      },
+      {
+        "title": "Reaqueça a porção",
+        "text": "Aqueça apenas o que vai consumir até atingir 74 °C no centro. Use recipiente próprio para o aparelho e descarte sobras que ficaram mais de 2 horas fora da refrigeração."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T01:24:01Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — milho-verde com manteiga na air fryer",
+      "url": "https://panelinha.com.br/receita/milho-verde-com-manteiga-na-air-fryer",
+      "role": "Três espigas, manteiga de alho e salsinha, embalagem individual e 200 °C por 30 minutos."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, conservação refrigerada e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Intenção escolhida espiga, distinta de milho crocante em grãos na SERP. Não misturar 200°C12min da formulaçãoPhilips/Claudia. Fonte não usa limão/queijo nesta versão; foto não inclui. Instrução de aparelho condiciona uso do alumínio.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

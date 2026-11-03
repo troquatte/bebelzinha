@@ -1,0 +1,201 @@
+{
+  "id": "quiche-de-queijo",
+  "slug": "quiche-de-queijo",
+  "title": "Quiche de queijo emmental e parmesão",
+  "description": "Quiche de queijo com massa caseira, emmental, parmesão e creme de leite fresco. Veja o descanso da massa e a montagem na forma de 20 cm.",
+  "intro": "O rendimento é uma quiche de 20 cm. Corte as fatias conforme for servir, como lanche ou junto de uma salada.",
+  "categoryIds": [
+    "pratos-do-dia",
+    "lanches",
+    "forno"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/quiche-queijo.webp",
+    "alt": "Imagem ilustrativa: Quiche redonda de queijo com borda de massa e recheio cremoso dourado, com uma fatia retirada"
+  },
+  "publishedAt": "2026-11-03T01:47:38Z",
+  "updatedAt": "2026-11-03T01:47:38Z",
+  "seo": {
+    "title": "Quiche de queijo emmental e parmesão | Bebel",
+    "description": "Quiche de queijo com massa caseira, emmental, parmesão e creme de leite fresco. Veja o descanso da massa e a montagem na forma de 20 cm."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 1,
+      "unit": "quiche"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 30,
+      "totalMinutes": null
+    },
+    "timeNote": "10 minutos de geladeira para a massa e cerca de 30 minutos de forno a 180 °C, além da mistura, abertura e montagem.",
+    "ingredients": [
+      {
+        "id": "farinha",
+        "name": "Farinha de trigo para a massa",
+        "quantity": 250,
+        "unit": "g"
+      },
+      {
+        "id": "manteiga",
+        "name": "Manteiga gelada para a massa",
+        "quantity": 125,
+        "unit": "g"
+      },
+      {
+        "id": "ovo-massa",
+        "name": "Ovo para a massa",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "agua",
+        "name": "Água para a massa",
+        "quantity": 1,
+        "unit": "colher (chá)",
+        "shopping": false
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "untar",
+        "name": "Manteiga para untar",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "enfarinhar",
+        "name": "Farinha de trigo para enfarinhar",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "leite",
+        "name": "Leite",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "emmental",
+        "name": "Queijo emmental ralado grosso",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "creme",
+        "name": "Creme de leite fresco",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "ovos-recheio",
+        "name": "Ovos para o recheio",
+        "quantity": 4,
+        "unit": "unidades"
+      },
+      {
+        "id": "parmesao",
+        "name": "Queijo parmesão ralado grosso",
+        "quantity": 80,
+        "unit": "g"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Unte e enfarinhe uma forma redonda de 20 cm própria para quiche. Corte a manteiga gelada em cubos."
+      },
+      {
+        "id": "passo-2",
+        "text": "Misture os 250 g de farinha, a manteiga, o ovo da massa, a água e sal até unir. Faça uma bola, embrulhe e leve à geladeira por 10 minutos."
+      },
+      {
+        "id": "passo-3",
+        "text": "Abra com rolo em bancada enfarinhada. Forre fundo e laterais da forma e retire o excesso de massa das bordas."
+      },
+      {
+        "id": "passo-4",
+        "text": "Preaqueça o forno a 180 °C. Distribua o emmental sobre a massa."
+      },
+      {
+        "id": "passo-5",
+        "text": "Misture os quatro ovos do recheio com leite e creme de leite fresco. Tempere com pouco sal e pimenta."
+      },
+      {
+        "id": "passo-6",
+        "text": "Despeje sobre o queijo e finalize com o parmesão. Leve ao forno por cerca de 30 minutos, até dourar e o recheio ficar firme, sem líquido no centro."
+      },
+      {
+        "id": "passo-7",
+        "text": "Retire com luvas e aguarde o recheio se acomodar antes de cortar. Sirva quente ou em temperatura ambiente, sem deixar por longos períodos fora da geladeira."
+      }
+    ],
+    "equipment": [
+      "Forno e forma redonda de 20 cm para quiche",
+      "Rolo, tigelas e batedor de arame",
+      "Filme para o descanso da massa",
+      "Balança, medidores, ralador e luvas térmicas"
+    ],
+    "tips": [
+      {
+        "title": "Manteiga gelada",
+        "text": "Trabalhe a massa apenas até unir os ingredientes e preserve o descanso de geladeira."
+      },
+      {
+        "title": "Ovo de cada etapa",
+        "text": "Separe um ovo para a massa e quatro para o recheio, evitando usar a quantidade errada na mistura."
+      },
+      {
+        "title": "Creme fresco",
+        "text": "A formulação usa creme de leite fresco, não o creme de caixinha nem chantilly adoçado."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Distribua em recipientes rasos e refrigere prontamente a 4 °C ou menos. Feche depois de frio e consuma em 2 a 3 dias."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça somente a porção desejada até atingir 74 °C no centro. Descarte o que ficou mais de 2 horas fora da geladeira."
+      },
+      {
+        "title": "Para congelar",
+        "text": "Depois de assada e fria, embale bem e congele por até 3 meses. Retire todo o filme e aqueça ainda congelada no forno a 180 °C, até o centro aquecer por completo; confira 74 °C no recheio."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T01:47:38Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — quiche de queijo",
+      "url": "https://panelinha.com.br/receita/quiche-de-queijo",
+      "role": "Massa, forma de 20 cm, recheio de emmental e parmesão, 180 °C por cerca de 30 minutos e congelamento por três meses."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, conservação refrigerada e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Fonte dizmaisde6porções semnúmeroexato; rendimento1quiche20cm preservaprodutofinal,nãoinventa8fatias. Nãofazpré-assamentoquenãoexistentenafonte. Sal/pimentaaparecemnopreparoeramomitidos dalistadorecheio:incluídos.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

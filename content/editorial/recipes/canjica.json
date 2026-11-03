@@ -1,0 +1,184 @@
+{
+  "id": "canjica",
+  "slug": "canjica",
+  "title": "Canjica com leite de coco, laranja e mel",
+  "description": "Canjica com leite de coco, canela, cravo e raspas de laranja. Veja o demolho, o cozimento na pressão e o ponto do caldo para servir quente ou fria.",
+  "intro": "Planeje o demolho de 12 horas. O milho cozinha primeiro em água; os leites e o açúcar entram depois que a pressão sai.",
+  "categoryIds": [
+    "doces"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/canjica-laranja.webp",
+    "alt": "Imagem ilustrativa: Canjica branca cremosa com raspas de laranja, mel e amendoim picado em tigela clara"
+  },
+  "publishedAt": "2026-11-03T01:24:01Z",
+  "updatedAt": "2026-11-03T01:24:01Z",
+  "seo": {
+    "title": "Canjica com leite de coco, laranja e mel | Bebel",
+    "description": "Canjica com leite de coco, canela, cravo e raspas de laranja. Veja o demolho, o cozimento na pressão e o ponto do caldo para servir quente ou fria."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 6,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 70,
+      "totalMinutes": null
+    },
+    "timeNote": "12 horas de demolho, 40 minutos após pegar pressão e cerca de 20 a 30 minutos com os leites, além do aquecimento e da saída natural da pressão.",
+    "ingredients": [
+      {
+        "id": "canjica",
+        "name": "Milho branco para canjica",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "agua-molho",
+        "name": "Água para o demolho",
+        "quantity": 3,
+        "unit": "xícaras (chá)",
+        "note": "Descarte depois de 12 horas.",
+        "shopping": false
+      },
+      {
+        "id": "agua",
+        "name": "Água para cozinhar",
+        "quantity": 1,
+        "unit": "litro",
+        "shopping": false
+      },
+      {
+        "id": "leite",
+        "name": "Leite",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "coco",
+        "name": "Leite de coco",
+        "quantity": 200,
+        "unit": "ml"
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar",
+        "quantity": 0.5,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "cravo",
+        "name": "Cravo-da-índia",
+        "quantity": 3,
+        "unit": "unidades"
+      },
+      {
+        "id": "canela",
+        "name": "Canela em pau",
+        "quantity": 1,
+        "unit": "rama"
+      },
+      {
+        "id": "laranja",
+        "name": "Laranja-baía",
+        "quantity": 1,
+        "unit": "unidade",
+        "note": "Use somente as raspas da casca, sem a parte branca."
+      },
+      {
+        "id": "mel",
+        "name": "Mel para servir",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "amendoim",
+        "name": "Amendoim torrado sem casca e picado",
+        "quantity": null,
+        "unit": "a gosto",
+        "note": "Para finalizar."
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Cubra a canjica com as 3 xícaras de água numa tigela e deixe de molho por 12 horas. Escorra e descarte essa água."
+      },
+      {
+        "id": "passo-2",
+        "text": "Coloque na panela de pressão com 1 litro de água, cravos e canela. Respeite o limite de enchimento do fabricante para grãos."
+      },
+      {
+        "id": "passo-3",
+        "text": "Feche e aqueça. Assim que pegar pressão, reduza o fogo e conte 40 minutos. Desligue e espere a pressão sair completamente antes de abrir."
+      },
+      {
+        "id": "passo-4",
+        "text": "Confira se os grãos estão macios. Junte leite, leite de coco e açúcar. Cozinhe sem tampa, em fogo baixo após ferver, mexendo para não grudar."
+      },
+      {
+        "id": "passo-5",
+        "text": "Deixe cerca de 30 minutos para engrossar levemente. Para servir fria ou no dia seguinte, comece a conferir aos 20 minutos: o caldo engrossa ao esfriar."
+      },
+      {
+        "id": "passo-6",
+        "text": "Sirva em tigelas com raspas de laranja, mel e amendoim. Evite deixar a canjica pronta por longos períodos fora da geladeira."
+      }
+    ],
+    "equipment": [
+      "Tigela para demolho e escorredor",
+      "Panela de pressão usada conforme o manual",
+      "Espátula de silicone ou colher",
+      "Xícaras e colheres medidoras",
+      "Ralador fino e tigelas para servir"
+    ],
+    "tips": [
+      {
+        "title": "Sem trocar o tipo de milho",
+        "text": "Use o milho branco próprio para canjica, não milho-verde nem flocão."
+      },
+      {
+        "title": "Açúcar na segunda etapa",
+        "text": "Cozinhe os grãos em água antes de juntar o açúcar e os leites."
+      },
+      {
+        "title": "Ponto mais fluido para gelar",
+        "text": "Interrompa a redução antes de o caldo ficar muito espesso se for consumir frio."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Resfrie em porções",
+        "text": "Distribua em recipientes rasos e refrigere prontamente a 4 °C ou menos. Consuma em 2 a 3 dias."
+      },
+      {
+        "title": "Quente ou fria",
+        "text": "Mantenha refrigerada até servir. Para reaquecer, mexa em fogo baixo até atingir 74 °C no centro; aqueça só a porção desejada."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T01:24:01Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — canjica com raspas de laranja e mel",
+      "url": "https://panelinha.com.br/receita/canjica-com-raspas-de-laranja-e-mel",
+      "role": "Demolho, fórmula sem leite condensado, até 6 porções, 40 minutos na pressão e redução de 20 a 30 minutos."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, conservação refrigerada e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Métrica do termo amplo canjica; SERP contém grão e doce. Recorte escolhido doce de milho branco com leite de coco, não curau nem mungunzá salgado. Rendimentoaté6 tratado6porções de referência. Não alegar versão leite condensado.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

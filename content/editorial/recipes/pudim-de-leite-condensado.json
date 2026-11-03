@@ -1,0 +1,158 @@
+{
+  "id": "pudim-de-leite-condensado",
+  "slug": "pudim-de-leite-condensado",
+  "title": "Pudim de leite condensado com furinhos",
+  "description": "Pudim de leite condensado com furinhos, caramelo e banho-maria no forno. Receita para forma de 22 cm, com preparo e tempo de geladeira.",
+  "intro": "Prepare com antecedência: o pudim precisa esfriar e ficar pelo menos 3 horas na geladeira antes de desenformar.",
+  "categoryIds": [
+    "doces",
+    "forno"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/pudim-leite-condensado.webp",
+    "alt": "Imagem ilustrativa: Pudim de leite em formato de anel com calda de caramelo e uma fatia mostrando furinhos"
+  },
+  "publishedAt": "2026-11-03T00:33:03Z",
+  "updatedAt": "2026-11-03T00:33:03Z",
+  "seo": {
+    "title": "Pudim de leite condensado com furinhos | Bebel",
+    "description": "Pudim de leite condensado com furinhos, caramelo e banho-maria no forno. Receita para forma de 22 cm, com preparo e tempo de geladeira."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 12,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 60,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 1 hora no forno a 200 °C, mais o preparo do caramelo, o resfriamento e no mínimo 3 horas de geladeira.",
+    "ingredients": [
+      {
+        "id": "acucar",
+        "name": "Açúcar para o caramelo",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "agua-calda",
+        "name": "Água fervente para o caramelo",
+        "quantity": 0.3333333333333333,
+        "unit": "xícara (chá)",
+        "shopping": false
+      },
+      {
+        "id": "leite-condensado",
+        "name": "Leite condensado",
+        "quantity": 395,
+        "unit": "g"
+      },
+      {
+        "id": "ovos",
+        "name": "Ovos",
+        "quantity": 4,
+        "unit": "unidades"
+      },
+      {
+        "id": "leite",
+        "name": "Leite",
+        "quantity": 2.5,
+        "unit": "xícaras (chá)"
+      },
+      {
+        "id": "agua-banho",
+        "name": "Água quente para o banho-maria",
+        "quantity": null,
+        "unit": "a gosto",
+        "note": "Até metade da altura da forma, por fora.",
+        "shopping": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Preaqueça o forno a 200 °C. Separe uma forma com furo de 22 cm e uma assadeira onde ela caiba. Ferva água."
+      },
+      {
+        "id": "passo-2",
+        "text": "Derreta o açúcar em panela de borda alta, em fogo baixo. Ao dourar, acrescente com cuidado a água medida: o caramelo borbulha. Mexa até ficar uniforme."
+      },
+      {
+        "id": "passo-3",
+        "text": "Espalhe o caramelo no fundo e nas laterais da forma, segurando-a com luvas térmicas."
+      },
+      {
+        "id": "passo-4",
+        "text": "No liquidificador, bata os ovos primeiro; junte leite condensado e leite e bata até misturar. Despeje na forma."
+      },
+      {
+        "id": "passo-5",
+        "text": "Coloque a forma na assadeira e leve ao forno. Adicione a água quente na assadeira até metade da altura da forma, sem molhar a massa."
+      },
+      {
+        "id": "passo-6",
+        "text": "Asse por cerca de 1 hora: a superfície fica firme e o centro ainda cremoso, sem estar líquido. Retire com cuidado do banho-maria."
+      },
+      {
+        "id": "passo-7",
+        "text": "Deixe amornar e refrigere por pelo menos 3 horas. Para soltar o caramelo, aqueça brevemente a base da forma no fogão, usando luvas. Inverta sobre prato com borda."
+      }
+    ],
+    "equipment": [
+      "Liquidificador",
+      "Forma com furo de 22 cm",
+      "Assadeira para banho-maria",
+      "Panela de borda alta e espátula",
+      "Chaleira, medidores e luvas térmicas",
+      "Prato com borda para desenformar"
+    ],
+    "tips": [
+      {
+        "title": "Caramelo sem susto",
+        "text": "Deixe a água medida e as luvas prontas antes de derreter o açúcar. Não toque nem prove a calda quente."
+      },
+      {
+        "title": "Forno e airfryer",
+        "text": "Esta ficha é para forno com banho-maria. O cesto da airfryer exige outra formulação e outro tempo."
+      },
+      {
+        "title": "Desenforme frio",
+        "text": "Escolha um prato maior que a forma e com borda para conter a calda."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Mantenha em recipiente fechado, a 4 °C ou menos, e consuma em até 2 dias. Anote a data de preparo."
+      },
+      {
+        "title": "Para servir",
+        "text": "Use utensílio limpo e retire apenas a quantidade que vai servir. Deixe o restante refrigerado; descarte se ficar mais de 2 horas fora da geladeira."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T00:33:03Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — pudim de leite com furinhos",
+      "url": "https://panelinha.com.br/receita/pudim-de-leite",
+      "role": "Ingredientes, forma, banho-maria, ponto, rendimento e geladeira."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e cuidados com sobras."
+    }
+  ],
+  "editorialNotes": [
+    "12porções/forma22cm/200°C60min/geladeira3h. Não usar vídeo135airfryer. Água para banho sem compra. Texto independente condensado da fonte.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

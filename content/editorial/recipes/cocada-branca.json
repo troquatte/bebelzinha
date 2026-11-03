@@ -1,0 +1,140 @@
+{
+  "id": "cocada-branca",
+  "slug": "cocada-branca",
+  "title": "Cocada branca de coco fresco, sem leite condensado",
+  "description": "Cocada branca com coco fresco, açúcar e água, sem leite condensado. Aprenda o ponto de fio, o descanso e a modelagem com duas colheres.",
+  "intro": "A cocada fica firme por fora e úmida por dentro. Modele em pequenos montinhos ou com duas colheres e deixe secar antes de guardar.",
+  "categoryIds": [
+    "doces"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/cocada-branca.webp",
+    "alt": "Imagem ilustrativa: Cocadas brancas em pequenos montinhos ovais de coco fresco ralado grosso com casquinha fina"
+  },
+  "publishedAt": "2026-11-03T01:47:38Z",
+  "updatedAt": "2026-11-03T01:47:38Z",
+  "seo": {
+    "title": "Cocada branca de coco fresco, sem leite condensado | Bebel",
+    "description": "Cocada branca com coco fresco, açúcar e água, sem leite condensado. Aprenda o ponto de fio, o descanso e a modelagem com duas colheres."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 20,
+      "unit": "unidade"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 25,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 20 minutos para a calda, mais 5 com o coco, 5 de descanso e aproximadamente 1 hora para secar, além da modelagem.",
+    "ingredients": [
+      {
+        "id": "coco",
+        "name": "Coco fresco ralado grosso",
+        "quantity": 500,
+        "unit": "g",
+        "note": "Cerca de 2½ xícaras (chá)."
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar",
+        "quantity": 1.5,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "agua",
+        "name": "Água",
+        "quantity": 1,
+        "unit": "xícara (chá)",
+        "shopping": false
+      },
+      {
+        "id": "untar",
+        "name": "Manteiga para untar a assadeira",
+        "quantity": null,
+        "unit": "a gosto",
+        "note": "Dispensável se usar uma superfície antiaderente adequada."
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Misture açúcar e água numa panela média, sem espalhar líquido pelas laterais. Leve ao fogo médio."
+      },
+      {
+        "id": "passo-2",
+        "text": "Cozinhe sem mexer por cerca de 20 minutos, até o ponto de fio: ao levantar a colher, a calda deve formar um fio fino entre as gotas. Não toque na calda quente."
+      },
+      {
+        "id": "passo-3",
+        "text": "Junte o coco e misture apenas para envolver. Cozinhe por mais 5 minutos sem ficar mexendo; a mistura ainda estará úmida."
+      },
+      {
+        "id": "passo-4",
+        "text": "Transfira a cocada com a calda para uma tigela e deixe descansar 5 minutos. Unte uma assadeira ou separe uma antiaderente."
+      },
+      {
+        "id": "passo-5",
+        "text": "Use duas colheres de sobremesa para dividir em 20 montinhos parecidos. Disponha separados na assadeira."
+      },
+      {
+        "id": "passo-6",
+        "text": "Deixe secar por cerca de 1 hora, até firmar por fora, mantendo o centro úmido. Solte com espátula e sirva."
+      }
+    ],
+    "equipment": [
+      "Panela média e colher",
+      "Tigela resistente ao calor",
+      "Duas colheres de sobremesa",
+      "Assadeira grande e espátula",
+      "Balança e medidores"
+    ],
+    "tips": [
+      {
+        "title": "Coco fresco",
+        "text": "Use ralado grosso. Se estiver congelado, descongele completamente na geladeira antes de medir."
+      },
+      {
+        "title": "Calda sem mexer",
+        "text": "Depois de levar ao fogo, evite agitar a calda ou raspar cristais das laterais para dentro."
+      },
+      {
+        "title": "Não tente enrolar com as mãos",
+        "text": "Modele com colheres, pois a calda continua muito quente depois do descanso curto."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Guarde bem fechada",
+        "text": "Depois de seca e fria, coloque em recipiente hermético. Para esta ficha, mantenha refrigerada a 4 °C ou menos e consuma em até 2 dias."
+      },
+      {
+        "title": "Proteja a textura",
+        "text": "Separe as unidades com papel próprio para alimentos se precisar empilhar. Use utensílio limpo para retirar."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T01:47:38Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — cocada branca",
+      "url": "https://panelinha.com.br/receita/cocada-branca",
+      "role": "500 g de coco fresco, vinte unidades, calda em ponto de fio, modelagem e secagem de cerca de uma hora."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, conservação refrigerada e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Escolhida cocadabranca20unidsemcondensado, nãofontecocadagenéricaMaisde6nemacervo217cocadadecolher. Conservação curta refrigerada escolhida, nãoreproduz1semanaambienteprazo comercial.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

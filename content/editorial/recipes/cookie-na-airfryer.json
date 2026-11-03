@@ -1,0 +1,172 @@
+{
+  "id": "cookie-na-airfryer",
+  "slug": "cookie-na-airfryer",
+  "title": "Cookie na airfryer com gotas de chocolate",
+  "description": "Cookie na airfryer com chocolate amargo, manteiga e dois açúcares. Veja o descanso no congelador, o tamanho dos discos e quando retirar do cesto.",
+  "intro": "A massa precisa de pelo menos 1 hora e meia no congelador. Os 10 minutos de airfryer são por leva, sem contar esse descanso.",
+  "categoryIds": [
+    "doces",
+    "lanches",
+    "airfryer"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/cookie-airfryer.webp",
+    "alt": "Imagem ilustrativa: Cookies dourados com gotas de chocolate amargo em prato claro e um partido ao meio"
+  },
+  "publishedAt": "2026-11-03T01:02:56Z",
+  "updatedAt": "2026-11-03T01:02:56Z",
+  "seo": {
+    "title": "Cookie na airfryer com gotas de chocolate | Bebel",
+    "description": "Cookie na airfryer com chocolate amargo, manteiga e dois açúcares. Veja o descanso no congelador, o tamanho dos discos e quando retirar do cesto."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 9,
+      "unit": "unidade"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 10,
+      "totalMinutes": null
+    },
+    "timeNote": "Reserve ao menos 1h30 de congelador, mais preparo, pré-aquecimento, 10 minutos a 160 °C e 10 minutos para firmar no cesto por leva.",
+    "ingredients": [
+      {
+        "id": "chocolate",
+        "name": "Chocolate amargo 70% em gotas",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "id": "manteiga",
+        "name": "Manteiga gelada em cubos",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "id": "mascavo",
+        "name": "Açúcar mascavo",
+        "quantity": 0.5,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar",
+        "quantity": 0.3333333333333333,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "farinha",
+        "name": "Farinha de trigo",
+        "quantity": 1.75,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "fermento",
+        "name": "Fermento químico em pó",
+        "quantity": 1,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "bicarbonato",
+        "name": "Bicarbonato de sódio",
+        "quantity": 0.125,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 1,
+        "unit": "pitada"
+      },
+      {
+        "id": "ovo",
+        "name": "Ovo",
+        "quantity": 1,
+        "unit": "unidade"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Misture farinha, fermento, bicarbonato e sal. Na batedeira com raquete, bata a manteiga gelada por cerca de 20 segundos."
+      },
+      {
+        "id": "passo-2",
+        "text": "Junte os dois açúcares e bata por mais 30 segundos. Incorpore as gotas de chocolate."
+      },
+      {
+        "id": "passo-3",
+        "text": "Misture os secos rapidamente. Acrescente o ovo e bata apenas até a massa se unir, sem farinha aparente."
+      },
+      {
+        "id": "passo-4",
+        "text": "Meça cada porção com ¼ de xícara, modele e achate em discos de aproximadamente 7 cm. Acomode numa assadeira e congele por pelo menos 1h30."
+      },
+      {
+        "id": "passo-5",
+        "text": "Preaqueça a airfryer a 160 °C. Acomode uma leva de até 3 discos congelados, com espaço para crescerem."
+      },
+      {
+        "id": "passo-6",
+        "text": "Asse por cerca de 10 minutos, sem virar. Retire o cesto e espere mais 10 minutos, ainda com os cookies dentro, para firmarem."
+      },
+      {
+        "id": "passo-7",
+        "text": "Transfira com espátula e repita com os demais discos. Mantenha a massa restante no congelador."
+      }
+    ],
+    "equipment": [
+      "Airfryer com ajuste a 160 °C",
+      "Batedeira com raquete",
+      "Tigelas, espátula e assadeira que caiba no congelador",
+      "Balança, xícara e colheres medidoras",
+      "Espátula larga e luvas térmicas"
+    ],
+    "tips": [
+      {
+        "title": "Não pule o congelador",
+        "text": "Organize espaço para a assadeira antes de começar. Os discos entram congelados no cesto."
+      },
+      {
+        "title": "Tamanho uniforme",
+        "text": "Use o medidor para que os nove discos tenham tamanho semelhante e assem de modo mais regular."
+      },
+      {
+        "title": "Espere para retirar",
+        "text": "Ainda quentes, os cookies estão frágeis. O descanso no cesto faz parte do preparo."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Massa para outra hora",
+        "text": "Depois de os discos ficarem firmes no congelador, embale separados em saco ou pote próprio e congele por até 1 mês. Anote a data."
+      },
+      {
+        "title": "Na hora de assar",
+        "text": "Use os discos ainda congelados e siga a mesma temperatura de referência, conferindo o ponto de cada leva."
+      },
+      {
+        "title": "Cookies já assados",
+        "text": "Espere esfriar completamente antes de fechar o pote. Mantenha ao abrigo de umidade e calor e prefira consumir logo para preservar a textura."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T01:02:56Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — cookie com gotas de chocolate",
+      "url": "https://panelinha.com.br/receita/cookie-com-gotas-de-chocolate",
+      "role": "Formulação de nove cookies e método específico de airfryer da mesma página."
+    }
+  ],
+  "editorialNotes": [
+    "Métricas classificaram intenção transactional; SERP inspecionada contém receitas/preparo. Página intencionalmenteinformativa, não compra. Fonte9cookies,disco7cm/congelador90min/160°C10min+10descanso. Não transferir180°C15min doforno.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "id": "batata-rustica-na-airfryer",
+  "slug": "batata-rustica-na-airfryer",
+  "title": "Batata rústica na airfryer com ervas",
+  "description": "Gomos com casca, alho e ervas para acompanhar a refeição. A batata vai crua para a airfryer.",
+  "intro": "Seque bem as batatas e deixe as ervas e o alho para a metade do cozimento.",
+  "categoryIds": [
+    "acompanhamentos",
+    "airfryer"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/batata-rustica-airfryer.webp",
+    "alt": "Imagem ilustrativa de gomos de batata com casca, ervas e dentes de alho assados"
+  },
+  "publishedAt": "2026-11-02T23:49:19Z",
+  "updatedAt": "2026-11-02T23:49:19Z",
+  "seo": {
+    "title": "Batata rústica na airfryer com ervas | Bebel",
+    "description": "Gomos com casca, alho e ervas para acompanhar a refeição. A batata vai crua para a airfryer. Confira ingredientes, preparo, utensílios e lista de compras."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 6,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 30,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 30 minutos a 200 °C por leva, mais o preparo. Rende até 6 porções pequenas de acompanhamento.",
+    "ingredients": [
+      {
+        "id": "batata",
+        "name": "Batata baraka com casca",
+        "quantity": 500,
+        "unit": "g",
+        "note": "Cerca de 3 unidades."
+      },
+      {
+        "id": "alecrim",
+        "name": "Alecrim",
+        "quantity": 3,
+        "unit": "ramos"
+      },
+      {
+        "id": "tomilho",
+        "name": "Tomilho",
+        "quantity": 4,
+        "unit": "ramos"
+      },
+      {
+        "id": "salvia",
+        "name": "Sálvia",
+        "quantity": 10,
+        "unit": "folhas"
+      },
+      {
+        "id": "alho",
+        "name": "Alho com casca",
+        "quantity": 6,
+        "unit": "dentes"
+      },
+      {
+        "id": "azeite-batata",
+        "name": "Azeite para temperar as batatas",
+        "quantity": 1.5,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "azeite-ervas",
+        "name": "Azeite para envolver ervas e alho",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "lavar",
+        "text": "Lave e escove as cascas. Seque e corte cada batata ao meio no comprimento; divida cada metade em 5 gomos."
+      },
+      {
+        "id": "preaquecer",
+        "text": "Preaqueça a airfryer a 200 °C conforme o manual."
+      },
+      {
+        "id": "temperar",
+        "text": "Envolva os gomos com o sal e 1 colher e meia de azeite. Disponha no cesto, sem amontoar; divida em levas se necessário."
+      },
+      {
+        "id": "assar",
+        "text": "Asse por cerca de 30 minutos. Enquanto isso, envolva ervas e alho em um pouco de azeite."
+      },
+      {
+        "id": "ervas",
+        "text": "Aos 15 minutos, mexa as batatas e acrescente as ervas e o alho. Mexa novamente quando faltarem 5 minutos."
+      },
+      {
+        "id": "servir",
+        "text": "Retire com pinça quando estiverem douradas e macias por dentro. Sirva quentes."
+      }
+    ],
+    "equipment": [
+      "Airfryer",
+      "Escovinha para legumes e pano limpo",
+      "Tábua, faca e tigela",
+      "Colher medidora e pinça"
+    ],
+    "tips": [
+      {
+        "title": "Seque bem",
+        "text": "A superfície seca ajuda os gomos a dourar."
+      },
+      {
+        "title": "Ervas no meio do preparo",
+        "text": "Acrescente ervas e alho aos 15 minutos, envolvidos em azeite."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Guarde as sobras prontamente em recipiente limpo e raso. Mantenha a 4 °C ou menos e consuma em 2 a 3 dias."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça apenas o que vai comer, em recipiente ou cesto adequado, até o centro atingir 74 °C. O tempo depende do aparelho e da quantidade."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental das fontes, medidas e método",
+    "reviewedAt": "2026-11-02T23:49:19Z"
+  },
+  "editorialNotes": [
+    "Fonte Panelinha500g/3baraka/até6porções. Azeite1,5colhersopa está no método; extra das ervas é a gosto. Não trocar fórmula por Nestlé4batatas/4colheres.",
+    "Receita de acompanhamento, não6refeições. Sem duplicação do tempo ao fazer levas. Fonte específica não prevê pré-cozimento.",
+    "Pesquisa anterior9900/mês KD0, concorrente TudoGostoso /receita/320068-batata-rustica-na-airfryer.html inspecionado; sem alegação de ranking atual.",
+    "Revisão documental interna, não ensaio culinário; não expor comentários de piloto/teste ao leitor. Sem vídeo compatível no acervo consultado. Fotos ilustrativas geradas no padrão aprovado."
+  ],
+  "sources": [
+    {
+      "title": "Panelinha — batata rústica com ervas na airfryer",
+      "url": "https://panelinha.com.br/receita/batata-rustica-ervas-airfryer",
+      "role": "Ingredientes, corte, rendimento e momentos de mexer e acrescentar as ervas."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Cuidados gerais de resfriamento, refrigeração e reaquecimento."
+    }
+  ]
+}

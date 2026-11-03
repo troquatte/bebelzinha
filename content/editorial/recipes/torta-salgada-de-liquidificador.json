@@ -1,0 +1,217 @@
+{
+  "id": "torta-salgada-de-liquidificador",
+  "slug": "torta-salgada-de-liquidificador",
+  "title": "Torta salgada de liquidificador com abobrinha e bacon",
+  "description": "Torta salgada de liquidificador com milho, fubá, abobrinha, bacon e queijo. Confira a montagem e as opções de frigideira ou refratário para o forno.",
+  "intro": "A massa leva milho e fubá, além de um pouco de trigo. As fitas de abobrinha ficam parcialmente mergulhadas para dourar no forno.",
+  "categoryIds": [
+    "pratos-do-dia",
+    "lanches",
+    "forno"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/torta-abobrinha-bacon.webp",
+    "alt": "Imagem ilustrativa: Torta salgada de massa de milho com fitas de abobrinha, bacon e queijo; uma fatia retirada"
+  },
+  "publishedAt": "2026-11-03T01:02:56Z",
+  "updatedAt": "2026-11-03T01:02:56Z",
+  "seo": {
+    "title": "Torta salgada de liquidificador com abobrinha e bacon | Bebel",
+    "description": "Torta salgada de liquidificador com milho, fubá, abobrinha, bacon e queijo. Confira a montagem e as opções de frigideira ou refratário para o forno."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 4,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 25,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 3 minutos para dourar o bacon e 25 minutos a 200 °C no forno, além dos cortes, da massa e de 2 minutos antes de desenformar.",
+    "ingredients": [
+      {
+        "id": "abobrinha",
+        "name": "Abobrinha pequena",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "milho",
+        "name": "Milho-verde congelado",
+        "quantity": 150,
+        "unit": "g",
+        "note": "Cerca de 1 xícara (chá)."
+      },
+      {
+        "id": "bacon",
+        "name": "Bacon em cubos",
+        "quantity": 50,
+        "unit": "g",
+        "note": "Cubos pequenos de aproximadamente 0,5 cm."
+      },
+      {
+        "id": "queijo",
+        "name": "Queijo minas padrão em cubos",
+        "quantity": 90,
+        "unit": "g",
+        "note": "Cubos de aproximadamente 1 cm."
+      },
+      {
+        "id": "leite",
+        "name": "Leite",
+        "quantity": 0.5,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "ovos",
+        "name": "Ovos",
+        "quantity": 2,
+        "unit": "unidades"
+      },
+      {
+        "id": "fuba",
+        "name": "Fubá mimoso",
+        "quantity": 0.5,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "farinha",
+        "name": "Farinha de trigo",
+        "quantity": 3,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "fermento",
+        "name": "Fermento químico em pó",
+        "quantity": 1.5,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": 1,
+        "unit": "colher (chá)",
+        "note": "Para as fitas de abobrinha."
+      },
+      {
+        "id": "azeite-extra",
+        "name": "Azeite para untar o refratário ou dourar o bacon, se necessário",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 0.5,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "caiena",
+        "name": "Pimenta-de-caiena",
+        "quantity": 1,
+        "unit": "pitada"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "cebolinha",
+        "name": "Cebolinha",
+        "quantity": 6,
+        "unit": "talos"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Preaqueça o forno a 200 °C. Separe frigideira antiaderente de 26 cm que possa ir ao forno ou um refratário redondo de 25 cm e capacidade de 1 litro, untado."
+      },
+      {
+        "id": "passo-2",
+        "text": "Coloque ovos, leite, milho e sal no liquidificador. Deixe o milho perder o gelo enquanto prepara os demais ingredientes."
+      },
+      {
+        "id": "passo-3",
+        "text": "Higienize a abobrinha e a cebolinha. Corte a cebolinha e o queijo; faça fitas longas de abobrinha com descascador, reservando o miolo para outro uso. Tempere as fitas com a colher de azeite e pimenta-do-reino."
+      },
+      {
+        "id": "passo-4",
+        "text": "Ponha o bacon numa frigideira fria e aqueça em fogo médio por cerca de 3 minutos para dourar. Se precisar, use um fio de azeite. Desligue."
+      },
+      {
+        "id": "passo-5",
+        "text": "Bata os ingredientes líquidos até triturar o milho. Junte fubá, trigo, caiena e fermento e bata rapidamente, por cerca de 30 segundos."
+      },
+      {
+        "id": "passo-6",
+        "text": "Reserve 2 colheres de sopa dos cubos de queijo e 1 colher de sopa de cebolinha. Misture massa, bacon e o restante do queijo e da cebolinha no recipiente de forno."
+      },
+      {
+        "id": "passo-7",
+        "text": "Arrume as fitas, afundando parte na massa. Distribua o queijo e a cebolinha reservados. Asse por cerca de 25 minutos, até dourar e o palito sair limpo."
+      },
+      {
+        "id": "passo-8",
+        "text": "Use luvas para retirar. Espere 2 minutos e solte com espátula para desenformar, ou sirva diretamente no refratário."
+      }
+    ],
+    "equipment": [
+      "Liquidificador e forno",
+      "Frigideira de 26 cm própria para forno ou frigideira comum mais refratário redondo de 25 cm/1 litro",
+      "Descascador de legumes, tábua e faca",
+      "Tigelas, balança e medidores",
+      "Espátula, palito e luvas térmicas"
+    ],
+    "tips": [
+      {
+        "title": "Cabo próprio para forno",
+        "text": "Confira a indicação do fabricante. A opção de refratário permite dourar o bacon em outra panela."
+      },
+      {
+        "title": "Milho sem bloco de gelo",
+        "text": "Solte os grãos e espere perderem o gelo nos líquidos antes de bater."
+      },
+      {
+        "title": "Massa com fubá",
+        "text": "Esta não é uma massa só de trigo. Meça os dois tipos de farinha para manter a fórmula."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Guarde prontamente em pote limpo e fechado, a 4 °C ou menos, e consuma em 2 a 3 dias. Descarte o que ficou mais de 2 horas sem refrigeração."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça apenas o que vai consumir até atingir 74 °C no centro, conferindo com termômetro culinário. Use recipiente adequado ao aparelho."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T01:02:56Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — torta de liquidificador com abobrinha e bacon",
+      "url": "https://panelinha.com.br/receita/torta-de-liquidificador-com-abobrinha-e-bacon",
+      "role": "Fórmula, montagem, recipientes, rendimento e temperatura."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Volume90500/KD3/CPC0.02 do relatórioNov2reutilizado. Fonteaté4porções. Preferidasmedidasg explícitas150milho50bacon90queijo. Azeiteextra condicionalno método incluído. Acervo100longpostadomasnãoIDpúblicoconfirmado;semembed. Nenhuma ficha paga copiada.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

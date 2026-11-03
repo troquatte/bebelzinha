@@ -26,7 +26,10 @@ for (const recipe of catalog.recipes) {
   const crumb = graph.find(item => item['@type'] === 'BreadcrumbList');
   assert.ok(schema && crumb && graph.some(item => item['@type'] === 'WebPage'));
   assert.equal(schema.name, recipe.title);
-  assert.equal(schema.recipeYield, `${recipe.recipe.yield.servings} ${recipe.recipe.yield.servings === 1 ? 'porção' : 'porções'}`);
+  const yieldUnits = { 'porção': 'porções', 'bolinho': 'bolinhos', 'pedaço': 'pedaços', 'fatia': 'fatias', 'unidade': 'unidades', 'pão': 'pães', 'brigadeiro': 'brigadeiros', 'banana': 'bananas', 'bolo': 'bolos' };
+  const unit = recipe.recipe.yield.unit;
+  assert.equal(schema.recipeYield, recipe.recipe.yield.servings + ' ' + (recipe.recipe.yield.servings === 1 ? unit : yieldUnits[unit] ?? unit));
+  assert.ok(document.querySelector('.dinner__eyebrow').textContent.endsWith(schema.recipeYield), 'Rendimento visual e schema divergentes');
   assert.equal(schema.image[0], new URL(recipe.image.src, seo.origin + '/').href);
   assert.equal(schema.recipeIngredient.length, recipe.recipe.ingredients.length);
   assert.equal(schema.recipeInstructions.length, recipe.recipe.steps.length);

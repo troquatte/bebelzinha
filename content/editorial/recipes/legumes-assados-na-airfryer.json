@@ -1,0 +1,170 @@
+{
+  "id": "legumes-assados-na-airfryer",
+  "slug": "legumes-assados-na-airfryer",
+  "title": "Legumes assados na airfryer com batata e cenoura",
+  "description": "Legumes assados na airfryer com batata, cenoura, cebola e alho. Veja os temperos, o refratário e o ponto para ficarem cozidos por dentro.",
+  "intro": "Corte os legumes em pedaços semelhantes. Use um refratário que caiba no cesto sem bloquear a circulação do ar.",
+  "categoryIds": [
+    "acompanhamentos",
+    "airfryer"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/legumes-airfryer.webp",
+    "alt": "Imagem ilustrativa: Batata, cenoura, cebola e alho assados e dourados em um refratário claro"
+  },
+  "publishedAt": "2026-11-03T00:33:03Z",
+  "updatedAt": "2026-11-03T00:33:03Z",
+  "seo": {
+    "title": "Legumes assados na airfryer com batata e cenoura | Bebel",
+    "description": "Legumes assados na airfryer com batata, cenoura, cebola e alho. Veja os temperos, o refratário e o ponto para ficarem cozidos por dentro."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 2,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 25,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 25 minutos a 180 °C, além dos cortes e do pré-aquecimento. Confira se batata e cenoura ficaram macias.",
+    "ingredients": [
+      {
+        "id": "batata",
+        "name": "Batata",
+        "quantity": 2,
+        "unit": "unidades",
+        "note": "Cortada em pedaços."
+      },
+      {
+        "id": "cenoura",
+        "name": "Cenoura",
+        "quantity": 2,
+        "unit": "unidades",
+        "note": "Cortada em pedaços."
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": 4,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 1,
+        "unit": "pitada"
+      },
+      {
+        "id": "salsinha",
+        "name": "Salsinha picada",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "cebola",
+        "name": "Cebola",
+        "quantity": 1,
+        "unit": "unidade",
+        "note": "Cortada em pedaços."
+      },
+      {
+        "id": "alho",
+        "name": "Alho sem casca",
+        "quantity": 4,
+        "unit": "dentes"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": 1,
+        "unit": "pitada"
+      },
+      {
+        "id": "tempero",
+        "name": "Tempero MAGGI Meu Segredo Legumes",
+        "quantity": 1,
+        "unit": "envelope"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Preaqueça a airfryer a 180 °C conforme o manual e confira o encaixe do refratário no cesto."
+      },
+      {
+        "id": "passo-2",
+        "text": "Higienize os legumes, descasque a cenoura, a cebola e o alho e corte batata, cenoura e cebola em pedaços semelhantes."
+      },
+      {
+        "id": "passo-3",
+        "text": "Numa tigela, envolva os legumes com azeite, sal, salsinha, pimenta e o envelope de tempero."
+      },
+      {
+        "id": "passo-4",
+        "text": "Transfira ao refratário adequado, sem amontoar. Se o recipiente for pequeno, divida o preparo em levas."
+      },
+      {
+        "id": "passo-5",
+        "text": "Asse a 180 °C por cerca de 25 minutos. Espete batata e cenoura com garfo: precisam estar macias por dentro e douradas por fora. Continue se ainda estiverem duras."
+      },
+      {
+        "id": "passo-6",
+        "text": "Retire com luvas térmicas e sirva como acompanhamento."
+      }
+    ],
+    "equipment": [
+      "Airfryer",
+      "Refratário resistente ao calor compatível com o aparelho",
+      "Tigela, tábua, faca e descascador",
+      "Colheres medidoras, garfo e luvas térmicas"
+    ],
+    "tips": [
+      {
+        "title": "Confira o centro",
+        "text": "Legumes podem dourar antes de amaciar. Teste os pedaços mais grossos antes de servir."
+      },
+      {
+        "title": "Cuidado com o sal",
+        "text": "O envelope de tempero já contém sal. A receita usa apenas uma pitada extra."
+      },
+      {
+        "title": "Sem trocar todos os legumes",
+        "text": "Abobrinha e brócolis têm tempos e umidade diferentes. Esta ficha foi organizada para batata, cenoura, cebola e alho."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Guarde prontamente em pote limpo e fechado, a 4 °C ou menos. Consuma em 2 a 3 dias. Descarte o que ficou mais de 2 horas fora de refrigeração."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça apenas a porção que vai consumir até atingir 74 °C no centro. Confira com termômetro culinário e use recipiente adequado ao aparelho."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T00:33:03Z"
+  },
+  "sources": [
+    {
+      "title": "Receitas Nestlé — legumes assados na airfryer",
+      "url": "https://www.receitasnestle.com.br/receitas/receita-legumes-assados-air-fryer",
+      "role": "Ingredientes, rendimento, refratário e cocção a 180 °C."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e cuidados com sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Fonte2porções/180°C25min. Mantido envelope de tempero da formulação,sem inventar substituto equivalente. Foto incluiapenaslegumesdaformula. Busca completa,acesso Nestlé403.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

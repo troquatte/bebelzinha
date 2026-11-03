@@ -1,5 +1,6 @@
 import { RecipeProductCtaComponent } from '../../../products/components/recipe-product-cta/recipe-product-cta.component';
 import { RecipeToolsComponent } from '../../../../shared/components/recipe-tools/recipe-tools.component';
+import { recipeYieldLabel } from '../../helpers/recipe-yield';
 import { recipeStructuredData } from '../../helpers/recipe-structured-data';
 import { ShoppingChecklistComponent } from '../../../shopping/components/shopping-checklist.component';
 import { DinnerActionsComponent } from '../../../dinner-plan/components/dinner-actions.component';
@@ -40,6 +41,7 @@ export class RecipePageComponent {
   private ready = false;
   readonly recipe = signal<PublicRecipe | undefined>(undefined);
   readonly servings = signal(1);
+  readonly yieldLabel = computed(() => recipeYieldLabel(this.servings(), this.recipe()?.recipe.yield.unit ?? 'porção'));
   readonly selectedPortion = computed(() => this.recipe()?.recipe.portions?.find(portion => portion.servings === this.servings()));
   readonly equipment = computed(() => this.selectedPortion()?.equipment ?? this.recipe()?.recipe.equipment ?? []);
   readonly ingredients = computed(() => (this.recipe()?.recipe.ingredients ?? []).map(item => ({ ...item, ...this.selectedPortion()?.ingredientOverrides.find(override => override.id === item.id) })));

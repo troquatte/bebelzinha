@@ -1,0 +1,176 @@
+{
+  "id": "arroz-doce",
+  "slug": "arroz-doce",
+  "title": "Arroz-doce com leite condensado, canela e laranja",
+  "description": "Arroz-doce com leite condensado, canela, cravo e casca de laranja. Veja quando desligar para manter a cremosidade e como guardar na geladeira.",
+  "intro": "Comece com arroz cru. Ele cozinha no leite com água e deve continuar com caldo antes de esfriar.",
+  "categoryIds": [
+    "doces"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/arroz-doce.webp",
+    "alt": "Imagem ilustrativa: Arroz-doce cremoso com grãos visíveis e canela em duas tigelas claras"
+  },
+  "publishedAt": "2026-11-03T00:33:03Z",
+  "updatedAt": "2026-11-03T00:33:03Z",
+  "seo": {
+    "title": "Arroz-doce com leite condensado, canela e laranja | Bebel",
+    "description": "Arroz-doce com leite condensado, canela, cravo e casca de laranja. Veja quando desligar para manter a cremosidade e como guardar na geladeira."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 8,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 25,
+      "totalMinutes": null
+    },
+    "timeNote": "Depois de ferver, são cerca de 20 minutos para o arroz e mais 5 após o leite condensado. Some o preparo, o resfriamento e a geladeira.",
+    "ingredients": [
+      {
+        "id": "arroz",
+        "name": "Arroz cru",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "leite",
+        "name": "Leite",
+        "quantity": 3,
+        "unit": "xícaras (chá)"
+      },
+      {
+        "id": "agua",
+        "name": "Água",
+        "quantity": 2,
+        "unit": "xícaras (chá)",
+        "shopping": false
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar",
+        "quantity": 0.3333333333333333,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "condensado",
+        "name": "Leite condensado",
+        "quantity": 0.5,
+        "unit": "lata",
+        "note": "Metade de uma lata de 395 g."
+      },
+      {
+        "id": "laranja",
+        "name": "Laranja para retirar a casca",
+        "quantity": 1,
+        "unit": "unidade",
+        "note": "Use somente a parte colorida da casca."
+      },
+      {
+        "id": "canela-rama",
+        "name": "Canela em rama",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "cravo",
+        "name": "Cravo-da-índia",
+        "quantity": 3,
+        "unit": "unidades"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 1,
+        "unit": "pitada"
+      },
+      {
+        "id": "canela-po",
+        "name": "Canela em pó para servir",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Lave e seque a laranja. Retire tiras finas da casca, deixando a parte branca de fora."
+      },
+      {
+        "id": "passo-2",
+        "text": "Misture na panela leite, água, açúcar e sal. Acrescente arroz cru, casca de laranja, canela em rama e cravos."
+      },
+      {
+        "id": "passo-3",
+        "text": "Leve ao fogo e mexa até ferver. Abaixe o fogo e cozinhe por cerca de 20 minutos, mexendo de vez em quando."
+      },
+      {
+        "id": "passo-4",
+        "text": "Prove um grão: deve estar macio e ainda haver bastante caldo. Junte o leite condensado e cozinhe por mais 5 minutos."
+      },
+      {
+        "id": "passo-5",
+        "text": "Retire as cascas e as especiarias inteiras antes de servir. Transfira para recipiente raso e cubra com filme próprio para alimentos em contato com a superfície."
+      },
+      {
+        "id": "passo-6",
+        "text": "Resfrie prontamente, sem deixar horas na bancada, e leve à geladeira. Polvilhe canela em pó ao servir."
+      }
+    ],
+    "equipment": [
+      "Panela média e colher",
+      "Xícara e colheres medidoras",
+      "Descascador ou faca pequena",
+      "Recipiente raso e filme para alimentos",
+      "Tigelinhas para servir"
+    ],
+    "tips": [
+      {
+        "title": "Não espere secar",
+        "text": "O caldo engrossa durante o resfriamento. Desligar só quando estiver seco deixa o doce mais firme."
+      },
+      {
+        "title": "Casca sem amargor",
+        "text": "Tire apenas a parte colorida da laranja e retire as tiras antes de dividir nas tigelas."
+      },
+      {
+        "title": "Arroz cru",
+        "text": "Sobras de arroz salgado já cozido não seguem estas medidas nem este método."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Resfrie sem demora",
+        "text": "Divida em recipientes rasos e refrigere idealmente em até 1 hora. Não deixe a panela cheia esfriando por horas na bancada."
+      },
+      {
+        "title": "Na geladeira",
+        "text": "Mantenha a 4 °C ou menos e consuma em até 24 horas. Sirva frio com utensílio limpo; descarte o que ficou mais de 2 horas sem refrigeração."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T00:33:03Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — arroz-doce tradicional",
+      "url": "https://panelinha.com.br/receita/arroz-doce-tradicional",
+      "role": "Formulação, rendimento de oito porções e ponto com caldo."
+    },
+    {
+      "title": "Food Standards Agency — arroz e resfriamento",
+      "url": "https://www.food.gov.uk/safety-hygiene/home-food-fact-checker",
+      "role": "Cuidados específicos de refrigeração do arroz cozido."
+    }
+  ],
+  "editorialNotes": [
+    "Acervo227long mesmafonte/formula,awaiting-review/youtubeVideoIdnull. SemembedatépublicaçãoeIDreal. Retirada de cascas/cravos é orientação editorial de serviço. Fonte dizmais2h,sem totalartificial25min.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

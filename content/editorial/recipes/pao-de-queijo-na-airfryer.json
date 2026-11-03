@@ -1,0 +1,171 @@
+{
+  "id": "pao-de-queijo-na-airfryer",
+  "slug": "pao-de-queijo-na-airfryer",
+  "title": "Pão de queijo na airfryer com dois polvilhos",
+  "description": "Pão de queijo na airfryer com polvilho doce, azedo e queijo meia-cura. Veja como escaldar, modelar, assar em levas e congelar a massa crua.",
+  "intro": "A receita rende cerca de 30 unidades. Os 15 minutos de airfryer são por leva, depois de preparar a massa.",
+  "categoryIds": [
+    "lanches",
+    "airfryer"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/pao-queijo-airfryer.webp",
+    "alt": "Imagem ilustrativa: Pães de queijo dourados em prato claro, com um aberto mostrando o miolo aerado"
+  },
+  "publishedAt": "2026-11-03T00:33:03Z",
+  "updatedAt": "2026-11-03T00:33:03Z",
+  "seo": {
+    "title": "Pão de queijo na airfryer com dois polvilhos | Bebel",
+    "description": "Pão de queijo na airfryer com polvilho doce, azedo e queijo meia-cura. Veja como escaldar, modelar, assar em levas e congelar a massa crua."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 30,
+      "unit": "unidade"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 15,
+      "totalMinutes": null
+    },
+    "timeNote": "Reserve tempo para escaldar, amornar e modelar; asse cada leva por cerca de 15 minutos a 190 °C, em aparelho preaquecido.",
+    "ingredients": [
+      {
+        "id": "azedo",
+        "name": "Polvilho azedo",
+        "quantity": 2,
+        "unit": "xícaras (chá)"
+      },
+      {
+        "id": "doce",
+        "name": "Polvilho doce",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "queijo",
+        "name": "Queijo meia-cura ralado grosso",
+        "quantity": 1.5,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "ovos",
+        "name": "Ovos",
+        "quantity": 3,
+        "unit": "unidades"
+      },
+      {
+        "id": "agua",
+        "name": "Água",
+        "quantity": 1.5,
+        "unit": "xícara (chá)",
+        "shopping": false
+      },
+      {
+        "id": "oleo",
+        "name": "Óleo",
+        "quantity": 0.25,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 1,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "untar",
+        "name": "Óleo para untar as mãos",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Misture os polvilhos e o sal numa tigela grande. Leve a água e o óleo ao fogo até ferver e desligue."
+      },
+      {
+        "id": "passo-2",
+        "text": "Despeje o líquido quente nos polvilhos, mexendo com colher firme até incorporar. Deixe amornar."
+      },
+      {
+        "id": "passo-3",
+        "text": "Misture o queijo. Acrescente os ovos um por vez, mexendo bem entre eles; a massa fica rústica e pegajosa."
+      },
+      {
+        "id": "passo-4",
+        "text": "Unte as mãos e modele cerca de 30 bolinhas, com aproximadamente 3 cm ou 30 g cada. Apoie numa assadeira."
+      },
+      {
+        "id": "passo-5",
+        "text": "Preaqueça a airfryer a 190 °C conforme o manual. Disponha uma leva com espaço entre os pães; a referência da fonte é de 7 por vez."
+      },
+      {
+        "id": "passo-6",
+        "text": "Asse por cerca de 15 minutos a 190 °C, até crescer e dourar, sem precisar virar. Confira o interior de um pão antes de retirar a leva."
+      },
+      {
+        "id": "passo-7",
+        "text": "Repita com os demais ou congele parte da massa modelada. Sirva os pães assados ainda mornos."
+      }
+    ],
+    "equipment": [
+      "Airfryer com ajuste a 190 °C",
+      "Panela, tigela grande e colher firme",
+      "Ralador e medidores",
+      "Assadeira para apoiar os pães",
+      "Balança culinária opcional e luvas térmicas"
+    ],
+    "tips": [
+      {
+        "title": "Deixe amornar",
+        "text": "Separe o queijo e os ovos enquanto a massa perde calor; eles entram depois da escaldagem."
+      },
+      {
+        "title": "Não é tapioca granulada",
+        "text": "Use os dois polvilhos indicados. Goma hidratada e tapioca granulada não são substituições diretas."
+      },
+      {
+        "title": "Prepare em levas",
+        "text": "Não tente acomodar os 30 pães de uma vez. O espaço livre permite que cresçam sem grudar."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Para congelar cru",
+        "text": "Congele as bolinhas separadas numa assadeira. Quando firmes, embale em saco para alimentos, marque a data e congele por até 3 meses."
+      },
+      {
+        "title": "Direto do congelador",
+        "text": "Leve os pães congelados à airfryer preaquecida a 190 °C por cerca de 15 minutos, conferindo o centro. Mantenha espaço entre eles."
+      },
+      {
+        "title": "Pães já assados",
+        "text": "Depois de frios, guarde fechados na geladeira e consuma em 2 a 3 dias. Aqueça apenas a porção que vai servir."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T00:33:03Z"
+  },
+  "sources": [
+    {
+      "title": "Electrolux — pão de queijo por Rita Lobo",
+      "url": "https://loja.electrolux.com.br/pao-de-queijo-por-rita-lobo",
+      "role": "Formulação de 30 unidades, temperatura, levas e congelamento."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e cuidados com sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Fonte primáriaElectrolux30unidades30g190°C15min. URLsPanelinha consultadas não acessíveis,não citadas como lidas. Acervo133tapiocagranulada incompatível,sem vídeo.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

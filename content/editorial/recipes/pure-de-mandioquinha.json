@@ -1,0 +1,146 @@
+{
+  "id": "pure-de-mandioquinha",
+  "slug": "pure-de-mandioquinha",
+  "title": "Purê de mandioquinha com manteiga no final",
+  "description": "Purê de mandioquinha com leite quente e manteiga gelada no final. Veja como cozinhar, amassar e acertar a textura sem liquidificador.",
+  "intro": "A mandioquinha também é chamada de batata-baroa. Amasse ainda quente e incorpore o leite aos poucos para controlar a cremosidade.",
+  "categoryIds": [
+    "acompanhamentos"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/pure-mandioquinha.webp",
+    "alt": "Imagem ilustrativa: Purê amarelo-claro de mandioquinha com marcas de colher e brilho suave de manteiga em tigela clara"
+  },
+  "publishedAt": "2026-11-03T01:47:38Z",
+  "updatedAt": "2026-11-03T01:47:38Z",
+  "seo": {
+    "title": "Purê de mandioquinha com manteiga no final | Bebel",
+    "description": "Purê de mandioquinha com leite quente e manteiga gelada no final. Veja como cozinhar, amassar e acertar a textura sem liquidificador."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 4,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 15,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 15 minutos depois que a água ferver, além de descascar, cortar e finalizar o purê no fogo.",
+    "ingredients": [
+      {
+        "id": "mandioquinha",
+        "name": "Mandioquinha",
+        "quantity": 500,
+        "unit": "g"
+      },
+      {
+        "id": "leite",
+        "name": "Leite",
+        "quantity": 0.5,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "manteiga",
+        "name": "Manteiga gelada",
+        "quantity": 2,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "sal-cozinhar",
+        "name": "Sal para a água do cozimento",
+        "quantity": 1,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "sal-final",
+        "name": "Sal para ajustar no final",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "agua",
+        "name": "Água para cobrir os legumes",
+        "quantity": null,
+        "unit": "a gosto",
+        "shopping": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Lave e descasque as mandioquinhas. Corte ao meio no comprimento e depois em fatias de aproximadamente 1 cm."
+      },
+      {
+        "id": "passo-2",
+        "text": "Coloque numa panela, cubra com água e junte a colher de chá de sal. Após ferver, reduza o fogo e cozinhe por cerca de 15 minutos, até o garfo entrar com facilidade."
+      },
+      {
+        "id": "passo-3",
+        "text": "Escorra e volte os pedaços para a panela. Amasse ainda quentes com amassador ou espremedor de batatas."
+      },
+      {
+        "id": "passo-4",
+        "text": "Aqueça o leite em recipiente próprio no micro-ondas por cerca de 30 segundos, ou até aquecer."
+      },
+      {
+        "id": "passo-5",
+        "text": "Em fogo médio, misture o leite quente ao purê aos poucos, até ficar cremoso. Desligue e incorpore a manteiga gelada. Prove e ajuste o sal."
+      }
+    ],
+    "equipment": [
+      "Panela média e escorredor",
+      "Amassador de legumes ou espremedor de batatas",
+      "Tábua, faca e descascador",
+      "Jarra própria para micro-ondas e espátula",
+      "Balança e medidores"
+    ],
+    "tips": [
+      {
+        "title": "Amasse quente",
+        "text": "Os pedaços macios passam mais facilmente pelo amassador enquanto ainda estão quentes."
+      },
+      {
+        "title": "Leite aos poucos",
+        "text": "Adicione em etapas e observe a consistência. A quantidade necessária pode variar com a umidade dos legumes."
+      },
+      {
+        "title": "Manteiga fora do fogo",
+        "text": "Desligue antes de misturar a manteiga e mexa até ela se incorporar completamente."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Distribua em recipientes rasos e refrigere prontamente a 4 °C ou menos. Feche depois de frio e consuma em 2 a 3 dias."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça somente a porção desejada até atingir 74 °C no centro. Descarte o que ficou mais de 2 horas fora da geladeira."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T01:47:38Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — purê de mandioquinha",
+      "url": "https://panelinha.com.br/receita/pure-de-mandioquinha",
+      "role": "500 g de mandioquinha, até quatro porções, leite quente e manteiga gelada fora do fogo."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, conservação refrigerada e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Acervo090 éShortcomIDnull; nãoembed. Referência até4porções tratada4deacompanhamento. Tempo15min começaapósfervura,nãototal. Fórmula distinta das22refeiçõespagas.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

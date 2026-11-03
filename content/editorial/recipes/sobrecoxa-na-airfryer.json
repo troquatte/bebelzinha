@@ -1,0 +1,165 @@
+{
+  "id": "sobrecoxa-na-airfryer",
+  "slug": "sobrecoxa-na-airfryer",
+  "title": "Sobrecoxa na airfryer com casquinha crocante",
+  "description": "Sobrecoxas com osso, chimichurri e uma camada de farinha de rosca. Confira as viradas e o ponto de cozimento no centro.",
+  "intro": "Esta versão rende 3 porções. As peças vão em uma camada, sem sobrepor.",
+  "categoryIds": [
+    "pratos-do-dia",
+    "airfryer"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/sobrecoxa-airfryer.webp",
+    "alt": "Imagem ilustrativa de três sobrecoxas com casquinha dourada de farinha de rosca"
+  },
+  "publishedAt": "2026-11-03T00:05:36Z",
+  "updatedAt": "2026-11-03T00:05:36Z",
+  "seo": {
+    "title": "Sobrecoxa na airfryer com casquinha crocante | Bebel",
+    "description": "Sobrecoxas com osso, chimichurri e uma camada de farinha de rosca. Confira as viradas e o ponto de cozimento no centro. Ingredientes, passo a passo e lista de compras."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 3,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 40,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 40 minutos de airfryer por leva, além do tempero e empanamento. Confira sempre a temperatura no centro do frango.",
+    "ingredients": [
+      {
+        "id": "frango",
+        "name": "Sobrecoxas de frango com pele e osso",
+        "quantity": 3,
+        "unit": "unidades",
+        "note": "Descongeladas na geladeira."
+      },
+      {
+        "id": "sal",
+        "name": "Sal grosso triturado",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "chimichurri",
+        "name": "Chimichurri",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": null,
+        "unit": "a gosto",
+        "note": "Um fio para envolver as peças."
+      },
+      {
+        "id": "farinha-rosca",
+        "name": "Farinha de rosca para empanar",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "preparar",
+        "text": "Mantenha o frango refrigerado até o preparo. Separe tábua e utensílios dos alimentos prontos; lave as mãos depois de manipular a carne crua."
+      },
+      {
+        "id": "temperar",
+        "text": "Envolva as sobrecoxas com sal, chimichurri e um fio de azeite. Deixe temperar por 5 minutos na geladeira."
+      },
+      {
+        "id": "empanar",
+        "text": "Passe na farinha de rosca, cobrindo as peças. Descarte a farinha que ficou em contato com o frango cru."
+      },
+      {
+        "id": "preaquecer",
+        "text": "Preaqueça a airfryer a 180 °C conforme o manual."
+      },
+      {
+        "id": "primeira-etapa",
+        "text": "Coloque a pele para baixo e o osso para cima, sem sobrepor. Asse por cerca de 20 minutos a 180 °C."
+      },
+      {
+        "id": "virar",
+        "text": "Vire com pinça e asse por mais 15 minutos a 200 °C. Vire novamente e deixe mais 5 minutos."
+      },
+      {
+        "id": "conferir",
+        "text": "Meça a parte mais grossa, sem encostar no osso: precisa atingir 74 °C. Se ainda não chegou, continue e confira novamente. A cor da casquinha não basta."
+      },
+      {
+        "id": "servir",
+        "text": "Retire com utensílio limpo e sirva. Arroz e uma salada podem acompanhar."
+      }
+    ],
+    "equipment": [
+      "Airfryer",
+      "Tigela para temperar e prato para empanar",
+      "Pinça e tábua exclusiva para a carne crua",
+      "Termômetro culinário",
+      "Travessa limpa para servir"
+    ],
+    "tips": [
+      {
+        "title": "Peças grandes pedem atenção",
+        "text": "Tempo é referência; use o termômetro para conferir o interior, principalmente perto do osso."
+      },
+      {
+        "title": "Não amontoe",
+        "text": "Divida em levas quando necessário. Não dobre o tempo só porque aumentou a quantidade."
+      },
+      {
+        "title": "Qual corte?",
+        "text": "Use sobrecoxa com pele e osso. Peito, filé desossado e peça congelada exigem outro preparo."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Para guardar",
+        "text": "Leve as sobras prontamente à geladeira, em recipiente limpo e raso. Mantenha a 4 °C ou menos e consuma em 2 a 3 dias. Identifique a data."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça somente a porção que vai consumir até o centro atingir 74 °C. Use recipiente adequado ao aparelho e termômetro culinário; o tempo muda conforme a quantidade."
+      },
+      {
+        "title": "Depois de servir",
+        "text": "Descarte o que ficou mais de 2 horas em temperatura ambiente. Separe a porção que vai guardar antes de levar o restante à mesa."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T00:05:36Z"
+  },
+  "sources": [
+    {
+      "title": "Receiteria — sobrecoxas crocantes na airfryer",
+      "url": "https://www.receiteria.com.br/receita/sobrecoxas-crocantes-na-airfryer/",
+      "role": "Fórmula com três peças, empanamento, temperaturas e viradas."
+    },
+    {
+      "title": "FoodSafety.gov — temperaturas de cozimento",
+      "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+      "role": "Temperaturas internas de frango, peixe e sobras reaquecidas."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Cuidados gerais de resfriamento, refrigeração e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Escolhida fórmula Receiteria3sobrecoxas/chimichurri/rosca:20min180+15min200+5min200. Não misturar fórmula720g/vinagre/coxa+sob.",
+    "Fonte não quantifica peso de cada peça nem rosca/sal: mantidos a gosto, sem inventar gramas. Adicionada verificação74°C comFoodSafety; tempo não garante interior cozido.",
+    "Marinada curta refrigerada. Sem lavagem de frango na pia. Nenhuma das22fichas pagas é esta formulação; não copiada ficha paga.",
+    "Notas de auditoria são internas. Não expor avisos de piloto/não testado, não alegar teste próprio. Imagem fotográfica ilustrativa, sem vídeo próprio correspondente no acervo."
+  ]
+}

@@ -20,6 +20,14 @@
     {
       "id": "lanches",
       "label": "Lanches"
+    },
+    {
+      "id": "airfryer",
+      "label": "Receitas de airfryer"
+    },
+    {
+      "id": "acompanhamentos",
+      "label": "Acompanhamentos"
     }
   ],
   "recipes": [
@@ -52,6 +60,288 @@
       "slug": "bolo-de-banana-na-airfryer-com-farinha-de-trigo",
       "status": "published",
       "file": "recipes/bolo-de-banana-na-airfryer-com-farinha-de-trigo.json"
+    },
+    {
+      "id": "bolo-de-cenoura-pequeno",
+      "slug": "bolo-de-cenoura-pequeno",
+      "status": "published",
+      "file": "recipes/bolo-de-cenoura-pequeno.json"
+    },
+    {
+      "id": "bolinho-de-arroz-na-airfryer",
+      "slug": "bolinho-de-arroz-na-airfryer",
+      "status": "published",
+      "file": "recipes/bolinho-de-arroz-na-airfryer.json"
+    },
+    {
+      "id": "batata-rustica-na-airfryer",
+      "slug": "batata-rustica-na-airfryer",
+      "status": "published",
+      "file": "recipes/batata-rustica-na-airfryer.json"
+    },
+    {
+      "id": "bolo-de-fuba-cremoso",
+      "slug": "bolo-de-fuba-cremoso",
+      "status": "published",
+      "file": "recipes/bolo-de-fuba-cremoso.json"
+    },
+    {
+      "id": "brigadeiro-de-limao",
+      "slug": "brigadeiro-de-limao",
+      "status": "published",
+      "file": "recipes/brigadeiro-de-limao.json"
+    },
+    {
+      "id": "sobrecoxa-na-airfryer",
+      "slug": "sobrecoxa-na-airfryer",
+      "status": "published",
+      "file": "recipes/sobrecoxa-na-airfryer.json"
+    },
+    {
+      "id": "berinjela-na-airfryer",
+      "slug": "berinjela-na-airfryer",
+      "status": "published",
+      "file": "recipes/berinjela-na-airfryer.json"
+    },
+    {
+      "id": "sardinha-na-airfryer",
+      "slug": "sardinha-na-airfryer",
+      "status": "published",
+      "file": "recipes/sardinha-na-airfryer.json"
+    },
+    {
+      "id": "pao-caseiro-na-airfryer",
+      "slug": "pao-caseiro-na-airfryer",
+      "status": "published",
+      "file": "recipes/pao-caseiro-na-airfryer.json"
+    },
+    {
+      "id": "brigadeiro-de-morango",
+      "slug": "brigadeiro-de-morango",
+      "status": "published",
+      "file": "recipes/brigadeiro-de-morango.json"
+    },
+    {
+      "id": "pudim-de-leite-condensado",
+      "slug": "pudim-de-leite-condensado",
+      "status": "published",
+      "file": "recipes/pudim-de-leite-condensado.json"
+    },
+    {
+      "id": "pao-de-queijo-na-airfryer",
+      "slug": "pao-de-queijo-na-airfryer",
+      "status": "published",
+      "file": "recipes/pao-de-queijo-na-airfryer.json"
+    },
+    {
+      "id": "banana-na-airfryer",
+      "slug": "banana-na-airfryer",
+      "status": "published",
+      "file": "recipes/banana-na-airfryer.json"
+    },
+    {
+      "id": "legumes-assados-na-airfryer",
+      "slug": "legumes-assados-na-airfryer",
+      "status": "published",
+      "file": "recipes/legumes-assados-na-airfryer.json"
+    },
+    {
+      "id": "bolo-de-chocolate-simples",
+      "slug": "bolo-de-chocolate-simples",
+      "status": "published",
+      "file": "recipes/bolo-de-chocolate-simples.json"
+    },
+    {
+      "id": "arroz-doce",
+      "slug": "arroz-doce",
+      "status": "published",
+      "file": "recipes/arroz-doce.json"
+    },
+    {
+      "id": "mousse-de-maracuja",
+      "slug": "mousse-de-maracuja",
+      "status": "published",
+      "file": "recipes/mousse-de-maracuja.json"
+    },
+    {
+      "id": "salada-de-grao-de-bico",
+      "slug": "salada-de-grao-de-bico",
+      "status": "published",
+      "file": "recipes/salada-de-grao-de-bico.json"
+    },
+    {
+      "id": "cuscuz-marroquino",
+      "slug": "cuscuz-marroquino",
+      "status": "published",
+      "file": "recipes/cuscuz-marroquino.json"
+    },
+    {
+      "id": "mandioca-na-airfryer",
+      "slug": "mandioca-na-airfryer",
+      "status": "published",
+      "file": "recipes/mandioca-na-airfryer.json"
+    },
+    {
+      "id": "couve-flor-na-airfryer",
+      "slug": "couve-flor-na-airfryer",
+      "status": "published",
+      "file": "recipes/couve-flor-na-airfryer.json"
+    },
+    {
+      "id": "pastel-na-airfryer",
+      "slug": "pastel-na-airfryer",
+      "status": "published",
+      "file": "recipes/pastel-na-airfryer.json"
+    },
+    {
+      "id": "pao-de-alho-na-airfryer",
+      "slug": "pao-de-alho-na-airfryer",
+      "status": "published",
+      "file": "recipes/pao-de-alho-na-airfryer.json"
+    },
+    {
+      "id": "cookie-na-airfryer",
+      "slug": "cookie-na-airfryer",
+      "status": "published",
+      "file": "recipes/cookie-na-airfryer.json"
+    },
+    {
+      "id": "panqueca-de-banana",
+      "slug": "panqueca-de-banana",
+      "status": "published",
+      "file": "recipes/panqueca-de-banana.json"
+    },
+    {
+      "id": "bolo-de-laranja",
+      "slug": "bolo-de-laranja",
+      "status": "published",
+      "file": "recipes/bolo-de-laranja.json"
+    },
+    {
+      "id": "torta-salgada-de-liquidificador",
+      "slug": "torta-salgada-de-liquidificador",
+      "status": "published",
+      "file": "recipes/torta-salgada-de-liquidificador.json"
+    },
+    {
+      "id": "mousse-de-limao-com-3-ingredientes",
+      "slug": "mousse-de-limao-com-3-ingredientes",
+      "status": "published",
+      "file": "recipes/mousse-de-limao-com-3-ingredientes.json"
+    },
+    {
+      "id": "pudim-de-pao",
+      "slug": "pudim-de-pao",
+      "status": "published",
+      "file": "recipes/pudim-de-pao.json"
+    },
+    {
+      "id": "brownie",
+      "slug": "brownie",
+      "status": "published",
+      "file": "recipes/brownie.json"
+    },
+    {
+      "id": "bolinho-de-chuva",
+      "slug": "bolinho-de-chuva",
+      "status": "published",
+      "file": "recipes/bolinho-de-chuva.json"
+    },
+    {
+      "id": "canjica",
+      "slug": "canjica",
+      "status": "published",
+      "file": "recipes/canjica.json"
+    },
+    {
+      "id": "beijinho-de-coco",
+      "slug": "beijinho-de-coco",
+      "status": "published",
+      "file": "recipes/beijinho-de-coco.json"
+    },
+    {
+      "id": "abobora-na-airfryer",
+      "slug": "abobora-na-airfryer",
+      "status": "published",
+      "file": "recipes/abobora-na-airfryer.json"
+    },
+    {
+      "id": "milho-na-airfryer",
+      "slug": "milho-na-airfryer",
+      "status": "published",
+      "file": "recipes/milho-na-airfryer.json"
+    },
+    {
+      "id": "crepioca",
+      "slug": "crepioca",
+      "status": "published",
+      "file": "recipes/crepioca.json"
+    },
+    {
+      "id": "geleia-de-morango",
+      "slug": "geleia-de-morango",
+      "status": "published",
+      "file": "recipes/geleia-de-morango.json"
+    },
+    {
+      "id": "pure-de-mandioquinha",
+      "slug": "pure-de-mandioquinha",
+      "status": "published",
+      "file": "recipes/pure-de-mandioquinha.json"
+    },
+    {
+      "id": "farofa-de-banana",
+      "slug": "farofa-de-banana",
+      "status": "published",
+      "file": "recipes/farofa-de-banana.json"
+    },
+    {
+      "id": "batata-doce-na-airfryer",
+      "slug": "batata-doce-na-airfryer",
+      "status": "published",
+      "file": "recipes/batata-doce-na-airfryer.json"
+    },
+    {
+      "id": "cebola-caramelizada",
+      "slug": "cebola-caramelizada",
+      "status": "published",
+      "file": "recipes/cebola-caramelizada.json"
+    },
+    {
+      "id": "homus",
+      "slug": "homus",
+      "status": "published",
+      "file": "recipes/homus.json"
+    },
+    {
+      "id": "quiche-de-queijo",
+      "slug": "quiche-de-queijo",
+      "status": "published",
+      "file": "recipes/quiche-de-queijo.json"
+    },
+    {
+      "id": "esfiha-de-frango",
+      "slug": "esfiha-de-frango",
+      "status": "published",
+      "file": "recipes/esfiha-de-frango.json"
+    },
+    {
+      "id": "bolo-de-milho",
+      "slug": "bolo-de-milho",
+      "status": "published",
+      "file": "recipes/bolo-de-milho.json"
+    },
+    {
+      "id": "curau",
+      "slug": "curau",
+      "status": "published",
+      "file": "recipes/curau.json"
+    },
+    {
+      "id": "cocada-branca",
+      "slug": "cocada-branca",
+      "status": "published",
+      "file": "recipes/cocada-branca.json"
     }
   ]
 }

@@ -1,0 +1,132 @@
+{
+  "id": "banana-na-airfryer",
+  "slug": "banana-na-airfryer",
+  "title": "Banana na airfryer em rodelas com canela",
+  "description": "Banana-nanica na airfryer em rodelas, com açúcar e canela. Confira o refratário adequado, a temperatura e quando mexer durante o preparo.",
+  "intro": "Use bananas maduras, ainda firmes para cortar. O preparo é feito num refratário próprio para airfryer.",
+  "categoryIds": [
+    "doces",
+    "lanches",
+    "airfryer"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/banana-airfryer.webp",
+    "alt": "Imagem ilustrativa: Rodelas de banana assadas com açúcar e canela em um refratário claro"
+  },
+  "publishedAt": "2026-11-03T00:33:03Z",
+  "updatedAt": "2026-11-03T00:33:03Z",
+  "seo": {
+    "title": "Banana na airfryer em rodelas com canela | Bebel",
+    "description": "Banana-nanica na airfryer em rodelas, com açúcar e canela. Confira o refratário adequado, a temperatura e quando mexer durante o preparo."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 2,
+      "unit": "banana"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 10,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 10 minutos a 180 °C por leva, além de cortar a fruta e preaquecer o aparelho.",
+    "ingredients": [
+      {
+        "id": "banana",
+        "name": "Banana-nanica",
+        "quantity": 2,
+        "unit": "unidades"
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "canela",
+        "name": "Canela em pó",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Preaqueça a airfryer a 180 °C conforme o manual. Escolha um refratário resistente ao calor que caiba no cesto com espaço ao redor."
+      },
+      {
+        "id": "passo-2",
+        "text": "Descasque as bananas e corte em rodelas de espessura semelhante."
+      },
+      {
+        "id": "passo-3",
+        "text": "Distribua no refratário e polvilhe açúcar e canela a gosto."
+      },
+      {
+        "id": "passo-4",
+        "text": "Acomode o refratário no cesto e asse por cerca de 10 minutos a 180 °C. Mexa delicadamente na metade do tempo."
+      },
+      {
+        "id": "passo-5",
+        "text": "Confira a maciez e as bordas douradas; retire o recipiente com luvas térmicas."
+      },
+      {
+        "id": "passo-6",
+        "text": "Sirva morna. Espere a fruta perder o calor intenso antes de provar."
+      }
+    ],
+    "equipment": [
+      "Airfryer",
+      "Refratário próprio para o aparelho",
+      "Tábua, faca e colher",
+      "Luvas térmicas"
+    ],
+    "tips": [
+      {
+        "title": "Por que usar refratário?",
+        "text": "Ele contém o líquido liberado pela fruta. Confira no manual quais materiais seu aparelho aceita."
+      },
+      {
+        "title": "Ajuste o açúcar",
+        "text": "A banana madura já é doce. Comece com pouco e escolha a quantidade ao seu gosto."
+      },
+      {
+        "title": "Qual banana?",
+        "text": "Esta versão usa banana-nanica; banana-da-terra tem textura diferente e pede outra referência de preparo."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Guarde prontamente em pote limpo e fechado, a 4 °C ou menos. Consuma em 2 a 3 dias. Descarte o que ficou mais de 2 horas fora de refrigeração."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça apenas a porção que vai consumir até atingir 74 °C no centro. Confira com termômetro culinário e use recipiente adequado ao aparelho."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T00:33:03Z"
+  },
+  "sources": [
+    {
+      "title": "Canal Airfryer — banana assada em rodelas",
+      "url": "https://www.canalairfryer.com.br/assar-banana-na-airfryer/",
+      "role": "Ingredientes, recipiente, temperatura, tempo e mistura na metade."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e cuidados com sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Fonte2bananas não declara número de pessoas; rendimento2bananas,sem inventar2porções. Foto rodelas,refratário. Página recuperada por busca,abertura diretafalhou.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

@@ -7,7 +7,7 @@
     </header>
     <div class="dinner__layout">
       <article class="dinner__recipe" aria-labelledby="recipe-title">
-        <span class="dinner__eyebrow">Receita pesquisada · {{ servings() }} {{ servings() === 1 ? 'porção' : 'porções' }}</span>
+        <span class="dinner__eyebrow">Receita pesquisada · {{ yieldLabel() }}</span>
         <div class="recipe-public__media" id="video">
           @if (!recipe.videoId) {
             <img [src]="recipe.image.src" [alt]="recipe.image.alt" width="1280" height="720" />
@@ -22,7 +22,7 @@
           <p>{{ recipe.description }}</p>
           @if (recipe.videoId) { <a class="dinner__video-caption" [href]="'https://www.youtube.com/watch?v=' + recipe.videoId" target="_blank" rel="noopener noreferrer">Abrir vídeo no YouTube</a> }
           <div class="dinner__metadata">
-            <span><span class="material-symbols-outlined" aria-hidden="true">group</span>{{ recipe.recipe.portions?.length ? '2 pessoas' : 'Rende ' + servings() + ' porções' }}</span>
+            <span><span class="material-symbols-outlined" aria-hidden="true">group</span>{{ recipe.recipe.portions?.length ? '2 pessoas' : 'Rende ' + yieldLabel() }}</span>
             @if (servings() === recipe.recipe.yield.servings && recipe.recipe.times.totalMinutes) { <span><span class="material-symbols-outlined" aria-hidden="true">schedule</span>{{ recipe.recipe.times.totalMinutes }} min estimados</span> }
           </div>
           @if (recipe.recipe.portions; as portions) {
@@ -59,7 +59,7 @@
         </div>
       </article>
       <section class="dinner__shopping" aria-labelledby="recipe-shopping-title">
-        <header class="dinner__shopping-header"><span class="material-symbols-outlined" aria-hidden="true">shopping_cart</span><div><h2 #shoppingHeading id="recipe-shopping-title" tabindex="-1">Compras desta receita</h2><p>@if (recipe.recipe.portions?.length) { 2 pessoas · {{ servings() === 2 ? '1 refeição' : '2 refeições' }} · }{{ servings() }} porções</p></div></header>
+        <header class="dinner__shopping-header"><span class="material-symbols-outlined" aria-hidden="true">shopping_cart</span><div><h2 #shoppingHeading id="recipe-shopping-title" tabindex="-1">Compras desta receita</h2><p>@if (recipe.recipe.portions?.length) { 2 pessoas · {{ servings() === 2 ? '1 refeição' : '2 refeições' }} · }{{ yieldLabel() }}</p></div></header>
         <p class="dinner__shopping-help">Marque o que já tem em casa ou colocou no carrinho. Pode desmarcar quando quiser.</p>
         <app-shopping-checklist [compactHeadings]="true" [items]="shoppingItems()" [idPrefix]="'public-' + recipe.id" (checkedChange)="toggle('ingredients', $event.item.id, $event.checked)" />
         <span class="dinner__progress" role="status">{{ resolvedShopping() }} de {{ shoppingItems().length }} itens resolvidos.</span>

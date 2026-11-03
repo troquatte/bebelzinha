@@ -1,0 +1,144 @@
+{
+  "id": "homus",
+  "slug": "homus",
+  "title": "Homus com grão-de-bico cozido e tahine",
+  "description": "Homus rápido com grão-de-bico de lata, tahine, alho e limão. Veja como escorrer e ajustar a água até chegar à textura da pasta.",
+  "intro": "O grão-de-bico já entra cozido. Use a versão de lata escorrida e ajuste a água aos poucos no processador.",
+  "categoryIds": [
+    "acompanhamentos",
+    "lanches"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/homus-tahine.webp",
+    "alt": "Imagem ilustrativa: Pasta bege cremosa de grão-de-bico com tahine, em tigela clara e sem coberturas extras"
+  },
+  "publishedAt": "2026-11-03T01:47:38Z",
+  "updatedAt": "2026-11-03T01:47:38Z",
+  "seo": {
+    "title": "Homus com grão-de-bico cozido e tahine | Bebel",
+    "description": "Homus rápido com grão-de-bico de lata, tahine, alho e limão. Veja como escorrer e ajustar a água até chegar à textura da pasta."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 6,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Sem cocção nesta versão: reserve o tempo de escorrer, preparar os temperos e processar até a consistência desejada.",
+    "ingredients": [
+      {
+        "id": "grao",
+        "name": "Grão-de-bico cozido em lata",
+        "quantity": 1,
+        "unit": "lata",
+        "note": "Escorra antes de processar."
+      },
+      {
+        "id": "tahine",
+        "name": "Tahine, pasta de gergelim",
+        "quantity": 3,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "alho",
+        "name": "Alho descascado",
+        "quantity": 1,
+        "unit": "dente"
+      },
+      {
+        "id": "limao",
+        "name": "Limão",
+        "quantity": 0.5,
+        "unit": "unidade",
+        "note": "Use o suco coado."
+      },
+      {
+        "id": "agua",
+        "name": "Água filtrada para dar ponto",
+        "quantity": null,
+        "unit": "a gosto",
+        "shopping": false
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Abra a lata e deixe o grão-de-bico escorrer bem numa peneira. Descasque o alho e esprema meio limão."
+      },
+      {
+        "id": "passo-2",
+        "text": "Coloque grão-de-bico, alho, tahine, suco de limão e uma pitada de sal no processador."
+      },
+      {
+        "id": "passo-3",
+        "text": "Processe e acrescente água filtrada em pequenas quantidades, parando para raspar as laterais com o aparelho desligado."
+      },
+      {
+        "id": "passo-4",
+        "text": "Quando a pasta estiver uniforme e na textura desejada, prove e ajuste o sal. Sirva ou mantenha refrigerada até o momento de consumir."
+      }
+    ],
+    "equipment": [
+      "Processador de alimentos",
+      "Peneira e espátula",
+      "Espremedor e colher medidora",
+      "Tigela ou pote com tampa"
+    ],
+    "tips": [
+      {
+        "title": "Tahine é pasta de gergelim",
+        "text": "Misture o tahine no próprio pote antes de medir se houver separação de óleo."
+      },
+      {
+        "title": "Controle a água",
+        "text": "A pasta pode ficar mais firme ou mais cremosa. Adicione pouco líquido de cada vez."
+      },
+      {
+        "title": "Use grão já cozido",
+        "text": "A versão rápida não funciona com grão-de-bico seco colocado diretamente no processador."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Sempre na geladeira",
+        "text": "Guarde em pote limpo e fechado a 4 °C ou menos e consuma em 2 a 3 dias."
+      },
+      {
+        "title": "Para servir",
+        "text": "Retire a porção com colher limpa. Mantenha refrigerado até servir e não deixe mais de 2 horas fora da geladeira."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T01:47:38Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — homus a jato",
+      "url": "https://panelinha.com.br/receita/homus-a-jato",
+      "role": "Grão-de-bico de lata, três colheres de tahine, meio limão e até seis porções de pasta."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, conservação refrigerada e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Fonte nãoindicapesoescorrido dalata;preservadalata semgramageminventada. Seisporçõesdeentrada. Semazeite/pápricagarnishnãoincluídos. Homus pasta não duplicasaladagrãodebico existente.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

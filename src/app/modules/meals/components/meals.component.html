@@ -11,7 +11,7 @@
           <button type="submit" class="library-button">Buscar<span class="material-symbols-outlined" aria-hidden="true">search</span></button>
         </div>
       </form>
-      <nav class="recipe-filters" aria-label="Filtrar receitas por categoria">
+      <nav class="recipe-filters" tabindex="0" aria-label="Filtrar receitas por categoria">
         <a routerLink="/comidinhas" [queryParams]="{q: searchTerm() || null}" [class.is-selected]="!category()" [attr.aria-current]="!category() ? 'true' : null">Todas</a>
         @for (item of categories; track item.id) {
           <a routerLink="/comidinhas" [queryParams]="{categoria: item.id, q: searchTerm() || null}" [class.is-selected]="category() === item.id" [attr.aria-current]="category() === item.id ? 'true' : null">{{ item.label }}</a>

@@ -1,0 +1,165 @@
+{
+  "id": "bolinho-de-arroz-na-airfryer",
+  "slug": "bolinho-de-arroz-na-airfryer",
+  "title": "Bolinho de arroz na airfryer",
+  "description": "Arroz cozido vira um petisco com parmesão e salsinha. A massa rende 7 bolinhos feitos na airfryer.",
+  "intro": "Meça o arroz depois de cozido. Modele os sete bolinhos com duas colheres.",
+  "categoryIds": [
+    "lanches",
+    "airfryer"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/bolinho-arroz-airfryer.webp",
+    "alt": "Imagem ilustrativa de bolinhos de arroz dourados, com um aberto mostrando o interior"
+  },
+  "publishedAt": "2026-11-02T23:49:19Z",
+  "updatedAt": "2026-11-02T23:49:19Z",
+  "seo": {
+    "title": "Bolinho de arroz na airfryer | Bebel",
+    "description": "Arroz cozido vira um petisco com parmesão e salsinha. A massa rende 7 bolinhos feitos na airfryer. Confira ingredientes, preparo, utensílios e lista de compras."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 7,
+      "unit": "bolinho"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 10,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 10 minutos a 190 °C, além da mistura e modelagem. O tempo pode variar conforme o aparelho.",
+    "ingredients": [
+      {
+        "id": "arroz",
+        "name": "Arroz branco cozido",
+        "quantity": 1,
+        "unit": "xícara (chá)",
+        "note": "Medido já cozido."
+      },
+      {
+        "id": "ovo",
+        "name": "Ovo",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "farinha",
+        "name": "Farinha de trigo",
+        "quantity": 3,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "parmesao",
+        "name": "Queijo parmesão ralado",
+        "quantity": 2,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "salsinha",
+        "name": "Salsinha picada",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite para pincelar",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "misturar",
+        "text": "Junte arroz, farinha, parmesão e salsinha numa tigela. Acrescente o ovo, sal e pimenta; misture até unir."
+      },
+      {
+        "id": "preaquecer",
+        "text": "Preaqueça a airfryer a 190 °C conforme o manual do aparelho."
+      },
+      {
+        "id": "modelar",
+        "text": "Com duas colheres iguais, passe pequenas porções de uma para outra até formar 7 bolinhos alongados."
+      },
+      {
+        "id": "dispor",
+        "text": "Distribua no cesto com espaço entre eles e pincele azeite. Se não couberem, asse em levas."
+      },
+      {
+        "id": "assar",
+        "text": "Asse por cerca de 10 minutos, até dourarem e cozinharem por dentro. Não é preciso virar; confira o ponto no seu aparelho."
+      },
+      {
+        "id": "servir",
+        "text": "Retire com pinça e sirva em seguida."
+      }
+    ],
+    "equipment": [
+      "Airfryer",
+      "Tigela grande e tigela pequena",
+      "Duas colheres do mesmo tamanho",
+      "Pincel culinário e pinça",
+      "Xícara e colheres medidoras"
+    ],
+    "tips": [
+      {
+        "title": "Arroz já cozido",
+        "text": "A xícara é de arroz pronto, não de arroz cru."
+      },
+      {
+        "title": "Espaço no cesto",
+        "text": "Evite amontoar; o ar precisa circular entre os bolinhos."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Antes de preparar",
+        "text": "Use arroz recém-preparado ou resfriado rapidamente e refrigerado por até 24 horas. Conte esse prazo desde o cozimento do arroz."
+      },
+      {
+        "title": "Se for guardar o arroz",
+        "text": "Divida em recipientes rasos e resfrie rapidamente, de preferência em até 1 hora. Mantenha refrigerado até preparar os bolinhos."
+      },
+      {
+        "title": "Sirva na hora",
+        "text": "Preparar bolinhos com arroz refrigerado já conta como reaquecimento. Reaqueça arroz apenas uma vez; faça a quantidade que vai consumir e não guarde esses bolinhos para aquecer novamente."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental das fontes, medidas e método",
+    "reviewedAt": "2026-11-02T23:49:19Z"
+  },
+  "editorialNotes": [
+    "Fórmula Panelinha escolhida inteira:7bolinhos,190°C/10min. Referência Receiteria de9unidades comparada, não misturada. Quantidade em unidades não equivale a7refeições.",
+    "Fonte FSA:24hcontadas do cozimento do arroz; assar arroz já frio constitui um reaquecimento; não reiniciar prazo após preparar bolinhos.",
+    "Pesquisa anterior:14800/mês KD13. Ranking Receiteria#1 aplica à variante1300/mês, não automaticamente ao termo14800. Sem vídeo correspondente encontrado em busca de temas/YouTube.",
+    "Revisão documental interna, não ensaio culinário; não expor comentários de piloto/teste ao leitor. Sem vídeo compatível no acervo consultado. Fotos ilustrativas geradas no padrão aprovado."
+  ],
+  "sources": [
+    {
+      "title": "Panelinha — bolinho de arroz na airfryer",
+      "url": "https://panelinha.com.br/receita/bolinho-de-arroz-airfryer",
+      "role": "Ingredientes, modelagem, rendimento e preparo no aparelho."
+    },
+    {
+      "title": "Food Standards Agency — cuidados com arroz cozido",
+      "url": "https://www.gov.uk/government/publications/home-food-fact-checker/home-food-fact-checker",
+      "role": "Resfriamento, prazo refrigerado e limite de reaquecimento do arroz."
+    }
+  ]
+}

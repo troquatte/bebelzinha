@@ -1,0 +1,179 @@
+{
+  "id": "bolinho-de-chuva",
+  "slug": "bolinho-de-chuva",
+  "title": "Bolinho de chuva com açúcar e canela",
+  "description": "Bolinho de chuva com leite, manteiga, açúcar e canela. Aprenda a porcionar com duas colheres e controlar o óleo para cozinhar o centro.",
+  "intro": "Faça bolinhos pequenos e frite poucas unidades por vez. O óleo muito quente pode dourar a superfície antes de cozinhar a massa.",
+  "categoryIds": [
+    "doces",
+    "lanches"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/bolinho-chuva.webp",
+    "alt": "Imagem ilustrativa: Bolinhos de chuva dourados com açúcar e canela, um aberto mostrando o interior cozido"
+  },
+  "publishedAt": "2026-11-03T01:24:01Z",
+  "updatedAt": "2026-11-03T01:24:01Z",
+  "seo": {
+    "title": "Bolinho de chuva com açúcar e canela | Bebel",
+    "description": "Bolinho de chuva com leite, manteiga, açúcar e canela. Aprenda a porcionar com duas colheres e controlar o óleo para cozinhar o centro."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 50,
+      "unit": "unidade"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Fritura em levas, até dourar e cozinhar o centro. O total varia com o tamanho das porções e a capacidade da panela.",
+    "ingredients": [
+      {
+        "id": "ovos",
+        "name": "Ovos",
+        "quantity": 2,
+        "unit": "unidades"
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar",
+        "quantity": 0.75,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "manteiga",
+        "name": "Manteiga",
+        "quantity": 2,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 0.5,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "fermento",
+        "name": "Fermento químico em pó",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "leite",
+        "name": "Leite",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "farinha",
+        "name": "Farinha de trigo",
+        "quantity": 2,
+        "unit": "xícaras (chá)"
+      },
+      {
+        "id": "oleo",
+        "name": "Óleo para fritar",
+        "quantity": null,
+        "unit": "a gosto",
+        "note": "Quantidade suficiente para a fritura por imersão, com espaço livre na panela."
+      },
+      {
+        "id": "cobertura-acucar",
+        "name": "Açúcar para envolver os bolinhos",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "canela",
+        "name": "Canela em pó",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Misture ovos, manteiga, açúcar e sal numa tigela."
+      },
+      {
+        "id": "passo-2",
+        "text": "Acrescente leite e farinha alternadamente, mexendo com colher. Incorpore o fermento por último."
+      },
+      {
+        "id": "passo-3",
+        "text": "Aqueça óleo numa panela média, deixando espaço livre para a fritura. Reduza o fogo quando estiver quente."
+      },
+      {
+        "id": "passo-4",
+        "text": "Com duas colheres de sobremesa, separe porções pequenas e coloque cuidadosamente no óleo, sem encher a panela."
+      },
+      {
+        "id": "passo-5",
+        "text": "Vire para dourar por igual. Abra um dos primeiros bolinhos: o centro deve estar cozido, sem massa crua. Se dourar antes disso, reduza o fogo e faça porções menores."
+      },
+      {
+        "id": "passo-6",
+        "text": "Retire com escumadeira e escorra em papel-toalha. Passe ainda mornos em açúcar misturado com canela e sirva."
+      }
+    ],
+    "equipment": [
+      "Tigela e colher para misturar",
+      "Duas colheres de sobremesa",
+      "Panela média para fritura e escumadeira",
+      "Prato com papel-toalha e prato fundo",
+      "Xícaras e colheres medidoras"
+    ],
+    "tips": [
+      {
+        "title": "Pequenos e parecidos",
+        "text": "Porções próximas no tamanho ajudam a manter o mesmo ponto nas levas."
+      },
+      {
+        "title": "Centro cozido",
+        "text": "A cor não basta. Confira um bolinho no começo e ajuste o calor antes de seguir com o restante."
+      },
+      {
+        "title": "Frite aos poucos",
+        "text": "Mantenha espaço entre os bolinhos. Reduza o fogo se o óleo começar a escurecer a massa depressa."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Melhor logo depois de pronto",
+        "text": "Sirva após escorrer e envolver na cobertura, quando a parte externa está mais sequinha."
+      },
+      {
+        "title": "Depois de esfriar",
+        "text": "Embale em recipiente limpo e fechado e mantenha na geladeira a 4 °C ou menos. Consuma em até 2 dias e identifique a data do preparo."
+      },
+      {
+        "title": "Na hora de servir",
+        "text": "Separe somente a quantidade desejada com utensílio limpo. Mantenha o restante refrigerado e descarte alimentos que ficaram mais de 2 horas fora da geladeira."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T01:24:01Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — bolinho de chuva",
+      "url": "https://panelinha.com.br/receita/bolinho-de-chuva",
+      "role": "Ingredientes, 50 unidades, modelagem com duas colheres e fritura em óleo quente com redução do fogo."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, conservação refrigerada e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Volume368000 reutilizado do relatórioNov2; KD/CPC desconhecidos. Receita tradicional frita, não substituir por airfryer mantendo a mesma formulação. Sem tempo total inventado.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

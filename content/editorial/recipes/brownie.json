@@ -1,0 +1,163 @@
+{
+  "id": "brownie",
+  "slug": "brownie",
+  "title": "Brownie com chocolate branco e meio amargo",
+  "description": "Brownie de dois chocolates com casquinha e miolo úmido. Confira a forma de 20 × 30 cm, a mistura da massa e o ponto para tirar do forno.",
+  "intro": "O chocolate branco entra em pedaços na massa de chocolate meio amargo. Espere esfriar para cortar porções sem desmanchar.",
+  "categoryIds": [
+    "doces",
+    "forno",
+    "lanches"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/brownie-dois-chocolates.webp",
+    "alt": "Imagem ilustrativa: Quadrados de brownie de chocolate escuro com pedaços de chocolate branco, casquinha fina e miolo úmido"
+  },
+  "publishedAt": "2026-11-03T01:24:01Z",
+  "updatedAt": "2026-11-03T01:24:01Z",
+  "seo": {
+    "title": "Brownie com chocolate branco e meio amargo | Bebel",
+    "description": "Brownie de dois chocolates com casquinha e miolo úmido. Confira a forma de 20 × 30 cm, a mistura da massa e o ponto para tirar do forno."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 12,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 20,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 20 minutos de forno a 180 °C, além do preparo e do resfriamento. O ponto da massa é mais importante que o relógio.",
+    "ingredients": [
+      {
+        "id": "chocolate",
+        "name": "Chocolate 60% cacau",
+        "quantity": 160,
+        "unit": "g"
+      },
+      {
+        "id": "branco",
+        "name": "Chocolate branco",
+        "quantity": 160,
+        "unit": "g"
+      },
+      {
+        "id": "manteiga",
+        "name": "Manteiga",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "id": "ovos",
+        "name": "Ovos",
+        "quantity": 3,
+        "unit": "unidades"
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar",
+        "quantity": 1.5,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "farinha",
+        "name": "Farinha de trigo",
+        "quantity": 2,
+        "unit": "xícaras (chá)"
+      },
+      {
+        "id": "fermento",
+        "name": "Fermento químico em pó",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "untar",
+        "name": "Manteiga para untar",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Aqueça o forno a 180 °C. Unte uma assadeira de 20 × 30 cm, forre com papel-manteiga deixando abas em duas laterais e unte o papel."
+      },
+      {
+        "id": "passo-2",
+        "text": "Pique o chocolate branco e misture com a farinha e o fermento peneirados. Reserve."
+      },
+      {
+        "id": "passo-3",
+        "text": "Derreta o chocolate escuro com a manteiga em banho-maria suave. A tigela não deve tocar a água. Retire e deixe amornar."
+      },
+      {
+        "id": "passo-4",
+        "text": "Bata ovos e açúcar na batedeira por cerca de 3 minutos, até clarear. Incorpore o chocolate derretido com espátula."
+      },
+      {
+        "id": "passo-5",
+        "text": "Adicione os secos em três partes, mexendo delicadamente. Espalhe a massa na assadeira."
+      },
+      {
+        "id": "passo-6",
+        "text": "Asse por aproximadamente 20 minutos, até formar casquinha e o interior ficar úmido, sem massa líquida. Deixe esfriar antes de retirar pelas abas e cortar."
+      }
+    ],
+    "equipment": [
+      "Forno e assadeira de 20 × 30 cm",
+      "Papel-manteiga, peneira e espátula",
+      "Batedeira e tigelas",
+      "Panela e tigela resistente ao calor para banho-maria",
+      "Balança, medidores e luvas térmicas"
+    ],
+    "tips": [
+      {
+        "title": "Dois chocolates diferentes",
+        "text": "Mantenha o chocolate branco em pedaços. Ele vai junto da farinha, sem ser derretido com o chocolate escuro."
+      },
+      {
+        "title": "Controle o forno",
+        "text": "Uma casquinha formada e o centro úmido são as referências. Não espere o miolo secar como o de um bolo."
+      },
+      {
+        "title": "Corte depois de frio",
+        "text": "O brownie ganha firmeza ao esfriar. Limpe a faca entre os cortes para preservar as bordas."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Depois de esfriar",
+        "text": "Embale em recipiente limpo e fechado e mantenha na geladeira a 4 °C ou menos. Consuma em até 2 dias e identifique a data do preparo."
+      },
+      {
+        "title": "Na hora de servir",
+        "text": "Separe somente a quantidade desejada com utensílio limpo. Mantenha o restante refrigerado e descarte alimentos que ficaram mais de 2 horas fora da geladeira."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T01:24:01Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — brownie",
+      "url": "https://panelinha.com.br/receita/brownie",
+      "role": "Fórmula de dois chocolates, 12 porções, forma de 20 × 30 cm, batedeira e forno a 180 °C por cerca de 20 minutos."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, conservação refrigerada e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Volume amplo301000 reutilizado do relatório competitivoNov2; KD/CPC desconhecidos nessa linha. Não usar fórmula só achocolatado. Referência12porções; foto sem nozes, sem cobertura não prevista. Banho-maria é para derreter chocolate, não para assar.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

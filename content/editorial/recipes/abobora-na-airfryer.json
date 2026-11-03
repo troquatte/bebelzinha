@@ -1,0 +1,163 @@
+{
+  "id": "abobora-na-airfryer",
+  "slug": "abobora-na-airfryer",
+  "title": "Abóbora na airfryer com cominho e mel",
+  "description": "Abóbora cabotiá na airfryer com manteiga, cominho, mel e raspas de limão. Veja o corte com casca e como distribuir os pedaços no cesto.",
+  "intro": "A casca vai junto, bem limpa. Corte pedaços de espessura parecida e acomode sem sobrepor para assar por igual.",
+  "categoryIds": [
+    "acompanhamentos",
+    "airfryer"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/abobora-airfryer.webp",
+    "alt": "Imagem ilustrativa: Pedaços de abóbora cabotiá com casca verde, polpa dourada e raspas finas de limão"
+  },
+  "publishedAt": "2026-11-03T01:24:01Z",
+  "updatedAt": "2026-11-03T01:24:01Z",
+  "seo": {
+    "title": "Abóbora na airfryer com cominho e mel | Bebel",
+    "description": "Abóbora cabotiá na airfryer com manteiga, cominho, mel e raspas de limão. Veja o corte com casca e como distribuir os pedaços no cesto."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 3,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 20,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 20 minutos a 180 °C por leva, além de limpar, cortar, temperar e preaquecer o aparelho.",
+    "ingredients": [
+      {
+        "id": "abobora",
+        "name": "Abóbora japonesa com casca",
+        "quantity": 400,
+        "unit": "g",
+        "note": "Quatro fatias de cerca de 2,5 cm, sem sementes; corte cada uma em três pedaços."
+      },
+      {
+        "id": "manteiga",
+        "name": "Manteiga em temperatura ambiente",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "mel",
+        "name": "Mel",
+        "quantity": 1,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "cominho",
+        "name": "Cominho em pó",
+        "quantity": 0.5,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 0.5,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "limao",
+        "name": "Limão",
+        "quantity": 1,
+        "unit": "unidade",
+        "note": "Use apenas as raspas da casca, sem a parte branca."
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Retire sementes e fibras. Lave a casca da abóbora com uma escova própria para legumes e seque."
+      },
+      {
+        "id": "passo-2",
+        "text": "Apoie a parte plana na tábua. Corte quatro fatias de aproximadamente 2,5 cm e divida cada uma em três pedaços."
+      },
+      {
+        "id": "passo-3",
+        "text": "Misture manteiga, azeite, mel, cominho, sal e pimenta. Envolva os pedaços nesse tempero."
+      },
+      {
+        "id": "passo-4",
+        "text": "Preaqueça a airfryer a 180 °C. Distribua os pedaços lado a lado; se necessário, asse em levas."
+      },
+      {
+        "id": "passo-5",
+        "text": "Asse por cerca de 20 minutos, virando na metade. Confira com um garfo se a polpa está macia antes de retirar."
+      },
+      {
+        "id": "passo-6",
+        "text": "Passe para um prato, finalize com as raspas do limão e sirva."
+      }
+    ],
+    "equipment": [
+      "Airfryer e pinça",
+      "Tábua firme e faca",
+      "Escova para legumes e pano limpo",
+      "Tigela, medidores e ralador fino"
+    ],
+    "tips": [
+      {
+        "title": "Corte firme",
+        "text": "Apoie uma face plana na tábua e trabalhe devagar, pois a abóbora crua é resistente."
+      },
+      {
+        "title": "Casca limpa",
+        "text": "Use a cabotiá com casca conforme o preparo. Não é necessário descascar antes de assar."
+      },
+      {
+        "title": "Veja o ponto",
+        "text": "A polpa deve ceder ao garfo. Tamanho dos pedaços e carga do cesto alteram o tempo necessário."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Guarde na geladeira",
+        "text": "Refrigere prontamente em recipiente limpo, a 4 °C ou menos, e consuma em 2 a 3 dias. Para esfriar mais rápido, distribua em recipientes rasos e tampe depois de frio."
+      },
+      {
+        "title": "Reaqueça a porção",
+        "text": "Aqueça apenas o que vai consumir até atingir 74 °C no centro. Use recipiente próprio para o aparelho e descarte sobras que ficaram mais de 2 horas fora da refrigeração."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T01:24:01Z"
+  },
+  "sources": [
+    {
+      "title": "Receitas Globo / Cozinha Prática — abóbora com cominho e mel na air fryer",
+      "url": "https://receitas.globo.com/receitas-da-tv/cozinha-pratica/abobora-com-cominho-e-mel-na-air-fryer.ghtml",
+      "role": "400 g com casca, três porções, corte de 2,5 cm e 180 °C por 20 minutos."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, conservação refrigerada e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Fonte primária programaCozinhaPrática recuperada viaAMP oficialGlobo. Não copiar prato8do produto pago, que é carne moída com abóbora e arroz. Airfryer20min não forno tradicional.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}
