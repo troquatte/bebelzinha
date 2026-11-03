@@ -1,0 +1,137 @@
+{
+  "id": "biscoito-de-polvilho",
+  "slug": "biscoito-de-polvilho",
+  "title": "Biscoito de polvilho azedo assado em palitos",
+  "description": "Biscoito de polvilho azedo assado, com massa escaldada e modelada em palitos. Veja o ponto e o forno a 200 °C.",
+  "intro": "A massa é colocada no saco de confeitar; não leva queijo e não é pão de queijo.",
+  "categoryIds": [
+    "lanches",
+    "forno"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/biscoito-polvilho.webp",
+    "alt": "Imagem ilustrativa: Palitos finos de biscoito de polvilho assado com interior oco e bordas douradas"
+  },
+  "publishedAt": "2026-11-03T21:09:40Z",
+  "updatedAt": "2026-11-03T21:09:40Z",
+  "seo": {
+    "title": "Biscoito de polvilho azedo assado em palitos | Bebel",
+    "description": "Biscoito de polvilho azedo assado, com massa escaldada e modelada em palitos. Veja o ponto e o forno a 200 °C."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 130,
+      "unit": "unidade"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 20,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 20 minutos por leva a 200 °C, além da massa, modelagem e resfriamento.",
+    "ingredients": [
+      {
+        "id": "polvilho",
+        "name": "Polvilho azedo",
+        "quantity": 500,
+        "unit": "g"
+      },
+      {
+        "id": "leite",
+        "name": "Leite",
+        "quantity": 200,
+        "unit": "ml"
+      },
+      {
+        "id": "oleo",
+        "name": "Óleo",
+        "quantity": 200,
+        "unit": "ml"
+      },
+      {
+        "id": "agua",
+        "name": "Água",
+        "quantity": 1,
+        "unit": "xícara (chá)",
+        "note": "Acrescente aos poucos até o ponto.",
+        "shopping": false
+      },
+      {
+        "id": "ovo",
+        "name": "Ovo",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Misture polvilho e sal. Ferva leite e óleo juntos e despeje sobre os secos, mexendo até formar uma farofa. Espere amornar por cerca de 5 minutos."
+      },
+      {
+        "id": "passo-2",
+        "text": "Incorpore o ovo. Junte a água aos poucos até obter massa lisa, densa e um pouco mais firme que massa de bolo."
+      },
+      {
+        "id": "passo-3",
+        "text": "Preaqueça a 200 °C. Use saco de confeitar com abertura de 0,5 cm e modele palitos de cerca de 16 cm, deixando 0,5 cm entre eles."
+      },
+      {
+        "id": "passo-4",
+        "text": "Asse aproximadamente 20 minutos, até inflarem e dourarem levemente. Repita em levas."
+      },
+      {
+        "id": "passo-5",
+        "text": "Esfrie completamente antes de servir ou fechar em pote."
+      }
+    ],
+    "equipment": [
+      "Tigela grande, panela pequena e espátula",
+      "Jarra e colheres medidoras",
+      "Assadeiras e saco de confeitar com bico liso 0,5 cm"
+    ],
+    "tips": [
+      {
+        "title": "Água aos poucos",
+        "text": "Pare no ponto de massa densa que sai pelo saco."
+      },
+      {
+        "title": "Mesmo tamanho",
+        "text": "Palitos uniformes assam melhor juntos."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Pote hermético",
+        "text": "Espere esfriar completamente. Guarde em pote ou saco bem fechado, seco e protegido da umidade, por até 1 mês."
+      },
+      {
+        "title": "Preserve a crocância",
+        "text": "Evite guardar perto de alimentos úmidos ou vapor."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T21:09:40Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — biscoito de polvilho",
+      "url": "https://panelinha.com.br/receita/biscoito-de-polvilho",
+      "role": "Rendimento130unidades, massa escaldada, palitos200°C20min e armazenamento."
+    }
+  ],
+  "editorialNotes": [
+    "Não é pão de queijo na airfryer nem vídeo225 de frigideira. Manter polvilho azedo e modelagem da fonte.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

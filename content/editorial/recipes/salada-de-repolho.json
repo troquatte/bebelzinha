@@ -1,0 +1,172 @@
+{
+  "id": "salada-de-repolho",
+  "slug": "salada-de-repolho",
+  "title": "Salada de repolho-roxo com maçã e molho de iogurte",
+  "description": "Salada de repolho-roxo com maçã e molho de iogurte, hortelã e coentro. Aprenda a massagear e escorrer o repolho antes de temperar.",
+  "intro": "A maçã entra em tirinhas e o molho pode ir por cima ou ser servido à parte.",
+  "categoryIds": [
+    "acompanhamentos"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/salada-repolho.webp",
+    "alt": "Imagem ilustrativa: Repolho-roxo fininho com tiras de maçã e molho de iogurte"
+  },
+  "publishedAt": "2026-11-03T21:09:40Z",
+  "updatedAt": "2026-11-03T21:09:40Z",
+  "seo": {
+    "title": "Salada de repolho-roxo com maçã e molho de iogurte | Bebel",
+    "description": "Salada de repolho-roxo com maçã e molho de iogurte, hortelã e coentro. Aprenda a massagear e escorrer o repolho antes de temperar."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 4,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Sem cocção; reserve tempo para fatiar e escorrer o repolho.",
+    "ingredients": [
+      {
+        "id": "repolho",
+        "name": "Repolho-roxo grande",
+        "quantity": 0.5,
+        "unit": "unidade",
+        "note": "Cerca de 5 xícaras (chá) fatiado."
+      },
+      {
+        "id": "maca",
+        "name": "Maçã fuji",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "sal-repolho",
+        "name": "Sal para o repolho",
+        "quantity": 1,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "azeite-salada",
+        "name": "Azeite para a salada",
+        "quantity": 2,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "limao",
+        "name": "Suco de limão",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "iogurte",
+        "name": "Iogurte natural sem açúcar",
+        "quantity": 170,
+        "unit": "g"
+      },
+      {
+        "id": "azeite-molho",
+        "name": "Azeite para o molho",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "alho",
+        "name": "Alho pequeno",
+        "quantity": 1,
+        "unit": "dente"
+      },
+      {
+        "id": "coentro",
+        "name": "Sementes de coentro",
+        "quantity": 0.25,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "hortela",
+        "name": "Hortelã",
+        "quantity": 2,
+        "unit": "ramos"
+      },
+      {
+        "id": "sal-molho",
+        "name": "Sal para o molho",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Fatie o repolho fino, descartando o miolo duro. Lave, escorra e massageie com o sal medido. Aperte para retirar água e deixe no escorredor."
+      },
+      {
+        "id": "passo-2",
+        "text": "Retire as sementes da maçã e corte em tiras de cerca de 0,5 cm. Regue com limão e misture com repolho, azeite da salada e pimenta."
+      },
+      {
+        "id": "passo-3",
+        "text": "Soque alho e sementes de coentro com uma pitada de sal. Misture essa pasta com iogurte, hortelã picada e azeite do molho."
+      },
+      {
+        "id": "passo-4",
+        "text": "Prove o molho e sirva com a salada. Misture tudo somente perto de levar à mesa."
+      }
+    ],
+    "equipment": [
+      "Tábua, faca e escorredor",
+      "Duas tigelas e pilão",
+      "Colheres medidoras"
+    ],
+    "tips": [
+      {
+        "title": "Escorra bem",
+        "text": "Retire a água liberada antes de juntar a maçã."
+      },
+      {
+        "title": "Molho à parte",
+        "text": "Permite colocar a quantidade desejada ao servir."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Guarde em recipiente fechado a 4 °C ou menos e consuma em até 2 dias. Refrigere prontamente e não deixe mais de 2 horas fora de refrigeração."
+      },
+      {
+        "title": "Para servir",
+        "text": "Retire com utensílio limpo somente o que vai consumir."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T21:09:40Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — salada de repolho-roxo, maçã e molho de iogurte",
+      "url": "https://panelinha.com.br/receita/salada-de-repolho-roxo-maca-e-molho-de-iogurte",
+      "role": "Quatro porções, salada e molho completos."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Refrigeração, resfriamento e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Não é repolho refogado nem salada de maionese. As duas quantidades de azeite têm usos separados.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

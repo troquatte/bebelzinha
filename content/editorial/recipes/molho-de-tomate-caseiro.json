@@ -1,0 +1,154 @@
+{
+  "id": "molho-de-tomate-caseiro",
+  "slug": "molho-de-tomate-caseiro",
+  "title": "Molho de tomate caseiro com cebola e manjericão",
+  "description": "Molho de tomate caseiro com tomate italiano maduro e cebola. Veja como retirar pele e sementes, reduzir e guardar em porções.",
+  "intro": "Esta quantidade rende cerca de 1,2 kg de molho para usar em outros preparos.",
+  "categoryIds": [
+    "acompanhamentos"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/molho-tomate-caseiro.webp",
+    "alt": "Imagem ilustrativa: Molho de tomate vermelho encorpado com um ramo de manjericão"
+  },
+  "publishedAt": "2026-11-03T21:09:40Z",
+  "updatedAt": "2026-11-03T21:09:40Z",
+  "seo": {
+    "title": "Molho de tomate caseiro com cebola e manjericão | Bebel",
+    "description": "Molho de tomate caseiro com tomate italiano maduro e cebola. Veja como retirar pele e sementes, reduzir e guardar em porções."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 1200,
+      "unit": "g"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "A cebola leva cerca de 10 minutos; o tomate, aproximadamente 1 hora após ferver. Inclua o tempo para descascar.",
+    "ingredients": [
+      {
+        "id": "tomate",
+        "name": "Tomate italiano maduro",
+        "quantity": 3,
+        "unit": "kg"
+      },
+      {
+        "id": "cebola",
+        "name": "Cebola",
+        "quantity": 1.5,
+        "unit": "unidade"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": 2,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "manjericao",
+        "name": "Manjericão",
+        "quantity": 6,
+        "unit": "ramos",
+        "note": "Opcional."
+      },
+      {
+        "id": "agua",
+        "name": "Água para escaldar",
+        "quantity": null,
+        "unit": "a gosto",
+        "shopping": false
+      },
+      {
+        "id": "gelo",
+        "name": "Gelo para resfriar",
+        "quantity": null,
+        "unit": "a gosto",
+        "shopping": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Lave os tomates e faça um X na base. Mergulhe em água fervente em pequenas levas até a pele abrir; passe para água com gelo e descasque."
+      },
+      {
+        "id": "passo-2",
+        "text": "Pique a cebola. Refogue no azeite, com sal e pimenta, por cerca de 10 minutos até amaciar."
+      },
+      {
+        "id": "passo-3",
+        "text": "Retire as sementes dos tomates e bata a polpa no liquidificador, em etapas, sem água."
+      },
+      {
+        "id": "passo-4",
+        "text": "Junte à cebola. Ao ferver, abaixe o fogo e cozinhe cerca de 1 hora, mexendo, até encorpar."
+      },
+      {
+        "id": "passo-5",
+        "text": "Ajuste sal. Se usar manjericão, acrescente os ramos por mais 2 minutos. Retire-os antes de porcionar."
+      }
+    ],
+    "equipment": [
+      "Duas panelas grandes e escumadeira",
+      "Tigela com água e gelo",
+      "Tábua, faca, liquidificador e espátula"
+    ],
+    "tips": [
+      {
+        "title": "Sem água no molho",
+        "text": "Use somente a polpa batida."
+      },
+      {
+        "title": "Espessura",
+        "text": "A largura da panela e a umidade dos tomates mudam o tempo de redução."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Geladeira",
+        "text": "Resfrie em recipientes rasos e refrigere prontamente a 4 °C ou menos por até 3 dias."
+      },
+      {
+        "title": "Freezer",
+        "text": "Congele em recipientes próprios por até 3 meses, deixando espaço para expansão. Descongele na geladeira e reaqueça até 74 °C."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T21:09:40Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — molho de tomate caseiro",
+      "url": "https://panelinha.com.br/receita/molho-de-tomate-caseiro",
+      "role": "Lote de 3 kg de tomates, rendimento1,2kg, redução e freezer."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Refrigeração, resfriamento e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Usar orientação refrigerada de3dias do método, não armazenamento ambiente nem5dias de outra seção. Sem cópia de refeições com molho. Short043 de redução não é esta receita.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

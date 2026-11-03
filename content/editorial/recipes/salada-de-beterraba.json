@@ -1,0 +1,141 @@
+{
+  "id": "salada-de-beterraba",
+  "slug": "salada-de-beterraba",
+  "title": "Salada de beterraba crua com hortelã e salsinha",
+  "description": "Salada de beterraba crua em fatias finas com hortelã, salsinha, azeite e vinagre. Veja como cortar e temperar para servir de acompanhamento.",
+  "intro": "O corte bem fino deixa a beterraba crua mais agradável de mastigar.",
+  "categoryIds": [
+    "acompanhamentos"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/salada-beterraba.webp",
+    "alt": "Imagem ilustrativa: Meias-luas finas de beterraba crua com hortelã e salsinha"
+  },
+  "publishedAt": "2026-11-03T21:09:40Z",
+  "updatedAt": "2026-11-03T21:09:40Z",
+  "seo": {
+    "title": "Salada de beterraba crua com hortelã e salsinha | Bebel",
+    "description": "Salada de beterraba crua em fatias finas com hortelã, salsinha, azeite e vinagre. Veja como cortar e temperar para servir de acompanhamento."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 6,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Preparo sem fogão; o tempo depende do corte das beterrabas.",
+    "ingredients": [
+      {
+        "id": "beterraba",
+        "name": "Beterraba",
+        "quantity": 3,
+        "unit": "unidades"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": 3,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "vinagre",
+        "name": "Vinagre de vinho tinto",
+        "quantity": 2,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "hortela",
+        "name": "Hortelã",
+        "quantity": 5,
+        "unit": "ramos"
+      },
+      {
+        "id": "salsinha",
+        "name": "Salsinha",
+        "quantity": 5,
+        "unit": "ramos"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Lave as beterrabas e higienize as ervas. Seque bem."
+      },
+      {
+        "id": "passo-2",
+        "text": "Descasque as beterrabas e divida ao meio. Fatie em meias-luas bem finas com faca ou mandolim, usando o protetor de mãos."
+      },
+      {
+        "id": "passo-3",
+        "text": "Misture azeite e vinagre numa tigela. Envolva as fatias nesse tempero e ajuste sal e pimenta."
+      },
+      {
+        "id": "passo-4",
+        "text": "Acrescente as folhas de hortelã e salsinha e sirva. Se preparar antes, mantenha refrigerado e coloque as ervas somente ao servir."
+      }
+    ],
+    "equipment": [
+      "Tábua, faca e descascador",
+      "Mandolim com protetor de mãos, se usar",
+      "Tigela e colheres medidoras"
+    ],
+    "tips": [
+      {
+        "title": "Fatias delicadas",
+        "text": "Evite pedaços grossos: a beterraba desta salada não é cozida."
+      },
+      {
+        "title": "Ervas no final",
+        "text": "Assim elas mantêm melhor a aparência."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Guarde em recipiente fechado a 4 °C ou menos e consuma em até 2 dias. Refrigere prontamente e não deixe mais de 2 horas fora de refrigeração."
+      },
+      {
+        "title": "Para servir",
+        "text": "Retire com utensílio limpo somente o que vai consumir."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T21:09:40Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — salada de beterraba com ervas frescas",
+      "url": "https://panelinha.com.br/receita/salada-de-beterraba-com-ervas-frescas",
+      "role": "Seis porções, corte cru e temperos."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Refrigeração, resfriamento e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Versão crua, diferente de beterraba na airfryer já publicada. Não misturar com versões cozidas ou cremosas.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

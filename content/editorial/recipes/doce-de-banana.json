@@ -1,0 +1,140 @@
+{
+  "id": "doce-de-banana",
+  "slug": "doce-de-banana",
+  "title": "Doce de banana em rodelas com caramelo e canela",
+  "description": "Doce de banana em rodelas com açúcar caramelizado, cravo e canela. Veja como adicionar a água quente e cozinhar sem queimar.",
+  "intro": "As bananas maduras ficam macias e envolvidas no caramelo; não é doce de corte.",
+  "categoryIds": [
+    "doces"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/doce-banana.webp",
+    "alt": "Imagem ilustrativa: Doce de banana em rodelas macias com caramelo marrom e canela"
+  },
+  "publishedAt": "2026-11-03T21:09:40Z",
+  "updatedAt": "2026-11-03T21:09:40Z",
+  "seo": {
+    "title": "Doce de banana em rodelas com caramelo e canela | Bebel",
+    "description": "Doce de banana em rodelas com açúcar caramelizado, cravo e canela. Veja como adicionar a água quente e cozinhar sem queimar."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 8,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 20 minutos com a banana na panela, além do caramelo e do resfriamento.",
+    "ingredients": [
+      {
+        "id": "banana",
+        "name": "Banana-prata madura",
+        "quantity": 10,
+        "unit": "unidades"
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar",
+        "quantity": 2.5,
+        "unit": "xícaras (chá)"
+      },
+      {
+        "id": "agua",
+        "name": "Água",
+        "quantity": 1,
+        "unit": "xícara (chá)",
+        "shopping": false
+      },
+      {
+        "id": "canela",
+        "name": "Canela em pau",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "cravo",
+        "name": "Cravo-da-índia",
+        "quantity": 3,
+        "unit": "unidades"
+      },
+      {
+        "id": "limao",
+        "name": "Suco de limão",
+        "quantity": 1,
+        "unit": "colher (chá)"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Ferva a água e reserve quente. Descasque as bananas e corte em rodelas de 1 cm."
+      },
+      {
+        "id": "passo-2",
+        "text": "Em panela de bordas altas, derreta metade do açúcar em fogo baixo. Acrescente o restante e mexa até obter caramelo dourado claro."
+      },
+      {
+        "id": "passo-3",
+        "text": "Junte a água quente e o limão com cuidado, mantendo o rosto afastado por causa do vapor e dos respingos. Mexa para dissolver."
+      },
+      {
+        "id": "passo-4",
+        "text": "Adicione banana, canela e cravos. Cozinhe cerca de 20 minutos, mexendo para o fundo não queimar."
+      },
+      {
+        "id": "passo-5",
+        "text": "Desligue, retire as especiarias e divida em recipientes rasos. Resfrie e refrigere prontamente."
+      }
+    ],
+    "equipment": [
+      "Panela de bordas altas e espátula comprida",
+      "Panela pequena para a água",
+      "Tábua, faca e medidores"
+    ],
+    "tips": [
+      {
+        "title": "Banana madura",
+        "text": "Escolha frutas maduras, sem partes estragadas."
+      },
+      {
+        "title": "Caramelo claro",
+        "text": "Se escurecer demais antes da fruta, pode amargar."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Guarde em recipiente fechado a 4 °C ou menos e consuma em até 2 dias. Refrigere prontamente e não deixe mais de 2 horas fora de refrigeração."
+      },
+      {
+        "title": "Para servir",
+        "text": "Retire com utensílio limpo somente o que vai consumir."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T21:09:40Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — doce de banana para presentear",
+      "url": "https://panelinha.com.br/blog/pitadas/post/presente-de-natal-doce-de-banana",
+      "role": "Oito porções, rodelas, caramelo e cocção20min."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Refrigeração, resfriamento e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Não é bananada de corte cozida por2horas. Optar por refrigeração conservadora, sem repetir prazo ambiente da referência.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

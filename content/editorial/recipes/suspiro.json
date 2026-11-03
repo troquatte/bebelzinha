@@ -1,0 +1,117 @@
+{
+  "id": "suspiro",
+  "slug": "suspiro",
+  "title": "Suspiro caseiro com baunilha e secagem em forno baixo",
+  "description": "Suspiro caseiro com claras, açúcar e baunilha. Veja como aquecer a mistura, bater e secar no forno a 100 °C.",
+  "intro": "O tamanho dos montinhos deve ser parecido para a secagem acontecer por igual.",
+  "categoryIds": [
+    "doces",
+    "forno"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/suspiro.webp",
+    "alt": "Imagem ilustrativa: Suspiros brancos com formato de pitanga e pontinhas em prato claro"
+  },
+  "publishedAt": "2026-11-03T21:09:40Z",
+  "updatedAt": "2026-11-03T21:09:40Z",
+  "seo": {
+    "title": "Suspiro caseiro com baunilha e secagem em forno baixo | Bebel",
+    "description": "Suspiro caseiro com claras, açúcar e baunilha. Veja como aquecer a mistura, bater e secar no forno a 100 °C."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 15,
+      "unit": "unidade"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 75,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 75 minutos a 100 °C, além do aquecimento das claras, batedeira e resfriamento.",
+    "ingredients": [
+      {
+        "id": "claras",
+        "name": "Claras",
+        "quantity": 130,
+        "unit": "g"
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar",
+        "quantity": 260,
+        "unit": "g"
+      },
+      {
+        "id": "baunilha",
+        "name": "Essência de baunilha",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Preaqueça a 100 °C e forre a assadeira com papel-manteiga."
+      },
+      {
+        "id": "passo-2",
+        "text": "Misture claras e açúcar numa panela. Leve ao fogo baixo e mexa sem parar até dissolver o açúcar, sem deixar a clara coagular."
+      },
+      {
+        "id": "passo-3",
+        "text": "Transfira à batedeira. Junte baunilha e bata em velocidade alta até esfriar e formar merengue firme."
+      },
+      {
+        "id": "passo-4",
+        "text": "Com saco de confeitar, modele cerca de 15 montinhos de tamanho semelhante."
+      },
+      {
+        "id": "passo-5",
+        "text": "Leve ao forno por aproximadamente 75 minutos, até secarem. Espere esfriar completamente antes de guardar."
+      }
+    ],
+    "equipment": [
+      "Balança, panela e espátula",
+      "Batedeira e saco de confeitar",
+      "Assadeira, papel-manteiga e forno que regule 100 °C"
+    ],
+    "tips": [
+      {
+        "title": "Forno baixo",
+        "text": "Verifique se o aparelho permite 100 °C; não substitua por 180 °C."
+      },
+      {
+        "title": "Utensílios limpos",
+        "text": "Tigela e batedor devem estar secos e sem gordura."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Depois de frio",
+        "text": "Guarde em pote bem seco e hermético, protegido da umidade. Não feche o pote com os suspiros ainda mornos."
+      },
+      {
+        "title": "Para servir",
+        "text": "Retire com utensílio seco e mantenha longe de vapor ou recheios úmidos até a montagem."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T21:09:40Z"
+  },
+  "sources": [
+    {
+      "title": "Receiteria / Cozinha da Paty — suspiro simples",
+      "url": "https://www.receiteria.com.br/receita/suspiro-simples/",
+      "role": "Quinze unidades,130g claras/260g açúcar,100°C75min."
+    }
+  ],
+  "editorialNotes": [
+    "Não usar180°C com colher na porta da outra receita. Sem prazo ambiente numérico não documentado.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

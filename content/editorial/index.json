@@ -642,6 +642,66 @@
       "slug": "sequilhos",
       "status": "published",
       "file": "recipes/sequilhos.json"
+    },
+    {
+      "id": "salada-de-beterraba",
+      "slug": "salada-de-beterraba",
+      "status": "published",
+      "file": "recipes/salada-de-beterraba.json"
+    },
+    {
+      "id": "salada-de-repolho",
+      "slug": "salada-de-repolho",
+      "status": "published",
+      "file": "recipes/salada-de-repolho.json"
+    },
+    {
+      "id": "molho-branco",
+      "slug": "molho-branco",
+      "status": "published",
+      "file": "recipes/molho-branco.json"
+    },
+    {
+      "id": "molho-de-tomate-caseiro",
+      "slug": "molho-de-tomate-caseiro",
+      "status": "published",
+      "file": "recipes/molho-de-tomate-caseiro.json"
+    },
+    {
+      "id": "geleia-de-abacaxi",
+      "slug": "geleia-de-abacaxi",
+      "status": "published",
+      "file": "recipes/geleia-de-abacaxi.json"
+    },
+    {
+      "id": "doce-de-banana",
+      "slug": "doce-de-banana",
+      "status": "published",
+      "file": "recipes/doce-de-banana.json"
+    },
+    {
+      "id": "mousse-de-chocolate",
+      "slug": "mousse-de-chocolate",
+      "status": "published",
+      "file": "recipes/mousse-de-chocolate.json"
+    },
+    {
+      "id": "brigadeiro-tradicional",
+      "slug": "brigadeiro-tradicional",
+      "status": "published",
+      "file": "recipes/brigadeiro-tradicional.json"
+    },
+    {
+      "id": "suspiro",
+      "slug": "suspiro",
+      "status": "published",
+      "file": "recipes/suspiro.json"
+    },
+    {
+      "id": "biscoito-de-polvilho",
+      "slug": "biscoito-de-polvilho",
+      "status": "published",
+      "file": "recipes/biscoito-de-polvilho.json"
     }
   ]
 }

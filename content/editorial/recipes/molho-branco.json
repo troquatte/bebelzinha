@@ -1,0 +1,133 @@
+{
+  "id": "molho-branco",
+  "slug": "molho-branco",
+  "title": "Molho branco com leite gelado, manteiga e farinha",
+  "description": "Molho branco com leite gelado, manteiga, farinha e noz-moscada. Veja como cozinhar a farinha e mexer para evitar grumos.",
+  "intro": "Uma base para acompanhar massas e gratinados, sem creme de leite.",
+  "categoryIds": [
+    "acompanhamentos"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/molho-branco.webp",
+    "alt": "Imagem ilustrativa: Molho branco liso e cremoso com pequenos pontos de noz-moscada"
+  },
+  "publishedAt": "2026-11-03T21:09:40Z",
+  "updatedAt": "2026-11-03T21:09:40Z",
+  "seo": {
+    "title": "Molho branco com leite gelado, manteiga e farinha | Bebel",
+    "description": "Molho branco com leite gelado, manteiga, farinha e noz-moscada. Veja como cozinhar a farinha e mexer para evitar grumos."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 800,
+      "unit": "ml"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 2 minutos para a farinha e 10 minutos depois da fervura, além do aquecimento.",
+    "ingredients": [
+      {
+        "id": "leite",
+        "name": "Leite gelado",
+        "quantity": 1,
+        "unit": "litro"
+      },
+      {
+        "id": "manteiga",
+        "name": "Manteiga",
+        "quantity": 3,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "farinha",
+        "name": "Farinha de trigo",
+        "quantity": 3,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 0.5,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "noz",
+        "name": "Noz-moscada",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Derreta a manteiga em panela média. Junte a farinha e mexa por cerca de 2 minutos em fogo médio."
+      },
+      {
+        "id": "passo-2",
+        "text": "Despeje o leite gelado de uma vez e misture com batedor de arame, desfazendo a farinha. Mexa até ferver."
+      },
+      {
+        "id": "passo-3",
+        "text": "Abaixe o fogo, tempere com sal e noz-moscada. Cozinhe por aproximadamente 10 minutos, mexendo para não grudar, até engrossar."
+      },
+      {
+        "id": "passo-4",
+        "text": "Use quente. Caso apareçam grumos, bata com mixer e volte à panela para acertar a textura."
+      }
+    ],
+    "equipment": [
+      "Panela média e espátula",
+      "Batedor de arame e medidores",
+      "Mixer, se precisar desfazer grumos"
+    ],
+    "tips": [
+      {
+        "title": "Leite gelado",
+        "text": "Ele entra todo de uma vez; mexa bem na incorporação."
+      },
+      {
+        "title": "Fundo da panela",
+        "text": "Passe a espátula também pelos cantos."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Refrigerado",
+        "text": "Guarde prontamente em pote fechado na geladeira a 4 °C ou menos por até 3 dias."
+      },
+      {
+        "title": "No freezer",
+        "text": "Congele por até 3 meses. Descongele na geladeira e aqueça na panela, mexendo com batedor para reunir a textura."
+      },
+      {
+        "title": "Ao reaquecer",
+        "text": "Aqueça somente a porção desejada até 74 °C no centro."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T21:09:40Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — molho branco bechamel",
+      "url": "https://panelinha.com.br/receita/molho-branco-bechamel",
+      "role": "Rendimento de 800 ml, proporção, método e conservação."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Refrigeração, resfriamento e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Base independente de molho, não cópia do creme de espinafre nem refeição paga. Short052 semID não deve ser incorporado.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

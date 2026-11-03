@@ -1,0 +1,136 @@
+{
+  "id": "geleia-de-abacaxi",
+  "slug": "geleia-de-abacaxi",
+  "title": "Geleia de abacaxi com limão, cravo e canela",
+  "description": "Geleia de abacaxi com limão, cravo e canela para acompanhar pães e torradas. Veja quando retirar as especiarias e bater a fruta.",
+  "intro": "O resultado é uma geleia para espalhar, com a fruta triturada durante o preparo.",
+  "categoryIds": [
+    "doces",
+    "lanches"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/geleia-abacaxi.webp",
+    "alt": "Imagem ilustrativa: Geleia dourada de abacaxi com fibras e pequenos pedaços em pote de vidro"
+  },
+  "publishedAt": "2026-11-03T21:09:40Z",
+  "updatedAt": "2026-11-03T21:09:40Z",
+  "seo": {
+    "title": "Geleia de abacaxi com limão, cravo e canela | Bebel",
+    "description": "Geleia de abacaxi com limão, cravo e canela para acompanhar pães e torradas. Veja quando retirar as especiarias e bater a fruta."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 940,
+      "unit": "g"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 15 minutos na primeira cocção e mais 5 após bater, além do corte e aquecimento; acompanhe o ponto.",
+    "ingredients": [
+      {
+        "id": "abacaxi",
+        "name": "Abacaxi",
+        "quantity": 1,
+        "unit": "kg",
+        "note": "Descasque, retire o miolo firme e pique."
+      },
+      {
+        "id": "limao",
+        "name": "Limão",
+        "quantity": 1.5,
+        "unit": "unidade",
+        "note": "Suco de 1 no início e de meio na finalização."
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar",
+        "quantity": 450,
+        "unit": "g"
+      },
+      {
+        "id": "cravo",
+        "name": "Cravo-da-índia",
+        "quantity": 4,
+        "unit": "unidades"
+      },
+      {
+        "id": "canela",
+        "name": "Canela em pau",
+        "quantity": 1,
+        "unit": "unidade"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Coloque abacaxi picado, açúcar, suco de 1 limão e especiarias numa panela grande."
+      },
+      {
+        "id": "passo-2",
+        "text": "Ao ferver, abaixe o fogo e mexa durante cerca de 15 minutos. Retire todos os cravos e a canela quando completar 10 minutos."
+      },
+      {
+        "id": "passo-3",
+        "text": "Desligue e triture com mixer, com cuidado para não espirrar."
+      },
+      {
+        "id": "passo-4",
+        "text": "Volte ao fogo baixo, mexendo por cerca de 5 minutos até ganhar consistência de geleia. Misture o suco do meio limão restante."
+      },
+      {
+        "id": "passo-5",
+        "text": "Divida em recipientes limpos e próprios para alimentos. Resfrie e guarde na geladeira."
+      }
+    ],
+    "equipment": [
+      "Panela grande, espátula e escumadeira pequena",
+      "Tábua, faca, balança e espremedor",
+      "Mixer e recipientes para refrigerar"
+    ],
+    "tips": [
+      {
+        "title": "Retire as especiarias",
+        "text": "Conte os quatro cravos antes de bater."
+      },
+      {
+        "title": "Espere esfriar",
+        "text": "A consistência muda ao esfriar; sirva gelada ou fresca."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Guarde em recipiente fechado a 4 °C ou menos e consuma em até 2 dias. Refrigere prontamente e não deixe mais de 2 horas fora de refrigeração."
+      },
+      {
+        "title": "Para servir",
+        "text": "Retire com utensílio limpo somente o que vai consumir."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T21:09:40Z"
+  },
+  "sources": [
+    {
+      "title": "Receiteria — geleia de abacaxi",
+      "url": "https://www.receiteria.com.br/receita/geleia-de-abacaxi/",
+      "role": "Rendimento940g, açúcar450g, especiarias e método com mixer."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Refrigeração, resfriamento e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "A lista da fonte menciona1limão, mas o passo final acrescenta mais meio; ficha explicita1,5. Tempos da página divergem: seguir etapas e ponto, sem total exato. Não reproduzir inversão de vidros como conservação ambiente.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "id": "brigadeiro-tradicional",
+  "slug": "brigadeiro-tradicional",
+  "title": "Brigadeiro tradicional de enrolar com nibs de cacau",
+  "description": "Brigadeiro tradicional de enrolar com leite condensado, leite e chocolate em pó. Veja o ponto da massa e a cobertura de nibs de cacau.",
+  "intro": "A massa precisa esfriar completamente antes de formar os docinhos.",
+  "categoryIds": [
+    "doces"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/brigadeiro-tradicional.webp",
+    "alt": "Imagem ilustrativa: Brigadeiros redondos de chocolate cobertos com pedacinhos de nibs de cacau"
+  },
+  "publishedAt": "2026-11-03T21:09:40Z",
+  "updatedAt": "2026-11-03T21:09:40Z",
+  "seo": {
+    "title": "Brigadeiro tradicional de enrolar com nibs de cacau | Bebel",
+    "description": "Brigadeiro tradicional de enrolar com leite condensado, leite e chocolate em pó. Veja o ponto da massa e a cobertura de nibs de cacau."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 30,
+      "unit": "unidade"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 15 minutos após ferver, além do resfriamento e da modelagem.",
+    "ingredients": [
+      {
+        "id": "condensado",
+        "name": "Leite condensado",
+        "quantity": 395,
+        "unit": "g"
+      },
+      {
+        "id": "leite",
+        "name": "Leite",
+        "quantity": 0.6666666666666666,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "manteiga",
+        "name": "Manteiga para a massa",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "chocolate",
+        "name": "Chocolate em pó",
+        "quantity": 3,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "nibs",
+        "name": "Nibs de cacau",
+        "quantity": 0.75,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "manteiga-maos",
+        "name": "Manteiga para untar as mãos",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Misture leite e chocolate em pó numa panela média, em fogo baixo, até dissolver."
+      },
+      {
+        "id": "passo-2",
+        "text": "Adicione leite condensado e manteiga. Mexa continuamente por cerca de 15 minutos após ferver, até soltar do fundo."
+      },
+      {
+        "id": "passo-3",
+        "text": "Passe para um prato e espere esfriar completamente."
+      },
+      {
+        "id": "passo-4",
+        "text": "Unte as mãos levemente. Retire pequenas porções com colher de chá, forme bolinhas e passe nos nibs. Distribua em prato ou forminhas."
+      }
+    ],
+    "equipment": [
+      "Panela média e espátula",
+      "Prato para esfriar e prato para cobertura",
+      "Colher de chá e medidores"
+    ],
+    "tips": [
+      {
+        "title": "Ponto de enrolar",
+        "text": "O fundo deve aparecer quando a espátula passa pela massa."
+      },
+      {
+        "title": "Espere esfriar",
+        "text": "Massa quente dificulta modelar e pode queimar as mãos."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Guarde em recipiente fechado a 4 °C ou menos e consuma em até 2 dias. Refrigere prontamente e não deixe mais de 2 horas fora de refrigeração."
+      },
+      {
+        "title": "Para servir",
+        "text": "Retire com utensílio limpo somente o que vai consumir."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T21:09:40Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — brigadeiro tradicional",
+      "url": "https://panelinha.com.br/receita/brigadeiro",
+      "role": "Trinta unidades, leite na massa, ponto e nibs."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Refrigeração, resfriamento e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Chocolate tradicional é intenção diferente das fichas de morango e limão. Não copiar avaliações ou alegações de melhor da internet da fonte.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

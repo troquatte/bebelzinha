@@ -1,0 +1,11 @@
+# Molho de tomate caseiro com cebola e manjericão — revisão interna
+
+2026-11-03T21:09:40Z
+
+- Usar orientação refrigerada de3dias do método, não armazenamento ambiente nem5dias de outra seção. Sem cópia de refeições com molho. Short043 de redução não é esta receita.
+- Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página.
+
+- https://panelinha.com.br/receita/molho-de-tomate-caseiro — Lote de 3 kg de tomates, rendimento1,2kg, redução e freezer.
+- https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html — Refrigeração, resfriamento e reaquecimento.
+
+OpenSEO BR2076/pt, volume mensal estimado do termo molho de tomate caseiro: 33100; KD:7. Pesquisa2026-11-03 Brasil2076/pt; dez métricas novas. Dez SERPs exatas atuais resultIdb600e5cc-8148-46da-9a4a-25abb5fd4957. Custo e saldo não retornados.

@@ -1,0 +1,395 @@
+<div class="emotional-sales">
+  <header class="site-bar">
+    <a routerLink="/" class="site-brand" aria-label="Voltar à Bebelzinha">
+      <img src="images/bebel/bebel-roxa.jpg" width="42" height="42" alt="" />
+      <span>Produtos da <strong>Bebel</strong></span>
+    </a>
+    <a routerLink="/produtos/refeicao-resolvida/acessar" class="already-bought">
+      <span class="material-symbols-outlined" aria-hidden="true">key</span> Já comprei
+    </a>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="sales-title">
+      <div class="hero-content">
+        <span class="eyebrow"
+          ><span class="material-symbols-outlined" aria-hidden="true">favorite</span> Uma ajudinha
+          da Bebel para a sua rotina</span
+        >
+        <h1 id="sales-title">
+          Você já resolveu tanta coisa hoje. <em>O jantar não precisa ser mais uma preocupação.</em>
+        </h1>
+        <p class="hero-lead">
+          Depois de um dia cheio, escolher o que cozinhar pode parecer mais uma tarefa. A Bebel
+          reuniu <strong>22 refeições caseiras</strong> com ingredientes, preparo e lista de compras
+          no celular para facilitar esse momento.
+        </p>
+        <ul class="hero-benefits" aria-label="O que vem no acesso">
+          <li>
+            <span class="material-symbols-outlined" aria-hidden="true">check_circle</span> 22 ideias
+            de almoço ou jantar
+          </li>
+          <li>
+            <span class="material-symbols-outlined" aria-hidden="true">check_circle</span>
+            Ingredientes para 2 ou 4 porções
+          </li>
+          <li>
+            <span class="material-symbols-outlined" aria-hidden="true">check_circle</span> Passo a
+            passo e lista de compras
+          </li>
+        </ul>
+        <div class="hero-offer">
+          <div class="price-line">
+            <strong>{{ product.price }}</strong
+            ><span>pagamento único<br />sem mensalidade</span>
+          </div>
+          @if (access.hasAccess()) {
+            <a class="cta" routerLink="/jantar-resolvido"
+              >Abrir minhas refeições
+              <span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a
+            >
+          } @else {
+            <a
+              class="cta"
+              [href]="checkoutUrl"
+              target="_blank"
+              rel="noopener noreferrer"
+              (click)="trackCheckout('hero-alivio')"
+              >Quero uma preocupação a menos
+              <span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a
+            >
+            <small>Pagamento pela Hotmart · Acesso por código após a compra</small>
+          }
+        </div>
+      </div>
+      <div class="hero-art">
+        <span class="hero-art-caption"
+          ><span class="material-symbols-outlined" aria-hidden="true">smartphone</span> Veja uma
+          tela real do produto</span
+        >
+        <div class="phone-frame">
+          <img
+            src="images/products/refeicao-resolvida/escolha.webp"
+            width="375"
+            height="811"
+            fetchpriority="high"
+            alt="Tela real de escolha das refeições do Refeição Resolvida"
+          />
+        </div>
+        <div class="floating-note">
+          <img src="images/bebel/bebel-roxa.jpg" alt="" width="46" height="46" /><span
+            ><strong>Uma ideia pronta</strong><small>para você escolher</small></span
+          >
+        </div>
+      </div>
+    </section>
+
+    <div class="reassurance" aria-label="Características principais">
+      <span
+        ><span class="material-symbols-outlined" aria-hidden="true">verified</span> Pagamento
+        único</span
+      >
+      <span
+        ><span class="material-symbols-outlined" aria-hidden="true">smartphone</span> Funciona no
+        navegador</span
+      >
+      <span
+        ><span class="material-symbols-outlined" aria-hidden="true">restaurant</span> Comida
+        simples, de casa</span
+      >
+    </div>
+
+    <section class="scene section" aria-labelledby="scene-title">
+      <div class="section-heading">
+        <span class="kicker">Parece familiar?</span>
+        <h2 id="scene-title">O dia foi puxado. E ainda falta decidir o jantar.</h2>
+        <p>
+          Você abre a geladeira, tenta pensar no que fazer, procura uma receita… e percebe que
+          faltou um ingrediente. Não é falta de vontade: às vezes, é só mais uma decisão para tomar.
+        </p>
+      </div>
+      <div class="scene-grid">
+        <article class="scene-card scene-card--before">
+          <span class="icon-circle"
+            ><span class="material-symbols-outlined" aria-hidden="true"
+              >sentiment_dissatisfied</span
+            ></span
+          >
+          <h3>Quando falta uma ideia</h3>
+          <p>
+            Procurar pratos, conferir ingredientes e montar a lista pode cansar antes mesmo de ligar
+            o fogão.
+          </p>
+        </article>
+        <article class="scene-card scene-card--after">
+          <span class="icon-circle"
+            ><span class="material-symbols-outlined" aria-hidden="true">favorite</span></span
+          >
+          <h3>Quando a Bebel ajuda</h3>
+          <p>
+            Você encontra opções organizadas, ajusta as porções e já consulta o que precisa para
+            preparar.
+          </p>
+        </article>
+      </div>
+      <p class="scene-note">
+        E, quando a falta de ideia faz o delivery parecer a única opção, ter uma sugestão de comida
+        caseira à mão pode ajudar.
+      </p>
+    </section>
+
+    <section class="demo section" aria-labelledby="demo-title" id="demonstracao">
+      <div class="demo-copy">
+        <span class="kicker">Veja com os próprios olhos</span>
+        <h2 id="demo-title">
+          Não é só uma lista de receitas.
+          <em>É uma forma mais simples de organizar a próxima refeição.</em>
+        </h2>
+        <p>
+          Veja como funciona de verdade. A Bebel mostra a escolha do prato, as porções, o preparo e
+          a lista de ingredientes no aplicativo.
+        </p>
+        <ul class="demo-list">
+          <li>
+            <span class="material-symbols-outlined" aria-hidden="true">done</span> Escolha uma entre
+            22 refeições
+          </li>
+          <li>
+            <span class="material-symbols-outlined" aria-hidden="true">done</span> Ajuste para 2 ou
+            4 porções
+          </li>
+          <li>
+            <span class="material-symbols-outlined" aria-hidden="true">done</span> Siga o preparo e
+            marque itens de compras
+          </li>
+          <li>
+            <span class="material-symbols-outlined" aria-hidden="true">done</span> Use no celular,
+            sem instalar
+          </li>
+        </ul>
+      </div>
+      <div class="demo-player">
+        <p class="demo-label">
+          <span class="material-symbols-outlined" aria-hidden="true">play_circle</span> Demonstração
+          real da ferramenta
+        </p>
+        <div class="video-frame">
+          <video
+            #demoVideo
+            [src]="product.presentationVideoUrl"
+            [poster]="product.presentationVideoPoster"
+            [controls]="videoStarted()"
+            playsinline
+            preload="metadata"
+            width="1080"
+            height="1920"
+            aria-label="Vídeo de demonstração do Refeição Resolvida"
+          ></video>
+          @if (!videoStarted()) {
+            <button
+              class="play-video"
+              type="button"
+              (click)="playPresentation(demoVideo)"
+              aria-label="Reproduzir demonstração do produto"
+            >
+              <span class="material-symbols-outlined" aria-hidden="true">play_arrow</span>
+            </button>
+          }
+        </div>
+        <small>Vídeo demonstrativo do funcionamento, não aulas individuais das receitas.</small>
+      </div>
+    </section>
+
+    <section class="screens section" aria-labelledby="screens-title">
+      <div class="section-heading">
+        <span class="kicker">Sem surpresa na hora de comprar</span>
+        <h2 id="screens-title">Veja exatamente o que você recebe.</h2>
+        <p>Estas são telas reais do Refeição Resolvida. Toque em uma imagem para ampliar.</p>
+      </div>
+      <div class="screen-grid">
+        @for (screen of screenshots; track screen.image) {
+          <article class="screen-card">
+            <a rel="noopener" [attr.aria-label]="'Ampliar: ' + screen.title">
+              <img
+                [src]="'images/products/refeicao-resolvida/' + screen.image + '.webp'"
+                [alt]="screen.alt"
+                width="375"
+                height="811"
+                loading="lazy"
+              />
+            </a>
+            <div class="screen-info">
+              <h3>{{ screen.title }}</h3>
+              <p>{{ screen.summary }}</p>
+            </div>
+          </article>
+        }
+      </div>
+    </section>
+
+    <section class="difference section" aria-labelledby="difference-title">
+      <div class="section-heading">
+        <span class="kicker">Qual é a diferença?</span>
+        <h2 id="difference-title">
+          Receitas grátis existem aos milhares. <em>O que a Bebel organiza é a sua escolha.</em>
+        </h2>
+        <p>
+          Não estamos cobrando pelo segredo de um prato. A proposta é ter ideias de refeições,
+          quantidades, preparo e compras reunidos em um lugar só.
+        </p>
+      </div>
+      <div class="difference-grid">
+        <article class="compare-card compare-card--loose">
+          <h3>
+            <span class="material-symbols-outlined" aria-hidden="true">search</span> Procurando tudo
+            separado
+          </h3>
+          <ul>
+            <li>Escolher uma receita entre várias páginas</li>
+            <li>Adaptar ingredientes e quantidades</li>
+            <li>Anotar o que falta comprar</li>
+            <li>Voltar à receita na hora de preparar</li>
+          </ul>
+        </article>
+        <article class="compare-card compare-card--bebel">
+          <h3>
+            <span class="material-symbols-outlined" aria-hidden="true">favorite</span> Tudo
+            organizado com a Bebel
+          </h3>
+          <ul>
+            <li>22 refeições reunidas para escolher</li>
+            <li>Ingredientes adaptados para 2 ou 4 porções</li>
+            <li>Checklist de compras no celular</li>
+            <li>Preparo em etapas, com marcações</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="recipes section" aria-labelledby="recipes-title">
+      <div class="section-heading">
+        <span class="kicker">Comida simples, de casa</span>
+        <h2 id="recipes-title">O que dá para preparar?</h2>
+        <p>Algumas das opções encontradas no catálogo de 22 refeições.</p>
+      </div>
+      <div class="recipe-grid">
+        @for (recipe of recipes; track recipe.image) {
+          <article class="recipe-tile">
+            <img
+              [src]="recipe.image"
+              [alt]="'Imagem ilustrativa da receita: ' + recipe.name"
+              width="440"
+              height="295"
+              loading="lazy"
+            />
+            <h3>{{ recipe.name }}</h3>
+          </article>
+        }
+      </div>
+      <p class="fineprint">
+        Fotos ilustrativas das receitas. A apresentação dos pratos pode variar.
+      </p>
+    </section>
+
+    <section class="access section" aria-labelledby="access-title">
+      <div class="section-heading">
+        <span class="kicker">Simples de começar</span>
+        <h2 id="access-title">Três passos para ter a Bebel por perto</h2>
+      </div>
+      <div class="access-grid">
+        <article>
+          <span class="step-number">01</span>
+          <h3>Faça a compra</h3>
+          <p>Você finaliza o pedido no checkout da Hotmart.</p>
+        </article>
+        <article>
+          <span class="step-number">02</span>
+          <h3>Receba as instruções</h3>
+          <p>Siga as orientações de entrega do código de acesso após a compra.</p>
+        </article>
+        <article>
+          <span class="step-number">03</span>
+          <h3>Escolha sua refeição</h3>
+          <p>Digite o código em “Já comprei” e use no navegador.</p>
+        </article>
+      </div>
+      @if (!access.hasAccess()) {
+        <a
+          class="cta cta--secondary"
+          [href]="checkoutUrl"
+          target="_blank"
+          rel="noopener noreferrer"
+          (click)="trackCheckout('passos-alivio')"
+          >Quero facilitar meus próximos jantares
+          <span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a
+        >
+      }
+    </section>
+
+    <section class="questions section" aria-labelledby="questions-title">
+      <div class="section-heading">
+        <span class="kicker">Tire suas dúvidas</span>
+        <h2 id="questions-title">Antes de levar a Bebel para sua rotina</h2>
+      </div>
+      <div class="questions-list">
+        @for (item of questions; track item.question) {
+          <details>
+            <summary>
+              {{ item.question }}
+              <span class="material-symbols-outlined" aria-hidden="true">expand_more</span>
+            </summary>
+            <p>{{ item.answer }}</p>
+          </details>
+        }
+      </div>
+    </section>
+
+    <section class="closing" aria-labelledby="closing-title">
+      <img
+        src="images/bebel/bebel-roxa.jpg"
+        alt="Bebel"
+        width="80"
+        height="80"
+        loading="lazy"
+        class="closing-avatar"
+      />
+      <span class="eyebrow eyebrow--closing">Uma ajudinha para os dias corridos</span>
+      <h2 id="closing-title">
+        Você já cuidou de tanta coisa hoje.<br /><em
+          >Deixe a próxima refeição um pouco mais simples.</em
+        >
+      </h2>
+      <p>
+        22 refeições caseiras, ingredientes para 2 ou 4 porções, preparo e lista de compras reunidos
+        em um só lugar.
+      </p>
+      <div class="closing-price">
+        {{ product.price }} <small>pagamento único · sem assinatura</small>
+      </div>
+      @if (access.hasAccess()) {
+        <a class="cta cta--closing" routerLink="/jantar-resolvido"
+          >Abrir minhas refeições
+          <span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a
+        >
+      } @else {
+        <a
+          class="cta cta--closing"
+          [href]="checkoutUrl"
+          target="_blank"
+          rel="noopener noreferrer"
+          (click)="trackCheckout('final-alivio')"
+          >Quero uma preocupação a menos
+          <span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a
+        >
+        <small>Você será direcionado para o checkout da Hotmart.</small>
+      }
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>Produtos da Bebel · Refeição Resolvida</span
+    ><a routerLink="/produtos/refeicao-resolvida/acessar"
+      >Já tenho meu código <span aria-hidden="true">→</span></a
+    >
+  </footer>
+</div>

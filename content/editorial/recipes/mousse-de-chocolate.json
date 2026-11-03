@@ -1,0 +1,112 @@
+{
+  "id": "mousse-de-chocolate",
+  "slug": "mousse-de-chocolate",
+  "title": "Mousse de chocolate sem ovos com dois ingredientes",
+  "description": "Mousse de chocolate sem ovos com chocolate meio amargo e creme de leite. Receita batida na batedeira e refrigerada por pelo menos 4 horas.",
+  "intro": "Uma sobremesa de colher sem ovos, gelatina ou leite condensado.",
+  "categoryIds": [
+    "doces"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/mousse-chocolate.webp",
+    "alt": "Imagem ilustrativa: Mousse cremosa de chocolate marrom-clara em pequenos copos de sobremesa"
+  },
+  "publishedAt": "2026-11-03T21:09:40Z",
+  "updatedAt": "2026-11-03T21:09:40Z",
+  "seo": {
+    "title": "Mousse de chocolate sem ovos com dois ingredientes | Bebel",
+    "description": "Mousse de chocolate sem ovos com chocolate meio amargo e creme de leite. Receita batida na batedeira e refrigerada por pelo menos 4 horas."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 6,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Pelo menos 4 horas de geladeira, além do derretimento e da mistura.",
+    "ingredients": [
+      {
+        "id": "chocolate",
+        "name": "Chocolate meio amargo",
+        "quantity": 180,
+        "unit": "g"
+      },
+      {
+        "id": "creme",
+        "name": "Creme de leite",
+        "quantity": 600,
+        "unit": "g",
+        "note": "Confira o peso: são duas latas de 300 g, não duas caixinhas de 200 g."
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Pique o chocolate e coloque em tigela própria para micro-ondas. Aqueça de 30 em 30 segundos, mexendo nos intervalos, até derreter."
+      },
+      {
+        "id": "passo-2",
+        "text": "Misture o creme de leite ao chocolate até ficar uniforme."
+      },
+      {
+        "id": "passo-3",
+        "text": "Transfira à batedeira e bata para incorporar ar, até a mistura ficar aerada."
+      },
+      {
+        "id": "passo-4",
+        "text": "Distribua em seis porções e leve à geladeira por no mínimo 4 horas. Sirva gelado."
+      }
+    ],
+    "equipment": [
+      "Tigela própria para micro-ondas e espátula",
+      "Batedeira",
+      "Seis copinhos ou tigela de servir"
+    ],
+    "tips": [
+      {
+        "title": "Peso do creme",
+        "text": "Use 600 g no total, independentemente da embalagem."
+      },
+      {
+        "title": "Textura de colher",
+        "text": "A refrigeração faz parte do preparo; não sirva antes de gelar."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Guarde em recipiente fechado a 4 °C ou menos e consuma em até 2 dias. Refrigere prontamente e não deixe mais de 2 horas fora de refrigeração."
+      },
+      {
+        "title": "Para servir",
+        "text": "Retire com utensílio limpo somente o que vai consumir."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T21:09:40Z"
+  },
+  "sources": [
+    {
+      "title": "Receitas Globo — mousse de chocolate sem ovos",
+      "url": "https://receitas.globo.com/tipos-de-prato/doces-e-sobremesas/mousse-de-chocolate-4e25cff36eae28552e0001b3.ghtml",
+      "role": "Seis porções,180g de chocolate,600g de creme e4h de frio."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Refrigeração, resfriamento e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Não usar formulação de ovos crus do Panelinha nem vídeo223 de chocolate com água. Sem garnishes obrigatórios ou promessas de ponto de corte.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}
