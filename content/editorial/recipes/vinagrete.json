@@ -1,0 +1,136 @@
+{
+  "id": "vinagrete",
+  "slug": "vinagrete",
+  "title": "Vinagrete de tomate com cebola-roxa e salsinha",
+  "description": "Vinagrete de tomate sem pimentão, com cebola-roxa e salsinha. Veja as proporções de azeite e vinagre e o corte miúdo para servir.",
+  "intro": "Cubinhos miúdos facilitam servir o molho sobre outros preparos. Esta versão não leva pimentão.",
+  "categoryIds": [
+    "acompanhamentos"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/vinagrete.webp",
+    "alt": "Imagem ilustrativa: Vinagrete com cubinhos pequenos de tomate, cebola-roxa e salsinha em molho de azeite e vinagre"
+  },
+  "publishedAt": "2026-11-03T13:22:57Z",
+  "updatedAt": "2026-11-03T13:22:57Z",
+  "seo": {
+    "title": "Vinagrete de tomate com cebola-roxa e salsinha | Bebel",
+    "description": "Vinagrete de tomate sem pimentão, com cebola-roxa e salsinha. Veja as proporções de azeite e vinagre e o corte miúdo para servir."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 1,
+      "unit": "xícara (chá)"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Sem cocção. Separe o tempo de lavar, secar e picar os ingredientes.",
+    "ingredients": [
+      {
+        "id": "tomate",
+        "name": "Tomate",
+        "quantity": 2,
+        "unit": "unidades"
+      },
+      {
+        "id": "cebola",
+        "name": "Cebola-roxa",
+        "quantity": 0.5,
+        "unit": "unidade"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": 0.25,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "vinagre",
+        "name": "Vinagre",
+        "quantity": 1.5,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "salsinha",
+        "name": "Salsinha",
+        "quantity": 3,
+        "unit": "ramos"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Lave e seque tomates e salsinha. Descasque a cebola."
+      },
+      {
+        "id": "passo-2",
+        "text": "Retire as sementes dos tomates. Corte a polpa em cubinhos de aproximadamente 0,5 cm e pique a cebola e a salsinha bem fino."
+      },
+      {
+        "id": "passo-3",
+        "text": "Misture os vegetais com azeite e vinagre numa tigela."
+      },
+      {
+        "id": "passo-4",
+        "text": "Ajuste sal e pimenta. Mantenha refrigerado até servir."
+      }
+    ],
+    "equipment": [
+      "Tábua, faca e tigela",
+      "Medidores e recipiente com tampa"
+    ],
+    "tips": [
+      {
+        "title": "Corte uniforme",
+        "text": "Pedaços pequenos ajudam a distribuir o tempero."
+      },
+      {
+        "title": "Sem sementes",
+        "text": "Retire-as antes de picar o tomate."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Até o dia seguinte",
+        "text": "Guarde em pote fechado na geladeira a 4 °C ou menos. Mexa antes de servir para redistribuir o líquido."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T13:22:57Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — molho vinagrete aperitivo",
+      "url": "https://panelinha.com.br/receita/molho-vinagrete-aperitivo",
+      "role": "Proporções, corte de 0,5 cm, rendimento de uma xícara e conservação até o dia seguinte."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Rendimento1xícara,nãoinferir4porções. NãoévinagretefeijãodoShort108.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

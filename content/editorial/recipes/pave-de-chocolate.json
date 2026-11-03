@@ -1,0 +1,152 @@
+{
+  "id": "pave-de-chocolate",
+  "slug": "pave-de-chocolate",
+  "title": "Pavê de chocolate com dois tipos de biscoito",
+  "description": "Pavê de chocolate com biscoito maisena tradicional e de chocolate. Veja as medidas do creme, a montagem na travessa e o tempo de geladeira.",
+  "intro": "O mesmo creme de chocolate aparece em todas as camadas. Alterne os dois biscoitos e umedeça rapidamente, sem encharcar.",
+  "categoryIds": [
+    "doces"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/pave-chocolate.webp",
+    "alt": "Imagem ilustrativa: Pavê com creme de chocolate e camadas de biscoitos claros e de chocolate em travessa, sem creme branco"
+  },
+  "publishedAt": "2026-11-03T13:22:57Z",
+  "updatedAt": "2026-11-03T13:22:57Z",
+  "seo": {
+    "title": "Pavê de chocolate com dois tipos de biscoito | Bebel",
+    "description": "Pavê de chocolate com biscoito maisena tradicional e de chocolate. Veja as medidas do creme, a montagem na travessa e o tempo de geladeira."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 10,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Cozinhe o creme por mais 2 minutos após começar a ferver. Depois da montagem, gele por pelo menos 2 horas.",
+    "ingredients": [
+      {
+        "id": "condensado",
+        "name": "Leite condensado",
+        "quantity": 395,
+        "unit": "g"
+      },
+      {
+        "id": "amido",
+        "name": "Amido de milho",
+        "quantity": 30,
+        "unit": "g"
+      },
+      {
+        "id": "leite-creme",
+        "name": "Leite para o creme",
+        "quantity": 850,
+        "unit": "ml"
+      },
+      {
+        "id": "baunilha",
+        "name": "Essência de baunilha",
+        "quantity": 15,
+        "unit": "ml"
+      },
+      {
+        "id": "chocolate",
+        "name": "Chocolate em pó 33% cacau",
+        "quantity": 90,
+        "unit": "g"
+      },
+      {
+        "id": "biscoito-chocolate",
+        "name": "Biscoito maisena de chocolate",
+        "quantity": 220,
+        "unit": "g"
+      },
+      {
+        "id": "biscoito-tradicional",
+        "name": "Biscoito maisena tradicional",
+        "quantity": 150,
+        "unit": "g",
+        "note": "Reserve alguns pedaços para decorar, se desejar."
+      },
+      {
+        "id": "leite-montagem",
+        "name": "Leite para umedecer os biscoitos",
+        "quantity": 360,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Separe uma travessa de 27 × 17 × 6 cm. Fora do fogo, dissolva o amido no leite condensado. Junte leite do creme, baunilha e chocolate em pó."
+      },
+      {
+        "id": "passo-2",
+        "text": "Cozinhe em fogo baixo, mexendo. Quando ferver, mantenha por mais 2 minutos até engrossar."
+      },
+      {
+        "id": "passo-3",
+        "text": "Espalhe uma camada fina do creme na travessa. Umedeça rapidamente os biscoitos de chocolate no leite reservado e distribua sobre ela."
+      },
+      {
+        "id": "passo-4",
+        "text": "Cubra com creme e faça outra camada com biscoitos tradicionais umedecidos. Repita, terminando com creme."
+      },
+      {
+        "id": "passo-5",
+        "text": "Decore com alguns pedaços de biscoito, se quiser. Refrigere por pelo menos 2 horas antes de servir."
+      }
+    ],
+    "equipment": [
+      "Panela, batedor e espátula",
+      "Travessa de 27 × 17 × 6 cm",
+      "Prato fundo, balança e medidores"
+    ],
+    "tips": [
+      {
+        "title": "Dois leites separados",
+        "text": "Use os 850 ml no creme e reserve os 360 ml para umedecer."
+      },
+      {
+        "title": "Banho rápido",
+        "text": "Passe cada biscoito no leite sem deixá-lo de molho."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Guarde refrigerado",
+        "text": "Mantenha em recipiente fechado a 4 °C ou menos e consuma em até 2 dias. Identifique a data do preparo."
+      },
+      {
+        "title": "Na hora de servir",
+        "text": "Retire apenas as porções desejadas e devolva o restante à geladeira. Não deixe a sobremesa por mais de 2 horas fora de refrigeração."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T13:22:57Z"
+  },
+  "sources": [
+    {
+      "title": "Receiteria — pavê de chocolate",
+      "url": "https://www.receiteria.com.br/receita/pave-de-chocolate/",
+      "role": "Dez porções, dois tipos de biscoito, medidas em gramas/ml, travessa e duas horas de geladeira."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "850mlprimáriomantidosemconverter3.5xícaras. Semcremebranco/ganacheovosdafórmulafácildiferente.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

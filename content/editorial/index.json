@@ -342,6 +342,126 @@
       "slug": "cocada-branca",
       "status": "published",
       "file": "recipes/cocada-branca.json"
+    },
+    {
+      "id": "bolo-de-mandioca",
+      "slug": "bolo-de-mandioca",
+      "status": "published",
+      "file": "recipes/bolo-de-mandioca.json"
+    },
+    {
+      "id": "bolo-de-iogurte",
+      "slug": "bolo-de-iogurte",
+      "status": "published",
+      "file": "recipes/bolo-de-iogurte.json"
+    },
+    {
+      "id": "bolo-de-maca",
+      "slug": "bolo-de-maca",
+      "status": "published",
+      "file": "recipes/bolo-de-maca.json"
+    },
+    {
+      "id": "manjar-de-coco",
+      "slug": "manjar-de-coco",
+      "status": "published",
+      "file": "recipes/manjar-de-coco.json"
+    },
+    {
+      "id": "pe-de-moleque",
+      "slug": "pe-de-moleque",
+      "status": "published",
+      "file": "recipes/pe-de-moleque.json"
+    },
+    {
+      "id": "caponata-de-berinjela",
+      "slug": "caponata-de-berinjela",
+      "status": "published",
+      "file": "recipes/caponata-de-berinjela.json"
+    },
+    {
+      "id": "tabule",
+      "slug": "tabule",
+      "status": "published",
+      "file": "recipes/tabule.json"
+    },
+    {
+      "id": "guacamole",
+      "slug": "guacamole",
+      "status": "published",
+      "file": "recipes/guacamole.json"
+    },
+    {
+      "id": "creme-de-espinafre",
+      "slug": "creme-de-espinafre",
+      "status": "published",
+      "file": "recipes/creme-de-espinafre.json"
+    },
+    {
+      "id": "tomate-confit",
+      "slug": "tomate-confit",
+      "status": "published",
+      "file": "recipes/tomate-confit.json"
+    },
+    {
+      "id": "salpicao-de-frango",
+      "slug": "salpicao-de-frango",
+      "status": "published",
+      "file": "recipes/salpicao-de-frango.json"
+    },
+    {
+      "id": "salada-de-maionese",
+      "slug": "salada-de-maionese",
+      "status": "published",
+      "file": "recipes/salada-de-maionese.json"
+    },
+    {
+      "id": "vinagrete",
+      "slug": "vinagrete",
+      "status": "published",
+      "file": "recipes/vinagrete.json"
+    },
+    {
+      "id": "farofa-de-ovo",
+      "slug": "farofa-de-ovo",
+      "status": "published",
+      "file": "recipes/farofa-de-ovo.json"
+    },
+    {
+      "id": "molho-pesto",
+      "slug": "molho-pesto",
+      "status": "published",
+      "file": "recipes/molho-pesto.json"
+    },
+    {
+      "id": "chuchu-refogado",
+      "slug": "chuchu-refogado",
+      "status": "published",
+      "file": "recipes/chuchu-refogado.json"
+    },
+    {
+      "id": "arroz-com-brocolis",
+      "slug": "arroz-com-brocolis",
+      "status": "published",
+      "file": "recipes/arroz-com-brocolis.json"
+    },
+    {
+      "id": "pave-de-chocolate",
+      "slug": "pave-de-chocolate",
+      "status": "published",
+      "file": "recipes/pave-de-chocolate.json"
+    },
+    {
+      "id": "palha-italiana",
+      "slug": "palha-italiana",
+      "status": "published",
+      "file": "recipes/palha-italiana.json"
+    },
+    {
+      "id": "sagu-de-uva",
+      "slug": "sagu-de-uva",
+      "status": "published",
+      "file": "recipes/sagu-de-uva.json"
     }
   ]
 }

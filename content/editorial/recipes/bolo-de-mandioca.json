@@ -1,0 +1,180 @@
+{
+  "id": "bolo-de-mandioca",
+  "slug": "bolo-de-mandioca",
+  "title": "Bolo de mandioca com queijo e coco no tabuleiro",
+  "description": "Bolo de mandioca ralada com queijo meia-cura e coco, também chamado mané pelado. Veja as medidas, a forma e o ponto de assar no tabuleiro.",
+  "intro": "Este bolo de tabuleiro tem textura úmida e compacta. A mandioca entra ralada; a receita não leva fermento.",
+  "categoryIds": [
+    "doces",
+    "lanches",
+    "forno"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/bolo-mandioca.webp",
+    "alt": "Imagem ilustrativa: Pedaços quadrados de bolo de mandioca com coco e queijo, miolo úmido e cobertura dourada sem glacê"
+  },
+  "publishedAt": "2026-11-03T12:58:56Z",
+  "updatedAt": "2026-11-03T12:58:56Z",
+  "seo": {
+    "title": "Bolo de mandioca com queijo e coco no tabuleiro | Bebel",
+    "description": "Bolo de mandioca ralada com queijo meia-cura e coco, também chamado mané pelado. Veja as medidas, a forma e o ponto de assar no tabuleiro."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 15,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 60,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 1 hora de forno a 180 °C, além de ralar, escorrer a mandioca e esfriar completamente antes de cortar.",
+    "ingredients": [
+      {
+        "id": "mandioca",
+        "name": "Mandioca mansa descascada",
+        "quantity": 500,
+        "unit": "g"
+      },
+      {
+        "id": "queijo",
+        "name": "Queijo meia-cura ralado grosso",
+        "quantity": 1.5,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "coco",
+        "name": "Coco seco ralado em flocos",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "id": "ovos",
+        "name": "Ovos",
+        "quantity": 4,
+        "unit": "unidades"
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar",
+        "quantity": 2,
+        "unit": "xícaras (chá)"
+      },
+      {
+        "id": "manteiga",
+        "name": "Manteiga derretida",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "id": "leite-coco",
+        "name": "Leite de coco",
+        "quantity": 200,
+        "unit": "ml",
+        "note": "Aproximadamente; corresponde à medida indicada na fonte."
+      },
+      {
+        "id": "leite",
+        "name": "Leite",
+        "quantity": 0.5,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 1,
+        "unit": "pitada"
+      },
+      {
+        "id": "untar",
+        "name": "Manteiga para untar",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "polvilhar",
+        "name": "Farinha de trigo para polvilhar a forma",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "agua",
+        "name": "Água para deixar a mandioca de molho",
+        "quantity": 2,
+        "unit": "xícaras (chá)",
+        "shopping": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Aqueça o forno a 180 °C. Unte e enfarinhe uma assadeira de 33 × 22 cm."
+      },
+      {
+        "id": "passo-2",
+        "text": "Rale a mandioca na parte grossa. Cubra com a água enquanto separa os demais ingredientes."
+      },
+      {
+        "id": "passo-3",
+        "text": "Misture ovos, açúcar, sal e manteiga com um batedor. Escorra a mandioca numa peneira, pressionando para retirar a água."
+      },
+      {
+        "id": "passo-4",
+        "text": "Incorpore mandioca, coco, queijo e os dois leites à mistura de ovos. Espalhe na assadeira."
+      },
+      {
+        "id": "passo-5",
+        "text": "Asse por aproximadamente 1 hora, até dourar e cozinhar o centro. Espere esfriar completamente para cortar."
+      }
+    ],
+    "equipment": [
+      "Forno e assadeira de 33 × 22 cm",
+      "Ralador grosso, peneira e espátula",
+      "Tigelas, batedor e medidores",
+      "Luvas térmicas"
+    ],
+    "tips": [
+      {
+        "title": "Mandioca própria para cozinhar",
+        "text": "Use mandioca mansa de fornecedor confiável e asse completamente. Não prove a massa crua."
+      },
+      {
+        "title": "Textura do bolo",
+        "text": "O queijo e o coco permanecem perceptíveis no miolo; não é uma massa aerada de trigo."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Depois de esfriar",
+        "text": "Guarde em recipiente fechado na geladeira, a 4 °C ou menos, e consuma em até 2 dias. Identifique a data do preparo."
+      },
+      {
+        "title": "Para servir",
+        "text": "Retire apenas a quantidade desejada e mantenha o restante refrigerado. Não deixe preparações prontas por mais de 2 horas fora da geladeira."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T12:58:56Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — mané pelado de tabuleiro",
+      "url": "https://panelinha.com.br/receita/bolo-de-mandioca-de-tabuleiro",
+      "role": "Formulação com 500 g de mandioca, queijo e coco; 15 porções, assadeira e forno."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Não é bolo de goma/polvilho da SERP. Leite de coco200mlaproximados dafonte; leite líquido separado. Semfermento.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

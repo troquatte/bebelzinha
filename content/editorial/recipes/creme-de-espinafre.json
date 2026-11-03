@@ -1,0 +1,145 @@
+{
+  "id": "creme-de-espinafre",
+  "slug": "creme-de-espinafre",
+  "title": "Creme de espinafre com molho branco caseiro",
+  "description": "Creme de espinafre com molho branco, leite e noz-moscada. Receita com espinafre congelado e sem queijo para acompanhar as refeições.",
+  "intro": "O espinafre congelado entra direto no molho branco. O leite frio ajuda a incorporar a farinha sem formar grumos.",
+  "categoryIds": [
+    "acompanhamentos"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/creme-espinafre.webp",
+    "alt": "Imagem ilustrativa: Creme claro de espinafre com folhas picadas escuras e textura espessa, sem queijo por cima"
+  },
+  "publishedAt": "2026-11-03T12:58:56Z",
+  "updatedAt": "2026-11-03T12:58:56Z",
+  "seo": {
+    "title": "Creme de espinafre com molho branco caseiro | Bebel",
+    "description": "Creme de espinafre com molho branco, leite e noz-moscada. Receita com espinafre congelado e sem queijo para acompanhar as refeições."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 4,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 22,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 2 minutos para a farinha, 10 para engrossar o molho e mais 10 após juntar o espinafre, além da organização dos ingredientes.",
+    "ingredients": [
+      {
+        "id": "espinafre",
+        "name": "Espinafre congelado picado",
+        "quantity": 300,
+        "unit": "g"
+      },
+      {
+        "id": "leite",
+        "name": "Leite frio",
+        "quantity": 3,
+        "unit": "xícaras (chá)"
+      },
+      {
+        "id": "manteiga",
+        "name": "Manteiga",
+        "quantity": 4,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "farinha",
+        "name": "Farinha de trigo",
+        "quantity": 4,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "noz",
+        "name": "Noz-moscada ralada",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Derreta a manteiga em fogo baixo. Junte a farinha e mexa por 2 minutos, sem escurecer demais."
+      },
+      {
+        "id": "passo-2",
+        "text": "Acrescente o leite frio e misture com batedor até dissolver os grumos."
+      },
+      {
+        "id": "passo-3",
+        "text": "Em fogo médio, cozinhe por aproximadamente 10 minutos, mexendo, até o molho engrossar. Tempere com noz-moscada."
+      },
+      {
+        "id": "passo-4",
+        "text": "Adicione o espinafre ainda congelado e mexa até os pedaços se soltarem. Cozinhe por mais 10 minutos, mexendo para não pegar no fundo."
+      },
+      {
+        "id": "passo-5",
+        "text": "Prove, ajuste sal e pimenta e sirva quente como acompanhamento."
+      }
+    ],
+    "equipment": [
+      "Panela média e fogão",
+      "Batedor de arame e espátula",
+      "Balança, ralador e medidores"
+    ],
+    "tips": [
+      {
+        "title": "Espinafre picado",
+        "text": "A quantidade corresponde ao produto congelado, não a um maço fresco."
+      },
+      {
+        "title": "Mexa o fundo",
+        "text": "Passe a espátula pelo fundo para o creme não grudar."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Conservação refrigerada",
+        "text": "Distribua em recipientes rasos e refrigere prontamente a 4 °C ou menos. Consuma em 2 a 3 dias e use utensílios limpos."
+      },
+      {
+        "title": "Ao reaquecer",
+        "text": "Aqueça apenas a porção desejada até atingir 74 °C no centro. Descarte sobras que passaram mais de 2 horas fora da geladeira."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T12:58:56Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — creme de espinafre",
+      "url": "https://panelinha.com.br/receita/creme-de-espinafre",
+      "role": "300 g de espinafre congelado, molho branco, quatro porções e tempos por etapa."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Páginanãolevaparmesão; versãodevídeodiferentenãoassociada.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

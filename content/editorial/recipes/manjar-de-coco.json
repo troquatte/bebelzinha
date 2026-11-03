@@ -1,0 +1,159 @@
+{
+  "id": "manjar-de-coco",
+  "slug": "manjar-de-coco",
+  "title": "Manjar de coco com calda de ameixa e canela",
+  "description": "Manjar de coco com amido de milho e calda de ameixa. Confira a proporção do creme, o cozimento da calda e o descanso antes de desenformar.",
+  "intro": "O creme firma na geladeira. Faça a calda à parte e só coloque sobre o manjar depois que ambos estiverem frios.",
+  "categoryIds": [
+    "doces"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/manjar-coco.webp",
+    "alt": "Imagem ilustrativa: Manjar branco de coco em anel, servido com calda âmbar e ameixas escuras"
+  },
+  "publishedAt": "2026-11-03T12:58:56Z",
+  "updatedAt": "2026-11-03T12:58:56Z",
+  "seo": {
+    "title": "Manjar de coco com calda de ameixa e canela | Bebel",
+    "description": "Manjar de coco com amido de milho e calda de ameixa. Confira a proporção do creme, o cozimento da calda e o descanso antes de desenformar."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 10,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Pelo menos 3 horas de geladeira após amornar. A calda cozinha por cerca de 30 minutos e o creme engrossa em aproximadamente 3 minutos após adicionar o amido.",
+    "ingredients": [
+      {
+        "id": "coco",
+        "name": "Leite de coco",
+        "quantity": 400,
+        "unit": "ml"
+      },
+      {
+        "id": "leite",
+        "name": "Leite",
+        "quantity": 3,
+        "unit": "xícaras (chá)",
+        "note": "Reserve 1 xícara fria para dissolver o amido."
+      },
+      {
+        "id": "acucar-creme",
+        "name": "Açúcar para o creme",
+        "quantity": 0.75,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "amido",
+        "name": "Amido de milho",
+        "quantity": 0.75,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "untar",
+        "name": "Óleo para untar a forma",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "ameixa",
+        "name": "Ameixa seca com caroço",
+        "quantity": 300,
+        "unit": "g"
+      },
+      {
+        "id": "acucar-calda",
+        "name": "Açúcar para a calda",
+        "quantity": 0.75,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "canela",
+        "name": "Canela em pau",
+        "quantity": 1,
+        "unit": "rama"
+      },
+      {
+        "id": "agua",
+        "name": "Água para a calda",
+        "quantity": 2.5,
+        "unit": "xícaras (chá)",
+        "shopping": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Unte levemente uma forma de furo central de 22 cm e 6,5 cm de altura. Dissolva o amido em 1 xícara do leite frio."
+      },
+      {
+        "id": "passo-2",
+        "text": "Aqueça o leite restante com leite de coco e açúcar do creme. Ao ferver, reduza o fogo e junte o amido dissolvido, mexendo com batedor por cerca de 3 minutos, até engrossar."
+      },
+      {
+        "id": "passo-3",
+        "text": "Transfira à forma. Amorne, cubra com filme em contato com o creme e gele por pelo menos 3 horas."
+      },
+      {
+        "id": "passo-4",
+        "text": "Para a calda, ferva ameixas, água e açúcar. Cozinhe por 25 minutos, junte a canela e mantenha por mais 5. Esfrie e refrigere."
+      },
+      {
+        "id": "passo-5",
+        "text": "Desenforme o manjar frio e acrescente a calda. Avise que as ameixas têm caroço e retire-o antes de comer."
+      }
+    ],
+    "equipment": [
+      "Fogão, duas panelas e batedor",
+      "Forma de furo central de 22 × 6,5 cm",
+      "Filme culinário, prato e medidores"
+    ],
+    "tips": [
+      {
+        "title": "Amido em leite frio",
+        "text": "Dissolva antes de levar ao creme quente."
+      },
+      {
+        "title": "Espere firmar",
+        "text": "Não encurte a geladeira para tentar desenformar ainda morno."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Depois de esfriar",
+        "text": "Guarde em recipiente fechado na geladeira, a 4 °C ou menos, e consuma em até 2 dias. Identifique a data do preparo."
+      },
+      {
+        "title": "Para servir",
+        "text": "Retire apenas a quantidade desejada e mantenha o restante refrigerado. Não deixe preparações prontas por mais de 2 horas fora da geladeira."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T12:58:56Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — manjar de coco",
+      "url": "https://panelinha.com.br/receita/manjar-de-coco",
+      "role": "10 porções, forma, creme com amido, descanso e calda com ameixa de caroço."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Ameixacomcaroço mantida daformulação comaviso. Semleitecondensado. Nãoconfundirtrêshorasfrio comtotal.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

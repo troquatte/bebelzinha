@@ -1,0 +1,162 @@
+{
+  "id": "tabule",
+  "slug": "tabule",
+  "title": "Tabule com trigo para quibe, salsinha e hortelã",
+  "description": "Tabule com trigo para quibe, tomate, salsinha e hortelã. Aprenda a hidratar e espremer o trigo para a salada não ficar aguada.",
+  "intro": "O trigo hidratado precisa ficar bem escorrido. Ele entra por último, depois de temperar os legumes e as ervas.",
+  "categoryIds": [
+    "acompanhamentos"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/tabule.webp",
+    "alt": "Imagem ilustrativa: Tabule com bastante salsinha e hortelã, trigo fino, tomate em cubos e folhas de alface ao lado"
+  },
+  "publishedAt": "2026-11-03T12:58:56Z",
+  "updatedAt": "2026-11-03T12:58:56Z",
+  "seo": {
+    "title": "Tabule com trigo para quibe, salsinha e hortelã | Bebel",
+    "description": "Tabule com trigo para quibe, tomate, salsinha e hortelã. Aprenda a hidratar e espremer o trigo para a salada não ficar aguada."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 3,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "15 minutos para hidratar o trigo, além de lavar, secar, picar e temperar. Sem cocção.",
+    "ingredients": [
+      {
+        "id": "trigo",
+        "name": "Trigo fino para quibe",
+        "quantity": 0.5,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "tomate",
+        "name": "Tomate maduro",
+        "quantity": 2,
+        "unit": "unidades"
+      },
+      {
+        "id": "cebola",
+        "name": "Cebola",
+        "quantity": 0.5,
+        "unit": "unidade"
+      },
+      {
+        "id": "salsinha",
+        "name": "Folhas de salsinha",
+        "quantity": 1.5,
+        "unit": "xícara (chá)",
+        "note": "Cerca de 1 maço."
+      },
+      {
+        "id": "hortela",
+        "name": "Folhas de hortelã",
+        "quantity": 0.75,
+        "unit": "xícara (chá)",
+        "note": "Cerca de 1 maço."
+      },
+      {
+        "id": "limao",
+        "name": "Limão para o suco",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": 0.25,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "alface",
+        "name": "Folhas de minialface-romana para servir",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "agua",
+        "name": "Água para hidratar o trigo",
+        "quantity": null,
+        "unit": "a gosto",
+        "shopping": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Cubra o trigo com água numa tigela e deixe hidratar por 15 minutos."
+      },
+      {
+        "id": "passo-2",
+        "text": "Lave e seque as folhas e os tomates. Retire as sementes dos tomates e pique-os com a cebola em cubinhos. Pique salsinha e hortelã."
+      },
+      {
+        "id": "passo-3",
+        "text": "Escorra o trigo e esprema num pano limpo até retirar bem a água."
+      },
+      {
+        "id": "passo-4",
+        "text": "Misture tomate, cebola e ervas. Tempere com suco de limão, azeite e sal."
+      },
+      {
+        "id": "passo-5",
+        "text": "Incorpore o trigo por último. Sirva acompanhado das folhas de alface."
+      }
+    ],
+    "equipment": [
+      "Tigela, peneira e pano limpo",
+      "Tábua, faca e medidores",
+      "Espremedor de limão"
+    ],
+    "tips": [
+      {
+        "title": "Trigo bem seco",
+        "text": "Espremer é diferente de apenas escorrer na peneira."
+      },
+      {
+        "title": "Folhas sequinhas",
+        "text": "Retire a água da lavagem antes de picar as ervas."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Melhor no dia",
+        "text": "Guarde prontamente em pote fechado na geladeira a 4 °C ou menos. Consuma em até 1 dia; o tempero solta mais líquido com o tempo."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T12:58:56Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — tabule",
+      "url": "https://panelinha.com.br/receita/tabule",
+      "role": "3 porções, quantidades de trigo e ervas, hidratação e ordem da mistura."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Sempepino/quinoa. Receitascommaisbulgurnãoalteramformula.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

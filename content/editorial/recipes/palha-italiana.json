@@ -1,0 +1,133 @@
+{
+  "id": "palha-italiana",
+  "slug": "palha-italiana",
+  "title": "Palha italiana de chocolate com biscoito maisena",
+  "description": "Palha italiana de chocolate com biscoito maisena e leite condensado. Aprenda o ponto do brigadeiro, a montagem e o descanso antes de cortar.",
+  "intro": "Os pedaços de biscoito entram no brigadeiro ainda quente. Compacte na forma e espere firmar antes de cortar.",
+  "categoryIds": [
+    "doces"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/palha-italiana.webp",
+    "alt": "Imagem ilustrativa: Quadradinhos de palha italiana de chocolate com pedaços de biscoito no interior e açúcar de confeiteiro"
+  },
+  "publishedAt": "2026-11-03T13:22:57Z",
+  "updatedAt": "2026-11-03T13:22:57Z",
+  "seo": {
+    "title": "Palha italiana de chocolate com biscoito maisena | Bebel",
+    "description": "Palha italiana de chocolate com biscoito maisena e leite condensado. Aprenda o ponto do brigadeiro, a montagem e o descanso antes de cortar."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 32,
+      "unit": "fatia"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 20,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 20 minutos de panela, conforme o ponto, e aproximadamente 2 horas de geladeira, além da montagem.",
+    "ingredients": [
+      {
+        "id": "leite",
+        "name": "Leite condensado",
+        "quantity": 790,
+        "unit": "g"
+      },
+      {
+        "id": "chocolate",
+        "name": "Chocolate em pó",
+        "quantity": 4,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "margarina",
+        "name": "Margarina sem sal",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "biscoito",
+        "name": "Biscoito maisena",
+        "quantity": 175,
+        "unit": "g"
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar de confeiteiro",
+        "quantity": 4,
+        "unit": "colheres (sopa)"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Forre uma forma retangular média com papel-manteiga. Misture leite condensado, chocolate e margarina numa panela, ainda fora do fogo."
+      },
+      {
+        "id": "passo-2",
+        "text": "Cozinhe em fogo médio, mexendo constantemente, até desgrudar do fundo e atingir ponto de brigadeiro."
+      },
+      {
+        "id": "passo-3",
+        "text": "Desligue. Quebre os biscoitos em pedaços irregulares e incorpore ao doce quente."
+      },
+      {
+        "id": "passo-4",
+        "text": "Espalhe na forma e pressione com colher ou espátula, eliminando espaços vazios. Refrigere por aproximadamente 2 horas."
+      },
+      {
+        "id": "passo-5",
+        "text": "Desenforme, corte em 32 pequenas fatias e passe no açúcar de confeiteiro. Retire o excesso."
+      }
+    ],
+    "equipment": [
+      "Panela média e espátula",
+      "Forma retangular média e papel-manteiga",
+      "Balança, medidores e faca"
+    ],
+    "tips": [
+      {
+        "title": "Pedaços perceptíveis",
+        "text": "Quebre os biscoitos, sem triturar até virar farinha."
+      },
+      {
+        "title": "Espere firmar",
+        "text": "Corte depois do descanso para manter o formato."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Guarde refrigerado",
+        "text": "Mantenha em recipiente fechado a 4 °C ou menos e consuma em até 2 dias. Identifique a data do preparo."
+      },
+      {
+        "title": "Na hora de servir",
+        "text": "Retire apenas as porções desejadas e devolva o restante à geladeira. Não deixe a sobremesa por mais de 2 horas fora de refrigeração."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T13:22:57Z"
+  },
+  "sources": [
+    {
+      "title": "Receiteria — palha italiana rápida",
+      "url": "https://www.receiteria.com.br/receita/palha-italiana-rapida/",
+      "role": "32 fatias, 790 g de leite condensado, 175 g de biscoito e descanso de duas horas."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Intentoprovedortransactional,mistoSERPreceitascompras,semfalsaconclusãoinformational. Semcremedeleiteoutraformulação15unid. Medidaformanãoinventada.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

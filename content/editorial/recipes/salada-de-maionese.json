@@ -1,0 +1,153 @@
+{
+  "id": "salada-de-maionese",
+  "slug": "salada-de-maionese",
+  "title": "Salada de maionese com batata, cenoura e maçã",
+  "description": "Salada de maionese com batata, cenoura, vagem, ervilha e maçã. Veja como cozinhar os legumes, esfriar e misturar sem desmanchar.",
+  "intro": "Esta salada rende pequenas porções de acompanhamento. Espere os legumes esfriarem antes de misturar a maionese.",
+  "categoryIds": [
+    "acompanhamentos"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/salada-maionese.webp",
+    "alt": "Imagem ilustrativa: Salada de maionese com cubinhos de batata, cenoura, maçã, vagem e ervilha, sem frango"
+  },
+  "publishedAt": "2026-11-03T13:22:57Z",
+  "updatedAt": "2026-11-03T13:22:57Z",
+  "seo": {
+    "title": "Salada de maionese com batata, cenoura e maçã | Bebel",
+    "description": "Salada de maionese com batata, cenoura, vagem, ervilha e maçã. Veja como cozinhar os legumes, esfriar e misturar sem desmanchar."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 20,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Reserve o tempo de cortar, cozinhar os legumes até amaciarem e resfriar a salada. O ponto dos vegetais orienta o cozimento.",
+    "ingredients": [
+      {
+        "id": "batata",
+        "name": "Batata média",
+        "quantity": 4,
+        "unit": "unidades"
+      },
+      {
+        "id": "cenoura",
+        "name": "Cenoura média",
+        "quantity": 3,
+        "unit": "unidades"
+      },
+      {
+        "id": "vagem",
+        "name": "Vagem",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "id": "maca",
+        "name": "Maçã",
+        "quantity": 3,
+        "unit": "unidades"
+      },
+      {
+        "id": "ervilha",
+        "name": "Ervilha em lata",
+        "quantity": 1,
+        "unit": "lata",
+        "note": "Escorra antes de misturar."
+      },
+      {
+        "id": "maionese",
+        "name": "Maionese industrializada",
+        "quantity": 250,
+        "unit": "g"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "agua",
+        "name": "Água para cozinhar os legumes",
+        "quantity": null,
+        "unit": "a gosto",
+        "shopping": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Lave os vegetais. Descasque batatas e cenouras, retire as pontas das vagens e corte tudo em pedaços pequenos."
+      },
+      {
+        "id": "passo-2",
+        "text": "Cozinhe em água com sal até os legumes ficarem macios, sem se desfazer. Escorra bem e deixe esfriar."
+      },
+      {
+        "id": "passo-3",
+        "text": "Descasque as maçãs, retire sementes e miolos e corte em cubinhos. Escorra a ervilha."
+      },
+      {
+        "id": "passo-4",
+        "text": "Misture legumes frios, maçã e ervilha numa travessa. Incorpore a maionese com movimentos leves."
+      },
+      {
+        "id": "passo-5",
+        "text": "Cubra e refrigere até ficar gelada. Sirva como acompanhamento."
+      }
+    ],
+    "equipment": [
+      "Panela, escorredor e travessa",
+      "Tábua, faca, descascador e balança",
+      "Colher grande e recipiente com tampa"
+    ],
+    "tips": [
+      {
+        "title": "Cubos pequenos",
+        "text": "Procure cortes semelhantes para distribuir os ingredientes."
+      },
+      {
+        "title": "Sem água sobrando",
+        "text": "Escorra antes de esfriar para não diluir a maionese."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Geladeira até servir",
+        "text": "Guarde em pote fechado a 4 °C ou menos e consuma em até 2 dias. Deixe fora da geladeira somente a quantidade que será servida."
+      },
+      {
+        "title": "Preserve os pedaços",
+        "text": "Misture delicadamente antes de servir; evite apertar a batata com a colher."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T13:22:57Z"
+  },
+  "sources": [
+    {
+      "title": "TudoGostoso — salada de maionese",
+      "url": "https://www.tudogostoso.com.br/receita/4709-salada-de-maionese.html",
+      "role": "Ingredientes, vinte porções de acompanhamento e legumes cozidos antes da montagem."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "20porções pequenas dafonte,não20refeições. Semovo/frango/milho nãoformulados. Usa250gdalistaenãomaionesecrua.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

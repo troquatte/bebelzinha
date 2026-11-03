@@ -1,0 +1,173 @@
+{
+  "id": "bolo-de-iogurte",
+  "slug": "bolo-de-iogurte",
+  "title": "Bolo de iogurte natural com raspas de limão",
+  "description": "Bolo de iogurte natural com raspas de limão, misturado à mão. Confira ingredientes, forma de 24 cm e como verificar o ponto no forno.",
+  "intro": "O iogurte é natural e sem açúcar. As raspas perfumam a massa, que pode ser misturada com batedor de arame.",
+  "categoryIds": [
+    "doces",
+    "lanches",
+    "forno"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/bolo-iogurte.webp",
+    "alt": "Imagem ilustrativa: Bolo de iogurte em formato de anel, dourado e sem cobertura, com uma fatia mostrando miolo claro"
+  },
+  "publishedAt": "2026-11-03T12:58:56Z",
+  "updatedAt": "2026-11-03T12:58:56Z",
+  "seo": {
+    "title": "Bolo de iogurte natural com raspas de limão | Bebel",
+    "description": "Bolo de iogurte natural com raspas de limão, misturado à mão. Confira ingredientes, forma de 24 cm e como verificar o ponto no forno."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 12,
+      "unit": "fatia"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 40,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 40 minutos de forno a 180 °C, além do preparo e do resfriamento.",
+    "ingredients": [
+      {
+        "id": "iogurte",
+        "name": "Iogurte natural sem açúcar",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "limao",
+        "name": "Limão-taiti para retirar as raspas",
+        "quantity": 2,
+        "unit": "unidades",
+        "note": "Use apenas a parte verde da casca."
+      },
+      {
+        "id": "ovos",
+        "name": "Ovos",
+        "quantity": 4,
+        "unit": "unidades"
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar",
+        "quantity": 1.5,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "oleo",
+        "name": "Óleo",
+        "quantity": 80,
+        "unit": "ml",
+        "note": "Equivalente a ⅓ de uma xícara de 240 ml."
+      },
+      {
+        "id": "farinha",
+        "name": "Farinha de trigo",
+        "quantity": 1.75,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "fermento",
+        "name": "Fermento químico em pó",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 1,
+        "unit": "pitada"
+      },
+      {
+        "id": "untar",
+        "name": "Manteiga para untar",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "polvilhar",
+        "name": "Farinha de trigo para a forma",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Preaqueça o forno a 180 °C. Unte e enfarinhe uma forma com furo central de 24 cm. Lave, seque e raspe os limões."
+      },
+      {
+        "id": "passo-2",
+        "text": "Misture os ovos com um batedor. Incorpore açúcar, iogurte, óleo, sal e raspas."
+      },
+      {
+        "id": "passo-3",
+        "text": "Peneire a farinha sobre a mistura em três adições, mexendo apenas até incorporar. Junte o fermento por último."
+      },
+      {
+        "id": "passo-4",
+        "text": "Transfira à forma. Asse por cerca de 40 minutos, até um palito espetado no centro sair limpo."
+      },
+      {
+        "id": "passo-5",
+        "text": "Deixe amornar antes de desenformar. Espere esfriar para fatiar."
+      }
+    ],
+    "equipment": [
+      "Forno e forma com furo central de 24 cm",
+      "Tigela, batedor e peneira",
+      "Ralador fino e medidores",
+      "Luvas térmicas"
+    ],
+    "tips": [
+      {
+        "title": "Raspas sem amargor",
+        "text": "Evite atingir a parte branca da casca."
+      },
+      {
+        "title": "Farinha com cuidado",
+        "text": "Misture somente o necessário depois de acrescentar a farinha."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Depois de esfriar",
+        "text": "Guarde em recipiente fechado na geladeira, a 4 °C ou menos, e consuma em até 2 dias. Identifique a data do preparo."
+      },
+      {
+        "title": "Para servir",
+        "text": "Retire apenas a quantidade desejada e mantenha o restante refrigerado. Não deixe preparações prontas por mais de 2 horas fora da geladeira."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T12:58:56Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — bolo de iogurte com limão",
+      "url": "https://panelinha.com.br/receita/bolo-de-iogurte-com-limao",
+      "role": "Proporções, raspas, 12 fatias, forma de 24 cm e 180 °C por cerca de 40 minutos."
+    },
+    {
+      "title": "Na Cozinha da Helô — medidas",
+      "url": "https://www.nacozinhadahelo.com.br/outros-assuntos/como-medir-ingredientes",
+      "role": "Conversão de um terço da xícara de 240 ml para 80 ml."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Semglacê. Não substituir iogurte pordrinkadoçado. Conversãoóleo exata80mlmedidor240ml.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

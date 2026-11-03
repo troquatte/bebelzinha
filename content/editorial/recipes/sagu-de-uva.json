@@ -1,0 +1,140 @@
+{
+  "id": "sagu-de-uva",
+  "slug": "sagu-de-uva",
+  "title": "Sagu de uva com canela e cravo, sem vinho",
+  "description": "Sagu com suco de uva integral, canela e cravo, sem vinho. Confira a hidratação, o ponto das bolinhas e o descanso antes de gelar.",
+  "intro": "Nesta versão, o líquido de uva é suco integral. O açúcar continua na receita; não é uma sobremesa sem açúcar.",
+  "categoryIds": [
+    "doces"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/sagu-uva.webp",
+    "alt": "Imagem ilustrativa: Bolinhas translúcidas de sagu em calda roxa de suco de uva, servidas em pequenas tigelas sem creme"
+  },
+  "publishedAt": "2026-11-03T13:22:57Z",
+  "updatedAt": "2026-11-03T13:22:57Z",
+  "seo": {
+    "title": "Sagu de uva com canela e cravo, sem vinho | Bebel",
+    "description": "Sagu com suco de uva integral, canela e cravo, sem vinho. Confira a hidratação, o ponto das bolinhas e o descanso antes de gelar."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 6,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 30,
+      "totalMinutes": null
+    },
+    "timeNote": "1 hora de hidratação, cerca de 30 minutos de cozimento, 30 para amornar e pelo menos 1 hora de geladeira.",
+    "ingredients": [
+      {
+        "id": "sagu",
+        "name": "Sagu",
+        "quantity": 0.5,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "suco",
+        "name": "Suco de uva integral sem açúcar adicionado",
+        "quantity": 1.5,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "agua",
+        "name": "Água filtrada",
+        "quantity": 2.5,
+        "unit": "xícaras (chá)",
+        "note": "1 xícara para hidratar e 1,5 para a panela.",
+        "shopping": false
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar",
+        "quantity": 0.5,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "canela",
+        "name": "Canela em pau",
+        "quantity": 1,
+        "unit": "rama"
+      },
+      {
+        "id": "cravo",
+        "name": "Cravo-da-índia",
+        "quantity": 2,
+        "unit": "unidades"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Cubra o sagu com 1 xícara da água e deixe hidratar por 1 hora."
+      },
+      {
+        "id": "passo-2",
+        "text": "Perto do fim do descanso, aqueça a água restante com suco, açúcar, canela e cravos, mexendo para dissolver."
+      },
+      {
+        "id": "passo-3",
+        "text": "Quando ferver, junte o sagu com a água da hidratação. Reduza o fogo e cozinhe por aproximadamente 30 minutos, mexendo às vezes, até as bolinhas ficarem macias e quase transparentes."
+      },
+      {
+        "id": "passo-4",
+        "text": "Transfira para uma tigela e deixe amornar por cerca de 30 minutos. Retire cravos e canela antes de servir."
+      },
+      {
+        "id": "passo-5",
+        "text": "Cubra e leve à geladeira por pelo menos 1 hora. Se as bolinhas se concentrarem no fundo, misture para redistribuir na calda."
+      }
+    ],
+    "equipment": [
+      "Panela média, tigela e colher",
+      "Medidores e recipiente com tampa"
+    ],
+    "tips": [
+      {
+        "title": "Observe as bolinhas",
+        "text": "O ponto combina maciez e transparência, além do tempo."
+      },
+      {
+        "title": "Suco integral",
+        "text": "Use suco, sem substituir pelo mesmo volume de refresco em pó."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Guarde refrigerado",
+        "text": "Mantenha em recipiente fechado a 4 °C ou menos e consuma em até 2 dias. Identifique a data do preparo."
+      },
+      {
+        "title": "Na hora de servir",
+        "text": "Retire apenas as porções desejadas e devolva o restante à geladeira. Não deixe a sobremesa por mais de 2 horas fora de refrigeração."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T13:22:57Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — sagu de uva",
+      "url": "https://panelinha.com.br/receita/sagu-de-uva",
+      "role": "Até seis porções, proporção com suco, hidratação, cocção e descanso."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "90500volumequeryamplasagu,nãovarianteuva. SERPprimária vinho ecompra degrão,títulosemvinhodelimita. Nenhumcremeextra semfórmula.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

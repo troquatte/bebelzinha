@@ -1,0 +1,186 @@
+{
+  "id": "caponata-de-berinjela",
+  "slug": "caponata-de-berinjela",
+  "title": "Caponata de berinjela de forno com pimentões",
+  "description": "Caponata de berinjela de forno com pimentões, azeitonas, passas e nozes. Veja o descanso com sal, a temperatura e a finalização fria.",
+  "intro": "A berinjela descansa com sal antes de assar. Salsinha e nozes entram depois que a mistura esfria.",
+  "categoryIds": [
+    "acompanhamentos",
+    "forno"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/caponata-berinjela.webp",
+    "alt": "Imagem ilustrativa: Caponata de berinjela com pimentões vermelhos e amarelos, azeitonas pretas, nozes e salsinha"
+  },
+  "publishedAt": "2026-11-03T12:58:56Z",
+  "updatedAt": "2026-11-03T12:58:56Z",
+  "seo": {
+    "title": "Caponata de berinjela de forno com pimentões | Bebel",
+    "description": "Caponata de berinjela de forno com pimentões, azeitonas, passas e nozes. Veja o descanso com sal, a temperatura e a finalização fria."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 8,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 40,
+      "totalMinutes": null
+    },
+    "timeNote": "30 minutos de descanso da berinjela, cerca de 40 de forno a 200 °C e pelo menos 2 horas de geladeira, além do corte e resfriamento.",
+    "ingredients": [
+      {
+        "id": "berinjela",
+        "name": "Berinjela",
+        "quantity": 2,
+        "unit": "unidades"
+      },
+      {
+        "id": "pimentao-vermelho",
+        "name": "Pimentão vermelho",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "pimentao-amarelo",
+        "name": "Pimentão amarelo",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "cebola",
+        "name": "Cebola",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "alho",
+        "name": "Alho",
+        "quantity": 3,
+        "unit": "dentes"
+      },
+      {
+        "id": "azeitona",
+        "name": "Azeitona preta sem caroço",
+        "quantity": 1,
+        "unit": "medidor de ⅓ de xícara (chá)"
+      },
+      {
+        "id": "alcaparra",
+        "name": "Alcaparra",
+        "quantity": 2,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "passa",
+        "name": "Uva-passa preta",
+        "quantity": 1,
+        "unit": "medidor de ⅓ de xícara (chá)"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": 0.5,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "vinagre",
+        "name": "Vinagre de vinho tinto",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 2,
+        "unit": "colheres (chá)",
+        "note": "Para o descanso da berinjela; não acrescente novamente."
+      },
+      {
+        "id": "erva-doce",
+        "name": "Semente de erva-doce",
+        "quantity": 1,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "salsinha",
+        "name": "Salsinha",
+        "quantity": 6,
+        "unit": "ramos"
+      },
+      {
+        "id": "nozes",
+        "name": "Nozes tostadas e picadas",
+        "quantity": 1,
+        "unit": "medidor de ⅓ de xícara (chá)"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Corte a berinjela com casca em cubos de 1,5 cm. Misture com o sal e deixe descansar por 30 minutos. Aqueça o forno a 200 °C."
+      },
+      {
+        "id": "passo-2",
+        "text": "Retire sementes dos pimentões e corte-os com a cebola. Descasque e amasse os dentes de alho."
+      },
+      {
+        "id": "passo-3",
+        "text": "Misture na assadeira berinjela, pimentões, cebola, alho, azeitonas, alcaparras, passas, azeite, vinagre e erva-doce."
+      },
+      {
+        "id": "passo-4",
+        "text": "Asse por cerca de 40 minutos, mexendo na metade, até os legumes amaciarem."
+      },
+      {
+        "id": "passo-5",
+        "text": "Amorne e refrigere por pelo menos 2 horas. Finalize com salsinha picada e nozes antes de servir."
+      }
+    ],
+    "equipment": [
+      "Forno e assadeira grande",
+      "Tábua, faca e tigela",
+      "Medidores, incluindo ⅓ de xícara",
+      "Espátula e luvas térmicas"
+    ],
+    "tips": [
+      {
+        "title": "Um terço de xícara",
+        "text": "Use esse medidor para azeitonas, passas e nozes."
+      },
+      {
+        "title": "Finalização fria",
+        "text": "Junte as nozes na hora de servir para preservar a textura."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Sempre na geladeira",
+        "text": "Guarde em recipiente fechado a 4 °C ou menos e consuma em 2 a 3 dias. Retire apenas a porção que vai servir."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T12:58:56Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — caponata de forno",
+      "url": "https://panelinha.com.br/receita/caponata-de-forno",
+      "role": "8 porções, proporções, descanso salgado, forno e finalização com nozes e salsinha."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Semanchova/tomate. Terçosrepresentadospormedidor⅓evitandodecimal0.333. Nãoextrapolarconserva emtemperaturaambiente.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

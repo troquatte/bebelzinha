@@ -1,0 +1,133 @@
+{
+  "id": "farofa-de-ovo",
+  "slug": "farofa-de-ovo",
+  "title": "Farofa de ovo com cebola e farinha de mandioca",
+  "description": "Farofa de ovo com cebola, manteiga e farinha de mandioca torrada. Veja a ordem na frigideira para incorporar os ovos sem ressecar.",
+  "intro": "A farinha entra antes dos ovos. Abra espaço no centro da frigideira para começar a cozinhá-los e incorpore a farofa aos poucos.",
+  "categoryIds": [
+    "acompanhamentos"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/farofa-ovo.webp",
+    "alt": "Imagem ilustrativa: Farofa úmida dourada de farinha de mandioca, com pedacinhos de ovo cozido na mistura e cebola"
+  },
+  "publishedAt": "2026-11-03T13:22:57Z",
+  "updatedAt": "2026-11-03T13:22:57Z",
+  "seo": {
+    "title": "Farofa de ovo com cebola e farinha de mandioca | Bebel",
+    "description": "Farofa de ovo com cebola, manteiga e farinha de mandioca torrada. Veja a ordem na frigideira para incorporar os ovos sem ressecar."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 6,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 4 minutos de refogado e 2 para a farinha, seguidos do cozimento dos ovos até ficarem firmes, além do corte.",
+    "ingredients": [
+      {
+        "id": "farinha",
+        "name": "Farinha de mandioca fina torrada",
+        "quantity": 2,
+        "unit": "xícaras (chá)"
+      },
+      {
+        "id": "cebola",
+        "name": "Cebola",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "ovos",
+        "name": "Ovos",
+        "quantity": 4,
+        "unit": "unidades"
+      },
+      {
+        "id": "manteiga",
+        "name": "Manteiga",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Pique a cebola em cubos de cerca de 1 cm. Quebre os ovos numa tigela, bata com garfo e tempere com sal."
+      },
+      {
+        "id": "passo-2",
+        "text": "Derreta a manteiga em frigideira grande. Junte a cebola e refogue por aproximadamente 4 minutos."
+      },
+      {
+        "id": "passo-3",
+        "text": "Adicione a farinha aos poucos e mexa por cerca de 2 minutos."
+      },
+      {
+        "id": "passo-4",
+        "text": "Abra espaço no centro e coloque os ovos. Mexa por aproximadamente 1 minuto para começarem a cozinhar."
+      },
+      {
+        "id": "passo-5",
+        "text": "Incorpore a farinha das bordas em direção ao centro. Quebre os grumos grandes e cozinhe até não restar ovo líquido. Sirva a seguir."
+      }
+    ],
+    "equipment": [
+      "Frigideira grande e espátula",
+      "Tigela, garfo e tábua",
+      "Faca, balança e medidores"
+    ],
+    "tips": [
+      {
+        "title": "Farinha fina torrada",
+        "text": "Use a variedade indicada, diferente de farinha de milho."
+      },
+      {
+        "title": "Ovo por completo",
+        "text": "Preserve a umidade sem deixar partes de ovo cru."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Distribua em recipientes rasos e refrigere prontamente a 4 °C ou menos. Use utensílios limpos e consuma em 2 a 3 dias."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça somente a porção desejada até atingir 74 °C no centro. Descarte o que passou mais de 2 horas fora da geladeira."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T13:22:57Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — farofa de ovo com cebola",
+      "url": "https://panelinha.com.br/receita/farofa-ovo-com-cebola",
+      "role": "Quantidades, até seis porções e incorporação dos ovos no centro da frigideira."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Short082semIDnãoembed. Introfontefalaflocada maslistafina torrada; seguida listaquantitativa,nãomisturada.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

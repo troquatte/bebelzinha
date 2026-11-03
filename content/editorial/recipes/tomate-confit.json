@@ -1,0 +1,140 @@
+{
+  "id": "tomate-confit",
+  "slug": "tomate-confit",
+  "title": "Tomate confit no forno com alho e manjericão",
+  "description": "Tomate confit de forno com tomate-cereja, alho e manjericão. Confira a proporção de azeite, a temperatura e a conservação refrigerada.",
+  "intro": "Os tomates assam inteiros, envolvidos no azeite e nos temperos. Esta formulação usa forno a 180 °C.",
+  "categoryIds": [
+    "acompanhamentos",
+    "forno"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/tomate-confit.webp",
+    "alt": "Imagem ilustrativa: Tomates-cereja inteiros assados em azeite com lâminas de alho e folhas de manjericão"
+  },
+  "publishedAt": "2026-11-03T12:58:56Z",
+  "updatedAt": "2026-11-03T12:58:56Z",
+  "seo": {
+    "title": "Tomate confit no forno com alho e manjericão | Bebel",
+    "description": "Tomate confit de forno com tomate-cereja, alho e manjericão. Confira a proporção de azeite, a temperatura e a conservação refrigerada."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 2,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 60,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 1 hora de forno preaquecido a 180 °C, além de lavar os tomates e fatiar o alho.",
+    "ingredients": [
+      {
+        "id": "tomate",
+        "name": "Tomate-cereja",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "alho",
+        "name": "Alho em lâminas",
+        "quantity": 3,
+        "unit": "dentes"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "manjericao",
+        "name": "Manjericão fresco",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Preaqueça o forno a 180 °C. Lave e seque os tomates e as folhas de manjericão."
+      },
+      {
+        "id": "passo-2",
+        "text": "Descasque e corte os dentes de alho em lâminas."
+      },
+      {
+        "id": "passo-3",
+        "text": "Coloque tomates, alho e manjericão num refratário que acomode os ingredientes sem dispersar demais o azeite. Tempere com sal e pimenta."
+      },
+      {
+        "id": "passo-4",
+        "text": "Acrescente o azeite e leve ao forno por cerca de 1 hora, até os tomates amaciarem e ficarem levemente enrugados."
+      },
+      {
+        "id": "passo-5",
+        "text": "Retire com luvas e espere amornar antes de servir. Guarde as sobras na geladeira."
+      }
+    ],
+    "equipment": [
+      "Forno e refratário pequeno próprio para forno",
+      "Tábua, faca e medidores",
+      "Luvas térmicas"
+    ],
+    "tips": [
+      {
+        "title": "Tomates inteiros",
+        "text": "Seque depois de lavar antes de juntar ao azeite."
+      },
+      {
+        "title": "Acompanhe o forno",
+        "text": "Verifique o amaciamento dos tomates e evite que o alho queime."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Sempre refrigerado",
+        "text": "Depois de perder o vapor, transfira a recipiente limpo e fechado. Refrigere prontamente a 4 °C ou menos e consuma em até 2 dias. Não guarde alho no azeite à temperatura ambiente."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça apenas a porção desejada até ficar bem quente, atingindo 74 °C. Não transforme a receita em conserva de prateleira."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T12:58:56Z"
+  },
+  "sources": [
+    {
+      "title": "Receitas Globo — tomate confit",
+      "url": "https://receitas.globo.com/tipos-de-prato/acompanhamentos/tomate-confit-56826ae74d38855ac900003f.ghtml",
+      "role": "Duas porções, proporção de azeite e tomate, alho, manjericão e 180 °C por cerca de uma hora."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Fonteusa180°C,não90°C. Short137defogão semID nãoequivalente. Conservaçãoreduzida2diasrefrigerada,nãoumasemanadafonte.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

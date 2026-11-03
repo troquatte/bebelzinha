@@ -1,0 +1,134 @@
+{
+  "id": "chuchu-refogado",
+  "slug": "chuchu-refogado",
+  "title": "Chuchu refogado com cebola, manteiga e orégano",
+  "description": "Chuchu refogado com manteiga e orégano, sem ovo. Veja como cortar as fatias finas e acompanhar o ponto para ficarem cozidas e ainda firmes.",
+  "intro": "Fatias finas cozinham rapidamente no refogado. O chuchu deve ficar macio, sem perder toda a firmeza.",
+  "categoryIds": [
+    "acompanhamentos"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/chuchu-refogado.webp",
+    "alt": "Imagem ilustrativa: Meias-luas finas de chuchu refogado com cebola e pontinhos de orégano, sem ovos"
+  },
+  "publishedAt": "2026-11-03T13:22:57Z",
+  "updatedAt": "2026-11-03T13:22:57Z",
+  "seo": {
+    "title": "Chuchu refogado com cebola, manteiga e orégano | Bebel",
+    "description": "Chuchu refogado com manteiga e orégano, sem ovo. Veja como cortar as fatias finas e acompanhar o ponto para ficarem cozidas e ainda firmes."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 2,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 11,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 4 minutos para a cebola e 7 para o chuchu, além do tempo de descascar e fatiar.",
+    "ingredients": [
+      {
+        "id": "chuchu",
+        "name": "Chuchu",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "cebola",
+        "name": "Cebola",
+        "quantity": 0.5,
+        "unit": "unidade"
+      },
+      {
+        "id": "manteiga",
+        "name": "Manteiga",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "oregano",
+        "name": "Orégano seco",
+        "quantity": 1,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Descasque, lave e seque o chuchu. Corte ao meio e fatie em meias-luas finas. Se houver semente, retire-a. Pique a cebola."
+      },
+      {
+        "id": "passo-2",
+        "text": "Derreta a manteiga em frigideira média. Refogue a cebola com uma pitada de sal por aproximadamente 4 minutos."
+      },
+      {
+        "id": "passo-3",
+        "text": "Junte o chuchu, o orégano e mais sal se necessário. Misture e reduza o fogo."
+      },
+      {
+        "id": "passo-4",
+        "text": "Cozinhe por cerca de 7 minutos, mexendo de vez em quando, até ficar cozido e ainda firme. Finalize com pimenta."
+      }
+    ],
+    "equipment": [
+      "Frigideira média e espátula",
+      "Tábua, faca, descascador e medidores"
+    ],
+    "tips": [
+      {
+        "title": "Segure com firmeza",
+        "text": "Seque o chuchu para ele não escorregar na tábua."
+      },
+      {
+        "title": "Fatias semelhantes",
+        "text": "Corte com espessura uniforme para cozinhar por igual."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Distribua em recipientes rasos e refrigere prontamente a 4 °C ou menos. Use utensílios limpos e consuma em 2 a 3 dias."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça somente a porção desejada até atingir 74 °C no centro. Descarte o que passou mais de 2 horas fora da geladeira."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T13:22:57Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — chuchu refogado com orégano",
+      "url": "https://panelinha.com.br/receita/chuchu-refogado-com-oregano",
+      "role": "Duas porções, ingredientes, corte fino e refogado sem água adicionada."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Short083IDnullsemembed. URLchuchu-refogadosimplesfalhou;canônicacomoreganoinspecionada. Semovo daSERP.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

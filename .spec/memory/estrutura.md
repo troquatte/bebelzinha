@@ -218,3 +218,44 @@ Build/postbuild aprovados:40receitas publicadas no manifesto,42fontes incluindo2
 Geleia refrigerada para consumo próximo,sem promessa de conserva de prateleira. Beijinho80ml=1/3xicara240ml,fonteHelô na ficha. Sem commit,push,deployouagendamento. Fila atualizada concluida_localmente; ampliar somente após novo pedido.
 
 Relatório privado: https://app.openseo.so/p/d9786bbb-b04d-4eaa-adf8-337b47b3010a/reports/da17736a-265d-4b11-8f6a-b74ddf808252
+
+
+## Entrega075 — dez receitas concluídas localmente em3nov2026UTC
+
+Purê de mandioquinha com manteiga no final; Farofa de banana-prata com farinha de mandioca; Batata-doce na airfryer com páprica e chimichurri; Cebola caramelizada sem açúcar adicionado; Homus com grão-de-bico cozido e tahine; Quiche de queijo emmental e parmesão; Esfiha de frango fechada com massa caseira; Bolo de milho de lata com fubá e coco; Curau de milho-verde com leite e canela; Cocada branca de coco fresco, sem leite condensado. Dez fotos ilustrativas originais geradas pela ferramenta integrada image_gen e otimizadas emWebP, fichas/card/SSG/sitemap incluídos juntos. Ingredientes, quantidades, utensílios, preparo, dicas, conservação e fontes completos. Sem vídeo correspondente confirmado, videoId:null. Short048farofa/090purê IDnull;087batatadoceéforno;217cocadaécolher, nãoequivalentes.
+
+Pesquisa:8métricas novasBR2076/pt+2reutilizadas;10SERPsdepth10resultId0c896a08-35b0-4d35-9f72-067ab34e3bb9. Bolo246000KD/CPCunknown;esfiha2900KD0CPCunknown. Volume éestimativa de busca, não tráfego. Custo/saldonãoretornados.
+
+Build/postbuild aprovados:50receitaspublicadas/52registrosincluindo2rascunhos/57rotasestáticas/59URLsdesitemap. Desktop1280/mobile39010/10,fotoscarregadas,semoverflow,compras/preparo/persistênciatestadose restaurados. Página5com2cards49–50,buscaesfiha1resultado/noindex,filtersnowrap/scroll semoverflow. git diff--checkaprovado. Sem mudança funcional nem novos testesunitários;impressãopreservada,diálogonãoexecutado.
+
+Usuárioquer evoluirparaumportalgrande;priorizarintençõesdistintas,qualidadeindividual eestruturaútil. Este lote mantém as categorias/filtros existentes; não cria páginas vazias nem novas recomendações automáticas. Sem commit,push,deployouagendamento. Fila concluida_localmente; ampliar somente por novo pedido.
+
+Relatório privado: https://app.openseo.so/p/d9786bbb-b04d-4eaa-adf8-337b47b3010a/reports/7d1012f0-bedd-4e13-b183-828d7bcdaa92
+
+
+## Entrega076 — dez receitas concluídas localmente em 3 nov 2026 UTC
+
+Bolo de mandioca com queijo e coco no tabuleiro; Bolo de iogurte natural com raspas de limão; Bolo de maçã com canela e cascas na massa; Manjar de coco com calda de ameixa e canela; Pé de moleque com amendoim e leite condensado; Caponata de berinjela de forno com pimentões; Tabule com trigo para quibe, salsinha e hortelã; Guacamole simples com avocado, tomate e coentro; Creme de espinafre com molho branco caseiro; Tomate confit no forno com alho e manjericão.
+
+Dez fotos originais ilustrativas com image_gen, revisadas e convertidas em WebP. Fichas e catálogo/SSG/sitemap integrados juntos. Ingredientes, quantidades, rendimentos, utensílios, passos marcáveis, dicas, conservação e fontes completos. Nenhum vídeo correspondente confirmado: videoId:null. Sem alegar teste próprio e sem expor notas de piloto.
+
+Pesquisa: dez métricas novas BR2076/pt e dez SERPs atuais depth10, resultId 0fac6671-f80a-4713-bc94-d0cc4ccc770e. Guacamole135000/KD4; mandioca60500/0; maçã49500/20; caponata49500/0; pé de moleque49500/0; tabule49500/0; manjar40500/3; iogurte33100/0; tomateconfit14800/0; cremeespinafre8100/0. Volume estimado não é tráfego, KD0 não prova facilidade. Custo e saldo não retornados.
+
+Build e pós-build aprovados:60 receitas públicas/62 registros/67 rotas estáticas/69 URLs no sitemap. Dez fichas desktop1280/mobile390 com fotos carregadas, sem overflow, contagens corretas de passos/compras, persistência verificada e restaurada. Catálogo12/12/12/12/12; página5 mostra49–60; busca guacamole1resultado/noindex; filtrosnowrap com scroll lateral. Busca tabule também encontra tabuleiro por substring, comportamento existente e sem mudança funcional. git diff --check aprovado. Impressão preservada, diálogo não executado.
+
+Sem commit, push, deploy ou agendamento. Fila concluida_localmente. Relatório privado: https://app.openseo.so/p/d9786bbb-b04d-4eaa-adf8-337b47b3010a/reports/9cfe4545-2d59-4685-b1fa-876280666ef8
+
+
+## Entrega077 — dez receitas concluídas localmente em3nov2026UTC
+
+Salpicão de frango com maçã e batata palha; Salada de maionese com batata, cenoura e maçã; Vinagrete de tomate com cebola-roxa e salsinha; Farofa de ovo com cebola e farinha de mandioca; Molho pesto de manjericão com nozes no pilão; Chuchu refogado com cebola, manteiga e orégano; Arroz com brócolis e alho dourado; Pavê de chocolate com dois tipos de biscoito; Palha italiana de chocolate com biscoito maisena; Sagu de uva com canela e cravo, sem vinho.
+
+Dez fotos ilustrativas originais com image_gen, inspecionadas e otimizadas WebP. Maionese corrigida para maçã descascada. Fichas/fontes/card/SSG/sitemap incluídos juntos. Ingredientes, quantidades, utensílios, rendimento, preparo, dicas e conservação completos. Sem vídeo correspondente confirmado; Shorts082/083 semID e vinagrete108 de feijão não embutidos.
+
+Pesquisa dez métricas novas BR2076/pt e10SERPs exatas depth10 resultId ace97b54-6b42-4980-a117-b5a4e1088205. salpicão de frango: 135000/mês KD5 CPCUSD0.06; salada de maionese: 33100/mês KD0 CPCUSD0.11; vinagrete: 49500/mês KD0 CPCUSD0.01; farofa de ovo: 9900/mês KD0 CPCUSD0.02; molho pesto: 49500/mês KD1 CPCUSD0.03; chuchu refogado: 5400/mês KD0 CPCUSD0.07; arroz com brócolis: 4400/mês KD4 CPCUSD0.04; pavê de chocolate: 49500/mês KD0 CPCUSD0.05; palha italiana: 90500/mês KD4 CPCUSD0.06; sagu: 90500/mês KD3 CPCUSD0.04. Palha transacional no provedor; sagu amplo inclui compra/vinho, não demanda exclusiva por uva. Custos/saldo não retornados; volume não é tráfego e KD0 não comprova facilidade.
+
+Build/postbuild aprovados:70receitas públicas/72registros/78rotas estáticas/80URLs no sitemap. Dez fichas desktop1280/mobile390 sem overflow, fotos carregadas e contagens coerentes; preparo/compras/persistência10/10, marcações restauradas. Catálogo12/12/12/12/12/10; página6 mostra61–70; busca salpicão1resultado/noindex; filtrosnowrap com scroll lateral. git diff --check aprovado. Sem mudança funcional nem teste unitário novo; impressão preservada, diálogo não executado.
+
+Revisão: arroz3xícaras para bater folhas/2efetivamente na cocção; alho1picado+4inteiros; frango do salpicão já cozido; vinagrete1xícara; maionese20pequenasporções; pavê chocolate33% e doisbiscoitos; palha32fatias/2hfrio; sagu semvinho comsucoeaçúcar.
+
+Sem commit, push, deploy ou agendamento. Fila concluida_localmente. Relatório privado: https://app.openseo.so/p/d9786bbb-b04d-4eaa-adf8-337b47b3010a/reports/9807ebb7-4aa1-48b8-b225-aa26c9d38ecc

@@ -1,0 +1,160 @@
+{
+  "id": "arroz-com-brocolis",
+  "slug": "arroz-com-brocolis",
+  "title": "Arroz com brócolis e alho dourado",
+  "description": "Arroz com brócolis feito com as folhas batidas na água e alho dourado. Veja as medidas, a divisão dos dentes de alho e o descanso final.",
+  "intro": "As folhas dão cor à água do arroz; os ramos vão picados. Um dente de alho entra no refogado e quatro douram à parte.",
+  "categoryIds": [
+    "acompanhamentos"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/arroz-brocolis.webp",
+    "alt": "Imagem ilustrativa: Arroz verde com brócolis picado e dentes inteiros de alho dourado na casca"
+  },
+  "publishedAt": "2026-11-03T13:22:57Z",
+  "updatedAt": "2026-11-03T13:22:57Z",
+  "seo": {
+    "title": "Arroz com brócolis e alho dourado | Bebel",
+    "description": "Arroz com brócolis feito com as folhas batidas na água e alho dourado. Veja as medidas, a divisão dos dentes de alho e o descanso final."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 4,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Refogue cebola por 2 minutos, alho por 1 e arroz por 1. Cozinhe até a água secar e descanse tampado por mais 5 minutos.",
+    "ingredients": [
+      {
+        "id": "arroz",
+        "name": "Arroz branco cru",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "brocolis",
+        "name": "Brócolis com folhas",
+        "quantity": 0.5,
+        "unit": "maço"
+      },
+      {
+        "id": "agua",
+        "name": "Água para bater as folhas",
+        "quantity": 3,
+        "unit": "xícaras (chá)",
+        "note": "Depois de bater, meça somente 2 xícaras do líquido para o arroz.",
+        "shopping": false
+      },
+      {
+        "id": "cebola",
+        "name": "Cebola",
+        "quantity": 0.5,
+        "unit": "unidade"
+      },
+      {
+        "id": "alho",
+        "name": "Alho",
+        "quantity": 5,
+        "unit": "dentes",
+        "note": "1 picado no arroz; 4 amassados com casca para dourar."
+      },
+      {
+        "id": "bicarbonato",
+        "name": "Bicarbonato de sódio",
+        "quantity": 1,
+        "unit": "pitada"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": 2,
+        "unit": "colheres (sopa)",
+        "note": "Divida entre panela e frigideira."
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 0.5,
+        "unit": "colher (chá)"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Lave folhas e ramos. Descarte a base dura e retire as fibras grossas dos talos. Pique os ramos e bata as folhas com a água no liquidificador."
+      },
+      {
+        "id": "passo-2",
+        "text": "Refogue cebola picada com metade do azeite por 2 minutos. Junte 1 dente de alho picado por 1 minuto, depois arroz e sal por mais 1."
+      },
+      {
+        "id": "passo-3",
+        "text": "Adicione somente 2 xícaras da água verde, bicarbonato e brócolis picado. Cozinhe em fogo médio até a água atingir o nível do arroz."
+      },
+      {
+        "id": "passo-4",
+        "text": "Reduza o fogo e deixe a tampa entreaberta até secar a água. Desligue, tampe e descanse 5 minutos."
+      },
+      {
+        "id": "passo-5",
+        "text": "Amasse os 4 dentes de alho restantes, mantendo a casca. Doure dos dois lados no azeite restante numa frigideira. Solte o arroz e sirva com o alho; retire a casca ao comer."
+      }
+    ],
+    "equipment": [
+      "Liquidificador, panela média com tampa e frigideira",
+      "Tábua, faca, descascador e medidores",
+      "Garfo e espátula"
+    ],
+    "tips": [
+      {
+        "title": "Meça depois de bater",
+        "text": "São 3 xícaras para bater as folhas, mas apenas 2 entram no arroz."
+      },
+      {
+        "title": "Observe o fundo",
+        "text": "Confira com garfo se não restou água antes de desligar."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Resfrie rapidamente",
+        "text": "Divida as sobras em recipientes rasos e leve à geladeira preferencialmente em até 1 hora. Consuma em até 24 horas."
+      },
+      {
+        "title": "Reaqueça uma única vez",
+        "text": "Aqueça por completo até sair vapor em toda a porção e atingir 74 °C. Sirva imediatamente."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T13:22:57Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — arroz de brócolis com alho dourado",
+      "url": "https://panelinha.com.br/receita/arroz-de-brocolis-com-alho-dourado",
+      "role": "Quatro porções, água de folhas, uso de apenas duas xícaras e alho inteiro com casca."
+    },
+    {
+      "title": "Food Standards Agency — conservação de arroz",
+      "url": "https://www.gov.uk/government/publications/home-food-fact-checker/home-food-fact-checker",
+      "role": "Resfriamento preferencialmente em uma hora, consumo em 24 horas e apenas um reaquecimento."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Nãoconverter3xícarasbaterem3cozer:fonteexige2apósbater. Alhointeirocascafotocorrespondente. Distintodoprodutopago.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

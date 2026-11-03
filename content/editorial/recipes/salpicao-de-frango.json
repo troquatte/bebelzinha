@@ -1,0 +1,191 @@
+{
+  "id": "salpicao-de-frango",
+  "slug": "salpicao-de-frango",
+  "title": "Salpicão de frango com maçã e batata palha",
+  "description": "Salpicão de frango já cozido e desfiado, com cenoura, maçã e maionese. Veja a montagem e quando colocar a batata palha para manter a crocância.",
+  "intro": "Comece com o frango já cozido, temperado com sal e desfiado. A batata palha entra somente ao servir.",
+  "categoryIds": [
+    "acompanhamentos"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/salpicao-frango.webp",
+    "alt": "Imagem ilustrativa: Salpicão cremoso de frango com cenoura, pimentão vermelho, azeitonas, passas e batata palha por cima"
+  },
+  "publishedAt": "2026-11-03T13:22:57Z",
+  "updatedAt": "2026-11-03T13:22:57Z",
+  "seo": {
+    "title": "Salpicão de frango com maçã e batata palha | Bebel",
+    "description": "Salpicão de frango já cozido e desfiado, com cenoura, maçã e maionese. Veja a montagem e quando colocar a batata palha para manter a crocância."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 8,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Separe o tempo de preparar os vegetais e gelar a salada. O cozimento inicial do frango não está incluído: a lista pede 1 kg já cozido e desfiado.",
+    "ingredients": [
+      {
+        "id": "frango",
+        "name": "Filé de frango já cozido com sal e desfiado",
+        "quantity": 1,
+        "unit": "kg"
+      },
+      {
+        "id": "cenoura",
+        "name": "Cenoura grande",
+        "quantity": 2,
+        "unit": "unidades"
+      },
+      {
+        "id": "azeitona",
+        "name": "Azeitona sem caroço",
+        "quantity": 300,
+        "unit": "g"
+      },
+      {
+        "id": "pimentao",
+        "name": "Pimentão vermelho",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "cebola",
+        "name": "Cebola",
+        "quantity": 2,
+        "unit": "unidades",
+        "note": "Use raladas."
+      },
+      {
+        "id": "passa",
+        "name": "Uva-passa preta",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "id": "salsa",
+        "name": "Salsa",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "maca",
+        "name": "Maçã verde",
+        "quantity": null,
+        "unit": "a gosto",
+        "note": "Corte em tirinhas."
+      },
+      {
+        "id": "limao",
+        "name": "Limão para o suco",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "maionese",
+        "name": "Maionese industrializada",
+        "quantity": null,
+        "unit": "a gosto",
+        "note": "Adicione aos poucos, até envolver o frango e os vegetais."
+      },
+      {
+        "id": "batata",
+        "name": "Batata palha",
+        "quantity": 300,
+        "unit": "g"
+      },
+      {
+        "id": "sal",
+        "name": "Sal para a cenoura",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "agua",
+        "name": "Água para aferventar a cenoura",
+        "quantity": null,
+        "unit": "a gosto",
+        "shopping": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Rale a cenoura no ralo grosso. Afervente em água com sal até perder a rigidez, escorra e deixe esfriar."
+      },
+      {
+        "id": "passo-2",
+        "text": "Lave e seque pimentão, maçã e salsa. Retire sementes e miolo; corte pimentão e maçã em tirinhas, pique a salsa e rale as cebolas."
+      },
+      {
+        "id": "passo-3",
+        "text": "Numa tigela, reúna frango, cenoura fria, azeitona, pimentão, cebola, passas, salsa e maçã."
+      },
+      {
+        "id": "passo-4",
+        "text": "Tempere com limão e azeite. Incorpore a maionese em pequenas adições, até os ingredientes ficarem envolvidos."
+      },
+      {
+        "id": "passo-5",
+        "text": "Cubra e gele. Acrescente a batata palha somente na hora de servir."
+      }
+    ],
+    "equipment": [
+      "Tigela grande, panela e escorredor",
+      "Tábua, faca e ralador grosso",
+      "Colheres, balança e recipiente com tampa"
+    ],
+    "tips": [
+      {
+        "title": "Frango pronto",
+        "text": "O peso indicado é da carne já cozida, não de peito cru."
+      },
+      {
+        "title": "Crocância na hora",
+        "text": "Guarde a batata palha separada até levar a salada à mesa."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Mantenha frio",
+        "text": "Guarde em pote fechado, prontamente na geladeira a 4 °C ou menos. Consuma em até 2 dias e mantenha a batata palha separada."
+      },
+      {
+        "title": "Sirva em pequenas levas",
+        "text": "Reponha a travessa aos poucos e deixe o restante refrigerado. Não mantenha a salada por mais de 2 horas fora da geladeira."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T13:22:57Z"
+  },
+  "sources": [
+    {
+      "title": "Receitas Globo / RPC — salpicão de frango simples",
+      "url": "https://receitas.globo.com/regionais/rpc/plug/salpicao-de-frango-simples.ghtml",
+      "role": "Formulação com frango já cozido, oito porções, cenoura aferventada e batata palha na finalização."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Não usaformulaçãoReceiteriadepresunto,milho,cremedeleite. Fonte medemaioneseatéoponto, mantidaagosto. Tempo30da fonte nãoapresentadocomototalcomfrango cru.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

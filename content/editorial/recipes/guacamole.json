@@ -1,0 +1,139 @@
+{
+  "id": "guacamole",
+  "slug": "guacamole",
+  "title": "Guacamole simples com avocado, tomate e coentro",
+  "description": "Guacamole com avocado maduro, tomate, limão e coentro. Veja como amassar mantendo a textura rústica e temperar para servir na hora.",
+  "intro": "Use avocado pequeno e maduro. Esta versão é amassada com garfo e não leva cebola.",
+  "categoryIds": [
+    "acompanhamentos",
+    "lanches"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/guacamole.webp",
+    "alt": "Imagem ilustrativa: Guacamole verde de textura rústica com cubinhos de tomate e coentro, sem cebola nem pimenta em pedaços"
+  },
+  "publishedAt": "2026-11-03T12:58:56Z",
+  "updatedAt": "2026-11-03T12:58:56Z",
+  "seo": {
+    "title": "Guacamole simples com avocado, tomate e coentro | Bebel",
+    "description": "Guacamole com avocado maduro, tomate, limão e coentro. Veja como amassar mantendo a textura rústica e temperar para servir na hora."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 4,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Sem cocção. Inclua o tempo de lavar, cortar e amassar; prefira finalizar perto da hora de servir.",
+    "ingredients": [
+      {
+        "id": "avocado",
+        "name": "Avocado maduro pequeno",
+        "quantity": 4,
+        "unit": "unidades",
+        "note": "Não são quatro abacates grandes."
+      },
+      {
+        "id": "tomate",
+        "name": "Tomate maduro",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "limao",
+        "name": "Limão para o suco",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": 2,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "coentro",
+        "name": "Coentro",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Lave e seque tomate, limão e coentro. Pique o tomate sem sementes e o coentro."
+      },
+      {
+        "id": "passo-2",
+        "text": "Abra os avocados, retire os caroços com cuidado e tire a polpa com uma colher. Corte em pedaços."
+      },
+      {
+        "id": "passo-3",
+        "text": "Junte o suco de limão e amasse com garfo, preservando alguns pedacinhos."
+      },
+      {
+        "id": "passo-4",
+        "text": "Incorpore tomate, coentro e azeite. Ajuste sal e pimenta e sirva logo depois."
+      }
+    ],
+    "equipment": [
+      "Tigela, garfo e colher",
+      "Tábua, faca e espremedor de limão",
+      "Colheres medidoras"
+    ],
+    "tips": [
+      {
+        "title": "Fruta no ponto",
+        "text": "O avocado deve ceder levemente ao toque, sem estar estragado."
+      },
+      {
+        "title": "Textura rústica",
+        "text": "O garfo permite controlar a quantidade de pedaços."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Prefira fazer na hora",
+        "text": "Se sobrar, feche bem e leve prontamente à geladeira a 4 °C ou menos. Prefira consumir no dia seguinte; a superfície pode escurecer. Limão não substitui refrigeração."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T12:58:56Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — guacamole",
+      "url": "https://panelinha.com.br/receita/guacamole",
+      "role": "4 porções de acompanhamento, quatro avocados pequenos e método manual com garfo."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Semcebola/jalapeño, nãofingirreceitamexicanaúnica. SemembedShort111IDnull. Rendimento4acompanhamento, não6aperitivo.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

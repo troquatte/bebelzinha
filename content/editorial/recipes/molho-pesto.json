@@ -1,0 +1,142 @@
+{
+  "id": "molho-pesto",
+  "slug": "molho-pesto",
+  "title": "Molho pesto de manjericão com nozes no pilão",
+  "description": "Molho pesto de manjericão com nozes, parmesão e azeite. Confira a pequena quantidade e a ordem dos ingredientes para preparar no pilão.",
+  "intro": "Uma pequena porção de molho para acompanhar outro prato. Triture os sólidos antes de incorporar o azeite.",
+  "categoryIds": [
+    "acompanhamentos"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/molho-pesto.webp",
+    "alt": "Imagem ilustrativa: Molho pesto verde de manjericão com partículas de nozes e parmesão e brilho de azeite"
+  },
+  "publishedAt": "2026-11-03T13:22:57Z",
+  "updatedAt": "2026-11-03T13:22:57Z",
+  "seo": {
+    "title": "Molho pesto de manjericão com nozes no pilão | Bebel",
+    "description": "Molho pesto de manjericão com nozes, parmesão e azeite. Confira a pequena quantidade e a ordem dos ingredientes para preparar no pilão."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 1,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Sem cocção. Inclua o tempo de lavar e secar as folhas e triturar os ingredientes.",
+    "ingredients": [
+      {
+        "id": "alho",
+        "name": "Alho descascado",
+        "quantity": 1,
+        "unit": "dente"
+      },
+      {
+        "id": "manjericao",
+        "name": "Folhas de manjericão fresco",
+        "quantity": 0.5,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "nozes",
+        "name": "Nozes sem casca",
+        "quantity": 2,
+        "unit": "unidades"
+      },
+      {
+        "id": "queijo",
+        "name": "Queijo parmesão ralado",
+        "quantity": 2,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": 0.25,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Lave e seque bem as folhas de manjericão. Separe alho, nozes e queijo."
+      },
+      {
+        "id": "passo-2",
+        "text": "No pilão, amasse o alho com uma pitada de sal."
+      },
+      {
+        "id": "passo-3",
+        "text": "Junte o manjericão e triture. Incorpore as nozes e depois o parmesão."
+      },
+      {
+        "id": "passo-4",
+        "text": "Misture o azeite por último. Prove, ajuste sal e pimenta e sirva sobre o preparo escolhido."
+      }
+    ],
+    "equipment": [
+      "Pilão e socador",
+      "Colher e medidores",
+      "Recipiente limpo com tampa"
+    ],
+    "tips": [
+      {
+        "title": "Sem pilão",
+        "text": "Pique os ingredientes muito fino e misture numa tigela, ou use mixer."
+      },
+      {
+        "title": "Folhas secas",
+        "text": "Retire a água da lavagem antes de triturar."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Guarde na geladeira",
+        "text": "Transfira para pote limpo e fechado, mantenha a 4 °C ou menos e consuma em até 3 dias. Não deixe o molho de alho e azeite à temperatura ambiente."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T13:22:57Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — molho pesto",
+      "url": "https://panelinha.com.br/receita/molho-pesto",
+      "role": "Uma porção, nozes em vez de pinoli e ordem dos ingredientes no pilão."
+    },
+    {
+      "title": "Panelinha — variações e conservação do pesto",
+      "url": "https://panelinha.com.br/blog/pitadas/post/pra-variar-o-pesto",
+      "role": "Orientação de conservação refrigerada por até três dias."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Nãoapresentarcomoúnicareceitagenovesa. Fontepágina15dias conflita blog3dias:conservador3dias.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

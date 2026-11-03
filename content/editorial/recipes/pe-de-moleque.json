@@ -1,0 +1,127 @@
+{
+  "id": "pe-de-moleque",
+  "slug": "pe-de-moleque",
+  "title": "Pé de moleque com amendoim e leite condensado",
+  "description": "Pé de moleque com açúcar, amendoim torrado e leite condensado. Veja a ordem na panela e quando espalhar e cortar o doce.",
+  "intro": "Esta versão leva leite condensado. Espalhe o doce em superfície untada e espere esfriar antes de cortar.",
+  "categoryIds": [
+    "doces"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/pe-moleque.webp",
+    "alt": "Imagem ilustrativa: Docinhos de pé de moleque em losangos, com caramelo opaco dourado e muitos amendoins"
+  },
+  "publishedAt": "2026-11-03T12:58:56Z",
+  "updatedAt": "2026-11-03T12:58:56Z",
+  "seo": {
+    "title": "Pé de moleque com amendoim e leite condensado | Bebel",
+    "description": "Pé de moleque com açúcar, amendoim torrado e leite condensado. Veja a ordem na panela e quando espalhar e cortar o doce."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 30,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Depois de acrescentar o leite condensado, cerca de 15 minutos de fogo baixo, além do caramelo inicial e do resfriamento.",
+    "ingredients": [
+      {
+        "id": "acucar",
+        "name": "Açúcar",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "amendoim",
+        "name": "Amendoim torrado sem pele",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "leite",
+        "name": "Leite condensado",
+        "quantity": 395,
+        "unit": "g"
+      },
+      {
+        "id": "untar",
+        "name": "Manteiga para untar a superfície",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Unte uma assadeira ou superfície de mármore limpa com manteiga. Separe uma colher de cabo longo."
+      },
+      {
+        "id": "passo-2",
+        "text": "Em fogo baixo, aqueça o açúcar com o amendoim até formar caramelo, sem deixar escurecer demais."
+      },
+      {
+        "id": "passo-3",
+        "text": "Adicione o leite condensado em fio, com cuidado com o vapor, mexendo continuamente."
+      },
+      {
+        "id": "passo-4",
+        "text": "Cozinhe em fogo baixo por aproximadamente 15 minutos, até o doce se desprender do fundo da panela."
+      },
+      {
+        "id": "passo-5",
+        "text": "Espalhe na superfície untada e nivele com espátula. Espere esfriar completamente e corte em pequenas porções."
+      }
+    ],
+    "equipment": [
+      "Panela, colher de cabo longo e espátula",
+      "Assadeira ou mármore limpo",
+      "Medidores e faca para cortar depois de frio"
+    ],
+    "tips": [
+      {
+        "title": "Caramelo quente",
+        "text": "Mantenha mãos e rosto longe do vapor ao juntar o leite condensado."
+      },
+      {
+        "title": "Corte depois de frio",
+        "text": "Espere o doce firmar para dividir as porções."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Depois de esfriar",
+        "text": "Guarde em recipiente fechado na geladeira, a 4 °C ou menos, e consuma em até 2 dias. Identifique a data do preparo."
+      },
+      {
+        "title": "Para servir",
+        "text": "Retire apenas a quantidade desejada e mantenha o restante refrigerado. Não deixe preparações prontas por mais de 2 horas fora da geladeira."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T12:58:56Z"
+  },
+  "sources": [
+    {
+      "title": "Receitas Nestlé — pé de moleque",
+      "url": "https://www.receitasnestle.com.br/receitas/pe-de-moleque",
+      "role": "Proporção, 30 porções e ponto de desprender da panela com leite condensado."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Páginadireta403; conteúdooficial recuperado pela busca, conferidocomPDFoficialFestaJunina. Nãoinferirrapadura/versãosemleite. Rendimento30porções, não30barrasgrandes.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

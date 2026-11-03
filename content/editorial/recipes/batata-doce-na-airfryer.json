@@ -8,13 +8,13 @@
     "acompanhamentos",
     "airfryer"
   ],
-  "videoId": null,
+  "videoId": "SVNVUAIXNes",
   "image": {
     "src": "images/recipes/batata-doce-airfryer.webp",
     "alt": "Imagem ilustrativa: Rodelas finas de batata-doce de casca avermelhada, levemente douradas e temperadas com páprica e ervas secas"
   },
   "publishedAt": "2026-11-03T01:47:38Z",
-  "updatedAt": "2026-11-03T01:47:38Z",
+  "updatedAt": "2026-11-03T13:46:23Z",
   "seo": {
     "title": "Batata-doce na airfryer com páprica e chimichurri | Bebel",
     "description": "Batata-doce na airfryer com pré-cozimento, páprica e chimichurri. Veja como fatiar e acompanhar o dourado das rodelas sem queimar."
@@ -138,10 +138,21 @@
       "title": "Health Canada — conservação de preparações prontas",
       "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
       "role": "Resfriamento, conservação refrigerada e reaquecimento de sobras."
+    },
+    {
+      "title": "Bebelzinha — vídeo do preparo",
+      "url": "https://www.youtube.com/watch?v=SVNVUAIXNes",
+      "role": "Vídeo correspondente à ficha, com ingredientes e etapas na descrição."
     }
   ],
   "editorialNotes": [
     "URLcanônicarealésemhífenentreair/fryer; outra URLfalhou. Não misturar200°C30min/métodocru. Acervo087éfornotradicional, nãoassociar. Sem alegaçãochips industrialcrocante.",
-    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
-  ]
+    "Vídeo longo SVNVUAIXNes informado pelo usuário e conferido no YouTube em 2026-11-03. Canal Bebelzinha; descrição corresponde à formulação: 1 batata, pré-cozimento6min, airfryer180°C12min. Metadados DOM datePublished2026-11-03T05:41:46-08:00/durationPT3M33S. Foto própria preservada; player somente após clique."
+  ],
+  "video": {
+    "name": "Batata-doce na airfryer com páprica defumada e chimichurri",
+    "description": "Vídeo da Bebel com ingredientes para duas porções, pré-cozimento, corte em rodelas e preparo a 180 °C na airfryer.",
+    "uploadDate": "2026-11-03",
+    "duration": "PT3M33S"
+  }
 }
