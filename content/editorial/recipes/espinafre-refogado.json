@@ -1,0 +1,123 @@
+{
+  "id": "espinafre-refogado",
+  "slug": "espinafre-refogado",
+  "title": "Espinafre refogado com azeite e alho, sem creme",
+  "description": "Espinafre refogado com azeite e alho em poucos minutos de frigideira. Confira como secar as folhas e retirar o alho ao terminar.",
+  "intro": "As folhas murcham rapidamente. O alho fica inteiro para perfumar e é retirado no final.",
+  "categoryIds": [
+    "acompanhamentos"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/espinafre-refogado.webp",
+    "alt": "Imagem ilustrativa: Folhas de espinafre refogadas, verdes e brilhantes, sem creme"
+  },
+  "publishedAt": "2026-11-04T01:25:08Z",
+  "updatedAt": "2026-11-04T01:25:08Z",
+  "seo": {
+    "title": "Espinafre refogado com azeite e alho, sem creme | Bebel",
+    "description": "Espinafre refogado com azeite e alho em poucos minutos de frigideira. Confira como secar as folhas e retirar o alho ao terminar."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 2,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 1 minuto para perfumar o azeite e 2 para refogar, além da lavagem e da secagem.",
+    "ingredients": [
+      {
+        "id": "espinafre",
+        "name": "Espinafre",
+        "quantity": 1,
+        "unit": "maço"
+      },
+      {
+        "id": "alho",
+        "name": "Alho",
+        "quantity": 1,
+        "unit": "dente"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Destaque as folhas dos talos, lave e seque bem. Reserve os talos para outro preparo."
+      },
+      {
+        "id": "passo-2",
+        "text": "Amasse e descasque o alho, mantendo o dente inteiro."
+      },
+      {
+        "id": "passo-3",
+        "text": "Aqueça uma frigideira grande em fogo médio. Coloque azeite e alho e mexa por cerca de 1 minuto."
+      },
+      {
+        "id": "passo-4",
+        "text": "Junte as folhas e uma pitada de sal. Refogue por cerca de 2 minutos, até murchar. Retire o alho e sirva."
+      }
+    ],
+    "equipment": [
+      "Frigideira grande e espátula",
+      "Centrífuga de salada ou pano limpo",
+      "Tábua e faca"
+    ],
+    "tips": [
+      {
+        "title": "Folhas secas",
+        "text": "Retire a água da lavagem antes de levar à frigideira."
+      },
+      {
+        "title": "Refogado breve",
+        "text": "Não prolongue o cozimento depois de murchar."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Guarde em recipiente fechado, a 4 °C ou menos, por até 2 dias. Refrigere em até 2 horas após preparar."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça somente a porção que vai consumir até 74 °C no centro."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T01:25:08Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — espinafre refogado",
+      "url": "https://panelinha.com.br/receita/espinafre-refogado",
+      "role": "Duas porções, alho retirado e refogado de 2 minutos."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Não é creme de espinafre já publicado. Short no acervo semID não incorporado. Sem alegações medicinais ou nutricionais.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

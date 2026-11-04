@@ -1,0 +1,13 @@
+# Chuchu na airfryer em palitos com limão e alecrim — revisão interna
+
+2026-11-03T23:34:25Z
+
+- Intenção transacional no provedor, conteúdo culinário informacional na página. Segue 200 °C do método; não reproduzir contradição da introdução.
+- Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página.
+
+- https://www.tudogostoso.com.br/receita/314431-chuchu-na-airfryer.html — Duas porções, palitos crus, limão, alecrim e 200 °C.
+- https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html — Resfriamento, refrigeração e reaquecimento.
+
+OpenSEO BR2076/pt, volume mensal estimado do termo chuchu na airfryer: 480; KD:0. Pesquisa2026-11-03 Brasil2076/pt; dez métricas novas, dez selecionadas. Dez SERPs exatas atuais resultIdba911437-e735-49a2-9110-5e21b99ec98b. Custo e saldo não retornados.
+
+SERP exata: ba911437-e735-49a2-9110-5e21b99ec98b. Relatório privado: https://app.openseo.so/p/d9786bbb-b04d-4eaa-adf8-337b47b3010a/reports/1e180a13-c472-4d53-967d-73ad2841ea11

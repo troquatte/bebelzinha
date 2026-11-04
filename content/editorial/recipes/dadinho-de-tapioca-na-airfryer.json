@@ -1,0 +1,128 @@
+{
+  "id": "dadinho-de-tapioca-na-airfryer",
+  "slug": "dadinho-de-tapioca-na-airfryer",
+  "title": "Dadinho de tapioca na airfryer com queijo coalho",
+  "description": "Dadinho de tapioca na airfryer com queijo coalho e leite. Confira a hidratação, as 2 horas de geladeira e o preparo dos cubinhos a 200 °C.",
+  "intro": "A massa precisa firmar na geladeira antes do corte. Use tapioca granulada, não goma hidratada de frigideira.",
+  "categoryIds": [
+    "airfryer",
+    "lanches"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/dadinho-tapioca-airfryer.webp",
+    "alt": "Imagem ilustrativa: Cubinhos dourados de tapioca granulada com queijo coalho"
+  },
+  "publishedAt": "2026-11-04T00:51:32Z",
+  "updatedAt": "2026-11-04T00:51:32Z",
+  "seo": {
+    "title": "Dadinho de tapioca na airfryer com queijo coalho | Bebel",
+    "description": "Dadinho de tapioca na airfryer com queijo coalho e leite. Confira a hidratação, as 2 horas de geladeira e o preparo dos cubinhos a 200 °C."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 35,
+      "unit": "dadinho"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 10,
+      "totalMinutes": null
+    },
+    "timeNote": "10 minutos para hidratar e 2 horas de geladeira. Preaqueça por 5 minutos e asse cerca de 10 minutos a 200 °C por leva.",
+    "ingredients": [
+      {
+        "id": "tapioca",
+        "name": "Tapioca granulada",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "id": "queijo",
+        "name": "Queijo coalho ralado",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 1,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "leite",
+        "name": "Leite integral",
+        "quantity": 300,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Aqueça o leite no micro-ondas por cerca de 1 a 2 minutos, até ficar bem quente, sem ferver."
+      },
+      {
+        "id": "passo-2",
+        "text": "Misture tapioca e sal em uma tigela. Acrescente o leite, mexa e deixe hidratar por 10 minutos."
+      },
+      {
+        "id": "passo-3",
+        "text": "Incorpore o queijo ralado. Pressione a massa em um refratário forrado com filme próprio para alimentos e nivele."
+      },
+      {
+        "id": "passo-4",
+        "text": "Cubra e refrigere por cerca de 2 horas, até firmar. Retire todo o filme e corte cerca de 35 cubinhos."
+      },
+      {
+        "id": "passo-5",
+        "text": "Preaqueça a airfryer a 200 °C por 5 minutos. Distribua os cubinhos com espaço entre eles e asse cerca de 10 minutos, até dourar. Faça em levas."
+      }
+    ],
+    "equipment": [
+      "Tigela e recipiente próprio para micro-ondas",
+      "Refratário, filme próprio para alimentos e faca",
+      "Airfryer, espátula e pegador"
+    ],
+    "tips": [
+      {
+        "title": "Tapioca certa",
+        "text": "A granulada absorve o leite; a goma de fazer tapioca não substitui esse ingrediente."
+      },
+      {
+        "title": "Descanso necessário",
+        "text": "Não corte a massa ainda mole nem coloque plástico na airfryer."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Guarde em recipiente fechado, a 4 °C ou menos, por até 2 dias. Refrigere em até 2 horas após o preparo."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça somente a porção que vai consumir até 74 °C no centro."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T00:51:32Z"
+  },
+  "sources": [
+    {
+      "title": "Receiteria — dadinho de tapioca na air fryer",
+      "url": "https://www.receiteria.com.br/receita/dadinho-de-tapioca-na-air-fryer/",
+      "role": "35 dadinhos, hidratação 10 min, geladeira 2 h e método a 200 °C."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Refrigeração, resfriamento e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Método10min em vez do subtotal15min do cabeçalho. Não misturar fórmula375gqueijo/48unidades da outra página. Sem molho obrigatório ou ingredientes de acompanhamento.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

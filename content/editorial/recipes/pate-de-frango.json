@@ -1,0 +1,152 @@
+{
+  "id": "pate-de-frango",
+  "slug": "pate-de-frango",
+  "title": "Patê de frango com cenoura, milho e azeitona",
+  "description": "Patê de frango com cenoura, milho e azeitona, feito com frango já cozido e desfiado. Confira a mistura e o descanso na geladeira antes de servir.",
+  "intro": "Uma tigela para compartilhar, com rendimento aproximado de 6 a 8 porções. O frango entra já cozido, desfiado e frio.",
+  "categoryIds": [
+    "lanches"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/pate-frango.webp",
+    "alt": "Imagem ilustrativa: Patê cremoso com frango desfiado, cenoura ralada, milho e azeitonas verdes"
+  },
+  "publishedAt": "2026-11-03T23:34:25Z",
+  "updatedAt": "2026-11-03T23:34:25Z",
+  "seo": {
+    "title": "Patê de frango com cenoura, milho e azeitona | Bebel",
+    "description": "Patê de frango com cenoura, milho e azeitona, feito com frango já cozido e desfiado. Confira a mistura e o descanso na geladeira antes de servir."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 7,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Pelo menos 1 hora de geladeira, além da mistura. A ficha começa com o frango já cozido.",
+    "ingredients": [
+      {
+        "id": "frango",
+        "name": "Frango cozido e desfiado",
+        "quantity": 500,
+        "unit": "g",
+        "note": "Peso depois de cozinhar; use frio."
+      },
+      {
+        "id": "maionese",
+        "name": "Maionese",
+        "quantity": 300,
+        "unit": "g"
+      },
+      {
+        "id": "requeijao",
+        "name": "Requeijão",
+        "quantity": 250,
+        "unit": "g"
+      },
+      {
+        "id": "cenoura",
+        "name": "Cenoura média ralada",
+        "quantity": 2,
+        "unit": "unidades"
+      },
+      {
+        "id": "milho",
+        "name": "Milho",
+        "quantity": 250,
+        "unit": "g"
+      },
+      {
+        "id": "azeitona",
+        "name": "Azeitona verde sem caroço fatiada",
+        "quantity": 250,
+        "unit": "g"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "cheiro",
+        "name": "Cheiro-verde picado",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Coloque o frango já cozido, desfiado e frio em uma tigela. Solte os fios com um garfo."
+      },
+      {
+        "id": "passo-2",
+        "text": "Junte maionese e requeijão. Misture até envolver o frango."
+      },
+      {
+        "id": "passo-3",
+        "text": "Acrescente cenoura ralada, milho e azeitonas. Mexa para distribuir."
+      },
+      {
+        "id": "passo-4",
+        "text": "Prove antes de colocar sal, pois as azeitonas já são salgadas. Finalize com cheiro-verde."
+      },
+      {
+        "id": "passo-5",
+        "text": "Tampe e refrigere por pelo menos 1 hora antes de servir."
+      }
+    ],
+    "equipment": [
+      "Tigela grande, garfo e colher",
+      "Ralador, tábua e faca",
+      "Recipiente com tampa e balança"
+    ],
+    "tips": [
+      {
+        "title": "Frango pronto",
+        "text": "Os 500 g são de frango cozido e desfiado; não correspondem ao peso da carne crua."
+      },
+      {
+        "title": "Mistura fria",
+        "text": "Espere o frango esfriar e leve o patê à geladeira logo depois da mistura."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Guarde prontamente em recipiente fechado, a 4 °C ou menos, por até 2 dias. Não deixe mais de 2 horas fora de refrigeração."
+      },
+      {
+        "title": "Para servir",
+        "text": "Retire somente a quantidade desejada com utensílio limpo e mantenha o restante refrigerado."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T23:34:25Z"
+  },
+  "sources": [
+    {
+      "title": "Receiteria — patê de frango",
+      "url": "https://www.receiteria.com.br/receita/pate-de-frango/",
+      "role": "Fórmula, rendimento de 6 a 8 porções e descanso mínimo de 1 hora."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Rendimento central 7 porções, conforme widget e intervalo da fonte. Não adicionar cebola opcional nem alterar os 250 g de azeitona.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

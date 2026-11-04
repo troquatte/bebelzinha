@@ -1,0 +1,133 @@
+{
+  "id": "jilo-na-airfryer",
+  "slug": "jilo-na-airfryer",
+  "title": "Jiló na airfryer em rodelas finas com ervas",
+  "description": "Jiló na airfryer em rodelas finas com azeite e ervas. Veja o preparo a 180 °C e como conferir o ponto sem empanar os legumes.",
+  "intro": "O jiló mantém seu sabor característico. As rodelas finas vão temperadas diretamente à cesta.",
+  "categoryIds": [
+    "airfryer",
+    "acompanhamentos"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/jilo-airfryer.webp",
+    "alt": "Imagem ilustrativa: Rodelas finas de jiló com casca verde e pontos dourados, temperadas com ervas"
+  },
+  "publishedAt": "2026-11-04T00:51:32Z",
+  "updatedAt": "2026-11-04T00:51:32Z",
+  "seo": {
+    "title": "Jiló na airfryer em rodelas finas com ervas | Bebel",
+    "description": "Jiló na airfryer em rodelas finas com azeite e ervas. Veja o preparo a 180 °C e como conferir o ponto sem empanar os legumes."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 4,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 30,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 30 minutos a 180 °C por leva, além da lavagem e do corte. Confira antes se as fatias forem muito finas.",
+    "ingredients": [
+      {
+        "id": "jilo",
+        "name": "Jiló cru",
+        "quantity": 4,
+        "unit": "unidades"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": 2,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "ervas",
+        "name": "Ervas frescas",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Lave e seque os jilós. Retire os cabinhos e corte rodelas finas, mantendo a casca."
+      },
+      {
+        "id": "passo-2",
+        "text": "Misture numa tigela com azeite, sal, pimenta e ervas frescas picadas."
+      },
+      {
+        "id": "passo-3",
+        "text": "Distribua na cesta sem amontoar. Asse a 180 °C por cerca de 30 minutos, conferindo o dourado antes do final para não queimar fatias mais finas. Faça em levas se necessário."
+      },
+      {
+        "id": "passo-4",
+        "text": "Retire com um pegador e sirva em seguida."
+      }
+    ],
+    "equipment": [
+      "Airfryer e pegador",
+      "Tigela, tábua, faca e colher medidora"
+    ],
+    "tips": [
+      {
+        "title": "Sabor do jiló",
+        "text": "A receita não elimina totalmente o amargor natural."
+      },
+      {
+        "title": "Olhe o ponto",
+        "text": "Espessura e aparelho alteram o tempo: retire quando estiver assado e dourado, sem escurecer demais."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Guarde em recipiente fechado, a 4 °C ou menos, por até 2 dias. Refrigere em até 2 horas após o preparo."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça somente a porção que vai consumir até 74 °C no centro."
+      },
+      {
+        "title": "Textura",
+        "text": "Prefira servir logo depois do preparo; a refrigeração amolece as rodelas."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T00:51:32Z"
+  },
+  "sources": [
+    {
+      "title": "Casa e Culinária — chips de jiló na airfryer",
+      "url": "https://casaeculinaria.com/receitas/jilo-5-receitas/",
+      "role": "Aline Martins: quatro porções, quatro jilós e 180 °C por cerca de 30 minutos."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Refrigeração, resfriamento e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Usar somente primeira ficha da página, não misturar refogado/caponata. Não reproduzir alegações de emagrecimento/diabetes, calorias, custo ou eliminação do amargor.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

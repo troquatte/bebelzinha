@@ -1,0 +1,177 @@
+{
+  "id": "bolo-de-cenoura-na-airfryer",
+  "slug": "bolo-de-cenoura-na-airfryer",
+  "title": "Bolo de cenoura na airfryer com calda fina de chocolate",
+  "description": "Bolo de cenoura na airfryer em forma de 16 cm, com calda fina de chocolate. Confira os ingredientes em peso e o preparo a 160 °C.",
+  "intro": "A massa é pequena e a calda é feita na panela. Esta versão começa com a airfryer fria.",
+  "categoryIds": [
+    "airfryer",
+    "doces",
+    "lanches"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/bolo-cenoura-airfryer.webp",
+    "alt": "Imagem ilustrativa: Bolo pequeno de cenoura com furo central e calda fina de chocolate"
+  },
+  "publishedAt": "2026-11-04T01:25:08Z",
+  "updatedAt": "2026-11-04T01:25:08Z",
+  "seo": {
+    "title": "Bolo de cenoura na airfryer com calda fina de chocolate | Bebel",
+    "description": "Bolo de cenoura na airfryer em forma de 16 cm, com calda fina de chocolate. Confira os ingredientes em peso e o preparo a 160 °C."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 8,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 18,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 18 minutos a 160 °C, sem preaquecimento, além da massa e da calda.",
+    "ingredients": [
+      {
+        "id": "cenoura",
+        "name": "Cenoura pequena",
+        "quantity": 175,
+        "unit": "g"
+      },
+      {
+        "id": "ovo",
+        "name": "Ovo médio",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar para a massa",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "id": "oleo",
+        "name": "Óleo",
+        "quantity": 60,
+        "unit": "ml"
+      },
+      {
+        "id": "farinha",
+        "name": "Farinha de trigo para a massa",
+        "quantity": 105,
+        "unit": "g"
+      },
+      {
+        "id": "fermento",
+        "name": "Fermento químico em pó",
+        "quantity": 5,
+        "unit": "g"
+      },
+      {
+        "id": "manteiga-untar",
+        "name": "Manteiga para untar",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "farinha-untar",
+        "name": "Farinha para enfarinhar",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "acucar-calda",
+        "name": "Açúcar para a calda",
+        "quantity": 45,
+        "unit": "g"
+      },
+      {
+        "id": "chocolate",
+        "name": "Chocolate em pó",
+        "quantity": 20,
+        "unit": "g"
+      },
+      {
+        "id": "manteiga",
+        "name": "Manteiga para a calda",
+        "quantity": 10,
+        "unit": "g"
+      },
+      {
+        "id": "leite",
+        "name": "Leite para a calda",
+        "quantity": 30,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Unte e enfarinhe uma forma de furo central de 16 cm que caiba na cesta com espaço para o ar circular."
+      },
+      {
+        "id": "passo-2",
+        "text": "Lave, descasque e pique a cenoura. Bata com ovo, açúcar da massa e óleo por cerca de 2 minutos."
+      },
+      {
+        "id": "passo-3",
+        "text": "Misture farinha e fermento numa tigela e incorpore o líquido delicadamente. Despeje na forma."
+      },
+      {
+        "id": "passo-4",
+        "text": "Coloque na airfryer fria e ajuste a 160 °C por cerca de 18 minutos. Confira com palito: o centro deve estar assado."
+      },
+      {
+        "id": "passo-5",
+        "text": "Aqueça os ingredientes da calda em panela pequena, mexendo. Após ferver, conte 1 minuto. Deixe o bolo amornar, desenforme e regue com a calda."
+      }
+    ],
+    "equipment": [
+      "Airfryer e forma de furo central de 16 cm",
+      "Liquidificador, tigela e espátula",
+      "Panela pequena, balança, medidor e palito"
+    ],
+    "tips": [
+      {
+        "title": "Peso da cenoura",
+        "text": "Use os 175 g indicados, sem dobrar a cenoura por conta própria."
+      },
+      {
+        "title": "Calda fina",
+        "text": "A cobertura desta ficha não é brigadeiro nem ganache."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Guarde em recipiente fechado, a 4 °C ou menos, por até 2 dias. Refrigere em até 2 horas após preparar."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça somente a porção que vai consumir até 74 °C no centro."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T01:25:08Z"
+  },
+  "sources": [
+    {
+      "title": "Receiteria — bolo de cenoura na air fryer",
+      "url": "https://www.receiteria.com.br/receita/bolo-de-cenoura-na-airfryer/",
+      "role": "Oito porções, forma16cm,160 °C18min e calda fina."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Lista175g prevalece sobre menção errada a meia cenoura no método. Pesos da fonte preservados. Diferente de bolo de cenoura pequeno de forno; não converter fórmula existente automaticamente.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

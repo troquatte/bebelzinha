@@ -1,0 +1,208 @@
+{
+  "id": "carne-de-panela",
+  "slug": "carne-de-panela",
+  "title": "Carne de panela com batata, cenoura e especiarias",
+  "description": "Carne de panela de acém cozida lentamente, com batata-bolinha, cenoura e molho encorpado. Prepare em panela comum e coloque os legumes na etapa final.",
+  "intro": "Aqui a carne cozinha sem pressão. A batata e a cenoura entram quando o acém já estiver macio para manter o formato.",
+  "categoryIds": [
+    "pratos-do-dia"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/carne-panela.webp",
+    "alt": "Imagem ilustrativa: Acém em cubos com molho, batata-bolinha e cenoura"
+  },
+  "publishedAt": "2026-11-04T12:23:52Z",
+  "updatedAt": "2026-11-04T12:23:52Z",
+  "seo": {
+    "title": "Carne de panela com batata, cenoura e especiarias | Bebel",
+    "description": "Carne de panela de acém cozida lentamente, com batata-bolinha, cenoura e molho encorpado. Prepare em panela comum e coloque os legumes na etapa final."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 6,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 1 hora e 20 minutos para a carne e mais 30 para os legumes, além de dourar e refogar. O ponto da carne determina o tempo.",
+    "ingredients": [
+      {
+        "id": "acem",
+        "name": "Acém em cubos",
+        "quantity": 1,
+        "unit": "kg"
+      },
+      {
+        "id": "batata",
+        "name": "Batata-bolinha",
+        "quantity": 400,
+        "unit": "g"
+      },
+      {
+        "id": "cenoura",
+        "name": "Cenoura",
+        "quantity": 2,
+        "unit": "unidades"
+      },
+      {
+        "id": "cebola",
+        "name": "Cebola",
+        "quantity": 0.5,
+        "unit": "unidade"
+      },
+      {
+        "id": "alho",
+        "name": "Alho",
+        "quantity": 2,
+        "unit": "dentes"
+      },
+      {
+        "id": "extrato",
+        "name": "Extrato de tomate",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "farinha",
+        "name": "Farinha de trigo",
+        "quantity": 2,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "vinagre",
+        "name": "Vinagre de vinho tinto",
+        "quantity": 3,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "agua",
+        "name": "Água fervente",
+        "quantity": 1,
+        "unit": "litro",
+        "shopping": false
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": null,
+        "unit": "a gosto",
+        "note": "Use 1 colher de sopa para cada leva e mais 1 para o refogado."
+      },
+      {
+        "id": "louro",
+        "name": "Louro",
+        "quantity": 2,
+        "unit": "folhas"
+      },
+      {
+        "id": "cominho",
+        "name": "Cominho em pó",
+        "quantity": 1,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "colorau",
+        "name": "Colorau",
+        "quantity": 0.5,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "canela",
+        "name": "Canela em pó",
+        "quantity": 0.25,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto",
+        "note": "Comece com 1 colher de chá na carne e ajuste o caldo."
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "salsinha",
+        "name": "Salsinha",
+        "quantity": 4,
+        "unit": "ramos"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Corte carne em cubos de 3 cm e tempere. Pique cebola e alho. Aqueça panela grande, regue azeite e doure a carne em pequenas levas; reserve."
+      },
+      {
+        "id": "passo-2",
+        "text": "Abaixe o fogo, coloque azeite e refogue cebola, cominho, colorau e canela por 2 minutos. Junte alho, extrato e louro por mais 1 minuto e misture farinha."
+      },
+      {
+        "id": "passo-3",
+        "text": "Acrescente vinagre e solte o fundo. Junte o litro de água fervente e a carne, ajuste o sal e cozinhe com tampa entreaberta por cerca de 1 hora e 20 minutos, até amaciar. Se necessário, reponha um pouco de água quente."
+      },
+      {
+        "id": "passo-4",
+        "text": "Lave e corte as batatas ao meio. Corte cenouras descascadas em pedaços de cerca de 1 cm. Junte à carne macia, espere ferver e cozinhe tampado em fogo baixo por cerca de 30 minutos."
+      },
+      {
+        "id": "passo-5",
+        "text": "Confira legumes e carne, retire louro e finalize com salsinha picada."
+      }
+    ],
+    "equipment": [
+      "Panela grande com tampa, sem pressão",
+      "Chaleira, tigela para reservar e medidores",
+      "Faca, tábua e espátula"
+    ],
+    "tips": [
+      {
+        "title": "Doure em levas",
+        "text": "Espalhe os pedaços sem lotar o fundo para ganhar cor."
+      },
+      {
+        "title": "Use o ponto como guia",
+        "text": "Se a carne ainda estiver firme, prolongue antes de adicionar os legumes."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Divida em recipientes rasos e refrigere em até 2 horas. Guarde a 4 °C ou menos por até 2 dias."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça só o que vai consumir até atingir 74 °C no centro."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T12:23:52Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — carne de panela com especiarias",
+      "url": "https://panelinha.com.br/receita/carne-de-panela-com-especiarias",
+      "role": "Acém 1 kg, água 1 litro no conteúdo atual, cozimento sem pressão e legumes no fim; seis porções."
+    },
+    {
+      "title": "Health Canada — conservação de sobras",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Refrigeração rápida, consumo de sobras e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Resultado indexado antigo dizia 1,5L, mas conteúdo completo atual diz 1L: adotado 1L e reposição conforme evaporação. Não converter em receita na pressão nem reproduzir a ficha paga de picadinho.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

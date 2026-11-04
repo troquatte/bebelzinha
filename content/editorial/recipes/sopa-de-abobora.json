@@ -1,0 +1,151 @@
+{
+  "id": "sopa-de-abobora",
+  "slug": "sopa-de-abobora",
+  "title": "Sopa de abóbora moranga com creme de leite fresco",
+  "description": "Sopa de abóbora moranga com caldo de legumes e creme de leite fresco. Confira o refogado, o cozimento e como bater até ficar lisa.",
+  "intro": "A moranga cozinha no caldo e só depois recebe o creme de leite. Sirva em tigelas, sem precisar preparar uma abóbora para recipiente.",
+  "categoryIds": [
+    "pratos-do-dia"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/sopa-abobora.webp",
+    "alt": "Imagem ilustrativa: Sopa cremosa lisa de abóbora alaranjada, sem guarnição"
+  },
+  "publishedAt": "2026-11-04T02:32:27Z",
+  "updatedAt": "2026-11-04T02:32:27Z",
+  "seo": {
+    "title": "Sopa de abóbora moranga com creme de leite fresco | Bebel",
+    "description": "Sopa de abóbora moranga com caldo de legumes e creme de leite fresco. Confira o refogado, o cozimento e como bater até ficar lisa."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 6,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 20,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 20 minutos após ferver, além do refogado, da mistura e da finalização.",
+    "ingredients": [
+      {
+        "id": "abobora",
+        "name": "Abóbora moranga",
+        "quantity": 1,
+        "unit": "kg"
+      },
+      {
+        "id": "manteiga",
+        "name": "Manteiga",
+        "quantity": 2,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "cebola",
+        "name": "Cebola",
+        "quantity": 0.5,
+        "unit": "unidade"
+      },
+      {
+        "id": "alho",
+        "name": "Alho",
+        "quantity": 1,
+        "unit": "dente"
+      },
+      {
+        "id": "caldo",
+        "name": "Caldo de legumes caseiro",
+        "quantity": 1,
+        "unit": "litro"
+      },
+      {
+        "id": "creme",
+        "name": "Creme de leite fresco",
+        "quantity": 0.5,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Lave e descasque a abóbora, retire sementes e corte em cubos. Pique cebola e alho."
+      },
+      {
+        "id": "passo-2",
+        "text": "Derreta manteiga em fogo baixo e refogue a cebola até ficar transparente. Junte alho por 1 minuto e abóbora por mais 1."
+      },
+      {
+        "id": "passo-3",
+        "text": "Adicione o caldo quente, tampe e cozinhe cerca de 20 minutos após ferver, até amaciar."
+      },
+      {
+        "id": "passo-4",
+        "text": "Retire do fogo e bata até ficar lisa. Use liquidificador conforme as instruções para alimentos quentes, sem ultrapassar o limite e evitando respingos."
+      },
+      {
+        "id": "passo-5",
+        "text": "Volte ao fogo baixo, misture creme de leite, sal e pimenta. Deixe levantar fervura novamente e sirva."
+      }
+    ],
+    "equipment": [
+      "Panela média com tampa e espátula",
+      "Liquidificador próprio para alimentos quentes",
+      "Tábua, faca e medidores"
+    ],
+    "tips": [
+      {
+        "title": "Cubos macios",
+        "text": "Confira a abóbora antes de bater."
+      },
+      {
+        "title": "Creme no final",
+        "text": "O creme de leite entra depois que a abóbora estiver batida."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Guarde em recipiente fechado, a 4 °C ou menos, por até 2 dias. Refrigere em até 2 horas após preparar."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça somente a quantidade que vai consumir até 74 °C no centro."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T02:32:27Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — sopa creme de abóbora",
+      "url": "https://panelinha.com.br/receita/sopa-creme-de-abobora",
+      "role": "Seis porções, moranga, caldo de legumes e creme fresco."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Não confundir com purê de abóbora, nem adicionar gengibre de outras receitas. Caldo caseiro é ingrediente pronto, não tablete seco 1 litro.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

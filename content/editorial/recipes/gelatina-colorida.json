@@ -1,0 +1,168 @@
+{
+  "id": "gelatina-colorida",
+  "slug": "gelatina-colorida",
+  "title": "Gelatina colorida em taças com leite condensado",
+  "description": "Gelatina colorida em taças com cubos de quatro sabores e creme de leite condensado. Veja a ordem das etapas e o tempo de geladeira.",
+  "intro": "As gelatinas precisam estar firmes antes de cortar e receber o creme.",
+  "categoryIds": [
+    "doces"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/gelatina-colorida.webp",
+    "alt": "Imagem ilustrativa: Taças com cubos de gelatina vermelha, verde, amarela e roxa em creme branco"
+  },
+  "publishedAt": "2026-11-03T22:53:32Z",
+  "updatedAt": "2026-11-03T22:53:32Z",
+  "seo": {
+    "title": "Gelatina colorida em taças com leite condensado | Bebel",
+    "description": "Gelatina colorida em taças com cubos de quatro sabores e creme de leite condensado. Veja a ordem das etapas e o tempo de geladeira."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 14,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Duas etapas de geladeira: firmar os sabores e, depois da montagem, refrigerar por pelo menos 4 horas.",
+    "ingredients": [
+      {
+        "id": "limao",
+        "name": "Gelatina em pó sabor limão",
+        "quantity": 1,
+        "unit": "caixinha"
+      },
+      {
+        "id": "abacaxi",
+        "name": "Gelatina em pó sabor abacaxi",
+        "quantity": 1,
+        "unit": "caixinha"
+      },
+      {
+        "id": "morango",
+        "name": "Gelatina em pó sabor morango",
+        "quantity": 1,
+        "unit": "caixinha"
+      },
+      {
+        "id": "uva",
+        "name": "Gelatina em pó sabor uva",
+        "quantity": 1,
+        "unit": "caixinha"
+      },
+      {
+        "id": "incolor",
+        "name": "Gelatina em pó sem sabor",
+        "quantity": 6,
+        "unit": "g"
+      },
+      {
+        "id": "condensado",
+        "name": "Leite condensado semidesnatado",
+        "quantity": 395,
+        "unit": "g"
+      },
+      {
+        "id": "leite",
+        "name": "Leite integral",
+        "quantity": 395,
+        "unit": "ml"
+      },
+      {
+        "id": "agua-quente",
+        "name": "Água fervente para os sabores",
+        "quantity": 2,
+        "unit": "xícaras (chá)",
+        "note": "Meia xícara para cada sabor.",
+        "shopping": false
+      },
+      {
+        "id": "agua-fria",
+        "name": "Água fria para os sabores",
+        "quantity": 2,
+        "unit": "xícaras (chá)",
+        "note": "Meia xícara para cada sabor.",
+        "shopping": false
+      },
+      {
+        "id": "agua-incolor",
+        "name": "Água fria para a gelatina sem sabor",
+        "quantity": 5,
+        "unit": "colheres (sopa)",
+        "shopping": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Prepare cada sabor separadamente, dissolvendo uma caixinha em meia xícara de água fervente e meia xícara de água fria. Use quatro recipientes rasos."
+      },
+      {
+        "id": "passo-2",
+        "text": "Refrigere até ficar bem firme. Corte em cubos e mantenha gelado."
+      },
+      {
+        "id": "passo-3",
+        "text": "Hidrate os 6 g de gelatina sem sabor nas 5 colheres de água fria. Aqueça em banho-maria para dissolver, sem deixar ferver."
+      },
+      {
+        "id": "passo-4",
+        "text": "Bata leite condensado, leite e gelatina dissolvida no liquidificador."
+      },
+      {
+        "id": "passo-5",
+        "text": "Divida os cubos entre taças e despeje o creme. Leve à geladeira por pelo menos 4 horas, até firmar. Sirva nas taças."
+      }
+    ],
+    "equipment": [
+      "Quatro recipientes rasos para os sabores",
+      "Liquidificador, tigela para banho-maria e panela",
+      "Taças, faca e medidores"
+    ],
+    "tips": [
+      {
+        "title": "Cubos firmes",
+        "text": "Não misture os sabores ainda líquidos ao creme."
+      },
+      {
+        "title": "Sirva nas taças",
+        "text": "Esta montagem dispensa desenformar."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Sempre gelada",
+        "text": "Guarde coberta a 4 °C ou menos e consuma em até 2 dias. Retire apenas ao servir."
+      },
+      {
+        "title": "Sem congelar",
+        "text": "Mantenha na geladeira; evite congelar para preservar a textura dos cubos."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T22:53:32Z"
+  },
+  "sources": [
+    {
+      "title": "Receitas Nestlé — gelatina mosaico",
+      "url": "https://www.receitasnestle.com.br/receitas/gelatina-mosaico",
+      "role": "Quatorze porções, quatro sabores,6 g sem sabor, creme com leite e montagem em taças."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Direto 403, conteúdo oficial via busca. Não adicionar creme de leite de outras versões nem prometer firmeza para desenformar. Peso das caixinhas de sabor não informado pela fonte; não inventado.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "id": "bolo-de-leite",
+  "slug": "bolo-de-leite",
+  "title": "Bolo de leite cremoso com leite de coco, sem fermento",
+  "description": "Bolo de leite cremoso de liquidificador com leite condensado e leite de coco. Use a caixinha vazia como medida e espere esfriar para desenformar.",
+  "intro": "Esta massa é mais líquida e não leva fermento. Use sempre a mesma caixinha vazia de leite condensado para medir os ingredientes indicados.",
+  "categoryIds": [
+    "doces",
+    "forno",
+    "lanches"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/bolo-leite.webp",
+    "alt": "Imagem ilustrativa: Bolo de leite dourado com fatia de miolo cremoso claro, sem cobertura"
+  },
+  "publishedAt": "2026-11-04T12:23:52Z",
+  "updatedAt": "2026-11-04T12:23:52Z",
+  "seo": {
+    "title": "Bolo de leite cremoso com leite de coco, sem fermento | Bebel",
+    "description": "Bolo de leite cremoso de liquidificador com leite condensado e leite de coco. Use a caixinha vazia como medida e espere esfriar para desenformar."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 8,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Forno preaquecido a 180 °C por cerca de 45 a 50 minutos, podendo precisar de mais tempo. Deixe esfriar completamente antes de cortar.",
+    "ingredients": [
+      {
+        "id": "condensado",
+        "name": "Leite condensado",
+        "quantity": 1,
+        "unit": "caixinha",
+        "note": "Reserve a embalagem vazia para medir os próximos quatro itens."
+      },
+      {
+        "id": "leite",
+        "name": "Leite",
+        "quantity": 1,
+        "unit": "caixinha-medida",
+        "note": "Use o volume da embalagem vazia de leite condensado."
+      },
+      {
+        "id": "coco",
+        "name": "Leite de coco",
+        "quantity": 1,
+        "unit": "caixinha-medida",
+        "note": "Use o mesmo medidor, não uma embalagem comercial de leite de coco."
+      },
+      {
+        "id": "farinha",
+        "name": "Farinha de trigo",
+        "quantity": 1,
+        "unit": "caixinha-medida",
+        "note": "Preencha sem compactar."
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar",
+        "quantity": 0.5,
+        "unit": "caixinha-medida"
+      },
+      {
+        "id": "ovo",
+        "name": "Ovo",
+        "quantity": 3,
+        "unit": "unidades"
+      },
+      {
+        "id": "manteiga",
+        "name": "Manteiga",
+        "quantity": 0.5,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "manteiga-untar",
+        "name": "Manteiga para untar",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "farinha-untar",
+        "name": "Farinha para a forma",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Preaqueça forno a 180 °C. Unte e enfarinhe a assadeira. Despeje leite condensado no liquidificador e guarde a caixinha vazia como medidor."
+      },
+      {
+        "id": "passo-2",
+        "text": "Meça leite, leite de coco, farinha e açúcar com essa embalagem, conforme a lista. Coloque no liquidificador com ovos e manteiga e bata até ficar uniforme."
+      },
+      {
+        "id": "passo-3",
+        "text": "Despeje na assadeira, mantendo espaço nas bordas. Asse por cerca de 45 a 50 minutos; prolongue se necessário até firmar, com palito levemente úmido, sem massa líquida."
+      },
+      {
+        "id": "passo-4",
+        "text": "Espere esfriar completamente para desenformar e cortar. O miolo firma durante esse descanso."
+      }
+    ],
+    "equipment": [
+      "Liquidificador",
+      "Caixinha vazia usada como medidor e xícara medidora",
+      "Assadeira própria para forno e palito"
+    ],
+    "tips": [
+      {
+        "title": "Uma medida para todos",
+        "text": "Caixinha-medida significa o volume da embalagem vazia do leite condensado; não troque por caixinhas de tamanhos diferentes."
+      },
+      {
+        "title": "Miolo cremoso",
+        "text": "Não espere a textura aerada de um bolo com fermento; corte somente depois de frio."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Guarde fechado a 4 °C ou menos e consuma em até 2 dias. Não deixe mais de 2 horas fora da refrigeração."
+      },
+      {
+        "title": "Para servir",
+        "text": "Retire apenas a quantidade que será consumida."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T12:23:52Z"
+  },
+  "sources": [
+    {
+      "title": "Receiteria — bolo de leite",
+      "url": "https://www.receiteria.com.br/receita/bolo-de-leite/",
+      "role": "Oito porções; embalagem vazia como medida, sem fermento e forno 180 °C 45–50 minutos."
+    },
+    {
+      "title": "Health Canada — conservação de sobras",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Refrigeração rápida, consumo de sobras e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Mantidas medidas volumétricas da fonte; sem inventar conversão de caixinha para gramas/ml. Não adotar temperatura branda não especificada da variante TG.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

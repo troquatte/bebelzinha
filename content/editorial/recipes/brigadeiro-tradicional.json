@@ -7,13 +7,13 @@
   "categoryIds": [
     "doces"
   ],
-  "videoId": null,
+  "videoId": "y-SHH_v24OM",
   "image": {
     "src": "images/recipes/brigadeiro-tradicional.webp",
     "alt": "Imagem ilustrativa: Brigadeiros redondos de chocolate cobertos com pedacinhos de nibs de cacau"
   },
   "publishedAt": "2026-11-03T21:09:40Z",
-  "updatedAt": "2026-11-03T21:09:40Z",
+  "updatedAt": "2026-11-04T14:15:12Z",
   "seo": {
     "title": "Brigadeiro tradicional de enrolar com nibs de cacau | Bebel",
     "description": "Brigadeiro tradicional de enrolar com leite condensado, leite e chocolate em pó. Veja o ponto da massa e a cobertura de nibs de cacau."
@@ -130,6 +130,6 @@
   ],
   "editorialNotes": [
     "Chocolate tradicional é intenção diferente das fichas de morango e limão. Não copiar avaliações ou alegações de melhor da internet da fonte.",
-    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; vídeo y-SHH_v24OM associado por solicitação explícita do usuário em 2026-11-04. Não expor notas de piloto ou não testada na página."
   ]
 }

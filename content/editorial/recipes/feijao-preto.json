@@ -1,0 +1,169 @@
+{
+  "id": "feijao-preto",
+  "slug": "feijao-preto",
+  "title": "Feijão-preto com bacon, louro e cominho",
+  "description": "Feijão-preto com bacon e cominho, cozido na pressão depois do remolho. Veja como temperar e amassar uma concha para engrossar o caldo.",
+  "intro": "O feijão cozinha com louro e recebe o refogado depois. Uma parte dos grãos amassada ajuda a dar corpo ao caldo.",
+  "categoryIds": [
+    "acompanhamentos"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/feijao-preto.webp",
+    "alt": "Imagem ilustrativa: Feijão-preto com caldo encorpado e pequenos cubos de bacon"
+  },
+  "publishedAt": "2026-11-04T02:32:27Z",
+  "updatedAt": "2026-11-04T02:32:27Z",
+  "seo": {
+    "title": "Feijão-preto com bacon, louro e cominho | Bebel",
+    "description": "Feijão-preto com bacon e cominho, cozido na pressão depois do remolho. Veja como temperar e amassar uma concha para engrossar o caldo."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 4,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "12 horas de remolho,15 minutos após pegar pressão e cerca de 10 para engrossar, além do refogado e da saída da pressão.",
+    "ingredients": [
+      {
+        "id": "feijao",
+        "name": "Feijão-preto cru",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "agua-molho",
+        "name": "Água para o remolho",
+        "quantity": 3,
+        "unit": "xícaras (chá)",
+        "note": "Será descartada.",
+        "shopping": false
+      },
+      {
+        "id": "agua",
+        "name": "Água para cozinhar",
+        "quantity": 3,
+        "unit": "xícaras (chá)",
+        "shopping": false
+      },
+      {
+        "id": "louro",
+        "name": "Louro",
+        "quantity": 1,
+        "unit": "folha"
+      },
+      {
+        "id": "bacon",
+        "name": "Bacon em cubos",
+        "quantity": 0.25,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "cebola",
+        "name": "Cebola picada",
+        "quantity": 0.5,
+        "unit": "unidade"
+      },
+      {
+        "id": "alho",
+        "name": "Alho picado",
+        "quantity": 4,
+        "unit": "dentes"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "cominho",
+        "name": "Cominho em pó",
+        "quantity": 0.25,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto",
+        "note": "Uma pitada no refogado e cerca de meia colher de chá ao finalizar."
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Escolha e lave os grãos. Cubra com a água do remolho e deixe 12 horas na geladeira, trocando a água uma vez. Escorra."
+      },
+      {
+        "id": "passo-2",
+        "text": "Coloque feijão, água de cozinhar e louro na pressão, respeitando o limite do manual para grãos. Cozinhe 15 minutos em fogo baixo após pegar pressão. Desligue e espere sair toda a pressão."
+      },
+      {
+        "id": "passo-3",
+        "text": "Aqueça azeite e doure o bacon por 2 minutos. Junte cebola e uma pitada de sal por 3 minutos; acrescente alho e cominho e mexa 1 minuto."
+      },
+      {
+        "id": "passo-4",
+        "text": "Adicione uma concha de feijão com caldo e amasse. Junte o restante, tempere com sal e pimenta e ferva sem tampa por cerca de 10 minutos, até engrossar."
+      }
+    ],
+    "equipment": [
+      "Panela de pressão e panela média",
+      "Tigela, peneira, concha e espátula",
+      "Tábua, faca e medidores"
+    ],
+    "tips": [
+      {
+        "title": "Molho descartado",
+        "text": "Use água nova para cozinhar."
+      },
+      {
+        "title": "Caldo encorpado",
+        "text": "Amasse uma concha no refogado, mantendo os demais grãos inteiros."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Guarde em recipiente fechado, a 4 °C ou menos, por até 2 dias. Refrigere em até 2 horas após preparar."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça somente a quantidade que vai consumir até 74 °C no centro."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T02:32:27Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — feijão-preto com bacon e cominho",
+      "url": "https://panelinha.com.br/receita/feijao-preto-com-bacon-e-cominho",
+      "role": "Quatro porções, remolho 12 h, pressão 15 min e refogado."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Remolho refrigerado e limite do manual explicitados. Não usar passo contraditório Receiteria sobre adicionar água para engrossar. Não é feijoada com várias carnes.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "id": "sufle-de-chuchu",
+  "slug": "sufle-de-chuchu",
+  "title": "Suflê de chuchu com claras em neve e parmesão",
+  "description": "Suflê de chuchu com parmesão e claras em neve. Escorra bem o chuchu, incorpore as claras delicadamente e leve ao forno para dourar.",
+  "intro": "Retirar o excesso de água do chuchu é a etapa principal antes de misturar o creme. Sirva assim que sair do forno.",
+  "categoryIds": [
+    "acompanhamentos",
+    "forno"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/sufle-chuchu.webp",
+    "alt": "Imagem ilustrativa: Suflê de chuchu dourado com interior leve em refratário claro"
+  },
+  "publishedAt": "2026-11-04T12:23:52Z",
+  "updatedAt": "2026-11-04T12:23:52Z",
+  "seo": {
+    "title": "Suflê de chuchu com claras em neve e parmesão | Bebel",
+    "description": "Suflê de chuchu com parmesão e claras em neve. Escorra bem o chuchu, incorpore as claras delicadamente e leve ao forno para dourar."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 3,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 35,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 10 minutos para cozinhar o chuchu e 25 de forno, além de escorrer, bater e preparar a forma.",
+    "ingredients": [
+      {
+        "id": "chuchu",
+        "name": "Chuchu",
+        "quantity": 2,
+        "unit": "unidades",
+        "note": "Cerca de 300 g cada."
+      },
+      {
+        "id": "leite",
+        "name": "Leite",
+        "quantity": 120,
+        "unit": "ml"
+      },
+      {
+        "id": "manteiga",
+        "name": "Manteiga",
+        "quantity": 0.5,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "farinha",
+        "name": "Farinha de trigo",
+        "quantity": 0.5,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "ovo",
+        "name": "Ovo médio",
+        "quantity": 2,
+        "unit": "unidades",
+        "note": "Separe gemas e claras."
+      },
+      {
+        "id": "queijo",
+        "name": "Parmesão para a massa",
+        "quantity": 30,
+        "unit": "g"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 0.5,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": 0.125,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "agua",
+        "name": "Água para cozinhar",
+        "quantity": 1,
+        "unit": "litro",
+        "shopping": false
+      },
+      {
+        "id": "queijo-topo",
+        "name": "Parmesão para gratinar",
+        "quantity": 25,
+        "unit": "g"
+      },
+      {
+        "id": "manteiga-untar",
+        "name": "Manteiga para untar",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "farinha-untar",
+        "name": "Farinha para a forma",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Preaqueça forno a 180 °C. Descasque chuchus, retire o miolo e corte em cubos. Cozinhe na água fervente por cerca de 10 minutos, até ficarem firmes, mas cozidos."
+      },
+      {
+        "id": "passo-2",
+        "text": "Escorra e pressione os pedaços na peneira com colher para retirar água e formar um purê."
+      },
+      {
+        "id": "passo-3",
+        "text": "Bata leite, manteiga e farinha por 30 segundos. Junte chuchu, gemas, parmesão da massa, sal e pimenta e bata por mais 1 minuto. Transfira para tigela."
+      },
+      {
+        "id": "passo-4",
+        "text": "Bata claras em neve firme e incorpore ao creme delicadamente com espátula."
+      },
+      {
+        "id": "passo-5",
+        "text": "Despeje em refratário untado e enfarinhado, polvilhe o parmesão final e asse por cerca de 25 minutos, até dourar e firmar. Sirva em seguida."
+      }
+    ],
+    "equipment": [
+      "Panela, peneira e colher",
+      "Liquidificador, tigela e batedeira ou batedor",
+      "Refratário próprio para forno"
+    ],
+    "tips": [
+      {
+        "title": "Chuchu bem escorrido",
+        "text": "Água em excesso deixa a mistura pesada e pode prejudicar o crescimento."
+      },
+      {
+        "title": "Claras com delicadeza",
+        "text": "Misture sem bater para conservar o ar incorporado."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Divida em recipientes rasos e refrigere em até 2 horas. Guarde a 4 °C ou menos por até 2 dias."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça só o que vai consumir até atingir 74 °C no centro."
+      },
+      {
+        "title": "Depois de guardar",
+        "text": "O suflê perde volume ao esfriar; reaqueça em porções pequenas."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T12:23:52Z"
+  },
+  "sources": [
+    {
+      "title": "Receiteria — suflê de chuchu",
+      "url": "https://www.receiteria.com.br/receita/sufle-de-chuchu/",
+      "role": "Três porções; dois chuchus, dois ovos, claras em neve e forno 180 °C cerca de 25 minutos."
+    },
+    {
+      "title": "Health Canada — conservação de sobras",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Refrigeração rápida, consumo de sobras e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Tempo cook inclui chuchu10+forno25; não copiar 30min de fogo/forno inconsistente do resumo. Queijo massa e cobertura separados.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

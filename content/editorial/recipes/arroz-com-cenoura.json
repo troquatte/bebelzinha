@@ -1,0 +1,146 @@
+{
+  "id": "arroz-com-cenoura",
+  "slug": "arroz-com-cenoura",
+  "title": "Arroz com cenoura ralada, soltinho e sem complicação",
+  "description": "Arroz com cenoura ralada fininha, cebola e louro. Veja a proporção de água, quando tampar a panela e o descanso para soltar os grãos.",
+  "intro": "Um acompanhamento para variar o arroz do almoço com poucos ingredientes. A cenoura entra no refogado, antes da água.",
+  "categoryIds": [
+    "acompanhamentos"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/arroz-cenoura.webp",
+    "alt": "Imagem ilustrativa: Arroz soltinho com cenoura ralada fina em tigela clara"
+  },
+  "publishedAt": "2026-11-04T02:50:52Z",
+  "updatedAt": "2026-11-04T02:50:52Z",
+  "seo": {
+    "title": "Arroz com cenoura ralada, soltinho e sem complicação | Bebel",
+    "description": "Arroz com cenoura ralada fininha, cebola e louro. Veja a proporção de água, quando tampar a panela e o descanso para soltar os grãos."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 6,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "O arroz cozinha até absorver a água; reserve mais 5 minutos de descanso com a panela tampada.",
+    "ingredients": [
+      {
+        "id": "arroz",
+        "name": "Arroz branco cru",
+        "quantity": 1.5,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "cenoura",
+        "name": "Cenoura",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "cebola",
+        "name": "Cebola",
+        "quantity": 0.5,
+        "unit": "unidade"
+      },
+      {
+        "id": "agua",
+        "name": "Água fervente",
+        "quantity": 3,
+        "unit": "xícaras (chá)",
+        "shopping": false
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": 1.5,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "louro",
+        "name": "Louro",
+        "quantity": 1,
+        "unit": "folha"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 1,
+        "unit": "colher (chá)"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Descasque e rale a cenoura bem fino. Pique a cebola e ferva a água."
+      },
+      {
+        "id": "passo-2",
+        "text": "Aqueça o azeite em fogo baixo. Refogue cebola, cenoura e sal por cerca de 2 minutos. Junte arroz e louro e misture."
+      },
+      {
+        "id": "passo-3",
+        "text": "Adicione as 3 xícaras de água fervente e aumente para fogo médio. Depois de misturar, deixe cozinhar sem mexer."
+      },
+      {
+        "id": "passo-4",
+        "text": "Quando a água alcançar o nível dos grãos, abaixe o fogo e tampe parcialmente. Cozinhe até não haver água no fundo."
+      },
+      {
+        "id": "passo-5",
+        "text": "Desligue, tampe completamente e espere 5 minutos. Retire o louro e solte o arroz com garfo."
+      }
+    ],
+    "equipment": [
+      "Panela média com tampa e chaleira",
+      "Ralador fino, faca, tábua e medidores",
+      "Espátula e garfo"
+    ],
+    "tips": [
+      {
+        "title": "Rale fino",
+        "text": "Assim a cenoura se distribui entre os grãos."
+      },
+      {
+        "title": "Confira o fundo",
+        "text": "Afaste alguns grãos com garfo para verificar se a água terminou."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Resfrie logo",
+        "text": "Leve as sobras à geladeira em recipientes rasos, preferencialmente em até 1 hora. Consuma em até 24 horas."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Reaqueça uma única vez, até ficar bem quente por inteiro."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T02:50:52Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — arroz com cenoura",
+      "url": "https://panelinha.com.br/receita/arroz-cenoura",
+      "role": "1,5 xícara de arroz, 3 de água, cenoura fina, seis porções e descanso."
+    },
+    {
+      "title": "Food Standards Agency — arroz e sobras",
+      "url": "https://www.gov.uk/government/publications/home-food-fact-checker/home-food-fact-checker",
+      "role": "Resfriar arroz preferencialmente em 1 hora, consumir em 24 horas e reaquecer uma vez."
+    }
+  ],
+  "editorialNotes": [
+    "Formulação de cenoura sem milho, ervilha ou passas; distinta de arroz à grega. Fonte indica até seis porções; não inventar tempo total.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

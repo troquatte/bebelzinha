@@ -1,0 +1,149 @@
+{
+  "id": "berinjela-refogada",
+  "slug": "berinjela-refogada",
+  "title": "Berinjela refogada com cebola, pimenta-síria e nozes",
+  "description": "Berinjela refogada com cebola, pimenta-síria e nozes. Confira o descanso em água salgada, a drenagem e a ordem do refogado.",
+  "intro": "As nozes entram no prato ao final. Esta versão não leva tomate, pimentão ou passas.",
+  "categoryIds": [
+    "acompanhamentos"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/berinjela-refogada.webp",
+    "alt": "Imagem ilustrativa: Pedaços de berinjela com cebola e nozes picadas, sem tomate"
+  },
+  "publishedAt": "2026-11-04T01:25:08Z",
+  "updatedAt": "2026-11-04T01:25:08Z",
+  "seo": {
+    "title": "Berinjela refogada com cebola, pimenta-síria e nozes | Bebel",
+    "description": "Berinjela refogada com cebola, pimenta-síria e nozes. Confira o descanso em água salgada, a drenagem e a ordem do refogado."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 2,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "10 minutos de molho e cerca de 10 de refogado, além do corte e da drenagem.",
+    "ingredients": [
+      {
+        "id": "berinjela",
+        "name": "Berinjela",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "cebola",
+        "name": "Cebola",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": 1.5,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-síria",
+        "quantity": 0.5,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "nozes",
+        "name": "Nozes",
+        "quantity": 0.25,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "sal-molho",
+        "name": "Sal para a água do molho",
+        "quantity": 1,
+        "unit": "colher (sopa)",
+        "note": "A água será descartada."
+      },
+      {
+        "id": "sal",
+        "name": "Sal para o refogado",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "agua",
+        "name": "Água para cobrir a berinjela",
+        "quantity": null,
+        "unit": "a gosto",
+        "shopping": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Lave a berinjela, retire o cabo e corte em tiras e depois pedaços de cerca de 2 cm. Misture com o sal do molho, cubra com água e espere 10 minutos. Escorra muito bem."
+      },
+      {
+        "id": "passo-2",
+        "text": "Corte a cebola em cubos e pique as nozes grosseiramente."
+      },
+      {
+        "id": "passo-3",
+        "text": "Aqueça a frigideira em fogo baixo com meia colher de azeite. Refogue a cebola e uma pitada de sal por cerca de 5 minutos. Junte a pimenta-síria."
+      },
+      {
+        "id": "passo-4",
+        "text": "Acrescente o azeite restante e a berinjela. Refogue cerca de 5 minutos, até amaciar. Sirva com as nozes por cima."
+      }
+    ],
+    "equipment": [
+      "Frigideira média antiaderente e espátula",
+      "Tigela e peneira",
+      "Tábua, faca e medidores"
+    ],
+    "tips": [
+      {
+        "title": "Escorra bem",
+        "text": "Evite colocar a água do molho junto ao refogado."
+      },
+      {
+        "title": "Nozes no final",
+        "text": "Finalize depois de transferir para o prato."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Guarde em recipiente fechado, a 4 °C ou menos, por até 2 dias. Refrigere em até 2 horas após preparar."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça somente a porção que vai consumir até 74 °C no centro."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T01:25:08Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — berinjela refogada com pimenta síria",
+      "url": "https://panelinha.com.br/receita/berinjela-refogada-pimenta-siria",
+      "role": "Duas porções, molho de 10 min, refogado e nozes."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Sal do molho explicitado na lista, pois aparece no método. Diferente de caponata assada e berinjela airfryer existentes.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

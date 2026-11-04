@@ -1,0 +1,135 @@
+{
+  "id": "polenta-cremosa",
+  "slug": "polenta-cremosa",
+  "title": "Polenta cremosa de sêmola com manteiga e parmesão",
+  "description": "Polenta cremosa de sêmola de milho com manteiga e parmesão. Veja como adicionar em fio e mexer na panela aberta para evitar grumos.",
+  "intro": "Uma travessa para compartilhar. A fonte indica mais de seis porções; o tamanho depende do acompanhamento.",
+  "categoryIds": [
+    "acompanhamentos"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/polenta-cremosa.webp",
+    "alt": "Imagem ilustrativa: Polenta amarela cremosa e lisa, sem molho ou carne"
+  },
+  "publishedAt": "2026-11-04T02:32:27Z",
+  "updatedAt": "2026-11-04T02:32:27Z",
+  "seo": {
+    "title": "Polenta cremosa de sêmola com manteiga e parmesão | Bebel",
+    "description": "Polenta cremosa de sêmola de milho com manteiga e parmesão. Veja como adicionar em fio e mexer na panela aberta para evitar grumos."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 1,
+      "unit": "receita"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 20,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 20 minutos mexendo após adicionar a sêmola, além de ferver a água.",
+    "ingredients": [
+      {
+        "id": "semola",
+        "name": "Sêmola de milho",
+        "quantity": 500,
+        "unit": "g",
+        "note": "Cerca de 3 xícaras de chá."
+      },
+      {
+        "id": "agua",
+        "name": "Água",
+        "quantity": 2.5,
+        "unit": "litros",
+        "shopping": false
+      },
+      {
+        "id": "manteiga",
+        "name": "Manteiga",
+        "quantity": 3,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "queijo",
+        "name": "Parmesão ralado fino",
+        "quantity": 0.5,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 1,
+        "unit": "colher (chá)"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Ferva a água em uma panela grande. Coloque o sal e reduza para fogo médio."
+      },
+      {
+        "id": "passo-2",
+        "text": "Acrescente a sêmola num fio contínuo, mexendo com batedor para desfazer os grumos."
+      },
+      {
+        "id": "passo-3",
+        "text": "Cozinhe mexendo por cerca de 20 minutos, até engrossar e soltar do fundo."
+      },
+      {
+        "id": "passo-4",
+        "text": "Desligue, incorpore manteiga e parmesão e sirva imediatamente."
+      }
+    ],
+    "equipment": [
+      "Panela grande de fundo espesso",
+      "Batedor de arame e espátula",
+      "Balança e medidores"
+    ],
+    "tips": [
+      {
+        "title": "Sêmola, não flocão",
+        "text": "O ingrediente desta fórmula é sêmola de milho; não troque automaticamente por flocos de cuscuz."
+      },
+      {
+        "title": "Sirva quente",
+        "text": "A polenta firma ao esfriar e deixa de ter a mesma textura."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Guarde em recipiente fechado, a 4 °C ou menos, por até 2 dias. Refrigere em até 2 horas após preparar."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça somente a quantidade que vai consumir até 74 °C no centro."
+      },
+      {
+        "title": "Recupere a textura",
+        "text": "Ao reaquecer, mexa e acrescente um pouco de água quente se necessário."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T02:32:27Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — polenta clássica",
+      "url": "https://panelinha.com.br/receita/polenta-classica",
+      "role": "Sêmola 500 g/2,5 Lágua, manteiga, parmesão e 20 min na panela aberta."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Fonte diz mais de 6 porções: unidade 1 receita, sem inventar porçãoindividual. Não usar versão de pressão com fubá mimoso. Shorts de polenta no acervo semID não incorporados.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

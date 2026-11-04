@@ -1,0 +1,197 @@
+{
+  "id": "torta-de-banana",
+  "slug": "torta-de-banana",
+  "title": "Torta de banana com massa amanteigada e açúcar mascavo",
+  "description": "Torta de banana com massa amanteigada, recheio de açúcar mascavo e canela. Veja o descanso da massa, a montagem fechada e o forno a 200 °C.",
+  "intro": "O recheio cozido precisa amornar antes de entrar na massa gelada. A tampa recebe cortes para o vapor sair.",
+  "categoryIds": [
+    "doces",
+    "forno",
+    "lanches"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/torta-banana.webp",
+    "alt": "Imagem ilustrativa: Torta fechada dourada com borda trançada e recheio de banana em pedaços"
+  },
+  "publishedAt": "2026-11-04T00:51:32Z",
+  "updatedAt": "2026-11-04T00:51:32Z",
+  "seo": {
+    "title": "Torta de banana com massa amanteigada e açúcar mascavo | Bebel",
+    "description": "Torta de banana com massa amanteigada, recheio de açúcar mascavo e canela. Veja o descanso da massa, a montagem fechada e o forno a 200 °C."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 8,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Pelo menos 30 minutos de geladeira para a massa, cerca de 12 minutos para o recheio e 45 de forno a 200 °C.",
+    "ingredients": [
+      {
+        "id": "farinha",
+        "name": "Farinha de trigo para a massa",
+        "quantity": 1.5,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "manteiga",
+        "name": "Manteiga gelada em cubos",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar para a massa",
+        "quantity": 0.3333333333333333,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "ovo",
+        "name": "Ovo para a massa",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "gema",
+        "name": "Gema para a massa",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "fermento",
+        "name": "Fermento químico em pó",
+        "quantity": 0.5,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "banana",
+        "name": "Banana-nanica madura",
+        "quantity": 6,
+        "unit": "unidades"
+      },
+      {
+        "id": "mascavo",
+        "name": "Açúcar mascavo para o recheio",
+        "quantity": 0.5,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "amido",
+        "name": "Amido de milho",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "manteiga-recheio",
+        "name": "Manteiga para o recheio",
+        "quantity": 0.5,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "agua-recheio",
+        "name": "Água para dissolver o amido",
+        "quantity": 2,
+        "unit": "colheres (sopa)",
+        "shopping": false
+      },
+      {
+        "id": "canela",
+        "name": "Canela em pó",
+        "quantity": 1,
+        "unit": "pitada"
+      },
+      {
+        "id": "ovo-pincelar",
+        "name": "Ovo para pincelar",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "agua-pincelar",
+        "name": "Água para pincelar",
+        "quantity": 1,
+        "unit": "colher (chá)",
+        "shopping": false
+      },
+      {
+        "id": "farinha-bancada",
+        "name": "Farinha para a bancada",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Misture farinha, açúcar e fermento; esfarele a manteiga gelada. Junte ovo e gema e una a massa. Achate, embale e refrigere por pelo menos 30 minutos."
+      },
+      {
+        "id": "passo-2",
+        "text": "Dissolva o amido na água. Derreta o mascavo na panela por cerca de 5 minutos; junte manteiga, bananas em rodelas e canela. Cozinhe 2 minutos. Acrescente o amido dissolvido e mexa cerca de 5 minutos, até engrossar. Deixe amornar."
+      },
+      {
+        "id": "passo-3",
+        "text": "Preaqueça a 200 °C. Separe forma removível com base de 22 cm e abertura de 24 cm. Abra metade da massa em bancada enfarinhada e forre fundo e laterais. Recheie."
+      },
+      {
+        "id": "passo-4",
+        "text": "Abra a outra metade, cubra e sele as bordas. Reúna aparas, abra e corte nove tiras; faça três tranças e acomode junto à borda."
+      },
+      {
+        "id": "passo-5",
+        "text": "Bata o ovo com a água e pincele tampa e tranças. Faça quatro cortes no centro. Asse cerca de 45 minutos, até dourar. Espere esfriar para desenformar."
+      }
+    ],
+    "equipment": [
+      "Forma removível: base 22 cm e abertura 24 cm",
+      "Tigela, panela, espátula e filme para alimentos",
+      "Rolo, faca, pincel e medidores"
+    ],
+    "tips": [
+      {
+        "title": "Recheio morno",
+        "text": "O recheio quente amolece a massa."
+      },
+      {
+        "title": "Saída de vapor",
+        "text": "Mantenha os cortes da tampa abertos."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Guarde em recipiente fechado, a 4 °C ou menos, por até 2 dias. Refrigere em até 2 horas após o preparo."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça somente a porção que vai consumir até 74 °C no centro."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T00:51:32Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — torta de banana",
+      "url": "https://panelinha.com.br/receita/torta-de-banana",
+      "role": "Oito porções, massa fechada, banana com mascavo e 200 °C por 45 minutos."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Refrigeração, resfriamento e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Distinta de banoffee e dos bolos de banana publicados. Mantidos ovo+gema na massa e ovo adicional para pincelar. Sem chantilly, creme ou chocolate. Congelamento opcional da fonte omitido.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

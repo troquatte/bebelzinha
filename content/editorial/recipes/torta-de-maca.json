@@ -1,0 +1,197 @@
+{
+  "id": "torta-de-maca",
+  "slug": "torta-de-maca",
+  "title": "Torta de maçã com canela e grade de massa amanteigada",
+  "description": "Torta de maçã com canela, massa de manteiga e creme de leite e cobertura em tiras. Confira o descanso gelado e a montagem do recheio.",
+  "intro": "A fruta entra crua e fatiada, com farinha no recheio para engrossar o líquido durante o forno.",
+  "categoryIds": [
+    "doces",
+    "forno",
+    "lanches"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/torta-maca.webp",
+    "alt": "Imagem ilustrativa: Torta de maçã fatiada com grade dourada de massa e recheio de fruta"
+  },
+  "publishedAt": "2026-11-04T01:25:08Z",
+  "updatedAt": "2026-11-04T01:25:08Z",
+  "seo": {
+    "title": "Torta de maçã com canela e grade de massa amanteigada | Bebel",
+    "description": "Torta de maçã com canela, massa de manteiga e creme de leite e cobertura em tiras. Confira o descanso gelado e a montagem do recheio."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 7,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 60,
+      "totalMinutes": null
+    },
+    "timeNote": "30 minutos de geladeira e cerca de 1 hora a 200 °C, além da massa e da montagem.",
+    "ingredients": [
+      {
+        "id": "farinha",
+        "name": "Farinha de trigo para a massa",
+        "quantity": 300,
+        "unit": "g"
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar para a massa",
+        "quantity": 30,
+        "unit": "g"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 0.25,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "manteiga",
+        "name": "Manteiga gelada",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "id": "creme",
+        "name": "Creme de leite",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "id": "maca",
+        "name": "Maçã Fuji ou Gala",
+        "quantity": 5,
+        "unit": "unidades",
+        "note": "Cerca de 750 g no total."
+      },
+      {
+        "id": "limao",
+        "name": "Limão",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "acucar-recheio",
+        "name": "Açúcar para o recheio",
+        "quantity": 160,
+        "unit": "g"
+      },
+      {
+        "id": "canela",
+        "name": "Canela em pó",
+        "quantity": 2,
+        "unit": "colheres (chá)"
+      },
+      {
+        "id": "noz",
+        "name": "Noz-moscada",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "farinha-recheio",
+        "name": "Farinha de trigo para o recheio",
+        "quantity": 60,
+        "unit": "g"
+      },
+      {
+        "id": "gema",
+        "name": "Gema para pincelar",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "agua",
+        "name": "Água para pincelar",
+        "quantity": 1,
+        "unit": "colher (chá)",
+        "shopping": false
+      },
+      {
+        "id": "cristal",
+        "name": "Açúcar cristal para finalizar",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "farinha-bancada",
+        "name": "Farinha para abrir a massa",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Misture farinha da massa, açúcar e sal. Esfarele a manteiga gelada e una com creme de leite, sem trabalhar demais."
+      },
+      {
+        "id": "passo-2",
+        "text": "Reserve um terço. Abra o restante entre papel-manteiga e farinha e forre uma forma redonda de cerca de 22 cm. Refrigere a base e a massa reservada por 30 minutos."
+      },
+      {
+        "id": "passo-3",
+        "text": "Fatie as maçãs sem sementes. Misture com suco do limão, açúcar do recheio, canela e noz-moscada por cerca de 5 minutos. Incorpore os 60 g de farinha."
+      },
+      {
+        "id": "passo-4",
+        "text": "Preaqueça a 200 °C. Acomode as fatias na base, preenchendo os espaços. Abra a massa reservada, corte tiras e entrelace sobre o recheio."
+      },
+      {
+        "id": "passo-5",
+        "text": "Pincele gema misturada com água e polvilhe açúcar cristal. Asse cerca de 1 hora, até dourar. Aguarde amornar antes de cortar."
+      }
+    ],
+    "equipment": [
+      "Forma redonda para torta de cerca de 22 cm",
+      "Tigelas, papel-manteiga e filme para alimentos",
+      "Rolo, faca, pincel, balança e medidores"
+    ],
+    "tips": [
+      {
+        "title": "Manteiga fria",
+        "text": "Pequenos pedaços na massa ajudam a manter a textura."
+      },
+      {
+        "title": "Acomode a fruta",
+        "text": "Posicione as fatias para reduzir espaços no recheio."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Guarde em recipiente fechado, a 4 °C ou menos, por até 2 dias. Refrigere em até 2 horas após preparar."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça somente a porção que vai consumir até 74 °C no centro."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T01:25:08Z"
+  },
+  "sources": [
+    {
+      "title": "Receiteria — torta de maçã",
+      "url": "https://www.receiteria.com.br/receita/torta-de-maca/",
+      "role": "Seis a oito porções, grade de massa e maçãs cruas com farinha."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Rendimento central7. Fonte informa forma redonda22×18×4,5cm; mantida referência aproximada22cm sem inferir o significado de cada medida. Pesos explícitos prevalecem sobre colheres inconsistentes de manteiga. Não usar doce de leite/creme de outras versões.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

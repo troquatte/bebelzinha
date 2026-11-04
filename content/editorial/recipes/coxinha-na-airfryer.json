@@ -1,0 +1,189 @@
+{
+  "id": "coxinha-na-airfryer",
+  "slug": "coxinha-na-airfryer",
+  "title": "Coxinha caseira na airfryer com massa de batata",
+  "description": "Coxinha na airfryer com massa de batata, recheio de frango e farinha de rosca torrada. Modele, empane e congele antes de assar em levas.",
+  "intro": "Planeje com antecedência: a massa e o recheio precisam esfriar, e as coxinhas são congeladas antes de ir à airfryer.",
+  "categoryIds": [
+    "airfryer",
+    "lanches"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/coxinha-airfryer.webp",
+    "alt": "Imagem ilustrativa: Coxinhas pequenas empanadas e douradas, uma aberta com massa de batata e frango"
+  },
+  "publishedAt": "2026-11-04T11:45:42Z",
+  "updatedAt": "2026-11-04T11:45:42Z",
+  "seo": {
+    "title": "Coxinha caseira na airfryer com massa de batata | Bebel",
+    "description": "Coxinha na airfryer com massa de batata, recheio de frango e farinha de rosca torrada. Modele, empane e congele antes de assar em levas."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 40,
+      "unit": "unidade"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Frango: cerca de 20 minutos a 200 °C. Depois há cozimento e resfriamento da massa, congelamento por algumas horas e cerca de 13 minutos por leva.",
+    "ingredients": [
+      {
+        "id": "ovo",
+        "name": "Ovo separado em gemas e claras",
+        "quantity": 2,
+        "unit": "unidades",
+        "note": "Gemas na massa; claras para empanar."
+      },
+      {
+        "id": "agua",
+        "name": "Água",
+        "quantity": 2,
+        "unit": "xícaras (chá)",
+        "shopping": false
+      },
+      {
+        "id": "margarina",
+        "name": "Margarina",
+        "quantity": 0.25,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "caldo",
+        "name": "Caldo de frango",
+        "quantity": 2,
+        "unit": "tabletes",
+        "note": "Ou dois sachês equivalentes conforme embalagem."
+      },
+      {
+        "id": "batata",
+        "name": "Batata cozida e amassada",
+        "quantity": 1.5,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "farinha",
+        "name": "Farinha de trigo",
+        "quantity": 2,
+        "unit": "xícaras (chá)"
+      },
+      {
+        "id": "frango",
+        "name": "Filé de frango cru",
+        "quantity": 300,
+        "unit": "g"
+      },
+      {
+        "id": "sal",
+        "name": "Sal para o frango",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "alho",
+        "name": "Alho para o frango",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "paprica",
+        "name": "Páprica",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "rosca",
+        "name": "Farinha de rosca torrada",
+        "quantity": 2,
+        "unit": "xícaras (chá)"
+      },
+      {
+        "id": "oleo",
+        "name": "Óleo para untar as mãos",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Corte o frango em cubinhos e tempere com sal, alho, pimenta e páprica. Asse na airfryer a 200 °C por cerca de 20 minutos, virando na metade, até cozinhar completamente. Deixe esfriar; pode desfiar se preferir."
+      },
+      {
+        "id": "passo-2",
+        "text": "Bata gemas, água, margarina, caldo, batata pronta e farinha no liquidificador. Cozinhe em panela antiaderente, mexendo até começar a soltar, e continue por mais 5 minutos. A massa fica cremosa."
+      },
+      {
+        "id": "passo-3",
+        "text": "Resfrie rapidamente em recipiente raso e leve à geladeira. Com massa e recheio frios, unte as mãos e modele cerca de 40 coxinhas pequenas, fechando bem ao redor do frango."
+      },
+      {
+        "id": "passo-4",
+        "text": "Passe uma camada fina das claras e empane na farinha de rosca torrada. Congele em camada única por algumas horas ou de um dia para o outro, até firmar por completo."
+      },
+      {
+        "id": "passo-5",
+        "text": "Preaqueça a airfryer por 5 minutos a 200 °C. Asse as coxinhas ainda congeladas por cerca de 13 minutos por leva, sem sobrepor; confira se estão douradas e bem quentes no centro."
+      }
+    ],
+    "equipment": [
+      "Airfryer, liquidificador e panela antiaderente",
+      "Travessa rasa, assadeira e espaço no congelador",
+      "Tigelas para empanar, espátula e medidores de 240 ml"
+    ],
+    "tips": [
+      {
+        "title": "Congelar faz parte",
+        "text": "Esta massa cremosa vai ao cesto congelada; não pule a etapa."
+      },
+      {
+        "title": "Tamanho e espaço",
+        "text": "O rendimento é de coxinhas pequenas. Reduza a quantidade por leva para caber em uma camada no seu cesto."
+      }
+    ],
+    "storage": [
+      {
+        "title": "No congelador",
+        "text": "Depois de firmar, embale bem, identifique a data e mantenha congeladas por até 3 meses. Asse diretamente do congelador."
+      },
+      {
+        "title": "Na geladeira",
+        "text": "Distribua em recipientes rasos e refrigere em até 2 horas. Guarde a 4 °C ou menos e consuma em até 2 dias."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça somente a porção que vai consumir até atingir 74 °C no centro."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T11:45:42Z"
+  },
+  "sources": [
+    {
+      "title": "Maurício Rodrigues — coxinha caseira fácil na airfryer",
+      "url": "https://www.fritadeirasemoleo.com.br/2013/11/coxinha-caseira-facil-na-airfryer.html",
+      "role": "Massa com batata, gemas e caldo; empanar com claras; congelar antes; 40 unidades, cerca de 13 minutos a 200 °C."
+    },
+    {
+      "title": "Health Canada — conservação de sobras",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento rápido, refrigeração e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "SERP mistura coxinha salgadinho e coxinha da asa: título delimita. Frango em cubos da fonte, não recheio cru; farinha de rosca já torrada. Sem copiar texto/fotos nem reproduzir alternativas.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

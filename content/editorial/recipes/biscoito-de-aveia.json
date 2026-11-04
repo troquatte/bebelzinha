@@ -1,0 +1,165 @@
+{
+  "id": "biscoito-de-aveia",
+  "slug": "biscoito-de-aveia",
+  "title": "Biscoito de aveia com açúcar mascavo e mel",
+  "description": "Biscoito de aveia com farinha, flocos, açúcar mascavo e mel, sem ovo na massa. Confira como modelar e assar os biscoitinhos a 200 °C.",
+  "intro": "Uma receita para dividir em biscoitinhos pequenos, com farinha e flocos de aveia na mesma massa.",
+  "categoryIds": [
+    "doces",
+    "forno",
+    "lanches"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/biscoito-aveia.webp",
+    "alt": "Imagem ilustrativa: Biscoitinhos dourados de aveia achatados com garfo, sem chocolate"
+  },
+  "publishedAt": "2026-11-04T00:51:32Z",
+  "updatedAt": "2026-11-04T00:51:32Z",
+  "seo": {
+    "title": "Biscoito de aveia com açúcar mascavo e mel | Bebel",
+    "description": "Biscoito de aveia com farinha, flocos, açúcar mascavo e mel, sem ovo na massa. Confira como modelar e assar os biscoitinhos a 200 °C."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 65,
+      "unit": "biscoito"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 10 a 15 minutos a 200 °C por assadeira, além da modelagem e do resfriamento.",
+    "ingredients": [
+      {
+        "id": "farinha",
+        "name": "Farinha de aveia",
+        "quantity": 2,
+        "unit": "xícaras (chá)"
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar mascavo",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "aveia",
+        "name": "Aveia em flocos",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "fecula",
+        "name": "Fécula de batata",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "fermento",
+        "name": "Fermento químico em pó",
+        "quantity": 1,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 0.5,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "oleo",
+        "name": "Óleo",
+        "quantity": 0.5,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "agua",
+        "name": "Água",
+        "quantity": 5,
+        "unit": "colheres (sopa)",
+        "shopping": false
+      },
+      {
+        "id": "mel",
+        "name": "Mel",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "creme-untar",
+        "name": "Creme vegetal para untar",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Preaqueça o forno a 200 °C e unte as assadeiras com creme vegetal."
+      },
+      {
+        "id": "passo-2",
+        "text": "Peneire farinha de aveia e açúcar mascavo. Misture flocos, fécula, fermento e sal."
+      },
+      {
+        "id": "passo-3",
+        "text": "Junte o óleo. Misture a água com o mel e acrescente aos poucos, até a massa se soltar da tigela."
+      },
+      {
+        "id": "passo-4",
+        "text": "Modele pequenos biscoitos com duas colheres, distribua nas assadeiras e achate levemente com um garfo."
+      },
+      {
+        "id": "passo-5",
+        "text": "Asse por cerca de 10 a 15 minutos por assadeira, até assar e dourar. Deixe esfriar antes de guardar."
+      }
+    ],
+    "equipment": [
+      "Tigela, peneira, duas colheres e garfo",
+      "Assadeiras e medidores"
+    ],
+    "tips": [
+      {
+        "title": "Duas formas de aveia",
+        "text": "Farinha e flocos são ingredientes diferentes e entram juntos."
+      },
+      {
+        "title": "Rendimento",
+        "text": "O total aproximado depende de modelar biscoitinhos pequenos e semelhantes."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Espere esfriar",
+        "text": "Deixe esfriar completamente antes de fechar o recipiente para evitar condensação."
+      },
+      {
+        "title": "Conservação",
+        "text": "Guarde bem fechado na geladeira, a 4 °C ou menos, por até 2 dias. Retire apenas o que for servir."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T00:51:32Z"
+  },
+  "sources": [
+    {
+      "title": "Nestlé FamilyNes — Receitas sem leite, página 13",
+      "url": "https://www.nestlefamilynes.com.br/sites/default/files/2025-07/familynes-receitas-sem-leite-fixed.pdf",
+      "role": "Biscoito de aveia, 65 porções pequenas, massa e forno a 200 °C."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Refrigeração, resfriamento e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "PDF página impressa13/índice12, texto lido; captura PDF não disponível.65 porções normalizadas para unidades pequenas de biscoito, não65 pessoas. Fórmula Receiteria descartada:1xícara farelo240g inconsistente. Sem alegações sobre alergias, glúten ou aptidão infantil.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

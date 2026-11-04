@@ -1,0 +1,158 @@
+{
+  "id": "broa-de-milho",
+  "slug": "broa-de-milho",
+  "title": "Broa de milho com fubá e milho-verde, sem fermentação",
+  "description": "Broa de milho com milho-verde, fubá, trigo e fermento químico. Bata a base, misture a farinha aos poucos e modele as broinhas antes de assar.",
+  "intro": "Esta versão usa fermento de bolo, sem esperar crescimento de pão. Deixe espaço entre as broas na assadeira.",
+  "categoryIds": [
+    "lanches",
+    "forno"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/broa-milho.webp",
+    "alt": "Imagem ilustrativa: Broinhas de milho douradas com superfície rústica e miolo amarelo"
+  },
+  "publishedAt": "2026-11-04T12:23:52Z",
+  "updatedAt": "2026-11-04T12:23:52Z",
+  "seo": {
+    "title": "Broa de milho com fubá e milho-verde, sem fermentação | Bebel",
+    "description": "Broa de milho com milho-verde, fubá, trigo e fermento químico. Bata a base, misture a farinha aos poucos e modele as broinhas antes de assar."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 8,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 30,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 30 minutos no forno preaquecido a 200 °C, além de bater, misturar e modelar.",
+    "ingredients": [
+      {
+        "id": "milho",
+        "name": "Milho-verde em conserva escorrido",
+        "quantity": 0.5,
+        "unit": "lata"
+      },
+      {
+        "id": "ovo",
+        "name": "Ovo",
+        "quantity": 2,
+        "unit": "unidades"
+      },
+      {
+        "id": "leite",
+        "name": "Leite",
+        "quantity": 100,
+        "unit": "ml"
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar",
+        "quantity": 3,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "fuba",
+        "name": "Fubá",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 1,
+        "unit": "pitada"
+      },
+      {
+        "id": "manteiga",
+        "name": "Manteiga",
+        "quantity": 2,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "farinha",
+        "name": "Farinha de trigo",
+        "quantity": 1.5,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "fermento",
+        "name": "Fermento químico em pó",
+        "quantity": 0.5,
+        "unit": "colher (sopa)"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Preaqueça forno a 200 °C. Forre assadeira com papel-manteiga adequado para forno."
+      },
+      {
+        "id": "passo-2",
+        "text": "Bata milho escorrido, ovos, leite, açúcar, fubá, sal e manteiga no liquidificador."
+      },
+      {
+        "id": "passo-3",
+        "text": "Transfira para tigela. Misture fermento e adicione farinha aos poucos até formar massa que permita modelar sem grudar nas mãos."
+      },
+      {
+        "id": "passo-4",
+        "text": "Divida em porções de tamanho parecido, forme bolinhas e achate levemente. Acomode com espaço entre elas."
+      },
+      {
+        "id": "passo-5",
+        "text": "Asse por cerca de 30 minutos, até dourar. Espere amornar para retirar e servir."
+      }
+    ],
+    "equipment": [
+      "Liquidificador, tigela e espátula",
+      "Assadeira e papel-manteiga próprio para forno",
+      "Xícara e colheres medidoras"
+    ],
+    "tips": [
+      {
+        "title": "Farinha gradual",
+        "text": "Misture aos poucos e observe a massa; não compacte a farinha ao medir."
+      },
+      {
+        "title": "Versão de broinha",
+        "text": "Não é broa portuguesa de fermento biológico nem bolo de milho em forma."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Depois de perder o calor forte, guarde bem fechado na geladeira e consuma em até 2 dias."
+      },
+      {
+        "title": "Para servir",
+        "text": "Aqueça apenas as broas que for consumir para recuperar a maciez."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T12:23:52Z"
+  },
+  "sources": [
+    {
+      "title": "Receiteria — broa de milho",
+      "url": "https://www.receiteria.com.br/receita/broa-de-milho/",
+      "role": "Oito porções, milho em conserva, fubá, trigo e fermento químico; forno200°C30min."
+    },
+    {
+      "title": "Health Canada — conservação de sobras",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Refrigeração rápida, consumo de sobras e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Fonte fornece oito porções, não oito unidades; não fixar número de broas. Açúcar/erva-doce opcionais de cobertura não adotados.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

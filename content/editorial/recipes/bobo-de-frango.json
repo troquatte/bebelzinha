@@ -1,0 +1,194 @@
+{
+  "id": "bobo-de-frango",
+  "slug": "bobo-de-frango",
+  "title": "Bobó de frango com mandioca, leite de coco e dendê",
+  "description": "Bobó de frango com creme de mandioca, pimentão, leite de coco e dendê. Confira como reservar a água da mandioca e finalizar o molho sem perder cremosidade.",
+  "intro": "O frango entra em cubos dourados, e a mandioca batida forma a base do molho. Reserve parte da água do cozimento para bater e soltar o fundo da panela.",
+  "categoryIds": [
+    "pratos-do-dia"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/bobo-frango.webp",
+    "alt": "Imagem ilustrativa: Bobó cremoso alaranjado com cubos de frango e folhas de coentro"
+  },
+  "publishedAt": "2026-11-04T12:23:52Z",
+  "updatedAt": "2026-11-04T12:23:52Z",
+  "seo": {
+    "title": "Bobó de frango com mandioca, leite de coco e dendê | Bebel",
+    "description": "Bobó de frango com creme de mandioca, pimentão, leite de coco e dendê. Confira como reservar a água da mandioca e finalizar o molho sem perder cremosidade."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 4,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Mandioca: cerca de 25 minutos sob pressão, mais aquecimento e liberação. Há ainda as levas de frango, refogado e finalização; confira o cozimento completo.",
+    "ingredients": [
+      {
+        "id": "frango",
+        "name": "Peito de frango sem pele e sem osso",
+        "quantity": 500,
+        "unit": "g"
+      },
+      {
+        "id": "mandioca",
+        "name": "Mandioca descascada",
+        "quantity": 500,
+        "unit": "g"
+      },
+      {
+        "id": "pimentao",
+        "name": "Pimentão vermelho",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "tomate",
+        "name": "Tomate maduro",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "cebola",
+        "name": "Cebola",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "alho",
+        "name": "Alho",
+        "quantity": 3,
+        "unit": "dentes"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta dedo-de-moça",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "coco",
+        "name": "Leite de coco",
+        "quantity": 120,
+        "unit": "ml"
+      },
+      {
+        "id": "limao",
+        "name": "Limão",
+        "quantity": 1,
+        "unit": "unidade",
+        "note": "Use o suco."
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": 4,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "dende",
+        "name": "Azeite de dendê",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "coentro",
+        "name": "Folhas de coentro",
+        "quantity": 0.25,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "agua",
+        "name": "Água para cozinhar a mandioca",
+        "quantity": null,
+        "unit": "a gosto",
+        "note": "Cubra a mandioca respeitando o limite da panela. Reserve 2 xícaras do caldo.",
+        "shopping": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Corte mandioca em pedaços e cubra com água na pressão, conforme o manual. Adicione 1 colher de azeite e cozinhe por cerca de 25 minutos após pegar pressão. Espere liberar completamente."
+      },
+      {
+        "id": "passo-2",
+        "text": "Enquanto isso, corte frango em cubos de 2,5 cm e tempere com limão. Pique cebola, alho, tomate, pimentão e pimenta sem sementes. Mantenha o frango refrigerado até usar."
+      },
+      {
+        "id": "passo-3",
+        "text": "Reserve o caldo da mandioca. Retire fibras centrais e bata a mandioca com 1 xícara do caldo, usando equipamento adequado para líquidos quentes e permitindo saída de vapor."
+      },
+      {
+        "id": "passo-4",
+        "text": "Aqueça 2 colheres de azeite e doure frango em levas. Reserve. Junte outra xícara do caldo e o limão da marinada à panela e ferva, soltando o fundo; peneire sobre o frango."
+      },
+      {
+        "id": "passo-5",
+        "text": "Refogue cebola e pimentão no azeite restante por 2 minutos. Junte tomate até desmanchar e depois alho e pimenta por 1 minuto. Adicione creme de mandioca e espere ferver."
+      },
+      {
+        "id": "passo-6",
+        "text": "Volte frango e caldo, cozinhe por cerca de 2 minutos ou até o frango ficar cozido por inteiro. Misture leite de coco e dendê, ajuste sal e finalize com coentro."
+      }
+    ],
+    "equipment": [
+      "Panela de pressão adequada à quantidade",
+      "Liquidificador próprio para líquidos quentes e peneira",
+      "Panela grande, pinça e medidores"
+    ],
+    "tips": [
+      {
+        "title": "Guarde a água",
+        "text": "São duas xícaras usadas em etapas diferentes; reserve antes de escorrer."
+      },
+      {
+        "title": "Mandioca sem fibras",
+        "text": "Retire os fios centrais antes de bater para obter creme liso."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Divida em recipientes rasos e refrigere em até 2 horas. Guarde a 4 °C ou menos por até 2 dias."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça só o que vai consumir até atingir 74 °C no centro."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T12:23:52Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — bobó de frango",
+      "url": "https://panelinha.com.br/receita/bobo-de-frango",
+      "role": "500 g frango e 500 g mandioca; quatro porções, leite de coco e dendê."
+    },
+    {
+      "title": "Health Canada — conservação de sobras",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Refrigeração rápida, consumo de sobras e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Sem camarão ou batata de outra variante. Marinada crua é fervida no molho e cozida novamente; não usada como finalização fria.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

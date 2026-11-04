@@ -1,0 +1,174 @@
+{
+  "id": "focaccia",
+  "slug": "focaccia",
+  "title": "Focaccia sem sova com tomate e ervas frescas",
+  "description": "Focaccia sem sova com fermento biológico seco, tomate e ervas. Veja os descansos, a massa úmida e a montagem em forma de 35 × 27 cm.",
+  "intro": "A massa é misturada sem sovar. O crescimento depende também da temperatura do ambiente.",
+  "categoryIds": [
+    "forno",
+    "lanches"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/focaccia.webp",
+    "alt": "Imagem ilustrativa: Focaccia retangular dourada com tomatinhos, ervas e depressões na massa"
+  },
+  "publishedAt": "2026-11-04T01:25:08Z",
+  "updatedAt": "2026-11-04T01:25:08Z",
+  "seo": {
+    "title": "Focaccia sem sova com tomate e ervas frescas | Bebel",
+    "description": "Focaccia sem sova com fermento biológico seco, tomate e ervas. Veja os descansos, a massa úmida e a montagem em forma de 35 × 27 cm."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 10,
+      "unit": "fatia"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 30,
+      "totalMinutes": null
+    },
+    "timeNote": "15 minutos de descanso inicial, cerca de 30 para dobrar de volume e 30 de forno a 200 °C, além da mistura e da montagem.",
+    "ingredients": [
+      {
+        "id": "fermento",
+        "name": "Fermento biológico seco",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "agua",
+        "name": "Água morna",
+        "quantity": 280,
+        "unit": "ml",
+        "note": "Não use quente.",
+        "shopping": false
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar refinado",
+        "quantity": 3,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "farinha",
+        "name": "Farinha de trigo",
+        "quantity": 500,
+        "unit": "g"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite para a massa",
+        "quantity": 0.5,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "sal",
+        "name": "Sal refinado",
+        "quantity": 1,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "flor",
+        "name": "Flor de sal",
+        "quantity": 1,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "azeite-extra",
+        "name": "Azeite para untar e finalizar",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "tomate",
+        "name": "Tomate-cereja",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "ervas",
+        "name": "Ervas frescas",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "agua-ajuste",
+        "name": "Água para ajustar, se necessário",
+        "quantity": null,
+        "unit": "a gosto",
+        "note": "Acrescente aos poucos somente se a massa estiver seca.",
+        "shopping": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Misture fermento, água morna, açúcar e um terço de xícara da farinha medida. Deixe descansar 15 minutos."
+      },
+      {
+        "id": "passo-2",
+        "text": "Junte azeite, sal e o restante da farinha aos poucos. Misture sem sovar, até obter massa úmida e pegajosa. Se estiver seca, ajuste com pouca água."
+      },
+      {
+        "id": "passo-3",
+        "text": "Cubra com pano e espere cerca de 30 minutos, ou até dobrar de volume. Em dias frios pode demorar mais."
+      },
+      {
+        "id": "passo-4",
+        "text": "Preaqueça o forno a 200 °C. Unte bem uma forma de 35 × 27 cm com azeite e espalhe a massa com os dedos untados. Faça depressões sem atravessar o fundo."
+      },
+      {
+        "id": "passo-5",
+        "text": "Distribua tomates, ervas, flor de sal e azeite. Asse cerca de 30 minutos, até dourar."
+      }
+    ],
+    "equipment": [
+      "Tigela grande, pano e espátula",
+      "Assadeira retangular de 35 × 27 cm",
+      "Balança e medidores"
+    ],
+    "tips": [
+      {
+        "title": "Farinha já medida",
+        "text": "A porção inicial sai dos 500 g, não é farinha extra."
+      },
+      {
+        "title": "Sem sova",
+        "text": "Misture com delicadeza e evite acrescentar farinha só para a massa parar de grudar."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Guarde em recipiente fechado, a 4 °C ou menos, por até 2 dias. Refrigere em até 2 horas após preparar."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça somente a porção que vai consumir até 74 °C no centro."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T01:25:08Z"
+  },
+  "sources": [
+    {
+      "title": "Receiteria — focaccia",
+      "url": "https://www.receiteria.com.br/receita/focaccia/",
+      "role": "Dez fatias, massa sem sova e forma 35 × 27 cm."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Selecionados tomate e ervas dentre coberturas opcionais da fonte; não impor embutidos/queijos/cebola. Não usar fórmula Nestlé com divergências entre PDF e página. Sem alegar autêntica italiana ou fermentação natural.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

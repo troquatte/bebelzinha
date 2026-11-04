@@ -1,0 +1,129 @@
+{
+  "id": "geleia-de-manga",
+  "slug": "geleia-de-manga",
+  "title": "Geleia de manga com maracujá e açúcar demerara",
+  "description": "Geleia de manga com maracujá e açúcar demerara. Veja a ordem das frutas, o cozimento e o teste do pires gelado para conferir a consistência.",
+  "intro": "A receita rende aproximadamente quatro potes de 250 g. Mantenha refrigerada e use utensílio limpo para servir.",
+  "categoryIds": [
+    "doces",
+    "lanches"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/geleia-manga.webp",
+    "alt": "Imagem ilustrativa: Geleia amarelo-alaranjada de manga com sementes de maracujá em pote aberto"
+  },
+  "publishedAt": "2026-11-04T02:32:27Z",
+  "updatedAt": "2026-11-04T02:32:27Z",
+  "seo": {
+    "title": "Geleia de manga com maracujá e açúcar demerara | Bebel",
+    "description": "Geleia de manga com maracujá e açúcar demerara. Veja a ordem das frutas, o cozimento e o teste do pires gelado para conferir a consistência."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 4,
+      "unit": "potes"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 15 minutos para a manga e mais 25 após juntar maracujá e açúcar, além do corte e resfriamento.",
+    "ingredients": [
+      {
+        "id": "manga",
+        "name": "Manga madura",
+        "quantity": 2,
+        "unit": "unidades"
+      },
+      {
+        "id": "maracuja",
+        "name": "Maracujá",
+        "quantity": 3,
+        "unit": "unidades"
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar demerara",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "agua",
+        "name": "Água",
+        "quantity": 0.6666666666666666,
+        "unit": "xícara (chá)",
+        "shopping": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Coloque um pires no congelador. Descasque as mangas e corte a polpa em pedaços."
+      },
+      {
+        "id": "passo-2",
+        "text": "Cozinhe a manga com a água em fogo baixo por cerca de 15 minutos, mexendo e amassando até formar um purê."
+      },
+      {
+        "id": "passo-3",
+        "text": "Junte a polpa dos maracujás com sementes e o açúcar. Cozinhe por mais 25 minutos em fogo baixo, mexendo para não grudar."
+      },
+      {
+        "id": "passo-4",
+        "text": "Coloque um pouco no pires gelado e incline: o ponto é de gel, sem escorrer como líquido."
+      },
+      {
+        "id": "passo-5",
+        "text": "Transfira para recipientes limpos próprios para alimentos, deixe perder o calor excessivo e refrigere em até 2 horas."
+      }
+    ],
+    "equipment": [
+      "Panela média, espátula e concha",
+      "Pires, tábua, faca e medidores",
+      "Potes limpos com tampa"
+    ],
+    "tips": [
+      {
+        "title": "Pires gelado",
+        "text": "Ele permite conferir a consistência que a geleia terá ao esfriar."
+      },
+      {
+        "title": "Sementes presentes",
+        "text": "Nesta versão a polpa do maracujá entra com as sementes."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Conserve a 4 °C ou menos e consuma em até 2 dias. Retire com colher limpa."
+      },
+      {
+        "title": "Organize as porções",
+        "text": "Divida em potes menores para abrir somente o que for usar."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T02:32:27Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — geleia de manga e maracujá",
+      "url": "https://panelinha.com.br/receita/geleia-de-manga-e-maracuja",
+      "role": "Quatro potes de 250 g, manga, maracujá e teste do pires."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Rendimento aproximado da fonte, não medido pela Bebel. Não reproduzir alegação de conserva em temperatura ambiente por fechamento a vácuo. Página delimitada com maracujá; não é geleia sem açúcar nem manga verde.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "id": "caldo-de-ervilha",
+  "slug": "caldo-de-ervilha",
+  "title": "Caldo de ervilha seca com calabresa, paio e bacon",
+  "description": "Caldo de ervilha seca com calabresa, paio, bacon e tomate. Veja como dourar os embutidos, cozinhar a ervilha e reunir os refogados.",
+  "intro": "A fonte indica duas porções generosas. Use ervilha seca partida, não ervilha de lata ou congelada.",
+  "categoryIds": [
+    "pratos-do-dia"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/caldo-ervilha.webp",
+    "alt": "Imagem ilustrativa: Caldo verde espesso de ervilha seca com rodelas de calabresa, paio e bacon"
+  },
+  "publishedAt": "2026-11-04T02:32:27Z",
+  "updatedAt": "2026-11-04T02:32:27Z",
+  "seo": {
+    "title": "Caldo de ervilha seca com calabresa, paio e bacon | Bebel",
+    "description": "Caldo de ervilha seca com calabresa, paio, bacon e tomate. Veja como dourar os embutidos, cozinhar a ervilha e reunir os refogados."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 2,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 12,
+      "totalMinutes": null
+    },
+    "timeNote": "12 minutos após pegar pressão, além dos refogados e da saída natural da pressão.",
+    "ingredients": [
+      {
+        "id": "bacon",
+        "name": "Bacon",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "id": "agua",
+        "name": "Água para cozinhar a ervilha",
+        "quantity": 1.2,
+        "unit": "litro",
+        "shopping": false
+      },
+      {
+        "id": "calabresa",
+        "name": "Linguiça calabresa",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "id": "paio",
+        "name": "Paio",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "id": "ervilha",
+        "name": "Ervilha seca",
+        "quantity": 250,
+        "unit": "g"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "cebola",
+        "name": "Cebola",
+        "quantity": 0.5,
+        "unit": "unidade"
+      },
+      {
+        "id": "alho",
+        "name": "Alho",
+        "quantity": 2,
+        "unit": "dentes"
+      },
+      {
+        "id": "tomate",
+        "name": "Tomate grande",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": 3,
+        "unit": "colheres (sopa)",
+        "note": "Divida entre os embutidos e o refogado."
+      },
+      {
+        "id": "agua-tomate",
+        "name": "Água para tirar a pele do tomate",
+        "quantity": null,
+        "unit": "a gosto",
+        "shopping": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Pique bacon, cebola e alho; fatie calabresa e paio. Faça um corte em cruz no tomate, mergulhe 30 segundos em água fervente e passe para água fria. Retire a pele e pique."
+      },
+      {
+        "id": "passo-2",
+        "text": "Doure o bacon na pressão aberta com parte do azeite. Junte calabresa e paio por mais 1 minuto e reserve os embutidos."
+      },
+      {
+        "id": "passo-3",
+        "text": "Coloque ervilha,1,2 litro de água e sal na panela, respeitando o limite do manual para grãos que espumam. Tampe e cozinhe 12 minutos em fogo baixo após pegar pressão. Desligue e espere sair naturalmente."
+      },
+      {
+        "id": "passo-4",
+        "text": "No azeite restante, refogue cebola 2 minutos, alho 1 e tomate 1. Junte esse refogado e os embutidos à ervilha cozida. Aqueça tudo, confira o sal e sirva."
+      }
+    ],
+    "equipment": [
+      "Panela de pressão, frigideira e espátula",
+      "Panela pequena e tigela para o tomate",
+      "Tábua, faca e medidores"
+    ],
+    "tips": [
+      {
+        "title": "Tipo de ervilha",
+        "text": "A ervilha seca se desfaz e dá corpo ao caldo."
+      },
+      {
+        "title": "Sal no final",
+        "text": "Os embutidos já são salgados; prove antes de acrescentar mais."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Guarde em recipiente fechado, a 4 °C ou menos, por até 2 dias. Refrigere em até 2 horas após preparar."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça somente a quantidade que vai consumir até 74 °C no centro."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T02:32:27Z"
+  },
+  "sources": [
+    {
+      "title": "Receiteria — caldo de ervilha",
+      "url": "https://www.receiteria.com.br/receita/caldo-de-ervilha/",
+      "role": "Duas porções, ervilha seca 250 g, embutidos e pressão 12 min."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Rendimento 2 porções grandes mantido conforme fonte, sem alegar volume individual medido. Azeite dividido no método para não adicionar fio não listado. Respeitar limite do manual para leguminosas/espuma.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

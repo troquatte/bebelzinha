@@ -1,0 +1,125 @@
+{
+  "id": "brocolis-na-airfryer",
+  "slug": "brocolis-na-airfryer",
+  "title": "Brócolis na airfryer com alho e parmesão",
+  "description": "Brócolis na airfryer com alho, azeite e parmesão aderido aos floretes. Veja como distribuir no cesto e observar o ponto sem queimar o queijo.",
+  "intro": "Uma versão sem molho branco ou empanado. Corte floretes pequenos e semelhantes para terminar o preparo por igual.",
+  "categoryIds": [
+    "airfryer",
+    "acompanhamentos"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/brocolis-airfryer.webp",
+    "alt": "Imagem ilustrativa: Floretes de brócolis levemente tostados com alho e parmesão"
+  },
+  "publishedAt": "2026-11-04T02:50:52Z",
+  "updatedAt": "2026-11-04T02:50:52Z",
+  "seo": {
+    "title": "Brócolis na airfryer com alho e parmesão | Bebel",
+    "description": "Brócolis na airfryer com alho, azeite e parmesão aderido aos floretes. Veja como distribuir no cesto e observar o ponto sem queimar o queijo."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 4,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Preaqueça a 180 °C e confira a partir de 3 minutos; a referência indica 3 a 5 minutos por leva, conforme o tamanho dos floretes e o aparelho.",
+    "ingredients": [
+      {
+        "id": "brocolis",
+        "name": "Brócolis pequeno",
+        "quantity": 1,
+        "unit": "cabeça",
+        "note": "Separe em floretes pequenos."
+      },
+      {
+        "id": "parmesao",
+        "name": "Parmesão fresco ralado",
+        "quantity": 4,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": 2,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "alho",
+        "name": "Alho picado",
+        "quantity": 2,
+        "unit": "dentes"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Lave os floretes e seque bem. Preaqueça a airfryer a 180 °C conforme o manual."
+      },
+      {
+        "id": "passo-2",
+        "text": "Misture azeite, alho e parmesão. Envolva os floretes, pressionando o tempero nas ramificações para aderir."
+      },
+      {
+        "id": "passo-3",
+        "text": "Distribua no cesto sem amontoar. Asse por 3 a 5 minutos, verificando a partir de 3 minutos."
+      },
+      {
+        "id": "passo-4",
+        "text": "Retire quando as pontas estiverem levemente tostadas e o talo no ponto desejado. Se necessário, continue por intervalos curtos, observando alho e queijo para não queimar."
+      }
+    ],
+    "equipment": [
+      "Airfryer e pegador",
+      "Tigela, faca e tábua",
+      "Colheres medidoras"
+    ],
+    "tips": [
+      {
+        "title": "Porções pequenas no cesto",
+        "text": "Faça outra leva em vez de empilhar os floretes."
+      },
+      {
+        "title": "Parmesão já tempera",
+        "text": "Prove antes de acrescentar qualquer sal na mesa."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Refrigere as sobras em até 2 horas e consuma em até 2 dias."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça até ficar bem quente por inteiro; a textura pode ficar mais macia."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T02:50:52Z"
+  },
+  "sources": [
+    {
+      "title": "MundoBoaForma — receita de brócolis na AirFryer",
+      "url": "https://www.mundoboaforma.com.br/receita-de-brocolis-na-airfryer/",
+      "role": "Formulação publicada com quatro porções, alho, parmesão, azeite e tempo de 3 a 5 minutos."
+    },
+    {
+      "title": "Health Canada — conservação de sobras",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Refrigeração em até 2 horas, armazenamento a 4 °C ou menos e reaquecimento a 74 °C."
+    }
+  ],
+  "editorialNotes": [
+    "Fonte culinária primária da formulação, sem reproduzir alegações médicas ou nutricionais. Sem pré-cozimento; tempo curto da fonte, com ponto visual. Short Bebel 055 é branqueamento, não esta receita.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "id": "pudim-de-coco",
+  "slug": "pudim-de-coco",
+  "title": "Pudim de coco sem forno com gelatina e ameixas",
+  "description": "Pudim de coco sem forno com leite condensado, creme de leite e gelatina. Bata, leve à geladeira por pelo menos quatro horas e finalize com ameixas.",
+  "intro": "A firmeza vem da gelatina sem sabor, hidratada conforme o fabricante. Reserve pelo menos quatro horas de geladeira antes de desenformar.",
+  "categoryIds": [
+    "doces"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/pudim-coco.webp",
+    "alt": "Imagem ilustrativa: Pudim branco de coco com furo central e ameixas em calda"
+  },
+  "publishedAt": "2026-11-04T12:23:52Z",
+  "updatedAt": "2026-11-04T12:23:52Z",
+  "seo": {
+    "title": "Pudim de coco sem forno com gelatina e ameixas | Bebel",
+    "description": "Pudim de coco sem forno com leite condensado, creme de leite e gelatina. Bata, leve à geladeira por pelo menos quatro horas e finalize com ameixas."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 10,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Bata por cerca de 5 minutos e refrigere por no mínimo 4 horas. Hidratação da gelatina segue as instruções da embalagem.",
+    "ingredients": [
+      {
+        "id": "condensado",
+        "name": "Leite condensado",
+        "quantity": 395,
+        "unit": "g"
+      },
+      {
+        "id": "creme",
+        "name": "Creme de leite",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "id": "leite-coco",
+        "name": "Leite de coco",
+        "quantity": 200,
+        "unit": "ml"
+      },
+      {
+        "id": "coco",
+        "name": "Coco ralado",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "id": "gelatina",
+        "name": "Gelatina sem sabor",
+        "quantity": 1,
+        "unit": "pacote pequeno",
+        "note": "Hidrate e dissolva conforme a embalagem."
+      },
+      {
+        "id": "agua",
+        "name": "Água para hidratar a gelatina",
+        "quantity": null,
+        "unit": "a gosto",
+        "note": "Use exatamente a quantidade orientada no pacote.",
+        "shopping": false
+      },
+      {
+        "id": "ameixa",
+        "name": "Ameixas em calda para decorar",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Hidrate e dissolva a gelatina de acordo com as instruções da embalagem."
+      },
+      {
+        "id": "passo-2",
+        "text": "Coloque no liquidificador leite condensado, creme de leite, leite de coco, coco ralado e gelatina já dissolvida. Bata por cerca de 5 minutos, até ficar uniforme."
+      },
+      {
+        "id": "passo-3",
+        "text": "Transfira para forma de furo central e leve à geladeira por no mínimo 4 horas, até firmar."
+      },
+      {
+        "id": "passo-4",
+        "text": "Solte as bordas com cuidado e desenforme. Decore com ameixas em calda e mantenha gelado até servir."
+      }
+    ],
+    "equipment": [
+      "Liquidificador e recipiente para hidratar gelatina",
+      "Forma de furo central",
+      "Colher, espátula e geladeira"
+    ],
+    "tips": [
+      {
+        "title": "Siga a embalagem",
+        "text": "A água e o método de dissolver variam com o produto; a gelatina não deve entrar seca."
+      },
+      {
+        "title": "Não apresse a geladeira",
+        "text": "Só desenforme quando estiver firme por inteiro."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Guarde fechado a 4 °C ou menos e consuma em até 2 dias. Não deixe mais de 2 horas fora da refrigeração."
+      },
+      {
+        "title": "Para servir",
+        "text": "Retire apenas a quantidade que será consumida."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T12:23:52Z"
+  },
+  "sources": [
+    {
+      "title": "Receiteria — pudim de coco",
+      "url": "https://www.receiteria.com.br/receita/pudim-de-coco/",
+      "role": "Dez porções, um pacote pequeno de gelatina, 50g de coco e pelo menos quatro horas refrigerado."
+    },
+    {
+      "title": "Health Canada — conservação de sobras",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Refrigeração rápida, consumo de sobras e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Não usada fórmula da outra página gelado-de-coco que dizia dois envelopes24g cada. Mantido um pacote pequeno da formulação escolhida, sem inventar peso. Ameixa do método incluída na lista.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

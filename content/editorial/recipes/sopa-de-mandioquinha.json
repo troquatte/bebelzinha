@@ -1,0 +1,180 @@
+{
+  "id": "sopa-de-mandioquinha",
+  "slug": "sopa-de-mandioquinha",
+  "title": "Sopa de mandioquinha com vinho branco e bacon",
+  "description": "Sopa de mandioquinha com salsão, vinho branco e finalização de bacon. Veja como cozinhar e bater para obter um creme liso, sem batata.",
+  "intro": "O caldo é feito com a própria mandioquinha. Bacon e manjericão entram ao servir, para terminar cada prato na hora.",
+  "categoryIds": [
+    "pratos-do-dia"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/sopa-mandioquinha.webp",
+    "alt": "Imagem ilustrativa: Sopa cremosa de mandioquinha com cubinhos de bacon e manjericão"
+  },
+  "publishedAt": "2026-11-04T02:50:52Z",
+  "updatedAt": "2026-11-04T02:50:52Z",
+  "seo": {
+    "title": "Sopa de mandioquinha com vinho branco e bacon | Bebel",
+    "description": "Sopa de mandioquinha com salsão, vinho branco e finalização de bacon. Veja como cozinhar e bater para obter um creme liso, sem batata."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 4,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 20 minutos após ferver, além de cortar, refogar e bater. O bacon doura em aproximadamente 8 minutos, em paralelo.",
+    "ingredients": [
+      {
+        "id": "mandioquinha",
+        "name": "Mandioquinha descascada",
+        "quantity": 1,
+        "unit": "kg"
+      },
+      {
+        "id": "cebola",
+        "name": "Cebola",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "salsao",
+        "name": "Salsão, sem folhas",
+        "quantity": 1,
+        "unit": "talo"
+      },
+      {
+        "id": "alho",
+        "name": "Alho",
+        "quantity": 2,
+        "unit": "dentes"
+      },
+      {
+        "id": "vinho",
+        "name": "Vinho branco",
+        "quantity": 0.25,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "agua",
+        "name": "Água",
+        "quantity": 1.25,
+        "unit": "litro",
+        "shopping": false
+      },
+      {
+        "id": "louro",
+        "name": "Louro",
+        "quantity": 1,
+        "unit": "folha"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": 2,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "bacon",
+        "name": "Bacon em cubinhos para servir",
+        "quantity": 80,
+        "unit": "g"
+      },
+      {
+        "id": "manjericao",
+        "name": "Folhas de manjericão para servir",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Corte a mandioquinha em rodelas de 1 cm. Pique cebola, alho e salsão."
+      },
+      {
+        "id": "passo-2",
+        "text": "Refogue cebola e salsão no azeite por 4 minutos. Junte alho e louro por 1 minuto; adicione vinho e mexa até reduzir."
+      },
+      {
+        "id": "passo-3",
+        "text": "Acrescente mandioquinha, água, sal e pimenta. Após ferver, cozinhe com tampa entreaberta por cerca de 20 minutos, até ficar macia."
+      },
+      {
+        "id": "passo-4",
+        "text": "Doure o bacon na própria gordura por cerca de 8 minutos e escorra em papel-toalha."
+      },
+      {
+        "id": "passo-5",
+        "text": "Retire o louro. Bata a sopa em pequenas porções, respeitando as instruções do liquidificador para líquidos quentes e a saída de vapor. Volte à panela, aqueça e sirva com bacon e manjericão."
+      }
+    ],
+    "equipment": [
+      "Panela grande e frigideira",
+      "Liquidificador adequado para líquidos quentes",
+      "Faca, tábua, concha e medidores"
+    ],
+    "tips": [
+      {
+        "title": "Ponto antes de bater",
+        "text": "A mandioquinha deve ceder facilmente ao garfo."
+      },
+      {
+        "title": "Finalização",
+        "text": "Coloque o bacon somente no prato para preservar a textura."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Divida em recipientes rasos, refrigere em até 2 horas e guarde a 4 °C ou menos por até 2 dias."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça apenas o que for servir, até atingir 74 °C no centro."
+      },
+      {
+        "title": "Guarde separado",
+        "text": "Reserve o bacon e o manjericão para finalizar depois de reaquecer."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T02:50:52Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — sopa de mandioquinha",
+      "url": "https://panelinha.com.br/receita/sopa-mandioquinha",
+      "role": "Mandioquinha, vinho e salsão; até quatro porções; bacon 80 g em frigideira."
+    },
+    {
+      "title": "Health Canada — conservação de sobras",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Refrigeração em até 2 horas, armazenamento a 4 °C ou menos e reaquecimento a 74 °C."
+    }
+  ],
+  "editorialNotes": [
+    "Sem batata, cenoura ou abóbora; finalização pesto opcional da fonte não adotada. Não alegar eliminação completa de álcool.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

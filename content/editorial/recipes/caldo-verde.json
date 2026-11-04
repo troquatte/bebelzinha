@@ -1,0 +1,153 @@
+{
+  "id": "caldo-verde",
+  "slug": "caldo-verde",
+  "title": "Caldo verde com batata, couve e linguiça portuguesa",
+  "description": "Caldo verde de batata batida, couve fatiada fina e linguiça portuguesa dourada. Confira quando juntar a couve e como deixar a base cremosa.",
+  "intro": "A batata forma o creme; a couve entra no final e a linguiça volta à panela já dourada. Tenha o caldo de carne pronto antes de começar.",
+  "categoryIds": [
+    "pratos-do-dia"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/caldo-verde.webp",
+    "alt": "Imagem ilustrativa: Caldo cremoso de batata com couve fininha e linguiça portuguesa"
+  },
+  "publishedAt": "2026-11-04T02:50:52Z",
+  "updatedAt": "2026-11-04T02:50:52Z",
+  "seo": {
+    "title": "Caldo verde com batata, couve e linguiça portuguesa | Bebel",
+    "description": "Caldo verde de batata batida, couve fatiada fina e linguiça portuguesa dourada. Confira quando juntar a couve e como deixar a base cremosa."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 4,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 5 minutos para dourar a linguiça, 25 para a batata e 5 após juntar a couve, além do corte e aquecimento.",
+    "ingredients": [
+      {
+        "id": "batata",
+        "name": "Batata",
+        "quantity": 600,
+        "unit": "g",
+        "note": "Cerca de 3 unidades."
+      },
+      {
+        "id": "linguica",
+        "name": "Linguiça portuguesa",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "id": "cebola",
+        "name": "Cebola",
+        "quantity": 0.5,
+        "unit": "unidade"
+      },
+      {
+        "id": "caldo",
+        "name": "Caldo de carne caseiro pronto",
+        "quantity": 1.25,
+        "unit": "litro"
+      },
+      {
+        "id": "couve",
+        "name": "Couve",
+        "quantity": 0.5,
+        "unit": "maço"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": null,
+        "unit": "a gosto",
+        "note": "Comece com 1 colher de chá; complemente se a linguiça soltar pouca gordura."
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Retire a pele da linguiça e fatie. Corte a cebola em meias-luas e as batatas descascadas em pedaços."
+      },
+      {
+        "id": "passo-2",
+        "text": "Doure a linguiça com 1 colher de chá de azeite por cerca de 5 minutos. Reserve. Refogue a cebola na mesma panela por 2 minutos; complete com azeite se necessário."
+      },
+      {
+        "id": "passo-3",
+        "text": "Junte batata e caldo. Após ferver, tempere e cozinhe em fogo baixo por cerca de 25 minutos, até a batata ficar macia."
+      },
+      {
+        "id": "passo-4",
+        "text": "Lave a couve, retire os talos e corte em tirinhas finas e curtas. Bata a base de batata em porções pequenas, seguindo o manual para líquidos quentes e permitindo saída de vapor."
+      },
+      {
+        "id": "passo-5",
+        "text": "Devolva o creme à panela com couve e linguiça. Cozinhe em fogo baixo por cerca de 5 minutos, confira o sal e sirva."
+      }
+    ],
+    "equipment": [
+      "Panela média e tigela para reservar",
+      "Liquidificador adequado para líquidos quentes",
+      "Tábua, faca, concha e medidores"
+    ],
+    "tips": [
+      {
+        "title": "Couve mais fácil de comer",
+        "text": "Corte as folhas ao meio antes de fatiar para encurtar as tiras."
+      },
+      {
+        "title": "Sal no final",
+        "text": "O caldo e a linguiça já podem conter sal; prove antes de acrescentar mais."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Divida em recipientes rasos, refrigere em até 2 horas e guarde a 4 °C ou menos por até 2 dias."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça apenas o que for servir, até atingir 74 °C no centro."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T02:50:52Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — caldo verde",
+      "url": "https://panelinha.com.br/receita/caldo-verde",
+      "role": "Batata 600 g, linguiça 200 g, caldo 1,25 L, couve e quatro porções."
+    },
+    {
+      "title": "Health Canada — conservação de sobras",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Refrigeração em até 2 horas, armazenamento a 4 °C ou menos e reaquecimento a 74 °C."
+    }
+  ],
+  "editorialNotes": [
+    "Sem alho adicional da versão Receiteria. Receita distinta de caldo de ervilha e sopa de mandioquinha.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

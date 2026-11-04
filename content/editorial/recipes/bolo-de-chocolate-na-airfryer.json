@@ -1,0 +1,143 @@
+{
+  "id": "bolo-de-chocolate-na-airfryer",
+  "slug": "bolo-de-chocolate-na-airfryer",
+  "title": "Bolo de chocolate na airfryer, feito na caneca",
+  "description": "Bolo de chocolate na airfryer em caneca, com achocolatado e sem cobertura. Veja os ingredientes em peso, o preaquecimento e o ponto do centro.",
+  "intro": "Uma porção individual preparada diretamente na caneca própria para forno. Não use recipiente de plástico ou louça sem indicação para calor.",
+  "categoryIds": [
+    "airfryer",
+    "doces",
+    "lanches"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/bolo-chocolate-airfryer.webp",
+    "alt": "Imagem ilustrativa: Bolo individual de chocolate assado na caneca, sem cobertura"
+  },
+  "publishedAt": "2026-11-04T02:32:27Z",
+  "updatedAt": "2026-11-04T02:32:27Z",
+  "seo": {
+    "title": "Bolo de chocolate na airfryer, feito na caneca | Bebel",
+    "description": "Bolo de chocolate na airfryer em caneca, com achocolatado e sem cobertura. Veja os ingredientes em peso, o preaquecimento e o ponto do centro."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 1,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 10,
+      "totalMinutes": null
+    },
+    "timeNote": "Preaqueça 10 minutos a 200 °C; asse por cerca de 10 minutos a 180 °C, além da mistura.",
+    "ingredients": [
+      {
+        "id": "ovo",
+        "name": "Ovo",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar",
+        "quantity": 23,
+        "unit": "g"
+      },
+      {
+        "id": "achocolatado",
+        "name": "Achocolatado em pó",
+        "quantity": 25,
+        "unit": "g"
+      },
+      {
+        "id": "farinha",
+        "name": "Farinha de trigo",
+        "quantity": 32,
+        "unit": "g"
+      },
+      {
+        "id": "leite",
+        "name": "Leite",
+        "quantity": 15,
+        "unit": "ml"
+      },
+      {
+        "id": "oleo",
+        "name": "Óleo",
+        "quantity": 15,
+        "unit": "ml"
+      },
+      {
+        "id": "fermento",
+        "name": "Fermento químico em pó",
+        "quantity": 3,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Preaqueça a airfryer a 200 °C por 10 minutos. Separe uma caneca própria para forno e compatível com a cesta, com espaço para a massa crescer."
+      },
+      {
+        "id": "passo-2",
+        "text": "Bata o ovo na caneca e misture o açúcar. Incorpore o achocolatado."
+      },
+      {
+        "id": "passo-3",
+        "text": "Junte farinha, leite e óleo e mexa até ficar uniforme. Incorpore o fermento por último."
+      },
+      {
+        "id": "passo-4",
+        "text": "Coloque na airfryer e reduza para 180 °C. Asse cerca de 10 minutos, até o centro estar assado, sem massa líquida. Retire com proteção térmica e deixe amornar."
+      }
+    ],
+    "equipment": [
+      "Airfryer e caneca própria para forno",
+      "Garfo ou colher, balança e medidor",
+      "Luvas térmicas"
+    ],
+    "tips": [
+      {
+        "title": "Pese o fermento",
+        "text": "Use 3 g, sem converter automaticamente para uma colher cheia."
+      },
+      {
+        "title": "Espaço na caneca",
+        "text": "Evite encher até a borda, pois a massa cresce."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Guarde em recipiente fechado, a 4 °C ou menos, por até 2 dias. Refrigere em até 2 horas após preparar."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça somente a quantidade que vai consumir até 74 °C no centro."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T02:32:27Z"
+  },
+  "sources": [
+    {
+      "title": "Receiteria — bolo de chocolate de caneca na air fryer",
+      "url": "https://www.receiteria.com.br/receita/bolo-de-chocolate-de-caneca-na-air-fryer/",
+      "role": "Uma porção, ingredientes em peso e 180 °C 10 min."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Pesos explícitos prevalecem sobre equivalência contraditória 2 colhereschá/3 gfermento. Lista achocolatado prevalece sobre menção genérica chocolate no método. Sem cobertura ou dimensão de caneca inventada.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

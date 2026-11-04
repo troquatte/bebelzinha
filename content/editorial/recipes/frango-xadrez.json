@@ -1,0 +1,188 @@
+{
+  "id": "frango-xadrez",
+  "slug": "frango-xadrez",
+  "title": "Frango xadrez com pimentões coloridos e amendoim",
+  "description": "Frango xadrez com pimentões, cebola, amendoim e molho de shoyu engrossado com amido. Veja a ordem do refogado e quando finalizar com óleo de gergelim.",
+  "intro": "Corte tudo antes de acender o fogo: a receita usa cubos pequenos e frigideira larga. O molho deve envolver os ingredientes sem virar uma pasta.",
+  "categoryIds": [
+    "pratos-do-dia"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/frango-xadrez.webp",
+    "alt": "Imagem ilustrativa: Cubos de frango com pimentões, cebola e amendoim em molho de shoyu brilhante"
+  },
+  "publishedAt": "2026-11-04T12:23:52Z",
+  "updatedAt": "2026-11-04T12:23:52Z",
+  "seo": {
+    "title": "Frango xadrez com pimentões coloridos e amendoim | Bebel",
+    "description": "Frango xadrez com pimentões, cebola, amendoim e molho de shoyu engrossado com amido. Veja a ordem do refogado e quando finalizar com óleo de gergelim."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 6,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "O refogado tem etapas de cerca de 2, 2, 1 e 2 minutos. Confira o cozimento do frango e ajuste conforme o tamanho dos cubos e a panela.",
+    "ingredients": [
+      {
+        "id": "frango",
+        "name": "Peito de frango sem pele e sem osso",
+        "quantity": 400,
+        "unit": "g"
+      },
+      {
+        "id": "cebola",
+        "name": "Cebola",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "amarelo",
+        "name": "Pimentão amarelo",
+        "quantity": 0.5,
+        "unit": "unidade"
+      },
+      {
+        "id": "vermelho",
+        "name": "Pimentão vermelho",
+        "quantity": 0.5,
+        "unit": "unidade"
+      },
+      {
+        "id": "alho",
+        "name": "Alho",
+        "quantity": 2,
+        "unit": "dentes"
+      },
+      {
+        "id": "shoyu",
+        "name": "Shoyu",
+        "quantity": 0.25,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "oleo",
+        "name": "Óleo",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "amido",
+        "name": "Amido de milho",
+        "quantity": 2,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "agua",
+        "name": "Água",
+        "quantity": 1,
+        "unit": "xícara (chá)",
+        "shopping": false
+      },
+      {
+        "id": "amendoim",
+        "name": "Amendoim torrado sem pele",
+        "quantity": 0.3333333333333333,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "gergelim",
+        "name": "Óleo de gergelim torrado",
+        "quantity": 1,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 0.5,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "amendoim-final",
+        "name": "Amendoim torrado para servir",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Corte frango, cebola e pimentões em cubos de cerca de 2 cm. Tempere o frango com sal e pimenta; pique o alho."
+      },
+      {
+        "id": "passo-2",
+        "text": "Dissolva amido no shoyu e na água, mexendo até não restarem grumos."
+      },
+      {
+        "id": "passo-3",
+        "text": "Aqueça a wok ou frigideira grande em fogo alto. Coloque óleo e refogue cebola e pimentões por cerca de 2 minutos. Adicione frango e mexa por mais 2 minutos, até começar a dourar."
+      },
+      {
+        "id": "passo-4",
+        "text": "Junte alho e amendoim por 1 minuto. Misture novamente o molho reservado, despeje e mexa por cerca de 2 minutos, até engrossar. Confira se o frango está cozido por inteiro e prolongue se necessário."
+      },
+      {
+        "id": "passo-5",
+        "text": "Desligue e misture óleo de gergelim. Sirva com o amendoim adicional."
+      }
+    ],
+    "equipment": [
+      "Wok ou frigideira grande",
+      "Tigelas, faca e tábua",
+      "Espátula e medidores"
+    ],
+    "tips": [
+      {
+        "title": "Molho sem grumos",
+        "text": "Dissolva o amido antes de levar ao calor e mexa novamente antes de despejar."
+      },
+      {
+        "title": "Corte uniforme",
+        "text": "Cubos parecidos ajudam o frango e os legumes a cozinhar por igual."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Divida em recipientes rasos e refrigere em até 2 horas. Guarde a 4 °C ou menos por até 2 dias."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça só o que vai consumir até atingir 74 °C no centro."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T12:23:52Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — frango xadrez",
+      "url": "https://panelinha.com.br/receita/frango-xadrez",
+      "role": "Frango 400 g, pimentões e amendoim, água e shoyu com amido; até seis porções."
+    },
+    {
+      "title": "Health Canada — conservação de sobras",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Refrigeração rápida, consumo de sobras e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Não copiar o prato pago frango em cubos com legumes e arroz; esta formulação tem shoyu, amendoim e óleo de gergelim, sem arroz. Sem promessa de cozimento seguro em sete minutos para qualquer corte.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "id": "geleia-de-laranja",
+  "slug": "geleia-de-laranja",
+  "title": "Geleia de laranja-baía com tirinhas de casca",
+  "description": "Geleia de laranja-baía com açúcar demerara e tirinhas finas de casca. Aprenda o teste do pires e por que ela firma depois de esfriar.",
+  "intro": "Rende aproximadamente 800 g, ou 2½ xícaras. Reserve tempo para gelar: a consistência termina de se formar depois do cozimento.",
+  "categoryIds": [
+    "doces",
+    "lanches"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/geleia-laranja.webp",
+    "alt": "Imagem ilustrativa: Geleia de laranja brilhante com tirinhas de casca em pote aberto"
+  },
+  "publishedAt": "2026-11-04T02:50:52Z",
+  "updatedAt": "2026-11-04T02:50:52Z",
+  "seo": {
+    "title": "Geleia de laranja-baía com tirinhas de casca | Bebel",
+    "description": "Geleia de laranja-baía com açúcar demerara e tirinhas finas de casca. Aprenda o teste do pires e por que ela firma depois de esfriar."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 1,
+      "unit": "receita"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 100,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 1 hora e 40 minutos no fogo; comece a verificar a partir de 1 hora. Depois, deixe pelo menos 24 horas na geladeira.",
+    "ingredients": [
+      {
+        "id": "laranja",
+        "name": "Laranja-baía",
+        "quantity": 3,
+        "unit": "unidades"
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar demerara",
+        "quantity": 1.75,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "limao",
+        "name": "Caldo de limão",
+        "quantity": 0.5,
+        "unit": "xícara (chá)",
+        "note": "Cerca de 3 limões; meça o suco."
+      },
+      {
+        "id": "agua",
+        "name": "Água",
+        "quantity": 1.5,
+        "unit": "litro",
+        "shopping": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Lave as laranjas. Retire apenas a parte colorida da casca de duas delas e corte em tirinhas finas. Descasque as três, eliminando a parte branca."
+      },
+      {
+        "id": "passo-2",
+        "text": "Pique a polpa, descartando sementes e fibras centrais. Leve à panela grande com cascas, açúcar, limão e água."
+      },
+      {
+        "id": "passo-3",
+        "text": "Após ferver, mantenha fogo médio e mexa ocasionalmente por cerca de 1 hora e 40 minutos. Coloque um pires no congelador."
+      },
+      {
+        "id": "passo-4",
+        "text": "Comece a conferir após 1 hora: a geleia deve cobrir a colher. Ponha uma amostra no pires, gele por 1 minuto e empurre com o dedo; ela deve formar um gel."
+      },
+      {
+        "id": "passo-5",
+        "text": "Transfira a recipientes próprios para alimentos, deixe perder o calor excessivo e refrigere em até 2 horas. Aguarde ao menos 24 horas antes de servir."
+      }
+    ],
+    "equipment": [
+      "Panela grande e espátula",
+      "Descascador, faca, tábua e espremedor",
+      "Pires e potes limpos com tampa"
+    ],
+    "tips": [
+      {
+        "title": "Casca sem amargor",
+        "text": "Evite levar a parte branca junto das tirinhas."
+      },
+      {
+        "title": "Não espere endurecer no fogo",
+        "text": "Ela sai mais fluida da panela e firma ao esfriar."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Sempre refrigerada",
+        "text": "Mantenha a 4 °C ou menos em pote limpo e fechado. A referência indica até 1 mês na geladeira."
+      },
+      {
+        "title": "Ao servir",
+        "text": "Use colher limpa e retire só o que for consumir. Esta receita é para guardar refrigerada."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T02:50:52Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — geleia de laranja",
+      "url": "https://panelinha.com.br/receita/geleia-de-laranja",
+      "role": "Três laranjas-baía, 1,75 xícara açúcar, limão, 100 minutos e 24 horas para firmar; cerca de 800 g."
+    },
+    {
+      "title": "Health Canada — conservação de sobras",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Refrigeração em até 2 horas, armazenamento a 4 °C ou menos e reaquecimento a 74 °C."
+    }
+  ],
+  "editorialNotes": [
+    "Não adotar envase invertido/vácuo ou armazenamento em temperatura ambiente. Rendimento aproximado da fonte registrado como uma receita. Volume transacional inclui compra de geleia.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "id": "churros-na-airfryer",
+  "slug": "churros-na-airfryer",
+  "title": "Minichurros na airfryer com açúcar e canela",
+  "description": "Minichurros na airfryer com massa cozida na panela e açúcar com canela. Veja como modelar, pincelar e virar para dourar por igual.",
+  "intro": "A massa não leva ovos. Use saco resistente com bico pitanga ou aparelho de churros; sirva doce de leite à parte.",
+  "categoryIds": [
+    "airfryer",
+    "doces",
+    "lanches"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/churros-airfryer.webp",
+    "alt": "Imagem ilustrativa: Minichurros dourados com açúcar e canela e doce de leite à parte"
+  },
+  "publishedAt": "2026-11-04T11:45:42Z",
+  "updatedAt": "2026-11-04T11:45:42Z",
+  "seo": {
+    "title": "Minichurros na airfryer com açúcar e canela | Bebel",
+    "description": "Minichurros na airfryer com massa cozida na panela e açúcar com canela. Veja como modelar, pincelar e virar para dourar por igual."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 22,
+      "unit": "unidade"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 1 minuto para cozinhar a massa após misturar e aproximadamente 10 minutos por leva a 200 °C, além de ferver e modelar.",
+    "ingredients": [
+      {
+        "id": "farinha",
+        "name": "Farinha de trigo",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "manteiga",
+        "name": "Manteiga",
+        "quantity": 0.5,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "agua",
+        "name": "Água",
+        "quantity": 0.5,
+        "unit": "xícara (chá)",
+        "shopping": false
+      },
+      {
+        "id": "leite",
+        "name": "Leite integral",
+        "quantity": 0.5,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar para a massa",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 1,
+        "unit": "pitada"
+      },
+      {
+        "id": "acucar-final",
+        "name": "Açúcar para polvilhar",
+        "quantity": 3,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "canela",
+        "name": "Canela em pó",
+        "quantity": 0.5,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "oleo",
+        "name": "Óleo para untar e pincelar",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "doce",
+        "name": "Doce de leite para acompanhar",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Ferva água, leite, açúcar da massa, sal e manteiga. Fora do fogo, coloque a farinha de uma vez e misture até ficar uniforme."
+      },
+      {
+        "id": "passo-2",
+        "text": "Volte ao fogo e mexa por cerca de 1 minuto, até formar uma película no fundo. Transfira a massa ainda quente com cuidado para o aparelho próprio ou saco resistente com bico pitanga."
+      },
+      {
+        "id": "passo-3",
+        "text": "Modele 22 minichurros sobre uma superfície untada. Pincele óleo e acomode no cesto em uma camada, com espaço entre eles."
+      },
+      {
+        "id": "passo-4",
+        "text": "Asse a 200 °C por cerca de 10 minutos por leva, virando na metade. Confira a cor e ajuste o tempo conforme espessura e aparelho."
+      },
+      {
+        "id": "passo-5",
+        "text": "Misture o açúcar final com canela, envolva os minichurros ainda mornos e sirva com doce de leite à parte."
+      }
+    ],
+    "equipment": [
+      "Panela, colher firme e pincel culinário",
+      "Aparelho de churros ou saco resistente com bico pitanga",
+      "Airfryer, travessa e medidores"
+    ],
+    "tips": [
+      {
+        "title": "Massa firme exige cuidado",
+        "text": "Use acessório resistente e proteja as mãos do calor; saco fino pode romper."
+      },
+      {
+        "title": "Uma camada por leva",
+        "text": "Não empilhe os churros; a circulação do ar ajuda a dourar."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Distribua em recipientes rasos e refrigere em até 2 horas. Guarde a 4 °C ou menos e consuma em até 2 dias."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça somente a porção que vai consumir até atingir 74 °C no centro."
+      },
+      {
+        "title": "Melhor textura",
+        "text": "Sirva logo após preparar. Se guardar, mantenha sem a cobertura e aqueça até recuperar a textura, depois polvilhe."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T11:45:42Z"
+  },
+  "sources": [
+    {
+      "title": "Receiteria — minichurros na airfryer",
+      "url": "https://www.receiteria.com.br/receita/minichurros-na-airfryer/",
+      "role": "22 unidades; massa sem ovos com leite e água; óleo do método, 200 °C por cerca de 10 minutos."
+    },
+    {
+      "title": "Health Canada — conservação de sobras",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento rápido, refrigeração e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Óleo do método listado; acompanhamento delimitado a doce de leite, sem inventar quantidade/recheio injetado. Tempo por leva, não todo lote em dez minutos.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

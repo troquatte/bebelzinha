@@ -1,0 +1,166 @@
+{
+  "id": "bolo-de-maracuja",
+  "slug": "bolo-de-maracuja",
+  "title": "Bolo de maracujá com cobertura de leite condensado",
+  "description": "Bolo de maracujá com suco concentrado e cobertura de leite condensado batido com a fruta. Veja a montagem em forma redonda de 23 cm.",
+  "intro": "A massa leva suco concentrado; a cobertura é preparada separadamente com leite condensado e a polpa da fruta.",
+  "categoryIds": [
+    "doces",
+    "forno",
+    "lanches"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/bolo-maracuja.webp",
+    "alt": "Imagem ilustrativa: Bolo redondo de maracujá com cobertura clara de leite condensado e pequenos pontos de sementes"
+  },
+  "publishedAt": "2026-11-03T23:34:25Z",
+  "updatedAt": "2026-11-03T23:34:25Z",
+  "seo": {
+    "title": "Bolo de maracujá com cobertura de leite condensado | Bebel",
+    "description": "Bolo de maracujá com suco concentrado e cobertura de leite condensado batido com a fruta. Veja a montagem em forma redonda de 23 cm."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 10,
+      "unit": "fatia"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 30 a 35 minutos a 180 °C, além do preparo e do resfriamento.",
+    "ingredients": [
+      {
+        "id": "ovos",
+        "name": "Ovos",
+        "quantity": 3,
+        "unit": "unidades"
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar",
+        "quantity": 270,
+        "unit": "g"
+      },
+      {
+        "id": "oleo",
+        "name": "Óleo",
+        "quantity": 120,
+        "unit": "ml"
+      },
+      {
+        "id": "suco",
+        "name": "Suco concentrado de maracujá",
+        "quantity": 240,
+        "unit": "ml"
+      },
+      {
+        "id": "farinha",
+        "name": "Farinha de trigo",
+        "quantity": 295,
+        "unit": "g"
+      },
+      {
+        "id": "fermento",
+        "name": "Fermento químico em pó",
+        "quantity": 10,
+        "unit": "g"
+      },
+      {
+        "id": "condensado",
+        "name": "Leite condensado para a cobertura",
+        "quantity": 395,
+        "unit": "g"
+      },
+      {
+        "id": "maracuja",
+        "name": "Maracujá para a cobertura",
+        "quantity": 1,
+        "unit": "unidade",
+        "note": "Use a polpa com as sementes."
+      },
+      {
+        "id": "manteiga",
+        "name": "Manteiga para untar",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "farinha-untar",
+        "name": "Farinha para enfarinhar",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Preaqueça o forno a 180 °C. Unte e enfarinhe uma forma redonda de 23 cm."
+      },
+      {
+        "id": "passo-2",
+        "text": "Bata ovos, óleo, suco concentrado e açúcar no liquidificador por cerca de 3 minutos."
+      },
+      {
+        "id": "passo-3",
+        "text": "Passe para uma tigela e incorpore farinha e fermento, mexendo até ficar uniforme."
+      },
+      {
+        "id": "passo-4",
+        "text": "Despeje na forma e asse por cerca de 30 a 35 minutos. Confira o centro com um palito: ele deve sair sem massa crua. Deixe esfriar."
+      },
+      {
+        "id": "passo-5",
+        "text": "Para a cobertura, bata o leite condensado com a polpa do maracujá, incluindo as sementes. Espalhe sobre o bolo frio."
+      }
+    ],
+    "equipment": [
+      "Forma redonda de 23 cm",
+      "Liquidificador, tigela e espátula",
+      "Balança, medidor de líquidos e palito"
+    ],
+    "tips": [
+      {
+        "title": "Suco concentrado",
+        "text": "Não substitua a mesma quantidade por refresco pronto diluído."
+      },
+      {
+        "title": "Bolo frio",
+        "text": "Espere esfriar antes de espalhar a cobertura."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Guarde prontamente em recipiente fechado, a 4 °C ou menos, por até 2 dias. Não deixe mais de 2 horas fora de refrigeração."
+      },
+      {
+        "title": "Para servir",
+        "text": "Retire somente a quantidade desejada com utensílio limpo e mantenha o restante refrigerado."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T23:34:25Z"
+  },
+  "sources": [
+    {
+      "title": "Receiteria — bolo com cobertura de maracujá",
+      "url": "https://www.receiteria.com.br/receita/bolo-com-cobertura-de-maracuja/",
+      "role": "Dez fatias, forma 23 cm, massa e cobertura com polpa."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Formulação de Synthia Ferreira: 270 g açúcar,120 ml óleo,240 ml suco,295 g farinha,10 g fermento. Não misturar outras versões.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

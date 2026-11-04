@@ -1,0 +1,184 @@
+{
+  "id": "salada-de-brocolis",
+  "slug": "salada-de-brocolis",
+  "title": "Salada de brócolis com manga, abacate e molho balsâmico",
+  "description": "Salada de brócolis com manga, abacate, repolho-roxo e cenoura. Veja o molho de balsâmico, limão e gergelim, sem maionese.",
+  "intro": "O brócolis cozido se junta às folhas e frutas somente depois de esfriar.",
+  "categoryIds": [
+    "acompanhamentos"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/salada-brocolis.webp",
+    "alt": "Imagem ilustrativa: Salada de brócolis, alface, repolho-roxo, cenoura, manga e abacate"
+  },
+  "publishedAt": "2026-11-04T00:51:32Z",
+  "updatedAt": "2026-11-04T00:51:32Z",
+  "seo": {
+    "title": "Salada de brócolis com manga, abacate e molho balsâmico | Bebel",
+    "description": "Salada de brócolis com manga, abacate, repolho-roxo e cenoura. Veja o molho de balsâmico, limão e gergelim, sem maionese."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 6,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Brócolis: cerca de 10 a 15 minutos, conferindo para ficar firme, além da higienização e dos cortes.",
+    "ingredients": [
+      {
+        "id": "alface",
+        "name": "Alface",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "id": "repolho",
+        "name": "Repolho-roxo",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "id": "brocolis",
+        "name": "Brócolis",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "id": "cenoura",
+        "name": "Cenoura",
+        "quantity": 80,
+        "unit": "g"
+      },
+      {
+        "id": "abacate",
+        "name": "Polpa de abacate",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "id": "manga",
+        "name": "Polpa de manga",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "id": "sal",
+        "name": "Sal de ervas ou sal comum",
+        "quantity": 0.5,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": 3,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "vinagre",
+        "name": "Vinagre balsâmico",
+        "quantity": 2,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "limao",
+        "name": "Suco de limão",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "gergelim",
+        "name": "Gergelim misto",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "salsa",
+        "name": "Salsa picada",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-da-jamaica",
+        "quantity": 0.25,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "agua",
+        "name": "Água para cozinhar o brócolis",
+        "quantity": null,
+        "unit": "a gosto",
+        "shopping": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Higienize e seque folhas, vegetais e frutas. Fatie o repolho e separe pequenos floretes de brócolis."
+      },
+      {
+        "id": "passo-2",
+        "text": "Cozinhe o brócolis por cerca de 10 a 15 minutos, verificando antes para que fique macio, mas firme. Escorra e deixe esfriar."
+      },
+      {
+        "id": "passo-3",
+        "text": "Rale a cenoura, pique a alface e corte manga e abacate em fatias. Reúna com repolho e brócolis frio."
+      },
+      {
+        "id": "passo-4",
+        "text": "Misture sal, azeite, balsâmico, limão, gergelim, salsa e pimenta. Regue a salada na hora de servir e mexa delicadamente."
+      }
+    ],
+    "equipment": [
+      "Panela, escorredor e saladeira",
+      "Tábua, faca, ralador e balança",
+      "Tigela pequena e colheres medidoras"
+    ],
+    "tips": [
+      {
+        "title": "Brócolis frio",
+        "text": "Não coloque floretes quentes sobre folhas e frutas."
+      },
+      {
+        "title": "Porções de fruta",
+        "text": "Use 50 g de polpa de cada fruta, não um abacate inteiro."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Sirva fresca",
+        "text": "Mantenha refrigerada até servir. Para adiantar, guarde o molho separado e misture apenas na refeição."
+      },
+      {
+        "title": "Se sobrar",
+        "text": "Refrigere em recipiente fechado, a 4 °C ou menos, e consuma até o dia seguinte. Não deixe mais de 2 horas fora da geladeira."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T00:51:32Z"
+  },
+  "sources": [
+    {
+      "title": "Receiteria — salada de brócolis",
+      "url": "https://www.receiteria.com.br/receita/salada-de-brocolis/",
+      "role": "Seis porções, frutas, vegetais e molho balsâmico com gergelim."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Refrigeração, resfriamento e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Fonte associa unidades de fruta a 50 g: priorizados pesos explícitos para evitar um abacate inteiro. Não usar receita colorida com pistache/parmesão.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

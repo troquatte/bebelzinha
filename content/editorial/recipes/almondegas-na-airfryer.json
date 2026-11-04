@@ -1,0 +1,177 @@
+{
+  "id": "almondegas-na-airfryer",
+  "slug": "almondegas-na-airfryer",
+  "title": "Almôndegas na airfryer com hortelã e raspas de limão",
+  "description": "Almôndegas pequenas na airfryer com patinho, farinha de rosca, hortelã e limão. Veja como dar liga, modelar e virar para dourar por igual.",
+  "intro": "As bolinhas são pequenas e servem como aperitivo. Amasse bem a mistura para dar liga, sem precisar acrescentar ovo.",
+  "categoryIds": [
+    "airfryer",
+    "lanches",
+    "pratos-do-dia"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/almondegas-airfryer.webp",
+    "alt": "Imagem ilustrativa: Almôndegas pequenas douradas com salsinha e hortelã, sem molho"
+  },
+  "publishedAt": "2026-11-04T12:23:52Z",
+  "updatedAt": "2026-11-04T12:23:52Z",
+  "seo": {
+    "title": "Almôndegas na airfryer com hortelã e raspas de limão | Bebel",
+    "description": "Almôndegas pequenas na airfryer com patinho, farinha de rosca, hortelã e limão. Veja como dar liga, modelar e virar para dourar por igual."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 36,
+      "unit": "unidade"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 2 minutos para amassar e 20 minutos a 200 °C, além de picar e modelar. Ajuste as levas ao cesto e confira o cozimento do centro.",
+    "ingredients": [
+      {
+        "id": "carne",
+        "name": "Patinho moído",
+        "quantity": 500,
+        "unit": "g"
+      },
+      {
+        "id": "cebola",
+        "name": "Cebola",
+        "quantity": 0.5,
+        "unit": "unidade"
+      },
+      {
+        "id": "alho",
+        "name": "Alho",
+        "quantity": 2,
+        "unit": "dentes"
+      },
+      {
+        "id": "rosca",
+        "name": "Farinha de rosca",
+        "quantity": 0.25,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "cominho",
+        "name": "Cominho em pó",
+        "quantity": 0.5,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 1,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "salsinha",
+        "name": "Salsinha",
+        "quantity": 8,
+        "unit": "ramos"
+      },
+      {
+        "id": "hortela",
+        "name": "Hortelã",
+        "quantity": 4,
+        "unit": "ramos"
+      },
+      {
+        "id": "limao",
+        "name": "Limão para raspar",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite para mãos e pincelar",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "ervas",
+        "name": "Folhas de salsinha e hortelã para servir",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Pique cebola, alho e ervas bem fino. Raspe só a parte colorida da casca do limão."
+      },
+      {
+        "id": "passo-2",
+        "text": "Misture carne, cebola, alho, farinha, cominho, sal, pimenta, ervas e raspas. Amasse por cerca de 2 minutos e compacte para dar liga."
+      },
+      {
+        "id": "passo-3",
+        "text": "Unte as mãos e modele cerca de 36 bolinhas pequenas, de aproximadamente 2 cm. Pincele azeite."
+      },
+      {
+        "id": "passo-4",
+        "text": "Preaqueça airfryer a 200 °C. Acomode conforme capacidade do cesto, sem compactar; faça levas se necessário. Asse por cerca de 20 minutos, virando e redistribuindo na metade."
+      },
+      {
+        "id": "passo-5",
+        "text": "Confira se o centro está cozido por inteiro, ajuste tempo se necessário e sirva com ervas frescas."
+      }
+    ],
+    "equipment": [
+      "Tigela grande, faca e tábua",
+      "Ralador fino, pincel e pinça",
+      "Airfryer"
+    ],
+    "tips": [
+      {
+        "title": "Liga sem ovo",
+        "text": "Amasse bem e modele firme, usando a farinha indicada."
+      },
+      {
+        "title": "Tamanho uniforme",
+        "text": "Bolinhas maiores precisam de outro tempo; mantenha pequenas e confira o centro."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Divida em recipientes rasos e refrigere em até 2 horas. Guarde a 4 °C ou menos por até 2 dias."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça só o que vai consumir até atingir 74 °C no centro."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T12:23:52Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — almôndega aperitivo na airfryer",
+      "url": "https://panelinha.com.br/receita/almondega-aperitivo-airfryer",
+      "role": "36 unidades/6 porções; patinho500g, ervas e limão, sem ovo; 200°C20min."
+    },
+    {
+      "title": "Health Canada — conservação de sobras",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Refrigeração rápida, consumo de sobras e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Sem molho de iogurte opcional da fonte nem molho/arroz do produto pago. Fonte empilha no modelo próprio de airfryer; orientação por capacidade e levas adaptada sem prometer tempo universal.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

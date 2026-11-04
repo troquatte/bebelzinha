@@ -1,0 +1,164 @@
+{
+  "id": "bolo-de-ricota",
+  "slug": "bolo-de-ricota",
+  "title": "Bolo de ricota de liquidificador com geleia de morango",
+  "description": "Bolo de ricota com leite condensado, feito no liquidificador e servido com geleia de morango. Veja a ordem da mistura e o forno a 180 °C.",
+  "intro": "A geleia entra ao servir; o fermento é misturado por último, com uma pulsada breve.",
+  "categoryIds": [
+    "doces",
+    "forno",
+    "lanches"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/bolo-ricota.webp",
+    "alt": "Imagem ilustrativa: Bolo baixo de ricota com miolo claro e geleia de morango sobre a fatia"
+  },
+  "publishedAt": "2026-11-04T00:51:32Z",
+  "updatedAt": "2026-11-04T00:51:32Z",
+  "seo": {
+    "title": "Bolo de ricota de liquidificador com geleia de morango | Bebel",
+    "description": "Bolo de ricota com leite condensado, feito no liquidificador e servido com geleia de morango. Veja a ordem da mistura e o forno a 180 °C."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 9,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 35,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 35 minutos em forno preaquecido a 180 °C, além da mistura e do resfriamento.",
+    "ingredients": [
+      {
+        "id": "farinha",
+        "name": "Farinha de trigo",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "ricota",
+        "name": "Ricota",
+        "quantity": 225,
+        "unit": "g"
+      },
+      {
+        "id": "leite",
+        "name": "Leite",
+        "quantity": 0.75,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "condensado",
+        "name": "Leite condensado",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar",
+        "quantity": 0.25,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "ovos",
+        "name": "Ovos",
+        "quantity": 2,
+        "unit": "unidades"
+      },
+      {
+        "id": "manteiga",
+        "name": "Manteiga para a massa",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "fermento",
+        "name": "Fermento químico em pó",
+        "quantity": 0.5,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "geleia",
+        "name": "Geleia de morango para servir",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "manteiga-untar",
+        "name": "Manteiga para untar",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Preaqueça a 180 °C e unte uma forma que comporte a massa com espaço para crescer."
+      },
+      {
+        "id": "passo-2",
+        "text": "Bata farinha, ricota, leite, leite condensado, açúcar, ovos e manteiga no liquidificador até ficar uniforme."
+      },
+      {
+        "id": "passo-3",
+        "text": "Acrescente fermento e pulse rapidamente, somente para incorporar."
+      },
+      {
+        "id": "passo-4",
+        "text": "Transfira para a forma e asse cerca de 35 minutos, até firmar e assar no centro."
+      },
+      {
+        "id": "passo-5",
+        "text": "Deixe esfriar e sirva com a geleia de morango."
+      }
+    ],
+    "equipment": [
+      "Liquidificador e forma para bolo",
+      "Balança, medidores e espátula"
+    ],
+    "tips": [
+      {
+        "title": "Geleia separada",
+        "text": "Não bata a geleia junto com a massa."
+      },
+      {
+        "title": "Fermento por último",
+        "text": "Depois de acrescentá-lo, evite bater por muito tempo."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Guarde em recipiente fechado, a 4 °C ou menos, por até 2 dias. Refrigere em até 2 horas após o preparo."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça somente a porção que vai consumir até 74 °C no centro."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T00:51:32Z"
+  },
+  "sources": [
+    {
+      "title": "Receiteria — bolo de ricota com geleia de morango",
+      "url": "https://www.receiteria.com.br/receita/bolo-de-ricota-com-geleia-de-morango/",
+      "role": "Fórmula de Jê Viecili, 8 a 10 porções e forno a 180 °C."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Refrigeração, resfriamento e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Rendimento central 9. Texto completo oficial recuperado via busca; acesso direto falhou. Tamanho de forma não documentado, não inventado. Geleia publicada no portal permite link relacionado automático.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

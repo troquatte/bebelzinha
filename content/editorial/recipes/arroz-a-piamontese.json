@@ -1,0 +1,158 @@
+{
+  "id": "arroz-a-piamontese",
+  "slug": "arroz-a-piamontese",
+  "title": "Arroz à piamontese com champignon e muçarela",
+  "description": "Arroz à piamontese com arroz já cozido, champignon, muçarela e creme de leite. Faça o refogado e misture o creme no final para servir bem cremoso.",
+  "intro": "Tenha o arroz pronto antes de começar. Esta é uma finalização cremosa para duas porções de acompanhamento, sem preparo de risoto.",
+  "categoryIds": [
+    "acompanhamentos"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/arroz-piamontese.webp",
+    "alt": "Imagem ilustrativa: Arroz branco cremoso com champignon fatiado e salsinha"
+  },
+  "publishedAt": "2026-11-04T12:23:52Z",
+  "updatedAt": "2026-11-04T12:23:52Z",
+  "seo": {
+    "title": "Arroz à piamontese com champignon e muçarela | Bebel",
+    "description": "Arroz à piamontese com arroz já cozido, champignon, muçarela e creme de leite. Faça o refogado e misture o creme no final para servir bem cremoso."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 2,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "O tempo não inclui cozinhar o arroz. Depois do refogado, champignon por 1 minuto e creme por cerca de 30 segundos; aqueça todo o arroz por completo.",
+    "ingredients": [
+      {
+        "id": "manteiga",
+        "name": "Manteiga",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "alho",
+        "name": "Alho",
+        "quantity": 2,
+        "unit": "dentes"
+      },
+      {
+        "id": "cogumelo",
+        "name": "Champignon",
+        "quantity": 80,
+        "unit": "g"
+      },
+      {
+        "id": "arroz",
+        "name": "Arroz branco já cozido",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "queijo",
+        "name": "Muçarela ralada",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "id": "creme",
+        "name": "Creme de leite",
+        "quantity": 0.25,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "salsinha",
+        "name": "Salsinha",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Fatie champignon e pique alho e salsinha. Separe o arroz cozido."
+      },
+      {
+        "id": "passo-2",
+        "text": "Derreta manteiga em fogo baixo e refogue alho sem deixar queimar. Acrescente champignon por cerca de 1 minuto."
+      },
+      {
+        "id": "passo-3",
+        "text": "Junte arroz e aqueça, misturando. Coloque muçarela e mexa até derreter."
+      },
+      {
+        "id": "passo-4",
+        "text": "Incorpore creme de leite por cerca de 30 segundos, sem secar. Ajuste sal e pimenta, finalize com salsinha e sirva imediatamente."
+      }
+    ],
+    "equipment": [
+      "Panela de fundo largo",
+      "Faca, tábua e espátula",
+      "Xícara e colher medidoras"
+    ],
+    "tips": [
+      {
+        "title": "Arroz pronto",
+        "text": "A xícara indicada é de arroz cozido; não use a mesma quantidade crua."
+      },
+      {
+        "title": "Sirva na hora",
+        "text": "O creme continua sendo absorvido pelos grãos quando esfria."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Arroz fresco ou bem conservado",
+        "text": "Se usar sobras, elas devem ter sido refrigeradas rapidamente e estar dentro de 24 horas do cozimento. Esta finalização já conta como reaquecimento: prepare só o que vai consumir."
+      },
+      {
+        "title": "Se começar com arroz recém-cozido",
+        "text": "Resfrie eventual sobra em até 1 hora, guarde na geladeira e consuma dentro de 24 horas do cozimento original; reaqueça uma única vez."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T12:23:52Z"
+  },
+  "sources": [
+    {
+      "title": "Receiteria — arroz à piamontese",
+      "url": "https://www.receiteria.com.br/receita/arroz-a-piamontese/",
+      "role": "Duas porções; arroz já cozido, champignon 80 g, muçarela 50 g e creme 1/4 de xícara."
+    },
+    {
+      "title": "Food Standards Agency — arroz",
+      "url": "https://www.gov.uk/government/publications/home-food-fact-checker/home-food-fact-checker",
+      "role": "Resfriar arroz rapidamente, consumir em 24 horas e reaquecer uma vez."
+    },
+    {
+      "title": "Health Canada — conservação de sobras",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Refrigeração rápida, consumo de sobras e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Cebola opcional e outras ervas da fonte não adotadas. Conservação não reinicia validade ao misturar leite; não sugerir segundo reaquecimento.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "id": "salada-de-feijao-fradinho",
+  "slug": "salada-de-feijao-fradinho",
+  "title": "Salada de feijão-fradinho com quiabo, tomate e coentro",
+  "description": "Salada de feijão-fradinho com quiabo dourado, tomate e coentro. Confira o cozimento do feijão e como secar o quiabo antes de fritar.",
+  "intro": "O feijão precisa ficar macio sem desmanchar, e o quiabo entra dourado em rodelas.",
+  "categoryIds": [
+    "acompanhamentos"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/salada-feijao-fradinho.webp",
+    "alt": "Imagem ilustrativa: Salada de feijão-fradinho com quiabo dourado, tomate, cebola-roxa e coentro"
+  },
+  "publishedAt": "2026-11-03T23:34:25Z",
+  "updatedAt": "2026-11-03T23:34:25Z",
+  "seo": {
+    "title": "Salada de feijão-fradinho com quiabo, tomate e coentro | Bebel",
+    "description": "Salada de feijão-fradinho com quiabo dourado, tomate e coentro. Confira o cozimento do feijão e como secar o quiabo antes de fritar."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 4,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Feijão: cerca de 10 minutos depois de pegar pressão. Quiabo: cerca de 5 minutos por leva, além dos cortes e resfriamento.",
+    "ingredients": [
+      {
+        "id": "feijao",
+        "name": "Feijão-fradinho cru",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "quiabo",
+        "name": "Quiabo",
+        "quantity": 400,
+        "unit": "g"
+      },
+      {
+        "id": "cebola",
+        "name": "Cebola-roxa",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "tomate",
+        "name": "Tomate",
+        "quantity": 2,
+        "unit": "unidades"
+      },
+      {
+        "id": "oleo",
+        "name": "Óleo para fritar o quiabo",
+        "quantity": 0.3333333333333333,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "vinagre",
+        "name": "Vinagre",
+        "quantity": 2,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": 0.25,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "coentro",
+        "name": "Coentro picado",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "agua",
+        "name": "Água para cozinhar o feijão",
+        "quantity": null,
+        "unit": "a gosto",
+        "note": "Respeite o limite do manual da panela para grãos.",
+        "shopping": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Lave o feijão, coloque na panela de pressão e cubra com água, respeitando o limite indicado no manual para grãos. Tampe e leve ao fogo."
+      },
+      {
+        "id": "passo-2",
+        "text": "Ao pegar pressão, abaixe o fogo e conte cerca de 10 minutos. Desligue, espere a pressão sair completamente conforme o manual e só então abra. Escorra e passe brevemente por água fria."
+      },
+      {
+        "id": "passo-3",
+        "text": "Lave e seque muito bem os quiabos. Descarte as pontas e corte rodelas de cerca de 1 cm."
+      },
+      {
+        "id": "passo-4",
+        "text": "Aqueça o óleo na frigideira. Doure o quiabo em duas levas, por cerca de 5 minutos cada. Escorra em papel de cozinha."
+      },
+      {
+        "id": "passo-5",
+        "text": "Pique a cebola, corte os tomates sem sementes e misture ao feijão com o quiabo e o coentro. Tempere com vinagre, azeite, sal e pimenta. Sirva ou refrigere até a refeição."
+      }
+    ],
+    "equipment": [
+      "Panela de pressão e escorredor",
+      "Frigideira, escumadeira e papel de cozinha",
+      "Tábua, faca, tigela e medidores"
+    ],
+    "tips": [
+      {
+        "title": "Quiabo seco",
+        "text": "Seque antes de colocar no óleo para reduzir respingos."
+      },
+      {
+        "title": "Feijão inteiro",
+        "text": "Confira a maciez após a saída completa da pressão; evite amassar os grãos ao misturar."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Guarde prontamente em recipiente fechado, a 4 °C ou menos, por até 2 dias. Não deixe mais de 2 horas fora de refrigeração."
+      },
+      {
+        "title": "Para servir",
+        "text": "Retire somente a quantidade desejada com utensílio limpo e mantenha o restante refrigerado."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T23:34:25Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — salada de feijão-fradinho com quiabo",
+      "url": "https://panelinha.com.br/receita/salada-de-feijao-fradinho-com-quiabo",
+      "role": "Quatro porções, feijão cru, quiabo em duas levas e tempero."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Não reproduzir orientação de abrir válvula com garfo. Liberação de pressão e limite de grãos seguem manual do equipamento.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

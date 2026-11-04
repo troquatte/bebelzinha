@@ -1,0 +1,163 @@
+{
+  "id": "fricasse-de-frango",
+  "slug": "fricasse-de-frango",
+  "title": "Fricassê de frango com creme de milho e batata palha",
+  "description": "Fricassê de frango desfiado com milho, requeijão e muçarela gratinada. A batata palha vai no final para ficar crocante na hora de servir.",
+  "intro": "Comece com o frango já cozido, desfiado e temperado. O creme é batido no liquidificador antes de ir à panela e ao forno.",
+  "categoryIds": [
+    "pratos-do-dia",
+    "forno"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/fricasse-frango.webp",
+    "alt": "Imagem ilustrativa: Fricassê cremoso de frango com queijo gratinado e batata palha"
+  },
+  "publishedAt": "2026-11-04T02:50:52Z",
+  "updatedAt": "2026-11-04T02:50:52Z",
+  "seo": {
+    "title": "Fricassê de frango com creme de milho e batata palha | Bebel",
+    "description": "Fricassê de frango desfiado com milho, requeijão e muçarela gratinada. A batata palha vai no final para ficar crocante na hora de servir."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 8,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 22,
+      "totalMinutes": null
+    },
+    "timeNote": "Com o frango pronto, cerca de 2 minutos para engrossar o creme e 20 no forno, além da montagem e do preaquecimento.",
+    "ingredients": [
+      {
+        "id": "milho",
+        "name": "Milho-verde em conserva escorrido",
+        "quantity": 170,
+        "unit": "g"
+      },
+      {
+        "id": "requeijao",
+        "name": "Requeijão cremoso",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "id": "creme",
+        "name": "Creme de leite",
+        "quantity": 300,
+        "unit": "g"
+      },
+      {
+        "id": "agua",
+        "name": "Água",
+        "quantity": 250,
+        "unit": "ml",
+        "shopping": false
+      },
+      {
+        "id": "frango",
+        "name": "Peito de frango cozido, desfiado e temperado",
+        "quantity": 500,
+        "unit": "g"
+      },
+      {
+        "id": "azeitona",
+        "name": "Azeitona sem caroço",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "mucarela",
+        "name": "Muçarela ralada",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "id": "batata",
+        "name": "Batata palha",
+        "quantity": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Preaqueça o forno a 180 °C. Separe o frango pronto e pique as azeitonas."
+      },
+      {
+        "id": "passo-2",
+        "text": "Bata milho, requeijão, creme de leite e água no liquidificador até obter um creme uniforme."
+      },
+      {
+        "id": "passo-3",
+        "text": "Leve o creme à panela com frango e azeitonas. Mexa em fogo médio por cerca de 2 minutos, até encorpar; prove e ajuste o sal."
+      },
+      {
+        "id": "passo-4",
+        "text": "Espalhe no refratário e cubra com muçarela. Asse por aproximadamente 20 minutos, até gratinar e ficar quente no centro."
+      },
+      {
+        "id": "passo-5",
+        "text": "Retire e espalhe a batata palha somente na hora de servir."
+      }
+    ],
+    "equipment": [
+      "Liquidificador e panela grande",
+      "Refratário médio próprio para forno",
+      "Espátula, faca e balança"
+    ],
+    "tips": [
+      {
+        "title": "Frango pronto",
+        "text": "Os 500 g correspondem ao frango já cozido e desfiado, não ao peso cru."
+      },
+      {
+        "title": "Creme e cobertura",
+        "text": "Espere o creme encorpar na panela e reserve a batata palha para o último momento."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Divida em recipientes rasos, refrigere em até 2 horas e guarde a 4 °C ou menos por até 2 dias."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça apenas o que for servir, até atingir 74 °C no centro."
+      },
+      {
+        "title": "Batata palha separada",
+        "text": "Guarde sem a cobertura crocante e acrescente uma nova porção após reaquecer."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T02:50:52Z"
+  },
+  "sources": [
+    {
+      "title": "Receiteria — fricassê de frango fácil",
+      "url": "https://www.receiteria.com.br/receita/fricasse-de-frango-facil/",
+      "role": "Oito porções, milho 170 g, requeijão 200 g, creme 300 g, frango pronto 500 g e forno 180 °C."
+    },
+    {
+      "title": "Health Canada — conservação de sobras",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Refrigeração em até 2 horas, armazenamento a 4 °C ou menos e reaquecimento a 74 °C."
+    }
+  ],
+  "editorialNotes": [
+    "Formulação brasileira cremosa, não fricassé francês. Frango é pré-preparado: tempo não inclui cozimento. Enfeites e fio de azeite opcionais finais não adotados.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

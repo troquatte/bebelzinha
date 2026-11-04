@@ -1,0 +1,177 @@
+{
+  "id": "bolinho-de-mandioca-na-airfryer",
+  "slug": "bolinho-de-mandioca-na-airfryer",
+  "title": "Bolinho de mandioca na airfryer recheado com carne-seca",
+  "description": "Bolinho de mandioca na airfryer com recheio de carne-seca e muçarela. Confira a massa fria, os descansos e a finalização a 200 °C.",
+  "intro": "A carne-seca entra já dessalgada, cozida e desfiada. A massa e o recheio precisam esfriar antes de modelar.",
+  "categoryIds": [
+    "airfryer",
+    "lanches"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/bolinho-mandioca-airfryer.webp",
+    "alt": "Imagem ilustrativa: Bolinhos de mandioca dourados, um aberto com carne-seca e muçarela"
+  },
+  "publishedAt": "2026-11-04T02:32:27Z",
+  "updatedAt": "2026-11-04T02:32:27Z",
+  "seo": {
+    "title": "Bolinho de mandioca na airfryer recheado com carne-seca | Bebel",
+    "description": "Bolinho de mandioca na airfryer com recheio de carne-seca e muçarela. Confira a massa fria, os descansos e a finalização a 200 °C."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 30,
+      "unit": "bolinhos"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Mandioca:25 minutos após pegar pressão. Massa:1 hora de geladeira; bolinhos:mais 20 minutos. Airfryer:8 minutos a 200 °C por leva.",
+    "ingredients": [
+      {
+        "id": "mandioca",
+        "name": "Mandioca descascada",
+        "quantity": 700,
+        "unit": "g"
+      },
+      {
+        "id": "farinha",
+        "name": "Farinha de trigo",
+        "quantity": 45,
+        "unit": "g"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 0.5,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "parmesao",
+        "name": "Parmesão ralado",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "id": "carne",
+        "name": "Carne-seca dessalgada, cozida e desfiada",
+        "quantity": 300,
+        "unit": "g"
+      },
+      {
+        "id": "manteiga",
+        "name": "Manteiga",
+        "quantity": 20,
+        "unit": "g"
+      },
+      {
+        "id": "tomate",
+        "name": "Tomate médio",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "cebola",
+        "name": "Cebola média",
+        "quantity": 0.5,
+        "unit": "unidade"
+      },
+      {
+        "id": "mucarela",
+        "name": "Muçarela ralada",
+        "quantity": 120,
+        "unit": "g"
+      },
+      {
+        "id": "cheiro",
+        "name": "Cheiro-verde",
+        "quantity": 2,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite para untar e pincelar",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "agua",
+        "name": "Água para cozinhar a mandioca",
+        "quantity": null,
+        "unit": "a gosto",
+        "shopping": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Cubra a mandioca com água na pressão, respeitando o manual. Cozinhe 25 minutos após pegar pressão. Espere sair naturalmente, escorra e retire os fios centrais. Amasse e refrigere por 1 hora."
+      },
+      {
+        "id": "passo-2",
+        "text": "Misture parmesão, sal e farinha ao purê frio, incorporando aos poucos."
+      },
+      {
+        "id": "passo-3",
+        "text": "Refogue cebola na manteiga por 1 minuto e tomate picado por 5. Junte carne-seca pronta e cheiro-verde. Deixe esfriar e incorpore a muçarela."
+      },
+      {
+        "id": "passo-4",
+        "text": "Com mãos untadas, abra pequenas porções da massa, recheie e feche em bolinhas. Refrigere 20 minutos."
+      },
+      {
+        "id": "passo-5",
+        "text": "Unte a cesta, distribua sem amontoar e pincele azeite. Asse a 200 °C por cerca de 8 minutos, até dourar levemente e aquecer o centro. Faça em levas."
+      }
+    ],
+    "equipment": [
+      "Panela de pressão, peneira e amassador",
+      "Panela para o recheio e tigelas",
+      "Airfryer, pincel, tábua, faca e balança"
+    ],
+    "tips": [
+      {
+        "title": "Recheio pronto",
+        "text": "O tempo da ficha não inclui dessalgar e cozinhar a carne-seca."
+      },
+      {
+        "title": "Massa fria",
+        "text": "Respeite os descansos para facilitar fechar os bolinhos."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Guarde em recipiente fechado, a 4 °C ou menos, por até 2 dias. Refrigere em até 2 horas após preparar."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça somente a quantidade que vai consumir até 74 °C no centro."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T02:32:27Z"
+  },
+  "sources": [
+    {
+      "title": "Receiteria — bolinho de mandioca na air fryer",
+      "url": "https://www.receiteria.com.br/receita/bolinho-de-mandioca-na-air-fryer/",
+      "role": "Trinta unidades, massa refrigerada e recheio de carne-seca."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Azeite consta no método original e foi incluído na lista. Sem empanado ou fórmula de mandioca simples. Carne desfiada pronta é explicitamente cozida.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

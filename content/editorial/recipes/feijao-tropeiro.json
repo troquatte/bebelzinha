@@ -1,0 +1,179 @@
+{
+  "id": "feijao-tropeiro",
+  "slug": "feijao-tropeiro",
+  "title": "Feijão tropeiro com bacon, calabresa, couve e ovos",
+  "description": "Feijão tropeiro com grãos já cozidos e escorridos, bacon, calabresa, ovos e couve. Acrescente a farinha aos poucos para ajustar a textura.",
+  "intro": "Comece com o feijão cozido, firme e sem caldo. A farinha entra no final, até deixar a mistura úmida e soltinha.",
+  "categoryIds": [
+    "pratos-do-dia",
+    "acompanhamentos"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/feijao-tropeiro.webp",
+    "alt": "Imagem ilustrativa: Feijão tropeiro com farinha, calabresa, bacon, ovos e couve"
+  },
+  "publishedAt": "2026-11-04T11:45:42Z",
+  "updatedAt": "2026-11-04T11:45:42Z",
+  "seo": {
+    "title": "Feijão tropeiro com bacon, calabresa, couve e ovos | Bebel",
+    "description": "Feijão tropeiro com grãos já cozidos e escorridos, bacon, calabresa, ovos e couve. Acrescente a farinha aos poucos para ajustar a textura."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 4,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Com o feijão pronto, reserve o tempo de dourar as carnes, refogar e cozinhar os ovos. A couve cozinha por cerca de 2 minutos; não inclui cozinhar o feijão.",
+    "ingredients": [
+      {
+        "id": "feijao",
+        "name": "Feijão cozido e escorrido",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "linguica",
+        "name": "Linguiça calabresa defumada",
+        "quantity": 2,
+        "unit": "unidades",
+        "note": "Corte em cubos pequenos."
+      },
+      {
+        "id": "bacon",
+        "name": "Bacon em cubos",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "ovo",
+        "name": "Ovo",
+        "quantity": 2,
+        "unit": "unidades"
+      },
+      {
+        "id": "cebola",
+        "name": "Cebola média",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "alho",
+        "name": "Alho",
+        "quantity": 4,
+        "unit": "dentes"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta dedo-de-moça sem sementes",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "couve",
+        "name": "Couve-manteiga fatiada fina",
+        "quantity": 2,
+        "unit": "xícaras (chá)"
+      },
+      {
+        "id": "farinha",
+        "name": "Farinha de mandioca",
+        "quantity": 1,
+        "unit": "xícara (chá)",
+        "note": "Junte aos poucos até o ponto desejado."
+      },
+      {
+        "id": "cheiro",
+        "name": "Cheiro-verde",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": null,
+        "unit": "a gosto",
+        "note": "Use um fio para o refogado, se necessário."
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Pique cebola, alho, pimenta e cheiro-verde. Deixe o feijão cozido bem escorrido."
+      },
+      {
+        "id": "passo-2",
+        "text": "Doure bacon e calabresa em fogo médio. Use um fio de azeite se necessário e refogue cebola, alho e pimenta nessa gordura."
+      },
+      {
+        "id": "passo-3",
+        "text": "Quebre os ovos em uma tigela, junte à panela e mexa até ficarem cozidos, sem parte líquida."
+      },
+      {
+        "id": "passo-4",
+        "text": "Acrescente feijão e couve. Misture em fogo baixo por cerca de 2 minutos."
+      },
+      {
+        "id": "passo-5",
+        "text": "Adicione a farinha gradualmente, mexendo para não ressecar. Ajuste o sal e finalize com cheiro-verde."
+      }
+    ],
+    "equipment": [
+      "Panela larga ou frigideira funda",
+      "Peneira para escorrer o feijão",
+      "Tigela, faca, tábua e espátula"
+    ],
+    "tips": [
+      {
+        "title": "Grãos firmes",
+        "text": "Feijão muito desmanchado vira pasta; escorra bem antes de misturar."
+      },
+      {
+        "title": "Farinha no final",
+        "text": "A quantidade usada pode variar com a umidade dos ingredientes; pare quando alcançar a textura desejada."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Distribua em recipientes rasos e refrigere em até 2 horas. Guarde a 4 °C ou menos e consuma em até 2 dias."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça somente a porção que vai consumir até atingir 74 °C no centro."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T11:45:42Z"
+  },
+  "sources": [
+    {
+      "title": "Edu Guedes — feijão tropeiro",
+      "url": "https://www.eduguedes.com.br/feijao-tropeiro-8",
+      "role": "Quatro porções; feijão já cozido, duas calabresas, bacon, ovos e couve. Conteúdo integral recuperado no índice de busca."
+    },
+    {
+      "title": "Health Canada — conservação de sobras",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento rápido, refrigeração e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Fonte recuperada integralmente em busca; página direta sem linhas legíveis. Cheiro-verde e azeite da lista incorporados ao método; não reproduzir custos/nutrição.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

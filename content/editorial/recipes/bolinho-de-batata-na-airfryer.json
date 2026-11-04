@@ -1,0 +1,169 @@
+{
+  "id": "bolinho-de-batata-na-airfryer",
+  "slug": "bolinho-de-batata-na-airfryer",
+  "title": "Bolinho de batata na airfryer com parmesão e salsinha",
+  "description": "Bolinho de batata na airfryer com parmesão, amido e casquinha de farinha de rosca. Veja como esfriar o purê e assar sem recheio.",
+  "intro": "A receita rende cerca de 20 bolinhas. A batata Asterix é cozida com casca no vapor e precisa esfriar antes de receber o ovo.",
+  "categoryIds": [
+    "airfryer",
+    "lanches"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/bolinho-batata-airfryer.webp",
+    "alt": "Imagem ilustrativa: Bolinhas de batata douradas com farinha de rosca e salsinha, sem recheio"
+  },
+  "publishedAt": "2026-11-03T23:34:25Z",
+  "updatedAt": "2026-11-03T23:34:25Z",
+  "seo": {
+    "title": "Bolinho de batata na airfryer com parmesão e salsinha | Bebel",
+    "description": "Bolinho de batata na airfryer com parmesão, amido e casquinha de farinha de rosca. Veja como esfriar o purê e assar sem recheio."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 20,
+      "unit": "bolinho"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Batatas: 20 a 25 minutos no vapor e 15 a 20 para esfriar. Airfryer: 16 a 18 minutos a 200 °C, além do preaquecimento.",
+    "ingredients": [
+      {
+        "id": "batata",
+        "name": "Batata Asterix média com casca",
+        "quantity": 3,
+        "unit": "unidades",
+        "note": "Cerca de 500 g no total."
+      },
+      {
+        "id": "ovo",
+        "name": "Ovo",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "parmesao",
+        "name": "Parmesão ralado",
+        "quantity": 0.5,
+        "unit": "xícara (chá)",
+        "note": "Cerca de 40 g."
+      },
+      {
+        "id": "amido",
+        "name": "Amido de milho",
+        "quantity": 3,
+        "unit": "colheres (sopa)",
+        "note": "Cerca de 24 g."
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 0.5,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": 1,
+        "unit": "pitada"
+      },
+      {
+        "id": "salsinha",
+        "name": "Salsinha picada",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "rosca",
+        "name": "Farinha de rosca",
+        "quantity": 0.3333333333333333,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": 1,
+        "unit": "colher (sopa)",
+        "note": "Para as mãos e a superfície dos bolinhos."
+      },
+      {
+        "id": "agua",
+        "name": "Água para o cozimento no vapor",
+        "quantity": null,
+        "unit": "a gosto",
+        "shopping": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Lave as batatas e cozinhe inteiras, com casca, no vapor por 20 a 25 minutos, até a faca entrar facilmente. Descasque, amasse e deixe esfriar por 15 a 20 minutos."
+      },
+      {
+        "id": "passo-2",
+        "text": "Misture o purê frio com ovo, parmesão, amido, sal, pimenta e salsinha."
+      },
+      {
+        "id": "passo-3",
+        "text": "Unte levemente as mãos com parte do azeite e modele cerca de 20 bolinhas. Se a massa estiver mole, refrigere por 15 minutos antes de modelar."
+      },
+      {
+        "id": "passo-4",
+        "text": "Passe na farinha de rosca e distribua o restante do azeite pela superfície. Preaqueça a airfryer a 200 °C por 5 minutos."
+      },
+      {
+        "id": "passo-5",
+        "text": "Coloque na cesta com espaço de cerca de 1 cm entre as bolinhas. Asse por 10 minutos, vire e asse mais 6 a 8 minutos, até dourar e ficar bem quente no centro. Faça em levas."
+      }
+    ],
+    "equipment": [
+      "Panela com cesto de vapor e tampa",
+      "Espremedor ou garfo, tigela e prato para empanar",
+      "Airfryer, pegador e medidores"
+    ],
+    "tips": [
+      {
+        "title": "Purê frio",
+        "text": "Não junte o ovo à batata quente."
+      },
+      {
+        "title": "Sem recheio",
+        "text": "O parmesão integra a massa. O centro é de batata, sem queijo puxando."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Guarde os bolinhos prontos em recipiente fechado, a 4 °C ou menos, por até 3 dias. Refrigere em até 2 horas."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Use a airfryer a 180 °C por cerca de 5 a 6 minutos, conferindo até aquecer a 74 °C no centro."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T23:34:25Z"
+  },
+  "sources": [
+    {
+      "title": "Receita Natureba — bolinho de batata na airfryer",
+      "url": "https://receitanatureba.com/bolinho-de-batata-na-airfryer/",
+      "role": "Amanda Rocha: cerca de 20 bolinhas, batata Asterix, resfriamento e airfryer."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "20 bolinhas não significa 20 pessoas. Fonte contradiz prazos de congelamento; omitir congelamento, manter 3 dias refrigerado. Não incluir recheio de outras fórmulas.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

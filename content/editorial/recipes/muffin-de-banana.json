@@ -1,0 +1,147 @@
+{
+  "id": "muffin-de-banana",
+  "slug": "muffin-de-banana",
+  "title": "Muffin de banana com iogurte, assado em forminhas",
+  "description": "Muffin de banana com iogurte natural integral e manteiga, assado em forminhas. Confira como apoiar o papel e assar a 200 °C.",
+  "intro": "A banana vai picada na massa. As forminhas de papel precisam ficar apoiadas em formas firmes para assar.",
+  "categoryIds": [
+    "doces",
+    "forno",
+    "lanches"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/muffin-banana.webp",
+    "alt": "Imagem ilustrativa: Muffins dourados de banana com iogurte em forminhas de papel, sem cobertura"
+  },
+  "publishedAt": "2026-11-03T23:34:25Z",
+  "updatedAt": "2026-11-03T23:34:25Z",
+  "seo": {
+    "title": "Muffin de banana com iogurte, assado em forminhas | Bebel",
+    "description": "Muffin de banana com iogurte natural integral e manteiga, assado em forminhas. Confira como apoiar o papel e assar a 200 °C."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 10,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 30,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 30 minutos em forno preaquecido a 200 °C, além da mistura e do resfriamento.",
+    "ingredients": [
+      {
+        "id": "ovos",
+        "name": "Ovos batidos",
+        "quantity": 2,
+        "unit": "unidades"
+      },
+      {
+        "id": "iogurte",
+        "name": "Iogurte natural integral",
+        "quantity": 1,
+        "unit": "pote"
+      },
+      {
+        "id": "manteiga",
+        "name": "Manteiga derretida",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "id": "banana",
+        "name": "Banana-nanica picada",
+        "quantity": 3,
+        "unit": "unidades"
+      },
+      {
+        "id": "farinha",
+        "name": "Farinha de trigo",
+        "quantity": 2,
+        "unit": "xícaras (chá)"
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar",
+        "quantity": 2,
+        "unit": "xícaras (chá)"
+      },
+      {
+        "id": "fermento",
+        "name": "Fermento químico em pó",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Preaqueça o forno a 200 °C. Encaixe forminhas de papel de 7 cm em formas de empada ou em uma assadeira própria para muffins."
+      },
+      {
+        "id": "passo-2",
+        "text": "Misture ovos batidos, iogurte, manteiga derretida e bananas picadas em uma tigela."
+      },
+      {
+        "id": "passo-3",
+        "text": "Acrescente farinha, açúcar e fermento. Mexa até incorporar, sem bater excessivamente."
+      },
+      {
+        "id": "passo-4",
+        "text": "Distribua a massa nas forminhas apoiadas, deixando espaço para crescer. Coloque as formas em uma assadeira."
+      },
+      {
+        "id": "passo-5",
+        "text": "Asse por cerca de 30 minutos, até dourar e ficar assado no centro. Deixe amornar antes de retirar dos suportes."
+      }
+    ],
+    "equipment": [
+      "Forminhas de papel de 7 cm e formas de empada ou assadeira de muffins",
+      "Assadeira, tigela e colher",
+      "Tábua, faca, balança e medidores"
+    ],
+    "tips": [
+      {
+        "title": "Papel com apoio",
+        "text": "Não coloque somente o papel solto na assadeira: ele pode abrir com a massa."
+      },
+      {
+        "title": "Banana picada",
+        "text": "Esta receita usa pedaços de banana, sem cobertura ou decoração adicional."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Guarde prontamente em recipiente fechado, a 4 °C ou menos, por até 2 dias. Não deixe mais de 2 horas fora de refrigeração."
+      },
+      {
+        "title": "Para servir",
+        "text": "Retire somente a quantidade desejada com utensílio limpo e mantenha o restante refrigerado."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T23:34:25Z"
+  },
+  "sources": [
+    {
+      "title": "Receitas Nestlé — muffin de banana com iogurte",
+      "url": "https://www.receitasnestle.com.br/videos/se-alimentar-bem-que-mal-tem/muffin-de-banana-com-iogurte",
+      "role": "Dez porções, 1 pote de iogurte, papel 7 cm e 200 °C 30 min."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Conteúdo oficial completo via busca. Peso do pote não informado, não inventar 170 g. Vídeo da fonte não é da Bebel e não foi incorporado.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "id": "arroz-carreteiro",
+  "slug": "arroz-carreteiro",
+  "title": "Arroz carreteiro com carne-seca, calabresa e bacon",
+  "description": "Arroz carreteiro com carne-seca já dessalgada, calabresa e bacon. Confira a proporção de água, o refogado e o descanso antes de servir.",
+  "intro": "Tenha a carne-seca já dessalgada, cozida e desfiada. O arroz cozinha junto das carnes e termina com alguns minutos de descanso.",
+  "categoryIds": [
+    "pratos-do-dia"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/arroz-carreteiro.webp",
+    "alt": "Imagem ilustrativa: Arroz com carne-seca, calabresa, bacon e salsinha em tigela clara"
+  },
+  "publishedAt": "2026-11-04T11:45:42Z",
+  "updatedAt": "2026-11-04T11:45:42Z",
+  "seo": {
+    "title": "Arroz carreteiro com carne-seca, calabresa e bacon | Bebel",
+    "description": "Arroz carreteiro com carne-seca já dessalgada, calabresa e bacon. Confira a proporção de água, o refogado e o descanso antes de servir."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 6,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 5 minutos para dourar as carnes, 4 de refogado, 20 de arroz e 5 de descanso. Não inclui dessalgar e cozinhar a carne-seca.",
+    "ingredients": [
+      {
+        "id": "arroz",
+        "name": "Arroz branco cru",
+        "quantity": 2,
+        "unit": "xícaras (chá)"
+      },
+      {
+        "id": "agua",
+        "name": "Água fervente",
+        "quantity": 4,
+        "unit": "xícaras (chá)",
+        "shopping": false
+      },
+      {
+        "id": "carne",
+        "name": "Carne-seca dessalgada, cozida e desfiada",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "id": "linguica",
+        "name": "Linguiça calabresa aperitivo",
+        "quantity": 250,
+        "unit": "g"
+      },
+      {
+        "id": "bacon",
+        "name": "Bacon em cubos",
+        "quantity": 70,
+        "unit": "g"
+      },
+      {
+        "id": "oleo",
+        "name": "Óleo",
+        "quantity": 2,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "cebola",
+        "name": "Cebola",
+        "quantity": 0.5,
+        "unit": "unidade"
+      },
+      {
+        "id": "alho",
+        "name": "Alho",
+        "quantity": 2,
+        "unit": "dentes"
+      },
+      {
+        "id": "louro",
+        "name": "Louro",
+        "quantity": 2,
+        "unit": "folhas"
+      },
+      {
+        "id": "salsinha",
+        "name": "Salsinha",
+        "quantity": 0.5,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "limao",
+        "name": "Limão para servir",
+        "quantity": 1,
+        "unit": "unidade",
+        "note": "Opcional."
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Ferva a água. Corte cebola em meias-luas, pique alho e divida as linguiças pequenas em três pedaços diagonais."
+      },
+      {
+        "id": "passo-2",
+        "text": "Aqueça óleo na panela e doure bacon e calabresa por cerca de 5 minutos. Junte cebola por 2 minutos e alho por mais 1."
+      },
+      {
+        "id": "passo-3",
+        "text": "Misture carne-seca pronta, arroz e louro por 1 minuto. Adicione as 4 xícaras de água, soltando o fundo da panela."
+      },
+      {
+        "id": "passo-4",
+        "text": "Cozinhe com a tampa parcialmente aberta por cerca de 20 minutos, até o arroz absorver a água. Confira o fundo com um garfo."
+      },
+      {
+        "id": "passo-5",
+        "text": "Desligue e tampe por 5 minutos. Retire o louro e finalize com salsinha, pimenta e limão opcional."
+      }
+    ],
+    "equipment": [
+      "Panela grande com tampa e chaleira",
+      "Faca, tábua, colher e garfo",
+      "Xícaras e colheres medidoras"
+    ],
+    "tips": [
+      {
+        "title": "Carne-seca pronta",
+        "text": "O peso indicado é da carne já preparada, não do produto salgado cru."
+      },
+      {
+        "title": "Sal das carnes",
+        "text": "A formulação não leva sal adicional; o sabor vem das carnes."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Resfrie logo",
+        "text": "Divida as sobras em recipientes rasos e leve à geladeira preferencialmente em até 1 hora. Consuma em até 24 horas."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Reaqueça apenas uma vez, até ficar bem quente por inteiro, atingindo 74 °C."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T11:45:42Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — arroz carreteiro",
+      "url": "https://panelinha.com.br/receita/arroz-carreteiro",
+      "role": "Arroz 2 xícaras e água 4; carne-seca pronta, calabresa e bacon; seis porções."
+    },
+    {
+      "title": "Food Standards Agency — arroz",
+      "url": "https://www.gov.uk/government/publications/home-food-fact-checker/home-food-fact-checker",
+      "role": "Arroz refrigerado em até 1 hora, consumo em 24 horas e um reaquecimento."
+    },
+    {
+      "title": "Health Canada — conservação de sobras",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento rápido, refrigeração e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Receita distinta de arroz à grega e galinhada. Sem presumir demanda exclusiva da variante.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

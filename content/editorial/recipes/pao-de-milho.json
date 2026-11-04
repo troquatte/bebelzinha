@@ -1,0 +1,176 @@
+{
+  "id": "pao-de-milho",
+  "slug": "pao-de-milho",
+  "title": "Pão de milho com fermento biológico e casquinha de fubá",
+  "description": "Pão de milho com fermento biológico, feito com milho batido e coado. Confira a sova, os dois crescimentos e a finalização com fubá.",
+  "intro": "O milho é batido com leite e coado antes de entrar na massa. O crescimento não está incluído apenas no tempo de forno.",
+  "categoryIds": [
+    "forno",
+    "lanches"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/pao-milho.webp",
+    "alt": "Imagem ilustrativa: Dois pães alongados de milho com superfície dourada e fubá, um fatiado"
+  },
+  "publishedAt": "2026-11-04T02:32:27Z",
+  "updatedAt": "2026-11-04T02:32:27Z",
+  "seo": {
+    "title": "Pão de milho com fermento biológico e casquinha de fubá | Bebel",
+    "description": "Pão de milho com fermento biológico, feito com milho batido e coado. Confira a sova, os dois crescimentos e a finalização com fubá."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 2,
+      "unit": "pães"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "10 minutos de sova,1 a 2 horas no primeiro crescimento, cerca de 30 minutos no segundo e 25 a 30 de forno a 180 °C.",
+    "ingredients": [
+      {
+        "id": "milho",
+        "name": "Milho em conserva escorrido",
+        "quantity": 170,
+        "unit": "g"
+      },
+      {
+        "id": "ovo",
+        "name": "Ovo médio",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "oleo",
+        "name": "Óleo para a massa",
+        "quantity": 60,
+        "unit": "ml"
+      },
+      {
+        "id": "leite",
+        "name": "Leite",
+        "quantity": 240,
+        "unit": "ml"
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar",
+        "quantity": 3,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 0.5,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "fermento",
+        "name": "Fermento biológico seco",
+        "quantity": 5,
+        "unit": "g"
+      },
+      {
+        "id": "farinha",
+        "name": "Farinha de trigo para a massa",
+        "quantity": 500,
+        "unit": "g"
+      },
+      {
+        "id": "gema",
+        "name": "Gema para pincelar",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "fuba",
+        "name": "Fubá para forma e superfície",
+        "quantity": 20,
+        "unit": "g"
+      },
+      {
+        "id": "farinha-bancada",
+        "name": "Farinha para a bancada",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "oleo-untar",
+        "name": "Óleo para untar a forma",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Bata milho e leite no liquidificador. Coe numa peneira, pressionando para extrair o líquido; descarte o bagaço."
+      },
+      {
+        "id": "passo-2",
+        "text": "Misture líquido coado, óleo, ovo, açúcar, sal e fermento. Acrescente farinha aos poucos e sove cerca de 10 minutos, até a massa ficar macia e soltar das mãos."
+      },
+      {
+        "id": "passo-3",
+        "text": "Cubra e espere 1 a 2 horas, até dobrar. Aperte levemente, divida em dois e modele pães alongados."
+      },
+      {
+        "id": "passo-4",
+        "text": "Coloque em forma untada e polvilhada com parte do fubá. Pincele gema, polvilhe o restante e espere cerca de 30 minutos, até crescer novamente."
+      },
+      {
+        "id": "passo-5",
+        "text": "Preaqueça a 180 °C e asse 25 a 30 minutos, até dourar. Deixe amornar antes de cortar."
+      }
+    ],
+    "equipment": [
+      "Liquidificador, peneira e tigela grande",
+      "Assadeira, pano e pincel",
+      "Balança, medidores e bancada limpa"
+    ],
+    "tips": [
+      {
+        "title": "Milho coado",
+        "text": "A massa recebe o líquido, não os grãos inteiros."
+      },
+      {
+        "title": "Crescimento visível",
+        "text": "Nos dias frios, espere o volume aumentar; não se guie só pelo relógio."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Guarde em recipiente fechado, a 4 °C ou menos, por até 2 dias. Refrigere em até 2 horas após preparar."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça somente a quantidade que vai consumir até 74 °C no centro."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T02:32:27Z"
+  },
+  "sources": [
+    {
+      "title": "Receiteria — pão de milho",
+      "url": "https://www.receiteria.com.br/receita/pao-de-milho/",
+      "role": "Dois pães, milho coado, sova e dois crescimentos."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Fubá da lista dividido entre forma e superfície. Óleo de untura e farinha de bancada aparecem no método e foram listados. Peso 500 gfarinha prevalece sobre equivalência 3,5 xícaras. Não é bolo de milho.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

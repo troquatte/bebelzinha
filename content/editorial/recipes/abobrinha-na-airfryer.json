@@ -1,0 +1,144 @@
+{
+  "id": "abobrinha-na-airfryer",
+  "slug": "abobrinha-na-airfryer",
+  "title": "Abobrinha na airfryer em cubos com páprica e tomilho",
+  "description": "Abobrinha na airfryer em cubos com páprica defumada, tomilho e vinagre. Veja a temperatura e quando mexer para dourar sem empanar.",
+  "intro": "Um acompanhamento sem recheio nem empanado, com pedaços pequenos e temperados.",
+  "categoryIds": [
+    "airfryer",
+    "acompanhamentos"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/abobrinha-airfryer.webp",
+    "alt": "Imagem ilustrativa: Cubinhos de abobrinha com casca verde, páprica e bordas douradas"
+  },
+  "publishedAt": "2026-11-03T22:53:32Z",
+  "updatedAt": "2026-11-03T22:53:32Z",
+  "seo": {
+    "title": "Abobrinha na airfryer em cubos com páprica e tomilho | Bebel",
+    "description": "Abobrinha na airfryer em cubos com páprica defumada, tomilho e vinagre. Veja a temperatura e quando mexer para dourar sem empanar."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 4,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 10,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 9 a 10 minutos a 200 °C por leva, além do corte e do preaquecimento.",
+    "ingredients": [
+      {
+        "id": "abobrinha",
+        "name": "Abobrinha pequena",
+        "quantity": 2,
+        "unit": "unidades",
+        "note": "Cerca de 600 g no total."
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 0.5,
+        "unit": "colher (café)"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": 0.5,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "paprica",
+        "name": "Páprica defumada",
+        "quantity": 0.5,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "tomilho",
+        "name": "Tomilho desidratado",
+        "quantity": 0.5,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "vinagre",
+        "name": "Vinagre",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": null,
+        "unit": "a gosto",
+        "note": "Um fio para envolver os cubos."
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Preaqueça a airfryer a 200 °C por cerca de 10 minutos, seguindo as instruções do aparelho."
+      },
+      {
+        "id": "passo-2",
+        "text": "Lave, seque e retire as pontas das abobrinhas. Corte em cubos de tamanho semelhante."
+      },
+      {
+        "id": "passo-3",
+        "text": "Misture os cubos com sal, pimenta, páprica, tomilho, vinagre e um fio de azeite."
+      },
+      {
+        "id": "passo-4",
+        "text": "Distribua na cesta sem amontoar; faça em levas se necessário. Asse por 9 a 10 minutos, mexendo na metade, até amaciar e dourar nas bordas."
+      }
+    ],
+    "equipment": [
+      "Airfryer e tigela",
+      "Tábua, faca e colheres medidoras",
+      "Pegador ou espátula"
+    ],
+    "tips": [
+      {
+        "title": "É acompanhamento",
+        "text": "Os cubos ficam macios; não espere textura de chips empanados."
+      },
+      {
+        "title": "Espaço na cesta",
+        "text": "Evite uma pilha de legumes que cozinhe no próprio vapor."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Refrigere prontamente em recipiente fechado, a 4 °C ou menos, por até 2 dias. Não deixe mais de 2 horas fora de refrigeração."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça somente o que vai consumir até 74 °C no centro."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T22:53:32Z"
+  },
+  "sources": [
+    {
+      "title": "Receiteria — abobrinha na airfryer",
+      "url": "https://www.receiteria.com.br/receita/abobrinha-na-airfryer/",
+      "role": "Quatro porções, cubos temperados e cocção a 200 °C."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Azeite aparece no método da fonte e foi incluído na lista. Parêntese contraditório sobre tomilho não reproduzido; mantém ingrediente desidratado listado. Distinta de abobrinha recheada e mix de legumes.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

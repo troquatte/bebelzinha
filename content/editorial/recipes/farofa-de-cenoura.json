@@ -1,0 +1,135 @@
+{
+  "id": "farofa-de-cenoura",
+  "slug": "farofa-de-cenoura",
+  "title": "Farofa de cenoura com farinha de milho e cebola dourada",
+  "description": "Farofa de cenoura com farinha de milho flocada e cebola dourada. Veja a ordem do refogado e como finalizar para ficar crocante.",
+  "intro": "A cenoura ralada entra depois de a cebola começar a dourar.",
+  "categoryIds": [
+    "acompanhamentos"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/farofa-cenoura.webp",
+    "alt": "Imagem ilustrativa: Farofa amarela de milho com cenoura ralada e cebola dourada"
+  },
+  "publishedAt": "2026-11-03T22:53:32Z",
+  "updatedAt": "2026-11-03T22:53:32Z",
+  "seo": {
+    "title": "Farofa de cenoura com farinha de milho e cebola dourada | Bebel",
+    "description": "Farofa de cenoura com farinha de milho flocada e cebola dourada. Veja a ordem do refogado e como finalizar para ficar crocante."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 6,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 8 minutos para a cebola, 2 para a cenoura e 5 depois da farinha.",
+    "ingredients": [
+      {
+        "id": "farinha",
+        "name": "Farinha de milho amarela flocada",
+        "quantity": 2.5,
+        "unit": "xícaras (chá)"
+      },
+      {
+        "id": "cenoura",
+        "name": "Cenoura",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "cebola",
+        "name": "Cebola",
+        "quantity": 1.5,
+        "unit": "unidade"
+      },
+      {
+        "id": "manteiga",
+        "name": "Manteiga",
+        "quantity": 75,
+        "unit": "g"
+      },
+      {
+        "id": "oleo",
+        "name": "Óleo",
+        "quantity": 0.25,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 0.5,
+        "unit": "colher (chá)"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Descasque e rale a cenoura grosso. Corte as cebolas em meias-luas de aproximadamente 0,5 cm."
+      },
+      {
+        "id": "passo-2",
+        "text": "Aqueça o óleo em frigideira grande. Frite a cebola por cerca de 8 minutos, mexendo, até começar a dourar."
+      },
+      {
+        "id": "passo-3",
+        "text": "Passe para fogo médio. Derreta a manteiga, junte cenoura e sal e mexa por cerca de 2 minutos, até murchar."
+      },
+      {
+        "id": "passo-4",
+        "text": "Adicione a farinha aos poucos e misture por mais 5 minutos, até ficar crocante."
+      }
+    ],
+    "equipment": [
+      "Frigideira grande e espátula",
+      "Tábua, faca e ralador grosso",
+      "Balança e xícaras medidoras"
+    ],
+    "tips": [
+      {
+        "title": "Farinha flocada",
+        "text": "Esta receita usa farinha de milho amarela em flocos."
+      },
+      {
+        "title": "Cebola dourada",
+        "text": "Mexa para não queimar enquanto ganha cor."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Geladeira",
+        "text": "Depois de esfriar, guarde em pote bem fechado por até 3 dias, refrigerando prontamente a 4 °C ou menos."
+      },
+      {
+        "title": "Para servir",
+        "text": "Reaqueça na frigideira, mexendo, até ficar bem quente por inteiro; atinja 74 °C no centro."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T22:53:32Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — farofa de cenoura",
+      "url": "https://panelinha.com.br/receita/farofa-cenoura",
+      "role": "Seis porções, farinha de milho, etapas e conservação 3 dias."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Sem ovos, bacon, calabresa ou passas; diferente das farofas de ovo e banana já publicadas.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

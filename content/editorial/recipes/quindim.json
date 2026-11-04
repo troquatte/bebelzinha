@@ -1,0 +1,144 @@
+{
+  "id": "quindim",
+  "slug": "quindim",
+  "title": "Quindim de coco em forminhas, com gemas peneiradas",
+  "description": "Quindim de coco com gemas peneiradas, leite e açúcar. Confira o banho-maria, a untura das forminhas e o resfriamento antes de servir.",
+  "intro": "A mistura é feita na tigela, sem liquidificador. As forminhas vão dentro de uma assadeira com água para assar em banho-maria.",
+  "categoryIds": [
+    "doces",
+    "forno"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/quindim.webp",
+    "alt": "Imagem ilustrativa: Quindins amarelos brilhantes com base fina de coco em prato claro"
+  },
+  "publishedAt": "2026-11-04T11:45:42Z",
+  "updatedAt": "2026-11-04T11:45:42Z",
+  "seo": {
+    "title": "Quindim de coco em forminhas, com gemas peneiradas | Bebel",
+    "description": "Quindim de coco com gemas peneiradas, leite e açúcar. Confira o banho-maria, a untura das forminhas e o resfriamento antes de servir."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 20,
+      "unit": "unidade"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 30,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 2 minutos para misturar e 30 minutos no forno, além do preaquecimento e do tempo de geladeira.",
+    "ingredients": [
+      {
+        "id": "gema",
+        "name": "Gema peneirada",
+        "quantity": 20,
+        "unit": "unidades"
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar refinado",
+        "quantity": 500,
+        "unit": "g"
+      },
+      {
+        "id": "coco",
+        "name": "Coco ralado em flocos finos",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "id": "leite",
+        "name": "Leite integral",
+        "quantity": 500,
+        "unit": "ml"
+      },
+      {
+        "id": "manteiga",
+        "name": "Manteiga para untar",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "acucar-untar",
+        "name": "Açúcar refinado para as forminhas",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "agua",
+        "name": "Água para o banho-maria",
+        "quantity": null,
+        "unit": "a gosto",
+        "note": "Até metade da altura das forminhas, sem entrar na massa.",
+        "shopping": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Preaqueça o forno a 200 °C. Separe e peneire as gemas. Unte 20 forminhas pequenas com manteiga e polvilhe açúcar."
+      },
+      {
+        "id": "passo-2",
+        "text": "Misture gemas, açúcar, coco e leite com um batedor por cerca de 2 minutos, até incorporar. Distribua nas forminhas."
+      },
+      {
+        "id": "passo-3",
+        "text": "Coloque em assadeira e adicione água até metade da altura das forminhas. Asse por cerca de 30 minutos, até firmar e dourar; o tempo varia com o tamanho."
+      },
+      {
+        "id": "passo-4",
+        "text": "Retire com cuidado do banho-maria e deixe perder o calor forte. Refrigere e sirva gelado; solte delicadamente as bordas antes de desenformar."
+      }
+    ],
+    "equipment": [
+      "Peneira, tigela e batedor de arame",
+      "20 forminhas pequenas próprias para forno",
+      "Assadeira funda para banho-maria e luvas"
+    ],
+    "tips": [
+      {
+        "title": "Gemas peneiradas",
+        "text": "Separe os ovos antes de misturar e use somente as gemas indicadas."
+      },
+      {
+        "title": "Banho-maria",
+        "text": "Despeje a água ao redor das forminhas, evitando molhar a massa."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Refrigere em recipiente fechado a 4 °C ou menos e consuma em até 2 dias. Evite deixar fora da geladeira por mais de 2 horas."
+      },
+      {
+        "title": "Para servir",
+        "text": "Retire apenas a quantidade que será consumida; o quindim é servido gelado."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T11:45:42Z"
+  },
+  "sources": [
+    {
+      "title": "Receitas Nestlé — quindim fácil",
+      "url": "https://www.receitasnestle.com.br/receitas/receita-quindim",
+      "role": "20 gemas, açúcar 500 g, coco 100 g e leite 500 ml; 20 unidades, banho-maria 200 °C. Conteúdo integral recuperado na busca; acesso direto 403."
+    },
+    {
+      "title": "Health Canada — conservação de sobras",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento rápido, refrigeração e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Sem leite condensado da variante Quindim Moça. Manteiga de untura explicitada como gordura da etapa, não na massa. Não reproduzir marca, avaliações ou alegar teste Bebel.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

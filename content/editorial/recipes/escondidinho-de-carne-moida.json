@@ -1,0 +1,220 @@
+{
+  "id": "escondidinho-de-carne-moida",
+  "slug": "escondidinho-de-carne-moida",
+  "title": "Escondidinho de carne moída com purê de mandioca",
+  "description": "Escondidinho de carne moída com mandioca, requeijão e cobertura de queijo. Confira o recheio, o purê sem fibras e a montagem das camadas.",
+  "intro": "Nesta versão, a base é mandioca amarela. Prepare o recheio enquanto a raiz cozinha e monte quando ambos estiverem prontos.",
+  "categoryIds": [
+    "pratos-do-dia",
+    "forno"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/escondidinho-carne-moida.webp",
+    "alt": "Imagem ilustrativa: Camadas de carne moída e purê de mandioca com queijo gratinado"
+  },
+  "publishedAt": "2026-11-04T02:50:52Z",
+  "updatedAt": "2026-11-04T02:50:52Z",
+  "seo": {
+    "title": "Escondidinho de carne moída com purê de mandioca | Bebel",
+    "description": "Escondidinho de carne moída com mandioca, requeijão e cobertura de queijo. Confira o recheio, o purê sem fibras e a montagem das camadas."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 7,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Reserve cerca de 90 minutos no conjunto. O recheio cozinha mais 15 minutos com o tomate; a montagem vai ao forno por aproximadamente 20 minutos.",
+    "ingredients": [
+      {
+        "id": "carne",
+        "name": "Carne bovina moída",
+        "quantity": 600,
+        "unit": "g"
+      },
+      {
+        "id": "mandioca",
+        "name": "Mandioca amarela descascada",
+        "quantity": 1,
+        "unit": "kg"
+      },
+      {
+        "id": "manteiga",
+        "name": "Manteiga",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "tomate",
+        "name": "Tomate",
+        "quantity": 180,
+        "unit": "g"
+      },
+      {
+        "id": "cebola",
+        "name": "Cebola",
+        "quantity": 190,
+        "unit": "g"
+      },
+      {
+        "id": "pimentao",
+        "name": "Pimentão verde",
+        "quantity": 80,
+        "unit": "g"
+      },
+      {
+        "id": "alho",
+        "name": "Alho",
+        "quantity": 3,
+        "unit": "dentes"
+      },
+      {
+        "id": "polpa",
+        "name": "Polpa de tomate",
+        "quantity": 3,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "requeijao",
+        "name": "Requeijão",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "id": "mucarela",
+        "name": "Muçarela",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "id": "parmesao",
+        "name": "Parmesão ralado",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "id": "leite",
+        "name": "Leite",
+        "quantity": 100,
+        "unit": "ml"
+      },
+      {
+        "id": "creme",
+        "name": "Creme de leite",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "id": "agua",
+        "name": "Água para o cozimento",
+        "quantity": 2,
+        "unit": "litros",
+        "note": "Use para cobrir a mandioca e um pouco no recheio, se necessário.",
+        "shopping": false
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite para refogar",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "oregano",
+        "name": "Orégano",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "vinagre",
+        "name": "Vinagre para temperar",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Cozinhe a mandioca em água com sal até amaciar. Pique alho, cebola, tomate e pimentão."
+      },
+      {
+        "id": "passo-2",
+        "text": "Refogue a carne no azeite até perder a cor crua. Acrescente manteiga e alho por 1 minuto; depois, cebola e tomate por 2 minutos."
+      },
+      {
+        "id": "passo-3",
+        "text": "Junte pimentão, sal, pimenta, vinagre e polpa de tomate. Cozinhe cerca de 15 minutos, com pouca água se necessário."
+      },
+      {
+        "id": "passo-4",
+        "text": "Escorra a mandioca, retire os fios centrais e amasse ainda quente. Misture requeijão, leite e creme de leite; ajuste o sal."
+      },
+      {
+        "id": "passo-5",
+        "text": "Preaqueça a 180 °C. No refratário, alterne purê, carne e purê. Cubra com muçarela, parmesão e orégano. Asse cerca de 20 minutos, até gratinar e aquecer o centro."
+      }
+    ],
+    "equipment": [
+      "Duas panelas e escorredor",
+      "Amassador, espátula, faca e tábua",
+      "Refratário de aproximadamente 30 × 22 × 7 cm"
+    ],
+    "tips": [
+      {
+        "title": "Retire os fios",
+        "text": "Remova a fibra central antes de amassar a mandioca."
+      },
+      {
+        "title": "Recheio sem excesso de caldo",
+        "text": "Ele deve ficar úmido, mas sem líquido solto escorrendo entre as camadas."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Divida em recipientes rasos, refrigere em até 2 horas e guarde a 4 °C ou menos por até 2 dias."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça apenas o que for servir, até atingir 74 °C no centro."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T02:50:52Z"
+  },
+  "sources": [
+    {
+      "title": "Receiteria — escondidinho de carne moída",
+      "url": "https://www.receiteria.com.br/receita/escondidinho-de-carne-moida/",
+      "role": "Sete porções; mandioca 1 kg, carne 600 g, laticínios e montagem no refratário."
+    },
+    {
+      "title": "Health Canada — conservação de sobras",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Refrigeração em até 2 horas, armazenamento a 4 °C ou menos e reaquecimento a 74 °C."
+    }
+  ],
+  "editorialNotes": [
+    "Vinagre e azeite aparecem no modo, sem quantidade na fonte: listados a gosto. Unidades em peso prevalecem sobre medidas inconsistentes. Vídeo Bebel 212 usa queijo coalho e não tem ID público confirmado, portanto não associar esta fórmula de muçarela.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

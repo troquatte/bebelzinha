@@ -1,0 +1,153 @@
+{
+  "id": "tiras-de-frango-na-airfryer",
+  "slug": "tiras-de-frango-na-airfryer",
+  "title": "Tiras de frango na airfryer empanadas com panko",
+  "description": "Tiras de frango na airfryer com empanado de ovos e panko. Tempere o sassami, pincele óleo e asse em levas até dourar e cozinhar por dentro.",
+  "intro": "A farinha panko forma uma casquinha grossinha. O quilo de frango pode exigir várias levas, conforme o tamanho do cesto.",
+  "categoryIds": [
+    "airfryer",
+    "pratos-do-dia",
+    "lanches"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/tiras-frango-airfryer.webp",
+    "alt": "Imagem ilustrativa: Tiras de frango com casquinha panko dourada e carne branca cozida"
+  },
+  "publishedAt": "2026-11-04T12:23:52Z",
+  "updatedAt": "2026-11-04T12:23:52Z",
+  "seo": {
+    "title": "Tiras de frango na airfryer empanadas com panko | Bebel",
+    "description": "Tiras de frango na airfryer com empanado de ovos e panko. Tempere o sassami, pincele óleo e asse em levas até dourar e cozinhar por dentro."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 6,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 15 minutos a 200 °C por leva; o tempo total inclui cortar, temperar e empanar. Confira o cozimento completo antes de servir.",
+    "ingredients": [
+      {
+        "id": "frango",
+        "name": "Filé de frango sassami",
+        "quantity": 1,
+        "unit": "kg"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "oleo",
+        "name": "Óleo para pincelar",
+        "quantity": 2,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "acafrao",
+        "name": "Açafrão-da-terra",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "ovo",
+        "name": "Ovo",
+        "quantity": 4,
+        "unit": "unidades"
+      },
+      {
+        "id": "panko",
+        "name": "Farinha panko para empanar",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "caldo",
+        "name": "Caldo de galinha em pó",
+        "quantity": 2,
+        "unit": "colheres (sopa)"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Corte o sassami em tiras de espessura parecida. Tempere com sal, pimenta, açafrão-da-terra e caldo em pó, considerando o sal que já há no tempero."
+      },
+      {
+        "id": "passo-2",
+        "text": "Bata os ovos levemente em um prato e coloque panko em outro. Passe cada tira no ovo e depois na panko, pressionando de leve."
+      },
+      {
+        "id": "passo-3",
+        "text": "Pincele o óleo sobre as tiras e acomode no cesto sem sobrepor, em levas conforme necessário."
+      },
+      {
+        "id": "passo-4",
+        "text": "Asse a 200 °C por cerca de 15 minutos por leva. Confira se a carne está completamente cozida no centro e prolongue o tempo se necessário. Sirva em seguida."
+      }
+    ],
+    "equipment": [
+      "Airfryer, pincel e pinça",
+      "Dois pratos fundos e refratário para temperar",
+      "Faca e tábua"
+    ],
+    "tips": [
+      {
+        "title": "Sal com cuidado",
+        "text": "O caldo em pó já é salgado; distribua o tempero antes de decidir o sal extra."
+      },
+      {
+        "title": "Empanado firme",
+        "text": "Pressione a panko delicadamente e evite manipular demais as tiras."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Divida em recipientes rasos e refrigere em até 2 horas. Guarde a 4 °C ou menos por até 2 dias."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça só o que vai consumir até atingir 74 °C no centro."
+      },
+      {
+        "title": "Casquinha ao reaquecer",
+        "text": "Reaqueça sem cobrir a casquinha e confira o centro bem quente; a textura pode ficar menos crocante após refrigerar."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T12:23:52Z"
+  },
+  "sources": [
+    {
+      "title": "Receiteria — frango empanado na airfryer",
+      "url": "https://www.receiteria.com.br/receita/frango-empanado-na-airfryer/",
+      "role": "Sassami1kg, quatro ovos, panko e óleo2colheres; seis porções, 200°C15min."
+    },
+    {
+      "title": "Health Canada — conservação de sobras",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Refrigeração rápida, consumo de sobras e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Formulação específica com panko; não adaptar cubos com mel para tiras nem atribuir volume amplo ao empanado exato. Panko/agosto conforme fonte, sem inventar gramas.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

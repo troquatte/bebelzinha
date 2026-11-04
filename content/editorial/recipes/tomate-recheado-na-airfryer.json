@@ -1,0 +1,166 @@
+{
+  "id": "tomate-recheado-na-airfryer",
+  "slug": "tomate-recheado-na-airfryer",
+  "title": "Tomate recheado na airfryer com peito de peru e queijo",
+  "description": "Tomate recheado na airfryer com peito de peru, muçarela e cobertura de panko com parmesão. Aproveite a polpa e confira o ponto do recheio.",
+  "intro": "Três tomates viram pequenos recipientes com recheio cremoso. A polpa sem sementes entra na mistura, e a farofinha vai por cima.",
+  "categoryIds": [
+    "airfryer",
+    "acompanhamentos"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/tomate-recheado-airfryer.webp",
+    "alt": "Imagem ilustrativa: Tomates inteiros recheados com queijo e peito de peru, cobertos de farofa dourada"
+  },
+  "publishedAt": "2026-11-04T02:50:52Z",
+  "updatedAt": "2026-11-04T02:50:52Z",
+  "seo": {
+    "title": "Tomate recheado na airfryer com peito de peru e queijo | Bebel",
+    "description": "Tomate recheado na airfryer com peito de peru, muçarela e cobertura de panko com parmesão. Aproveite a polpa e confira o ponto do recheio."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 3,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 10,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 15 minutos para montar e 10 minutos a 160 °C por leva. Confira o centro antes de servir.",
+    "ingredients": [
+      {
+        "id": "tomate",
+        "name": "Tomates",
+        "quantity": 3,
+        "unit": "unidades"
+      },
+      {
+        "id": "ovo",
+        "name": "Ovo",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "peru",
+        "name": "Peito de peru ralado",
+        "quantity": 60,
+        "unit": "g"
+      },
+      {
+        "id": "mucarela",
+        "name": "Muçarela ralada",
+        "quantity": 60,
+        "unit": "g"
+      },
+      {
+        "id": "creme",
+        "name": "Creme de leite",
+        "quantity": 30,
+        "unit": "g"
+      },
+      {
+        "id": "panko",
+        "name": "Farinha panko ou pão ralado",
+        "quantity": 15,
+        "unit": "g"
+      },
+      {
+        "id": "manjericao",
+        "name": "Folhas de manjericão picadas",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "parmesao",
+        "name": "Parmesão ralado",
+        "quantity": 10,
+        "unit": "g"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": 13,
+        "unit": "ml"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Lave os tomates, retire as tampas e cave a polpa sem furar a base. Descarte as sementes e pique a polpa."
+      },
+      {
+        "id": "passo-2",
+        "text": "Misture a polpa com ovo, peito de peru, muçarela e creme de leite. Tempere o interior dos tomates e recheie."
+      },
+      {
+        "id": "passo-3",
+        "text": "Misture panko, manjericão, parmesão, azeite, sal e pimenta. Distribua sobre o recheio."
+      },
+      {
+        "id": "passo-4",
+        "text": "Acomode sem sobrepor na airfryer e asse a 160 °C por cerca de 10 minutos. Sirva quando a cobertura dourar e o recheio com ovo estiver firme, sem líquido cru; complete o tempo se necessário."
+      }
+    ],
+    "equipment": [
+      "Airfryer e pegador",
+      "Duas tigelas, colher, faca e tábua",
+      "Balança e medidor de líquidos"
+    ],
+    "tips": [
+      {
+        "title": "Peso do creme",
+        "text": "Use 30 g: não dependa de equivalências diferentes em colher."
+      },
+      {
+        "title": "Base inteira",
+        "text": "Retire o miolo com cuidado para que o recheio não escape."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Sirva na hora",
+        "text": "Monte para consumo imediato, com a cobertura ainda crocante."
+      },
+      {
+        "title": "Se sobrar",
+        "text": "Refrigere em até 2 horas, consuma em até 2 dias e reaqueça até 74 °C no centro."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T02:50:52Z"
+  },
+  "sources": [
+    {
+      "title": "Cook’n Enjoy — tomate recheado",
+      "url": "https://cknj.com.br/tomate-recheado",
+      "role": "Três porções, ovo, peito de peru, queijos, panko e airfryer 160 °C por 10 minutos."
+    },
+    {
+      "title": "Health Canada — conservação de sobras",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Refrigeração em até 2 horas, armazenamento a 4 °C ou menos e reaquecimento a 74 °C."
+    }
+  ],
+  "editorialNotes": [
+    "Página direta falhou, formulação completa recuperada em busca específica do mesmo URL. 30 g creme prevalece sobre equivalência de três colheres inconsistente. Conferir ovo firme; não reproduzir forno como airfryer.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

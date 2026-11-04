@@ -1,0 +1,199 @@
+{
+  "id": "galinhada-com-ervilha",
+  "slug": "galinhada-com-ervilha",
+  "title": "Galinhada com ervilha e tomate para uma pessoa",
+  "description": "Galinhada individual com peito de frango em cubos, ervilha e cúrcuma. O tomate fresco entra ao servir; confira água, descanso e ordem de preparo.",
+  "intro": "Uma panela pequena resolve o arroz com frango. O tomate fica fresco e entra no prato com a cebolinha.",
+  "categoryIds": [
+    "pratos-do-dia"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/galinhada-ervilha.webp",
+    "alt": "Imagem ilustrativa: Arroz amarelo com cubos de frango, ervilha, tomate fresco e cebolinha"
+  },
+  "publishedAt": "2026-11-04T11:45:42Z",
+  "updatedAt": "2026-11-04T11:45:42Z",
+  "seo": {
+    "title": "Galinhada com ervilha e tomate para uma pessoa | Bebel",
+    "description": "Galinhada individual com peito de frango em cubos, ervilha e cúrcuma. O tomate fresco entra ao servir; confira água, descanso e ordem de preparo."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 1,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Após dourar o frango e refogar os temperos, cerca de 7 minutos para o arroz e 5 de descanso. Confira também o cozimento completo do frango.",
+    "ingredients": [
+      {
+        "id": "frango",
+        "name": "Filé de peito de frango",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "id": "arroz",
+        "name": "Arroz branco cru",
+        "quantity": 0.25,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "cebola",
+        "name": "Cebola pequena",
+        "quantity": 0.5,
+        "unit": "unidade"
+      },
+      {
+        "id": "alho",
+        "name": "Alho",
+        "quantity": 1,
+        "unit": "dente"
+      },
+      {
+        "id": "ervilha",
+        "name": "Ervilha congelada",
+        "quantity": 0.3333333333333333,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "tomate",
+        "name": "Tomate maduro",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "limao",
+        "name": "Suco de limão",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "curcuma",
+        "name": "Cúrcuma",
+        "quantity": 1,
+        "unit": "pitada"
+      },
+      {
+        "id": "cominho",
+        "name": "Cominho",
+        "quantity": 1,
+        "unit": "pitada"
+      },
+      {
+        "id": "cebolinha",
+        "name": "Cebolinha",
+        "quantity": 1,
+        "unit": "talo"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": 0.5,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "azeite-final",
+        "name": "Azeite para finalizar",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 0.5,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "agua",
+        "name": "Água",
+        "quantity": 0.5,
+        "unit": "xícara (chá)",
+        "shopping": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Pique cebola e alho e corte frango em cubos de cerca de 3 cm. Aqueça o azeite, doure os cubos de todos os lados e reserve."
+      },
+      {
+        "id": "passo-2",
+        "text": "Na mesma panela, refogue cebola por 2 minutos. Junte alho, cominho, cúrcuma e sal e mexa por 1 minuto."
+      },
+      {
+        "id": "passo-3",
+        "text": "Adicione água e limão, soltando o fundo. Ao ferver, reduza o fogo e junte arroz, frango e ervilha. Cozinhe com tampa entreaberta por cerca de 7 minutos, até secar a água e cozinhar os grãos."
+      },
+      {
+        "id": "passo-4",
+        "text": "Confira se o frango está completamente cozido; se necessário, acrescente um pouco de água e prolongue o fogo. Desligue, tampe e aguarde 5 minutos."
+      },
+      {
+        "id": "passo-5",
+        "text": "Corte tomate sem sementes em cubos e pique a parte verde da cebolinha. Sirva ao lado da galinhada, com azeite e pimenta."
+      }
+    ],
+    "equipment": [
+      "Panela pequena com tampa",
+      "Pinça, faca e tábua",
+      "Tigela para reservar e medidores"
+    ],
+    "tips": [
+      {
+        "title": "Tomate separado",
+        "text": "Para levar, guarde tomate e cebolinha em outro recipiente e misture ao comer."
+      },
+      {
+        "title": "Porção individual",
+        "text": "Esta versão foi formulada para uma pessoa; use panela pequena para manter a proporção de evaporação."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Resfrie logo",
+        "text": "Divida as sobras em recipientes rasos e leve à geladeira preferencialmente em até 1 hora. Consuma em até 24 horas."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Reaqueça apenas uma vez, até ficar bem quente por inteiro, atingindo 74 °C."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T11:45:42Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — galinhada com ervilha",
+      "url": "https://panelinha.com.br/receita/galinhada-com-ervilha-e-saladinha-de-tomate",
+      "role": "Uma porção; frango 150 g, arroz 1/4 de xícara, ervilha e tomate fresco."
+    },
+    {
+      "title": "Food Standards Agency — arroz",
+      "url": "https://www.gov.uk/government/publications/home-food-fact-checker/home-food-fact-checker",
+      "role": "Arroz refrigerado em até 1 hora, consumo em 24 horas e um reaquecimento."
+    },
+    {
+      "title": "Health Canada — conservação de sobras",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento rápido, refrigeração e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Água e azeite final do método incluídos. Sem chamar volume amplo de volume da versão individual. Não aplicar modo automático 2/4.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

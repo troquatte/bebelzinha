@@ -1,0 +1,159 @@
+{
+  "id": "couve-flor-gratinada",
+  "slug": "couve-flor-gratinada",
+  "title": "Couve-flor gratinada com molho branco e parmesão",
+  "description": "Couve-flor gratinada com molho branco e parmesão, assada a 200 °C. Confira o preparo do molho e a montagem em refratário de 1,5 litro.",
+  "intro": "Os floretes entram crus e bem secos no refratário, entre camadas de molho.",
+  "categoryIds": [
+    "forno",
+    "acompanhamentos"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/couve-flor-gratinada.webp",
+    "alt": "Imagem ilustrativa: Floretes de couve-flor com molho branco e cobertura dourada de parmesão"
+  },
+  "publishedAt": "2026-11-03T22:53:32Z",
+  "updatedAt": "2026-11-03T22:53:32Z",
+  "seo": {
+    "title": "Couve-flor gratinada com molho branco e parmesão | Bebel",
+    "description": "Couve-flor gratinada com molho branco e parmesão, assada a 200 °C. Confira o preparo do molho e a montagem em refratário de 1,5 litro."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 4,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 20 minutos para engrossar o molho e 20 no forno, além do preparo dos floretes.",
+    "ingredients": [
+      {
+        "id": "couve-flor",
+        "name": "Couve-flor",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "cebola",
+        "name": "Cebola descascada",
+        "quantity": 0.5,
+        "unit": "unidade",
+        "note": "Inteira, para perfumar o molho; retire no final."
+      },
+      {
+        "id": "leite",
+        "name": "Leite gelado",
+        "quantity": 1,
+        "unit": "litro"
+      },
+      {
+        "id": "farinha",
+        "name": "Farinha de trigo",
+        "quantity": 4,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "manteiga",
+        "name": "Manteiga",
+        "quantity": 4,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "louro",
+        "name": "Louro",
+        "quantity": 1,
+        "unit": "folha"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 1.5,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "parmesao",
+        "name": "Parmesão ralado",
+        "quantity": 0.5,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "noz",
+        "name": "Noz-moscada",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Preaqueça a 200 °C. Separe um refratário de 27  ×  18 cm, com capacidade de 1,5 litro. Corte a couve-flor em floretes médios, lave e seque bem."
+      },
+      {
+        "id": "passo-2",
+        "text": "Derreta a manteiga em panela média, adicione farinha e mexa por 2 minutos."
+      },
+      {
+        "id": "passo-3",
+        "text": "Junte o leite de uma vez, mexendo com batedor. Acrescente cebola, louro, sal e noz-moscada. Cozinhe cerca de 20 minutos em fogo médio, mexendo, até engrossar."
+      },
+      {
+        "id": "passo-4",
+        "text": "Retire cebola e louro. Coloque metade do molho no refratário, acomode os floretes e cubra com o restante. Deixe 1 cm livre na borda."
+      },
+      {
+        "id": "passo-5",
+        "text": "Polvilhe parmesão e asse por cerca de 20 minutos, até gratinar."
+      }
+    ],
+    "equipment": [
+      "Refratário 27 × 18 cm/1,5 litro",
+      "Panela média, batedor e espátula",
+      "Tábua, faca e pano limpo para secar"
+    ],
+    "tips": [
+      {
+        "title": "Floretes secos",
+        "text": "Não coloque água da lavagem junto ao molho."
+      },
+      {
+        "title": "Borda livre",
+        "text": "O molho borbulha durante o forno."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Refrigere prontamente em recipiente fechado, a 4 °C ou menos, por até 2 dias. Não deixe mais de 2 horas fora de refrigeração."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça somente o que vai consumir até 74 °C no centro."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T22:53:32Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — couve-flor gratinada",
+      "url": "https://panelinha.com.br/receita/couve-flor-gratinada",
+      "role": "Quatro porções, floretes crus, molho e refratário 1,5 L."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Substitui candidato cogumelo 70/mês. Não misturar proporção do molho-branco 082: esta receita usa 4 colheres e 20 min. Não pré-cozer como versão Nestlé.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

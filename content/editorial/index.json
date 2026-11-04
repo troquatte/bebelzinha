@@ -702,6 +702,486 @@
       "slug": "biscoito-de-polvilho",
       "status": "published",
       "file": "recipes/biscoito-de-polvilho.json"
+    },
+    {
+      "id": "abobrinha-na-airfryer",
+      "slug": "abobrinha-na-airfryer",
+      "status": "published",
+      "file": "recipes/abobrinha-na-airfryer.json"
+    },
+    {
+      "id": "cebola-na-airfryer",
+      "slug": "cebola-na-airfryer",
+      "status": "published",
+      "file": "recipes/cebola-na-airfryer.json"
+    },
+    {
+      "id": "couve-flor-gratinada",
+      "slug": "couve-flor-gratinada",
+      "status": "published",
+      "file": "recipes/couve-flor-gratinada.json"
+    },
+    {
+      "id": "escarola-refogada",
+      "slug": "escarola-refogada",
+      "status": "published",
+      "file": "recipes/escarola-refogada.json"
+    },
+    {
+      "id": "quiabo-refogado",
+      "slug": "quiabo-refogado",
+      "status": "published",
+      "file": "recipes/quiabo-refogado.json"
+    },
+    {
+      "id": "farofa-de-cenoura",
+      "slug": "farofa-de-cenoura",
+      "status": "published",
+      "file": "recipes/farofa-de-cenoura.json"
+    },
+    {
+      "id": "salada-de-tomate",
+      "slug": "salada-de-tomate",
+      "status": "published",
+      "file": "recipes/salada-de-tomate.json"
+    },
+    {
+      "id": "bolo-mesclado",
+      "slug": "bolo-mesclado",
+      "status": "published",
+      "file": "recipes/bolo-mesclado.json"
+    },
+    {
+      "id": "bolo-de-fuba-simples",
+      "slug": "bolo-de-fuba-simples",
+      "status": "published",
+      "file": "recipes/bolo-de-fuba-simples.json"
+    },
+    {
+      "id": "gelatina-colorida",
+      "slug": "gelatina-colorida",
+      "status": "published",
+      "file": "recipes/gelatina-colorida.json"
+    },
+    {
+      "id": "pate-de-frango",
+      "slug": "pate-de-frango",
+      "status": "published",
+      "file": "recipes/pate-de-frango.json"
+    },
+    {
+      "id": "pate-de-atum",
+      "slug": "pate-de-atum",
+      "status": "published",
+      "file": "recipes/pate-de-atum.json"
+    },
+    {
+      "id": "salada-de-macarrao",
+      "slug": "salada-de-macarrao",
+      "status": "published",
+      "file": "recipes/salada-de-macarrao.json"
+    },
+    {
+      "id": "salada-de-abobrinha",
+      "slug": "salada-de-abobrinha",
+      "status": "published",
+      "file": "recipes/salada-de-abobrinha.json"
+    },
+    {
+      "id": "salada-de-feijao-fradinho",
+      "slug": "salada-de-feijao-fradinho",
+      "status": "published",
+      "file": "recipes/salada-de-feijao-fradinho.json"
+    },
+    {
+      "id": "bolo-de-maracuja",
+      "slug": "bolo-de-maracuja",
+      "status": "published",
+      "file": "recipes/bolo-de-maracuja.json"
+    },
+    {
+      "id": "bolo-de-canela",
+      "slug": "bolo-de-canela",
+      "status": "published",
+      "file": "recipes/bolo-de-canela.json"
+    },
+    {
+      "id": "muffin-de-banana",
+      "slug": "muffin-de-banana",
+      "status": "published",
+      "file": "recipes/muffin-de-banana.json"
+    },
+    {
+      "id": "chuchu-na-airfryer",
+      "slug": "chuchu-na-airfryer",
+      "status": "published",
+      "file": "recipes/chuchu-na-airfryer.json"
+    },
+    {
+      "id": "bolinho-de-batata-na-airfryer",
+      "slug": "bolinho-de-batata-na-airfryer",
+      "status": "published",
+      "file": "recipes/bolinho-de-batata-na-airfryer.json"
+    },
+    {
+      "id": "pure-de-abobora",
+      "slug": "pure-de-abobora",
+      "status": "published",
+      "file": "recipes/pure-de-abobora.json"
+    },
+    {
+      "id": "batata-gratinada",
+      "slug": "batata-gratinada",
+      "status": "published",
+      "file": "recipes/batata-gratinada.json"
+    },
+    {
+      "id": "salada-de-brocolis",
+      "slug": "salada-de-brocolis",
+      "status": "published",
+      "file": "recipes/salada-de-brocolis.json"
+    },
+    {
+      "id": "salada-de-cenoura",
+      "slug": "salada-de-cenoura",
+      "status": "published",
+      "file": "recipes/salada-de-cenoura.json"
+    },
+    {
+      "id": "bolo-de-abacaxi",
+      "slug": "bolo-de-abacaxi",
+      "status": "published",
+      "file": "recipes/bolo-de-abacaxi.json"
+    },
+    {
+      "id": "bolo-de-ricota",
+      "slug": "bolo-de-ricota",
+      "status": "published",
+      "file": "recipes/bolo-de-ricota.json"
+    },
+    {
+      "id": "biscoito-de-aveia",
+      "slug": "biscoito-de-aveia",
+      "status": "published",
+      "file": "recipes/biscoito-de-aveia.json"
+    },
+    {
+      "id": "dadinho-de-tapioca-na-airfryer",
+      "slug": "dadinho-de-tapioca-na-airfryer",
+      "status": "published",
+      "file": "recipes/dadinho-de-tapioca-na-airfryer.json"
+    },
+    {
+      "id": "jilo-na-airfryer",
+      "slug": "jilo-na-airfryer",
+      "status": "published",
+      "file": "recipes/jilo-na-airfryer.json"
+    },
+    {
+      "id": "torta-de-banana",
+      "slug": "torta-de-banana",
+      "status": "published",
+      "file": "recipes/torta-de-banana.json"
+    },
+    {
+      "id": "creme-de-milho",
+      "slug": "creme-de-milho",
+      "status": "published",
+      "file": "recipes/creme-de-milho.json"
+    },
+    {
+      "id": "pure-de-couve-flor",
+      "slug": "pure-de-couve-flor",
+      "status": "published",
+      "file": "recipes/pure-de-couve-flor.json"
+    },
+    {
+      "id": "espinafre-refogado",
+      "slug": "espinafre-refogado",
+      "status": "published",
+      "file": "recipes/espinafre-refogado.json"
+    },
+    {
+      "id": "berinjela-refogada",
+      "slug": "berinjela-refogada",
+      "status": "published",
+      "file": "recipes/berinjela-refogada.json"
+    },
+    {
+      "id": "focaccia",
+      "slug": "focaccia",
+      "status": "published",
+      "file": "recipes/focaccia.json"
+    },
+    {
+      "id": "torta-de-maca",
+      "slug": "torta-de-maca",
+      "status": "published",
+      "file": "recipes/torta-de-maca.json"
+    },
+    {
+      "id": "doce-de-mamao",
+      "slug": "doce-de-mamao",
+      "status": "published",
+      "file": "recipes/doce-de-mamao.json"
+    },
+    {
+      "id": "bolo-de-cenoura-na-airfryer",
+      "slug": "bolo-de-cenoura-na-airfryer",
+      "status": "published",
+      "file": "recipes/bolo-de-cenoura-na-airfryer.json"
+    },
+    {
+      "id": "pao-de-queijo-de-frigideira",
+      "slug": "pao-de-queijo-de-frigideira",
+      "status": "published",
+      "file": "recipes/pao-de-queijo-de-frigideira.json"
+    },
+    {
+      "id": "omelete-na-airfryer",
+      "slug": "omelete-na-airfryer",
+      "status": "published",
+      "file": "recipes/omelete-na-airfryer.json"
+    },
+    {
+      "id": "arroz-integral",
+      "slug": "arroz-integral",
+      "status": "published",
+      "file": "recipes/arroz-integral.json"
+    },
+    {
+      "id": "arroz-com-lentilha",
+      "slug": "arroz-com-lentilha",
+      "status": "published",
+      "file": "recipes/arroz-com-lentilha.json"
+    },
+    {
+      "id": "feijao-preto",
+      "slug": "feijao-preto",
+      "status": "published",
+      "file": "recipes/feijao-preto.json"
+    },
+    {
+      "id": "polenta-cremosa",
+      "slug": "polenta-cremosa",
+      "status": "published",
+      "file": "recipes/polenta-cremosa.json"
+    },
+    {
+      "id": "sopa-de-abobora",
+      "slug": "sopa-de-abobora",
+      "status": "published",
+      "file": "recipes/sopa-de-abobora.json"
+    },
+    {
+      "id": "caldo-de-ervilha",
+      "slug": "caldo-de-ervilha",
+      "status": "published",
+      "file": "recipes/caldo-de-ervilha.json"
+    },
+    {
+      "id": "bolinho-de-mandioca-na-airfryer",
+      "slug": "bolinho-de-mandioca-na-airfryer",
+      "status": "published",
+      "file": "recipes/bolinho-de-mandioca-na-airfryer.json"
+    },
+    {
+      "id": "bolo-de-chocolate-na-airfryer",
+      "slug": "bolo-de-chocolate-na-airfryer",
+      "status": "published",
+      "file": "recipes/bolo-de-chocolate-na-airfryer.json"
+    },
+    {
+      "id": "pao-de-milho",
+      "slug": "pao-de-milho",
+      "status": "published",
+      "file": "recipes/pao-de-milho.json"
+    },
+    {
+      "id": "geleia-de-manga",
+      "slug": "geleia-de-manga",
+      "status": "published",
+      "file": "recipes/geleia-de-manga.json"
+    },
+    {
+      "id": "arroz-com-cenoura",
+      "slug": "arroz-com-cenoura",
+      "status": "published",
+      "file": "recipes/arroz-com-cenoura.json"
+    },
+    {
+      "id": "feijao-carioca",
+      "slug": "feijao-carioca",
+      "status": "published",
+      "file": "recipes/feijao-carioca.json"
+    },
+    {
+      "id": "sopa-de-mandioquinha",
+      "slug": "sopa-de-mandioquinha",
+      "status": "published",
+      "file": "recipes/sopa-de-mandioquinha.json"
+    },
+    {
+      "id": "caldo-verde",
+      "slug": "caldo-verde",
+      "status": "published",
+      "file": "recipes/caldo-verde.json"
+    },
+    {
+      "id": "fricasse-de-frango",
+      "slug": "fricasse-de-frango",
+      "status": "published",
+      "file": "recipes/fricasse-de-frango.json"
+    },
+    {
+      "id": "escondidinho-de-carne-moida",
+      "slug": "escondidinho-de-carne-moida",
+      "status": "published",
+      "file": "recipes/escondidinho-de-carne-moida.json"
+    },
+    {
+      "id": "bolo-de-ameixa",
+      "slug": "bolo-de-ameixa",
+      "status": "published",
+      "file": "recipes/bolo-de-ameixa.json"
+    },
+    {
+      "id": "tomate-recheado-na-airfryer",
+      "slug": "tomate-recheado-na-airfryer",
+      "status": "published",
+      "file": "recipes/tomate-recheado-na-airfryer.json"
+    },
+    {
+      "id": "brocolis-na-airfryer",
+      "slug": "brocolis-na-airfryer",
+      "status": "published",
+      "file": "recipes/brocolis-na-airfryer.json"
+    },
+    {
+      "id": "geleia-de-laranja",
+      "slug": "geleia-de-laranja",
+      "status": "published",
+      "file": "recipes/geleia-de-laranja.json"
+    },
+    {
+      "id": "canja-de-galinha",
+      "slug": "canja-de-galinha",
+      "status": "published",
+      "file": "recipes/canja-de-galinha.json"
+    },
+    {
+      "id": "arroz-carreteiro",
+      "slug": "arroz-carreteiro",
+      "status": "published",
+      "file": "recipes/arroz-carreteiro.json"
+    },
+    {
+      "id": "galinhada-com-ervilha",
+      "slug": "galinhada-com-ervilha",
+      "status": "published",
+      "file": "recipes/galinhada-com-ervilha.json"
+    },
+    {
+      "id": "feijao-tropeiro",
+      "slug": "feijao-tropeiro",
+      "status": "published",
+      "file": "recipes/feijao-tropeiro.json"
+    },
+    {
+      "id": "panqueca-de-carne-moida",
+      "slug": "panqueca-de-carne-moida",
+      "status": "published",
+      "file": "recipes/panqueca-de-carne-moida.json"
+    },
+    {
+      "id": "sopa-de-cebola",
+      "slug": "sopa-de-cebola",
+      "status": "published",
+      "file": "recipes/sopa-de-cebola.json"
+    },
+    {
+      "id": "quindim",
+      "slug": "quindim",
+      "status": "published",
+      "file": "recipes/quindim.json"
+    },
+    {
+      "id": "bolo-de-batata-doce",
+      "slug": "bolo-de-batata-doce",
+      "status": "published",
+      "file": "recipes/bolo-de-batata-doce.json"
+    },
+    {
+      "id": "churros-na-airfryer",
+      "slug": "churros-na-airfryer",
+      "status": "published",
+      "file": "recipes/churros-na-airfryer.json"
+    },
+    {
+      "id": "coxinha-na-airfryer",
+      "slug": "coxinha-na-airfryer",
+      "status": "published",
+      "file": "recipes/coxinha-na-airfryer.json"
+    },
+    {
+      "id": "frango-xadrez",
+      "slug": "frango-xadrez",
+      "status": "published",
+      "file": "recipes/frango-xadrez.json"
+    },
+    {
+      "id": "carne-de-panela",
+      "slug": "carne-de-panela",
+      "status": "published",
+      "file": "recipes/carne-de-panela.json"
+    },
+    {
+      "id": "arroz-a-piamontese",
+      "slug": "arroz-a-piamontese",
+      "status": "published",
+      "file": "recipes/arroz-a-piamontese.json"
+    },
+    {
+      "id": "bobo-de-frango",
+      "slug": "bobo-de-frango",
+      "status": "published",
+      "file": "recipes/bobo-de-frango.json"
+    },
+    {
+      "id": "sufle-de-chuchu",
+      "slug": "sufle-de-chuchu",
+      "status": "published",
+      "file": "recipes/sufle-de-chuchu.json"
+    },
+    {
+      "id": "bolo-de-leite",
+      "slug": "bolo-de-leite",
+      "status": "published",
+      "file": "recipes/bolo-de-leite.json"
+    },
+    {
+      "id": "pudim-de-coco",
+      "slug": "pudim-de-coco",
+      "status": "published",
+      "file": "recipes/pudim-de-coco.json"
+    },
+    {
+      "id": "broa-de-milho",
+      "slug": "broa-de-milho",
+      "status": "published",
+      "file": "recipes/broa-de-milho.json"
+    },
+    {
+      "id": "almondegas-na-airfryer",
+      "slug": "almondegas-na-airfryer",
+      "status": "published",
+      "file": "recipes/almondegas-na-airfryer.json"
+    },
+    {
+      "id": "tiras-de-frango-na-airfryer",
+      "slug": "tiras-de-frango-na-airfryer",
+      "status": "published",
+      "file": "recipes/tiras-de-frango-na-airfryer.json"
     }
   ]
 }

@@ -1,0 +1,129 @@
+{
+  "id": "salada-de-tomate",
+  "slug": "salada-de-tomate",
+  "title": "Salada de tomate com cebola-roxa escorrida na peneira",
+  "description": "Salada de tomate com cebola-roxa, azeite e pimenta. Veja como drenar por 30 minutos na geladeira antes de servir.",
+  "intro": "O descanso na peneira reduz o líquido acumulado na travessa.",
+  "categoryIds": [
+    "acompanhamentos"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/salada-tomate.webp",
+    "alt": "Imagem ilustrativa: Gomos de tomate com cebola-roxa em meias-luas, azeite e pimenta"
+  },
+  "publishedAt": "2026-11-03T22:53:32Z",
+  "updatedAt": "2026-11-03T22:53:32Z",
+  "seo": {
+    "title": "Salada de tomate com cebola-roxa escorrida na peneira | Bebel",
+    "description": "Salada de tomate com cebola-roxa, azeite e pimenta. Veja como drenar por 30 minutos na geladeira antes de servir."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 4,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "30 minutos na geladeira para drenar, além da lavagem e dos cortes.",
+    "ingredients": [
+      {
+        "id": "tomate",
+        "name": "Tomate maduro",
+        "quantity": 3,
+        "unit": "unidades"
+      },
+      {
+        "id": "cebola",
+        "name": "Cebola-roxa",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 1,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Lave, seque e corte cada tomate em oito gomos, retirando a parte do pedúnculo."
+      },
+      {
+        "id": "passo-2",
+        "text": "Descasque e corte a cebola em meias-luas finas. Misture com tomate e sal."
+      },
+      {
+        "id": "passo-3",
+        "text": "Coloque numa peneira apoiada sobre uma tigela, sem encostar no líquido. Leve à geladeira por 30 minutos."
+      },
+      {
+        "id": "passo-4",
+        "text": "Transfira a salada escorrida para a travessa e finalize com azeite e pimenta. Sirva a seguir."
+      }
+    ],
+    "equipment": [
+      "Tábua e faca",
+      "Peneira grande e tigela",
+      "Travessa e colher medidora"
+    ],
+    "tips": [
+      {
+        "title": "Drene antes",
+        "text": "O azeite entra após o descanso na peneira."
+      },
+      {
+        "title": "Gomos inteiros",
+        "text": "Mexa com cuidado para não desfazer os tomates maduros."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Sirva fresca",
+        "text": "Mantenha refrigerada até servir. Se sobrar, guarde em recipiente fechado a 4 °C ou menos e consuma até o dia seguinte."
+      },
+      {
+        "title": "Ao servir novamente",
+        "text": "Escorra o líquido que se formar e retire somente a porção desejada."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T22:53:32Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — salada de tomate com cebola-roxa",
+      "url": "https://panelinha.com.br/receita/salada-de-tomate-com-cebola-roxa",
+      "role": "Quatro porções, gomos e drenagem 30 min."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Não é vinagrete em cubos nem salada com queijo/manjericão. Short salada de tomate semID não incorporado.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

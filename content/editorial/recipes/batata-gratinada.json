@@ -1,0 +1,158 @@
+{
+  "id": "batata-gratinada",
+  "slug": "batata-gratinada",
+  "title": "Batata gratinada com creme de leite fresco, sem queijo",
+  "description": "Batata gratinada sem queijo com leite e creme de leite fresco. Veja as duas etapas do forno e como dispor as rodelas no refratário.",
+  "intro": "As batatas cozinham primeiro no leite e recebem o creme quente antes de gratinar.",
+  "categoryIds": [
+    "forno",
+    "acompanhamentos"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/batata-gratinada.webp",
+    "alt": "Imagem ilustrativa: Rodelas finas de batata gratinadas em creme, sem queijo ou bacon"
+  },
+  "publishedAt": "2026-11-04T00:51:32Z",
+  "updatedAt": "2026-11-04T00:51:32Z",
+  "seo": {
+    "title": "Batata gratinada com creme de leite fresco, sem queijo | Bebel",
+    "description": "Batata gratinada sem queijo com leite e creme de leite fresco. Veja as duas etapas do forno e como dispor as rodelas no refratário."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 6,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 70,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 40 minutos coberta e mais 30 descoberta, em forno a 220 °C, além dos cortes.",
+    "ingredients": [
+      {
+        "id": "batata",
+        "name": "Batata",
+        "quantity": 1,
+        "unit": "kg",
+        "note": "Cerca de 5 unidades."
+      },
+      {
+        "id": "creme",
+        "name": "Creme de leite fresco",
+        "quantity": 1.5,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "leite",
+        "name": "Leite",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "alho",
+        "name": "Alho",
+        "quantity": 2,
+        "unit": "dentes"
+      },
+      {
+        "id": "manteiga",
+        "name": "Manteiga em temperatura ambiente",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "id": "noz",
+        "name": "Noz-moscada",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto",
+        "note": "Uma pitada nas batatas e 1 colher de chá no leite."
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Preaqueça a 220 °C. Espalhe toda a manteiga em um refratário de 26 × 34 cm, com capacidade aproximada de 3 litros."
+      },
+      {
+        "id": "passo-2",
+        "text": "Descasque e fatie as batatas em rodelas de cerca de 0,5 cm. Disponha sobrepostas em escamas, numa camada, e coloque uma pitada de sal."
+      },
+      {
+        "id": "passo-3",
+        "text": "Amasse o alho e aqueça com o leite até começar a ferver. Desligue, tempere com 1 colher de chá de sal, pimenta e noz-moscada. Retire o alho."
+      },
+      {
+        "id": "passo-4",
+        "text": "Regue as batatas com o leite quente. Cubra com papel-alumínio e asse por cerca de 40 minutos, até amaciar."
+      },
+      {
+        "id": "passo-5",
+        "text": "Aqueça o creme de leite até aparecerem as primeiras bolhas. Retire o alumínio, regue com o creme e asse descoberta por mais 30 minutos, até dourar."
+      }
+    ],
+    "equipment": [
+      "Refratário de 26 × 34 cm, cerca de 3 litros",
+      "Panela pequena, concha e papel-alumínio",
+      "Tábua, faca ou fatiador com protetor"
+    ],
+    "tips": [
+      {
+        "title": "Sem queijo",
+        "text": "A superfície doura com o próprio creme de leite fresco."
+      },
+      {
+        "title": "Fatias uniformes",
+        "text": "Mantenha espessura semelhante para cozinhar por igual."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Guarde em recipiente fechado, a 4 °C ou menos, por até 2 dias. Refrigere em até 2 horas após o preparo."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça somente a porção que vai consumir até 74 °C no centro."
+      },
+      {
+        "title": "Textura ao voltar ao forno",
+        "text": "A batata pode ficar menos úmida depois de reaquecida; confira para não ressecar."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T00:51:32Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — batata gratinada",
+      "url": "https://panelinha.com.br/receita/batata-gratinada",
+      "role": "Seis porções, 220 °C, leite e creme em duas etapas, sem queijo."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Refrigeração, resfriamento e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Vídeo longo244 usa esta fonte, mas está awaiting-review e sem youtubeVideoId. Não incorporar arquivo interno como vídeo público. Sem bacon/requeijão de outras versões.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

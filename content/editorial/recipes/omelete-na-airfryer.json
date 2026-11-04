@@ -1,0 +1,148 @@
+{
+  "id": "omelete-na-airfryer",
+  "slug": "omelete-na-airfryer",
+  "title": "Omelete na airfryer com tomate, cebola e muçarela",
+  "description": "Omelete na airfryer com tomate, cebola e muçarela, em refratário de 15 × 15 cm. Confira a mistura e o ponto firme dos ovos.",
+  "intro": "Use um recipiente adequado ao aparelho. A mistura de ovos não vai diretamente na cesta vazada.",
+  "categoryIds": [
+    "airfryer",
+    "lanches"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/omelete-airfryer.webp",
+    "alt": "Imagem ilustrativa: Omelete quadrada assada com tomate, cebola e muçarela, com centro cozido"
+  },
+  "publishedAt": "2026-11-04T01:25:08Z",
+  "updatedAt": "2026-11-04T01:25:08Z",
+  "seo": {
+    "title": "Omelete na airfryer com tomate, cebola e muçarela | Bebel",
+    "description": "Omelete na airfryer com tomate, cebola e muçarela, em refratário de 15 × 15 cm. Confira a mistura e o ponto firme dos ovos."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 2,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 15,
+      "totalMinutes": null
+    },
+    "timeNote": "5 minutos de preaquecimento a 180 °C e cerca de 15 para assar, além dos cortes.",
+    "ingredients": [
+      {
+        "id": "ovos",
+        "name": "Ovos",
+        "quantity": 3,
+        "unit": "unidades"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 1,
+        "unit": "pitada"
+      },
+      {
+        "id": "oregano",
+        "name": "Orégano",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "cebola",
+        "name": "Cebola",
+        "quantity": 0.5,
+        "unit": "unidade"
+      },
+      {
+        "id": "tomate",
+        "name": "Tomate sem sementes",
+        "quantity": 0.5,
+        "unit": "unidade"
+      },
+      {
+        "id": "queijo",
+        "name": "Muçarela",
+        "quantity": 2,
+        "unit": "fatias"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite para untar",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Preaqueça a airfryer a 180 °C por 5 minutos. Pique cebola, tomate sem sementes e muçarela."
+      },
+      {
+        "id": "passo-2",
+        "text": "Bata os ovos com um batedor. Misture sal, orégano, pimenta e os ingredientes picados."
+      },
+      {
+        "id": "passo-3",
+        "text": "Unte um refratário de 15 × 15 cm próprio para a airfryer e despeje a mistura. Deixe espaço ao redor do recipiente para o ar circular."
+      },
+      {
+        "id": "passo-4",
+        "text": "Asse cerca de 15 minutos a 180 °C, até dourar e firmar no centro, sem ovo líquido. Retire com proteção térmica e sirva no próprio refratário."
+      }
+    ],
+    "equipment": [
+      "Airfryer e refratário próprio de 15 × 15 cm",
+      "Tigela, batedor, tábua e faca",
+      "Luvas térmicas"
+    ],
+    "tips": [
+      {
+        "title": "Tomate sem sementes",
+        "text": "Retire a parte mais úmida antes de picar."
+      },
+      {
+        "title": "Centro firme",
+        "text": "Confira o ponto no meio da omelete, não apenas o dourado da superfície."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Guarde em recipiente fechado, a 4 °C ou menos, por até 2 dias. Refrigere em até 2 horas após preparar."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça somente a porção que vai consumir até 74 °C no centro."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T01:25:08Z"
+  },
+  "sources": [
+    {
+      "title": "Receiteria — omelete na air fryer",
+      "url": "https://www.receiteria.com.br/receita/omelete-na-air-fryer/",
+      "role": "Duas porções,3ovos, refratário15×15cm e180 °C15min."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "15min de cocção mais5preaquecer, não20min de cocção. Sem presunto/espinafre de outras versões.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "id": "pure-de-couve-flor",
+  "slug": "pure-de-couve-flor",
+  "title": "Purê de couve-flor com leite e louro, sem batata",
+  "description": "Purê de couve-flor com leite e louro, sem batata. Veja como aproveitar o talo e reservar o líquido do cozimento para ajustar a textura.",
+  "intro": "Floretes e talo cozinham juntos. O líquido entra aos poucos ao bater, para não transformar o purê em sopa.",
+  "categoryIds": [
+    "acompanhamentos"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/pure-couve-flor.webp",
+    "alt": "Imagem ilustrativa: Purê liso de couve-flor em tom marfim, sem batata ou cobertura"
+  },
+  "publishedAt": "2026-11-04T01:25:08Z",
+  "updatedAt": "2026-11-04T01:25:08Z",
+  "seo": {
+    "title": "Purê de couve-flor com leite e louro, sem batata | Bebel",
+    "description": "Purê de couve-flor com leite e louro, sem batata. Veja como aproveitar o talo e reservar o líquido do cozimento para ajustar a textura."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 2,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 15,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 15 minutos após ferver, além da limpeza e da finalização.",
+    "ingredients": [
+      {
+        "id": "couve",
+        "name": "Couve-flor",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "agua",
+        "name": "Água",
+        "quantity": 1.5,
+        "unit": "xícara (chá)",
+        "shopping": false
+      },
+      {
+        "id": "leite",
+        "name": "Leite",
+        "quantity": 1.5,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "louro",
+        "name": "Louro",
+        "quantity": 1,
+        "unit": "folha"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 1,
+        "unit": "colher (chá)"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Descarte folhas e base dura do talo. Corte a couve-flor, incluindo o restante do talo, em pedaços médios. Lave e escorra."
+      },
+      {
+        "id": "passo-2",
+        "text": "Coloque na panela com água, leite, louro e sal. Leve ao fogo médio e cozinhe cerca de 15 minutos depois de ferver, até amaciar."
+      },
+      {
+        "id": "passo-3",
+        "text": "Desligue, reserve 1 xícara do líquido e retire o louro. Separe a couve-flor do restante do caldo."
+      },
+      {
+        "id": "passo-4",
+        "text": "Bata com mixer ou liquidificador apropriado, seguindo as instruções para alimentos quentes. Adicione o líquido reservado aos poucos, somente até ficar cremoso. Confira o sal e sirva."
+      }
+    ],
+    "equipment": [
+      "Panela média, escorredor e concha",
+      "Mixer ou liquidificador",
+      "Tábua, faca e medidores"
+    ],
+    "tips": [
+      {
+        "title": "Caldo aos poucos",
+        "text": "Talvez não seja necessário usar toda a xícara reservada."
+      },
+      {
+        "title": "Aproveite o talo",
+        "text": "Retire somente a base dura; os pedaços macios também entram no purê."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Guarde em recipiente fechado, a 4 °C ou menos, por até 2 dias. Refrigere em até 2 horas após preparar."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça somente a porção que vai consumir até 74 °C no centro."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T01:25:08Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — purê de couve-flor",
+      "url": "https://panelinha.com.br/receita/pure-de-couve-flor",
+      "role": "Duas porções, leite, água, louro e líquido reservado."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Distinto de couve-flor gratinada e airfryer. Sem manteiga, queijo ou creme de leite de outras fórmulas.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

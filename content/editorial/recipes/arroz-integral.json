@@ -1,0 +1,142 @@
+{
+  "id": "arroz-integral",
+  "slug": "arroz-integral",
+  "title": "Arroz integral sem refogar, com louro e cravo",
+  "description": "Arroz integral longo sem refogar, cozido com cebola, louro e cravo. Confira a proporção de água e os 5 minutos de descanso antes de soltar.",
+  "intro": "A cebola entra inteira com os temperos presos pelo cravo. O arroz cozinha diretamente na água fervente.",
+  "categoryIds": [
+    "acompanhamentos"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/arroz-integral.webp",
+    "alt": "Imagem ilustrativa: Grãos de arroz integral longo cozidos e soltinhos numa tigela clara"
+  },
+  "publishedAt": "2026-11-04T02:32:27Z",
+  "updatedAt": "2026-11-04T02:32:27Z",
+  "seo": {
+    "title": "Arroz integral sem refogar, com louro e cravo | Bebel",
+    "description": "Arroz integral longo sem refogar, cozido com cebola, louro e cravo. Confira a proporção de água e os 5 minutos de descanso antes de soltar."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 4,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 35,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 35 minutos de cozimento e 5 de descanso, além de ferver a água.",
+    "ingredients": [
+      {
+        "id": "arroz",
+        "name": "Arroz integral longo cru",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "agua",
+        "name": "Água",
+        "quantity": 3,
+        "unit": "xícaras (chá)",
+        "shopping": false
+      },
+      {
+        "id": "cebola",
+        "name": "Cebola",
+        "quantity": 0.5,
+        "unit": "unidade"
+      },
+      {
+        "id": "louro",
+        "name": "Louro",
+        "quantity": 1,
+        "unit": "folha"
+      },
+      {
+        "id": "cravo",
+        "name": "Cravo-da-índia",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 0.5,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite, opcional",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Descasque a meia cebola e prenda nela a folha de louro usando o cravo."
+      },
+      {
+        "id": "passo-2",
+        "text": "Ferva a água com a cebola. Acrescente arroz, sal e, se quiser, um fio de azeite. Misture."
+      },
+      {
+        "id": "passo-3",
+        "text": "Abaixe o fogo, tampe parcialmente e cozinhe cerca de 35 minutos, até a água ser absorvida. Afaste alguns grãos com garfo para conferir o fundo."
+      },
+      {
+        "id": "passo-4",
+        "text": "Desligue e deixe tampado por 5 minutos. Solte os grãos com garfo e retire a cebola e os temperos inteiros antes de servir."
+      }
+    ],
+    "equipment": [
+      "Panela pequena com tampa",
+      "Xícara e colher medidora",
+      "Faca e garfo"
+    ],
+    "tips": [
+      {
+        "title": "Tipo de arroz",
+        "text": "A referência é arroz integral de grão longo, não cateto ou mistura de grãos."
+      },
+      {
+        "title": "Descanso tampado",
+        "text": "Espere os 5 minutos para terminar no vapor."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Resfrie logo",
+        "text": "Divida as sobras em recipientes rasos e leve à geladeira rapidamente, de preferência em até 1 hora. Consuma em até 24 horas."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Reaqueça apenas uma vez, até ficar bem quente por inteiro. Retire somente a quantidade que vai consumir."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T02:32:27Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — arroz integral sem refogar",
+      "url": "https://panelinha.com.br/receita/arroz-integral-sem-refogar",
+      "role": "Quatro porções,1 xícara arroz/3 água e descanso 5 min."
+    },
+    {
+      "title": "Food Standards Agency — arroz e sobras",
+      "url": "https://www.gov.uk/government/publications/home-food-fact-checker/home-food-fact-checker",
+      "role": "Arroz refrigerado rapidamente e consumido em 24 horas; reaquecer somente uma vez."
+    }
+  ],
+  "editorialNotes": [
+    "Termo transacional no provedor; página cobre preparo, não compra ou benefícios. Remoção dos aromáticos explicitada antes de servir.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

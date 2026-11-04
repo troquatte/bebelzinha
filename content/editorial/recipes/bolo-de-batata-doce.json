@@ -1,0 +1,165 @@
+{
+  "id": "bolo-de-batata-doce",
+  "slug": "bolo-de-batata-doce",
+  "title": "Bolo de batata-doce crua de liquidificador com canela",
+  "description": "Bolo de batata-doce crua batida no liquidificador, com farinha de trigo e leite. A forma recebe manteiga, açúcar e canela antes da massa.",
+  "intro": "Descasque e corte a batata-doce em pedaços pequenos para bater. Esta versão leva trigo e fermento, sem cozinhar a batata antes.",
+  "categoryIds": [
+    "doces",
+    "lanches",
+    "forno"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/bolo-batata-doce.webp",
+    "alt": "Imagem ilustrativa: Bolo dourado com fatia de miolo claro e cobertura leve de açúcar com canela"
+  },
+  "publishedAt": "2026-11-04T11:45:42Z",
+  "updatedAt": "2026-11-04T11:45:42Z",
+  "seo": {
+    "title": "Bolo de batata-doce crua de liquidificador com canela | Bebel",
+    "description": "Bolo de batata-doce crua batida no liquidificador, com farinha de trigo e leite. A forma recebe manteiga, açúcar e canela antes da massa."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 8,
+      "unit": "pedaço"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 40,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 2 minutos para bater, mais 30 segundos com farinha e aproximadamente 40 minutos de forno; reserve também o preaquecimento e o resfriamento.",
+    "ingredients": [
+      {
+        "id": "ovo",
+        "name": "Ovo",
+        "quantity": 3,
+        "unit": "unidades"
+      },
+      {
+        "id": "leite",
+        "name": "Leite",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "batata",
+        "name": "Batata-doce crua, descascada e picada",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "id": "oleo",
+        "name": "Óleo",
+        "quantity": 0.5,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "farinha",
+        "name": "Farinha de trigo",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "fermento",
+        "name": "Fermento químico em pó",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "manteiga",
+        "name": "Manteiga para untar",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "acucar-forma",
+        "name": "Açúcar para polvilhar a forma",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "canela",
+        "name": "Canela em pó para a forma",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Preaqueça o forno a 200 °C. Unte a forma com manteiga e polvilhe uma mistura de açúcar e canela."
+      },
+      {
+        "id": "passo-2",
+        "text": "Bata ovos, leite, batata-doce crua picada, óleo e açúcar por cerca de 2 minutos, até não haver pedaços."
+      },
+      {
+        "id": "passo-3",
+        "text": "Adicione a farinha aos poucos e bata por mais 30 segundos. Incorpore o fermento delicadamente."
+      },
+      {
+        "id": "passo-4",
+        "text": "Despeje na forma, mantendo espaço para crescer. Asse por cerca de 40 minutos, até dourar e um palito sair sem massa crua."
+      },
+      {
+        "id": "passo-5",
+        "text": "Deixe amornar antes de soltar as bordas e desenformar. Corte em oito pedaços para servir."
+      }
+    ],
+    "equipment": [
+      "Liquidificador, faca e tábua",
+      "Forma própria para bolo e forno",
+      "Medidores, espátula e palito"
+    ],
+    "tips": [
+      {
+        "title": "Batata em pedaços pequenos",
+        "text": "Facilita o trabalho do liquidificador; confira se triturou antes de juntar a farinha."
+      },
+      {
+        "title": "Sem trocar a base",
+        "text": "A fórmula usa batata crua e farinha; não substitua pelo peso de batata já cozida."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Depois de perder o calor forte, guarde fechado na geladeira a 4 °C ou menos e consuma em até 2 dias."
+      },
+      {
+        "title": "Para servir",
+        "text": "Retire apenas as fatias que vai consumir e deixe perder o frio ou aqueça brevemente."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T11:45:42Z"
+  },
+  "sources": [
+    {
+      "title": "Receiteria — bolo de batata doce",
+      "url": "https://www.receiteria.com.br/receita/bolo-de-batata-doce/",
+      "role": "Batata crua 200 g, três ovos, oito pedaços, forno 200 °C cerca de 40 minutos."
+    },
+    {
+      "title": "Health Canada — conservação de sobras",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento rápido, refrigeração e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Fonte não fornece tamanho de forma; não inventar diâmetro. Diferente da variante cremosa de batata cozida; corrigido erro de digitação colher de sopo para sopa.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

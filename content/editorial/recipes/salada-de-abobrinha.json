@@ -1,0 +1,128 @@
+{
+  "id": "salada-de-abobrinha",
+  "slug": "salada-de-abobrinha",
+  "title": "Salada de abobrinha crua em fitas com manjericão",
+  "description": "Salada de abobrinha crua em fitas finas com manjericão e azeite. Veja como fatiar com segurança e temperar somente na hora de servir.",
+  "intro": "A abobrinha entra crua, bem lavada e cortada fina. O tempero é simples para manter o frescor.",
+  "categoryIds": [
+    "acompanhamentos"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/salada-abobrinha.webp",
+    "alt": "Imagem ilustrativa: Fitas finas de abobrinha crua com casca verde, folhas de manjericão e azeite"
+  },
+  "publishedAt": "2026-11-03T23:34:25Z",
+  "updatedAt": "2026-11-03T23:34:25Z",
+  "seo": {
+    "title": "Salada de abobrinha crua em fitas com manjericão | Bebel",
+    "description": "Salada de abobrinha crua em fitas finas com manjericão e azeite. Veja como fatiar com segurança e temperar somente na hora de servir."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 2,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Sem cocção. Fatie e tempere próximo da hora de servir.",
+    "ingredients": [
+      {
+        "id": "abobrinha",
+        "name": "Abobrinha",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "manjericao",
+        "name": "Manjericão",
+        "quantity": 10,
+        "unit": "folhas"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Lave e higienize a abobrinha e o manjericão. Seque bem."
+      },
+      {
+        "id": "passo-2",
+        "text": "Retire as pontas da abobrinha e corte no sentido do comprimento em fitas bem finas. Se usar mandolina, mantenha o protetor de mãos encaixado."
+      },
+      {
+        "id": "passo-3",
+        "text": "Acomode as fitas em uma travessa e distribua as folhas de manjericão."
+      },
+      {
+        "id": "passo-4",
+        "text": "Regue com azeite e tempere com sal e pimenta somente na hora de servir."
+      }
+    ],
+    "equipment": [
+      "Tábua e faca ou mandolina com protetor",
+      "Travessa e utensílio para secar as folhas"
+    ],
+    "tips": [
+      {
+        "title": "Fitas finas",
+        "text": "O corte delicado facilita comer a abobrinha crua."
+      },
+      {
+        "title": "Tempere no final",
+        "text": "O sal faz o vegetal soltar líquido; monte perto da refeição."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Melhor fresca",
+        "text": "Sirva depois de temperar. Se precisar adiantar, mantenha as fitas secas e sem tempero em recipiente fechado na geladeira."
+      },
+      {
+        "title": "Se sobrar",
+        "text": "Refrigere a 4 °C ou menos e consuma até o dia seguinte. Não deixe mais de 2 horas fora da geladeira."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T23:34:25Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — salada de abobrinha com manjericão",
+      "url": "https://panelinha.com.br/receita/salada-de-abobrinha-com-manjericao",
+      "role": "Duas porções, abobrinha crua em fitas e 10 folhas de manjericão."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Não adicionar limão ou parmesão de outras receitas. Distinta de abobrinha assada e abobrinha recheada.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

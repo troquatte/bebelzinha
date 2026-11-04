@@ -1,0 +1,152 @@
+{
+  "id": "salada-de-cenoura",
+  "slug": "salada-de-cenoura",
+  "title": "Salada de cenoura em fitas com balsâmico e castanha-de-caju",
+  "description": "Salada de cenoura crua em fitas com balsâmico, mel e castanha-de-caju. Confira como perfumar o molho com alho e retirá-lo antes de servir.",
+  "intro": "O descascador faz fitas longas e finas; o alho perfuma o molho e depois é retirado.",
+  "categoryIds": [
+    "acompanhamentos"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/salada-cenoura.webp",
+    "alt": "Imagem ilustrativa: Fitas de cenoura crua com salsinha e castanha-de-caju picada"
+  },
+  "publishedAt": "2026-11-04T00:51:32Z",
+  "updatedAt": "2026-11-04T00:51:32Z",
+  "seo": {
+    "title": "Salada de cenoura em fitas com balsâmico e castanha-de-caju | Bebel",
+    "description": "Salada de cenoura crua em fitas com balsâmico, mel e castanha-de-caju. Confira como perfumar o molho com alho e retirá-lo antes de servir."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 2,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Sem cocção. Prepare o molho e tempere próximo da refeição.",
+    "ingredients": [
+      {
+        "id": "cenoura",
+        "name": "Cenoura",
+        "quantity": 2,
+        "unit": "unidades"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": 2,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "vinagre",
+        "name": "Vinagre balsâmico",
+        "quantity": 1.5,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "mel",
+        "name": "Mel",
+        "quantity": 0.5,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "alho",
+        "name": "Alho",
+        "quantity": 1,
+        "unit": "dente"
+      },
+      {
+        "id": "castanha",
+        "name": "Castanha-de-caju",
+        "quantity": 0.25,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "salsa",
+        "name": "Salsinha",
+        "quantity": 2,
+        "unit": "ramos"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Lave e descasque as cenouras. Com o descascador, faça fitas longas e finas e coloque em uma tigela."
+      },
+      {
+        "id": "passo-2",
+        "text": "Lave, seque e pique a salsinha. Pique a castanha grosseiramente."
+      },
+      {
+        "id": "passo-3",
+        "text": "Amasse e descasque o alho. Coloque num pote com azeite, balsâmico, mel, salsinha, sal e pimenta. Tampe e agite."
+      },
+      {
+        "id": "passo-4",
+        "text": "Retire o dente de alho. Misture o molho às fitas, finalize com castanha e sirva."
+      }
+    ],
+    "equipment": [
+      "Descascador, tábua e faca",
+      "Pote com tampa, tigela e medidores"
+    ],
+    "tips": [
+      {
+        "title": "Alho só para perfumar",
+        "text": "Retire o dente antes de regar a cenoura."
+      },
+      {
+        "title": "Castanha no final",
+        "text": "Acrescente na hora de servir para manter o contraste de textura."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Sirva fresca",
+        "text": "Mantenha refrigerada até servir. Para adiantar, guarde o molho separado e misture apenas na refeição."
+      },
+      {
+        "title": "Se sobrar",
+        "text": "Refrigere em recipiente fechado, a 4 °C ou menos, e consuma até o dia seguinte. Não deixe mais de 2 horas fora da geladeira."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T00:51:32Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — salada de cenoura com balsâmico e castanha",
+      "url": "https://panelinha.com.br/receita/salada-de-cenoura-com-vinagre-balsamico-e-castanha-de-caju",
+      "role": "Duas porções, fitas cruas, alho retirado e castanha."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Refrigeração, resfriamento e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Não é cenoura refogada nem salada de maionese. Mel preservado, sem alegação de receita vegana.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "id": "salada-de-macarrao",
+  "slug": "salada-de-macarrao",
+  "title": "Salada de macarrão gravatinha com atum e castanha-de-caju",
+  "description": "Salada de macarrão gravatinha com atum, salsão, cenoura e castanha-de-caju, sem maionese. Confira a quantidade de massa já cozida e a montagem.",
+  "intro": "Uma salada fria temperada com azeite de manjericão. A quantidade da massa é medida depois do cozimento.",
+  "categoryIds": [
+    "massas",
+    "acompanhamentos"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/salada-macarrao.webp",
+    "alt": "Imagem ilustrativa: Salada de gravatinha com atum, cenoura, salsão, pimentão, alcaparras e castanha-de-caju"
+  },
+  "publishedAt": "2026-11-03T23:34:25Z",
+  "updatedAt": "2026-11-03T23:34:25Z",
+  "seo": {
+    "title": "Salada de macarrão gravatinha com atum e castanha-de-caju | Bebel",
+    "description": "Salada de macarrão gravatinha com atum, salsão, cenoura e castanha-de-caju, sem maionese. Confira a quantidade de massa já cozida e a montagem."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 4,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "A montagem começa com a gravatinha já cozida e fria. Mantenha refrigerada até servir.",
+    "ingredients": [
+      {
+        "id": "massa",
+        "name": "Macarrão gravatinha cozido",
+        "quantity": 200,
+        "unit": "g",
+        "note": "Pese depois de cozinhar e escorrer."
+      },
+      {
+        "id": "atum",
+        "name": "Atum em conserva",
+        "quantity": 1,
+        "unit": "lata",
+        "note": "Escorrido."
+      },
+      {
+        "id": "cenoura",
+        "name": "Cenoura média ralada",
+        "quantity": 2,
+        "unit": "unidades"
+      },
+      {
+        "id": "salsao",
+        "name": "Salsão bem picado",
+        "quantity": 1,
+        "unit": "pé",
+        "note": "Lave e seque antes de picar."
+      },
+      {
+        "id": "pimentao",
+        "name": "Pimentão vermelho picado",
+        "quantity": 0.5,
+        "unit": "unidade"
+      },
+      {
+        "id": "alcaparra",
+        "name": "Alcaparras",
+        "quantity": 5,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "castanha",
+        "name": "Castanha-de-caju torrada picada",
+        "quantity": 5,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite sabor manjericão",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Se for cozinhar a massa agora, siga a embalagem, escorra e deixe esfriar. Separe 200 g da gravatinha já cozida."
+      },
+      {
+        "id": "passo-2",
+        "text": "Lave e seque os vegetais. Rale as cenouras e pique bem o salsão e o pimentão."
+      },
+      {
+        "id": "passo-3",
+        "text": "Misture a massa fria com atum escorrido, cenoura, salsão, pimentão e alcaparras."
+      },
+      {
+        "id": "passo-4",
+        "text": "Acrescente a castanha-de-caju e regue com o azeite sabor manjericão. Prove e ajuste o sal."
+      },
+      {
+        "id": "passo-5",
+        "text": "Cubra e mantenha na geladeira até servir. Misture delicadamente antes de levar à mesa."
+      }
+    ],
+    "equipment": [
+      "Panela e escorredor, se precisar cozinhar a massa",
+      "Tigela grande, ralador, tábua e faca",
+      "Balança, colher medidora e recipiente com tampa"
+    ],
+    "tips": [
+      {
+        "title": "Peso da massa",
+        "text": "A lista pede 200 g de macarrão cozido, não de massa seca."
+      },
+      {
+        "title": "Sem maionese",
+        "text": "O tempero desta versão é feito com azeite sabor manjericão."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Guarde prontamente em recipiente fechado, a 4 °C ou menos, por até 2 dias. Não deixe mais de 2 horas fora de refrigeração."
+      },
+      {
+        "title": "Para servir",
+        "text": "Retire somente a quantidade desejada com utensílio limpo e mantenha o restante refrigerado."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T23:34:25Z"
+  },
+  "sources": [
+    {
+      "title": "Receitas Globo — salada de macarrão gravatinha",
+      "url": "https://receitas.globo.com/tipos-de-prato/saladas/salada-de-macarrao-gravatinha-4d515d9452e0b252bc00f857.ghtml",
+      "role": "Quatro porções, 200 g de massa cozida, salsão, alcaparras e castanhas."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Preservados 1 pé de salsão e 5 colheres de alcaparras conforme fonte; não trocar por fórmulas com maionese.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

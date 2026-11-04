@@ -1,0 +1,144 @@
+{
+  "id": "quiabo-refogado",
+  "slug": "quiabo-refogado",
+  "title": "Quiabo refogado em rodelas com cebola e alho",
+  "description": "Quiabo refogado com cebola e alho, feito na panela. Veja como secar antes de cortar e cozinhar tampado até amaciar.",
+  "intro": "Um acompanhamento de panela com rodelas de aproximadamente 1 cm.",
+  "categoryIds": [
+    "acompanhamentos"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/quiabo-refogado.webp",
+    "alt": "Imagem ilustrativa: Rodelas de quiabo com sementes claras e cebola refogada"
+  },
+  "publishedAt": "2026-11-03T22:53:32Z",
+  "updatedAt": "2026-11-03T22:53:32Z",
+  "seo": {
+    "title": "Quiabo refogado em rodelas com cebola e alho | Bebel",
+    "description": "Quiabo refogado com cebola e alho, feito na panela. Veja como secar antes de cortar e cozinhar tampado até amaciar."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 4,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "A referência indica cerca de 20 minutos de preparo e cozimento; confira a maciez antes de desligar.",
+    "ingredients": [
+      {
+        "id": "quiabo",
+        "name": "Quiabo",
+        "quantity": 500,
+        "unit": "g"
+      },
+      {
+        "id": "oleo",
+        "name": "Óleo",
+        "quantity": 2,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "cebola",
+        "name": "Cebola média",
+        "quantity": 1,
+        "unit": "unidade",
+        "note": "Cortada em rodelas."
+      },
+      {
+        "id": "alho",
+        "name": "Alho",
+        "quantity": 1,
+        "unit": "dente"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "agua",
+        "name": "Água",
+        "quantity": null,
+        "unit": "a gosto",
+        "note": "Somente um pouco, se precisar evitar que o fundo resseque.",
+        "shopping": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Lave e enxugue bem os quiabos. Retire as pontas e corte em rodelas de cerca de 1 cm."
+      },
+      {
+        "id": "passo-2",
+        "text": "Aqueça o óleo e doure a cebola e o alho amassado."
+      },
+      {
+        "id": "passo-3",
+        "text": "Junte quiabo, sal e pimenta. Abaixe o fogo e tampe."
+      },
+      {
+        "id": "passo-4",
+        "text": "Cozinhe até ficar macio, verificando o fundo. Se necessário, pingue um pouco de água apenas para não ressecar. Sirva quente."
+      }
+    ],
+    "equipment": [
+      "Panela com tampa e colher",
+      "Tábua e faca",
+      "Pano limpo para secar"
+    ],
+    "tips": [
+      {
+        "title": "Seque antes de cortar",
+        "text": "Retire a água da lavagem enquanto os quiabos estão inteiros."
+      },
+      {
+        "title": "Maciez",
+        "text": "Observe o ponto em vez de deixar a panela secar sem conferir."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Refrigere prontamente em recipiente fechado, a 4 °C ou menos, por até 2 dias. Não deixe mais de 2 horas fora de refrigeração."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça somente o que vai consumir até 74 °C no centro."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T22:53:32Z"
+  },
+  "sources": [
+    {
+      "title": "Embrapa Hortaliças — quiabo refogado",
+      "url": "https://www.embrapa.br/en/web/hortalicas/hortalica-nao-e-so-salada/receitas/quiabo-refogado",
+      "role": "Quatro porções,500 g, método com cebola e alho."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Escolhida Embrapa sem tomate/Fondor; não misturar com receita Nestlé consultada. Diferente de quiabo na airfryer e Short grelhado semID. Não prometer ausência absoluta de baba.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

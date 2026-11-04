@@ -1,0 +1,165 @@
+{
+  "id": "bolo-de-ameixa",
+  "slug": "bolo-de-ameixa",
+  "title": "Bolo de ameixa seca de liquidificador, sem cobertura",
+  "description": "Bolo de ameixa seca de liquidificador com farinha incorporada à mão. Veja o preparo da massa e como manter pedacinhos da fruta no miolo.",
+  "intro": "Um bolo para o café, com ameixa seca na própria massa. Separe a fruta sem caroço antes de começar a bater.",
+  "categoryIds": [
+    "forno",
+    "doces",
+    "lanches"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/bolo-ameixa.webp",
+    "alt": "Imagem ilustrativa: Bolo com furo central e fatia mostrando pedaços de ameixa seca"
+  },
+  "publishedAt": "2026-11-04T02:50:52Z",
+  "updatedAt": "2026-11-04T02:50:52Z",
+  "seo": {
+    "title": "Bolo de ameixa seca de liquidificador, sem cobertura | Bebel",
+    "description": "Bolo de ameixa seca de liquidificador com farinha incorporada à mão. Veja o preparo da massa e como manter pedacinhos da fruta no miolo."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 10,
+      "unit": "fatias"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 50,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 20 minutos para preparar e 50 no forno, além do preaquecimento e do tempo para amornar.",
+    "ingredients": [
+      {
+        "id": "ameixa",
+        "name": "Ameixa seca sem caroço",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "id": "ovos",
+        "name": "Ovos",
+        "quantity": 3,
+        "unit": "unidades"
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar refinado",
+        "quantity": 1.25,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "oleo",
+        "name": "Óleo",
+        "quantity": 0.5,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "leite",
+        "name": "Leite",
+        "quantity": 200,
+        "unit": "ml"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 1,
+        "unit": "pitada"
+      },
+      {
+        "id": "fermento",
+        "name": "Fermento químico em pó",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "farinha",
+        "name": "Farinha de trigo",
+        "quantity": 300,
+        "unit": "g"
+      },
+      {
+        "id": "margarina",
+        "name": "Margarina para untar",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "farinha-forma",
+        "name": "Farinha de trigo para polvilhar a forma",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Preaqueça a 180 °C. Unte e enfarinhe uma forma de furo central com espaço para a massa crescer."
+      },
+      {
+        "id": "passo-2",
+        "text": "Bata ovos, açúcar, leite e sal por cerca de 1 minuto. Junte parte das ameixas e bata para colorir."
+      },
+      {
+        "id": "passo-3",
+        "text": "Acrescente o óleo e o restante das ameixas. Bata brevemente para incorporar, preservando alguns pedaços."
+      },
+      {
+        "id": "passo-4",
+        "text": "Transfira à tigela. Incorpore a farinha aos poucos e, por último, misture o fermento delicadamente."
+      },
+      {
+        "id": "passo-5",
+        "text": "Coloque na forma e asse por cerca de 50 minutos. Confira o centro com palito, sem massa crua aderida, e deixe amornar antes de desenformar."
+      }
+    ],
+    "equipment": [
+      "Liquidificador, tigela e batedor de arame",
+      "Forma redonda com furo central",
+      "Balança, medidores e palito"
+    ],
+    "tips": [
+      {
+        "title": "Ameixa seca",
+        "text": "Não substitua por ameixa fresca nesta formulação."
+      },
+      {
+        "title": "Farinha à mão",
+        "text": "Depois que a farinha entrar, misture apenas até a massa ficar uniforme."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Depois de esfriar, guarde bem fechado e consuma em até 2 dias."
+      },
+      {
+        "title": "Para servir",
+        "text": "Retire somente as fatias que vai consumir e aqueça brevemente se preferir."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T02:50:52Z"
+  },
+  "sources": [
+    {
+      "title": "Receiteria — bolo de ameixa de liquidificador",
+      "url": "https://www.receiteria.com.br/receita/bolo-de-ameixa-de-liquidificador/",
+      "role": "Ameixa seca 150 g, farinha 300 g, dez fatias e 180 °C por 50 minutos."
+    },
+    {
+      "title": "Health Canada — conservação de sobras",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Refrigeração em até 2 horas, armazenamento a 4 °C ou menos e reaquecimento a 74 °C."
+    }
+  ],
+  "editorialNotes": [
+    "Fonte não informa diâmetro da forma: não inventar medida. Sem cobertura, fruta fresca ou recheio. Margarina e farinha da untura vêm do método.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

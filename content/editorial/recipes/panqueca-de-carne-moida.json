@@ -1,0 +1,214 @@
+{
+  "id": "panqueca-de-carne-moida",
+  "slug": "panqueca-de-carne-moida",
+  "title": "Panqueca de carne moída com molho e parmesão gratinado",
+  "description": "Panqueca de carne moída com massa batida à mão, tomate e azeitona no recheio. Cubra com molho de tomate e parmesão antes de gratinar.",
+  "intro": "A massa dispensa liquidificador. Prepare primeiro o recheio, doure os discos e monte as panquecas no refratário.",
+  "categoryIds": [
+    "pratos-do-dia",
+    "massas",
+    "forno"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/panqueca-carne.webp",
+    "alt": "Imagem ilustrativa: Panquecas enroladas de carne com molho de tomate e parmesão dourado"
+  },
+  "publishedAt": "2026-11-04T11:45:42Z",
+  "updatedAt": "2026-11-04T11:45:42Z",
+  "seo": {
+    "title": "Panqueca de carne moída com molho e parmesão gratinado | Bebel",
+    "description": "Panqueca de carne moída com massa batida à mão, tomate e azeitona no recheio. Cubra com molho de tomate e parmesão antes de gratinar."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 1,
+      "unit": "receita"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "O recheio pede cerca de 30 minutos para dourar a carne, mais refogado; o forno leva cerca de 20 minutos. Há ainda corte, discos e montagem.",
+    "ingredients": [
+      {
+        "id": "ovo",
+        "name": "Ovo médio",
+        "quantity": 2,
+        "unit": "unidades"
+      },
+      {
+        "id": "leite",
+        "name": "Leite integral",
+        "quantity": 360,
+        "unit": "ml"
+      },
+      {
+        "id": "azeite-massa",
+        "name": "Azeite para a massa",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "sal-massa",
+        "name": "Sal para a massa",
+        "quantity": 1,
+        "unit": "pitada"
+      },
+      {
+        "id": "farinha",
+        "name": "Farinha de trigo",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite para refogar e untar",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "carne",
+        "name": "Carne moída",
+        "quantity": 500,
+        "unit": "g"
+      },
+      {
+        "id": "cebola",
+        "name": "Cebola",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "alho",
+        "name": "Alho",
+        "quantity": 4,
+        "unit": "dentes"
+      },
+      {
+        "id": "sal",
+        "name": "Sal para o recheio",
+        "quantity": 1,
+        "unit": "colher (chá)",
+        "note": "Ajuste ao gosto."
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": 0.25,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "colorau",
+        "name": "Colorau",
+        "quantity": 1,
+        "unit": "colher (café)"
+      },
+      {
+        "id": "paprica",
+        "name": "Páprica picante",
+        "quantity": 1,
+        "unit": "colher (café)"
+      },
+      {
+        "id": "tomate",
+        "name": "Tomate",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "azeitona",
+        "name": "Azeitona picada",
+        "quantity": 3,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "cheiro",
+        "name": "Cheiro-verde",
+        "quantity": 3,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "molho",
+        "name": "Molho de tomate",
+        "quantity": 300,
+        "unit": "g"
+      },
+      {
+        "id": "queijo",
+        "name": "Parmesão ralado",
+        "quantity": 50,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Pique os vegetais. Aqueça um fio de azeite e doure a carne, separando os pedaços por cerca de 30 minutos. Junte cebola, alho, sal, pimenta, colorau e páprica e refogue por mais 10 minutos."
+      },
+      {
+        "id": "passo-2",
+        "text": "Acrescente tomate e deixe murchar. Misture azeitona e cheiro-verde e refogue por mais 2 minutos. Reserve."
+      },
+      {
+        "id": "passo-3",
+        "text": "Bata ovos, leite, azeite da massa e sal com batedor. Adicione farinha aos poucos até ficar liso. Aqueça frigideira antiaderente de cerca de 26 cm e unte levemente."
+      },
+      {
+        "id": "passo-4",
+        "text": "Espalhe uma concha de massa girando a frigideira. Doure dos dois lados e repita com o restante, reservando os discos."
+      },
+      {
+        "id": "passo-5",
+        "text": "Recheie e enrole os discos, sem encher até as bordas. Acomode no refratário, cubra com molho e parmesão e leve ao forno preaquecido a 200 °C por cerca de 20 minutos, até gratinar."
+      }
+    ],
+    "equipment": [
+      "Panela média e frigideira antiaderente de cerca de 26 cm",
+      "Tigela, batedor, concha e espátula",
+      "Refratário próprio para forno"
+    ],
+    "tips": [
+      {
+        "title": "Recheio sem excesso",
+        "text": "Distribua a carne deixando uma margem para enrolar sem vazar."
+      },
+      {
+        "title": "Molho medido pelo peso",
+        "text": "Use 300 g de molho: essa é a quantidade definida para a cobertura."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Distribua em recipientes rasos e refrigere em até 2 horas. Guarde a 4 °C ou menos e consuma em até 2 dias."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça somente a porção que vai consumir até atingir 74 °C no centro."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T11:45:42Z"
+  },
+  "sources": [
+    {
+      "title": "Receiteria — panqueca fácil de carne moída",
+      "url": "https://www.receiteria.com.br/receita/panqueca-facil-de-carne-moida/",
+      "role": "Massa à mão, carne 500 g, molho 300 g e forno 200 °C por 20 minutos."
+    },
+    {
+      "title": "Health Canada — conservação de sobras",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento rápido, refrigeração e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Fonte informa rendimento em kg e soma de tempos inconsistente com etapas; unidade receita sem inventar número de panquecas/porções ou total. Azeite de untura consta.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

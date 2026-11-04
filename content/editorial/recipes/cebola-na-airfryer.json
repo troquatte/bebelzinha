@@ -1,0 +1,140 @@
+{
+  "id": "cebola-na-airfryer",
+  "slug": "cebola-na-airfryer",
+  "title": "Cebola na airfryer em tirinhas crocantes com páprica",
+  "description": "Cebola na airfryer em tirinhas finas com farinha, páprica e azeite. Veja como mexer durante o preparo a 140 °C e esfriar antes de servir.",
+  "intro": "A receita usa uma cebola grande e rende uma porção para dividir como complemento.",
+  "categoryIds": [
+    "airfryer",
+    "acompanhamentos"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/cebola-airfryer.webp",
+    "alt": "Imagem ilustrativa: Tirinhas finas de cebola dourada e crocante com páprica"
+  },
+  "publishedAt": "2026-11-03T22:53:32Z",
+  "updatedAt": "2026-11-03T22:53:32Z",
+  "seo": {
+    "title": "Cebola na airfryer em tirinhas crocantes com páprica | Bebel",
+    "description": "Cebola na airfryer em tirinhas finas com farinha, páprica e azeite. Veja como mexer durante o preparo a 140 °C e esfriar antes de servir."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 1,
+      "unit": "receita"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 10 a 15 minutos a 140 °C, além do corte e resfriamento.",
+    "ingredients": [
+      {
+        "id": "cebola",
+        "name": "Cebola grande",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 0.5,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "paprica",
+        "name": "Páprica",
+        "quantity": 0.5,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "farinha",
+        "name": "Farinha de trigo",
+        "quantity": 3,
+        "unit": "colheres (sopa)"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Descasque e corte a cebola ao meio. Fatie em meias-luas bem finas e separe as tiras."
+      },
+      {
+        "id": "passo-2",
+        "text": "Seque a umidade com papel de cozinha. Misture com sal, páprica, açúcar, azeite e farinha."
+      },
+      {
+        "id": "passo-3",
+        "text": "Espalhe na cesta e programe a 140 °C por 10 a 15 minutos. Abra e mexa a cada 3 ou 4 minutos, até dourar de modo uniforme."
+      },
+      {
+        "id": "passo-4",
+        "text": "Retire e deixe esfriar antes de servir: a cebola fica mais crocante ao perder o calor."
+      }
+    ],
+    "equipment": [
+      "Airfryer, tigela e colheres medidoras",
+      "Tábua, faca e papel de cozinha",
+      "Pegador e prato para esfriar"
+    ],
+    "tips": [
+      {
+        "title": "Tiras finas",
+        "text": "Esta versão não é uma cebola inteira nem anéis empanados."
+      },
+      {
+        "title": "Mexa durante o preparo",
+        "text": "Separe as tiras para evitar pontos queimados e partes úmidas."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Refrigere prontamente em recipiente fechado, a 4 °C ou menos, por até 2 dias. Não deixe mais de 2 horas fora de refrigeração."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça somente o que vai consumir até 74 °C no centro."
+      },
+      {
+        "title": "Crocância",
+        "text": "Prefira servir logo depois de esfriar. Ao refrigerar, a textura pode perder crocância."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T22:53:32Z"
+  },
+  "sources": [
+    {
+      "title": "Mondial — cebola frita crocante",
+      "url": "https://receitasmondial.com.br/receitas/cebola-frita-crocante/",
+      "role": "Uma cebola grande, ingredientes e 140 °C 10 a 15 min."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Fonte não informa número de porções: rendimento 1 receita, sem inventar gramas. Não é cebola caramelizada já publicada.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

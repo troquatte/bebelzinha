@@ -1,0 +1,160 @@
+{
+  "id": "bolo-de-abacaxi",
+  "slug": "bolo-de-abacaxi",
+  "title": "Bolo de abacaxi invertido com caramelo, na forma retangular",
+  "description": "Bolo de abacaxi invertido com caramelo claro, assado em forma de 30 × 20 cm. Veja como montar a fruta e desenformar ainda quente.",
+  "intro": "O abacaxi fica no fundo da forma durante o forno e aparece por cima depois de virar.",
+  "categoryIds": [
+    "doces",
+    "forno",
+    "lanches"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/bolo-abacaxi.webp",
+    "alt": "Imagem ilustrativa: Bolo retangular invertido com segmentos de abacaxi caramelizado"
+  },
+  "publishedAt": "2026-11-04T00:51:32Z",
+  "updatedAt": "2026-11-04T00:51:32Z",
+  "seo": {
+    "title": "Bolo de abacaxi invertido com caramelo, na forma retangular | Bebel",
+    "description": "Bolo de abacaxi invertido com caramelo claro, assado em forma de 30 × 20 cm. Veja como montar a fruta e desenformar ainda quente."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 12,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Caramelo: cerca de 10 minutos. Forno: cerca de 35 minutos a 180 °C. Espere 5 minutos antes de desenformar.",
+    "ingredients": [
+      {
+        "id": "abacaxi",
+        "name": "Abacaxi",
+        "quantity": 0.5,
+        "unit": "unidade"
+      },
+      {
+        "id": "acucar-calda",
+        "name": "Açúcar para o caramelo",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "agua",
+        "name": "Água para o caramelo",
+        "quantity": 0.5,
+        "unit": "xícara (chá)",
+        "shopping": false
+      },
+      {
+        "id": "farinha",
+        "name": "Farinha de trigo",
+        "quantity": 2,
+        "unit": "xícaras (chá)"
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar para a massa",
+        "quantity": 1.5,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "ovos",
+        "name": "Ovos",
+        "quantity": 3,
+        "unit": "unidades"
+      },
+      {
+        "id": "oleo",
+        "name": "Óleo",
+        "quantity": 0.5,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "leite",
+        "name": "Leite",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "fermento",
+        "name": "Fermento químico em pó",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Descasque o meio abacaxi, divida longitudinalmente, retire o miolo e corte fatias de 0,8 cm."
+      },
+      {
+        "id": "passo-2",
+        "text": "Aqueça açúcar do caramelo e água em panela pequena por cerca de 10 minutos, sem mexer, até ficar claro. Espalhe com cuidado no fundo de uma forma de 30 × 20 cm e acomode a fruta."
+      },
+      {
+        "id": "passo-3",
+        "text": "Preaqueça a 180 °C. Misture ovos e açúcar da massa com batedor; junte leite e óleo. Incorpore farinha peneirada em duas vezes e, por último, fermento."
+      },
+      {
+        "id": "passo-4",
+        "text": "Cubra a fruta com a massa e asse cerca de 35 minutos, até um palito sair limpo."
+      },
+      {
+        "id": "passo-5",
+        "text": "Espere 5 minutos. Solte as laterais, cubra com travessa e vire usando proteção térmica. Deixe esfriar antes de servir."
+      }
+    ],
+    "equipment": [
+      "Forma retangular de 30 × 20 cm e travessa maior",
+      "Panela pequena, tigelas, batedor e peneira",
+      "Tábua, faca, medidores e luvas térmicas"
+    ],
+    "tips": [
+      {
+        "title": "Caramelo claro",
+        "text": "Ele continua escurecendo no forno."
+      },
+      {
+        "title": "Desenforme quente",
+        "text": "Esperar esfriar na forma pode prender a fruta no caramelo."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Guarde em recipiente fechado, a 4 °C ou menos, por até 2 dias. Refrigere em até 2 horas após o preparo."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça somente a porção que vai consumir até 74 °C no centro."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T00:51:32Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — bolo invertido de abacaxi",
+      "url": "https://panelinha.com.br/receita/bolo-invertido-de-abacaxi",
+      "role": "Doze porções, segmentos de fruta, forma retangular e caramelo."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Refrigeração, resfriamento e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Sem cereja/coco; não usar foto de rodelas inteiras em forma redonda. Sem untura extra não prevista na fonte.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

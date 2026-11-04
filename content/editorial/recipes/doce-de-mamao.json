@@ -1,0 +1,131 @@
+{
+  "id": "doce-de-mamao",
+  "slug": "doce-de-mamao",
+  "title": "Doce de mamão verde em fitas na calda de açúcar",
+  "description": "Doce de mamão verde em fitas finas com calda de açúcar. Veja o branqueamento com bicarbonato e o descanso refrigerado de 12 horas.",
+  "intro": "Uma compoteira para compartilhar, feita com mamão verde em tiras. A fonte indica mais de seis porções, sem peso individual.",
+  "categoryIds": [
+    "doces"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/doce-mamao.webp",
+    "alt": "Imagem ilustrativa: Fitas finas de mamão verde translúcidas em calda clara de açúcar"
+  },
+  "publishedAt": "2026-11-04T01:25:08Z",
+  "updatedAt": "2026-11-04T01:25:08Z",
+  "seo": {
+    "title": "Doce de mamão verde em fitas na calda de açúcar | Bebel",
+    "description": "Doce de mamão verde em fitas finas com calda de açúcar. Veja o branqueamento com bicarbonato e o descanso refrigerado de 12 horas."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 1,
+      "unit": "receita"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Cocções breves em duas etapas e descanso de 12 horas na geladeira antes de servir.",
+    "ingredients": [
+      {
+        "id": "mamao",
+        "name": "Mamão verde",
+        "quantity": 1,
+        "unit": "kg"
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar",
+        "quantity": 1.5,
+        "unit": "kg"
+      },
+      {
+        "id": "agua-calda",
+        "name": "Água para a calda",
+        "quantity": 2,
+        "unit": "xícaras (chá)",
+        "shopping": false
+      },
+      {
+        "id": "bicarbonato",
+        "name": "Bicarbonato de sódio",
+        "quantity": 0.5,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "agua-branquear",
+        "name": "Água para branquear o mamão",
+        "quantity": null,
+        "unit": "a gosto",
+        "shopping": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Descasque o mamão, abra ao meio e descarte as sementes. Corte tiras bem finas no sentido do comprimento."
+      },
+      {
+        "id": "passo-2",
+        "text": "Ferva água numa panela com bicarbonato. Junte as tiras e cozinhe por 1 minuto. Escorra e descarte essa água."
+      },
+      {
+        "id": "passo-3",
+        "text": "Ferva açúcar e as 2 xícaras de água da calda por 3 minutos. Acrescente o mamão e cozinhe por mais 1 minuto. Desligue."
+      },
+      {
+        "id": "passo-4",
+        "text": "Transfira para recipiente limpo próprio para alimentos. Deixe perder o calor excessivo e refrigere em até 2 horas. Espere 12 horas na geladeira antes de servir."
+      }
+    ],
+    "equipment": [
+      "Panela grande, escorredor e colher",
+      "Tábua, faca e medidores",
+      "Recipiente limpo com tampa"
+    ],
+    "tips": [
+      {
+        "title": "Duas águas",
+        "text": "A água com bicarbonato é descartada antes de preparar a calda."
+      },
+      {
+        "title": "Não é conserva de prateleira",
+        "text": "Mantenha refrigerado; o preparo não estabelece conservação em temperatura ambiente."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Refrigerado",
+        "text": "Conserve coberto a 4 °C ou menos e consuma em até 2 dias contados do preparo, incluindo o descanso."
+      },
+      {
+        "title": "Para servir",
+        "text": "Use utensílio limpo e retire somente a quantidade desejada."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T01:25:08Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — doce de mamão verde",
+      "url": "https://panelinha.com.br/receita/doce-de-mamao-verde",
+      "role": "Mamão em fitas, bicarbonato, açúcar e descanso de 12 horas."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Fonte diz mais de6porções: rendimento1receita sem inventar7pessoas. Mantida proporção1kgfruta/1,5kgaçúcar. Descanso na geladeira e prazo curto não é alegação de conserva envasada. Sem coco, especiarias ou mamão maduro de outras versões.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

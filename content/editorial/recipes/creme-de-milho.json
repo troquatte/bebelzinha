@@ -1,0 +1,148 @@
+{
+  "id": "creme-de-milho",
+  "slug": "creme-de-milho",
+  "title": "Creme de milho batido com leite, sem farinha",
+  "description": "Creme de milho batido com leite, cebola e manteiga, sem farinha. Veja como cozinhar as espigas e engrossar o creme com o próprio milho.",
+  "intro": "O milho é refogado antes de bater com leite. A receita usa espigas frescas cozidas, não a proporção da versão congelada.",
+  "categoryIds": [
+    "acompanhamentos"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/creme-milho.webp",
+    "alt": "Imagem ilustrativa: Creme salgado de milho amarelo claro, liso e encorpado"
+  },
+  "publishedAt": "2026-11-04T01:25:08Z",
+  "updatedAt": "2026-11-04T01:25:08Z",
+  "seo": {
+    "title": "Creme de milho batido com leite, sem farinha | Bebel",
+    "description": "Creme de milho batido com leite, cebola e manteiga, sem farinha. Veja como cozinhar as espigas e engrossar o creme com o próprio milho."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 4,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Milho: cerca de 15 minutos após pegar pressão. Creme: mais 5 minutos após ferver, além do refogado e do manuseio.",
+    "ingredients": [
+      {
+        "id": "milho",
+        "name": "Espiga de milho-verde",
+        "quantity": 3,
+        "unit": "unidades",
+        "note": "Separe 2 xícaras de grãos depois de cozinhar e debulhar."
+      },
+      {
+        "id": "cebola",
+        "name": "Cebola",
+        "quantity": 0.5,
+        "unit": "unidade"
+      },
+      {
+        "id": "leite",
+        "name": "Leite",
+        "quantity": 2,
+        "unit": "xícaras (chá)"
+      },
+      {
+        "id": "manteiga",
+        "name": "Manteiga",
+        "quantity": 2,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "agua",
+        "name": "Água para cozinhar o milho",
+        "quantity": null,
+        "unit": "a gosto",
+        "note": "Respeite o limite do manual da panela.",
+        "shopping": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Retire palhas e cabelos e lave as espigas. Coloque na panela de pressão com água, respeitando o manual. Conte cerca de 15 minutos em fogo baixo após pegar pressão. Desligue e só abra depois da saída completa da pressão."
+      },
+      {
+        "id": "passo-2",
+        "text": "Deixe amornar, debulhe e meça 2 xícaras de grãos. Pique a cebola."
+      },
+      {
+        "id": "passo-3",
+        "text": "Derreta a manteiga em panela média. Refogue a cebola com uma pitada de sal até murchar; junte milho, sal e pimenta e mexa por 1 minuto."
+      },
+      {
+        "id": "passo-4",
+        "text": "Espere a mistura perder o calor excessivo e bata com o leite no liquidificador, seguindo o limite para líquidos quentes do aparelho."
+      },
+      {
+        "id": "passo-5",
+        "text": "Volte à panela, mexa até ferver e cozinhe mais 5 minutos em fogo baixo, até engrossar. Confira o tempero e sirva."
+      }
+    ],
+    "equipment": [
+      "Panela de pressão e panela média",
+      "Liquidificador, assadeira e espátula",
+      "Tábua, faca e medidores"
+    ],
+    "tips": [
+      {
+        "title": "Grãos medidos",
+        "text": "As 2 xícaras são de milho já cozido e debulhado."
+      },
+      {
+        "title": "Sem farinha",
+        "text": "O próprio milho dá corpo ao creme depois de bater e aquecer."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Guarde em recipiente fechado, a 4 °C ou menos, por até 2 dias. Refrigere em até 2 horas após preparar."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça somente a porção que vai consumir até 74 °C no centro."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T01:25:08Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — creme de milho batido",
+      "url": "https://panelinha.com.br/receita/creme-milho-batido",
+      "role": "Quatro porções, espigas cozidas, leite e engrossamento sem farinha."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Não misturar variante congelada300g/1,5xícara leite. Liberação de pressão conforme manual, sem resfriar panela na torneira. Liquidificador usado com cuidado térmico, sem fechar líquido fervente. Short correspondente sem ID público não incorporado.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

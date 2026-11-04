@@ -1,0 +1,181 @@
+{
+  "id": "bolo-de-canela",
+  "slug": "bolo-de-canela",
+  "title": "Bolo de canela com casquinha de açúcar",
+  "description": "Bolo de canela com açúcar na forma e na finalização, sem recheio. Veja como alternar leite e farinha e assar a 170 °C até o ponto.",
+  "intro": "A canela aparece na massa, no açúcar que reveste a forma e na finalização.",
+  "categoryIds": [
+    "doces",
+    "forno",
+    "lanches"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/bolo-canela.webp",
+    "alt": "Imagem ilustrativa: Bolo de canela com furo central e fina casquinha de açúcar, sem cobertura cremosa"
+  },
+  "publishedAt": "2026-11-03T23:34:25Z",
+  "updatedAt": "2026-11-03T23:34:25Z",
+  "seo": {
+    "title": "Bolo de canela com casquinha de açúcar | Bebel",
+    "description": "Bolo de canela com açúcar na forma e na finalização, sem recheio. Veja como alternar leite e farinha e assar a 170 °C até o ponto."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 10,
+      "unit": "fatia"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 60,
+      "totalMinutes": null
+    },
+    "timeNote": "Aproximadamente 1 hora a 170 °C, além do preparo da massa e do resfriamento.",
+    "ingredients": [
+      {
+        "id": "manteiga",
+        "name": "Manteiga para a massa",
+        "quantity": 3,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar cristal para a massa",
+        "quantity": 2,
+        "unit": "xícaras (chá)"
+      },
+      {
+        "id": "ovos",
+        "name": "Ovos médios",
+        "quantity": 3,
+        "unit": "unidades"
+      },
+      {
+        "id": "leite",
+        "name": "Leite",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "farinha",
+        "name": "Farinha de trigo",
+        "quantity": 2.5,
+        "unit": "xícaras (chá)"
+      },
+      {
+        "id": "canela",
+        "name": "Canela em pó para a massa",
+        "quantity": 1,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "fermento",
+        "name": "Fermento químico em pó",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "acucar-forma",
+        "name": "Açúcar cristal para a forma",
+        "quantity": 4,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "canela-forma",
+        "name": "Canela em pó para a forma",
+        "quantity": 1,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "acucar-final",
+        "name": "Açúcar cristal para finalizar",
+        "quantity": 2,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "canela-final",
+        "name": "Canela em pó para finalizar",
+        "quantity": 0.5,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "manteiga-untar",
+        "name": "Manteiga para untar",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Preaqueça a 170 °C. Unte uma forma de furo central e revista com a mistura das 4 colheres de açúcar e 1 colher de chá de canela reservadas para a forma."
+      },
+      {
+        "id": "passo-2",
+        "text": "Misture farinha, canela da massa e fermento em uma tigela."
+      },
+      {
+        "id": "passo-3",
+        "text": "Bata manteiga e açúcar da massa por 2 minutos. Raspe as laterais e bata mais 3 minutos. Acrescente os ovos um a um e bata por mais 2 minutos."
+      },
+      {
+        "id": "passo-4",
+        "text": "Incorpore os secos alternando com o leite, mexendo sem bater demais. Transfira para a forma preparada."
+      },
+      {
+        "id": "passo-5",
+        "text": "Asse por cerca de 1 hora, até um palito sair limpo. Espere esfriar e desenforme."
+      },
+      {
+        "id": "passo-6",
+        "text": "Misture o açúcar e a canela da finalização e polvilhe sobre o bolo."
+      }
+    ],
+    "equipment": [
+      "Forma de furo central",
+      "Batedeira, tigelas e espátula",
+      "Xícaras, colheres medidoras e palito"
+    ],
+    "tips": [
+      {
+        "title": "Três misturas",
+        "text": "Separe o açúcar e a canela da massa, da forma e da finalização antes de começar."
+      },
+      {
+        "title": "Sem recheio",
+        "text": "A casquinha vem do açúcar com canela, sem leite condensado ou creme."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Guarde prontamente em recipiente fechado, a 4 °C ou menos, por até 2 dias. Não deixe mais de 2 horas fora de refrigeração."
+      },
+      {
+        "title": "Para servir",
+        "text": "Retire somente a quantidade desejada com utensílio limpo e mantenha o restante refrigerado."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T23:34:25Z"
+  },
+  "sources": [
+    {
+      "title": "Receiteria — bolo de canela",
+      "url": "https://www.receiteria.com.br/receita/bolo-de-canela/",
+      "role": "Carlos Lopes: 8 a 12 fatias, açúcar na forma e forno 170 °C."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Rendimento central 10 fatias. Dimensão da forma não documentada; não inventada. Tempo de cocção do método 1 hora, não tempo total de 90 min.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

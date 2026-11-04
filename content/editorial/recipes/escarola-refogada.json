@@ -1,0 +1,123 @@
+{
+  "id": "escarola-refogada",
+  "slug": "escarola-refogada",
+  "title": "Escarola refogada em tiras com alho e azeite",
+  "description": "Escarola refogada com alho e azeite. Veja como cortar as folhas, secar e colocar o sal aos poucos durante o refogado rápido.",
+  "intro": "A verdura reduz bastante na panela; uma frigideira espaçosa facilita refogar por igual.",
+  "categoryIds": [
+    "acompanhamentos"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/escarola-refogada.webp",
+    "alt": "Imagem ilustrativa: Tiras verdes de escarola refogada com azeite, sem carne"
+  },
+  "publishedAt": "2026-11-03T22:53:32Z",
+  "updatedAt": "2026-11-03T22:53:32Z",
+  "seo": {
+    "title": "Escarola refogada em tiras com alho e azeite | Bebel",
+    "description": "Escarola refogada com alho e azeite. Veja como cortar as folhas, secar e colocar o sal aos poucos durante o refogado rápido."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 4,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 2 minutos para perfumar o azeite e 2 para refogar as folhas, além da lavagem e do corte.",
+    "ingredients": [
+      {
+        "id": "escarola",
+        "name": "Escarola",
+        "quantity": 1,
+        "unit": "maço"
+      },
+      {
+        "id": "alho",
+        "name": "Alho",
+        "quantity": 2,
+        "unit": "dentes"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": 2,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Separe as folhas, lave e seque bem. Empilhe algumas por vez, enrole e corte em tiras de cerca de 1 cm."
+      },
+      {
+        "id": "passo-2",
+        "text": "Amasse os dentes de alho e descasque, mantendo-os inteiros."
+      },
+      {
+        "id": "passo-3",
+        "text": "Aqueça o azeite na frigideira em fogo médio. Mexa o alho por cerca de 2 minutos para perfumar, sem queimar."
+      },
+      {
+        "id": "passo-4",
+        "text": "Junte a escarola e coloque sal aos poucos. Mexa de baixo para cima por cerca de 2 minutos, até murchar por igual. Faça em levas se não couber. Sirva."
+      }
+    ],
+    "equipment": [
+      "Frigideira grande e espátula",
+      "Tábua e faca",
+      "Centrífuga de salada ou pano limpo"
+    ],
+    "tips": [
+      {
+        "title": "Sal aos poucos",
+        "text": "O volume cai muito; prove antes de acrescentar mais."
+      },
+      {
+        "title": "Refogado breve",
+        "text": "Cozinhar demais deixa a verdura mais amarga e aguada."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Refrigere prontamente em recipiente fechado, a 4 °C ou menos, por até 2 dias. Não deixe mais de 2 horas fora de refrigeração."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça somente o que vai consumir até 74 °C no centro."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T22:53:32Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — escarola refogada",
+      "url": "https://panelinha.com.br/receita/escarola-refogada",
+      "role": "Quatro porções, alho inteiro, tiras e refogado rápido."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Short de escarola semID não é vídeo longo confirmado. Sem laranja ou pimenta da outra versão.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

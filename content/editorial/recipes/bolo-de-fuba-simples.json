@@ -1,0 +1,159 @@
+{
+  "id": "bolo-de-fuba-simples",
+  "slug": "bolo-de-fuba-simples",
+  "title": "Bolo de fubá simples no liquidificador, sem cobertura",
+  "description": "Bolo de fubá simples com leite, ovos e óleo, sem cobertura. Veja o que bater no liquidificador e o que misturar na tigela antes de assar.",
+  "intro": "Esta versão tem miolo de bolo e não forma a camada do bolo de fubá cremoso.",
+  "categoryIds": [
+    "doces",
+    "forno",
+    "lanches"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/bolo-fuba-simples.webp",
+    "alt": "Imagem ilustrativa: Bolo de fubá amarelo com miolo fofo, sem camada cremosa ou cobertura"
+  },
+  "publishedAt": "2026-11-03T22:53:32Z",
+  "updatedAt": "2026-11-03T22:53:32Z",
+  "seo": {
+    "title": "Bolo de fubá simples no liquidificador, sem cobertura | Bebel",
+    "description": "Bolo de fubá simples com leite, ovos e óleo, sem cobertura. Veja o que bater no liquidificador e o que misturar na tigela antes de assar."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 10,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 40,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 40 minutos em forno preaquecido a 180 °C, além do preparo e resfriamento.",
+    "ingredients": [
+      {
+        "id": "leite",
+        "name": "Leite integral",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "ovos",
+        "name": "Ovos",
+        "quantity": 4,
+        "unit": "unidades"
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar",
+        "quantity": 2,
+        "unit": "xícaras (chá)"
+      },
+      {
+        "id": "oleo",
+        "name": "Óleo",
+        "quantity": 0.5,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "fuba",
+        "name": "Fubá",
+        "quantity": 2,
+        "unit": "xícaras (chá)"
+      },
+      {
+        "id": "farinha",
+        "name": "Farinha de trigo",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "fermento",
+        "name": "Fermento químico em pó",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "gordura",
+        "name": "Manteiga para untar",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "farinha-untar",
+        "name": "Farinha para enfarinhar",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Preaqueça o forno a 180 °C. Unte e enfarinhe uma forma de furo central que comporte a massa sem encher até a borda."
+      },
+      {
+        "id": "passo-2",
+        "text": "Bata no liquidificador leite, ovos, açúcar e óleo."
+      },
+      {
+        "id": "passo-3",
+        "text": "Passe à tigela e misture fubá e farinha até ficar uniforme. Incorpore o fermento por último."
+      },
+      {
+        "id": "passo-4",
+        "text": "Despeje na forma e asse por aproximadamente 40 minutos, até dourar e um palito sair limpo."
+      },
+      {
+        "id": "passo-5",
+        "text": "Espere esfriar antes de desenformar."
+      }
+    ],
+    "equipment": [
+      "Liquidificador, tigela e espátula",
+      "Forma de furo central",
+      "Xícaras e colher medidora"
+    ],
+    "tips": [
+      {
+        "title": "Secos na tigela",
+        "text": "Fubá e farinha não precisam ser batidos no liquidificador."
+      },
+      {
+        "title": "Ponto do bolo",
+        "text": "Confira o centro com palito antes de retirar do forno."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Guarde refrigerado",
+        "text": "Depois de amornar, coloque em recipiente fechado na geladeira a 4 °C ou menos, por até 2 dias. Não ultrapasse 2 horas fora de refrigeração."
+      },
+      {
+        "title": "Para servir",
+        "text": "Retire apenas a quantidade desejada com utensílio limpo."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T22:53:32Z"
+  },
+  "sources": [
+    {
+      "title": "Receitas Nestlé — bolo de fubá simples",
+      "url": "https://www.receitasnestle.com.br/receitas/receita-bolo-fuba-simples",
+      "role": "Dez porções, fórmula de liquidificador/tigela e 180 °C 40 min."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Direto 403; texto oficial completo recuperado via busca. Tamanho de forma não documentado, não inventar dimensão. Distinto de fubá cremoso. Vídeo longo de erva-doce semID e fórmula não equivalente.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

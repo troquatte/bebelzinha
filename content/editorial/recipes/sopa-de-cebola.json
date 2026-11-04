@@ -1,0 +1,212 @@
+{
+  "id": "sopa-de-cebola",
+  "slug": "sopa-de-cebola",
+  "title": "Sopa de cebola gratinada com pão e queijo gruyère",
+  "description": "Sopa de cebola com caldo de carne caseiro, vinho branco, pão italiano e gruyère. Veja a caramelização da cebola e a finalização gratinada.",
+  "intro": "O caldo é feito primeiro na pressão. Enquanto ele cozinha, doure as cebolas com calma: essa etapa dá cor e sabor à sopa.",
+  "categoryIds": [
+    "pratos-do-dia",
+    "forno"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/sopa-cebola.webp",
+    "alt": "Imagem ilustrativa: Sopa de cebola dourada coberta com pão e queijo gratinado"
+  },
+  "publishedAt": "2026-11-04T11:45:42Z",
+  "updatedAt": "2026-11-04T11:45:42Z",
+  "seo": {
+    "title": "Sopa de cebola gratinada com pão e queijo gruyère | Bebel",
+    "description": "Sopa de cebola com caldo de carne caseiro, vinho branco, pão italiano e gruyère. Veja a caramelização da cebola e a finalização gratinada."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 4,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Caldo: 20 minutos sob pressão, mais aquecimento e liberação. Sopa: cerca de 30 para dourar cebola, 30 no caldo e 10 para gratinar; etapas podem se sobrepor.",
+    "ingredients": [
+      {
+        "id": "musculo",
+        "name": "Músculo traseiro em cubos grandes",
+        "quantity": 500,
+        "unit": "g"
+      },
+      {
+        "id": "agua",
+        "name": "Água para o caldo",
+        "quantity": 2,
+        "unit": "litros",
+        "shopping": false
+      },
+      {
+        "id": "cenoura",
+        "name": "Cenoura para o caldo",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "cebola-caldo",
+        "name": "Cebola para o caldo",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "salsao",
+        "name": "Salsão com folhas",
+        "quantity": 1,
+        "unit": "talo"
+      },
+      {
+        "id": "louro",
+        "name": "Louro",
+        "quantity": 1,
+        "unit": "folha"
+      },
+      {
+        "id": "cravo",
+        "name": "Cravo-da-índia",
+        "quantity": 3,
+        "unit": "unidades"
+      },
+      {
+        "id": "canela",
+        "name": "Canela em rama",
+        "quantity": 2,
+        "unit": "unidades"
+      },
+      {
+        "id": "pimenta-grao",
+        "name": "Pimenta-do-reino em grãos",
+        "quantity": 5,
+        "unit": "unidades"
+      },
+      {
+        "id": "cebola",
+        "name": "Cebola para a sopa",
+        "quantity": 500,
+        "unit": "g",
+        "note": "Cerca de 4 unidades."
+      },
+      {
+        "id": "manteiga",
+        "name": "Manteiga",
+        "quantity": 2,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "vinho",
+        "name": "Vinho branco",
+        "quantity": 0.25,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "farinha",
+        "name": "Farinha de trigo",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "pao",
+        "name": "Pão italiano em fatias de 3 cm",
+        "quantity": 3,
+        "unit": "fatias"
+      },
+      {
+        "id": "queijo",
+        "name": "Queijo gruyère ralado fino",
+        "quantity": 40,
+        "unit": "g"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino moída",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Corte a cenoura e o salsão em três partes. Corte a cebola do caldo ao meio e prenda louro e cravos em uma metade. Coloque com músculo, água, canela e grãos de pimenta na pressão, respeitando o manual. Cozinhe 20 minutos após pegar pressão; espere sair completamente antes de abrir e coe. Reserve 1,5 litro do caldo."
+      },
+      {
+        "id": "passo-2",
+        "text": "Fatie as cebolas da sopa. Derreta manteiga e cozinhe com as cebolas e uma pitada de sal por cerca de 30 minutos, mexendo, até ficarem douradas e macias. Prolongue se necessário."
+      },
+      {
+        "id": "passo-3",
+        "text": "Junte vinho e solte o fundo. Quando reduzir, misture farinha por 1 minuto. Adicione o 1,5 litro de caldo reservado, dissolva os grumos e cozinhe por 30 minutos após ferver."
+      },
+      {
+        "id": "passo-4",
+        "text": "Preaqueça forno a 200 °C. Toste um lado das fatias de pão na frigideira por cerca de 2 minutos. Ajuste sal e pimenta da sopa."
+      },
+      {
+        "id": "passo-5",
+        "text": "Transfira para refratário. Coloque os pães com lado tostado para baixo, cubra com gruyère e gratine por cerca de 10 minutos, observando para não queimar. Sirva com cuidado."
+      }
+    ],
+    "equipment": [
+      "Panela de pressão com capacidade adequada",
+      "Panela média, peneira e jarra medidora",
+      "Frigideira e refratário próprio para forno"
+    ],
+    "tips": [
+      {
+        "title": "Cebola bem dourada",
+        "text": "A caramelização depende do fogo e da panela; use a cor como referência."
+      },
+      {
+        "title": "Aproveite o caldo",
+        "text": "A carne e a cenoura coadas podem ir para outro prato; guarde prontamente na geladeira."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Distribua em recipientes rasos e refrigere em até 2 horas. Guarde a 4 °C ou menos e consuma em até 2 dias."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça somente a porção que vai consumir até atingir 74 °C no centro."
+      },
+      {
+        "title": "Pão e queijo",
+        "text": "Guarde a base sem a cobertura e gratine com pão e queijo na hora de servir."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T11:45:42Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — sopa de cebola gratinada",
+      "url": "https://panelinha.com.br/receita/sopa-de-cebola-gratinada",
+      "role": "Caldo próprio, 1,5 litro usado na sopa, cebolas 500 g, pão e gruyère; quatro porções."
+    },
+    {
+      "title": "Health Canada — conservação de sobras",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento rápido, refrigeração e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Não duplicar caldo pronto na lista: ingredientes do caldo e 1,5L reservado no método. Sem alegar eliminação integral do álcool.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

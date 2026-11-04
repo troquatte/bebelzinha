@@ -1,0 +1,160 @@
+{
+  "id": "feijao-carioca",
+  "slug": "feijao-carioca",
+  "title": "Feijão carioca caseiro com caldo encorpado",
+  "description": "Feijão carioca com alho, cebola e louro. Aprenda o remolho, o cozimento na pressão e o refogado com grãos amassados para engrossar o caldo.",
+  "intro": "Uma panela para dividir à mesa: esta quantidade serve mais de seis porções. O caldo ganha corpo ao voltar ao fogo com parte dos grãos amassados.",
+  "categoryIds": [
+    "acompanhamentos"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/feijao-carioca.webp",
+    "alt": "Imagem ilustrativa: Feijão-carioca com grãos inteiros e caldo marrom-claro encorpado"
+  },
+  "publishedAt": "2026-11-04T02:50:52Z",
+  "updatedAt": "2026-11-04T02:50:52Z",
+  "seo": {
+    "title": "Feijão carioca caseiro com caldo encorpado | Bebel",
+    "description": "Feijão carioca com alho, cebola e louro. Aprenda o remolho, o cozimento na pressão e o refogado com grãos amassados para engrossar o caldo."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 1,
+      "unit": "receita"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Deixe 12 horas de remolho. São cerca de 10 minutos sob pressão e mais 10 para engrossar, além do aquecimento e da saída da pressão.",
+    "ingredients": [
+      {
+        "id": "feijao",
+        "name": "Feijão carioca cru",
+        "quantity": 2,
+        "unit": "xícaras (chá)"
+      },
+      {
+        "id": "agua-remolho",
+        "name": "Água para o remolho",
+        "quantity": 4,
+        "unit": "xícaras (chá)",
+        "note": "Descarte e use água nova para cozinhar.",
+        "shopping": false
+      },
+      {
+        "id": "agua",
+        "name": "Água para cozinhar",
+        "quantity": 6,
+        "unit": "xícaras (chá)",
+        "shopping": false
+      },
+      {
+        "id": "cebola",
+        "name": "Cebola",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "alho",
+        "name": "Alho",
+        "quantity": 2,
+        "unit": "dentes"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": 2,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "louro",
+        "name": "Louro",
+        "quantity": 2,
+        "unit": "folhas"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Lave e escolha os grãos. Cubra com a água do remolho e deixe 12 horas na geladeira, trocando a água uma vez."
+      },
+      {
+        "id": "passo-2",
+        "text": "Escorra. Coloque feijão, água nova e louro na panela de pressão, respeitando o limite para grãos do manual. Após pegar pressão, abaixe o fogo e conte 10 minutos. Desligue e espere a pressão sair completamente."
+      },
+      {
+        "id": "passo-3",
+        "text": "Pique cebola e alho. Em frigideira, refogue a cebola no azeite com uma pitada de sal por 3 minutos; acrescente o alho por 1 minuto."
+      },
+      {
+        "id": "passo-4",
+        "text": "Junte duas conchas de feijão com pouco caldo ao refogado e amasse. Devolva tudo à panela destampada, tempere e ferva suavemente por cerca de 10 minutos."
+      }
+    ],
+    "equipment": [
+      "Panela de pressão adequada à quantidade",
+      "Tigela para remolho e peneira",
+      "Frigideira, concha, espátula e medidores"
+    ],
+    "tips": [
+      {
+        "title": "Caldo no ponto",
+        "text": "Deixe mais ralo ou encorpado ajustando o tempo final sem tampa."
+      },
+      {
+        "title": "Grão ainda firme",
+        "text": "O tempo muda com o feijão: confira a maciez antes de finalizar o refogado."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Divida em recipientes rasos, refrigere em até 2 horas e guarde a 4 °C ou menos por até 2 dias."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça apenas o que for servir, até atingir 74 °C no centro."
+      },
+      {
+        "title": "Para congelar",
+        "text": "Separe porções com caldo e deixe espaço no pote para expansão. Descongele na geladeira antes de aquecer."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T02:50:52Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — feijão caseiro",
+      "url": "https://panelinha.com.br/receita/feijao-caseiro",
+      "role": "Duas xícaras, remolho 12 horas, seis de água e pressão 10 minutos; rendimento mais de seis porções."
+    },
+    {
+      "title": "Health Canada — conservação de sobras",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Refrigeração em até 2 horas, armazenamento a 4 °C ou menos e reaquecimento a 74 °C."
+    }
+  ],
+  "editorialNotes": [
+    "Rendimento não individualizado pela fonte: uma receita; não fixar seis porções. Remolho refrigerado. Sem carne, diferente do feijão-preto com bacon.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

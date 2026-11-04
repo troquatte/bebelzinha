@@ -1,0 +1,140 @@
+{
+  "id": "chuchu-na-airfryer",
+  "slug": "chuchu-na-airfryer",
+  "title": "Chuchu na airfryer em palitos com limão e alecrim",
+  "description": "Chuchu na airfryer em palitos com limão, alecrim e azeite, sem empanar. Veja o corte e o preparo a 200 °C sem cozinhar antes em água.",
+  "intro": "Os palitos entram crus na cesta. Corte fino para que amaciem durante o preparo.",
+  "categoryIds": [
+    "airfryer",
+    "acompanhamentos"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/chuchu-airfryer.webp",
+    "alt": "Imagem ilustrativa: Palitos de chuchu levemente dourados com alecrim, sem empanar"
+  },
+  "publishedAt": "2026-11-03T23:34:25Z",
+  "updatedAt": "2026-11-03T23:34:25Z",
+  "seo": {
+    "title": "Chuchu na airfryer em palitos com limão e alecrim | Bebel",
+    "description": "Chuchu na airfryer em palitos com limão, alecrim e azeite, sem empanar. Veja o corte e o preparo a 200 °C sem cozinhar antes em água."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 2,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 10,
+      "totalMinutes": null
+    },
+    "timeNote": "Preaqueça por 5 minutos a 200 °C e asse por cerca de 10 minutos, além do corte.",
+    "ingredients": [
+      {
+        "id": "chuchu",
+        "name": "Chuchu descascado",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "limao",
+        "name": "Limão para espremer",
+        "quantity": 0.5,
+        "unit": "unidade"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "alecrim",
+        "name": "Alecrim",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Preaqueça a airfryer a 200 °C por 5 minutos."
+      },
+      {
+        "id": "passo-2",
+        "text": "Corte o chuchu descascado ao meio e depois em palitos finos de tamanho parecido."
+      },
+      {
+        "id": "passo-3",
+        "text": "Misture os palitos crus com suco do meio limão, azeite, sal, pimenta e alecrim."
+      },
+      {
+        "id": "passo-4",
+        "text": "Distribua na cesta sem amontoar. Mantenha a 200 °C por cerca de 10 minutos, até amaciar; confira o ponto antes de servir. Faça em levas se necessário."
+      }
+    ],
+    "equipment": [
+      "Airfryer, tigela e pegador",
+      "Tábua, faca e descascador",
+      "Espremedor de limão"
+    ],
+    "tips": [
+      {
+        "title": "Sem pré-cozinhar",
+        "text": "Nesta versão, o chuchu é temperado cru."
+      },
+      {
+        "title": "Corte fino",
+        "text": "Palitos grossos podem continuar firmes no centro; mantenha espessura semelhante."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Guarde prontamente em recipiente fechado, a 4 °C ou menos, por até 2 dias. Não deixe mais de 2 horas fora de refrigeração."
+      },
+      {
+        "title": "Para servir",
+        "text": "Retire somente a quantidade desejada com utensílio limpo e mantenha o restante refrigerado."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça somente a porção que vai comer até ficar bem quente no centro, a 74 °C."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T23:34:25Z"
+  },
+  "sources": [
+    {
+      "title": "TudoGostoso — chuchu na airfryer",
+      "url": "https://www.tudogostoso.com.br/receita/314431-chuchu-na-airfryer.html",
+      "role": "Duas porções, palitos crus, limão, alecrim e 200 °C."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Intenção transacional no provedor, conteúdo culinário informacional na página. Segue 200 °C do método; não reproduzir contradição da introdução.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

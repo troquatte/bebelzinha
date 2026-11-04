@@ -1,0 +1,135 @@
+{
+  "id": "pao-de-queijo-de-frigideira",
+  "slug": "pao-de-queijo-de-frigideira",
+  "title": "Pão de queijo de frigideira com polvilho doce e parmesão",
+  "description": "Pão de queijo de frigideira com polvilho doce, leite e parmesão. Veja como misturar a massa e dourar em discos, sem ligar o forno.",
+  "intro": "A massa vai à frigideira em pequenas porções, como panquecas. Não é a fórmula dos pãezinhos de airfryer.",
+  "categoryIds": [
+    "lanches"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/pao-queijo-frigideira.webp",
+    "alt": "Imagem ilustrativa: Discos achatados dourados de pão de queijo de frigideira, sem recheio"
+  },
+  "publishedAt": "2026-11-04T01:25:08Z",
+  "updatedAt": "2026-11-04T01:25:08Z",
+  "seo": {
+    "title": "Pão de queijo de frigideira com polvilho doce e parmesão | Bebel",
+    "description": "Pão de queijo de frigideira com polvilho doce, leite e parmesão. Veja como misturar a massa e dourar em discos, sem ligar o forno."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 4,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "O ponto é dado pela massa firme e dourada. O tempo varia conforme a espessura dos discos e o fogo.",
+    "ingredients": [
+      {
+        "id": "queijo",
+        "name": "Parmesão ralado",
+        "quantity": 0.3333333333333333,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "ovo",
+        "name": "Ovo",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "leite",
+        "name": "Leite",
+        "quantity": 0.3333333333333333,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "oleo",
+        "name": "Óleo neutro",
+        "quantity": 2,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "polvilho",
+        "name": "Polvilho doce",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Misture parmesão, ovo, leite, óleo, polvilho e sal até a massa ficar uniforme."
+      },
+      {
+        "id": "passo-2",
+        "text": "Aqueça uma frigideira antiaderente e coloque uma pequena porção de massa, espalhando como panqueca."
+      },
+      {
+        "id": "passo-3",
+        "text": "Cozinhe até firmar e dourar nas bordas. Vire com espátula e termine de cozinhar o outro lado, sem deixar massa crua no centro."
+      },
+      {
+        "id": "passo-4",
+        "text": "Repita com o restante e sirva quente."
+      }
+    ],
+    "equipment": [
+      "Tigela, garfo ou batedor",
+      "Frigideira antiaderente e espátula",
+      "Xícara e colher medidora"
+    ],
+    "tips": [
+      {
+        "title": "Polvilho doce",
+        "text": "Não troque automaticamente pela goma hidratada usada para tapioca."
+      },
+      {
+        "title": "Discos finos",
+        "text": "Evite despejar toda a massa de uma vez e queimar por fora antes de firmar no centro."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Guarde em recipiente fechado, a 4 °C ou menos, por até 2 dias. Refrigere em até 2 horas após preparar."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Aqueça somente a porção que vai consumir até 74 °C no centro."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T01:25:08Z"
+  },
+  "sources": [
+    {
+      "title": "Receiteria — pão de queijo de frigideira",
+      "url": "https://www.receiteria.com.br/receita/pao-de-queijo-de-frigideira/",
+      "role": "Quatro porções, parmesão, polvilho doce e massa tipo panqueca."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Virar e cozinhar ambos os lados explicitado como execução necessária. Rendimento4porções, não prometer4unidades de tamanho fixo. Vídeo longo no acervo semID e status informado pelo usuário não confirma link; não incorporar.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

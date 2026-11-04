@@ -1,0 +1,184 @@
+{
+  "id": "arroz-com-lentilha",
+  "slug": "arroz-com-lentilha",
+  "title": "Arroz com lentilha, especiarias e cebola frita",
+  "description": "Arroz com lentilha e cebola frita, temperado com cominho, canela e pimenta-síria. Veja como aproveitar a água da lentilha para cozinhar o arroz.",
+  "intro": "Lentilha e arroz são cozidos separadamente e unidos no final, com a cebola frita por cima.",
+  "categoryIds": [
+    "acompanhamentos",
+    "pratos-do-dia"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/arroz-lentilha.webp",
+    "alt": "Imagem ilustrativa: Arroz com lentilhas inteiras e cebola dourada em meias-luas, sem carne"
+  },
+  "publishedAt": "2026-11-04T02:32:27Z",
+  "updatedAt": "2026-11-04T02:32:27Z",
+  "seo": {
+    "title": "Arroz com lentilha, especiarias e cebola frita | Bebel",
+    "description": "Arroz com lentilha e cebola frita, temperado com cominho, canela e pimenta-síria. Veja como aproveitar a água da lentilha para cozinhar o arroz."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 4,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Lentilha: cerca de 10 minutos após ferver. Cebola: cerca de 5 por leva. Arroz até absorver a água, mais 5 de descanso.",
+    "ingredients": [
+      {
+        "id": "arroz",
+        "name": "Arroz branco cru",
+        "quantity": 0.5,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "lentilha",
+        "name": "Lentilha seca",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "cebola",
+        "name": "Cebola grande",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "agua",
+        "name": "Água para cozinhar a lentilha",
+        "quantity": 1,
+        "unit": "litro",
+        "note": "Reserve 1,25 xícara do cozimento para o arroz.",
+        "shopping": false
+      },
+      {
+        "id": "manteiga",
+        "name": "Manteiga",
+        "quantity": 2,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "oleo",
+        "name": "Óleo para fritar a cebola",
+        "quantity": 0.5,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 0.5,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "cominho",
+        "name": "Cominho em pó",
+        "quantity": 1.5,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-síria",
+        "quantity": 1,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "canela",
+        "name": "Canela em pó",
+        "quantity": 0.25,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "louro",
+        "name": "Louro",
+        "quantity": 1,
+        "unit": "folha"
+      },
+      {
+        "id": "coentro",
+        "name": "Folhas de coentro",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "salsa",
+        "name": "Folhas de salsinha",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Cozinhe a lentilha no litro de água por cerca de 10 minutos após ferver, até ficar firme e cozida. Reserve 1,25 xícara do líquido e escorra."
+      },
+      {
+        "id": "passo-2",
+        "text": "Fatie a cebola em meias-luas finas. Frite no óleo em três levas, cerca de 5 minutos cada, retirando assim que dourar. Escorra em papel de cozinha."
+      },
+      {
+        "id": "passo-3",
+        "text": "Derreta a manteiga e mexa cominho, pimenta-síria, canela e louro por 1 minuto. Junte o arroz e mexa mais 1 minuto."
+      },
+      {
+        "id": "passo-4",
+        "text": "Acrescente o líquido reservado e o sal. Cozinhe até a água baixar ao nível dos grãos; reduza o fogo e tampe parcialmente até secar. Desligue e mantenha tampado por 5 minutos."
+      },
+      {
+        "id": "passo-5",
+        "text": "Solte o arroz, misture a lentilha e sirva com cebola frita, coentro e salsinha."
+      }
+    ],
+    "equipment": [
+      "Panela média e frigideira grande",
+      "Escorredor, escumadeira e papel de cozinha",
+      "Tábua, faca e medidores"
+    ],
+    "tips": [
+      {
+        "title": "Reserve o líquido",
+        "text": "Separe a água do cozimento antes de escorrer a lentilha."
+      },
+      {
+        "title": "Cebola em levas",
+        "text": "Retire ao dourar para não queimar enquanto espera o restante."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Resfrie logo",
+        "text": "Divida as sobras em recipientes rasos e leve à geladeira rapidamente, de preferência em até 1 hora. Consuma em até 24 horas."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Reaqueça apenas uma vez, até ficar bem quente por inteiro. Retire somente a quantidade que vai consumir."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T02:32:27Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — arroz com lentilha",
+      "url": "https://panelinha.com.br/receita/arroz-com-lentilhas",
+      "role": "Quatro porções, especiarias, água reservada e cebola frita."
+    },
+    {
+      "title": "Food Standards Agency — arroz e sobras",
+      "url": "https://www.gov.uk/government/publications/home-food-fact-checker/home-food-fact-checker",
+      "role": "Arroz refrigerado rapidamente e consumido em 24 horas; reaquecer somente uma vez."
+    }
+  ],
+  "editorialNotes": [
+    "Sem calabresa da fórmula Receiteria. Quantidade 1/2 xícara arroz e 1 xícara lentilha preservada. Não é salada de lentilha já publicada.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

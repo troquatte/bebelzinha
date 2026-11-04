@@ -1,0 +1,188 @@
+{
+  "id": "canja-de-galinha",
+  "slug": "canja-de-galinha",
+  "title": "Canja de galinha com arroz, batata e cenoura",
+  "description": "Canja de galinha com caldo feito na panela, arroz, batata e cenoura. Veja quando desfiar o frango e acrescentar o arroz para manter os grãos no ponto.",
+  "intro": "O peito com osso dá sabor ao caldo. Metade da carne desfiada volta para a canja; reserve a outra metade para uma próxima receita.",
+  "categoryIds": [
+    "pratos-do-dia"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/canja-galinha.webp",
+    "alt": "Imagem ilustrativa: Canja com arroz, frango desfiado, batata e cenoura em tigela clara"
+  },
+  "publishedAt": "2026-11-04T11:45:42Z",
+  "updatedAt": "2026-11-04T11:45:42Z",
+  "seo": {
+    "title": "Canja de galinha com arroz, batata e cenoura | Bebel",
+    "description": "Canja de galinha com caldo feito na panela, arroz, batata e cenoura. Veja quando desfiar o frango e acrescentar o arroz para manter os grãos no ponto."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 6,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 60,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 40 minutos para o caldo e mais 20 para arroz e batata, além do corte e aquecimento.",
+    "ingredients": [
+      {
+        "id": "frango",
+        "name": "Peito de frango com osso e pele",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "arroz",
+        "name": "Arroz branco cru",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "batata",
+        "name": "Batata",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "cenoura",
+        "name": "Cenoura",
+        "quantity": 2,
+        "unit": "unidades"
+      },
+      {
+        "id": "salsao",
+        "name": "Salsão",
+        "quantity": 2,
+        "unit": "talos",
+        "note": "Reserve as folhas de um talo."
+      },
+      {
+        "id": "cebola",
+        "name": "Cebola",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "agua",
+        "name": "Água",
+        "quantity": 2,
+        "unit": "litros",
+        "shopping": false
+      },
+      {
+        "id": "louro",
+        "name": "Louro",
+        "quantity": 2,
+        "unit": "folhas"
+      },
+      {
+        "id": "cravo",
+        "name": "Cravo-da-índia",
+        "quantity": 2,
+        "unit": "unidades"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 2,
+        "unit": "colheres (chá)"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "endro",
+        "name": "Endro fresco",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Corte a cenoura e o salsão em pedaços de 1 cm. Divida a cebola em duas partes e prenda em cada metade uma folha de louro com um cravo."
+      },
+      {
+        "id": "passo-2",
+        "text": "Cubra frango, cenoura, salsão, folhas reservadas e cebola com os 2 litros de água. Ao ferver, reduza o fogo e cozinhe por cerca de 40 minutos, até o frango ficar cozido."
+      },
+      {
+        "id": "passo-3",
+        "text": "Retire o frango. Descarte a cebola cravejada e as folhas de salsão. Junte sal, arroz e batata em cubos de 1 cm. Tampe e cozinhe em fogo baixo por cerca de 20 minutos, mexendo às vezes."
+      },
+      {
+        "id": "passo-4",
+        "text": "Retire pele e ossos do frango. Desfie metade da carne para a sopa; refrigere a outra metade prontamente para outro preparo."
+      },
+      {
+        "id": "passo-5",
+        "text": "Quando arroz e batata estiverem cozidos, acrescente o frango desfiado e aqueça. Sirva com endro, azeite e pimenta."
+      }
+    ],
+    "equipment": [
+      "Panela média com tampa",
+      "Escumadeira, faca e tábua",
+      "Garfo, colher e medidores"
+    ],
+    "tips": [
+      {
+        "title": "Arroz na segunda etapa",
+        "text": "Ele entra depois de cozinhar o caldo para não se desfazer."
+      },
+      {
+        "title": "Frango para outro prato",
+        "text": "A receita usa um peito inteiro para o caldo e só metade da carne na sopa."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Resfrie logo",
+        "text": "Divida as sobras em recipientes rasos e leve à geladeira preferencialmente em até 1 hora. Consuma em até 24 horas."
+      },
+      {
+        "title": "Para reaquecer",
+        "text": "Reaqueça apenas uma vez, até ficar bem quente por inteiro, atingindo 74 °C."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T11:45:42Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — canja de galinha",
+      "url": "https://panelinha.com.br/receita/canja-de-galinha",
+      "role": "Até seis porções; caldo 40 minutos e arroz 20; metade do peito retorna à canja."
+    },
+    {
+      "title": "Food Standards Agency — arroz",
+      "url": "https://www.gov.uk/government/publications/home-food-fact-checker/home-food-fact-checker",
+      "role": "Arroz refrigerado em até 1 hora, consumo em 24 horas e um reaquecimento."
+    },
+    {
+      "title": "Health Canada — conservação de sobras",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento rápido, refrigeração e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Sem alegações medicinais. Rendimento até seis porções. Frango cozido antes de desfiar, carne extra explicitada.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

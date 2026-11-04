@@ -1,0 +1,154 @@
+{
+  "id": "pate-de-atum",
+  "slug": "pate-de-atum",
+  "title": "Patê de atum com requeijão, mostarda e páprica",
+  "description": "Patê de atum com requeijão, mostarda Dijon, limão e páprica defumada. Veja como escorrer o peixe e descansar a mistura por 30 minutos.",
+  "intro": "O garfo mantém pequenas lascas de atum no creme, sem precisar de liquidificador.",
+  "categoryIds": [
+    "lanches"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/pate-atum.webp",
+    "alt": "Imagem ilustrativa: Patê de atum com lascas aparentes, páprica suave e cebolinha"
+  },
+  "publishedAt": "2026-11-03T23:34:25Z",
+  "updatedAt": "2026-11-03T23:34:25Z",
+  "seo": {
+    "title": "Patê de atum com requeijão, mostarda e páprica | Bebel",
+    "description": "Patê de atum com requeijão, mostarda Dijon, limão e páprica defumada. Veja como escorrer o peixe e descansar a mistura por 30 minutos."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 4,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "30 minutos de geladeira, além de escorrer e misturar os ingredientes.",
+    "ingredients": [
+      {
+        "id": "atum",
+        "name": "Atum em conserva",
+        "quantity": 2,
+        "unit": "latas",
+        "note": "Escorra bem antes de misturar."
+      },
+      {
+        "id": "maionese",
+        "name": "Maionese",
+        "quantity": 0.5,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "requeijao",
+        "name": "Requeijão",
+        "quantity": 4,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "mostarda",
+        "name": "Mostarda Dijon",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "limao",
+        "name": "Suco de limão",
+        "quantity": 1,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "paprica",
+        "name": "Páprica defumada",
+        "quantity": 0.5,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "caiena",
+        "name": "Pimenta-caiena",
+        "quantity": 1,
+        "unit": "pitada"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 1,
+        "unit": "pitada"
+      },
+      {
+        "id": "cebolinha",
+        "name": "Cebolinha picada",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Escorra o atum em uma peneira, pressionando levemente para retirar o líquido da conserva."
+      },
+      {
+        "id": "passo-2",
+        "text": "Solte as lascas com um garfo. Em uma tigela, misture maionese, requeijão, mostarda e suco de limão."
+      },
+      {
+        "id": "passo-3",
+        "text": "Junte o atum, a páprica, a pimenta e o sal. Mexa até ficar uniforme, mantendo algumas lascas."
+      },
+      {
+        "id": "passo-4",
+        "text": "Cubra e deixe na geladeira por pelo menos 30 minutos. Finalize com a cebolinha antes de servir."
+      }
+    ],
+    "equipment": [
+      "Peneira, tigela e garfo",
+      "Xícara e colheres medidoras",
+      "Recipiente com tampa"
+    ],
+    "tips": [
+      {
+        "title": "Escorra bem",
+        "text": "O líquido da lata pode deixar o patê mais ralo."
+      },
+      {
+        "title": "Sem bater",
+        "text": "Misture com garfo ou colher para preservar a textura do peixe."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Guarde prontamente em recipiente fechado, a 4 °C ou menos, por até 2 dias. Não deixe mais de 2 horas fora de refrigeração."
+      },
+      {
+        "title": "Para servir",
+        "text": "Retire somente a quantidade desejada com utensílio limpo e mantenha o restante refrigerado."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-03T23:34:25Z"
+  },
+  "sources": [
+    {
+      "title": "Receitas Nestlé — patê de atum especial",
+      "url": "https://www.receitasnestle.com.br/receitas/pate-de-atum-especial",
+      "role": "Quatro porções, Dijon, páprica e descanso de 30 minutos."
+    },
+    {
+      "title": "Health Canada — conservação de preparações prontas",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento."
+    }
+  ],
+  "editorialNotes": [
+    "Texto oficial completo lido via busca; acesso direto retornou 403. Peso das latas não informado pela fonte, não inventado. Mistura do atum explicitada como execução necessária da fórmula.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}
