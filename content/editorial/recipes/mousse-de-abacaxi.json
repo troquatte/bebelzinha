@@ -1,0 +1,141 @@
+{
+  "id": "mousse-de-abacaxi",
+  "slug": "mousse-de-abacaxi",
+  "title": "Mousse de abacaxi com fruta cozida e gelatina",
+  "description": "Mousse de abacaxi com fruta cozida, leite condensado e gelatina sem sabor. Confira quando bater e quanto tempo deixar na geladeira.",
+  "intro": "O abacaxi cozinha antes de entrar no creme. Reserve uma pequena parte para decorar.",
+  "categoryIds": [
+    "doces"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/mousse-de-abacaxi.webp",
+    "alt": "Imagem ilustrativa: Mousse de abacaxi com fruta cozida e gelatina em apresentação caseira"
+  },
+  "publishedAt": "2026-11-04T14:55:24Z",
+  "updatedAt": "2026-11-04T14:55:24Z",
+  "seo": {
+    "title": "Mousse de abacaxi com fruta cozida e gelatina | Bebel",
+    "description": "Mousse de abacaxi com fruta cozida, leite condensado e gelatina sem sabor. Confira quando bater e quanto tempo deixar na geladeira."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 7,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Cozinhe a fruta por cerca de 10 a 15 minutos, espere esfriar e reserve aproximadamente 3 horas de geladeira.",
+    "ingredients": [
+      {
+        "id": "abacaxi",
+        "name": "Abacaxi médio",
+        "quantity": 1,
+        "unit": "unidade",
+        "note": "A referência indica cerca de 900 g; descasque e retire o miolo firme."
+      },
+      {
+        "id": "condensado",
+        "name": "Leite condensado",
+        "quantity": 395,
+        "unit": "g"
+      },
+      {
+        "id": "creme",
+        "name": "Creme de leite",
+        "quantity": 400,
+        "unit": "g"
+      },
+      {
+        "id": "leite",
+        "name": "Leite integral",
+        "quantity": 200,
+        "unit": "ml"
+      },
+      {
+        "id": "gelatina",
+        "name": "Gelatina em pó sem sabor",
+        "quantity": 12,
+        "unit": "g"
+      },
+      {
+        "id": "agua",
+        "name": "Água para hidratar a gelatina",
+        "quantity": 5,
+        "unit": "colheres (sopa)",
+        "shopping": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Descasque o abacaxi, retire o miolo firme e pique. Cozinhe em panela tampada por 10 a 15 minutos, até a água liberada secar. Espere esfriar."
+      },
+      {
+        "id": "passo-2",
+        "text": "Separe 2 colheres de sopa da fruta cozida para decorar. Hidrate e dissolva a gelatina com a água conforme o rótulo."
+      },
+      {
+        "id": "passo-3",
+        "text": "Bata a fruta restante com leite condensado, creme de leite, leite e gelatina por cerca de 2 minutos."
+      },
+      {
+        "id": "passo-4",
+        "text": "Passe por peneira sobre a travessa, retirando o excesso de fibras. Cubra e refrigere por aproximadamente 3 horas, até firmar."
+      },
+      {
+        "id": "passo-5",
+        "text": "Finalize com a fruta reservada, mantida refrigerada, e sirva gelado."
+      }
+    ],
+    "equipment": [
+      "Panela com tampa",
+      "Liquidificador, peneira e travessa",
+      "Jarra e colheres medidoras"
+    ],
+    "tips": [
+      {
+        "title": "Não use a fruta crua",
+        "text": "Siga a etapa de cozimento antes de bater com a gelatina."
+      },
+      {
+        "title": "Resfrie a fruta",
+        "text": "Evite despejar o abacaxi ainda quente na base láctea."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Guarde coberto a 4 °C ou menos por até 2 dias. Retire apenas a quantidade que vai servir."
+      },
+      {
+        "title": "Depois de servir",
+        "text": "Não deixe mais de 2 horas fora da refrigeração."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T14:55:24Z"
+  },
+  "sources": [
+    {
+      "title": "Receiteria — mousse de abacaxi",
+      "url": "https://www.receiteria.com.br/receita/mousse-de-abacaxi/",
+      "role": "Seis a oito porções, controle base sete; fruta cozida,12g gelatina e três horas de geladeira."
+    },
+    {
+      "title": "Health Canada — conservação de sobras",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Refrigeração rápida e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Sem gelatina saborizada nem suco em pó de outras variantes. Não declarar total25min que exclui geladeira.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

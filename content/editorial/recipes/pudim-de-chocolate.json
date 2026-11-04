@@ -1,0 +1,162 @@
+{
+  "id": "pudim-de-chocolate",
+  "slug": "pudim-de-chocolate",
+  "title": "Pudim de chocolate assado com calda de caramelo",
+  "description": "Pudim de chocolate com ovos, leite condensado e calda de caramelo. Prepare em banho-maria e espere esfriar para desenformar sem quebrar.",
+  "intro": "Esta versão vai ao forno e não leva gelatina. A calda é de açúcar caramelizado, não de chocolate.",
+  "categoryIds": [
+    "doces",
+    "forno"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/pudim-de-chocolate.webp",
+    "alt": "Imagem ilustrativa: Pudim de chocolate em anel com calda de caramelo e uma fatia cortada"
+  },
+  "publishedAt": "2026-11-04T14:31:53Z",
+  "updatedAt": "2026-11-04T14:31:53Z",
+  "seo": {
+    "title": "Pudim de chocolate assado com calda de caramelo | Bebel",
+    "description": "Pudim de chocolate com ovos, leite condensado e calda de caramelo. Prepare em banho-maria e espere esfriar para desenformar sem quebrar."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 8,
+      "unit": "pedaço"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 45,
+      "totalMinutes": null
+    },
+    "timeNote": "Asse a 180 °C por cerca de 45 minutos e confira a firmeza. Acrescente o preparo da calda e o resfriamento completo.",
+    "ingredients": [
+      {
+        "id": "condensado",
+        "name": "Leite condensado",
+        "quantity": 1,
+        "unit": "caixinha",
+        "note": "Use uma caixinha de 395 g."
+      },
+      {
+        "id": "chocolate",
+        "name": "Chocolate em pó 32% ou 50%",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "creme",
+        "name": "Creme de leite",
+        "quantity": 1,
+        "unit": "caixinha",
+        "note": "Use uma caixinha de 200 g."
+      },
+      {
+        "id": "ovos",
+        "name": "Ovos",
+        "quantity": 3,
+        "unit": "unidades"
+      },
+      {
+        "id": "leite-po",
+        "name": "Leite em pó",
+        "quantity": 3,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "leite",
+        "name": "Leite",
+        "quantity": 300,
+        "unit": "ml"
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar para a calda",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "agua-calda",
+        "name": "Água para a calda",
+        "quantity": 0.5,
+        "unit": "xícara (chá)",
+        "shopping": false
+      },
+      {
+        "id": "agua-banho",
+        "name": "Água quente para o banho-maria",
+        "quantity": null,
+        "unit": "a gosto",
+        "shopping": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Aqueça o forno a 180 °C. Derreta o açúcar em panela até obter caramelo. Acrescente a meia xícara de água com cuidado, pois pode espirrar; aqueça até dissolver. Distribua numa forma de pudim."
+      },
+      {
+        "id": "passo-2",
+        "text": "Bata leite condensado, chocolate, creme de leite, ovos, leite em pó e leite por cerca de 5 minutos."
+      },
+      {
+        "id": "passo-3",
+        "text": "Despeje na forma caramelizada e cubra com papel-alumínio. Apoie numa assadeira com água quente para o banho-maria."
+      },
+      {
+        "id": "passo-4",
+        "text": "Asse por cerca de 45 minutos. Confira se está firme nas bordas e cremoso no centro, sem massa líquida. Prolongue se necessário."
+      },
+      {
+        "id": "passo-5",
+        "text": "Retire do banho-maria com cuidado. Deixe esfriar e refrigere, sem ultrapassar 2 horas fora da geladeira. Desenforme frio; se a calda estiver presa, aqueça brevemente a base de uma forma metálica própria para isso."
+      }
+    ],
+    "equipment": [
+      "Liquidificador e panela para caramelo",
+      "Forma de pudim e assadeira para banho-maria",
+      "Papel-alumínio, luvas térmicas e medidores"
+    ],
+    "tips": [
+      {
+        "title": "Chocolate em pó",
+        "text": "Achocolatado tem outra proporção de açúcar e não é troca equivalente."
+      },
+      {
+        "title": "Forma adequada",
+        "text": "Não coloque vidro ou cerâmica diretamente na chama."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Mantenha refrigerado",
+        "text": "Guarde coberto a 4 °C ou menos e consuma em até 2 dias. Retire apenas o que for servir."
+      },
+      {
+        "title": "Hora de guardar",
+        "text": "Não deixe a sobremesa mais de 2 horas fora da geladeira."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T14:31:53Z"
+  },
+  "sources": [
+    {
+      "title": "Receiteria — pudim de chocolate",
+      "url": "https://www.receiteria.com.br/receita/pudim-de-chocolate/",
+      "role": "Oito pedaços, chocolate 32% ou 50%, banho-maria a 180 °C por cerca de 45 minutos."
+    },
+    {
+      "title": "Health Canada — conservação de sobras",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de alimentos prontos."
+    }
+  ],
+  "editorialNotes": [
+    "Tempo destacado de 20 minutos da fonte não corresponde à etapa de forno; usado 45 minutos de cozimento, sem total falso. Refrigeração por orientação geral, sem afirmação de teste próprio.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

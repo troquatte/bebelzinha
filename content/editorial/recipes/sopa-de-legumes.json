@@ -1,0 +1,183 @@
+{
+  "id": "sopa-de-legumes",
+  "slug": "sopa-de-legumes",
+  "title": "Sopa de legumes com macarrão e mandioquinha",
+  "description": "Sopa de legumes com batata, cenoura, mandioquinha e macarrão. Veja a ordem de entrada dos ingredientes para manter os pedaços macios.",
+  "intro": "Corte os legumes pequenos e parecidos. A massa entra depois que os legumes amaciarem.",
+  "categoryIds": [
+    "pratos-do-dia"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/sopa-de-legumes.webp",
+    "alt": "Imagem ilustrativa: Sopa de legumes com macarrão e mandioquinha em apresentação caseira"
+  },
+  "publishedAt": "2026-11-04T14:55:24Z",
+  "updatedAt": "2026-11-04T14:55:24Z",
+  "seo": {
+    "title": "Sopa de legumes com macarrão e mandioquinha | Bebel",
+    "description": "Sopa de legumes com batata, cenoura, mandioquinha e macarrão. Veja a ordem de entrada dos ingredientes para manter os pedaços macios."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 6,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Conte o refogado, três etapas de cerca de 5 minutos para os legumes e o cozimento do macarrão indicado na embalagem.",
+    "ingredients": [
+      {
+        "id": "massa",
+        "name": "Macarrão para sopa tipo Ave Maria",
+        "quantity": 140,
+        "unit": "g"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": 2,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "cebola",
+        "name": "Cebola média",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "pimentao",
+        "name": "Pimentão médio",
+        "quantity": 0.5,
+        "unit": "unidade"
+      },
+      {
+        "id": "alho",
+        "name": "Alho",
+        "quantity": 4,
+        "unit": "dentes"
+      },
+      {
+        "id": "agua",
+        "name": "Água",
+        "quantity": 2,
+        "unit": "litros",
+        "note": "Mais um pouco, se necessário durante o cozimento.",
+        "shopping": false
+      },
+      {
+        "id": "cenoura",
+        "name": "Cenoura grande",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "batata",
+        "name": "Batata média",
+        "quantity": 5,
+        "unit": "unidades"
+      },
+      {
+        "id": "mandioquinha",
+        "name": "Mandioquinha média",
+        "quantity": 4,
+        "unit": "unidades"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "paprica",
+        "name": "Páprica",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "verde",
+        "name": "Cheiro-verde",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Lave, descasque e pique os legumes em cubos pequenos. Pique cebola, alho e pimentão."
+      },
+      {
+        "id": "passo-2",
+        "text": "Aqueça azeite numa panela grande. Refogue pimentão por 1 minuto, junte cebola por mais 1 e depois alho por cerca de 1 minuto."
+      },
+      {
+        "id": "passo-3",
+        "text": "Acrescente cenoura, água e temperos. Quando ferver, cozinhe com tampa entreaberta por cerca de 5 minutos."
+      },
+      {
+        "id": "passo-4",
+        "text": "Junte batata por mais 5 minutos e depois mandioquinha por outros 5. Confira a maciez e prolongue se necessário."
+      },
+      {
+        "id": "passo-5",
+        "text": "Se faltar líquido, complete com água quente e espere ferver. Junte a massa e cozinhe pelo tempo da embalagem. Ajuste os temperos e finalize com cheiro-verde."
+      }
+    ],
+    "equipment": [
+      "Panela grande com tampa",
+      "Faca, tábua e descascador",
+      "Colher e balança"
+    ],
+    "tips": [
+      {
+        "title": "Massa no final",
+        "text": "O macarrão absorve caldo; acompanhe a quantidade de líquido."
+      },
+      {
+        "title": "Ponto dos legumes",
+        "text": "O tamanho do corte interfere no tempo; confira com um garfo."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Guarde em porções",
+        "text": "Refrigere em recipientes rasos em até 2 horas, a 4 °C ou menos. Consuma em até 2 dias."
+      },
+      {
+        "title": "Reaqueça por completo",
+        "text": "Aqueça só o que vai consumir até atingir 74 °C no centro. Caldos e sopas devem ferver, mexendo para distribuir o calor."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T14:55:24Z"
+  },
+  "sources": [
+    {
+      "title": "Receiteria — sopa de legumes",
+      "url": "https://www.receiteria.com.br/receita/sopa-de-legumes/",
+      "role": "Seis porções; 140 g de massa, dois litros de água e legumes adicionados em etapas."
+    },
+    {
+      "title": "Health Canada — conservação de sobras",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Refrigeração rápida e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Adotada água, alternativa explícita da fonte; não exigir caldo caseiro sem fórmula. Não é canja nem sopa de mandioquinha já existente.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

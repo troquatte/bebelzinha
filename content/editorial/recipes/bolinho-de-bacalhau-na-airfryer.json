@@ -1,0 +1,143 @@
+{
+  "id": "bolinho-de-bacalhau-na-airfryer",
+  "slug": "bolinho-de-bacalhau-na-airfryer",
+  "title": "Bolinho de bacalhau na airfryer com batata e cheiro-verde",
+  "description": "Bolinho de bacalhau na airfryer com batata cozida e cheiro-verde. Confira as quantidades, como modelar e assar a 180 °C sem amontoar.",
+  "intro": "Comece com o bacalhau já dessalgado, cozido e desfiado e a batata cozida. Escorra bem para a massa não ficar aguada.",
+  "categoryIds": [
+    "airfryer",
+    "lanches"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/bolinho-de-bacalhau-na-airfryer.webp",
+    "alt": "Imagem ilustrativa: Bolinhos dourados de bacalhau com batata e cheiro-verde"
+  },
+  "publishedAt": "2026-11-04T14:31:53Z",
+  "updatedAt": "2026-11-04T14:31:53Z",
+  "seo": {
+    "title": "Bolinho de bacalhau na airfryer com batata e cheiro-verde | Bebel",
+    "description": "Bolinho de bacalhau na airfryer com batata cozida e cheiro-verde. Confira as quantidades, como modelar e assar a 180 °C sem amontoar."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 20,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 20 minutos na airfryer a 180 °C por leva, além do preparo prévio da batata e do bacalhau e da montagem.",
+    "ingredients": [
+      {
+        "id": "batata",
+        "name": "Batata já cozida",
+        "quantity": 300,
+        "unit": "g"
+      },
+      {
+        "id": "bacalhau",
+        "name": "Bacalhau já dessalgado, cozido e desfiado",
+        "quantity": 300,
+        "unit": "g"
+      },
+      {
+        "id": "cebola",
+        "name": "Cebola grande picada",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "ovo",
+        "name": "Ovo",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "cheiro-verde",
+        "name": "Cheiro-verde picado",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "tempero",
+        "name": "Tempero MAGGI Meu Segredo Cheiro Verde",
+        "quantity": 1,
+        "unit": "stick",
+        "note": "O sal já está no tempero e pode restar no bacalhau; não acrescente sal automaticamente."
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": 1,
+        "unit": "pitada"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Confira se o bacalhau está sem espinhas. Amasse a batata cozida e bem escorrida e misture com o peixe desfiado."
+      },
+      {
+        "id": "passo-2",
+        "text": "Junte cebola, ovo, cheiro-verde, tempero e pimenta. Misture até distribuir os ingredientes."
+      },
+      {
+        "id": "passo-3",
+        "text": "Modele porções pequenas semelhantes, totalizando cerca de 20 bolinhos. Preaqueça a airfryer a 180 °C conforme o manual."
+      },
+      {
+        "id": "passo-4",
+        "text": "Acomode sem sobrepor e asse por cerca de 20 minutos por leva, até dourar e cozinhar o ovo no centro. Ajuste ao aparelho e repita com o restante."
+      }
+    ],
+    "equipment": [
+      "Airfryer",
+      "Tigela e amassador de batata",
+      "Colheres, pinça e balança"
+    ],
+    "tips": [
+      {
+        "title": "Peixe pronto",
+        "text": "Os 300 g são de bacalhau dessalgado e cozido, não do peixe salgado."
+      },
+      {
+        "title": "Não sobreponha",
+        "text": "Deixe espaço para o ar circular e conte o tempo por leva."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Guarde em porções",
+        "text": "Refrigere em recipientes rasos em até 2 horas, a 4 °C ou menos. Consuma em até 2 dias."
+      },
+      {
+        "title": "Aqueça só o necessário",
+        "text": "Reaqueça até o centro atingir 74 °C e sirva. Evite aquecer o recipiente inteiro repetidamente."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T14:31:53Z"
+  },
+  "sources": [
+    {
+      "title": "Receitas Nestlé — bolinho de bacalhau na airfryer",
+      "url": "https://www.receitasnestle.com.br/receitas/receita-bolinho-bacalhau-air-fryer",
+      "role": "Batata e bacalhau 300 g cada, ovo, cheiro-verde e tempero; 20 porções, 180 °C por 20 minutos."
+    },
+    {
+      "title": "Health Canada — conservação de sobras",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de alimentos prontos."
+    }
+  ],
+  "editorialNotes": [
+    "Conteúdo integral recuperado pelo índice de busca após acesso direto 403. Sem misturar farinha/gema e congelamento da receita de Maurício. Fonte rendimento 20 porções, modelagem de vinte pequenos é orientação de divisão, tamanho varia.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

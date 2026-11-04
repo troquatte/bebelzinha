@@ -1,0 +1,172 @@
+{
+  "id": "bolo-de-nozes",
+  "slug": "bolo-de-nozes",
+  "title": "Bolo de nozes com açúcar mascavo e canela",
+  "description": "Bolo de nozes com açúcar mascavo, manteiga e canela. Veja as medidas, a forma de 24 cm e como incorporar o fermento para assar a massa.",
+  "intro": "As nozes ficam distribuídas na massa. A decoração é simples, sem recheio ou cobertura cremosa.",
+  "categoryIds": [
+    "doces",
+    "forno"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/bolo-de-nozes.webp",
+    "alt": "Imagem ilustrativa: Bolo de nozes com açúcar de confeiteiro e fatia mostrando a massa"
+  },
+  "publishedAt": "2026-11-04T14:31:53Z",
+  "updatedAt": "2026-11-04T14:31:53Z",
+  "seo": {
+    "title": "Bolo de nozes com açúcar mascavo e canela | Bebel",
+    "description": "Bolo de nozes com açúcar mascavo, manteiga e canela. Veja as medidas, a forma de 24 cm e como incorporar o fermento para assar a massa."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 9,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 35,
+      "totalMinutes": null
+    },
+    "timeNote": "Forno a 180 °C por cerca de 35 minutos. Conte ainda 5 a 7 minutos para bater a base e o tempo de esfriar.",
+    "ingredients": [
+      {
+        "id": "ovos",
+        "name": "Ovos médios",
+        "quantity": 4,
+        "unit": "unidades"
+      },
+      {
+        "id": "manteiga",
+        "name": "Manteiga em temperatura ambiente",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar mascavo",
+        "quantity": 240,
+        "unit": "g"
+      },
+      {
+        "id": "canela",
+        "name": "Canela em pó",
+        "quantity": 1,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "farinha",
+        "name": "Farinha de trigo",
+        "quantity": 320,
+        "unit": "g"
+      },
+      {
+        "id": "leite",
+        "name": "Leite integral",
+        "quantity": 240,
+        "unit": "ml"
+      },
+      {
+        "id": "nozes",
+        "name": "Nozes picadas",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "id": "fermento",
+        "name": "Fermento químico para bolo",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "nozes-final",
+        "name": "Nozes para decorar",
+        "quantity": null,
+        "unit": "a gosto",
+        "note": "Opcional."
+      },
+      {
+        "id": "acucar-final",
+        "name": "Açúcar de confeiteiro",
+        "quantity": null,
+        "unit": "a gosto",
+        "note": "Opcional."
+      },
+      {
+        "id": "untar",
+        "name": "Manteiga e farinha para a forma",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Aqueça o forno a 180 °C. Unte e enfarinhe uma forma redonda de cerca de 24 cm."
+      },
+      {
+        "id": "passo-2",
+        "text": "Quebre os ovos separadamente e coloque numa tigela com a manteiga e o mascavo. Bata por cerca de 5 a 7 minutos, até obter creme fofo."
+      },
+      {
+        "id": "passo-3",
+        "text": "Com a batedeira desligada, incorpore canela, leite e farinha peneirada aos poucos, usando espátula."
+      },
+      {
+        "id": "passo-4",
+        "text": "Misture nozes e, por último, fermento. Transfira para a forma."
+      },
+      {
+        "id": "passo-5",
+        "text": "Asse por cerca de 35 minutos e faça o teste do palito: deve sair sem massa crua. Deixe amornar, desenforme e decore se desejar."
+      }
+    ],
+    "equipment": [
+      "Batedeira e tigela",
+      "Forma redonda de 24 cm",
+      "Peneira, espátula e balança"
+    ],
+    "tips": [
+      {
+        "title": "Nozes picadas",
+        "text": "Distribua pedaços pequenos para facilitar o corte."
+      },
+      {
+        "title": "Fermento no fim",
+        "text": "Misture só até incorporar, sem voltar a bater."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Depois de frio",
+        "text": "Guarde bem fechado na geladeira por até 2 dias."
+      },
+      {
+        "title": "Para servir",
+        "text": "Retire a fatia desejada e deixe perder um pouco do frio. Evite abrir o recipiente inteiro várias vezes."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T14:31:53Z"
+  },
+  "sources": [
+    {
+      "title": "Receiteria — bolo de nozes",
+      "url": "https://www.receiteria.com.br/receita/bolo-de-nozes/",
+      "role": "Forma de 24 cm, 100 g de nozes, açúcar mascavo e 35 minutos a 180 °C; base ajustável de nove porções."
+    },
+    {
+      "title": "Health Canada — conservação de sobras",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de alimentos prontos."
+    }
+  ],
+  "editorialNotes": [
+    "Fonte informa oito a dez porções e controle base nove: mantida base nove. Sem recheio ou glacê inventado.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

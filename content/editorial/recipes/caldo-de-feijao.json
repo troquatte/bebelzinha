@@ -1,0 +1,161 @@
+{
+  "id": "caldo-de-feijao",
+  "slug": "caldo-de-feijao",
+  "title": "Caldo de feijão com bacon e páprica defumada",
+  "description": "Caldo de feijão batido com bacon, alho e páprica defumada. Confira a medida da xícara e como finalizar uma base de feijão já cozido.",
+  "intro": "Use feijão pronto e bem conservado. O liquidificador deixa o caldo uniforme antes de ele entrar no refogado.",
+  "categoryIds": [
+    "pratos-do-dia"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/caldo-de-feijao.webp",
+    "alt": "Imagem ilustrativa: Caldo de feijão com bacon e páprica defumada em apresentação caseira"
+  },
+  "publishedAt": "2026-11-04T14:55:24Z",
+  "updatedAt": "2026-11-04T14:55:24Z",
+  "seo": {
+    "title": "Caldo de feijão com bacon e páprica defumada | Bebel",
+    "description": "Caldo de feijão batido com bacon, alho e páprica defumada. Confira a medida da xícara e como finalizar uma base de feijão já cozido."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 6,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "O tempo não inclui cozinhar o feijão. Após bater e refogar, ferva por cerca de 5 a 7 minutos.",
+    "ingredients": [
+      {
+        "id": "feijao",
+        "name": "Feijão já cozido",
+        "quantity": 3,
+        "unit": "xícaras (chá)",
+        "note": "Nesta receita, cada xícara tem 200 ml."
+      },
+      {
+        "id": "agua",
+        "name": "Água",
+        "quantity": 300,
+        "unit": "ml",
+        "shopping": false
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": 3,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "cebola",
+        "name": "Cebola média picada",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "alho",
+        "name": "Alho picado",
+        "quantity": 4,
+        "unit": "dentes"
+      },
+      {
+        "id": "bacon",
+        "name": "Bacon em cubos",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "id": "paprica",
+        "name": "Páprica defumada",
+        "quantity": 1,
+        "unit": "pitada"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "verde",
+        "name": "Cheiro-verde",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Bata feijão e água por cerca de 2 minutos. Se estiver quente, use equipamento adequado e permita a saída de vapor conforme o manual."
+      },
+      {
+        "id": "passo-2",
+        "text": "Refogue a cebola no azeite. Junte alho e, quando começar a dourar, coloque bacon e deixe ganhar cor."
+      },
+      {
+        "id": "passo-3",
+        "text": "Adicione o feijão batido, páprica, sal e pimenta. Cozinhe com tampa entreaberta por 5 a 7 minutos após ferver, mexendo."
+      },
+      {
+        "id": "passo-4",
+        "text": "Finalize com cheiro-verde e sirva. Se usar feijão de uma refeição anterior, prepare apenas a quantidade que vai consumir."
+      }
+    ],
+    "equipment": [
+      "Liquidificador adequado à temperatura do alimento",
+      "Panela e espátula",
+      "Xícara de 200 ml e jarra medidora"
+    ],
+    "tips": [
+      {
+        "title": "Xícara desta receita",
+        "text": "As três xícaras correspondem a 600 ml de feijão cozido medido, não a 600 g."
+      },
+      {
+        "title": "Ajuste o sal no fim",
+        "text": "O bacon e o feijão pronto podem já estar salgados."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Com feijão recém-cozido",
+        "text": "Refrigere rapidamente em porções rasas, em até 2 horas, e consuma em até 2 dias a 4 °C ou menos."
+      },
+      {
+        "title": "Com sobra de feijão",
+        "text": "A preparação do caldo já é um reaquecimento; não reinicie a validade do feijão. Faça só o que vai servir."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T14:55:24Z"
+  },
+  "sources": [
+    {
+      "title": "Receiteria — caldo de feijao",
+      "url": "https://www.receiteria.com.br/receita/caldo-de-feijao/",
+      "role": "Seis porções; xícara de 200 ml, feijão cozido e finalização de cinco a sete minutos."
+    },
+    {
+      "title": "Health Canada — conservação de sobras",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Refrigeração rápida e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Bacon opcional da fonte adotado. Sem tempo total que omita cozinhar feijão.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

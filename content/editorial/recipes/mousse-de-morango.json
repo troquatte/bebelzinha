@@ -1,0 +1,149 @@
+{
+  "id": "mousse-de-morango",
+  "slug": "mousse-de-morango",
+  "title": "Mousse de morango com fruta e gelatina",
+  "description": "Mousse de morango com fruta fresca, leite condensado e gelatina. Confira a quantidade de água e o descanso na geladeira para servir em taças.",
+  "intro": "A fruta entra batida, e a gelatina ajuda a firmar a sobremesa. Prepare com antecedência para dar tempo de gelar.",
+  "categoryIds": [
+    "doces"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/mousse-de-morango.webp",
+    "alt": "Imagem ilustrativa: Mousse rosa de morango em taças claras com fruta por cima"
+  },
+  "publishedAt": "2026-11-04T14:31:53Z",
+  "updatedAt": "2026-11-04T14:31:53Z",
+  "seo": {
+    "title": "Mousse de morango com fruta e gelatina | Bebel",
+    "description": "Mousse de morango com fruta fresca, leite condensado e gelatina. Confira a quantidade de água e o descanso na geladeira para servir em taças."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 6,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Bata a base por cerca de 2 minutos e reserve pelo menos 3 horas de geladeira. O tempo de refrigeração não é tempo de fogo.",
+    "ingredients": [
+      {
+        "id": "gelatina",
+        "name": "Gelatina em pó sabor morango",
+        "quantity": 10,
+        "unit": "g"
+      },
+      {
+        "id": "agua",
+        "name": "Água fervente",
+        "quantity": 80,
+        "unit": "ml",
+        "shopping": false
+      },
+      {
+        "id": "morango",
+        "name": "Morangos",
+        "quantity": 250,
+        "unit": "g"
+      },
+      {
+        "id": "creme",
+        "name": "Creme de leite",
+        "quantity": 1,
+        "unit": "caixinha",
+        "note": "Use uma caixinha de 200 g."
+      },
+      {
+        "id": "condensado",
+        "name": "Leite condensado",
+        "quantity": 1,
+        "unit": "lata",
+        "note": "Use uma lata de 395 g."
+      },
+      {
+        "id": "limao",
+        "name": "Suco de limão",
+        "quantity": 2,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "morango-final",
+        "name": "Morangos para decorar",
+        "quantity": null,
+        "unit": "a gosto",
+        "note": "Opcional."
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Higienize os morangos, retire as folhas e pique. Dissolva completamente os 10 g de gelatina nos 80 ml de água fervente."
+      },
+      {
+        "id": "passo-2",
+        "text": "Bata morangos, creme de leite, leite condensado e suco de limão no liquidificador por cerca de 2 minutos."
+      },
+      {
+        "id": "passo-3",
+        "text": "Acrescente a gelatina dissolvida e bata apenas até misturar."
+      },
+      {
+        "id": "passo-4",
+        "text": "Distribua em seis taças ou num refratário. Cubra e leve à geladeira por no mínimo 3 horas, até firmar."
+      },
+      {
+        "id": "passo-5",
+        "text": "Decore com morangos higienizados apenas na hora de servir."
+      }
+    ],
+    "equipment": [
+      "Liquidificador",
+      "Jarra medidora e colher",
+      "Seis taças ou refratário com cobertura"
+    ],
+    "tips": [
+      {
+        "title": "Pese a gelatina",
+        "text": "A receita usa 10 g, não um pacote inteiro de qualquer marca."
+      },
+      {
+        "title": "Sem grânulos",
+        "text": "Dissolva bem antes de adicionar à base."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Mantenha refrigerado",
+        "text": "Guarde coberto a 4 °C ou menos e consuma em até 2 dias. Retire apenas o que for servir."
+      },
+      {
+        "title": "Hora de guardar",
+        "text": "Não deixe a sobremesa mais de 2 horas fora da geladeira."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T14:31:53Z"
+  },
+  "sources": [
+    {
+      "title": "Receiteria — mousse de morango",
+      "url": "https://www.receiteria.com.br/receita/mousse-de-morango/",
+      "role": "Seis porções; 250 g de fruta, 10 g de gelatina e 80 ml de água; três horas de geladeira."
+    },
+    {
+      "title": "Health Canada — conservação de sobras",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de alimentos prontos."
+    }
+  ],
+  "editorialNotes": [
+    "Leite em pó opcional da fonte omitido; não usar suco em pó no lugar da fruta. KD23, sem alegar concorrência baixa. Embalagens padrão explicitadas, revisar rótulos.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

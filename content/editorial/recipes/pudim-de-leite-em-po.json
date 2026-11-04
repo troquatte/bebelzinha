@@ -1,0 +1,155 @@
+{
+  "id": "pudim-de-leite-em-po",
+  "slug": "pudim-de-leite-em-po",
+  "title": "Pudim de leite em pó sem leite condensado",
+  "description": "Pudim de leite em pó sem leite condensado, com ovos e calda de caramelo. Confira a mistura e o preparo em banho-maria no forno.",
+  "intro": "Açúcar e água da calda ficam separados da mistura do pudim. Não acrescente leite condensado.",
+  "categoryIds": [
+    "doces",
+    "forno"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/pudim-de-leite-em-po.webp",
+    "alt": "Imagem ilustrativa: Pudim de leite em pó sem leite condensado em apresentação caseira"
+  },
+  "publishedAt": "2026-11-04T14:55:24Z",
+  "updatedAt": "2026-11-04T14:55:24Z",
+  "seo": {
+    "title": "Pudim de leite em pó sem leite condensado | Bebel",
+    "description": "Pudim de leite em pó sem leite condensado, com ovos e calda de caramelo. Confira a mistura e o preparo em banho-maria no forno."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 8,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 45,
+      "totalMinutes": null
+    },
+    "timeNote": "Forno a 180 °C por cerca de 45 minutos, seguido de resfriamento e pelo menos 2 horas na geladeira.",
+    "ingredients": [
+      {
+        "id": "acucar-calda",
+        "name": "Açúcar para a calda",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "agua-calda",
+        "name": "Água para a calda",
+        "quantity": 0.3333333333333333,
+        "unit": "xícara (chá)",
+        "shopping": false
+      },
+      {
+        "id": "ovos",
+        "name": "Ovos",
+        "quantity": 3,
+        "unit": "unidades"
+      },
+      {
+        "id": "agua-pudim",
+        "name": "Água para o pudim",
+        "quantity": 250,
+        "unit": "ml",
+        "shopping": false
+      },
+      {
+        "id": "leite",
+        "name": "Leite",
+        "quantity": 250,
+        "unit": "ml"
+      },
+      {
+        "id": "leite-po",
+        "name": "Leite em pó",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "id": "acucar-pudim",
+        "name": "Açúcar para o pudim",
+        "quantity": 8,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "agua-banho",
+        "name": "Água quente para o banho-maria",
+        "quantity": null,
+        "unit": "a gosto",
+        "shopping": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Misture o açúcar da calda e a água numa panela. Aqueça em fogo médio-baixo, sem mexer, até ficar âmbar. Espalhe numa forma com furo central."
+      },
+      {
+        "id": "passo-2",
+        "text": "Aqueça o forno a 180 °C. Bata ovos, água do pudim, leite, leite em pó e açúcar por cerca de 3 minutos."
+      },
+      {
+        "id": "passo-3",
+        "text": "Despeje na forma, cubra com papel-alumínio e coloque numa assadeira com água quente."
+      },
+      {
+        "id": "passo-4",
+        "text": "Asse em banho-maria por cerca de 45 minutos, até firmar sem ficar líquido no centro. Retire com cuidado."
+      },
+      {
+        "id": "passo-5",
+        "text": "Deixe esfriar sem ultrapassar 2 horas fora da geladeira. Refrigere por pelo menos 2 horas antes de servir e desenforme frio com cuidado."
+      }
+    ],
+    "equipment": [
+      "Panela para caramelo e liquidificador",
+      "Forma com furo central e assadeira",
+      "Papel-alumínio, luvas e medidores"
+    ],
+    "tips": [
+      {
+        "title": "Água separada",
+        "text": "A calda leva um terço de xícara; o pudim, 250 ml."
+      },
+      {
+        "title": "Caramelo quente",
+        "text": "Manuseie com luvas e evite respingos."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Guarde coberto a 4 °C ou menos por até 2 dias. Retire apenas a quantidade que vai servir."
+      },
+      {
+        "title": "Depois de servir",
+        "text": "Não deixe mais de 2 horas fora da refrigeração."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T14:55:24Z"
+  },
+  "sources": [
+    {
+      "title": "Receiteria — pudim de leite em po",
+      "url": "https://www.receiteria.com.br/receita/pudim-de-leite-em-po/",
+      "role": "Oito porções,100g leite em pó, sem condensado; banho-maria180°C45min e duas horas de geladeira."
+    },
+    {
+      "title": "Health Canada — conservação de sobras",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Refrigeração rápida e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Desenformar frio por estabilidade; não manter à temperatura ambiente até esfriamento prolongado.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

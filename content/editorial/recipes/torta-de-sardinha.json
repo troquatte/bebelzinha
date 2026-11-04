@@ -1,0 +1,200 @@
+{
+  "id": "torta-de-sardinha",
+  "slug": "torta-de-sardinha",
+  "title": "Torta de sardinha de liquidificador com milho e ervilha",
+  "description": "Torta de sardinha com massa de liquidificador e recheio de milho, ervilha e tomate. Veja as medidas e a montagem na forma grande.",
+  "intro": "Escorra as conservas antes de misturar. O recheio desta versão entra frio entre duas camadas de massa.",
+  "categoryIds": [
+    "forno",
+    "lanches"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/torta-de-sardinha.webp",
+    "alt": "Imagem ilustrativa: Torta de sardinha de liquidificador com milho e ervilha em apresentação caseira"
+  },
+  "publishedAt": "2026-11-04T14:55:24Z",
+  "updatedAt": "2026-11-04T14:55:24Z",
+  "seo": {
+    "title": "Torta de sardinha de liquidificador com milho e ervilha | Bebel",
+    "description": "Torta de sardinha com massa de liquidificador e recheio de milho, ervilha e tomate. Veja as medidas e a montagem na forma grande."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 15,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 60,
+      "totalMinutes": null
+    },
+    "timeNote": "Forno a 180 °C por aproximadamente 1 hora, além de preparar o recheio e bater a massa.",
+    "ingredients": [
+      {
+        "id": "ovos",
+        "name": "Ovos",
+        "quantity": 3,
+        "unit": "unidades"
+      },
+      {
+        "id": "leite",
+        "name": "Leite integral",
+        "quantity": 2,
+        "unit": "xícaras (chá)"
+      },
+      {
+        "id": "oleo",
+        "name": "Óleo",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "amido",
+        "name": "Amido de milho",
+        "quantity": 2,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "farinha",
+        "name": "Farinha de trigo",
+        "quantity": 2,
+        "unit": "xícaras (chá)"
+      },
+      {
+        "id": "fermento",
+        "name": "Fermento químico para bolo",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "tomate",
+        "name": "Tomate picado",
+        "quantity": 2,
+        "unit": "unidades"
+      },
+      {
+        "id": "cebola",
+        "name": "Cebola picada",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "milho",
+        "name": "Milho em conserva escorrido",
+        "quantity": 1,
+        "unit": "lata"
+      },
+      {
+        "id": "ervilha",
+        "name": "Ervilha em conserva escorrida",
+        "quantity": 1,
+        "unit": "lata"
+      },
+      {
+        "id": "azeitona",
+        "name": "Azeitona sem caroço picada",
+        "quantity": 2,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "verde",
+        "name": "Cheiro-verde picado",
+        "quantity": 3,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "sardinha",
+        "name": "Sardinha em conserva sem o óleo",
+        "quantity": 2,
+        "unit": "latas"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "untar",
+        "name": "Óleo e farinha para untar",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Misture sardinha em pedaços, tomate, cebola, milho, ervilha, azeitona e cheiro-verde. Ajuste sal e pimenta."
+      },
+      {
+        "id": "passo-2",
+        "text": "Aqueça o forno a 180 °C. Unte e enfarinhe uma forma de 36 × 26 cm."
+      },
+      {
+        "id": "passo-3",
+        "text": "Bata ovos, leite, óleo, amido, farinha e sal por cerca de 1 minuto. Desligue e incorpore o fermento com espátula."
+      },
+      {
+        "id": "passo-4",
+        "text": "Coloque metade da massa, distribua o recheio sem pressionar e cubra com a massa restante."
+      },
+      {
+        "id": "passo-5",
+        "text": "Asse por aproximadamente 1 hora, até um palito inserido na massa sair sem massa crua. Espere amornar antes de cortar."
+      }
+    ],
+    "equipment": [
+      "Liquidificador e tigela",
+      "Forma de 36 × 26 cm",
+      "Escorredor, espátula e medidores"
+    ],
+    "tips": [
+      {
+        "title": "Recheio escorrido",
+        "text": "Excesso de líquido pode deixar a base úmida."
+      },
+      {
+        "title": "Corte depois de amornar",
+        "text": "A estrutura fica mais firme para servir os pedaços."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Guarde em porções",
+        "text": "Refrigere em recipientes rasos em até 2 horas, a 4 °C ou menos. Consuma em até 2 dias."
+      },
+      {
+        "title": "Reaqueça por completo",
+        "text": "Aqueça só o que vai consumir até atingir 74 °C no centro. Caldos e sopas devem ferver, mexendo para distribuir o calor."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T14:55:24Z"
+  },
+  "sources": [
+    {
+      "title": "Receiteria — torta de sardinha",
+      "url": "https://www.receiteria.com.br/receita/torta-de-sardinha/",
+      "role": "Quinze porções, forma36×26cm, recheio sem refogar e cerca de uma hora a180°C."
+    },
+    {
+      "title": "Health Canada — conservação de sobras",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Refrigeração rápida e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Milho, ervilha e azeitonas opcionais adotados; recheio diferente da torta salgada de liquidificador existente.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "id": "pizza-na-airfryer",
+  "slug": "pizza-na-airfryer",
+  "title": "Pizza na airfryer com massa caseira e muçarela",
+  "description": "Pizza na airfryer com massa caseira de fermento biológico. Veja as medidas, o descanso e o pré-preparo dos discos antes de colocar o queijo.",
+  "intro": "A massa rende oito discos individuais. Asse um por vez, ajustando o diâmetro à cesta.",
+  "categoryIds": [
+    "airfryer",
+    "massas",
+    "lanches"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/pizza-na-airfryer.webp",
+    "alt": "Imagem ilustrativa: Pizza na airfryer com massa caseira e muçarela em apresentação caseira"
+  },
+  "publishedAt": "2026-11-04T14:55:24Z",
+  "updatedAt": "2026-11-04T14:55:24Z",
+  "seo": {
+    "title": "Pizza na airfryer com massa caseira e muçarela | Bebel",
+    "description": "Pizza na airfryer com massa caseira de fermento biológico. Veja as medidas, o descanso e o pré-preparo dos discos antes de colocar o queijo."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 8,
+      "unit": "unidade"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Deixe crescer por cerca de 40 minutos ou até dobrar. Cada disco leva aproximadamente 5 + 3 minutos para pré-assar e mais 2 para derreter o queijo.",
+    "ingredients": [
+      {
+        "id": "farinha",
+        "name": "Farinha de trigo",
+        "quantity": 500,
+        "unit": "g",
+        "note": "Reserve um pouco para ajustar a massa e abrir os discos."
+      },
+      {
+        "id": "fermento",
+        "name": "Fermento biológico seco",
+        "quantity": 5,
+        "unit": "g"
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "leite-po",
+        "name": "Leite em pó",
+        "quantity": 20,
+        "unit": "g"
+      },
+      {
+        "id": "leite",
+        "name": "Leite",
+        "quantity": 140,
+        "unit": "ml"
+      },
+      {
+        "id": "agua",
+        "name": "Água",
+        "quantity": 140,
+        "unit": "ml",
+        "shopping": false
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": 4,
+        "unit": "colheres (chá)",
+        "note": "Mais um pouco para pincelar."
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 1,
+        "unit": "colher (sobremesa)",
+        "note": "Ou ajuste a gosto."
+      },
+      {
+        "id": "molho",
+        "name": "Molho de tomate para cobrir",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "queijo",
+        "name": "Muçarela fatiada",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "oregano",
+        "name": "Orégano seco",
+        "quantity": null,
+        "unit": "a gosto",
+        "note": "Opcional."
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Reserve um pouco da farinha. Misture o restante com fermento, açúcar e leite em pó. Junte leite, água, azeite e sal. Amasse e sove até ficar lisa, ajustando com a farinha reservada."
+      },
+      {
+        "id": "passo-2",
+        "text": "Divida em oito bolas, pincele com azeite, cubra e deixe crescer por cerca de 40 minutos, até dobrar."
+      },
+      {
+        "id": "passo-3",
+        "text": "Abra um disco do tamanho da cesta, deixando borda alta. Coloque na cesta, fure o centro com garfo e pincele a borda."
+      },
+      {
+        "id": "passo-4",
+        "text": "Asse a 200 °C por cerca de 5 minutos. Vire e asse por aproximadamente mais 3, até a base estar cozida."
+      },
+      {
+        "id": "passo-5",
+        "text": "Vire novamente, espalhe molho e muçarela sem passar da borda. Asse por mais 2 minutos, até derreter. Termine com orégano se desejar e repita com os outros discos."
+      }
+    ],
+    "equipment": [
+      "Airfryer",
+      "Tigela, bancada e pano limpo",
+      "Balança, jarra, garfo e espátula"
+    ],
+    "tips": [
+      {
+        "title": "Fermento biológico",
+        "text": "Fermento químico de bolo não é substituto nesta fórmula."
+      },
+      {
+        "title": "Base primeiro",
+        "text": "Não cubra a massa crua com queijo antes de pré-assar."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Guarde em porções",
+        "text": "Refrigere em recipientes rasos em até 2 horas, a 4 °C ou menos. Consuma em até 2 dias."
+      },
+      {
+        "title": "Reaqueça por completo",
+        "text": "Aqueça só o que vai consumir até atingir 74 °C no centro. Caldos e sopas devem ferver, mexendo para distribuir o calor."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T14:55:24Z"
+  },
+  "sources": [
+    {
+      "title": "Receitas Globo / Ana Maria Braga — pizza na airfryer",
+      "url": "https://receitas.globo.com/ana-maria-braga/salgados/pizza-na-airfryer.ghtml",
+      "role": "Oito discos,500g farinha,140ml leite e140ml água; pré-assar dos dois lados."
+    },
+    {
+      "title": "Health Canada — conservação de sobras",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Refrigeração rápida e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Fonte Receiteria descartada por água adicional indefinida. Volume390 é termo transacional, não prova demanda exclusivamente por receita. Cobertura a gosto como fonte, sem peso inventado.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

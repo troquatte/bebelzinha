@@ -1,0 +1,15 @@
+# Lote092 — dez receitas — 4 de novembro de 2026
+
+Caldo de feijão com bacon e páprica defumada; Sopa de legumes com macarrão e mandioquinha; Carne louca de acém com pimentões e molho de tomate; Torta de sardinha de liquidificador com milho e ervilha; Bolo de café solúvel com chocolate em pó; Mousse de abacaxi com fruta cozida e gelatina; Pudim de leite em pó sem leite condensado; Pizza na airfryer com massa caseira e muçarela; Hambúrguer na airfryer com brócolis e molho de gorgonzola; Batata recheada na airfryer com frango e cream cheese.
+
+Concluído localmente:210 receitas públicas/212 registros com dois rascunhos;18 páginas(17×12+6);230 rotas estáticas e232URLs no sitemap. Dez fichas completas com fontes, quantidades, rendimentos, utensílios, preparo, dicas, conservação e fotos ilustrativas originais image_gen WebP. Sem player/vídeo público compatível confirmado; Shorts121/122 sobre hambúrguer e150sobre massa não equivalem a estas receitas; vídeo anterior do brigadeiro preservado. Sem teste próprio, avaliações ou nutrição inventados.
+
+OpenSEO Brasil2076/pt: dez métricas novas e dez SERPsdepth10, todas sucesso; resultId 21a6253f-d8a1-4dc5-b0d0-5ec48e6c91f3. caldo de feijão: 22200/mês KD0 CPCUSD0.26; sopa de legumes: 33100/mês KD0 CPCUSD0.05; carne louca: 27100/mês KD0 CPCUSD0.08; torta de sardinha: 40500/mês KD0 CPCUSD0.02; bolo de café: 14800/mês KD0 CPCUSD0.1; mousse de abacaxi: 12100/mês KD5 CPCUSD0.04; pudim de leite em pó: 33100/mês KD4 CPCUSD0.11; pizza na airfryer: 390/mês KD0 CPCUSD0.15; hambúrguer na airfryer: 2900/mês KD0 CPCUSD0.87; batata recheada na airfryer: 4400/mês KD0 CPCUSD0.38. Nove informacionais, pizza transacional. Demanda não é visitas; KD0 não prova facilidade. Créditos/saldo não retornados. Contexto remoto antigo complementado pela memória local. Reusar pesquisas equivalentes recentes. Nenhuma palavra-chave salva, tracker criado ou contexto compartilhado atualizado.
+
+Fontes integrais Receiteria8, Panelinha1 e Globo/AnaMariaBraga1. Fontes iniciais de hambúrguer e pizza descartadas por rendimento/água divergentes, sem misturar fórmulas. Xícaras200ml(caldo)/210ml(café) explícitas. Abacaxi cozido antes da gelatina; batata e frango já cozidos; parmesão presente no método incluído. Temperatura71°C na carne moída complementada por HealthCanada; sobras74°C/refrigeração até2dias.
+
+Build/postbuild e validar-entrega.mjs aprovados.10/10 desktop1280/mobile390: foto carregada, sem overflow, contagens de compras/preparo e persistência após reload; marcas de teste restauradas. Página18 seis cards205–210; busca mousse de abacaxi1/noindex; filtros nowrap/scrollauto. Recipe/Breadcrumb/canonical/robots/sitemap conferidos. Aviso CommonJS SweetAlert2 preexistente. Diálogo de impressão não executado e sem testes unitários novos para dados.
+
+Relatório privado https://app.openseo.so/p/d9786bbb-b04d-4eaa-adf8-337b47b3010a/reports/cdebf1ee-2bf9-4b0f-aa8e-4e224c9acbe8
+
+Arquivos:10JSON content/editorial/recipes/,10MD content/editorial/sources/,10WebP public/images/recipes/,manifesto e catálogo derivado. Sem componentes/CSS/checkout/anúncios alterados; sem commit/push/deploy/social.

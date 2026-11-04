@@ -1,0 +1,142 @@
+{
+  "id": "batata-recheada-na-airfryer",
+  "slug": "batata-recheada-na-airfryer",
+  "title": "Batata recheada na airfryer com frango e cream cheese",
+  "description": "Batata recheada na airfryer com frango desfiado, cream cheese e queijo. Comece com as batatas cozidas e veja como aproveitar o miolo no recheio.",
+  "intro": "As batatas entram já cozidas e cortadas ao meio. Uma porção corresponde a duas metades recheadas.",
+  "categoryIds": [
+    "airfryer",
+    "pratos-do-dia"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/batata-recheada-na-airfryer.webp",
+    "alt": "Imagem ilustrativa: Batata recheada na airfryer com frango e cream cheese em apresentação caseira"
+  },
+  "publishedAt": "2026-11-04T14:55:24Z",
+  "updatedAt": "2026-11-04T14:55:24Z",
+  "seo": {
+    "title": "Batata recheada na airfryer com frango e cream cheese | Bebel",
+    "description": "Batata recheada na airfryer com frango desfiado, cream cheese e queijo. Comece com as batatas cozidas e veja como aproveitar o miolo no recheio."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 3,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 25 minutos a 200 °C por leva para dourar, além de cozinhar previamente as batatas e o frango.",
+    "ingredients": [
+      {
+        "id": "batata",
+        "name": "Batata já cozida",
+        "quantity": 3,
+        "unit": "unidades"
+      },
+      {
+        "id": "cebolinha",
+        "name": "Cebolinha",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "cream-cheese",
+        "name": "Cream cheese",
+        "quantity": 3,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "frango",
+        "name": "Frango já cozido e desfiado",
+        "quantity": 0.5,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "queijo",
+        "name": "Muçarela ralada",
+        "quantity": 0.5,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "parmesao",
+        "name": "Parmesão para polvilhar",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Corte as batatas cozidas ao meio. Retire parte do miolo com uma colher, deixando uma parede firme para segurar o recheio."
+      },
+      {
+        "id": "passo-2",
+        "text": "Amasse o miolo e misture sal, cebolinha, cream cheese e frango desfiado. Incorpore a muçarela."
+      },
+      {
+        "id": "passo-3",
+        "text": "Distribua nas seis metades e polvilhe parmesão. Acomode na cesta em uma camada."
+      },
+      {
+        "id": "passo-4",
+        "text": "Asse a 200 °C por cerca de 25 minutos, até dourar e aquecer o recheio por completo. Se necessário, faça em levas. Sirva imediatamente."
+      }
+    ],
+    "equipment": [
+      "Airfryer",
+      "Tigela, colher e amassador",
+      "Xícara e colheres medidoras"
+    ],
+    "tips": [
+      {
+        "title": "Não raspe demais",
+        "text": "Deixe uma borda que sustente o creme."
+      },
+      {
+        "title": "Ingredientes cozidos",
+        "text": "O tempo na airfryer é de finalização, não serve para cozinhar frango cru."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Prefira montar para servir",
+        "text": "Se usar frango de uma refeição anterior, esta etapa conta como reaquecimento; não reinicie a validade."
+      },
+      {
+        "title": "Se os ingredientes forem recém-cozidos",
+        "text": "Refrigere eventual sobra em até 2 horas, a 4 °C ou menos, por até 2 dias. Reaqueça até o centro atingir 74 °C."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T14:55:24Z"
+  },
+  "sources": [
+    {
+      "title": "Receiteria — batata recheada na airfryer",
+      "url": "https://www.receiteria.com.br/receita/batata-recheada-na-airfryer/",
+      "role": "Três porções, batata já cozida, frango e cream cheese; parmesão aparece na etapa de finalização."
+    },
+    {
+      "title": "Health Canada — conservação de sobras",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Refrigeração rápida e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Parmesão ausente da lista mas presente no método da fonte incluído a gosto. Sem bacon ou requeijão de outras versões.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

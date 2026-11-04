@@ -1,0 +1,170 @@
+{
+  "id": "hamburguer-na-airfryer",
+  "slug": "hamburguer-na-airfryer",
+  "title": "Hambúrguer na airfryer com brócolis e molho de gorgonzola",
+  "description": "Hambúrguer na airfryer com acém e costela, brócolis assado e molho de gorgonzola. Veja a montagem do prato e o ponto de cozimento da carne.",
+  "intro": "Esta versão é servida no prato, sem pão. Um hambúrguer de 180 g acompanha os brócolis.",
+  "categoryIds": [
+    "airfryer",
+    "pratos-do-dia"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/hamburguer-na-airfryer.webp",
+    "alt": "Imagem ilustrativa: Hambúrguer na airfryer com brócolis e molho de gorgonzola em apresentação caseira"
+  },
+  "publishedAt": "2026-11-04T14:55:24Z",
+  "updatedAt": "2026-11-04T14:55:24Z",
+  "seo": {
+    "title": "Hambúrguer na airfryer com brócolis e molho de gorgonzola | Bebel",
+    "description": "Hambúrguer na airfryer com acém e costela, brócolis assado e molho de gorgonzola. Veja a montagem do prato e o ponto de cozimento da carne."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 1,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "A referência usa 10 minutos a 200 °C, virando na metade. Confira 71 °C no centro da carne moída e prolongue quando necessário.",
+    "ingredients": [
+      {
+        "id": "acem",
+        "name": "Acém moído",
+        "quantity": 90,
+        "unit": "g"
+      },
+      {
+        "id": "costela",
+        "name": "Costela bovina moída",
+        "quantity": 90,
+        "unit": "g"
+      },
+      {
+        "id": "brocolis",
+        "name": "Brócolis com florete e parte do talo",
+        "quantity": 5,
+        "unit": "ramos"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "gorgonzola",
+        "name": "Gorgonzola esfarelado",
+        "quantity": 3,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "creme",
+        "name": "Creme de leite",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "mostarda",
+        "name": "Mostarda de Dijon",
+        "quantity": 0.5,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "ingles",
+        "name": "Molho inglês",
+        "quantity": null,
+        "unit": "a gosto",
+        "note": "Use algumas gotas."
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Lave e seque os brócolis, mantendo cerca de 10 cm de talo. Envolva em um pouco de azeite."
+      },
+      {
+        "id": "passo-2",
+        "text": "Misture as carnes e modele um disco de cerca de 9 cm de diâmetro e 2,5 cm de altura, sem comprimir demais. Faça uma depressão central e tempere por fora."
+      },
+      {
+        "id": "passo-3",
+        "text": "Aqueça a airfryer a 200 °C conforme o manual. Pincele o hambúrguer com azeite e asse por 5 minutos, deixando espaço ao lado."
+      },
+      {
+        "id": "passo-4",
+        "text": "Vire, pincele levemente e acrescente os brócolis. Asse por mais 5 minutos ou até a carne atingir 71 °C no centro e os legumes ficarem macios."
+      },
+      {
+        "id": "passo-5",
+        "text": "Derreta gorgonzola num recipiente próprio no micro-ondas por 15 segundos, mexa e repita por 10 se necessário. Misture creme, mostarda e molho inglês. Descanse a carne por 2 minutos e sirva com molho e brócolis."
+      }
+    ],
+    "equipment": [
+      "Airfryer e micro-ondas",
+      "Tigela própria para micro-ondas",
+      "Balança, espátula, pinça e termômetro culinário"
+    ],
+    "tips": [
+      {
+        "title": "Confira no centro",
+        "text": "Espete o termômetro pela lateral para medir a parte mais espessa."
+      },
+      {
+        "title": "Não aperte durante o cozimento",
+        "text": "Use a espátula só para virar, sem espremer os sucos."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Guarde em porções",
+        "text": "Refrigere em recipientes rasos em até 2 horas, a 4 °C ou menos. Consuma em até 2 dias."
+      },
+      {
+        "title": "Reaqueça por completo",
+        "text": "Aqueça só o que vai consumir até atingir 74 °C no centro. Caldos e sopas devem ferver, mexendo para distribuir o calor."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T14:55:24Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — hambúrguer com brócolis na airfryer",
+      "url": "https://panelinha.com.br/receita/hamburguer-na-airfryer",
+      "role": "Uma porção180g, dois cortes, brócolis e molho de gorgonzola; referência200°C10min."
+    },
+    {
+      "title": "Health Canada — temperaturas de cocção",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/safe-internal-cooking-temperatures.html",
+      "role": "Carne bovina moída deve atingir 71 °C no centro; sobras reaquecidas, 74 °C."
+    },
+    {
+      "title": "Health Canada — conservação de sobras",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Refrigeração rápida e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Rendimento contraditório de outra fonte descartado. Não reproduzir sugestão de carne moída malpassada; complementar ponto71°C. Sem pera marinada opcional da fonte.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

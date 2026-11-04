@@ -1,0 +1,220 @@
+{
+  "id": "quibe-assado",
+  "slug": "quibe-assado",
+  "title": "Quibe assado recheado com carne, nozes e tahine",
+  "description": "Quibe assado recheado com carne moída, nozes e tahine. Confira as duas camadas, a lavagem do trigo fino e o preparo no refratário.",
+  "intro": "Separe a carne do recheio da carne da massa. O trigo desta fórmula é fino e entra lavado e bem espremido.",
+  "categoryIds": [
+    "pratos-do-dia",
+    "forno"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/quibe-assado.webp",
+    "alt": "Imagem ilustrativa: Quibe assado cortado em losangos com recheio de carne e nozes"
+  },
+  "publishedAt": "2026-11-04T14:31:53Z",
+  "updatedAt": "2026-11-04T14:31:53Z",
+  "seo": {
+    "title": "Quibe assado recheado com carne, nozes e tahine | Bebel",
+    "description": "Quibe assado recheado com carne moída, nozes e tahine. Confira as duas camadas, a lavagem do trigo fino e o preparo no refratário."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 8,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 25,
+      "totalMinutes": null
+    },
+    "timeNote": "Forno a 200 °C por cerca de 25 minutos, além do recheio e da montagem. Verifique o cozimento da carne no centro.",
+    "ingredients": [
+      {
+        "id": "carne-recheio",
+        "name": "Patinho moído para o recheio",
+        "quantity": 600,
+        "unit": "g"
+      },
+      {
+        "id": "cebola-recheio",
+        "name": "Cebola para o recheio",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "manteiga",
+        "name": "Manteiga",
+        "quantity": 2,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "tahine",
+        "name": "Tahine",
+        "quantity": 3,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "nozes",
+        "name": "Nozes picadas",
+        "quantity": 0.5,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "salsinha",
+        "name": "Salsinha picada",
+        "quantity": 3,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "pimenta-recheio",
+        "name": "Pimenta síria para o recheio",
+        "quantity": 1,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "carne-massa",
+        "name": "Patinho moído para a massa",
+        "quantity": 600,
+        "unit": "g"
+      },
+      {
+        "id": "trigo",
+        "name": "Trigo fino para quibe",
+        "quantity": 1.5,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "cebola-massa",
+        "name": "Cebola para a massa",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "limao",
+        "name": "Limão",
+        "quantity": 1,
+        "unit": "unidade",
+        "note": "Raspas e suco."
+      },
+      {
+        "id": "hortela",
+        "name": "Folhas de hortelã",
+        "quantity": 1.5,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "pimenta-massa",
+        "name": "Pimenta síria para a massa",
+        "quantity": 1,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "sal-massa",
+        "name": "Sal para a massa",
+        "quantity": 2,
+        "unit": "colheres (chá)"
+      },
+      {
+        "id": "sal-recheio",
+        "name": "Sal e pimenta-do-reino para o recheio",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": 5,
+        "unit": "colheres (sopa)",
+        "note": "Mais um pouco para untar."
+      },
+      {
+        "id": "gelo",
+        "name": "Gelo",
+        "quantity": 3,
+        "unit": "cubos",
+        "shopping": false
+      },
+      {
+        "id": "agua",
+        "name": "Água para lavar o trigo",
+        "quantity": null,
+        "unit": "a gosto",
+        "shopping": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Refogue a cebola do recheio na manteiga por 5 minutos. Acrescente os 600 g de carne, pimenta síria, sal e pimenta-do-reino. Desmanche e doure. Fora do fogo, junte tahine, nozes e salsinha."
+      },
+      {
+        "id": "passo-2",
+        "text": "Aqueça o forno a 200 °C. Unte um refratário de 30 × 24 cm. Lave o trigo numa peneira forrada com pano limpo e torça para retirar a água."
+      },
+      {
+        "id": "passo-3",
+        "text": "Processe a cebola da massa com sal, pimenta síria e 2 colheres de azeite. Junte hortelã, raspas e suco de limão."
+      },
+      {
+        "id": "passo-4",
+        "text": "Coloque a carne crua da massa, metade do trigo e gelo. Processe por 1 minuto. Raspe as laterais, incorpore o restante do trigo e bata até ficar uniforme."
+      },
+      {
+        "id": "passo-5",
+        "text": "Espalhe metade da massa no fundo. Distribua o recheio e cubra com placas achatadas da massa restante, sem comprimir o recheio."
+      },
+      {
+        "id": "passo-6",
+        "text": "Marque losangos, regue com 3 colheres de azeite e asse por cerca de 25 minutos. Confira se o centro está completamente cozido; prolongue se necessário."
+      }
+    ],
+    "equipment": [
+      "Processador de alimentos",
+      "Frigideira e refratário de 30 × 24 cm",
+      "Peneira, pano limpo, faca e medidores"
+    ],
+    "tips": [
+      {
+        "title": "Dois preparos",
+        "text": "São 600 g de carne no recheio e outros 600 g na massa."
+      },
+      {
+        "title": "Trigo fino",
+        "text": "Escorra e esprema bem antes de misturar."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Guarde em porções",
+        "text": "Refrigere em recipientes rasos em até 2 horas, a 4 °C ou menos. Consuma em até 2 dias."
+      },
+      {
+        "title": "Aqueça só o necessário",
+        "text": "Reaqueça até o centro atingir 74 °C e sirva. Evite aquecer o recipiente inteiro repetidamente."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T14:31:53Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — quibe assado",
+      "url": "https://panelinha.com.br/receita/quibe-assado",
+      "role": "Oito porções; recheio e massa separados, trigo fino lavado, forno a 200 °C."
+    },
+    {
+      "title": "Health Canada — conservação de sobras",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de alimentos prontos."
+    }
+  ],
+  "editorialNotes": [
+    "Carne total 1,2 kg. Azeite: 2 colheres na massa e 3 na superfície, mais untar. Não importar hidratação de outra fórmula.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

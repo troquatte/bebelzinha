@@ -1,0 +1,165 @@
+{
+  "id": "lentilha-ensopada",
+  "slug": "lentilha-ensopada",
+  "title": "Lentilha ensopada na pressão com cúrcuma e cominho",
+  "description": "Lentilha ensopada com cúrcuma, cominho e louro. Confira a proporção de água e o tempo sob pressão para fazer um acompanhamento com caldo.",
+  "intro": "Uma opção com caldo para acompanhar arroz e legumes. Não leva bacon nem linguiça.",
+  "categoryIds": [
+    "acompanhamentos",
+    "pratos-do-dia"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/lentilha-ensopada.webp",
+    "alt": "Imagem ilustrativa: Lentilha com caldo dourado, cebola e especiarias em tigela clara"
+  },
+  "publishedAt": "2026-11-04T14:31:53Z",
+  "updatedAt": "2026-11-04T14:31:53Z",
+  "seo": {
+    "title": "Lentilha ensopada na pressão com cúrcuma e cominho | Bebel",
+    "description": "Lentilha ensopada com cúrcuma, cominho e louro. Confira a proporção de água e o tempo sob pressão para fazer um acompanhamento com caldo."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 4,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "São cerca de 5 minutos depois de a panela pegar pressão, mais o refogado, o aquecimento e a saída completa do vapor.",
+    "ingredients": [
+      {
+        "id": "lentilha",
+        "name": "Lentilha seca",
+        "quantity": 1,
+        "unit": "xícara (chá)"
+      },
+      {
+        "id": "cebola",
+        "name": "Cebola",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "alho",
+        "name": "Alho",
+        "quantity": 2,
+        "unit": "dentes"
+      },
+      {
+        "id": "agua",
+        "name": "Água",
+        "quantity": 3,
+        "unit": "xícaras (chá)",
+        "shopping": false
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": 2,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "cominho",
+        "name": "Cominho em pó",
+        "quantity": 0.5,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "curcuma",
+        "name": "Cúrcuma em pó",
+        "quantity": 1,
+        "unit": "colher (chá)"
+      },
+      {
+        "id": "louro",
+        "name": "Louro",
+        "quantity": 1,
+        "unit": "folha"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Escolha e lave a lentilha. Pique a cebola e o alho."
+      },
+      {
+        "id": "passo-2",
+        "text": "Aqueça a panela de pressão aberta com azeite. Refogue a cebola até ganhar cor. Acrescente alho, cominho, cúrcuma e louro e mexa por 1 minuto."
+      },
+      {
+        "id": "passo-3",
+        "text": "Junte lentilha, água, sal e pimenta. Confira o limite de enchimento do manual e feche a panela."
+      },
+      {
+        "id": "passo-4",
+        "text": "Quando pegar pressão, reduza o fogo e conte cerca de 5 minutos. Desligue e espere toda a pressão sair naturalmente antes de abrir."
+      },
+      {
+        "id": "passo-5",
+        "text": "Confira a maciez e o sal. Se precisar, termine de cozinhar sem a tampa. Retire o louro e sirva com o caldo."
+      }
+    ],
+    "equipment": [
+      "Panela de pressão conforme o manual",
+      "Peneira, faca e tábua",
+      "Xícara e colheres medidoras"
+    ],
+    "tips": [
+      {
+        "title": "Tempo total",
+        "text": "Cinco minutos é apenas a etapa sob pressão."
+      },
+      {
+        "title": "Acompanhamento com caldo",
+        "text": "Sirva numa tigela ou ao lado de arroz integral."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Guarde em porções",
+        "text": "Refrigere em recipientes rasos em até 2 horas, a 4 °C ou menos. Consuma em até 2 dias."
+      },
+      {
+        "title": "Aqueça só o necessário",
+        "text": "Reaqueça até o centro atingir 74 °C e sirva. Evite aquecer o recipiente inteiro repetidamente."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T14:31:53Z"
+  },
+  "sources": [
+    {
+      "title": "Panelinha — lentilha na pressão",
+      "url": "https://panelinha.com.br/receita/lentilha-na-pressao",
+      "role": "Até quatro porções, proporção 1:3 de lentilha e água, cinco minutos sob pressão."
+    },
+    {
+      "title": "Health Canada — conservação de sobras",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de alimentos prontos."
+    }
+  ],
+  "editorialNotes": [
+    "Termo específico com 30 buscas/mês. Pauta complementar do catálogo, não oportunidade prioritária de alto volume. Diferente da salada de lentilha existente.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

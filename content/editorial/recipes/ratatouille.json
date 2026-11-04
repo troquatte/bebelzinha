@@ -1,0 +1,188 @@
+{
+  "id": "ratatouille",
+  "slug": "ratatouille",
+  "title": "Ratatouille de legumes no forno com molho de tomate",
+  "description": "Ratatouille com abobrinha, berinjela, pimentão e cebola em rodelas, sobre molho de tomate. Veja como preparar os legumes e montar a travessa.",
+  "intro": "O molho fica no fundo e as rodelas entram intercaladas. Corte em espessura semelhante para assar por igual.",
+  "categoryIds": [
+    "acompanhamentos",
+    "forno"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/ratatouille.webp",
+    "alt": "Imagem ilustrativa: Rodelas de abobrinha, berinjela, pimentão amarelo e cebola sobre molho de tomate"
+  },
+  "publishedAt": "2026-11-04T14:31:53Z",
+  "updatedAt": "2026-11-04T14:31:53Z",
+  "seo": {
+    "title": "Ratatouille de legumes no forno com molho de tomate | Bebel",
+    "description": "Ratatouille com abobrinha, berinjela, pimentão e cebola em rodelas, sobre molho de tomate. Veja como preparar os legumes e montar a travessa."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 6,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Reserve 15 minutos para o descanso dos legumes, o tempo do molho e cerca de 30 minutos de forno a 200 °C.",
+    "ingredients": [
+      {
+        "id": "abobrinha",
+        "name": "Abobrinha grande",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "berinjela",
+        "name": "Berinjela grande",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "pimentao",
+        "name": "Pimentão amarelo grande",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "cebola-rodela",
+        "name": "Cebola grande para as rodelas",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "tomate",
+        "name": "Tomate sem pele e sem sementes",
+        "quantity": 5,
+        "unit": "unidades"
+      },
+      {
+        "id": "cebola-molho",
+        "name": "Cebola média para o molho",
+        "quantity": 0.5,
+        "unit": "unidade"
+      },
+      {
+        "id": "alho",
+        "name": "Alho",
+        "quantity": 2,
+        "unit": "dentes"
+      },
+      {
+        "id": "alecrim",
+        "name": "Alecrim",
+        "quantity": 2,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "ramo",
+        "name": "Alecrim para regar",
+        "quantity": 1,
+        "unit": "ramo"
+      },
+      {
+        "id": "tomilho",
+        "name": "Tomilho",
+        "quantity": 2,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "manjericao",
+        "name": "Manjericão",
+        "quantity": 2,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Fatie os legumes em rodelas de cerca de 3 mm. Tempere abobrinha e berinjela com sal e pimenta e deixe por 15 minutos. Escorra e seque."
+      },
+      {
+        "id": "passo-2",
+        "text": "Aqueça o forno a 200 °C. Doure abobrinha e berinjela em frigideira com azeite, em levas, por cerca de 1 minuto de cada lado. Reserve."
+      },
+      {
+        "id": "passo-3",
+        "text": "Pique os tomates, a meia cebola e o alho. Refogue cebola em azeite por 1 minuto e depois alho por mais 1 minuto. Acrescente tomate, parte das ervas, sal e pimenta. Cozinhe até formar molho."
+      },
+      {
+        "id": "passo-4",
+        "text": "Cubra o fundo de um refratário redondo médio com o molho. Intercale as rodelas de berinjela, abobrinha, pimentão e cebola, apoiando uma na outra."
+      },
+      {
+        "id": "passo-5",
+        "text": "Misture azeite com o ramo de alecrim e as ervas restantes. Regue os legumes, cubra com papel-alumínio e asse por cerca de 30 minutos. Confira se estão macios antes de servir."
+      }
+    ],
+    "equipment": [
+      "Frigideira e refratário redondo médio próprio para forno",
+      "Faca ou mandolim com protetor",
+      "Papel-alumínio e medidores"
+    ],
+    "tips": [
+      {
+        "title": "Corte regular",
+        "text": "Rodelas uniformes evitam partes cruas entre outras já macias."
+      },
+      {
+        "title": "Molho no fundo",
+        "text": "Espalhe antes de encaixar os legumes."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Guarde em porções",
+        "text": "Refrigere em recipientes rasos em até 2 horas, a 4 °C ou menos. Consuma em até 2 dias."
+      },
+      {
+        "title": "Aqueça só o necessário",
+        "text": "Reaqueça até o centro atingir 74 °C e sirva. Evite aquecer o recipiente inteiro repetidamente."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T14:31:53Z"
+  },
+  "sources": [
+    {
+      "title": "Receiteria — ratatouille",
+      "url": "https://www.receiteria.com.br/receita/ratatouille/",
+      "role": "Seis porções, legumes em rodelas douradas antes da montagem e forno coberto a 200 °C."
+    },
+    {
+      "title": "Health Canada — conservação de sobras",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de alimentos prontos."
+    }
+  ],
+  "editorialNotes": [
+    "Volume de ratatouille inclui filme, livros e outros intentos; não atribuir 165 mil à receita específica. Ervas divididas entre molho e rega, sem duplicar quantidades.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

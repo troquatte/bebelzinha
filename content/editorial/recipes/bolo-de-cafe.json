@@ -1,0 +1,163 @@
+{
+  "id": "bolo-de-cafe",
+  "slug": "bolo-de-cafe",
+  "title": "Bolo de café solúvel com chocolate em pó",
+  "description": "Bolo de café solúvel com chocolate em pó, sem cobertura. Confira a xícara de 210 ml e o preparo na forma com furo central.",
+  "intro": "Nesta fórmula, café solúvel entra na massa, não café coado. Separe os ingredientes antes de começar.",
+  "categoryIds": [
+    "doces",
+    "forno"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/bolo-de-cafe.webp",
+    "alt": "Imagem ilustrativa: Bolo de café solúvel com chocolate em pó em apresentação caseira"
+  },
+  "publishedAt": "2026-11-04T14:55:24Z",
+  "updatedAt": "2026-11-04T14:55:24Z",
+  "seo": {
+    "title": "Bolo de café solúvel com chocolate em pó | Bebel",
+    "description": "Bolo de café solúvel com chocolate em pó, sem cobertura. Confira a xícara de 210 ml e o preparo na forma com furo central."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 9,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": 45,
+      "totalMinutes": null
+    },
+    "timeNote": "Forno a 180 °C por cerca de 45 minutos, além de misturar a massa e deixar esfriar.",
+    "ingredients": [
+      {
+        "id": "ovos",
+        "name": "Ovos",
+        "quantity": 3,
+        "unit": "unidades"
+      },
+      {
+        "id": "oleo",
+        "name": "Óleo",
+        "quantity": 1,
+        "unit": "xícara (chá)",
+        "note": "Xícara de 210 ml."
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar",
+        "quantity": 1.5,
+        "unit": "xícara (chá)",
+        "note": "Xícara de 210 ml."
+      },
+      {
+        "id": "agua",
+        "name": "Água quente",
+        "quantity": 210,
+        "unit": "ml",
+        "shopping": false
+      },
+      {
+        "id": "cafe",
+        "name": "Café solúvel granulado",
+        "quantity": 6,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "chocolate",
+        "name": "Chocolate em pó 50%",
+        "quantity": 0.25,
+        "unit": "xícara (chá)",
+        "note": "Xícara de 210 ml."
+      },
+      {
+        "id": "farinha",
+        "name": "Farinha de trigo peneirada",
+        "quantity": 2,
+        "unit": "xícaras (chá)",
+        "note": "Xícara de 210 ml."
+      },
+      {
+        "id": "fermento",
+        "name": "Fermento químico para bolo",
+        "quantity": 1.5,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "untar",
+        "name": "Óleo e farinha para untar",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Aqueça o forno a 180 °C e unte e enfarinhe uma forma com furo central de 22 × 9 cm."
+      },
+      {
+        "id": "passo-2",
+        "text": "Bata os ovos levemente numa tigela. Misture óleo e açúcar por cerca de 2 minutos."
+      },
+      {
+        "id": "passo-3",
+        "text": "Acrescente água quente, café solúvel, chocolate, farinha e fermento. Misture só até uniformizar."
+      },
+      {
+        "id": "passo-4",
+        "text": "Transfira para a forma e asse por aproximadamente 45 minutos. Confira com palito, que deve sair sem massa crua."
+      },
+      {
+        "id": "passo-5",
+        "text": "Deixe amornar, desenforme e espere esfriar para guardar."
+      }
+    ],
+    "equipment": [
+      "Tigela e batedor de arame",
+      "Forma com furo central de 22 × 9 cm",
+      "Xícara de 210 ml, colheres e peneira"
+    ],
+    "tips": [
+      {
+        "title": "Medida da xícara",
+        "text": "Use 210 ml para manter a proporção indicada."
+      },
+      {
+        "title": "Café correto",
+        "text": "Café coado não substitui as seis colheres de solúvel nesta massa."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Na geladeira",
+        "text": "Guarde coberto a 4 °C ou menos por até 2 dias. Retire apenas a quantidade que vai servir."
+      },
+      {
+        "title": "Depois de servir",
+        "text": "Não deixe mais de 2 horas fora da refrigeração."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T14:55:24Z"
+  },
+  "sources": [
+    {
+      "title": "Receiteria — bolo de cafe",
+      "url": "https://www.receiteria.com.br/receita/bolo-de-cafe/",
+      "role": "Nove porções, xícara210ml, café solúvel e chocolate50%; forma22×9 e180°C45min."
+    },
+    {
+      "title": "Health Canada — conservação de sobras",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Refrigeração rápida e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Mantida proporção de seis colheres de solúvel, sem alegar baixo teor de cafeína ou nutrição.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

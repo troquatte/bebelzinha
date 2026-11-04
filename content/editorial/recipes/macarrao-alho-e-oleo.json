@@ -1,0 +1,154 @@
+{
+  "id": "macarrao-alho-e-oleo",
+  "slug": "macarrao-alho-e-oleo",
+  "title": "Macarrão alho e óleo com manteiga e cebolinha",
+  "description": "Macarrão alho e óleo para duas porções, com manteiga e cebolinha. Aprenda a dourar o alho sem queimar e a usar a água da massa na finalização.",
+  "intro": "Tenha os temperos separados antes de escorrer a massa. O alho precisa dourar levemente para manter um sabor agradável.",
+  "categoryIds": [
+    "massas",
+    "pratos-do-dia"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/macarrao-alho-e-oleo.webp",
+    "alt": "Imagem ilustrativa: Espaguete envolvido em alho, azeite e manteiga com cebolinha"
+  },
+  "publishedAt": "2026-11-04T14:31:53Z",
+  "updatedAt": "2026-11-04T14:31:53Z",
+  "seo": {
+    "title": "Macarrão alho e óleo com manteiga e cebolinha | Bebel",
+    "description": "Macarrão alho e óleo para duas porções, com manteiga e cebolinha. Aprenda a dourar o alho sem queimar e a usar a água da massa na finalização."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 2,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Cozinhe a massa pelo tempo da embalagem, além do aquecimento da água e do refogado. Finalize e sirva logo em seguida.",
+    "ingredients": [
+      {
+        "id": "massa",
+        "name": "Espaguete seco",
+        "quantity": 250,
+        "unit": "g"
+      },
+      {
+        "id": "alho",
+        "name": "Alho",
+        "quantity": 2,
+        "unit": "dentes"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "manteiga",
+        "name": "Manteiga",
+        "quantity": 1,
+        "unit": "colher (sopa)"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "pimenta",
+        "name": "Pimenta-do-reino",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "cebolinha",
+        "name": "Cebolinha picada",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "agua",
+        "name": "Água para cozinhar a massa",
+        "quantity": null,
+        "unit": "a gosto",
+        "note": "Reserve um pouco antes de escorrer.",
+        "shopping": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Amasse o alho com uma pitada de sal. Pique a cebolinha."
+      },
+      {
+        "id": "passo-2",
+        "text": "Ferva água numa panela e tempere com sal. Cozinhe o espaguete até ficar al dente, seguindo a embalagem. Reserve um pouco da água antes de escorrer."
+      },
+      {
+        "id": "passo-3",
+        "text": "Em outra panela, aqueça azeite e refogue o alho. Acrescente manteiga e mexa, cuidando para o alho ficar dourado-claro."
+      },
+      {
+        "id": "passo-4",
+        "text": "Junte o espaguete e misture bem. Acrescente água do cozimento aos poucos, apenas se precisar soltar os fios."
+      },
+      {
+        "id": "passo-5",
+        "text": "Ajuste sal e pimenta, termine com cebolinha e sirva imediatamente."
+      }
+    ],
+    "equipment": [
+      "Panela para cozinhar a massa",
+      "Panela larga ou frigideira",
+      "Escorredor, pegador e medidores"
+    ],
+    "tips": [
+      {
+        "title": "Alho no ponto",
+        "text": "Se escurecer demais, fica amargo."
+      },
+      {
+        "title": "Água aos poucos",
+        "text": "Uma pequena quantidade ajuda a envolver os fios; não precisa transformar em caldo."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Guarde em porções",
+        "text": "Refrigere em recipientes rasos em até 2 horas, a 4 °C ou menos. Consuma em até 2 dias."
+      },
+      {
+        "title": "Aqueça só o necessário",
+        "text": "Reaqueça até o centro atingir 74 °C e sirva. Evite aquecer o recipiente inteiro repetidamente."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T14:31:53Z"
+  },
+  "sources": [
+    {
+      "title": "Receiteria — macarrão alho e óleo",
+      "url": "https://www.receiteria.com.br/receita/macarrao-alho-e-oleo/",
+      "role": "250 g de espaguete, duas porções, alho amassado, manteiga e água do cozimento."
+    },
+    {
+      "title": "Health Canada — conservação de sobras",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de alimentos prontos."
+    }
+  ],
+  "editorialNotes": [
+    "Não usar receita de 300 g com rendimento em gramas. Cebolinha da etapa final incluída nos ingredientes. Não copiar a massa com frango do produto pago.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

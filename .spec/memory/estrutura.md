@@ -444,3 +444,35 @@ Build atual passou:190 receitas públicas/192 registros/208 rotas estáticas/210
 Relatório privado090 inclui conclusão da pendência089: https://app.openseo.so/p/d9786bbb-b04d-4eaa-adf8-337b47b3010a/reports/c0dcbe8b-b52b-4fa8-9b1e-cf9519a523b2
 
 Arquivos de cada lote:10JSON content/editorial/recipes/,10MD content/editorial/sources/,10WebP public/images/recipes/,manifesto content/editorial/index.json e catálogo derivado public/content/editorial/recipes.json. Componentes/estilos/página de vendas/checkout não alterados por estes lotes. Sem commit/push/deploy/social, testes unitários novos ou diálogo de impressão. Conclusão local não comprova indexação.
+
+
+# Lote091 — dez receitas — 4 de novembro de 2026
+
+Quibe assado recheado com carne, nozes e tahine; Ratatouille de legumes no forno com molho de tomate; Lentilha ensopada na pressão com cúrcuma e cominho; Macarrão alho e óleo com manteiga e cebolinha; Mousse de morango com fruta e gelatina; Pudim de chocolate assado com calda de caramelo; Bolo de nozes com açúcar mascavo e canela; Bolinho de bacalhau na airfryer com batata e cheiro-verde; Chips de banana verde na airfryer; Enroladinho de salsicha na airfryer com massa de pastel.
+
+Concluído localmente:200 receitas públicas/202 registros com dois rascunhos;17 páginas(16×12+8);219 rotas estáticas e221URLs sitemap. Dez fichas completas com quantidades, rendimentos, utensílios, preparo, dicas, conservação e fontes; dez fotos ilustrativas originais image_gen nativa, WebP nas capas e cards. Sem vídeos correspondentes confirmados e sem iframe vazio. Vídeo do brigadeiro y-SHH_v24OM preservado. Sem teste culinário próprio, avaliações ou nutrição inventadas.
+
+PesquisaOpenSEO BR2076/pt4nov2026: dez métricas novas e dez SERPsdepth10, todas com sucesso. ResultId c48a22c0-0601-4675-be31-4f1e91510a21. quibe assado: 8100/mês KD0 CPCUSD0.04; ratatouille: 165000/mês KD0 CPCUSD0.05; lentilha ensopada: 30/mês KD0 CPCUSDunknown; macarrão alho e óleo: 60500/mês KD2 CPCUSD0.04; mousse de morango: 49500/mês KD23 CPCUSD0.05; pudim de chocolate: 18100/mês KD0 CPCUSD0.23; bolo de nozes: 9900/mês KD0 CPCUSD0.27; bolinho de bacalhau na airfryer: 1000/mês KD0 CPCUSD0.05; chips de banana na airfryer: 720/mês KD0 CPCUSD0.15; enroladinho de salsicha na airfryer: 880/mês KD0 CPCUSDunknown. Todos informacionais no provedor; ratatouille inclui filme/streaming/livros,165000 não representa só receita. Lentilha30 é complementar, sem chamar alto volume; mousseKD23. Volume não é visitas e KD0 não prova facilidade. Créditos/saldo não retornados. Reutilizar dados equivalentes recentes antes de novas consultas. Contexto remoto antigo complementado pela memória local, sem atualizar contexto compartilhado. Nenhuma palavra-chave salva ou tracker criado.
+
+Build/postbuild e validação de entrega aprovados: dez fichas desktop1280/mobile390, fotos carregadas, sem overflow, contagens compras/preparo, persistência após reload; marcações restauradas. Página17 oito cards193–200; busca mousse de morango retorna1/noindex; filtros nowrap/overflowauto. Recipe/Breadcrumb/canonical/sitemap/robots aprovados; listas pessoais e rascunhos excluídos. Sem executar diálogo de impressão ou testes unitários novos para dados. Aviso CommonJS SweetAlert2 preexistente. Utensílios revisados documentalmente/HTML; não foi validada expansão do disclosure nesta revisão, dois seletores de resumo não corresponderam ao DOM e não houve mudança de componente.
+
+Fontes específicas Panelinha/Receiteria/GloboSadia/Nestlé, última pelo índice de busca após403direto. Conservação geral HealthCanada, chips pela referência culinária. Não copiaram-se imagens ou redação das fontes. Report privado: https://app.openseo.so/p/d9786bbb-b04d-4eaa-adf8-337b47b3010a/reports/1da250f1-bc1f-4721-a391-c309b9122d5f
+
+Sem commit/push/deploy/social. Componentes, CSS, checkout e anúncios não alterados.
+
+
+# Lote092 — dez receitas — 4 de novembro de 2026
+
+Caldo de feijão com bacon e páprica defumada; Sopa de legumes com macarrão e mandioquinha; Carne louca de acém com pimentões e molho de tomate; Torta de sardinha de liquidificador com milho e ervilha; Bolo de café solúvel com chocolate em pó; Mousse de abacaxi com fruta cozida e gelatina; Pudim de leite em pó sem leite condensado; Pizza na airfryer com massa caseira e muçarela; Hambúrguer na airfryer com brócolis e molho de gorgonzola; Batata recheada na airfryer com frango e cream cheese.
+
+Concluído localmente:210 receitas públicas/212 registros com dois rascunhos;18 páginas(17×12+6);230 rotas estáticas e232URLs no sitemap. Dez fichas completas com fontes, quantidades, rendimentos, utensílios, preparo, dicas, conservação e fotos ilustrativas originais image_gen WebP. Sem player/vídeo público compatível confirmado; Shorts121/122 sobre hambúrguer e150sobre massa não equivalem a estas receitas; vídeo anterior do brigadeiro preservado. Sem teste próprio, avaliações ou nutrição inventados.
+
+OpenSEO Brasil2076/pt: dez métricas novas e dez SERPsdepth10, todas sucesso; resultId 21a6253f-d8a1-4dc5-b0d0-5ec48e6c91f3. caldo de feijão: 22200/mês KD0 CPCUSD0.26; sopa de legumes: 33100/mês KD0 CPCUSD0.05; carne louca: 27100/mês KD0 CPCUSD0.08; torta de sardinha: 40500/mês KD0 CPCUSD0.02; bolo de café: 14800/mês KD0 CPCUSD0.1; mousse de abacaxi: 12100/mês KD5 CPCUSD0.04; pudim de leite em pó: 33100/mês KD4 CPCUSD0.11; pizza na airfryer: 390/mês KD0 CPCUSD0.15; hambúrguer na airfryer: 2900/mês KD0 CPCUSD0.87; batata recheada na airfryer: 4400/mês KD0 CPCUSD0.38. Nove informacionais, pizza transacional. Demanda não é visitas; KD0 não prova facilidade. Créditos/saldo não retornados. Contexto remoto antigo complementado pela memória local. Reusar pesquisas equivalentes recentes. Nenhuma palavra-chave salva, tracker criado ou contexto compartilhado atualizado.
+
+Fontes integrais Receiteria8, Panelinha1 e Globo/AnaMariaBraga1. Fontes iniciais de hambúrguer e pizza descartadas por rendimento/água divergentes, sem misturar fórmulas. Xícaras200ml(caldo)/210ml(café) explícitas. Abacaxi cozido antes da gelatina; batata e frango já cozidos; parmesão presente no método incluído. Temperatura71°C na carne moída complementada por HealthCanada; sobras74°C/refrigeração até2dias.
+
+Build/postbuild e validar-entrega.mjs aprovados.10/10 desktop1280/mobile390: foto carregada, sem overflow, contagens de compras/preparo e persistência após reload; marcas de teste restauradas. Página18 seis cards205–210; busca mousse de abacaxi1/noindex; filtros nowrap/scrollauto. Recipe/Breadcrumb/canonical/robots/sitemap conferidos. Aviso CommonJS SweetAlert2 preexistente. Diálogo de impressão não executado e sem testes unitários novos para dados.
+
+Relatório privado https://app.openseo.so/p/d9786bbb-b04d-4eaa-adf8-337b47b3010a/reports/cdebf1ee-2bf9-4b0f-aa8e-4e224c9acbe8
+
+Arquivos:10JSON content/editorial/recipes/,10MD content/editorial/sources/,10WebP public/images/recipes/,manifesto e catálogo derivado. Sem componentes/CSS/checkout/anúncios alterados; sem commit/push/deploy/social.

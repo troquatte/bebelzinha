@@ -1,0 +1,130 @@
+{
+  "id": "enroladinho-de-salsicha-na-airfryer",
+  "slug": "enroladinho-de-salsicha-na-airfryer",
+  "title": "Enroladinho de salsicha na airfryer com massa de pastel",
+  "description": "Enroladinho de salsicha na airfryer com massa de pastel. Confira como cortar a salsicha, fechar os discos e assar os petiscos em pequenas levas.",
+  "intro": "A massa é de pastel e não precisa fermentar. Esta versão não leva queijo nem o recheio da outra opção de pastel.",
+  "categoryIds": [
+    "airfryer",
+    "lanches"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/enroladinho-de-salsicha-na-airfryer.webp",
+    "alt": "Imagem ilustrativa: Enroladinhos pequenos de massa de pastel dourada com salsicha no centro"
+  },
+  "publishedAt": "2026-11-04T14:31:53Z",
+  "updatedAt": "2026-11-04T14:31:53Z",
+  "seo": {
+    "title": "Enroladinho de salsicha na airfryer com massa de pastel | Bebel",
+    "description": "Enroladinho de salsicha na airfryer com massa de pastel. Confira como cortar a salsicha, fechar os discos e assar os petiscos em pequenas levas."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 12,
+      "unit": "unidade"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Preaqueça a 200 °C por 5 minutos e asse por cerca de 6 minutos por leva. O ponto depende do tamanho e do aparelho.",
+    "ingredients": [
+      {
+        "id": "salsicha",
+        "name": "Salsicha tipo hot dog",
+        "quantity": 4,
+        "unit": "unidades",
+        "note": "Prepare conforme as instruções da embalagem antes de montar."
+      },
+      {
+        "id": "massa",
+        "name": "Discos de massa de pastel",
+        "quantity": 12,
+        "unit": "unidades"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite para pincelar",
+        "quantity": null,
+        "unit": "a gosto"
+      },
+      {
+        "id": "agua",
+        "name": "Água para fechar a massa",
+        "quantity": null,
+        "unit": "a gosto",
+        "shopping": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Prepare as salsichas conforme o rótulo, escorra e seque. Corte cada uma em três partes para obter 12 pedaços."
+      },
+      {
+        "id": "passo-2",
+        "text": "Enrole cada pedaço num disco de massa. Umedeça as bordas com água e aperte para fechar."
+      },
+      {
+        "id": "passo-3",
+        "text": "Preaqueça a airfryer a 200 °C por cerca de 5 minutos, seguindo o manual do aparelho."
+      },
+      {
+        "id": "passo-4",
+        "text": "Pincele os enroladinhos com azeite e acomode em uma camada, sem apertar uns contra os outros."
+      },
+      {
+        "id": "passo-5",
+        "text": "Asse por cerca de 6 minutos a 200 °C, até a massa estar cozida e dourada. Prolongue se necessário e faça novas levas com os restantes."
+      }
+    ],
+    "equipment": [
+      "Airfryer",
+      "Faca e tábua",
+      "Pincel culinário e pinça"
+    ],
+    "tips": [
+      {
+        "title": "Feche as bordas",
+        "text": "A água ajuda a manter a massa enrolada durante o preparo."
+      },
+      {
+        "title": "Tempo por leva",
+        "text": "A cesta não precisa comportar todas as 12 unidades de uma vez."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Guarde em porções",
+        "text": "Refrigere em recipientes rasos em até 2 horas, a 4 °C ou menos. Consuma em até 2 dias."
+      },
+      {
+        "title": "Aqueça só o necessário",
+        "text": "Reaqueça até o centro atingir 74 °C e sirva. Evite aquecer o recipiente inteiro repetidamente."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T14:31:53Z"
+  },
+  "sources": [
+    {
+      "title": "Receitas Globo / Sadia — salgadinhos de salsicha",
+      "url": "https://receitas.globo.com/receitas-sadia/salgadinhos-de-salsicha-na-air-fryer.ghtml",
+      "role": "Seção enroladinho: quatro salsichas em três pedaços, 12 discos, azeite e 200 °C por seis minutos após preaquecer."
+    },
+    {
+      "title": "Health Canada — conservação de sobras",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Resfriamento, refrigeração e reaquecimento de alimentos prontos."
+    }
+  ],
+  "editorialNotes": [
+    "Só seção enroladinho, sem misturar pastel de vinte discos nem maionese verde. Rendimento derivado exato4×3=12unidades, diferente das quatro pessoas do conjunto. Preparação do embutido conforme rótulo.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

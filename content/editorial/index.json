@@ -1182,6 +1182,126 @@
       "slug": "tiras-de-frango-na-airfryer",
       "status": "published",
       "file": "recipes/tiras-de-frango-na-airfryer.json"
+    },
+    {
+      "id": "quibe-assado",
+      "slug": "quibe-assado",
+      "status": "published",
+      "file": "recipes/quibe-assado.json"
+    },
+    {
+      "id": "ratatouille",
+      "slug": "ratatouille",
+      "status": "published",
+      "file": "recipes/ratatouille.json"
+    },
+    {
+      "id": "lentilha-ensopada",
+      "slug": "lentilha-ensopada",
+      "status": "published",
+      "file": "recipes/lentilha-ensopada.json"
+    },
+    {
+      "id": "macarrao-alho-e-oleo",
+      "slug": "macarrao-alho-e-oleo",
+      "status": "published",
+      "file": "recipes/macarrao-alho-e-oleo.json"
+    },
+    {
+      "id": "mousse-de-morango",
+      "slug": "mousse-de-morango",
+      "status": "published",
+      "file": "recipes/mousse-de-morango.json"
+    },
+    {
+      "id": "pudim-de-chocolate",
+      "slug": "pudim-de-chocolate",
+      "status": "published",
+      "file": "recipes/pudim-de-chocolate.json"
+    },
+    {
+      "id": "bolo-de-nozes",
+      "slug": "bolo-de-nozes",
+      "status": "published",
+      "file": "recipes/bolo-de-nozes.json"
+    },
+    {
+      "id": "bolinho-de-bacalhau-na-airfryer",
+      "slug": "bolinho-de-bacalhau-na-airfryer",
+      "status": "published",
+      "file": "recipes/bolinho-de-bacalhau-na-airfryer.json"
+    },
+    {
+      "id": "chips-de-banana-na-airfryer",
+      "slug": "chips-de-banana-na-airfryer",
+      "status": "published",
+      "file": "recipes/chips-de-banana-na-airfryer.json"
+    },
+    {
+      "id": "enroladinho-de-salsicha-na-airfryer",
+      "slug": "enroladinho-de-salsicha-na-airfryer",
+      "status": "published",
+      "file": "recipes/enroladinho-de-salsicha-na-airfryer.json"
+    },
+    {
+      "id": "caldo-de-feijao",
+      "slug": "caldo-de-feijao",
+      "status": "published",
+      "file": "recipes/caldo-de-feijao.json"
+    },
+    {
+      "id": "sopa-de-legumes",
+      "slug": "sopa-de-legumes",
+      "status": "published",
+      "file": "recipes/sopa-de-legumes.json"
+    },
+    {
+      "id": "carne-louca",
+      "slug": "carne-louca",
+      "status": "published",
+      "file": "recipes/carne-louca.json"
+    },
+    {
+      "id": "torta-de-sardinha",
+      "slug": "torta-de-sardinha",
+      "status": "published",
+      "file": "recipes/torta-de-sardinha.json"
+    },
+    {
+      "id": "bolo-de-cafe",
+      "slug": "bolo-de-cafe",
+      "status": "published",
+      "file": "recipes/bolo-de-cafe.json"
+    },
+    {
+      "id": "mousse-de-abacaxi",
+      "slug": "mousse-de-abacaxi",
+      "status": "published",
+      "file": "recipes/mousse-de-abacaxi.json"
+    },
+    {
+      "id": "pudim-de-leite-em-po",
+      "slug": "pudim-de-leite-em-po",
+      "status": "published",
+      "file": "recipes/pudim-de-leite-em-po.json"
+    },
+    {
+      "id": "pizza-na-airfryer",
+      "slug": "pizza-na-airfryer",
+      "status": "published",
+      "file": "recipes/pizza-na-airfryer.json"
+    },
+    {
+      "id": "hamburguer-na-airfryer",
+      "slug": "hamburguer-na-airfryer",
+      "status": "published",
+      "file": "recipes/hamburguer-na-airfryer.json"
+    },
+    {
+      "id": "batata-recheada-na-airfryer",
+      "slug": "batata-recheada-na-airfryer",
+      "status": "published",
+      "file": "recipes/batata-recheada-na-airfryer.json"
     }
   ]
 }

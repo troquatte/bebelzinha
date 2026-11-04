@@ -1,0 +1,156 @@
+{
+  "id": "carne-louca",
+  "slug": "carne-louca",
+  "title": "Carne louca de acém com pimentões e molho de tomate",
+  "description": "Carne louca de acém desfiado com pimentões e molho de tomate. Confira o cozimento na pressão e a redução do molho para usar em refeições ou recheios.",
+  "intro": "Reserve o caldo depois de cozinhar a carne. Ele volta à panela com o molho, que precisa apurar.",
+  "categoryIds": [
+    "pratos-do-dia",
+    "lanches"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/carne-louca.webp",
+    "alt": "Imagem ilustrativa: Carne louca de acém com pimentões e molho de tomate em apresentação caseira"
+  },
+  "publishedAt": "2026-11-04T14:55:24Z",
+  "updatedAt": "2026-11-04T14:55:24Z",
+  "seo": {
+    "title": "Carne louca de acém com pimentões e molho de tomate | Bebel",
+    "description": "Carne louca de acém desfiado com pimentões e molho de tomate. Confira o cozimento na pressão e a redução do molho para usar em refeições ou recheios."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 7,
+      "unit": "porção"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "Cerca de 40 a 50 minutos sob pressão, mais aquecimento, saída completa do vapor, desfiado e redução do molho.",
+    "ingredients": [
+      {
+        "id": "carne",
+        "name": "Miolo de acém",
+        "quantity": 1,
+        "unit": "kg"
+      },
+      {
+        "id": "caldo",
+        "name": "Caldo de carne preparado",
+        "quantity": 1.5,
+        "unit": "litro",
+        "note": "Use caldo já pronto conforme o rótulo ou de sua preferência."
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": 2,
+        "unit": "colheres (sopa)"
+      },
+      {
+        "id": "cebola",
+        "name": "Cebola grande",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "alho",
+        "name": "Alho",
+        "quantity": 1,
+        "unit": "dente"
+      },
+      {
+        "id": "vermelho",
+        "name": "Pimentão vermelho",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "verde",
+        "name": "Pimentão verde",
+        "quantity": 1,
+        "unit": "unidade"
+      },
+      {
+        "id": "molho",
+        "name": "Molho de tomate pronto",
+        "quantity": 2,
+        "unit": "latas",
+        "note": "Use o conteúdo das latas; o peso varia conforme a embalagem."
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Coloque acém e caldo na panela de pressão, respeitando o limite de enchimento. Tempere com cuidado e cozinhe por 40 a 50 minutos após pegar pressão, até amaciar."
+      },
+      {
+        "id": "passo-2",
+        "text": "Desligue, espere toda a pressão sair e abra. Reserve o caldo e desfie a carne."
+      },
+      {
+        "id": "passo-3",
+        "text": "Refogue cebola picada no azeite. Junte alho, deixe dourar e acrescente os pimentões em tiras e a carne."
+      },
+      {
+        "id": "passo-4",
+        "text": "Adicione molho de tomate e caldo reservado. Cozinhe sem pressa, mexendo, até os pimentões amaciarem e o molho reduzir. Ajuste sal e sirva."
+      }
+    ],
+    "equipment": [
+      "Panela de pressão de capacidade adequada",
+      "Panela larga para reduzir o molho",
+      "Dois garfos, faca e tábua"
+    ],
+    "tips": [
+      {
+        "title": "Molho para rechear",
+        "text": "Deixe reduzir mais se for usar no pão."
+      },
+      {
+        "title": "Sal com cuidado",
+        "text": "Caldo e molho industrializados podem conter bastante sal."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Guarde em porções",
+        "text": "Refrigere em recipientes rasos em até 2 horas, a 4 °C ou menos. Consuma em até 2 dias."
+      },
+      {
+        "title": "Reaqueça por completo",
+        "text": "Aqueça só o que vai consumir até atingir 74 °C no centro. Caldos e sopas devem ferver, mexendo para distribuir o calor."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T14:55:24Z"
+  },
+  "sources": [
+    {
+      "title": "Receiteria — carne louca",
+      "url": "https://www.receiteria.com.br/receita/carne-louca/",
+      "role": "Rendimento de seis a oito porções, controle base sete; acém, 1,5 litro de caldo e dois pimentões."
+    },
+    {
+      "title": "Health Canada — conservação de sobras",
+      "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/food-safety-tips-leftovers.html",
+      "role": "Refrigeração rápida e reaquecimento de sobras."
+    }
+  ],
+  "editorialNotes": [
+    "Mantidas duas latas sem converter peso não informado. Desfiado distinto dos cubos de carne de panela e picadinho pago.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "id": "chips-de-banana-na-airfryer",
+  "slug": "chips-de-banana-na-airfryer",
+  "title": "Chips de banana verde na airfryer",
+  "description": "Chips de banana verde na airfryer com rodelas finas e cesta untada. Veja o ponto da banana, a temperatura de 160 °C e quando virar as fatias.",
+  "intro": "Use banana-nanica bem verde. Banana madura produz outro resultado, mais doce e macio.",
+  "categoryIds": [
+    "airfryer",
+    "lanches"
+  ],
+  "videoId": null,
+  "image": {
+    "src": "images/recipes/chips-de-banana-na-airfryer.webp",
+    "alt": "Imagem ilustrativa: Chips finos de banana verde dourados em tigela de cerâmica"
+  },
+  "publishedAt": "2026-11-04T14:31:53Z",
+  "updatedAt": "2026-11-04T14:31:53Z",
+  "seo": {
+    "title": "Chips de banana verde na airfryer | Bebel",
+    "description": "Chips de banana verde na airfryer com rodelas finas e cesta untada. Veja o ponto da banana, a temperatura de 160 °C e quando virar as fatias."
+  },
+  "recipe": {
+    "yield": {
+      "servings": 150,
+      "unit": "g"
+    },
+    "times": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": null
+    },
+    "timeNote": "A referência indica 10 minutos iniciais e aproximadamente mais 5 após virar, a 160 °C, por leva. Rendimento aproximado de 150 g.",
+    "ingredients": [
+      {
+        "id": "banana",
+        "name": "Banana-nanica bem verde",
+        "quantity": 3,
+        "unit": "unidades"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite para untar a cesta",
+        "quantity": null,
+        "unit": "a gosto"
+      }
+    ],
+    "steps": [
+      {
+        "id": "passo-1",
+        "text": "Retire as pontas e descasque as bananas verdes. Corte rodelas finas e regulares com faca ou mandolim com protetor, evitando lâminas tão finas que grudem."
+      },
+      {
+        "id": "passo-2",
+        "text": "Pincele uma película de azeite na cesta. Distribua as rodelas em uma camada, deixando espaço entre elas."
+      },
+      {
+        "id": "passo-3",
+        "text": "Ajuste a airfryer para 160 °C e asse por cerca de 10 minutos. Abra e confira a cor."
+      },
+      {
+        "id": "passo-4",
+        "text": "Vire quando começarem a dourar e deixe por aproximadamente mais 5 minutos, acompanhando para não queimar. Repita em levas."
+      },
+      {
+        "id": "passo-5",
+        "text": "Espere esfriar para avaliar a crocância e sirva."
+      }
+    ],
+    "equipment": [
+      "Airfryer",
+      "Faca ou mandolim com protetor",
+      "Pincel culinário e pinça"
+    ],
+    "tips": [
+      {
+        "title": "Banana verde",
+        "text": "A escolha da fruta é essencial para fazer chips, em vez de rodelas caramelizadas."
+      },
+      {
+        "title": "Espessura uniforme",
+        "text": "Fatias muito diferentes ficam prontas em momentos diferentes."
+      }
+    ],
+    "storage": [
+      {
+        "title": "Espere esfriar",
+        "text": "Não feche o pote enquanto houver vapor, que amolece os chips."
+      },
+      {
+        "title": "Pote seco",
+        "text": "Guarde os chips frios em recipiente hermético, em local seco. Prefira preparar para consumo próximo, sem prometer prazo longo de crocância."
+      }
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Codex — revisão documental da formulação, fontes e método",
+    "reviewedAt": "2026-11-04T14:31:53Z"
+  },
+  "sources": [
+    {
+      "title": "Receiteria — chips de banana na airfryer",
+      "url": "https://www.receiteria.com.br/receita/chips-de-banana-na-air-fryer/",
+      "role": "Três bananas-nanicas verdes, rendimento aproximado de 150 g, 160 °C, dez minutos e mais cinco após virar."
+    }
+  ],
+  "editorialNotes": [
+    "Rendimento em gramas mantido, sem inventar porções. Fonte cabeçalho fogo10min mas sequência soma15 por leva; seguida sequência com ponto visual. Não confundir com banana madura assada existente.",
+    "Revisão documental, sem alegar teste próprio. Foto ilustrativa original; sem vídeo público correspondente. Não expor notas de piloto ou não testada na página."
+  ]
+}
